@@ -272,21 +272,21 @@ small scale, dense detail, a thick ruled border; the whole page is one object �
 
 ### 11.1 生平叙述（约 2600 字）
 
-**一、出身与童年（1757–1772）。** William Blake 1757-11-28 生于伦敦 Soho 区 Broad Street（今 Broadwick Street）28 号，家中七个孩子里排行第三（两个早夭）。父亲 James 是针织品商（hosier），母亲 Catherine Wright；家庭属不从国教者（Dissenters）背景，与摩拉维亚派有渊源，但 William 于 12 月 11 日在 St James's Church, Piccadilly 受洗。《圣经》是他终身的第一源头。据他自述与早期传记记录，童年即见幻象：四岁「看见上帝」把头探进窗户而尖叫；八九岁在 Peckham Rye 见到「一棵满是天使的树，明亮的翅膀像星星一样点缀着每根枝条」。他只在普通学校学到读写，10 岁即离校——父母看出他性情倔强，改送他进 Strand 的 Henry Pars 绘画学校；父亲为他购买希腊古物版画供临摹，他由此经由复制品接触 Raphael、Michelangelo、Heemskerck 与 Dürer。课余自读 Ben Jonson、Spenser 与《诗篇》。
+**一、出身与童年（1757–1772）。** William Blake 1757-11-28 生于伦敦 Soho 区 Broad Street（今 Broadwick Street）28 号，家中七个孩子里排行第三（两个早夭）。父亲 James 是针织品商（hosier），母亲 Catherine Wright；家庭属不从国教者（Dissenters）背景，与摩拉维亚派有渊源，但 William 于 12 月 11 日在 St James's Church, Piccadilly 受洗。家境尚可——父亲能为他购买版画与书籍；他只在学校学到读写，10 岁即离校，其余教育由母亲在家完成。《圣经》是他终身的第一源头，也最早激发了他对诗与图像的兴趣。据他自述与早期传记记录，童年即见幻象：四岁「看见上帝」把头探进窗户而尖叫；八九岁在 Peckham Rye 见到「一棵满是天使的树，明亮的翅膀像星星一样点缀着每根枝条」，回家讲述时几乎被父亲当作撒谎责罚、靠母亲解围。十岁起入 Strand 的 Henry Pars 绘画学校；父亲为他购买希腊古物版画供临摹——他由此经由复制品接触 Raphael、Michelangelo、Heemskerck 与 Dürer，而「临摹版画」而非「写生实物」正是他视觉训练的起点。课余自读 Ben Jonson、Spenser 与《诗篇》，少年习作已显诗才（后来结集为《Poetical Sketches》）。
 
-**二、学徒与哥特（1772–1779）。** 1772-08-04，14 岁的 Blake 拜雕版师 James Basire 为师，学费 £52.10、七年期。Basire 的线刻风格在当时已属「老派」（不敌点刻/美柔汀的时髦），但正是这套金匠式的线刻底子塑造了他。学徒两年后，Basire 把他派往威斯敏斯特大教堂临摹哥特陵墓与装饰——他在教堂的漫长下午构成其艺术观：「褪色的明亮与色彩」；哥特作为「活的形体」（living form）。他自称在教堂见幻象：基督与使徒、一队僧侣与祭司，听见吟唱。他还曾把骚扰他的西敏学校学生推下脚手架。1779 年学徒期满，21 岁的他成为职业雕版师。
+**二、学徒与哥特（1772–1779）。** 1772-08-04，14 岁的 Blake 拜雕版师 James Basire 为师，学费 £52.10、七年期。Basire 是古物学会（Society of Antiquaries）的雕版师，其线刻风格在当时已属「老派」（不敌点刻/美柔汀的时髦），但正是这套金匠式的线刻底子塑造了 Blake——也让他日后难以接到时髦的商业活计。学徒两年后，Basire 把他派往威斯敏斯特大教堂临摹哥特陵墓与装饰（一说为化解他与同门 James Parker 的矛盾）。他在教堂的漫长下午构成其艺术观：堂内布满盔甲、彩色蜡像与殡葬像，「褪色的明亮与色彩」是最直接的印象；哥特成为他心中的「活的形体」（living form）。他自称在教堂见幻象：看见基督与使徒、一队僧侣与祭司，听见吟唱。他还曾把骚扰他的西敏学校学生推下脚手架，事后向教堂主管投诉、学童特权被撤销。1779 年学徒期满，21 岁的他成为职业雕版师；多年后他曾把 Basire 列入「艺术对手」名单，又划掉了这个名字。
 
-**三、皇家艺术学院与成家（1779–1784）。** 1779-10-08 入皇家艺术学院。他反叛院长 Reynolds 一系的美学——Reynolds 称「抽象、概括与分类是心智的荣耀」，Blake 在批注里回敬：「概括化就是白痴；具体化是唯一的价值标尺」；他厌恶雷诺兹推崇的 Rubens 式「未完成」，偏爱 Michelangelo 与 Raphael 的古典精确。1780 年 6 月 Gordon Riots 中，他被暴动人群裹挟、出现在冲击 Newgate 监狱的前排（Gilchrist 记录）。在学院他结识 John Flaxman、Thomas Stothard、George Cumberland。1782-08-18 与 Catherine Boucher 结婚——她当时不识字、以 X 签婚约；Blake 教她读写、绘画与刻版，她此后成为他终身的**合作者**：调色、上色、印书（Tate：「诗人与妻子做了一切——写作、设计、印刷、刻版……连墨或颜料都是他们自己做的」）。1783 年《Poetical Sketches》出版；1784 年父亲去世，他与 James Parker 合开印刷店，进入出版商 Joseph Johnson 的激进圈（Paine、Wollstonecraft、Priestley、Fuseli）。
+**三、皇家艺术学院与成家（1779–1784）。** 1779-10-08 入皇家艺术学院（RA Schools），学制六年、学费免但材料自备。他反叛院长 Reynolds 一系的美学——Reynolds 称「抽象、概括与分类是心智的荣耀」，Blake 在批注里回敬：「概括化就是白痴；具体化是唯一的价值标尺」；他厌恶雷诺兹推崇的 Rubens 式「未完成」，偏爱 Michelangelo 与 Raphael 的古典精确，认为雷诺兹的问题在于「自己不实行自己的主张」。1780 年 6 月 Gordon Riots 中，他被暴动人群裹挟、出现在冲击 Newgate 监狱的前排：暴民用铁铲与鹤嘴锄砸开狱门、纵火并释放囚犯（Gilchrist 记录）。在学院他结识 John Flaxman、Thomas Stothard、George Cumberland，几人共享激进观点。1781–82 年，他向 Catherine Boucher 讲述自己求爱被拒的经历，问她「你怜悯我吗？」得到肯定回答后说「那么我爱你」；两人于 1782-08-18 在 Battersea 结婚——她当时不识字、以 X 签婚约，Blake 教她读写、绘画与刻版，她此后成为他终身的**合作者**：调色、上色、印书（Tate：「诗人与妻子做了一切——写作、设计、印刷、刻版……连墨或颜料都是他们自己做的」；她上色的《欧洲》封面是其代表作之一）。1783 年《Poetical Sketches》经友人资助出版；1784 年父亲去世，他与 James Parker 合开印刷店，进入出版商 Joseph Johnson 的激进圈（Paine、Wollstonecraft、Priestley、Fuseli），并为 Wollstonecraft 1791 年的《Original Stories》作插图。
 
-**四、浮雕蚀刻与「辉煌十年」（1787–1795）。** 1787 年，与他同住的弟弟 Robert 病逝（约 24 岁）——Blake 称在幻象中从 Robert 的灵那里学得**浮雕蚀刻**法（Met 口径 1787；通说 1788）。此法让文字与图像同版印出，把「抄写员/插图画家的中世纪分工」反演成：一个人、一块板、一本书。1788 年《All Religions are One》《There Is No Natural Religion》；1789 年《Songs of Innocence》《The Book of Thel》；1790–93 年《The Marriage of Heaven and Hell》（「没有对立就没有进步」「诸神住在人心」）；1791 年为 Wollstonecraft《Original Stories》插图；1793 年《America a Prophecy》《Visions of the Daughters of Albion》《For Children: The Gates of Paradise》，并发布自印书《Prospectus》（10 月 10 日）；1794 年《Europe a Prophecy》《Songs of Innocence and of Experience》《The Book of Urizen》；1795 年十二幅大型彩色版画（Newton、Nebuchadnezzar、Elohim Creating Adam、Pity……）——Met 判语：「无委托、无展览记录，意图不明」，却是他作为视觉艺术家最雄心的一批。1790–1800 年他住 Lambeth 的 13 Hercules Buildings。
+**四、浮雕蚀刻与「辉煌十年」（1787–1795）。** 1787 年，与他同住的弟弟 Robert 病逝（约 24 岁）——Blake 称在幻象中从 Robert 的灵那里学得**浮雕蚀刻**法（Met 口径 1787；通说 1788）。工艺要点：用防酸墨在铜板上**镜像**书写文字、描画图像；蜡围边、注入硝酸蚀去未覆盖部分；保留下来的线**凸起**（原理近木刻），墨球上墨、压印，最后**逐本手工上色**——文字与图像**同版一次印出**，把「抄写员/插图画家的中世纪分工」反演成：一个人、一块板、一本书。他自调颜料（亚麻籽油 + 八种粉末），自己印刷、装订。1788 年《All Religions are One》《There Is No Natural Religion》；1789 年《Songs of Innocence》《The Book of Thel》；1790–93 年《The Marriage of Heaven and Hell》——以「地狱箴言」反写斯威登堡的天堂/地狱框架，写下「没有对立就没有进步」「诸神住在人心」；1793 年《America a Prophecy》《Visions of the Daughters of Albion》《For Children: The Gates of Paradise》，并发布自印书《Prospectus》（10 月 10 日），以「作者兼印刷者」身份直销——销量惨淡；1794 年《Europe a Prophecy》《Songs of Innocence and of Experience》《The Book of Urizen》——「天真」与「经验」被设计为「人类灵魂的两种对立状态」，成对诗、成对图像；1795 年十二幅大型彩色版画（Newton、Nebuchadnezzar、Elohim Creating Adam、Pity……）——Met 判语：「无委托、无展览记录，意图不明」，却是他作为视觉艺术家最雄心的一批。政治上，他曾对法美革命怀抱热望（据传戴过弗里吉亚帽），又对恐怖统治失望——Erdman 的名著《Blake: Prophet Against Empire》即梳理此线。1799 年起，公务员 Thomas Butts 成为他最重要的赞助人——十年间委托约 50 幅蛋彩与 80 余幅水彩圣经插图。1790–1800 年他住 Lambeth 的 13 Hercules Buildings。
 
-**五、费尔珀姆、审判与回归（1797–1804）。** 1797 年起撰写《Vala, or The Four Zoas》（未完成）。1800 年 9 月，他携妻迁往 Sussex 的 Felpham 村为诗人 William Hayley 工作——初期充满期待（致 Flaxman 信：「费尔珀姆是治学的好地方，因为它比伦敦更属灵」），随后厌憎 Hayley 的「事务性琐碎」（「the meer drudgery of business」）。1803 年 8 月，他因驱赶驻军士兵 John Schofield 出花园而卷入冲突——Schofield 指控他说过「该死的国王，士兵都是奴隶」；他被控暴行与煽动言论，10 月在 Chichester 开庭；1804 年 1 月无罪开释（报纸称证据「捏造得如此明显」）。这段经历进入《耶路撒冷》：Schofield 以「Skofeld」之姿坠入地狱火、身缠「mind-forg'd manacles」（Tate）。
+**五、费尔珀姆、审判与回归（1797–1804）。** 1797 年起撰写《Vala, or The Four Zoas》（未完成）。1800 年 9 月，他携妻迁往 Sussex 的 Felpham 村为诗人 William Hayley 工作——初期充满期待（致 Flaxman 信：「费尔珀姆是治学的好地方，因为它比伦敦更属灵」；他在此开始《Milton》），随后厌憎 Hayley 的「事务性琐碎」（「the meer drudgery of business」），并在信中写下「肉体的朋友是灵魂的敌人」（Corporeal Friends are Spiritual Enemies）。1803 年 8 月，他因驱赶驻军士兵 John Schofield 出花园而卷入冲突——Schofield 指控他说过「该死的国王，士兵都是奴隶」；他被控暴行与煽动言论，10 月在 Chichester 开庭；1804 年 1 月无罪开释（报纸称证据「捏造得如此明显」，Schofield 的可信度当场瓦解）。这段经历进入《耶路撒冷》：Schofield 以「Skofeld」之姿坠入地狱火、身缠「mind-forg'd manacles」（Tate）。1804 年他返回伦敦，住 17 South Molton Street。
 
-**六、晚期大作与但丁（1804–1827）。** 1804 年返回伦敦（17 South Molton Street），开始《Milton》（扉页 1804）与《Jerusalem》（1804–20，100 版、4500 余行，仅存 5 本、唯一全彩本在 YCBA）。1809 年 5 月，他在弟弟位于 Broad Street 的店里自办展览、出版《Descriptive Catalogue》（含「铁丝般边界线」的金科玉律与对 Chaucer 的分析）；展览几乎无人到场、未售出一件，《Examiner》的唯一评论满怀敌意。1818 年经 Cumberland 之子结识 John Linnell——晚年最重要的支持者；经他，Blake 认识 Samuel Palmer 与「古人派」；1821 年起为 Linnell 制作《约伯记》插图（1821–26 水彩 + 1826 雕版，被 Ruskin 高度评价）；1824 年接下但丁《神曲》插图委托——至逝世时留下少量水彩与 7 幅雕版试印。1827-04-12 写下最后一封存世书信（致 Cumberland：「我已非常接近死亡之门……但在灵与生命中，在**永远活着的想象**中，我越来越强」）；8 月 12 日逝世——临终前为哭泣的妻子画下最后一幅肖像（已佚），说「你对我来说始终是天使」，随后唱起他在天堂所见之事。8 月 17 日葬于 Bunhill Fields。Catherine 于 1831 年 10 月去世。
+**六、晚期大作与但丁（1804–1827）。** 回伦敦后他开始《Milton》（扉页 1804）与《Jerusalem》（1804–20，100 版、4500 余行，仅存 5 本、唯一全彩本在 YCBA），后者耗时近二十年、是他「最宏大的作品」。1809 年 5 月，他在弟弟位于 Broad Street 的店里自办展览、出版《Descriptive Catalogue》（含「铁丝般边界线」的金科玉律与对 Chaucer 的分析）；展览几乎无人到场、未售出一件，《Examiner》的唯一评论满怀敌意。此前他与画商 Cromek 因《坎特伯雷朝圣者》版画反目（Cromek 转手把活交给他的朋友 Stothard），从此与 Stothard 断交——这些纠纷也写进了他的笔记与「公共演说」。此后他渐趋孤独，靠 Butts 与少数朋友（Cumberland、Flaxman——后期关系亦疏远）支撑。1818 年经 Cumberland 之子结识 John Linnell——晚年最重要的支持者；经他，Blake 认识 Samuel Palmer 与「古人派」（Shoreham Ancients），这批年轻人崇拜他并记录下他的言行。1821 年起为 Linnell 制作《约伯记》插图（1821–26 水彩 + 1826 雕版，被 Ruskin 高度评价、后由 Vaughan Williams 改编为芭蕾）；1824 年接下但丁《神曲》插图委托——至逝世时留下少量水彩（被评「他水彩造诣的最高峰之一」）与 7 幅雕版试印。1827-04-12 写下最后一封存世书信（致 Cumberland：「我已非常接近死亡之门……但在灵与生命中，在**永远活着的想象**中，我越来越强」）；8 月 12 日逝世——临终前为哭泣的妻子画下最后一幅肖像（已佚），说「你对我来说始终是天使，留下吧凯特，就保持这样」，随后唱起他在天堂所见之事；目击者说：「我见证的不是一个人的死，而是一位蒙福天使的死。」8 月 17 日葬于 Bunhill Fields，送葬者有 Catherine、Calvert、Richmond、Tatham 与 Linnell。Catherine 于 1831 年 10 月去世，生前一直「征求布莱克先生意见」后才做交易。
 
-**七、身后（1827–今）。** 生前默默无闻（《天真与经验》售出不足 30 份；曾被同代人视为「疯子」——华兹华斯：「这个可怜人无疑是疯了；但他的疯癫里有比拜伦勋爵与沃尔特·司各特的清醒更让我感兴趣的东西」）。1863 年 Gilchrist《Life of William Blake》出版，拉斐尔前派与 Swinburne 将其推入公共视野；1893 年叶芝编全集；20 世纪 Frye、Damon、Keynes、Erdman 等学者重建其地位；其对想象、自由与「体系」的坚持，影响从超现实主义到垮掉派、从 Britten 到 Philip Pullman。2019 年 Tate Britain 大型回顾展**首次系统呈现 Catherine 的角色**。
+**七、身后（1827–今）。** 生前默默无闻（《天真与经验》售出不足 30 份；曾被同代人视为「疯子」——华兹华斯：「这个可怜人无疑是疯了；但他的疯癫里有比拜伦勋爵与沃尔特·司各特的清醒更让我感兴趣的东西」；直到 1911 年版《大英百科全书》仍在讨论「他是否疯癫」）。1863 年 Gilchrist《Life of William Blake》出版，拉斐尔前派与 Swinburne 将其推入公共视野，Rossetti 称其为「光辉的星辰」；1893 年叶芝编全集；20 世纪 Frye、Damon、Keynes、Erdman 等学者重建其地位（Frye：其预言书是「按价值计英语中最少被阅读的诗体」）。其对想象、自由与「体系」的坚持，影响从超现实主义（Nash、Sutherland）到垮掉派（Ginsberg）、从 Huxley 到 Philip Pullman，从作曲家（Britten、Vaughan Williams、Tavener）到流行乐（Dylan）；1949 年澳大利亚设「Blake 宗教艺术奖」；1957 年威斯敏斯特大教堂为他与妻子立纪念石；2018 年 8 月 12 日，其确切墓址在失考多年后重立墓碑：「Here lies William Blake 1757–1827 Poet Artist Prophet」。2019 年 Tate Britain 大型回顾展**首次系统呈现 Catherine 的角色**。
 
-### 11.2 年份表（31 行）
+### 11.2 年份表（32 行）
 
 | 年份 | 事件 | 来源 |
 |---|---|---|
@@ -423,7 +423,7 @@ small scale, dense detail, a thick ruled border; the whole page is one object �
 
 ```
 === blake.md 结构检查（2026-10-16；eval/Python；无落盘）===
-总行数 438 / 字节 71781
+总行数 476 / 字节 74084
 §1 指纹: 10 | §2 规则: 10 | §3 原则: 8
 §4 参数: 6 | §5: 10 | §7: 10 | §8.2: 8
 §11.1 CJK 字数: 2147
@@ -432,7 +432,7 @@ small scale, dense detail, a thick ruled border; the whole page is one object �
 URL 总数/去重: 28 / 18
 分工条款密度: 蒙克×16 丢勒×22 写死×9 图文一体×20 浮雕蚀刻×31
 corpus: 条目 28（≥15 ✓）
-arch_4: OK 1231 chars | head: | # | 参数 | 弱（20–30%）…
+arch_4: OK 1217 chars | head: | # | 参数 | 弱（20–30%）…
 arch_81: OK 2445 chars | head: **正向段（可直接粘贴）** ``` Blake-style visionary…
 arch_82: OK 940 chars | head: 1. **轮廓线规则**：≥3 个主要形体，各 ≥80% 边界…
 images: 18 张（≥6 ✓）
