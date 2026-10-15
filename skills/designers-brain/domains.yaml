@@ -6,9 +6,9 @@ domains:
     name: 画家模块
     status: active              # active | incubating | planned
     cards: knowledge/domains/painters/modules/
-    count: 42                   # 计数规则：cards 目录 *.md − README.md
+    count: 62                   # 计数规则：cards 目录 *.md − README.md
     index: knowledge/domains/painters/modules/README.md
-    sources: knowledge/domains/painters/dossiers/                  # 档案正本（42 份已入卡）
+    sources: knowledge/domains/painters/dossiers/                  # 档案正本（62 份已入卡）
     conflicts: knowledge/cross/conflicts.md  # C-01–C-18 + N1–N9
     outputs: [image-prompt, web-animation, blender]
     intensity: card-§4          # 弱/中/强 + §8.1b

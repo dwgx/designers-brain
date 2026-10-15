@@ -1,10 +1,10 @@
 # 画家模块库 · artist_modules
 
-> **A-19 · A-50** ｜ 42 张可组合模块卡：从 42 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
+> **A-19 · A-50** ｜ 62 张可组合模块卡：从 62 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
 > 口径：**只搬运与浓缩，不改档案**；卡内 §8.1 英文正向/负向、§8.2 代码艺术规则、§4 控制参数均为**原样转录（含 `[归纳]` 等标注）**。
 > 组合与冲突处置**以 `knowledge/cross/conflicts.md` 为正本**（18 条 C 冲突 + N1–N9 组合规则 + 8 对 near-miss）。
 
-## 模块清单（42 张）
+## 模块清单（62 张）
 
 | 卡 | 画家 | 能力定位 | 相关冲突（conflicts.md） |
 |---|---|---|---|
@@ -50,8 +50,28 @@
 | [namatjira.md](namatjira.md) | 纳马吉拉 | 干旱大陆光色 / 水彩分层 / 地点肖像 | 分工 vs 康斯泰勃尔 / 透纳 · 对照 vs 恩格瓦雷 · C-01 · C-05 · C-09 |
 | [el_salahi.md](el_salahi.md) | 萨拉希 | 书法现代主义 / 字母骨架 / 土色抽象 | 分工 vs 康定斯基 / 贝赫扎德 · 注记 vs 吴冠中 · C-15 · C-16 · C-17 |
 | [wu_guanzhong.md](wu_guanzhong.md) | 吴冠中 | 水墨抽象收束 / 银灰点线面 / 风筝不断线 | 分工 vs 康定斯基 / 八大山人 / 黄公望 · C-17 |
+| [fan_kuan.md](fan_kuan.md) | 范宽 | 巨碑式山水 / 雨点皴密点 / 浓墨湿笔 | 分工 vs 黄公望 / 北斋 / 塞尚 |
+| [sesshu.md](sesshu.md) | 雪舟 | 日本水墨 / 破墨山水 / 刚健斧劈轮廓 | 分工 vs 八大山人 / 徐渭 / 北斋 · C-07 · C-12 · C-16 · C-17 |
+| [constable.md](constable.md) | 康斯泰勃尔 | 云的研究 / 天空主音 / 固定地点忠实观察 | 分工 vs 透纳 / 莫奈 / 弗里德里希 · C-01 · C-05 · C-09 · C-12 |
+| [poussin.md](poussin.md) | 普桑 | 古典构图 / 舞台式清晰 / 几何骨架 | 分工 vs 达·芬奇 / 米开朗基罗 / 弗里德里希 · C-01 · C-09 · C-12 · C-14 |
+| [bruegel.md](bruegel.md) | 老勃鲁盖尔 | 全景叙事 / 季节组画 / 人群调度 | 分工 vs 北斋 / 米开朗基罗 / 博斯 · C-01 · C-09 · C-12 · C-16 · C-17 |
+| [el_greco.md](el_greco.md) | 埃尔·格列柯 | 拉长变形 / 火舌状笔触 / 精神张力 | 分工 vs 蒙克 / 毕加索 · C-01 · C-05 · C-09 · C-12 |
+| [holbein.md](holbein.md) | 荷尔拜因 | 肖像精准 / 物证级细节 / 变形透视 | 分工 vs 丢勒 / 伦勃朗 · C-01 · C-05 · C-12 |
+| [aivazovsky.md](aivazovsky.md) | 艾瓦佐夫斯基 | 海与浪 / 月光海 / 透明浪体 | 分工 vs 透纳 / 北斋 / 弗里德里希 · C-05 · C-09 · C-12 · C-13 |
+| [okeeffe.md](okeeffe.md) | 欧姬芙 | 微距放大 / 抽象简化 / 单主体出框 | 分工 vs 马蒂斯 / 莫奈 · C-01 · C-05 · C-06 · C-14 |
+| [rivera.md](rivera.md) | 里维拉 | 公共壁画叙事 / 群像编排 / 历史全景 | 分工 vs 米开朗基罗 / 戈雅 / 卡罗 · C-01 · C-02 · C-12 · C-18 |
+| [zhao_mengfu.md](zhao_mengfu.md) | 赵孟頫 | 书画同源 / 以书入画 / 古意复古 | 分工 vs 北斋 / 丢勒 / 陈洪绶（预写） |
+| [ni_zan.md](ni_zan.md) | 倪瓒 | 极简山水 / 一河两岸 / 空亭折带皴 | 分工 vs 马蒂斯 / 八大山人 / 塞尚 |
+| [qiu_ying.md](qiu_ying.md) | 仇英 | 工笔重彩 / 青绿山水 / 精密界画 | 分工 vs 克里姆特 / 北斋 / 若冲 · C-07 |
+| [ogata_korin.md](ogata_korin.md) | 尾形光琳 | 琳派装饰 / 金箔屏风 / 大和绘色彩 | 分工 vs 克里姆特 / 马蒂斯 · C-15 · C-16 · C-17 |
+| [blake.md](blake.md) | 布莱克 | 幻视图像体系 / 自创神话 / 浮雕蚀刻图文一体 | 分工 vs 蒙克 / 丢勒 · C-07 · C-12 · C-14 · C-16 |
+| [chardin.md](chardin.md) | 夏尔丹 | 静物触感 / 材质反光 / 谦卑日常 | 分工 vs 维米尔 / 塞尚 · C-01 · C-05 · C-11 · C-12 · C-13 |
+| [manet.md](manet.md) | 马奈 | 平面化现代性 / 取消中间调 / 直接画法 | 分工 vs 萨金特 / 马蒂斯 · C-03 · C-05 · C-12 |
+| [sorolla.md](sorolla.md) | 索罗拉 | 强阳光 / 正午高照度 / 白上加白 | 分工 vs 莫奈 / 佐恩 · C-05 · C-09 · C-12 |
+| [zorn.md](zorn.md) | 佐恩 | 有限色板 / 佐恩四色 / 水彩与蚀刻精准 | 分工 vs 萨金特 / 德加 / 索罗拉 · C-03 · C-04 · C-05 · C-08 · C-09 · C-12 |
+| [sultan_mohammed.md](sultan_mohammed.md) | 苏丹·穆罕默德 | 萨法维细密画 / 色彩奢华 / 动势 | 分工 vs 贝赫扎德 / 克里姆特 · C-07 · C-15 · C-16 · C-17 |
 
-> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。wave15/17/18 新 22 卡（慕夏—吴冠中）的分工条款出自各档案 §3.1；C 条与 near-miss 预检以 `conflicts.md` 为正本。
+> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。wave15/17/18 新 22 卡（慕夏—吴冠中）与 wave19/20 新 20 卡（范宽—苏丹·穆罕默德）的分工条款出自各档案 §3.1；C 条与 near-miss 预检以 `conflicts.md` 为正本。
 
 ## 组合规则速查
 
@@ -96,8 +116,8 @@
 ## 维护 / 复跑
 
 - 卡片由 `_extract.py` 生成（只读档案、只写本目录）：
-  - `python _extract.py --write` 重建 42 张卡；
-  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=126 ok=126 fail=0`）；
+  - `python _extract.py --write` 重建 62 张卡；
+  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=186 ok=186 fail=0`）；
   - `python _extract.py --diff <id> [--sec 81|82|4] [--full]` 查看单卡比对详情（含 sha256 与原样全文）。
 - §8.1b 为 E-02 派生补充（非档案内容；E-03 起可含 v2 修订与「v1 审计存档」子节，如 michelangelo）：`--check` 在 §8.1b 处截断后比对 §8.1（不参与逐字校验）；`--write` 重建时原样保留卡内现有 §8.1b 节。
 - 档案更新 → 重跑 `--write` + `--check`；`conflicts.md` 更新（C 条被推翻 / 新增）→ 同步各卡「冲突注记」。
