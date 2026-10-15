@@ -258,7 +258,7 @@ An agent skill for Claude Code & Codex
 
 Every motion you see behind this page is a tuned, ready-to-use shot recipe card — your agent picks the shots, animates real product screenshots with Remotion, syncs the beats, and delivers the film.
 
-[Browse all motions](./library.html) [![SVG Image] Star on GitHub ★](https://github.com/Vincentwei1021/video-shotcraft)
+[Browse all motions](https://github.com/Vincentwei1021/video-shotcraft) [![SVG Image] Star on GitHub ★](https://github.com/Vincentwei1021/video-shotcraft)
 
 - **124**recipe cards
 - **150**styles

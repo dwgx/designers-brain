@@ -270,10 +270,10 @@ composition, depth of field, HDR, lens flare, fine detail miniature work
 **C 机械验证**（检查器 = `read`；原样输出）
 - `read https://vangoghletters.org/vg/letters.html:930-959`（尾部编号覆盖到 902 + RM25）：
 ```
-- [900 Theo van Gogh to Vincent van Gogh. Paris, Monday, 14 July 1890.](/vg/letters/let900/letter.html)
-- [901 Theo van Gogh to Vincent van Gogh. Paris, Tuesday, 22 July 1890.](/vg/letters/let901/letter.html)
-- [902 To Theo van Gogh. Auvers-sur-Oise, Wednesday, 23 July 1890.](/vg/letters/let902/letter.html)
-- [RM25 To Theo van Gogh. Auvers-sur-Oise, Wednesday, 23 July 1890.](/vg/letters/RM25/letter.html)
+- [900 Theo van Gogh to Vincent van Gogh. Paris, Monday, 14 July 1890.](https://vangoghletters.org/vg/letters/let900/letter.html)
+- [901 Theo van Gogh to Vincent van Gogh. Paris, Tuesday, 22 July 1890.](https://vangoghletters.org/vg/letters/let901/letter.html)
+- [902 To Theo van Gogh. Auvers-sur-Oise, Wednesday, 23 July 1890.](https://vangoghletters.org/vg/letters/let902/letter.html)
+- [RM25 To Theo van Gogh. Auvers-sur-Oise, Wednesday, 23 July 1890.](https://vangoghletters.org/vg/letters/RM25/letter.html)
 ```
 - `read https://web.archive.org/web/20240101154212id_/https://www.moma.org/collection/works/79802`（题名/尺寸/馆藏号）：
 ```

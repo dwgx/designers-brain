@@ -118,7 +118,7 @@ All my work is based to some extent on Japanese art, and if I've said nothing ab
 检索 `"based to some extent"`（带引号）:
 ```
 ### 1 letter found
-1. [640 To Theo van Gogh. Arles, Sunday, 15 July 1888.](/vg/letters/let640/letter.html)
+1. [640 To Theo van Gogh. Arles, Sunday, 15 July 1888.](https://vangoghletters.org/vg/letters/let640/letter.html)
 ```
 → **CONFIRMED**（逐词读信 640 后：短语确在信内；「仅见于信 640」的检索声明也可复现。**建议升级**：档案现在标 [自述/转引]，可以升为 [自述] 全引文）
 
@@ -208,7 +208,7 @@ Credits (obliged to state): Van Gogh Museum, Amsterdam (Vincent van Gogh Foundat
 原样输出:
 ```
 ### 1 letter found
-1. [777 To Theo van Gogh. Saint-Rémy-de-Provence, between about Friday, 31 May and about Thursday, 6 June 1889.](/vg/letters/let777/letter.html)
+1. [777 To Theo van Gogh. Saint-Rémy-de-Provence, between about Friday, 31 May and about Thursday, 6 June 1889.](https://vangoghletters.org/vg/letters/let777/letter.html)
 ```
 → **CONFIRMED**。附带发现：**不带引号**的 `morning+star` 返回 **290 封**（词组被拆成单词检索）；档案自审未写明「带引号」这一语法细节，建议在 R10 加注，避免复现者误判。
 
