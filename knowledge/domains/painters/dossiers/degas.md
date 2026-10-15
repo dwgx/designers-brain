@@ -23,7 +23,7 @@
   3. *Miss La La at the Cirque Fernando*（费尔南多马戏团的拉拉小姐）1879，伦敦国家美术馆（NG4121）— https://www.nationalgallery.org.uk/paintings/hilaire-germain-edgar-degas-miss-la-la-at-the-cirque-fernando
   4. *Danseuses bleues*（蓝色舞者）约 1890，奥赛博物馆（RF 1951 10）— https://www.musee-orsay.fr/fr/oeuvres/danseuses-bleues-1144
   5. *The Little Fourteen-Year-Old Dancer*（十四岁的小舞者）modeled 1881 / 铸铜 1922，大都会艺术博物馆（29.100.370）— https://www.metmuseum.org/art/collection/search/196439
-- **语料/图库**：`_corpus/degas.md`（22 条，一手转记为主）；`_images/degas/`（13 张，全 PD/CC0，含《舞蹈课》双馆对读 + 《蓝色舞者》+《拉拉小姐》+ 小舞者雕塑 + 浴女粉彩 + 梳头/咖啡桌/家族像/舞台后厅）。
+- **语料/图库**：`_corpus/degas.md`（36 条，一手转记为主）；`_images/degas/`（13 张，全 PD/CC0，含《舞蹈课》双馆对读 + 《蓝色舞者》+《拉拉小姐》+ 小舞者雕塑 + 浴女粉彩 + 梳头/咖啡桌/家族像/舞台后厅）。
 
 ---
 
@@ -112,22 +112,22 @@
 
 ---
 
-## 5. 自述与原话（10 条；完整语料 22 条见 `_corpus/degas.md`）
+## 5. 自述与原话（10 条；完整语料 36 条见 `_corpus/degas.md`）
 
 > 口径：德加无系统写作，以下全部为**转记载体**（Moore / Valéry / Sickert / Jeanniot / Vollard / Shop-Talk / Sérullaz / Terrasse）——引用时保留转记者与年份；法文可得处附法文。**不得把其中任何一条当作「他内心状态」的证据**——一律按「他写下/说出的操作陈述」使用。
 
 1. **「没有比我的艺术更不即兴的了」（对 George Moore，1891）**
    原文：`I assure you no art was ever less spontaneous than mine. What I do is the result of reflection and study of the great masters; of inspiration, spontaneity, temperament — temperament is the word — I know nothing.`
    中译：我向你保证，没有比我的艺术更不即兴的了。我所做的是反思与研究大师的结果；灵感、即兴、气质——气质这个词——我一无所知。
-   出处：George Moore, *Impressions and Opinions* (1891)（转引自 en.wikiquote [R6]）
+   出处：George Moore, *Impressions and Opinions* (1891), Degas 章（转引自 en.wikiquote [R6]；**原书全文已核**，2026-10-16，archive.org `impressionsandop00mooruoft`）
 2. **「你要自然的生命；我要人工的」（对一位风景画家，转记同上）**
    原文（法）：`À vous il faut la vie naturelle, à moi la vie factice.`
    中译：你需要自然的生命；我要的是人工的。
-   出处：同上（[R6]）——**vs 莫奈条款的一手依据**。
+   出处：同上（[R6]；**原书已核**）——**vs 莫奈条款的一手依据**。
 3. **「像透过锁孔看」（裸女系列，对 George Moore，1891）**
    原文：`Hitherto the nude has always been represented in poses which presuppose an audience; but these women of mine are honest, simple folk, unconcerned by any other interests than those involved in their physical condition. Here is another; she is washing her feet. It is as if you looked through a key-hole.`
    中译：此前，裸体总是被画成预设观众的姿势；而我的这些女人是诚实、朴素的人，除了自己身体的事不关心别的。看这一个，她在洗脚——就像你透过锁孔看。
-   出处：同上（[R6]）；NGL 另注：「He might well have said 'through a lens' rather than a keyhole.」（[R10]）
+   出处：同上（[R6]；**原书已核**，含前句 `La bête humaine qui s'occupe d'elle-même; une chatte qui se lèche`）；NGL 另注：「He might well have said 'through a lens' rather than a keyhole.」（[R10]）
 4. **「画记忆中的」（对 Pierre-Georges Jeanniot，1883）**
    原文：`It is all well and good to copy what one sees, but it is much better to draw only what remains in one's memory. This is a transformation in which imagination and memory collaborate.`
    法文（Sérullaz 版）：`C'est très bien de copier ce qu'on voit, c'est beaucoup mieux de dessiner ce que l'on ne voit plus que dans son mémoire. … Vous ne reproduisez que ce qui vous a frappé, c'est-à-dire le nécessaire.`
@@ -283,6 +283,7 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 | R14 | Wikimedia Commons — 图库 13 张文件页（逐张 imageinfo 核验；许可与 URL 见 `_images/degas/MANIFEST.md`） | 逐张见 MANIFEST | ✅ API 直连（下载期有限流，见 §10） |
 | R15 | Anthea Callen, *Techniques of the Impressionists* (1982), p. 166（转引自 [R6]：peinture à l'essence 与劳特累克） | （书；转引页 https://en.wikiquote.org/wiki/Edgar_Degas） | ◐ 未直读书（经 [R6] 转引） |
 | R16 | Google Arts & Culture / 各馆图像服务（仅作图像源核对，未作正文依据） | — | ◐ 未逐条直读 |
+| R17 | fr.wikipedia —《Septième exposition impressionniste》（第七届印象派展；德加因拉法埃利被逐而拒绝参展） | https://fr.wikipedia.org/wiki/Septi%C3%A8me_exposition_impressionniste | ✅ 直读 200 |
 
 **交叉核对（≥2 条关键事实，双源）**：见 §7 末表（5 条 CONFIRMED）。
 
@@ -290,13 +291,13 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 
 ## 10. 缺口与待验证
 
-1. **法文原文回查程度**：§5/语料中法文原文仅 5 条可得（Moore 转记法、Sérullaz 摘录、Terrasse 转记）；《Degas Letters》（Guérin 编 1945 / Kay 译 1947）与 Reff《Notebooks》（1976）**原书未读**——现有条目全部为二手转引（载体已逐条标注）。待办：如需法文逐字核验，需回查两书纸本。
+1. **原文核验程度（2026-10-16 更新）**：Moore 1891（§5 #1/#2/#3 与语料 #35/#36）与 Vollard 1927/37（语料 #15/#20/#21）**已对照原书全文逐字核验**（Internet Archive）；**仍待核**：Sérullaz《L'univers de Degas》、Jeanniot《Souvenirs sur Degas》、Gammell《Shop-Talk》、Valéry《Degas Danse Dessin》、Terrasse《Degas》、《Degas Letters》（Guérin 1945）——原书未读，现有条目为二手转引（载体已逐条标注）。待办：如需法文逐字核验，需回查上列纸本。
 2. **Met Heilbrunn 随笔**：`metmuseum.org/toah/hd/dega/hd_dega.htm` 现 404（站点改版）；Wayback 反爬（bot flag）——**未直读**（已查: 直连 404、Wayback 拒访、站内无替代 slug）。以 Met 对象页（[R5][R12]）替代其功能。
 3. **奥赛站反脚本**：`musee-orsay.fr` 对 curl 返回 Cloudflare 挑战——本档案全部奥赛内容经**真实浏览器**路径取得（已存档 `_scratch/degas/orsay_*.txt`）；后续复现需浏览器路径。
 4. **Wikimedia 限流**：图像下载期遭遇 429（API 与 upload 双限）——《梳头》一张经重试后取得；**额外的全尺寸研究副本**（Miss La La 4226px / La Classe de danse 5300px / The Star 5315px 等）待限流解除后补入 `_private/images_hi_res/degas/`（已入 5 件 Met 高清副本）。
 5. **量化阈值为归纳、未实测**：§4 六参数档位与 §8.2 八条规则阈值均未对原作做像素测量（分母＝假想参考帧）；组合实验可按 §8.2 自查表回改。
 6. **德雷福斯事件与反犹立场**：以 [R3] 转述为主（「broke off relations with all of his Jewish friends…refused to use models…」）；Halévy 回忆录（*My Friend Degas*, 1964）未读——引用时保持 [史料] 级、不做心理归因。
-7. **卒因与晚年细节**：enwiki 记「nearly blind, restlessly wandering the streets of Paris」；**确切的医学卒因未逐源核实**（已查: [R3] 无医学表述）。写作以「1917-09-27 卒于巴黎」为准。
+7. **卒因与晚年细节**：enwiki 记「nearly blind, restlessly wandering the streets of Paris」；frwiki（[R14]）记卒因为**脑动脉瘤**、卒所 6 boulevard de Clichy——一手档案未核（已查: [R3] 无医学表述；[R14] 为转引口径）。写作以「1917-09-27 卒于巴黎」为硬事实，卒因标 `[史料-待一手核]`。
 8. **《小舞者》原件（蜡质）现状**：1881 年原蜡像（真发+布裙）现藏**华盛顿国家美术馆**（NGA, 1999.80.28）；Met 藏为 1922 年铸铜版——两处口径已在 §0/§12 分开标注；原蜡像的保护史未展开。
 9. **系列/变体数量口径**：芭蕾相关作品总量（油彩/粉彩/素描合计）**未找到权威单一数字**（已查: NGL「over half of his oeuvre」；Wikipedia 无总表）——不写入硬数字。
 10. **图库计数**：公开侧 13 张（含 1 张 CC BY-SA 4.0、其余 PD/CC0）；`_private/INVENTORY_degas.md` 记研究副本与受阻项（按 `_private/README.md` 纪律，不公开路径）。
@@ -319,7 +320,7 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 
 **五、粉彩、摄影与晚年（1887–1912）。** 1880 年代起，粉彩成为德加的主力媒介——干性媒介的多层排线与叠加，让「线」与「表现性色彩」在他手里和解；同一时期他开始把「重复」制度化：同一姿态、同一房间、同一机位反复重画。`[史料]`（[R3][R1]）1890 年代他又迷上**摄影**：以灯光长时间曝光拍摄朋友、舞者与裸女（如《雷诺阿与马拉美》双人像），照片被用作绘画的参考；据 Met 的图录，1895 年秋一位画家朋友写道「这些天德加完全献身于他对摄影的新热情」。`[史料]`（[R3][R13]）他的视力从 1890 年后进一步恶化——他在暗色玻璃、近距离与画室工作之间挣扎；1907 年底他仍在画粉彩，1910 年仍在做雕塑。`[史料]`（[R3]）政治与社会面上，德雷福斯事件（1894–1906）让他反犹的一面公开化：他成为「反德雷福斯派」，与所有犹太朋友断交（包括长期好友 Halévy 一家），并拒绝使用他疑为犹太人的模特——他至死没有改变这一立场。`[史料]`（[R3]）他终身未婚。1912 年，他居住多年的 rue Victor Massé 住宅面临拆除，他被迫搬到 boulevard de Clichy——此后**基本停止工作**；晚年的他几近失明，在巴黎街头无目的地游荡。`[史料]`（[R3]）
 
-**六、逝世与身后（1917–）。** 1917 年 9 月 27 日，德加在巴黎（第 18 区）去世，享年 83 岁；葬于蒙马特公墓家族墓。`[史料]`（[R3][R14]）身后清理画室时发现约 150 件蜡质雕塑（许多已损坏）——1918 年工作室遗作展、1918–19 年三场工作室拍卖（首场 1918 年 5 月 6–8 日，Galerie Georges Petit）把它们推向市场；青铜铸造商 Hébrard 判定其中 74 件可以铸铜，1919–1936 年间完成（铸坊 1937 年关闭）；《十四岁的小舞者》的青铜版自 1922 年起铸造（Met 藏版即铸于 1922）。`[史料]`（[R3][R12]）他的画作、粉彩、素描与雕塑如今遍布各大博物馆；近年的重要研究展包括《德加：素描与速写本》（摩根图书馆，2010）、《毕加索看德加》（巴塞罗那，2010）、《德加与裸体》（波士顿，2011）、《德加的方法》（新嘉士伯，2013）、《德加的小舞者》（华盛顿国家美术馆，2014）、《德加：对完美的激情》（菲茨威廉，2017–18）以及《马奈/德加》（奥赛 2023 年 3–7 月，其后巡展至 Met）——「画家中的舞者」与「照片式裁剪的发明者」两种加冕并行。`[史料]`（[R3][R15]）
+**六、逝世与身后（1917–）。** 1917 年 9 月 27 日，德加在巴黎第 18 区 boulevard de Clichy 6 号的寓所去世，享年 83 岁——法文维基（转引档案）记为**脑动脉瘤**，他死时「被自己的收藏环绕」（[R14]；医学卒因一手档案未核，见 §10）；葬于蒙马特公墓家族墓（第四区）。`[史料]`（[R3][R14]）据其遗愿，葬礼不设演说——他对福兰（Forain）说：「不要演说。不！福兰，你来一篇，你就说：**他爱素描**。」`[史料]`（[R14]）他唯一的正式学生是好友亨利·鲁阿尔之子欧内斯特·鲁阿尔（Ernest Rouart）；诗人保罗·瓦雷里是晚年密友，身后写下《德加·舞蹈·素描》——本档案大量转记的源头之一。`[史料]`（[R14][R6]）他去世时留下约 500 件绘画与素描、5000 余件版画的私人收藏——像「一个想象中的博物馆」。`[史料]`（[R14]）身后清理画室时发现约 150 件蜡质雕塑（许多已损坏）——1918 年工作室遗作展、1918–19 年三场工作室拍卖（首场 1918 年 5 月 6–8 日，Galerie Georges Petit）把它们推向市场；青铜铸造商 Hébrard 判定其中 74 件可以铸铜，1919–1936 年间完成（铸坊 1937 年关闭）；《十四岁的小舞者》的青铜版自 1922 年起铸造（Met 藏版即铸于 1922）。`[史料]`（[R3][R12]）他的画作、粉彩、素描与雕塑如今遍布各大博物馆；近年的重要研究展包括《德加：素描与速写本》（摩根图书馆，2010）、《毕加索看德加》（巴塞罗那，2010）、《德加与裸体》（波士顿，2011）、《德加的方法》（新嘉士伯，2013）、《德加的小舞者》（华盛顿国家美术馆，2014）、《德加：对完美的激情》（菲茨威廉，2017–18）以及《马奈/德加》（奥赛 2023 年 3–7 月，其后巡展至 Met）——「画家中的舞者」与「照片式裁剪的发明者」两种加冕并行。`[史料]`（[R3][R15]）
 
 ### 11.2 年份表（38 行）
 
@@ -349,7 +350,7 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 | 1879 | 第四届印象派展：《拉拉小姐》第 62 号（留在画室至 1904 年） | [R2] |
 | 1880 | 第五届印象派展；《Le Jour et La Nuit》版画刊物（与卡萨特；同年夭折） | [R3] |
 | 1881 | 第六届印象派展：生前唯一公开展出的雕塑《十四岁的小舞者》（蜡质+真发+布裙） | [R3][R12] |
-| 1882 | **缺席第七届印象派展**（八届中唯一缺席） | [R3][R14] |
+| 1882 | **缺席第七届印象派展**（八届中唯一缺席；因好友拉法埃利被逐出参展名单而拒绝参展） | [R3][R17] |
 | 1886 | 第八届（最后一届）印象派展：「裸女组画」被攻击；一件赠卡萨特 | [R12][R3] |
 | 1887–91 | 与劳特累克为邻（后者的技法与题材深受其影响） | [R11] |
 | 1890 | 《蓝色舞者》时期；视力开始进一步恶化 | [R8][R3] |
@@ -359,7 +360,7 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 | 1907 | 年底仍在画粉彩（现存最后的粉彩工作记录） | [R3] |
 | 1910 | 仍做雕塑（约最后一批） | [R3] |
 | 1912 | rue Victor Massé 住宅拆除→迁 boulevard de Clichy；基本停止工作 | [R3] |
-| 1917 | 9 月 27 日卒于巴黎；葬蒙马特公墓 | [R3][R14] |
+| 1917 | 9 月 27 日卒于巴黎第 18 区寓所（frwiki：脑动脉瘤）；葬蒙马特公墓家族墓 | [R3][R14] |
 | 1918 | 工作室遗作展；首场工作室拍卖（5 月 6–8 日，Galerie Georges Petit）；发现约 150 件蜡雕 | [R3][R8] |
 | 1919–36 | Hébrard 铸坊铸铜 74 件（含 1922 年起铸造的《小舞者》青铜版） | [R3][R12] |
 | 2023 | 《马奈/德加》展（奥赛 3–7 月 → Met 2023–24） | [R15] |
@@ -367,7 +368,7 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 ### 11.3 来源（14 条，2026-10-16 本机复核）
 
 - [R1] NGL 艺术家页 ✅ ・ [R2] NGL《Miss La La》专页 ✅ ・ [R9] NGL《Ballet Dancers》两版 ✅ ・ [R10] NGL《After the Bath》✅ ・ [R11] NGL《Beach Scene》/《Ukrainian Dancers》/《Combing the Hair》/《Peasant Girls》✅
-- [R3] Wikipedia《Edgar Degas》✅（三手，交叉用）・ [R14] fr.wikipedia《Edgar Degas》✅（「七届中参与七届/八届」口径＋生卒地）
+- [R3] Wikipedia《Edgar Degas》✅（三手，交叉用）・ [R14] fr.wikipedia《Edgar Degas》✅（「七届中参与七届/八届」口径＋生卒地＋卒因/葬礼/学生）・ [R17] fr.wikipedia《Septième exposition impressionniste》✅（1882 缺席原因）
 - [R4] 奥赛《La Classe de danse》✅ ・ [R7] 奥赛艺术家档案页 ✅ ・ [R8] 奥赛作品页群（Dans un café / Danseuses bleues / Portrait de famille / Le Foyer / Ballet）✅（浏览器路径）
 - [R5] Met《The Dance Class》✅ ・ [R12] Met 对象页群（436123/436139/436127/196439）＋ Open Access API ✅ ・ [R13] Met 图录《Edgar Degas: Photographer》(1998) ✅（PDF 已入私有层）
 - [R6] en.wikiquote《Edgar Degas》✅（转引载体：Moore 1891 / Valéry 1935 / Vollard 1927 / Sickert 1911/1914 / Jeanniot 1933 / Halévy 1960 / Gammell 1961 / Sérullaz 1979 / Terrasse 1982 / Bailey 2009）
@@ -434,4 +435,69 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 
 ---
 
-<!-- DEGAS-NEXT -->
+## 自审四段（LOOP 协议 §3.4）
+
+### A. 早产出
+
+本轮为「先骨架、后成稿 + 逐节落盘」：开工先读规格与格式基准（`program/README.md`、`roster.md`、`monet.md`/`seurat.md` 分工接口、`munch.md` v2 样板、语料/图库格式），随后建立中间产物目录 `knowledge/domains/painters/_scratch/degas/`（NGL/奥赛/Met/Wikipedia/Wikiquote 抓取文本 30+ 件、Commons API 记录、下载日志）。**档案骨架（§0–§4）先落盘**（24.4 KB），随后按「研究一段、追加一段」补齐 §5–§7、§8–§10、§11/§12，最后写自审。语料文件先行完整落盘（36 条，含原书核验补录）；图库 13 张 + MANIFEST 随后落盘（含限流绕行记录）；私有层（2 本书 + 10 件高清副本）与 `_private/INVENTORY_degas.md` 收尾。四处落盘全部完成：① 本档案；② `_corpus/degas.md`；③ `_images/degas/`（13 张 + MANIFEST）；④ `_private/INVENTORY_degas.md`（+ `_private/books/`、`_private/images_hi_res/degas/`）。
+
+### B. 反驳（挑最强结论逐条试推翻）
+
+| # | 结论 | 反驳动作（跑过什么） | 判定 |
+|---|---|---|---|
+| 1 | 「德加八届印象派展参与七届，唯一缺席 1882 年第七届（因好友拉法埃利被逐而拒展）」 | ① fr.wikipedia《Septième exposition impressionniste》直读：「En réaction à l'expulsion de son ami, Degas refuse de participer à la nouvelle édition.」；② en.wikipedia「he showed his work in all but one of them」；③ fr.wikipedia「il participe à sept d'entre elles sur huit」 | **CONFIRMED**（三源独立） |
+| 2 | 「Moore 1891 三条引文（less spontaneous / vie factice / keyhole）逐字」 | 原书全文核验（Internet Archive `impressionsandop00mooruoft`）：三处均定位到原文（含 OCR 校准），并新增补录 2 条 | **CONFIRMED**（原书级） |
+| 3 | 「Vollard 三条引文（dancing girls / found my style / flannel vest）逐字」 | 原书全文核验（Internet Archive `degaspor00voll`）：三处均定位到原文 | **CONFIRMED**（原书级） |
+| 4 | 「vs 莫奈/修拉 两条款与两模块已落盘参数不冲突（分离轴成立）」 | 复读 `monet.md` §4（P3 大气包络强档「≤60%…边界外=透纳领域」；P6 系列变奏幅度=工作流参数）与 `seurat.md` §3/§4（「去瞬时、取恒常」；点径 2–5 px 等）——本档案两条款均按「选主导轴 70/30」处置、未发明与对方冲突的量化项 | **CONFIRMED**（接口对齐；无「双标准」） |
+| 5 | 「图库 13 张全部 PD/开放许可、内容无错件」 | ① Commons/Met API `imageinfo` 逐张核验（13/13）；② 13 格 contact sheet 目检（13/13 与标题相符，含《拉拉小姐》悬吊、《梳头》火焰红、Met/奥赛两版《舞蹈课》对读） | **CONFIRMED**（1 张 CC BY-SA 4.0 已逐条标注） |
+| 6 | 「§4/§8.1/§8.2 可被 `_extract.py` 契约机械抽取（与 11 卡同构）」 | 以 `_extract.py` 的三个抽取函数直测本档案（见 C 段输出） | **CONFIRMED**（§8.1=2315 / §8.2=1443 / §4=1201 chars） |
+
+> 被削弱/待验证项（已在正文就地标注，不冒充结论）：§4/§8.2 全部阈值为 `[归纳]`、未对原作做像素测量（§10-5）；法文转记的五个载体（Sérullaz/Jeanniot/Gammell/Valéry/Terrasse）仍为二手转引（§10-1）；卒因「脑动脉瘤」为 frwiki 转引口径（§10-7）。
+
+### C. 机械验证（原样粘贴）
+
+检查器：`wc` / `grep` / `ls` 计数命令 + `_extract.py` 抽取函数直测（2026-10-16 执行；命令均在 `knowledge/domains/painters/dossiers/` 下运行）。
+
+**① 四处落盘计数**
+```
+$ wc -l degas.md _corpus/degas.md          → 438 degas.md / 296 _corpus/degas.md（自审段追加后为 458 / 296）
+$ grep -c '^### ' _corpus/degas.md         → 36（语料 ≥15 ✓；含原书核验补录 2 条）
+$ ls _images/degas/*.jpg | wc -l           → 13（图库 ≥6 ✓；含 MANIFEST.md 共 14 文件）
+$ ls _private/images_hi_res/degas/ | wc -l → 10（高清副本）+ _private/books/ 2 件 + INVENTORY_degas.md
+```
+
+**② 抽取契约直测（`_extract.py` 函数，原样输出）**
+```
+§8.1: 2315 | §8.2: 1443 | §4: 1201 | neg-seg: True
+（= §8.1 含正向段+负向段；§8.2 八条规则全文；§4 六参数三档表全文——与 11 卡同构，可直接生成模块卡）
+```
+
+**③ 结构/规格核对**
+```
+$ grep -n '^## ' degas.md                  → §0–§12 全节在列（§11/§12 位于 §10 与自审之间）
+$ grep -n "vs 莫奈\|vs 修拉\|分工条款" degas.md → §3.1 两条款 + §1/§5 互引（≥3 处命中）
+§11.1 叙述 CJK 字符数 → 2237（≥2000 ✓）｜ 年份表 38 行（≥15 ✓）｜ §11.3 来源 17 条（≥10 ✓）
+```
+
+**④ 原书核验留痕（Internet Archive 全文定位）**
+```
+moore_1891.txt 行 10964: "of inspiration, spontaneity, temperament —"
+moore_1891.txt 行 11130: "key-hole.'"
+moore_1891.txt: "faut la vie naturelle, a moi la vie factice/"
+vollard.txt 行 2859-2860: "People call me the painter of dancing girls..."
+vollard.txt 行 2267: "Well, I'm glad I haven't found my style yet."
+vollard.txt 行 1389: "I spread my flannel vest on the floor of the studio..."
+```
+
+### D. 小结（≤14 行）
+
+- **已确立（四处落盘）**：① 本档案（v2 全规格：§0–§12 + 自审）；② `_corpus/degas.md`（36 条）；③ `_images/degas/`（13 张 PD/开放许可 + MANIFEST）；④ `_private/INVENTORY_degas.md`（+ 2 本书 + 10 件高清副本）。
+- **已确立**：分工条款两处写死——vs 莫奈（光源/轮廓/序列/空间四轴）、vs 修拉（色混合/瞬间/方法/舞台四轴），附可判读判据与 70/30 组合纪律；另附米开朗基罗（G11 定义句）与 roster 互引（歌麿/佐恩）。
+- **已确立**：§11 生平 2237 字 + 38 行年表 + 17 条来源；§12 临摹清单 10 件（各「看/学/练」）；抽取契约直测 PASS（§8.1/§8.2/§4 全文可抽取）。
+- **已确立**：原书级核验 7 条引文（Moore 1891 / Vollard 1927）并补录 2 条新引文；图库 13/13 许可与内容双检。
+- **被削弱（已就地标注）**：量化阈值未实测（§10-5）；五个转记载体仍二手（§10-1）；卒因待一手核（§10-7）。
+- **未知**：Met Heilbrunn 随笔（404/Wayback 拒访）；奥赛站 curl 受阻（浏览器路径已存档）；Commons 限流致 2 件高清副本待补（D-13/D-14）。
+- **下一步**：① 主脑验收后并入索引（语料 INDEX / 图库 manifest 由主脑合并）；② 模块卡（ModuleCards20 时把 degas 加入 `_extract.py` ARTISTS 生成卡片）；③ 组合预检与莫奈/修拉做 70/30 对照实验（按 §3.1 判据）。
+- **我仍赌错的是什么**：§4 六参数与 §8.2 八条规则的数值档位是按馆方文字与目测归纳的**未实测参数**（分母＝假想参考帧）；「七届/八届」的缺席年份以 frwiki 专条为准，如一手档案（展览目录）日后被核出不同口径，§11.2 该行应改。
+
+

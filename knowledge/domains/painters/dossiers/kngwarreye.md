@@ -408,4 +408,74 @@ AGSA 艺术家页与 Radical Textiles 资源（[R1][R2]）；NMA 展览页年表
 
 ---
 
-<!-- PART4 -->
+## 自审四段（LOOP 协议 §3.4）
+
+### A. 早产出
+
+开工后先做四路抓源（Wikipedia 基线 → 馆方站直读 → Wayback 补反爬页 → 真实浏览器补 Cloudflare 页），约 40 分钟先落盘 §0–§7 骨架（本档案 Part 1），随后逐节充实 §8–§9、§10–§12；图像于中途批量落盘（14 张）；语料、MANIFEST、INVENTORY 依次落盘；全部大块产物**每节写盘**，无只存内存的中间产物。检索期多处受限（NGA 主域 403、AGSA 站内搜索空、QAGOMA Cloudflare、Wayback replay 429、web_search 全 provider 限流）——即时切换路径（Wayback 快照 / 浏览器 / 媒体子域直取）而非记作内容缺口；"搜索失败"≠"内容缺口"。
+
+### B. 反驳（挑 5 条最强结论试推翻）
+
+| # | 准备写进档案的结论 | 反驳方法 | 判决 |
+|---|---|---|---|
+| B1 | 「作品全部受版权（澳 life+70）」 | 复核馆方权利行 ×3（AGSA/AGNSW/Tate：`© Estate…/Copyright Agency`、DACS）+ 澳 2005 起 life+70 时点（1996+70=2066） | **CONFIRMED** → "公开侧零图"口径成立 |
+| B2 | 「Wikipedia：'1993 年入选威尼斯双年展'」 | 对 ACCA 档案页 + NGA 特稿 + NMA 年表：展出年为 **1997** 三源一致；1993 入选未获佐证 | **WEAKENED** → 不采用 1993 说法；改记"1997 展出（入选年份未核）"（§10-2） |
+| B3 | 「'约 3,000 幅'是宣传口径」 | 五源交叉（NGA/NMA/AGSA/Tate/Delmore 均记 3,000+，措辞 "estimated"） | **CONFIRMED（估计值）** → 已注明口径（§10-5） |
+| B4 | 「卒日 09-02 vs 09-03 需二选一」 | 逐源核对：AGSA/NGV/NMA/Delmore=09-02；AGNSW/Wikipedia=09-03 | **CONFIRMED（变体保留）** → 并列记录（§0/§10-1） |
+| B5 | 「'点内套点'是媒体修辞」 | 复核 Hodges 原话（Guardian 2018）+ Tate Etc 51 机制描述（"dots within dots"） | **CONFIRMED（机制）** → 写入 §1-2、§5-18 |
+
+### C. 机械验证（原始输出，2026-10-16 本机）
+
+**① 抽取契约（直接运行 `_extract.py` 的 `arch_4/arch_81/arch_82` 于本档案）：**
+
+```
+file lines: 411 | §4: 1212c | §8.1: 1838c | §8.2: 812c | rows 8/8
+§8.1 has --no: True | cut at 中文使用说明 ok: True
+```
+
+**② 语料计数（18 条；类型分布）：**
+
+```
+entries: 18 | types: {'self-spoken': 9, 'process record': 4, 'third-party': 3, 'reported speech': 2}
+file size: 13,587 B
+```
+
+**③ 私有图库（14 张；抽 3 张 sha256）：**
+
+```
+14 jpg
+3ba47b818d49d9bc  nga_emu_woman_1988-89.jpg
+71de597ada69ce5a  ngv_big_yam_dreaming_1995.jpg
+e57b145071aefe60  agsa_awelye_ii_1994.jpg
+```
+
+**④ 公开侧无版权图（扫描；输出为空即通过）：**
+
+```
+find knowledge -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.tif" -o -iname "*.tiff" \) | grep -i "kngwarr"
+[scan done — 无输出]
+```
+
+**⑤ 私有层忽略（双保险命中）：**
+
+```
+git check-ignore _private/images_hi_res/kngwarreye/MANIFEST.md _private/INVENTORY_kngwarreye.md
+→ 2/2 命中（_private/ 忽略）
+```
+
+**⑥ 回归（模块卡校验不受影响）：**
+
+```
+python knowledge/domains/painters/modules/_extract.py --check
+→ checks=60 ok=60 fail=0   # 20 卡 × §8.1/§8.2/§4 逐字比对
+```
+
+### D. 小结（≤14 行）
+
+- **已确立**：12 指纹 / 11 技法 / 9 原则（含与修拉**写死分工**）/ 6 参数（三档）/ §5 原话 10 条 / 影响链 / 8 条深度分析 / §8.1+§8.2（8 规则，含文化合规项）/ 41 条参考 / **§11（2,574 字叙述 + 33 行年表 + 15 来源）** / **§12 临摹清单 10 件**；语料 18 条；私有图库 14 张 + MANIFEST + INVENTORY。
+- **已确立（接口）**：与修拉分工口径**写死**（§3；可实测判据：P2 尺度方差 + P6 语义锚点）＋ §8.1 越界警报 ＋ §8.2-8 文化合规项。
+- **已弱化/修正**：威尼斯"1993 入选"说（不采用）；生卒日期变体（并列保留）；"3,000 幅"（估计值口径）。
+- **已推翻**：无（本档案未发现需删除的结论）。
+- **未知**：威尼斯入选公告年份；安葬地；两本图录未逐页；全部量化阈值未实测（分母应为 E 系列全部帧）。
+- **下一步**：主脑验收 → 模块卡抽取（后续批次扩 `_extract.py` ARTISTS）→ E 系列组合实验验证"修拉×恩格瓦雷不得混同"。
+- **交付（四处落盘，已验证）**：① 本档案；② `_corpus/kngwarreye.md`（18 条）；③ `_private/images_hi_res/kngwarreye/`（14 张 + MANIFEST）；④ `_private/INVENTORY_kngwarreye.md`；**公开侧零版权图像**。

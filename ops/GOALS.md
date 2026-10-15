@@ -55,13 +55,13 @@
 | A-41 | done | 加固·丢勒：§11（2426 字 + 25 行年表 + 12 来源）+ §12（10 件）；语料新建 27 条（德文原文+英译+中译）；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/durer.md` | BioDurer（wave14） |
 | A-50 | done | 模块卡扩展 11→**20 张**（9 新画家入 ARTISTS + 生成 + README/domains.yaml 同步）；验收：`--check` **60/60** · skill `_selfcheck` PASS（domains 20/20）· 旧 11 卡零改动（sha256 全等）· `--write` 幂等 | `knowledge/domains/painters/modules/` | ModuleCards20（wave16） |
 | A-51 | done | 索引合并（wave16 口径 20 位）：`_corpus/INDEX.md` 20 行/455 条 · `_images/manifest.md` 20 位（公开 104 张 + 私有例外 32 张）· `_index.md` 20 行；全表核验 PASS（重复 0、过时 21+ 处全修、缺失 26 处全补）；wave15/17 位次随各自收口另并 | `knowledge/domains/painters/dossiers/` | IndexMerge（wave16） |
-| A-52 | running | wave17·弗里德里希（Friedrich）v2 全规格 | `knowledge/domains/painters/dossiers/friedrich.md` | ArtistFriedrich（wave17） |
+| A-52 | done | wave17·弗里德里希：491 行 v2 档案（§11 2242 字 + 43 行 + 14 来源；§12 10 件）+ 语料 31 条 + 图库 12 张全 PD + 私有 6 件；分工 vs 透纳/康斯泰勃尔写死（各 4 判据）；引文 19/19 | `knowledge/domains/painters/dossiers/friedrich.md` | ArtistFriedrich（wave17） |
 | A-53 | running | wave17·列宾（Repin）v2 | `knowledge/domains/painters/dossiers/repin.md` | ArtistRepin（wave17） |
 | A-54 | done | wave17·拉维·瓦尔马：481 行 v2 档案（§11 2057 字 + 32 行 + 25 来源；§12 10 件）+ 语料 30 条 + 图库 17 张全 PD + 私有论文 2 件；分工 vs 欧洲学院派/谢尔吉尔写死（§3.7/§3.8）；系统首个印度大师 | `knowledge/domains/painters/dossiers/ravi_varma.md` | ArtistRaviVarma（wave17） |
 | A-55 | running | wave17·德加（Degas）v2 | `knowledge/domains/painters/dossiers/degas.md` | ArtistDegas（wave17） |
 | A-56 | running | wave17·高更（Gauguin）v2 | `knowledge/domains/painters/dossiers/gauguin.md` | ArtistGauguin（wave17） |
 | A-57 | running | wave17·凡·艾克（Van Eyck）v2 | `knowledge/domains/painters/dossiers/van_eyck.md` | ArtistVanEyck（wave17） |
-| A-58 | running | wave17·恩格瓦雷（Kngwarreye）v2（版权图入 `_private/`；原住民伦理） | `knowledge/domains/painters/dossiers/kngwarreye.md` | ArtistKngwarreye（wave17） |
+| A-58 | done | wave17·恩格瓦雷：481 行 v2 档案（§11 2574 字 + 33 行 + 15 来源；§12 10 件）+ 语料 18 条 + 14 张图**全在 `_private/`**（公开侧零图；原住民伦理护栏 + ICIP 参考）；分工 vs 修拉写死（符号/大地 vs 光学混合） | `knowledge/domains/painters/dossiers/kngwarreye.md` | ArtistKngwarreye（wave17） |
 | A-59 | running | 加固pass2·透纳：新增 §11（叙述≥2000 字+年表≥15+来源≥10）+ §12（5–10 件） | `knowledge/domains/painters/dossiers/turner.md` | HardTurner（wave16p2） |
 | A-60 | running | 加固pass2·伦勃朗：新增 §11+§12 | `knowledge/domains/painters/dossiers/rembrandt.md` | HardRembrandt（wave16p2） |
 | A-61 | running | 加固pass2·克里姆特：新增 §11+§12 | `knowledge/domains/painters/dossiers/klimt.md` | HardKlimt（wave16p2） |

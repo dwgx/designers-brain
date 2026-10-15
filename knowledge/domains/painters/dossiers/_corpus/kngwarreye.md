@@ -145,7 +145,7 @@
 
 ## 缺口与待验证
 
-- 本文件 18 条中：[self-spoken] 10 条（全部为 Anmatyerre 语/简易英语的**已刊英译**，转写/译者随条：Gooch+Petyarre / Jenny Green / Tate 导览组 / Green 2007）；[process record] 4 条；[reported speech] 2 条；[third-party] 2 条。
+- 本文件 18 条中：[self-spoken] 9 条（全部为 Anmatyerre 语/简易英语的**已刊英译**，转写/译者随条：Gooch+Petyarre / Jenny Green / Tate 导览组 / Green 2007）；[process record] 4 条；[reported speech] 2 条；[third-party] 3 条。
 - **未收**：任何涉"仅入仪式者可懂"的表述；无法定位逐字记录的市场评论（条目 16 为转述）；未回核原刊的转引（条目 10、14 已在条内标注）。
 - 未穷尽：她的录音大量存于社群与档案馆（NGA 2023 图录"life and legacy"一节基于 1980–90 年代录音），本语料未逐条转录；后续可随 NGA/家族公开材料补编（补编时遵守"公开出版 + 转写者 + 社群同意状态"三核）。
 - 待验证：条目 2 与条目 1 用词差异是否为不同译者所致（未核）；条目 10 省略号处原文（未核原书）。

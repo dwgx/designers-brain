@@ -181,4 +181,4 @@
 
 ---
 
-> 合计 20 条：[inscription] 11 · [contemporary record] 5 · [reported speech] 2 · [研究] 3。采集日期 2026-10-16；各来源本机可达性见档案 §9。
+> 合计 20 条：[inscription] 11 · [contemporary record] 4 · [reported speech] 2 · [研究] 3。采集日期 2026-10-16；各来源本机可达性见档案 §9。

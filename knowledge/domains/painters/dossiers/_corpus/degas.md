@@ -4,7 +4,8 @@
 > 类型标注：[self-written] 本人书写（书信/笔记）· [reported speech] 他人转记（对话记录）· [contemporary record] 同时代记录/评述 · [research] 后出研究。
 > 底本：**en.wikiquote《Edgar Degas》**（每条注明其转引载体：George Moore 1891 / Paul Valéry 1935 / Ambroise Vollard 1927 / Walter Sickert 1911·1914 / Georges Jeanniot 1933 / R. H. Ives Gammell 1961 / Maurice Sérullaz 1979 / Antoine Terrasse 1982 / Colin B. Bailey 2009 等）＋ NGL / 奥赛 / Met 馆方页（交叉）。**德加无系统著作**——全部条目均为转记或书信摘录，载体逐条标注。
 > **口径**：本语料只取与**创作与视觉语言**直接相关者；区分「本人书写」与「转记/记录」；转记条目不得当作「内心状态」证据使用。
-> 引用格式建议：`Degas, 转记见 Moore 1891（经 en.wikiquote）`。
+> **原书核验（2026-10-16）**：#1 / #14 / #16 / #36（Moore 1891）与 #15 / #20 / #21（Vollard 1927/37）已经 Internet Archive 全文逐字核验（`impressionsandop00mooruoft` / `degaspor00voll`）；核验中发现的两条新增已补录为 #35 / #36。其余转记条目（Sérullaz / Jeanniot / Gammell / Valéry / Terrasse）仍为二手转引（载体已标注）。
+> 引用格式建议：`Degas, 转记见 Moore 1891（经 en.wikiquote；原书已核）`。
 
 ## 一、创作论：方法、记忆与重复
 
@@ -270,9 +271,26 @@
 - 类型：[research]（后出研究转述）
 - 中文意译：正如古典舞者一遍又一遍重复同一组动作、以求线条与平衡的更完美，德加也一遍遍重复同一母题——这正是他与舞者之间那种深刻同情的一个来源。
 
+## 七、补录（原书核验新增，2026-10-16）
+
+### 35. 「人类动物忙着自己；一只舔自己的猫」（Moore 1891 原书）
+> La bête humaine qui s'occupe d'elle-même; une chatte qui se lèche.
+
+- 来源：George Moore, *Impressions and Opinions* (1891), Degas 章（archive.org: impressionsandop00mooruoft，原书核验）
+- 类型：[reported speech]（Moore 记录，谈其浴女系列）
+- 中文意译：忙着照料自己的「人类动物」；一只舔自己的猫。
+
+### 36. 「很难像老大师们那样伟大」（Moore 1891 原书）
+> It is very difficult to be great as the old masters were great. In the great ages you were great or you did not exist at all, but in these days everything conspires to support the feeble.
+
+- 来源：同上（Moore 1891，原书核验）
+- 类型：[reported speech]
+- 中文意译：要像老大师们那样伟大是很难的。在伟大的时代，你要么伟大，要么根本不存在；而在今天，一切都合谋支撑着平庸。
+
 ## 缺口与验证声明
 
-1. **法文原文覆盖有限**：#4/#6/#8/#11/#14/#18/#19/#24 有法文原文；其余条目（如 #1/#2/#16/#20）仅存英译（Moore/Gammell/Vollard 的英译本）——原书法文版未逐字回查（已查: en.wikiquote 转引链；《Degas Letters》Guérin 1945 未读）。
+1. **原书核验进展（2026-10-16 更新）**：Moore 1891（#1/#14/#16/#35/#36）与 Vollard 1927/37（#15/#20/#21）**已对照原书全文逐字核验**（Internet Archive）；法文原文条目（#4/#6/#8/#11/#14/#18/#19/#24）以 Sérullaz 摘录与 Moore 原书为准；**仍待核**：Sérullaz《L'univers de Degas》、Jeanniot《Souvenirs sur Degas》、Gammell《Shop-Talk》、Valéry《Degas Danse Dessin》、Terrasse《Degas》——原书未读（已查: 本机可及渠道；馆藏/纸本为下一步）。
 2. **载体年代**：转记条目按「记录者+年份」标注；个别条目（如 #9 Jeanniot 1933）的对话实际发生时间早于出版年——正文已注明「转记」。
 3. **不得当内心证据**：全部条目按「他写下/说出的操作陈述」使用；涉及心理的表述（如 #17/#25）只作修辞与立场记录。
 4. **误挂已剔除**：en.wikiquote「Misattributed」节所列「I always suspect an artist who is successful before he is dead」实为 John Murray Gibbon (*Pagan Love*, 1922)——**未收入本语料**。
+5. **OCR 注**：Moore 原书为扫描 OCR（#1 中 "spontaneous" 一处 OCR 呈 "spontaiie-ous"）——引用以语义校准后的通行转录为准，已与 wikiquote 转录互校一致。
