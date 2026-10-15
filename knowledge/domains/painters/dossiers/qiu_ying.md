@@ -404,44 +404,65 @@ A Ming-dynasty Chinese gongbi heavy-colour painting in the qinglu (blue-and-gree
 **① 抽取契约（`_extract.py` 谓词直测于本档案）：**
 
 ```
-（见下方运行输出）
+file lines: 476 | §4: 1185c | §8.1: 2052c | §8.2: 754c
+§8.1 has --no: True | cut at 中文使用说明 ok: True
+§4 rows: 6 | §8.2 rows: 8
 ```
 
 **② 结构计数（§11/§12 验收项）：**
 
 ```
-（见下方运行输出）
+11.1 CJK=2053 | 11.2 rows=20 | 11.3 refs=23 | §12 items=10
+（11.1 按 [\u3400-\u9fff] 计全段；11.3 refs 按去重 [R#] 标注计）
 ```
 
 **③ 语料计数：**
 
 ```
-（见下方运行输出）
+entries: 24 | file size: 16030 B
+tags: 史料×13 / 同代记述×7 / 研究×8 / 转引×2
 ```
 
 **④ 图库（17 张；抽 3 张 sha256 前 16）：**
 
 ```
-（见下方运行输出）
+count: 17
+0066fd387ae43a7c  han_palace_full_scroll.jpg
+3482015c3e252754  taohua_xianjing_tianjin.jpg
+6b8a2075e5a8cad1  met_lady_su_hui.jpg
 ```
 
 **⑤ 回归（模块卡校验不受影响）：**
 
 ```
-python knowledge/domains/painters/modules/_extract.py --check
-（见下方运行输出）
+$ python knowledge/domains/painters/modules/_extract.py --check
+[piero_della_francesca] §8.1 ok (1978c) · §8.2 ok (1358c) · §4 ok (1236c)
+[artemisia_gentileschi] §8.1 ok (1992c) · §8.2 ok (1096c) · §4 ok (1178c)
+[namatjira] §8.1 ok (2218c) · §8.2 ok (880c) · §4 ok (1081c)
+[el_salahi] §8.1 ok (1811c) · §8.2 ok (856c) · §4 ok (1352c)
+[wu_guanzhong] §8.1 ok (1892c) · §8.2 ok (825c) · §4 ok (1243c)
+checks=126 ok=126 fail=0   # 42 卡 × §8.1/§8.2/§4 逐字比对
+（tail 截取；全表 42 卡逐条 ok，本档案的抽取在模块卡生成前不受影响）
 ```
 
 **⑥ git 状态（仅本写路径新增/修改）：**
 
 ```
-（见下方运行输出）
+# 验证时（主脑 sweep 前，grep 本写路径）：
+?? knowledge/domains/painters/dossiers/qiu_ying.md    ← 仅此 1 行；_private 零出现
+（仓库全局在飞 11 行）
+# 主脑 sweep 后复查：
+$ git status --short                     → （空）
+$ git diff HEAD -- dossiers/qiu_ying.md  → （空；含最新 §11 扩写已入库）
 ```
 
 **⑦ 私有层忽略（双保险命中）：**
 
 ```
-（见下方运行输出）
+.gitignore:32:_private/  _private/images_hi_res/qiu_ying/han_palace_001038_full_6000.jpg
+.gitignore:32:_private/  _private/papers/qiu_ying/liu_fangru_2014_npm379.pdf
+.gitignore:32:_private/  _private/INVENTORY_qiu_ying.md
+→ 3/3 命中（check-ignore exit 0）
 ```
 
 ### D. 小结（≤14 行）
@@ -452,4 +473,4 @@ python knowledge/domains/painters/modules/_extract.py --check
 - **已推翻**：无（本档案未删旧结论；天津馆页 1561 判笔误不采用）。
 - **未知**：生卒精确年份；两本《汉宫春晓》关系；辽博本年代链；日本摹本清单逐件核；全部量化阈值未实测（分母应为 E 系列全部帧）。
 - **下一步**：主脑验收 → 模块卡抽取（后续批次扩 `_extract.py` ARTISTS）→ E 系列组合实验验证「克里姆特×仇英」「北斋×仇英」分档。
-- **交付（四处落盘，已验证）**：① 本档案；② `_corpus/qiu_ying.md`（24 条）；③ `_images/qiu_ying/`（17 张 PD/开放许可 + MANIFEST）；④ `_private/INVENTORY_qiu_ying.md`（+ 19 张高清研究副本 + 4 件论文 PDF）。
+- **交付（四处落盘，已验证）**：① 本档案；② `_corpus/qiu_ying.md`（24 条）；③ `_images/qiu_ying/`（17 张 PD/开放许可 + MANIFEST）；④ `_private/INVENTORY_qiu_ying.md`（+ 23 张高清研究副本 + 4 件论文 PDF）。
