@@ -21,7 +21,7 @@
   2. **《自画像（少年书吏）》**——1555–56，洛杉矶，洛杉矶郡艺术博物馆（LACMA）M.90.141.1（Bequest of Edwin Binney, 3rd）。`[史料]`（[R15][R19]）https://collections.lacma.org/node/224717
   3. **《学堂场景》**——约 1540，大不里士；华盛顿，弗里尔美术馆 S1986.221（**签名**）。`[史料]`（[R16][R19]）https://asia.si.edu/object/S1986.221/
   4. **《城中夜》（+《游牧营地》对页）**——约 1540，塔布里兹；剑桥（MA），哈佛艺术博物馆 1958.76 / 1958.75（原 Louis Cartier 旧藏）。`[史料]`（[R13][R20]）https://harvardartmuseums.org/collections/object/303390
-  5. **《五卷诗》f.157v《老妇牵玛杰农至莱拉营帐》**——1539–43，伦敦，大英图书馆 Or. 2265（BL 馆档列其名下）。`[史料]`（[R18][R25]）https://searcharchives.bl.uk/catalog/032-001608356
+  5. **《五卷诗》f.157v《老妇牵玛杰农至莱拉营帐》**——1539–43，伦敦，大英图书馆 Or. 2265（BL 馆档列其名下）。`[史料]`（[R18]）https://searcharchives.bl.uk/catalog/032-001608356
 - **语料/图库**：`_corpus/mir_sayyid_ali.md`（28 条：题记/签名 6 + 同时代记录 8 + 后世记录 5 + 馆方/学者 9）；`_images/mir_sayyid_ali/`（16 张全 PD/CC0 + MANIFEST 逐张核验）；私有研究件见 `_private/INVENTORY_mir_sayyid_ali.md`。
 
 ---
@@ -33,7 +33,7 @@
 | 1 | **大幅开本 + 棉布载体**（《哈姆扎纳马》档）：近方大幅叶，画在细密棉布上 | 叶面长边 ≥60 cm（约 65–70 × 50–55 cm）；布纹/布底可见；画心近方形 | `[史料/研究]` [R9][R11][R19] |
 | 2 | **多层合装叶结构**：画（棉布）+ 书法（纸）+ 加固层胶合、边缘裁切 | 画与文本对页；边缘有裁切痕；「四层胶合」结构 | `[史料]` [R11][R19] |
 | 3 | **微书级细节**：纹样/器物/织物/建筑装饰高密度可读（Met：「meticulous attention to detail」） | 高频细节区 ≥1；局部纹理可读；细节不计成本 | `[研究]` [R1][R20] |
-| 4 | **物质世界的准确记录**（BM：「accurate depiction of the material world」）：器物、纺织、武器、陈设「记录式」呈现 | 可辨器物/织物类型 ≥5；「百科式」物像清单 | `[研究]` [R10][R20] |
+| 4 | **物质世界的准确记录**（BM：「accurate depiction of the material world」）：器物、纺织、武器、陈设「记录式」呈现 | 可辨器物/织物类型 ≥5；「百科式」物像清单 | `[研究]` [R8][R20] |
 | 5 | **图案控（pattern）**：对精心描绘纹样的显著偏好（Seyller「签名式清单」之一） | 毯纹/砖饰/织物纹样成组；纹样区 ≥2 | `[研究]` [R19] |
 | 6 | **签名式手法三件**：小瞳孔 + 可见眼白的人物；细密纹样；主题诗句上书上毯 | 瞳孔点状、眼白可辨（可辨尺度下）；诗行 ∈ 画面物件 | `[研究]` [R19][R16] |
 | 7 | **尖角几何岩**：沿溪/水系的岩石为多角直线边（「lithic shards」），反复出现 | 岩块直线边 ≥2；沿水道成组 | `[研究]` [R19] |
@@ -53,7 +53,7 @@
 3. **工作坊工序（工程化）**：总监分配任务；「资深设计、次手设色」的分工；任务以口头或**画上简笔字条**传达（后应覆盖）。`[研究]` [R19]
 4. **线与勾**：精确勾线、控制力强；签名用「极细的字」（minute hand）；无排线明暗——平涂 + 勾线。`[研究]` [R19][R16]
 5. **色彩**：鲜明不透明色（MAK 存叶「见原色之鲜活 vibrancy」；V&A 存叶褪色严重）；金为点缀（点金/金饰带），非主调。`[史料/研究]` [R11][R19]
-6. **人物塑造**：类型化 + 自然主义并置；眼部——「小瞳孔 + 可见眼白」；体态修长化（BM 注：为迎合新主顾而「使之更修长」）；深肤色与印度装束出现。`[研究]` [R10][R19]
+6. **人物塑造**：类型化 + 自然主义并置；眼部——「小瞳孔 + 可见眼白」；体态修长化（BM 注：为迎合新主顾而「使之更修长」）；深肤色与印度装束出现。`[研究]` [R8][R19]
 7. **景观画法**：**尖角几何岩**沿溪成组；树木轮廓优雅、树干平滑（与同侪对比区分点）；植被/花木成组。`[研究]` [R19]
 8. **构图法**：高视点、垂直画幅、层叠平面（无消失点）；框内以建筑/围栏/岩体切分「叙事区」；多事件并置。`[史料/研究]` [R11][R19]
 9. **签名与题记法**：签名嵌入画面物件——学生手持纸片、毯缘、书写板；诗句与题语上书上毯（不落画外）。`[史料]` [R19][R16]
@@ -66,7 +66,7 @@
 ## 3. 创作原则（8 条 + 分工条款）
 
 1. **事件优先，人物群像**：以「进行中的事件」（战斗、夜袭、救援、追逐、觐见）为第一主题；单页承载一整段情节与多人调度。`[研究]` [R19][R20]
-2. **细节即记录**：以微书级细节「记录」物质世界（织物、武器、陈设、建筑）——细节服务于「看得见的世界」，不炫技。`[研究]` [R10][R20]
+2. **细节即记录**：以微书级细节「记录」物质世界（织物、武器、陈设、建筑）——细节服务于「看得见的世界」，不炫技。`[研究]` [R8][R20]
 3. **大幅工程观**：接受（并组织）超常规开本与批量产出——「1400 幅」不是单人之作，而是**体系之作**；总监的职责 = 统一风格、分配任务、控制质量。`[研究]` [R19][R11]
 4. **转译而非复制**：把波斯语汇带入印度场景——保留高视点、层叠平面、纹样精确；引入印度风物与自然主义。`[研究]` [R11][R10]
 5. **精确性伦理**：图案、签名、细节的精确是职业尊严（「笔法细得令人目眩」）。`[研究]` [R20][R19]
@@ -116,7 +116,7 @@
 1. **签名①·《自画像》**——"Sayyid Ali, the rarity of the realm of Humayun Shah, painted this."（「赛义德·阿里——胡马雍沙阿治下的『国之珍奇』——画此。」）`[inscription]`（[R19] cat. 7；[R15]）
 2. **题记②·《自画像》题板**——"The master's tyranny is better than the father's kindness."（金字题语；异读 "Better a forceful master than a father overkind."）`[inscription]`（[R19] 及注 1）
 3. **签名③·《学堂场景》**——签名以「极细的字」写在紫衣学生手持的纸片上（原文波斯语未回查）。`[inscription]`（[R19] cat. 3；[R16]）
-4. **题字④·《坐着的少年》**——"the slave of his majesty the king, Sayyid-Ali [ibn] Sayyid Muhammad."（「国王陛下之奴，赛义德·阿里［·本·赛义德·穆罕默德］。」）`[inscription]`（[R17]）
+4. **题字④·《坐着的少年》**——"the slave of his majesty the king, Sayyid-Ali [ibn] Sayyid Muhammad."（「国王陛下之奴，赛义德·阿里［·本·赛义德·穆罕默德］。」）`[inscription]`（[R14]）
 5. **Mir Ala al-Dawla（约 1572–74）·「七年」句**——"It is now seven years that the Mir has been busy in the royal bureau of books (kitab khana-i 'ali), as commanded by His Majesty, in the decoration and painting of the large compositions of the story of Amir Hamza…"（「至今七年，米尔受陛下之命在御用书房中忙于哈姆扎故事的大幅构图之装饰与绘制……」）`[contemporary record]`（[R19] pp. 32–33）
 6. **Mir Ala al-Dawla 边注·朝觐**——"At present, the Mir having obtained permission to go on Haj, the task of preparing the afore-mentioned book has been assigned to the matchless master Khwaja 'Abd al-Samad…"（「眼下，米尔已获准赴朝觐，上述之书已委于无与伦比的大师霍瓦贾·阿卜杜勒·萨马德……」）`[contemporary record]`（[R19] p. 33）
 7. **Abu'l-Fazl（1598）·「先行者」**——"Among the forerunners on this high road of knowledge (agahi) is Mir Sayyid 'Ali of Tabriz. He had learnt a little from his father…"（「在这条知识之大道上的先行者中，有塔布里兹的米尔·赛义德·阿里。他自其父学得一些……」）`[contemporary record]`（[R19] p. 47）
@@ -152,12 +152,12 @@
 ## 7. 深度分析（10 条，馆方/学者，逐条带 URL）
 
 1. **Met 对象页 452171（《巴赫拉姆·古尔一箭穿双驴》，1970.301.62）**：归属「Painting attributed to Mir Sayyid 'Ali (Iranian, active India, Tabriz ca. 1510–1570s Agra or Mecca)」；「一丝不苟的细节」评语与西摩格/箭袋/马鞍细节——§1/§5 来源。https://www.metmuseum.org/art/collection/search/452171 `[研究]`（[R1]）
-2. **Met《哈姆扎纳马》散页群（18.44.1/2、23.264.1/2、24.48.1、2022.170–172）**：馆方说明「Akbar 1562 年委制、1400 幅、近一百人、十五年」；夜袭/攻城/印度庙等场景——§1-8/§11 来源。https://www.metmuseum.org/art/collection/search/447050 等 `[研究]`（[R2][R7]）
-3. **Met Heilbrunn 论文《The Art of the Mughals before 1600》**：胡马雍-阿克巴早期绘画背景与工坊体系——§11 骨架来源之一。https://www.metmuseum.org/toah/hd/mugh/hd_mugh.htm `[研究]`（[R8]）
+2. **Met《哈姆扎纳马》散页群（18.44.1/2、23.264.1/2、24.48.1、2022.170–172）**：馆方说明「Akbar 1562 年委制、1400 幅、近一百人、十五年」；夜袭/攻城/印度庙等场景——§1-8/§11 来源。https://www.metmuseum.org/art/collection/search/447050 等 `[研究]`（[R2][R3]）
+3. **Met Heilbrunn 论文《The Art of the Mughals before 1600》**：胡马雍-阿克巴早期绘画背景与工坊体系——§11 骨架来源之一。https://www.metmuseum.org/toah/hd/mugh/hd_mugh.htm `[研究]`（[R5]）
 4. **大英博物馆 1925,0929,0.1（《伊利亚救努尔·阿德-达赫尔》）**：对象页（1564–79、棉布、81.4 × 61 cm 装裱）＋ 亮点页（「十四卷、每卷百图、约百幅存世」「自信的风格呈现惊人的统一性」）——§1-8/§11 来源。https://www.britishmuseum.org/collection/object/W_1925-0929-0-1 `[研究]`（[R9]）
-5. **大英博物馆 1930,1112,0.1（《王子与侍从》）**：策展人注（「对物质世界的准确描绘」「人物修长化以迎合新主顾」）——§1-4/§3.1 转译判据来源。https://www.britishmuseum.org/collection/object/W_1930-1112-0-1 `[研究]`（[R10]）
+5. **大英博物馆 1930,1112,0.1（《王子与侍从》）**：策展人注（「对物质世界的准确描绘」「人物修长化以迎合新主顾」）——§1-4/§3.1 转译判据来源。https://www.britishmuseum.org/collection/object/W_1930-1112-0-1 `[研究]`（[R8]）
 6. **V&A 专文《The arts of the Mughal Empire》**：Hamzanama 节（12/14 卷口径、多层叶结构、Clarke 1880–81 克什米尔购藏与损毁史、MAK 60 叶/V&A 28 叶、「伊朗构图 × Hindustani 自然主义」）——§1/§2/§10 来源。https://www.vam.ac.uk/articles/the-arts-of-the-mughal-empire `[研究]`（[R11]）
-7. **V&A 对象记录（O66604 / O18925 / O66615 / O66611 等）**：O66604 馆方摘要「工程由米尔·赛义德·阿里与阿卜杜勒·萨马德主持」；多叶物理描述（多层胶合、对页书法）——§1-2/§11 来源。https://collections.vam.ac.uk/item/O66604/ 等 `[史料]`（[R12]）
+7. **V&A 对象记录（O66604 / O18925 / O66615 / O66611 等）**：O66604 馆方摘要「工程由米尔·赛义德·阿里与阿卜杜勒·萨马德主持」；多叶物理描述（多层胶合、对页书法）——§1-2/§11 来源。https://collections.vam.ac.uk/item/O66604/ 等 `[史料]`（[R10]）
 8. **哈佛艺术博物馆 1958.76 / 1958.75**：《城中夜》「Attributed to Mir Sayyid 'Ali」、约 1540、塔布里兹、28.6 × 20 cm、Cartier→Goelet 递藏；与《游牧营地》构成对页——§1-10/§12 来源。https://harvardartmuseums.org/collections/object/303390 `[史料]`（[R13]）
 9. **Seyller《The Adventures of Hamza》（Freer/Sackler 2002）**：Mir Ala al-Dawla 两段记载（「七年」「朝觐移交」）；制作机制（30 画师、双画叶→单画叶、产量翻倍）；归属方法论（「签名式手法清单」；Custodia 白字「阿里」判伪）——§1/§2/§11 的核心学术来源。https://archive.org/details/adventuresofhamz00seyl `[研究]`（[R19]）
 10. **Welch《The Emperors' Album》（Met 1987）**：师承（苏丹·穆罕默德/阿迦·米拉克）、「最善观察的自然主义者 + 大胆设计者」、年表（1549/1555/1572）、Balchand 的「记录式细节」回响——§6/§11 来源。https://archive.org/details/TheEmperorsAlbumImagesofMughalIndia `[研究]`（[R20]）
@@ -200,7 +200,7 @@ large empty unpatterned voids, watermark, 3D render, anime, cartoon, modern clot
 4. **小瞳孔眼白规则**：在可辨尺度下，人物眼部为点状瞳孔 + 可见眼白（人检；可选模板匹配）。自查：局部区域目检。（依据：Seyller「签名式清单」[R19]）
 5. **无消失点规则（族征）**：全帧直线族中，平行后退线不得收敛——「消失点检验」= 0 组汇聚线（≥3 条线共点即失败）。自查：Hough 线检测 + 共点聚类。（依据：层叠平面 [R11][R19]；与贝赫扎德同侧）
 6. **人物比例恒定规则（族征）**：人物高度不随「纵深」缩放；同帧人物高度方差 ≤15%。自查：人体框高度统计。（依据：无透视纵深语法 [R19]）
-7. **融合风物规则**：印度元素 ≥1 处可辨（象/热带植物/印度建筑形制/深肤色人物）；「纯波斯」判弱档。自查：元素目检计数。（依据：转译轴 [R11][R10]）
+7. **融合风物规则**：印度元素 ≥1 处可辨（象/热带植物/印度建筑形制/深肤色人物）；「纯波斯」判弱档。自查：元素目检计数。（依据：转译轴 [R11][R8]）
 8. **色彩与金层规则**：高饱和不透明色（S ≥0.5）面积 ≥30%；金区为**平涂点金**（区域内部明度动态范围 ≤5%、无光泽起伏）、面积 ≤5%、单列不计色数（C-15/N6 接口）。自查：HSV 掩膜 + 区域明度方差。（依据：平涂点金 [R11][R19]；vs 克里姆特判据）
 
 > 以上阈值为本项目 `[归纳]`，**未对原作做像素测量**（分母 = 假想参考帧）；1/3/4 条与 §3.1 分工判据同轴，组合实验时以本节自查表为准。
@@ -226,22 +226,23 @@ large empty unpatterned voids, watermark, 3D render, anime, cartoon, modern clot
 | R6 | 大英博物馆 — 1925,0929,0.1《伊利亚救努尔·阿德-达赫尔》对象页 | https://www.britishmuseum.org/collection/object/W_1925-0929-0-1 | ⚠️ 403；**Wayback 快照 ✅** |
 | R7 | 大英博物馆 — 该页旧版亮点页（「十四卷/每卷百图/约百幅存世/惊人的统一性」） | （旧 highlights 页，Wayback 2015） | ⚠️ 存档 ✅ |
 | R8 | 大英博物馆 — 1930,1112,0.1《王子与侍从》对象页（策展人注） | https://www.britishmuseum.org/collection/object/W_1930-1112-0-1 | ⚠️ 403；**Wayback 快照 ✅** |
-| R9 | V&A — 专文《The arts of the Mughal Empire》（Hamzanama 节） | https://www.vam.ac.uk/articles/the-arts-of-the-mughal-empire | ⚠️ 直读 403/JS；**Wayback 快照 ✅** |
+| R9 | 大英博物馆 — 综合引用组（Elijah 对象页＋亮点页；《哈姆扎纳马》馆藏与「惊人的统一性」） | （同 R6/R7 来源） | ⚠️ 403；**Wayback 快照 ✅** |
 | R10 | V&A — 对象记录 O66604 / O18925 / O66615 / O66611 等（API v2） | https://collections.vam.ac.uk/item/O66604/ 等 | ✅ API 直读 200 |
-| R11 | 哈佛艺术博物馆 — 1958.76《Nighttime in a City》（+1958.75 对页） | https://harvardartmuseums.org/collections/object/303390 | ✅ 直读 200 |
+| R11 | V&A — 专文《The arts of the Mughal Empire》（Hamzanama 节） | https://www.vam.ac.uk/articles/the-arts-of-the-mughal-empire | ⚠️ 直读 403/JS；**Wayback 快照 ✅** |
 | R12 | 哈佛艺术博物馆 — 1941.292 verso《Mahiya frees Zambur…》（Hamzanama，归属） | https://harvardartmuseums.org/collections/ | ✅（经 Commons 文件页核） |
-| R13 | LACMA — M.90.141.1《Young Scribe, Page from an Album》（1555–56） | https://collections.lacma.org/node/224717 | ✅ 直读 200 |
-| R14 | Freer（NMAA）— S1986.221《A School Scene》（签名；标签全文） | https://asia.si.edu/object/S1986.221/ | ⚠️ 403；**Wayback 快照 ✅** |
-| R15 | Freer（NMAA）— S1986.291《Seated youth holding an album》（题字） | https://asia.si.edu/object/S1986.291/ | ⚠️ 403；**Wayback 快照 ✅** |
-| R16 | 大英图书馆 — Or. 2265《Shah Tahmasp's 'Khamsah' of Nizami》馆档（JSON；f.157v 列 Mir Sayyid 'Ali） | https://searcharchives.bl.uk/catalog/032-001608356 | ✅ JSON 直读 200 |
+| R13 | 哈佛艺术博物馆 — 1958.76《Nighttime in a City》（+1958.75 对页） | https://harvardartmuseums.org/collections/object/303390 | ✅ 直读 200 |
+| R14 | Freer（NMAA）— S1986.291《Seated youth holding an album》（题字） | https://asia.si.edu/object/S1986.291/ | ⚠️ 403；**Wayback 快照 ✅** |
+| R15 | LACMA — M.90.141.1《Young Scribe, Page from an Album》（1555–56） | https://collections.lacma.org/node/224717 | ✅ 直读 200 |
+| R16 | Freer（NMAA）— S1986.221《A School Scene》（签名；标签全文） | https://asia.si.edu/object/S1986.221/ | ⚠️ 403；**Wayback 快照 ✅** |
 | R17 | 卢浮宫 — OA 3619 i b（《Autoportrait de Mir Musavvir; Portrait d'un lettré》；旧归 Mir Sayyid Ali） | https://collections.louvre.fr/en/ark:/53355/cl010327513 | ✅ 直读 200（限流重试后） |
-| R18 | Seyller,《The Adventures of Hamza: Painting and Storytelling in Mughal India》（Freer/Sackler, 2002） | https://archive.org/details/adventuresofhamz00seyl | ✅ djvu.txt 全文（私有层副本） |
-| R19 | Welch,《The Emperors' Album: Images of Mughal India》（Met, 1987） | https://archive.org/details/TheEmperorsAlbumImagesofMughalIndia | ✅ djvu.txt 全文（私有层副本） |
-| R20 | Qadi Ahmad,《Calligraphers and Painters》, tr. Minorsky（Freer Occ. Papers 3/2, 1959）pp. 183–187 | https://archive.org/details/calligrapherspa321959ahma | ✅ 全文（与贝赫扎德档案共用副本） |
-| R21 | Wikipedia（en）— Mir Sayyid Ali ｜ Mir Musavvir ｜ Akbar Hamzanama ｜ Hamzanama ｜ Shahnameh of Shah Tahmasp | https://en.wikipedia.org/wiki/Mir_Sayyid_Ali 等 | ✅ 直读（wikitext 快照） |
+| R18 | 大英图书馆 — Or. 2265《Shah Tahmasp's 'Khamsah' of Nizami》馆档（JSON；f.157v 列 Mir Sayyid 'Ali） | https://searcharchives.bl.uk/catalog/032-001608356 | ✅ JSON 直读 200 |
+| R19 | Seyller,《The Adventures of Hamza: Painting and Storytelling in Mughal India》（Freer/Sackler, 2002） | https://archive.org/details/adventuresofhamz00seyl | ✅ djvu.txt 全文（私有层副本） |
+| R20 | Welch,《The Emperors' Album: Images of Mughal India》（Met, 1987） | https://archive.org/details/TheEmperorsAlbumImagesofMughalIndia | ✅ djvu.txt 全文（私有层副本） |
+| R21 | Qadi Ahmad,《Calligraphers and Painters》, tr. Minorsky（Freer Occ. Papers 3/2, 1959）pp. 183–187 | https://archive.org/details/calligrapherspa321959ahma | ✅ 全文（与贝赫扎德档案共用副本） |
 | R22 | Wikipedia（ru）— Мир Сеид Али（「14 幅中 4 幅归其手、含签名页」等口径） | https://ru.wikipedia.org/wiki/Мир_Сеид_Али | ✅ 直读（wikitext 快照） |
-| R23 | MAK 维也纳 — BI 8770-2《Emissaries…》（经 Google Arts & Culture / Commons 核） | https://sammlung.mak.at/sammlung_online?id=collect-194074 | ⚠️ 经 GAC/Commons 核（未直读） |
-| R24 | Sakisian,《The School of Bihzad…》, *Burlington Magazine* 68/395（1936）p. 85（转引） | https://www.jstor.org/stable/866455 | ⚠️ 转引（经 R21/R22） |
+| R23 | Wikipedia（en）— Mir Sayyid Ali ｜ Mir Musavvir ｜ Akbar Hamzanama ｜ Hamzanama ｜ Shahnameh of Shah Tahmasp | https://en.wikipedia.org/wiki/Mir_Sayyid_Ali 等 | ✅ 直读（wikitext 快照） |
+| R24 | MAK 维也纳 — BI 8770-2《Emissaries…》（经 Google Arts & Culture / Commons 核） | https://sammlung.mak.at/sammlung_online?id=collect-194074 | ⚠️ 经 GAC/Commons 核（未直读） |
+| R25 | Sakisian,《The School of Bihzad…》, *Burlington Magazine* 68/395（1936）p. 85（转引） | https://www.jstor.org/stable/866455 | ⚠️ 转引（经 R22/R23） |
 
 ---
 
@@ -254,13 +255,13 @@ large empty unpatterned voids, watermark, 3D render, anime, cartoon, modern clot
 5. **卷数口径**：12（Mir Ala al-Dawla / Abu'l-Fazl）· 14（BM/V&A 行文）· 16（Badauni）· 17（Badauni 另处）——四说并存；「1400 幅」（Abu'l-Fazl）与「12 × 100 × 2」（Mir Ala al-Dawla）互斥口径待核。
 6. **总监替换原因**：Mir Ala al-Dawla 边注（获准朝觐、移交）vs 通说「进度过慢被替换」（Wikipedia/Grove）——两说并记。
 7. **离印年份**：Wikipedia「约 1569」vs Welch 年表「1572」vs 边注纪年窗（1572–74）——三说并存。
-8. **归属分级（重点）**：《哈姆扎纳马》全册无签名（唯一白字「阿里」被判伪——[R18]）；本档所引页均为馆方/GAC「归属」级：Met 452171（attributed）、BM 1925,0929,0.1（馆方未署名）、Elijah 页「credited to Mir Sayyid Ali」（Wikipedia 口径，BM 页未署）、MAK 两页（GAC/Commons 归属）——引用时保持层级，不升格。
+8. **归属分级（重点）**：《哈姆扎纳马》全册无签名（唯一白字「阿里」被判伪——[R19]）；本档所引页均为馆方/GAC「归属」级：Met 452171（attributed）、BM 1925,0929,0.1（馆方未署名）、Elijah 页「credited to Mir Sayyid Ali」（Wikipedia 口径，BM 页未署）、MAK 两页（GAC/Commons 归属）——引用时保持层级，不升格。
 9. **「《五卷诗》14 幅中 4 幅归其手」**：仅 ru.wiki 口径；BL 馆档仅列 f.157v 一幅——待核（疑为对另一抄本的混记）。
 10. **《自画像》性质**：LACMA 题「Young Scribe」；Seyller 论证为「自画像」；「第二幅自画像」说（Melikian-Chirvani）为一家之言——两说并记。
 11. **卢浮宫 OA 3619 归属冲突**：卢浮宫现归「Mir Musavvir 自画像」（Attribué à）；旧归 Mir Sayyid Ali；Seyller 论证为米氏代父请愿之作——三说并存，本档案按「归属争议」记录。
 12. **Qadi Ahmad「父子均殁于印度」**：孤例（与 Mir Musavvir 卒年 1555/1576 诸说冲突）——保留原样并加注。
 13. **量化阈值未实测**：§4 六参数档位与 §8.2 八条规则阈值均未对原作做像素测量（分母 = 假想参考帧）。
-14. **转引级条目**：Thackston 1989（Dust Muhammad 序）、Canby 2000、Dickson & Welch 1981、Melikian-Chirvani 1998、Soudavar 1999——未直读（经 R18/R20/R21/R22 转引）。
+14. **转引级条目**：Thackston 1989（Dust Muhammad 序）、Canby 2000、Dickson & Welch 1981、Melikian-Chirvani 1998、Soudavar 1999——未直读（经 R19/R20/R21/R22 转引；Sakisian 1936 = [R25]）。
 15. **图像许可备注**：V&A 馆方图（© V&A）未入公开侧（读者可经 V&A 对象页查看 O66604 等）；卢浮宫 RMN 图（© GrandPalaisRmn）与 LACMA 高清图入私有层，公开侧用 Commons PD 版本 / 对象页链接。
 
 ---
@@ -279,42 +280,50 @@ large empty unpatterned voids, watermark, 3D render, anime, cartoon, modern clot
 
 **《哈姆扎纳马》总监（1556–1572）。** 1556 年 1 月，胡马雍坠梯而亡，十四岁的阿克巴继位。米尔·赛义德·阿里与阿卜杜勒·萨马德（一说）执教王子、并执掌宫廷画坊；随后，一部「世界书籍史上最宏大的工程之一」启动——为阿克巴绘制《哈姆扎纳马》：通说约 1562 年动工（Seyller 据纪年页考订可上推至 1557/58 年），全帙十二卷、一千四百幅（口径不一，见 §10），画在细密棉布上、单叶约 69 × 54 厘米。他是**首任总监**：按同时代官员米尔·阿拉·道拉（Mir Ala al-Dawla）约 1572–74 年写下的记载——「至今七年，米尔受陛下之命在御用书房中忙于哈姆扎故事的大幅构图之装饰与绘制……虽则此期间有三十位堪比马尼与贝赫扎德的画师始终效力，完成的却不过四卷。」早期卷为「一叶双画」的实验形态；后期改为「一画一文」对页。约 1572 年（一说 1569），他获准赴麦加朝觐，工程移交阿卜杜勒·萨马德（米尔·阿拉·道拉的边注：「米尔已获准赴朝觐……霍瓦贾大力促成其完成，并显著削减了开支」）——萨马德以八年完成余下十卷，产量翻倍。（Seyller 推算：卷 11 是存世叶最多的一卷——恰是工程中段最繁盛之时。）`[史料/研究]`（[R19][R9][R11][R20]）
 
-**身后与评骘（1572–）。** 他离开后的行踪成谜：一说卒于朝觐途中或麦加，一说返印并卒于 1580（Met 只谨慎记「active … 1570s, Agra or Mecca」）。身后之名并不寂寞：阿布勒·法兹尔在《Ain-i Akbari》里把他列为「知识大道上的先行者」——「他自其父学得一些；及获侍奉陛下之荣、见识随之增长，遂在同行中声名卓著、福泽丰厚」；他还在《Akbarnama》里记下了阿克巴对哈姆扎故事的痴迷（1564 年纳尔瓦尔猎后听书）。十八世纪的《Masir al-Umara》复述他的头衔「纳德鲁-乌尔-穆尔克（国之珍奇）·胡马雍沙赫的」；1739 年纳迪尔沙劫掠德里时，《哈姆扎纳马》与「光之山」钻石并列最珍——装了两头骆驼运往伊朗，莫卧儿皇帝遣大维齐尔求还，得到的回答是：「尽可索回你的一切宝物——但阿米尔·哈姆扎不行！」十九世纪，这部书已散：1880–81 年冬天，V&A 的卡斯帕·珀登·克拉克在克什米尔斯利那加的一家古董店里「撞见」一批大画，从店窗上（用来挡冬霜）救下——即今 V&A 的 28 叶；维也纳 MAK 的 60 叶则来自 1873 年维也纳世博会。今天，他的页面散在大都会、大英博物馆、V&A、哈佛、MAK 与世界各地——「分藏世界」本身，就是莫卧儿绘画经典化的一部分。`[史料/研究]`（[R19][R20][R11][R21]）
+**身后与评骘（1572–）。** 他离开后的行踪成谜：一说卒于朝觐途中或麦加，一说返印并卒于 1580（Met 只谨慎记「active … 1570s, Agra or Mecca」）。身后之名并不寂寞：阿布勒·法兹尔在《Ain-i Akbari》里把他列为「知识大道上的先行者」——「他自其父学得一些；及获侍奉陛下之荣、见识随之增长，遂在同行中声名卓著、福泽丰厚」；他还在《Akbarnama》里记下了阿克巴对哈姆扎故事的痴迷（1564 年纳尔瓦尔猎后听书）。十八世纪的《Masir al-Umara》复述他的头衔「纳德鲁-乌尔-穆尔克（国之珍奇）·胡马雍沙赫的」；1739 年纳迪尔沙劫掠德里时，《哈姆扎纳马》与「光之山」钻石并列最珍——装了两头骆驼运往伊朗，莫卧儿皇帝遣大维齐尔求还，得到的回答是：「尽可索回你的一切宝物——但阿米尔·哈姆扎不行！」十九世纪，这部书已散：1880–81 年冬天，V&A 的卡斯帕·珀登·克拉克在克什米尔斯利那加的一家古董店里「撞见」一批大画，从店窗上（用来挡冬霜）救下——即今 V&A 的 28 叶；维也纳 MAK 的 60 叶则来自 1873 年维也纳世博会。今天，他的页面散在大都会、大英博物馆、V&A、哈佛、MAK 与世界各地——「分藏世界」本身，就是莫卧儿绘画经典化的一部分。`[史料/研究]`（[R19][R20][R11][R24]）
 
 ### 11.2 关键年份表
 
 | 年份 | 事件 | 来源 |
 |---|---|---|
-| 约 1510 | 生于塔布里兹（出生年文献无载；Met「ca. 1510」口径，「1510s」诸说） | [R1][R21] |
+| 约 1510 | 生于塔布里兹（出生年文献无载；Met「ca. 1510」口径，「1510s」诸说） | [R1][R23] |
 | 约 1520s–30s | 于塔布里兹画坊学徒：师从苏丹·穆罕默德、阿迦·米拉克；父为米尔·穆萨维尔 | [R20] |
-| 约 1530–35 | 参与《塔赫玛斯普列王纪》；f.568r《巴赫拉姆·古尔一箭穿双驴》归其名下 | [R1][R21] |
+| 约 1530–35 | 参与《塔赫玛斯普列王纪》；f.568r《巴赫拉姆·古尔一箭穿双驴》归其名下 | [R1][R23] |
 | 1539–43 | 《五卷诗》（BL Or. 2265）：f.157v《老妇牵玛杰农至莱拉营帐》列其名下 | [R18][R22] |
 | 约 1540 | 《学堂场景》（签名）、《城中夜》+《游牧营地》对页、《坐着的少年》 | [R19][R16][R13] |
-| 1544 | 胡马雍访塔布里兹；索画师（「一千图曼」）；子先父后赴印 | [R21][R19] |
+| 1544 | 胡马雍访塔布里兹；索画师（「一千图曼」）；子先父后赴印 | [R23][R19] |
 | 约 1549（9 月后） | 与阿卜杜勒·萨马德抵喀布尔，入胡马雍画坊 | [R19][R20] |
 | 约 1551–53 | 喀布尔本《五卷诗》（BnF Smith-Lesouéf 216）《巴赫拉姆·古尔备宴》归其名下 | [R19] |
 | 1555 | 胡马雍复得德里；画师开坊（Welch 年表） | [R20] |
-| 1555–56 | 《自画像》（LACMA；「国之珍奇」落款） | [R19][R13] |
+| 1555–56 | 《自画像》（LACMA；「国之珍奇」落款） | [R19][R15] |
 | 约 1555 | 《请愿图》（旧归其名下；今卢浮宫题「米尔·穆萨维尔自画像」） | [R19][R17] |
-| 1556 | 阿克巴即位；米氏与萨马德执教/执掌画坊（一说） | [R21][R19] |
+| 1556 | 阿克巴即位；米氏与萨马德执教/执掌画坊（一说） | [R23][R19] |
 | 约 1557/58（一说 1562） | 《哈姆扎纳马》开工（两说并记） | [R19] vs [R9][R11] |
 | 约 1562–72 | 任首任总监：三十画师；七年四卷；早期卷「一叶双画」 | [R19] |
 | 约 1565–70 | 中后期卷加速；Met 存世页多出此期（18.44、23.264 组） | [R2][R19] |
 | 约 1567/68 | 纪年页「975」= 卷 9–10 期（Seyller 推算） | [R19] |
-| 约 1569–72 | 离印赴麦加（Wikipedia「约1569」；Welch 年表「1572」；边注 1572–74 已记） | [R21][R20][R19] |
-| 1572–77 | 阿卜杜勒·萨马德接手，八年完成余十卷（约 1577 全工毕） | [R19][R9] |
-| 卒年不详 | 朝觐途中/麦加？或返印卒于 1580？（Met：1570s，Agra or Mecca） | [R1][R21] |
+| 约 1569–72 | 离印赴麦加（Wikipedia「约1569」；Welch 年表「1572」；边注 1572–74 已记） | [R23][R20][R19] |
+| 1572–77 | 阿卜杜勒·萨马德接手，八年完成余十卷（约 1577 全工毕） | [R19][R11] |
+| 卒年不详 | 朝觐途中/麦加？或返印卒于 1580？（Met：1570s，Agra or Mecca） | [R1][R23] |
 | 1739 | 纳迪尔沙掠德里；《哈姆扎纳马》装两骆驼运伊朗（「求还」轶事） | [R19] |
-| 1873 | MAK 自维也纳世博会获藏 60 叶 | [R21] |
-| 1880–81 | V&A 经 Clarke 于克什米尔斯利那加购得 28 叶（部分自店窗救下） | [R11][R21] |
+| 1873 | MAK 自维也纳世博会获藏 60 叶 | [R24] |
+| 1880–81 | V&A 经 Clarke 于克什米尔斯利那加购得 28 叶（部分自店窗救下） | [R11][R23] |
 | 1970s | Met 获 18.44 / 23.264 / 24.48 组（Houghton 赠）；2022 再购 2022.170–172 | [R2][R3] |
 
-### 11.3 生平细节来源
+### 11.3 生平细节来源（12 条）
 
-- 骨架与年表交叉源：[R19]（Seyller：Mir Ala al-Dawla 两段、产量推算、1549/1555 语境）；[R20]（Welch：师承、1549/1555/1572 年表、Balchand 回响）；[R21]（Wikipedia：基础生平与诸说）；[R1]（Met：生卒口径与细节评语）。
-- 塔布里兹与早期：[R21]/[R22]（师承与两部抄本口径）；[R18]（BL：f.157v 归属）；[R16]/[R13]（签名与夜景页）。
-- 转译与莫卧儿期：[R10]（BM：修长化与物质世界）；[R19]（喀布尔本《五卷诗》、请愿图、工程机制）；[R9]/[R11]（工程规模与存世分布）。
-- 未回查项（生年、卒年、卷数、替换原因、4/14 口径等）已在 §10 逐条列出；「父子均殁于印度」孤例不在年表采信。
+1. **Seyller 2002（[R19]）**——骨架主源：Mir Ala al-Dawla 两段记载（「七年」/朝觐移交）、产量推算（七年四卷 → 八年十卷）、1549/1555 语境、喀布尔本《五卷诗》与《请愿图》论证、归属方法论（含 Custodia 判伪）。
+2. **Welch 1987（[R20]）**——师承（苏丹·穆罕默德/阿迦·米拉克/父）、1549/1555/1572 年表、「最善观察的自然主义者」评语、Balchand「记录式细节」回响、金绘边框「或出米氏手」。
+3. **Wikipedia（en，[R23]）**——基础生平（生卒诸说、两部抄本、工程交接、「国之珍奇」头衔）与书目线索（三手，仅交叉用）。
+4. **Wikipedia（ru，[R22]）**——「14 幅中 4 幅归其手、含签名页」口径（单一来源，按「待核」记录）；塔布里兹-莫卧儿生涯骨架。
+5. **Met（[R1][R2][R3][R4]）**——生卒口径（ca. 1510；1570s Agra or Mecca）、「一丝不苟」评语、西摩格/箭袋细节、《哈姆扎纳马》馆方说明（1400 幅/近百人/十五年）。
+6. **大英博物馆（[R6][R7][R8]）**——Elijah 页（1564–79、棉布、装裱尺寸、「十四卷/每卷百图/约百幅存世」）；Prince and Page 策展人注（「物质世界的准确描绘」「修长化」）。
+7. **V&A（[R11][R10]）**——Hamzanama 节（12/14 卷口径、多层叶结构、Clarke 1880–81 购藏与损毁史、MAK/V&A 分布、「伊朗构图 × Hindustani 自然主义」）；对象记录（O66604 馆方摘要「由米尔·赛义德·阿里与阿卜杜勒·萨马德主持」）。
+8. **大英图书馆（[R18]）**——Or. 2265 馆档：14 幅插图作者分布、f.157v 列其名下、装帧/递藏（Qajar 重装、Trübner 1880）。
+9. **哈佛艺术博物馆（[R13]；《玛希亚》页 [R12]）**——《城中夜》（1958.76，attributed）与《游牧营地》（1958.75，签名注记）、对页双作与 Cartier→Goelet 递藏；《玛希亚释放藏布尔》页（1941.292 verso）。
+10. **弗里尔美术馆（[R16][R14]）**——《学堂场景》签名/铭文/标签全文（「把泛型图像变为具体场景」）；《坐着的少年》题字（「Sayyid-Ali [ibn] Sayyid Muhammad」）。
+11. **LACMA（[R15]）＋ 卢浮宫（[R17]）**——《自画像》题记与题板（LACMA M.90.141.1）；《请愿图》归属三说与波斯语铭文（Louvre OA 3619 i b）。
+12. **Qadi Ahmad/Minorsky（[R21]）**——Mir Musavvir 条（胡马雍「一千图曼」、子先父后、「父子均殁于印度」孤例）；未回查项（生年、卒年、卷数、替换原因、4/14 口径等）已在 §10 逐条列出，不升格采信。
 
 ---
 
@@ -410,41 +419,68 @@ large empty unpatterned voids, watermark, 3D render, anime, cartoon, modern clot
 §5 条数: 10
 §7 条数: 10
 §8.2 规则条数: 8
-§11.1 叙述 CJK 字数: 2317 (期望 ≥2000)
+§11.1 叙述 CJK 字数: 2085 (期望 ≥2000)
 §11.2 年份表行数: 23 (期望 ≥15)
 §12 作品条数: 10
-分工条款: vs 贝赫扎德×8 · vs 北斋×5 · 写死×6
-总行数: 411 | 字节: 61114
+分工条款: vs 贝赫扎德×4 · vs 北斋×4 · 写死×4
+总行数: 493 | 字节: 70996
 
 === B) 抽取契约（复刻 modules/_extract.py 谓词）===
-arch_4:  OK, 883 chars | head: | # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%） | 默认建议 |
-arch_81: OK, 1421 chars | head: **正向段（可直接粘贴）**
-arch_82: OK, 947 chars | head: 1. **事件动势群像规则**：画面含 ≥1 事件进行时（战斗/夜袭/救援/追逐）且人物 ≥8（群像档）；全静场判失败（弱档除外）
+arch_4:  OK, 1052 chars | head: | # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%） | 默认建议 |
+arch_81: OK, 1486 chars | head: **正向段（可直接粘贴）**
+arch_82: OK, 864 chars | head: 1. **事件动势群像规则**：画面含 ≥1 事件进行时（战斗/夜袭/救援/追逐）且人物 ≥8（群像档）；全静场判失败（弱档除外）。自查：事件计数 + 人体框计
 正向段含 'Mir Sayyid Ali-style': True | 负向段含 '--no': True
 
-=== C) 引文抽查（vs 本地源文件，逐字/轻校命中；30/30 HIT）===
-HIT | Seyller·seven years / ·twelve volumes / ·Mani / ·four volumes （私有层共用副本 OCR）
-HIT | Seyller·Haj note / ·fourteen hundred / ·forerunners / ·designer of marvels （同上）
-HIT | Seyller·sixteen volumes / ·earlier to India / ·Nadiru-l-mulk / ·treasures （同上）
-HIT | Seyller·rarity of the realm / ·tyranny / ·minute hand / ·checklist / ·bench mark （同上）
-HIT | Seyller·Custodia / ·whites of the eyes / ·geometric rocks （同上）
-HIT | Welch·observantly / ·encyclopedic / ·recalls Mir Sayyid （Emperors' Album OCR）
-HIT | QadiAhmad·clever than his father / ·thousand tumans （Minorsky 1959 全文）
-HIT | BM·accurate depiction / ·unity （Wayback 快照）｜Met·meticulous （Wayback 快照）
-HIT | Freer·rely not upon / ·slave of his majesty / ·generic quality （Wayback 快照）
-HIT | V&A·contradictory / ·largest group of 60 folios / ·28 complete folios （Wayback 快照）
-（复核修正 3 处：OCR 行尾连字符「nat-uralistic」「dis-tinctive」「supervi-sion」按印刷原貌归并；「earlierto」「morethan」空格轻校；「HumayCinshahi」→「Humayunshahi」轻校。）
+=== C) 引文抽查（vs 本地源文件，逐字/轻校命中）===
+HIT  | Seyller·seven years
+HIT  | Seyller·twelve volumes
+HIT  | Seyller·Mani
+HIT  | Seyller·four volumes
+HIT  | Seyller·Haj note
+HIT  | Seyller·fourteen hundred
+HIT  | Seyller·forerunners
+HIT  | Seyller·designer of marvels
+HIT  | Seyller·sixteen volumes
+HIT  | Seyller·earlier to India
+HIT  | Seyller·Nadiru-l-mulk
+HIT  | Seyller·treasures
+HIT  | Seyller·rarity of the realm
+HIT  | Seyller·tyranny
+HIT  | Seyller·minute hand
+HIT  | Seyller·checklist
+HIT  | Seyller·bench mark
+HIT  | Seyller·Custodia
+HIT  | Seyller·whites of the eyes
+HIT  | Seyller·geometric rocks
+HIT  | Welch·observantly
+HIT  | Welch·encyclopedic
+HIT  | Welch·recalls Mir Sayyid
+HIT  | QadiAhmad·clever
+HIT  | QadiAhmad·tumans
+HIT  | Met·meticulous
+HIT  | BM·accurate depiction
+HIT  | BM·unity
+HIT  | Freer·rely not upon
+HIT  | Freer·slave of his majesty
+HIT  | Freer·generic quality
+HIT  | V&A·contradictory
+HIT  | V&A·largest group of 60 folios
+HIT  | V&A·28 complete folios
+引文命中: 34/34
 
 === D) 语料 / 图库 / 私有层 ===
 语料条目数: 28 (期望 ≥15) | 字节: 29318
-图库张数: 16 (期望 ≥6) | 图库合计: 12 MB | MANIFEST: True
-sha256[:16] nighttime_in_a_city 1d3a0be7ee68572c ｜ nomadic_encampment bdbef86955c6d923 ｜ school_scene_freer d3b049142c536f6a ｜ majnun_layla_bl 61ca9aca5430fc16 ｜（16 张全表见 §自审附注）
+图库张数: 16 (期望 ≥6) | 图库合计: 12.9 MB | MANIFEST: True
+sha256[:16]: bahram_gur_met e9ce64280b4d7f44 ｜ elijah_bm 314714dfe4ac9841 ｜ emissaries_mak d2e4f2d6fc2b30e2 ｜ feridun_mak 9cb9e6b76e2587bb ｜（16 张全表见附注）
 私有层: INVENTORY_mir_sayyid_ali.md: True
+私有层件数: papers=31 + images_hi_res=8 = 39
 PASS-CHECK-DONE
 ```
 
+- 复核修正 3 处（引文校勘记录）：OCR 行尾连字符「nat-uralistic」「dis-tinctive」「supervi-sion」按印刷原貌归并；「earlierto」「morethan」空格轻校；「HumayCinshahi」→「Humayunshahi」轻校（详见 `_corpus/mir_sayyid_ali.md` 校勘口径）。
+
 - 另：16 张图 sha256[:16] 全表 —— `nighttime_in_a_city 1d3a0be7` / `nomadic_encampment bdbef869` / `school_scene_freer d3b04914` / `majnun_layla_bl 61ca9aca` / `self_portrait_lacma 7ffc7cba` / `bahram_gur_met e9ce6428` / `elijah_bm 314714df` / `prince_page_bm a78eb862` / `emissaries_mak d2e4f2d6` / `feridun_mak 9cb9e6b7` / `seated_youth_freer 78c11d33` / `mahiya_zambur_harvard cb4bd240` / `met_hamzanama_night_attack 047f2e85` / `met_hamzanama_mihrdukht 2eef9749` / `met_hamzanama_spy_zambur 0ea17444` / `met_hamzanama_supplicant c4334152`；`_corpus/mir_sayyid_ali.md` 28 条（≥15 ✅）；`_images/mir_sayyid_ali/MANIFEST.md` 存在（16 张 + 逐张明细 + 归属口径）；私有层 `_private/INVENTORY_mir_sayyid_ali.md` + 39 件在位（研究副本 31 + 高清图 8）。
-- **复跑（本节落盘后，终稿状态；最终一次全跑）**：节命中 14/14 · §11.1=2317 字 · arch_4=883 / arch_81=1421 / arch_82=947 chars · 引文 30/30 HIT（0 MISS）· 语料 28 · 图 16+MANIFEST · 私有层 INVENTORY 在位 —— 全项通过。
+- **复跑（本节落盘后，终稿状态；最终一次全跑）**：节命中 14/14 · §11.1=2085 字 · arch_4=1052 / arch_81=1486 / arch_82=864 chars · 引文 34/34 HIT（0 MISS）· 语料 28 · 图 16+MANIFEST · 私有层 INVENTORY 在位（39 件）—— 全项通过。
 
 ### D. 小结（≤14 行）
 
