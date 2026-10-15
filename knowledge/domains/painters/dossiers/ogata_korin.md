@@ -484,7 +484,7 @@ $ python knowledge/domains/painters/_scratch/ogata_korin/selfcheck.py
 [IMAGES] 图库文件数: 19
 [EXTRACT] arch_4=785c / arch_81=2089c / arch_82=798c（含 `**中文使用说明` 行: True；`### 8.3` 行: True）
 [GREP] 「写死」出现 6 处；vs 克里姆特条款: True；vs 马蒂斯条款: True
-[FILE] dossier: 529 行 / 64275 B；corpus: 20222 B
+[FILE] dossier: 529 行 / 64325 B；corpus: 20222 B
 ```
 
 **② 抽取契约直测（原样输出；`_extract.py` 谓词直接调用，read_lines 口径）**
