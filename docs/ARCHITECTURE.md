@@ -1,5 +1,7 @@
 # Architecture
 
+English · [中文](i18n/zh-CN/ARCHITECTURE.md) · [日本語](i18n/ja/ARCHITECTURE.md)
+
 > Designers_Brain distills the working languages of artists and designers into composable, verifiable modules that AI agents can execute — and packages them as a skill any agent can load. Give the repo to an agent; it asks first, then designs and replaces with evidence.
 
 ## 1. The idea

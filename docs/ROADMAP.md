@@ -1,5 +1,7 @@
 # Roadmap
 
+English · [中文](i18n/zh-CN/ROADMAP.md) · [日本語](i18n/ja/ROADMAP.md)
+
 ## Where we are — PRE milestone (2026-10)
 
 - **Domain #1 — painters**: 11 dossiers (~300 lines each) + 126 sourced quotes + 33 PD artworks + 11 composable module cards (33/33 verbatim checks).

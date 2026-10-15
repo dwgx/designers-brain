@@ -1,5 +1,7 @@
 # Protocols
 
+English · [中文](i18n/zh-CN/PROTOCOLS.md) · [日本語](i18n/ja/PROTOCOLS.md)
+
 > Hard rules for operating this repository — human or AI. Where a rule says *must*, a violation is an incident to be recorded in `ops/OPS-LOG.md`.
 
 ## 1. Core principles

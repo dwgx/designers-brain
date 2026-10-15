@@ -1,5 +1,7 @@
 # Workflow — Lanes & the LOOP Protocol
 
+English · [中文](i18n/zh-CN/WORKFLOW.md) · [日本語](i18n/ja/WORKFLOW.md)
+
 > Entry: `AGENTS.md` · Architecture: `docs/ARCHITECTURE.md` · Queue: `ops/GOALS.md` · Templates: `templates/`
 > This file is the operations manual. Changing it means changing the workflow — consult the main brain first.
 
