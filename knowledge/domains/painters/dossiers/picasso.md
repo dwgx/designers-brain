@@ -216,6 +216,181 @@ impasto, text or signage, lens vignette, chromatic aberration
 
 ---
 
+## 11. 生平与年代轴（详细）
+
+> wave14 加固新增（2026-10-15，BioPicasso）。规格：叙述 ≥2000 字 + 年份表 ≥15 行 + 来源 ≥10 条。来源编号 **S1–S19** 独立于 §9 的 [1]–[14]；§9/§10 原文不动，旧缺口（生卒日级、Gilot 线引语、1916 年首展等）由本节按新来源回填。
+>
+> **引语分级注（本节涉及三类传记材料，引用时按此分级）**：
+> ① **Richardson《A Life of Picasso》**（1991–2021，四卷）＝学术传记 `[研究]`——作者 1950 年代起与毕加索本人及其圈子交往，以亲历者访谈与档案见长；卷四身后出版。
+> ② **Penrose《Picasso: His Life and Work》**（1958，修订 1973/1981）＝亲历者传记 `[史料/转述]`——作者 1930 年代起与毕加索相识，1958 年前后为英语世界标准传记。
+> ③ **Gilot《Life with Picasso》**（1964，与 Carlton Lake 合著；法译 1965）＝回忆录 `[自述·转述（回忆录）]`——**1964 年追记 1943–1953 年对话，属事后重构**；出版时毕加索曾在法国诉讼阻挠（未果），此后拒绝再见 Claude 与 Paloma。**凡引 Gilot 书须标「回忆录转述」并降置信度**（语料卡 Q20/Q21 按此执行）。
+
+### 11.1 叙述（1881 → 身后）
+
+**马拉加与拉科鲁尼亚（1881–1895）。** 巴勃罗·鲁伊斯·毕加索 1881 年 10 月 25 日生于西班牙马拉加（S9；§10-7 的日级缺口由此回填）：父何塞·鲁伊斯·布拉斯科（1838–1913）为美术教师与画家，母玛丽亚·毕加索·洛佩斯（1855–1939）。妹 Lola（1884 年生）、Conchita（1887–1895）。1888 年在父亲指导下开始作画；1891 年全家随父职迁拉科鲁尼亚，1892 年入当地美术学校，1893 年自绘自编家庭杂志《Azul y Blanco》；据 Antonina Vallentin 记录，他后来自称「十二岁就画得像拉斐尔」（S16）。1895 年 Conchita 病逝，全家迁往巴塞罗那——此后九年（至 1904）是他的学院训练期与性格形成期（S7）。
+
+**巴塞罗那学徒期（1895–1900）。** 迁巴塞罗那当年入 La Lonja 美术学校（父亲在校任教）；1896 年《初领圣体》参展巴塞罗那美展；1897 年完成第一件大画《科学与慈善》，同年考入马德里圣费尔南多学院、次年春离校返巴塞罗那。1898 年与挚友 Manuel Pallarès 初访 Horta de Ebro（今 Horta de Sant Joan）——「回到本源」式的乡村经验此后多次复现（1909 年再访）。1899 年进入 Els Quatre Gats（「四只猫」）前卫圈子，结识 Carlos Casagemas 与 Jaume Sabartés（后者 1935 年起任其私人秘书、终身挚友，后为巴塞罗那毕加索博物馆奠基捐赠人，S6/S8）。1900 年与 Casagemas 首赴巴黎看世博会，落脚蒙马特，开始双城往返；同年他在巴塞罗那「四只猫」举办首次个展（S7）。
+
+**巴黎：蓝色与玫瑰（1900–1906）。** 1901 年 2 月 17 日，Casagemas 在巴黎自杀。毕加索以《Casagemas 之死》回应；同年「蓝色时期」开始（S9）；他晚年对 Pierre Daix 自述：「是想着 Casagemas 我才开始画蓝色」（S16），另有「I started painting in blue when I learned of Casagemas's death」互证（S17）。1902 年 Berthe Weill 画廊首次集中展出其蓝色作品，并完成首件黏土雕塑；1903 年作《生活》（克利夫兰）；1904 年迁入蒙马特「洗衣船」（Bateau-Lavoir），结识诗人 Apollinaire、Salmon 与伴侣 Fernande Olivier（此后七年），色调由蓝转玫瑰（《演员》）；1905 年结识 Leo 与 Gertrude Stein 兄妹，并参观独立沙龙的梵高、修拉回顾展与秋季沙龙的安格尔回顾展；1906 年与 Fernande 赴加泰罗尼亚 Gósol，画《Gertrude Stein 像》，并结识马蒂斯与德兰（S9）。
+
+**立体主义革命（1907–1914）。** 1907 年是断点之年：《阿维尼翁少女》完成（同年 2 月画商 Kahnweiler 首访其工作室），经 Apollinaire 结识布拉克，并在特罗卡德罗民族志博物馆「发现」非洲雕刻；同年批评家 Vauxcelles 讥评布拉克的埃斯塔克风景为「立方体」，术语由此而来（§6；§9 [10]）。1908 年他在「洗衣船」为卢梭设宴（「卢梭之夜」）；1909 年再访 Horta、迁居 11 bd de Clichy；1910 年前后进入「分析立体主义」高峰——《Kahnweiler 像》让画商坐了约 30 次（§9 [6]），画面碎裂成「闪烁的半透明切面」（§7-4）。1911 年与 Eva Gouel 相恋、与 Fernande 分离，画面出现字母；1912 年迁蒙帕纳斯，作《有藤椅的静物》（第一件拼贴）与一批 papiers collés——「立体主义双人组」的黄金期；1913 年纽约军械库展、慕尼黑首次回顾展、父亲去世；1914 年 8 月一战爆发：按 Kahnweiler 记述，8 月 2 日毕加索送布拉克与德兰到阿维尼翁车站应征，「我再也没见过他们」——双人合作密度就此终结（S18）。1915 年 12 月 Eva 病逝（S9）。
+
+**芭蕾、古典与超现实（1916–1936）。** 1916 年结识佳吉列夫与俄罗斯芭蕾舞团，同年《阿维尼翁少女》由 André Salmon 组织首次公开展出（S9；§10-6 单源缺口由馆方年表回填）；1917 年赴罗马、那不勒斯为《Parade》设计布景服装，遇舞者 Olga Khokhlova，随她经马德里到巴塞罗那；1918 年与 Olga 结婚，11 月 Apollinaire 去世；1920 年与 Olga 首居胡安莱潘（蔚蓝海岸时期开始）。1921 年儿子 Paulo 出生，枫丹白露夏居期间作《三个音乐家》；1922 年首居迪纳尔、作《海滩上奔跑的两个女人》，并与 Cocteau 合作《安提戈涅》；1923 年在昂蒂布度夏、作《潘神笛》；1924 年为芭蕾《墨丘利》做设计，超现实派公开支持（S9）。1925 年作《舞蹈》（Tate），与超现实主义者群体进入活跃互动期（巴黎馆年表段标 1924–1935「Surrealism」，S9）；1926 年《Cahiers d'Art》定期发表其作品、完成一批吉他拼装；1927 年遇 Marie-Thérèse Walter；1928 年与 Julio González 合作铁雕、牛头怪母题登场；1929 年与 Olga 关系恶化、与 Marie-Thérèse 同赴迪纳尔；1930 年购 Boisgeloup 城堡；1931 年设雕塑工坊、完成《Vollard 组曲》铜版画；1932 年巴黎 Georges Petit 画廊回顾展、Zervos 全集首卷出版；1933 年夏戛纳、巴塞罗那；1934 年最后一次西班牙行；1935 年停笔写作（诗歌）、与 Olga 分居、女儿 Maya 出生、遇 Dora Maar（S9）。
+
+**格尔尼卡与占领期（1936–1945）。** 1936 年西班牙内战爆发，共和政府任命他为普拉多博物馆馆长；1937 年 4 月 26 日格尔尼卡被轰炸，5–6 月他在 rue des Grands-Augustins 新工作室完成《格尔尼卡》（Dora Maar 全程摄影记录），7 月于巴黎世博会西班牙馆展出（S9/S15）；1938 年 Penrose 策划《格尔尼卡》英国巡展为西班牙共和政府筹款（S4）；1939 年母亲去世、MoMA 大型回顾展、二战爆发；1940–44 年留守巴黎；1941 年写六幕剧本《被尾巴抓住的欲望》；1942 年作《公牛头》（自行车鞍座+车把），同年 Vlaminck 在《Comoedia》发文攻击他，青年画家与抵抗知识分子声援（S9）。1943 年遇 Françoise Gilot；1944 年加入法国共产党，秋季沙龙「解放沙龙」为他办大型回顾展（对作品与政治立场的反应激烈，S9）。1945 年作《停尸房》；同年 3 月 24 日对《Les Lettres françaises》记者 Simone Téry 说出「绘画不是用来装饰公寓的——它是进攻和防御的武器」（S19，异文注见 §11.4）。
+
+**地中海年代：昂蒂布与瓦洛里斯（1946–1955）。** 1946 年夏，他在昂蒂布 Château Grimaldi 工作两个月，留下 23 幅油画与 44 幅素描——这座城堡 1966 年 12 月 27 日成为全球第一个毕加索专馆（Musée Picasso, Antibes；1948 年他又捐 78 件马杜拉陶瓷，S14）。1947 年儿子 Claude 出生；他在瓦洛里斯 Madoura 陶瓷工坊（Ramié 夫妇）开始陶瓷创作；1948 年迁瓦洛里斯「La Galloise」别墅、出席弗罗茨瓦夫世界和平大会、威尼斯双年展首展；1949 年女儿 Paloma 出生、《和平鸽》被 Aragon 选为巴黎和平大会海报、向瓦洛里斯捐《抱羊的人》（1950 年立于集市广场，为当地第一件公共雕塑，S11）；1950 年获国际和平奖并作《山羊》等废料雕塑系列；1951 年在瓦洛里斯城堡小教堂庆祝 70 岁生日、作《朝鲜大屠杀》；1952 年在 Fournas 画室完成《战争与和平》双联巨作（先有约 300 幅草稿，1954 年上墙、1956 年赠予国家、1959 年正式揭幕为「和平圣殿」，S12/S13）；约 1952–53 年在 Madoura 结识 Jacqueline Roque。1953 年斯大林画像风波后与法共保持距离；同年 9 月 Françoise Gilot 携子女离开；1954 年遇 Sylvette David、迁回巴黎与 Jacqueline 同住；1955 年 Olga 去世、购戛纳「La Californie」别墅（S9）。
+
+**晚期与逝世（1955–1973）。** 1955–56 年 Clouzot 拍摄《毕加索的秘密》（获戛纳特别评审奖）；1956 年联署就匈牙利局势致法共的公开信、巴塞罗那首次回顾展；1957 年画《宫娥》变奏系列、为出版商 Gili 完成《斗牛术》26 幅版画插图；1958 年 UNESCO《伊卡洛斯的坠落》落成、购 Vauvenargues 城堡；1959 年阿波利奈尔纪念碑与瓦洛里斯「和平圣殿」相继揭幕；1961 年与 Jacqueline 在瓦洛里斯结婚、迁穆然 Notre-Dame-de-Vie；1963 年巴塞罗那毕加索博物馆开馆（以 Sabartés 捐赠 574 件为底，全球第一个毕加索博物馆、唯一在他生前建立，S4/S6）；1964 年 Brassaï《与毕加索对话》出版、开始《画家与模特》系列；1965 年 Gilot《Life with Picasso》出版——「尽管艺术家反对」（S9；出版争议与引语分级见本节引语注）；1966 年 85 岁「向毕加索致敬」大展在大皇宫/小皇宫举行（Malraux 主持）；1967 年拒授荣誉军团勋章；1968 年 Sabartés 去世，他将《宫娥》全系列与 Sabartés 像捐给巴塞罗那；1969 年作《奥尔加斯伯爵的葬礼》系列与《吻》；1970 年向巴塞罗那捐出早年作品（含早年习作、蓝色时期作品等约 920 件，S9；件数见 S6 交叉）；1971 年 90 岁——卢浮宫大画廊为他办展（生前唯一）；1973 年 4 月 8 日在穆然逝世，葬于 Vauvenargues 城堡花园；同年遗作展在阿维尼翁教皇宫举行（S9）。
+
+**身后与三城档案（1973– ）。** 1981 年《格尔尼卡》依其遗愿归还西班牙（9 月抵马德里，暂存 Casón del Buen Retiro），1992 年移入索菲亚王后国家艺术中心博物馆（S15）。巴黎方面：1979 年「dation」核定（203 幅油画、158 件雕塑、1,500 幅素描等入藏），1985 年 9 月 28 日毕加索博物馆在 Hôtel Salé 开馆；1990 年 Jacqueline 遗产再次 dation、1992 年毕加索个人档案（照片/手稿/通信等）入藏——巴黎由此成为「作品 + 档案」双中心（S10）。巴塞罗那方面：馆藏 4,251 件，以早年作品（1890–1917 为主）与《宫娥》系列为特色；档案含 Sabartés、Gaspar 家族与 Vidal Ventosa 摄影等 fonds；2011 年「知识与研究中心」开放图书馆/档案库（S6）。瓦洛里斯方面：博物馆以《战争与和平》现场为核心，附陶瓷/雕塑藏品与文献中心（S11–S13）。三城分工可概括为：巴塞罗那＝早期作品与加泰罗尼亚文献；巴黎＝全时段藏品与个人档案；瓦洛里斯＝地中海时期现场（S6/S10/S11）。
+
+### 11.2 分期速查与年份表
+
+**分期速查（多口径并列）**：蓝色时期 **1901–1904**（S17）；玫瑰时期 **1904–1906**（S17）；非洲—伊比利亚前奏 **1906–1907**；立体主义 **1907–1914**（分析 1910–12 / 综合 1912–14，§9 [10]）；新古典与芭蕾 **1917–1925**；与超现实主义并行 **1924/25–1935**（巴黎馆段标「1924–1935 Surrealism」，S9）；西班牙战争与占领 **1936–1945**（S9 段标）；地中海时期 **1946–1955**（巴黎馆段标「1946–1964 The Mediterranean Years」；其中 1948–1955 居瓦洛里斯，S11）；晚期 **1955–1973**（S9 段标「1965–1973 The Final Years」）。
+
+| 年份 | 事件（要点） | 来源 |
+|---|---|---|
+| 1881 | 10 月 25 日生于马拉加 | S9 |
+| 1891–92 | 迁拉科鲁尼亚；入当地美术学校（父任教） | S9 |
+| 1895 | 妹 Conchita 病逝；迁巴塞罗那；入 La Lonja | S9/S7 |
+| 1896 | 《初领圣体》参展（巴塞罗那美展） | S9 |
+| 1897 | 《科学与慈善》；入马德里圣费尔南多学院 | S9 |
+| 1898 | 与 Pallarès 初访 Horta de Ebro | S9 |
+| 1899 | Els Quatre Gats 圈；识 Casagemas、Sabartés | S9/S8 |
+| 1900 | 与 Casagemas 首赴巴黎（世博会） | S9 |
+| 1901 | Casagemas 自杀（2-17）；蓝色时期开始 | S9/S16/S17 |
+| 1902 | Berthe Weill 画廊展出蓝色作品；首件黏土雕塑 | S9 |
+| 1903 | 《生活》（克利夫兰） | S9 |
+| 1904 | 迁「洗衣船」；识 Fernande Olivier；蓝→玫瑰 | S9 |
+| 1905 | 识 Stein 兄妹 | S9 |
+| 1906 | Gósol 之行；《Gertrude Stein 像》；识马蒂斯、德兰 | S9 |
+| 1907 | 《阿维尼翁少女》；识布拉克；Kahnweiler 首访（2 月） | S9 |
+| 1908 | 「卢梭之夜」（洗衣船） | S9 |
+| 1909 | 再访 Horta；迁 11 bd de Clichy | S9 |
+| 1910 | 《Kahnweiler 像》（坐约 30 次）；分析期高峰 | §9 [6] |
+| 1911 | 与 Eva Gouel；与 Fernande 分离；字母入画 | S9 |
+| 1912 | 《有藤椅的静物》；papiers collés；迁蒙帕纳斯 | S9 |
+| 1913 | 纽约军械库展；父亲去世 | S9 |
+| 1914 | 一战爆发；8-2 送布拉克/德兰赴役（Kahnweiler 记） | S9/S18 |
+| 1915 | Eva 病逝（12 月） | S9 |
+| 1916 | 识佳吉列夫；《阿维尼翁少女》首次公开展出 | S9 |
+| 1917 | 意大利行；《Parade》；识 Olga；马德里/巴塞罗那 | S9 |
+| 1918 | 与 Olga 结婚；Apollinaire 去世 | S9 |
+| 1921 | Paulo 出生；枫丹白露；《三个音乐家》 | S9 |
+| 1925 | 《舞蹈》；超现实活跃期（段标 1924–1935） | S9 |
+| 1927 | 遇 Marie-Thérèse Walter | S9 |
+| 1930 | 购 Boisgeloup 城堡 | S9 |
+| 1932 | Georges Petit 回顾展；Zervos 全集首卷 | S9 |
+| 1935 | 与 Olga 分居；Maya 出生；遇 Dora Maar | S9 |
+| 1936 | 西班牙内战；任普拉多馆长 | S9 |
+| 1937 | 《格尔尼卡》；巴黎世博会西班牙馆 | S9/S15 |
+| 1939 | 母亲去世；MoMA 回顾展；二战爆发 | S9 |
+| 1944 | 加入法共；秋季沙龙回顾展 | S9 |
+| 1946 | 昂蒂布 Château Grimaldi；留 23 油画 + 44 素描 | S14 |
+| 1947 | Claude 出生；马杜拉陶瓷 | S9 |
+| 1949 | Paloma 出生；《和平鸽》；捐《抱羊的人》 | S9/S11 |
+| 1952 | 《战争与和平》完成（约 300 草稿） | S12 |
+| 1955 | Olga 去世；购 La Californie | S9 |
+| 1961 | 与 Jacqueline 结婚；迁穆然 | S9 |
+| 1963 | 巴塞罗那馆开馆（3 月 9 日） | S6 |
+| 1966 | 「向毕加索致敬」展；昂蒂布馆正式挂牌（12-27） | S9/S14 |
+| 1968 | Sabartés 去世；《宫娥》系列捐巴塞罗那 | S9 |
+| 1970 | 向巴塞罗那捐早年作品（约 920 件） | S9/S6 |
+| 1971 | 卢浮宫 90 岁特展（生前唯一） | S9 |
+| 1973 | 4 月 8 日逝于穆然；葬 Vauvenargues | S9 |
+| 1981 | 《格尔尼卡》归还西班牙（9 月抵马德里） | S15 |
+| 1985 | 巴黎毕加索博物馆开馆（9-28） | S10 |
+| 1992 | 个人档案入藏巴黎馆；《格尔尼卡》移入索菲亚王后馆 | S10/S15 |
+
+### 11.3 传记三源（Richardson / Penrose / Gilot）
+
+- **Richardson《A Life of Picasso》（1991–2021，四卷）**：卷 I《The Prodigy 1881–1906》（Random House, 1991，获 1991 惠特布莱德年度图书奖）；卷 II《The Cubist Rebel 1907–1916》（Random House, 1996）；卷 III《The Triumphant Years 1917–1932》（Knopf, 2007）；卷 IV《The Minotaur Years 1933–1943》（Knopf, 2021，作者 2019 年去世后出版）。作者 1950 年代起在普罗旺斯与毕加索及 Léger、de Staël 等交往，以亲历者访谈与档案见长，被广泛视作毕加索的标准传记（S1–S3）。**口径注**：任务所称「三卷」= 前三卷（1991/1996/2007）；2021 年另有身后出版的第四卷，本档案四卷并列著录。
+- **Penrose《Picasso: His Life and Work》（1958）**：英国超现实主义者、策展人——1938 年策划《格尔尼卡》英国巡展（为西班牙共和政府筹款）、1947 年联合创办 ICA、1960 年策划 Tate 毕加索大展；1930 年代与毕加索相识（S4）。1958 年版是 Richardson 之前英语世界的标准传记；修订版 1973/1981——引用其转述时标注版本与页码。
+- **Gilot《Life with Picasso》（1964，与 Carlton Lake 合著）**：1943–1953 年伴侣关系的第一手回忆；畅销逾百万册、译成数十种语言；毕加索曾在法国发起诉讼试图阻止出版（未果）；此后他拒绝再见 Claude 与 Paloma；版税用于子女继承诉讼（S5）。**引语分级**：书中对话为十年后追记的「重构」，与 1923/1935 谈话类「当时文本」不同级——本档案按 `[自述·转述（回忆录）]` 使用，并在语料卡（`_corpus/picasso.md` 追加区 Q20/Q21）逐条标注。
+
+### 11.4 §11 来源（S1–S19）
+
+| # | 来源 | URL / 说明 |
+|---|---|---|
+| S1 | Richardson 四卷书目与生平（含卷四 2021 身后出版、1991 惠特布莱德奖） | https://en.wikipedia.org/wiki/John_Richardson_(art_historian) ；https://archive.org/details/lifeofpicasso00rich （卷 I 记录） |
+| S2 | NYT 书评：卷四《The Minotaur Years》（2021-11-20） | https://www.nytimes.com/2021/11/20/books/review/a-life-of-picasso-john-richardson.html |
+| S3 | theartsdesk「Encounter: John Richardson」（2019 讣闻式访谈） | https://theartsdesk.com/visual-arts/encounter-john-richardson-picassos-biographer-who-has-died-95 |
+| S4 | Penrose 传记两版记录 + 生平（1938《格尔尼卡》巡展等） | https://archive.org/details/picassohislifewo00penr （1959 美版）；https://archive.org/details/picassohislifewo0000penr （1973 美版）；https://en.wikipedia.org/wiki/Roland_Penrose |
+| S5 | Gilot 出版信息与生平（诉讼、畅销、子女） | https://archive.org/details/lifewithpicasso00gilorich ；https://archive.org/details/lifewithpicasso0000fran_b8g6 ；https://en.wikipedia.org/wiki/Fran%C3%A7oise_Gilot |
+| S6 | 巴塞罗那毕加索博物馆「馆史」（含 1963-03-09 开馆、4,251 件、研究中心） | https://museupicassobcn.cat/en/picasso-and-barcelona/history-of-the-picasso-museum ；交叉：https://en.wikipedia.org/wiki/Museu_Picasso |
+| S7 | 巴塞罗那馆「与巴塞罗那的关系」（1895–1904 居留、Quatre Gats 等） | https://museupicassobcn.cat/en/picasso-and-barcelona/picasso-connection-with-barcelona |
+| S8 | 巴塞罗那馆「与 Sabartés 的关系」（1899 相识、1935 任秘书、1968 逝） | https://museupicassobcn.cat/en/picasso-and-barcelona/picasso-relationship-with-sabartes |
+| S9 | 巴黎毕加索博物馆「年表」（逐年纪事；本节表内大量行） | https://www.museepicassoparis.fr/en/picasso-biography/timeline/ |
+| S10 | 巴黎馆「馆史」（1974 决定 / 1979–1985 改造 / Simounet） | https://www.museepicassoparis.fr/en/hotel-sale/picasso-museum-history/ ；交叉：https://fr.wikipedia.org/wiki/Mus%C3%A9e_Picasso_(Paris) （1985-09-28 开馆、1992 档案入藏） |
+| S11 | 瓦洛里斯「Picasso à Vallauris」（1948–1955 居留、Fournas、Madoura、《抱羊的人》） | https://musees-nationaux-alpesmaritimes.fr/picasso/picasso-vallauris |
+| S12 | 瓦洛里斯「La Guerre et la Paix」（1952 创作、约 300 草稿、1954/1956/1959 节点） | https://musees-nationaux-alpesmaritimes.fr/picasso/collection/la-guerre-et-la-paix |
+| S13 | 瓦洛里斯「La chapelle」（1959 装置、Claude Roy 记录的烛光语） | https://musees-nationaux-alpesmaritimes.fr/picasso/la-chapelle |
+| S14 | 昂蒂布毕加索博物馆（1946 驻留、23 油画 + 44 素描、1966-12-27 挂牌、1948 陶瓷） | https://www.antibesjuanlespins.com/decouvrir/les-incontournables/le-musee-picasso |
+| S15 | 索菲亚王后馆《格尔尼卡》（1937 创作语境、1992 移入） | https://www.museoreinasofia.es/en/collection/artwork/guernica-0 |
+| S16 | 转述底本 A：Daix/Bernadac《le sage et le fou》p.31（Casagemas 蓝）、Brassaï《Conversations》p.99（塞尚）、Vallentin 1957 p.8（拉斐尔） | 转录底本：https://fr.wikiquote.org/wiki/Pablo_Picasso （2026-10-15 本机核对） |
+| S17 | 交叉核对：蓝色时期 1901–1904 与 Casagemas 句 | https://en.wikipedia.org/wiki/Picasso%27s_Blue_Period ；https://en.wikipedia.org/wiki/Picasso%27s_Rose_Period （玫瑰 1904–1906） |
+| S18 | Kahnweiler《My Galleries and Painters》（1971）p.46 转述（1914-08-02 阿维尼翁车站） | 转录底本：https://en.wikiquote.org/wiki/Pablo_Picasso |
+| S19 | Simone Téry 访谈（《Les Lettres françaises》1945-03-24，「装饰公寓」语） | 转录底本：https://en.wikiquote.org/wiki/Pablo_Picasso ；https://fr.wikipedia.org/wiki/Pablo_Picasso （异文："Cette/La"、"offensif/offensive"；旧录日期 1943 属误，从 1945 报刊版） |
+
+---
+
+## 12. 临摹/学习清单（10 件）
+
+> wave14 新增。用法：按「看什么 → 学什么 → 怎么练」三步；「怎么练」均为可执行练习，与 §4 参数、§8.2 判定规则挂钩处已注明。10 件覆盖蓝 / 玫瑰 / 立体主义（分析·综合）/ 超现实 / 战争 / 地中海 / 晚期各段。
+
+### 12.1 《老吉他手》The Old Guitarist（1903–04，芝加哥艺术博物馆，28067）
+- **看什么**：近乎单色的蓝—蓝绿世界；全画唯一暖色区（吉他棕）；盲乐手的脊柱曲线与垂头；薄涂与画布的磨损感。https://www.artic.edu/artworks/28067/the-old-guitarist
+- **学什么**：单色域内如何用明度与姿态承载情绪（不靠表情、不靠色彩对比）；「蓝」是明度主题而非颜色主题。
+- **怎么练**：① 任选一张人物照，只准用 3 个蓝色相 + 黑白，画 5 级明度草图 ×3；② 情绪只通过姿态（脊柱曲线 ±15°）表达，禁用面部细节；③ 缩到 64px 自查「低头+抱琴」剪影仍可读（对应 §8.2-8 锚点验收）。
+
+### 12.2 《杂技演员之家》Family of Saltimbanques（1905，华盛顿国家美术馆，46665）
+- **看什么**：六人组的「同处而互不注视」；粉/赭/蓝的玫瑰色盘；改画史（蓝底被玫瑰覆盖、蓝调透出）。https://www.nga.gov/artworks/46665-family-saltimbanques
+- **学什么**：大尺幅群像的间距与朝向节奏；冷暖两层叠加的「透底」技术（蓝→玫瑰的过渡即画面史）。
+- **怎么练**：① 用 5–6 个人物剪影排一组「群体中的孤立」，只调间距与朝向，出 3 版；② 同底稿先画冷调再罩暖色，保留 10–15% 冷色透出；③ 按 §4-P2 把色相收敛度放到 4–5 色（中档），记录每版「孤立感」最强的一张。
+
+### 12.3 《阿维尼翁少女》Les Demoiselles d'Avignon（1907，MoMA，79766）
+- **看什么**：五个身体 + 两种脸（左三伊比利亚式、右二面具式）；浅空间里相互挤压的面片；从 7 人草稿到 5 人成品的删减史。https://www.moma.org/collection/works/79766
+- **学什么**：「炸开形体但保留锚点」的边界控制；形式来源（伊比利亚/非洲）如何被同化而非拼贴。
+- **怎么练**：① 按草稿史做「7→5 人」删减练习：同构图先画 7 人再删到 5 人，只保留最强动作；② 用「面片夹角 10°–40°」重画一个人体（§1-1），相邻面片角度差 ≥10°；③ 右二脸用「两个孔洞=眼」的面具法重画（§2-11）。
+
+### 12.4 《卡恩维勒肖像》Daniel-Henry Kahnweiler（1910，芝加哥艺术博物馆，111060）
+- **看什么**：半透明切面的「闪烁」表面；发浪/领结/表链三处锚点；坐姿的纪念碑感（模特坐了约 30 次）。https://www.artic.edu/artworks/111060/daniel-henry-kahnweiler
+- **学什么**：分析期肖像工作法——先定锚点再炸形体（§2-1）；用明度差（ΔL* 8–20）代替明暗塑造。
+- **怎么练**：① 取一张坐姿照片：先勾 3–5 个锚点，再把其余区域切成 60–100 面片，单色棕灰 ≤5 色相；② 面片内零渐变（平涂），面片间明度差 ≥8；③ 缩至 64px 验证锚点可读性 ≥3 个（§8.2-8）。
+
+### 12.5 《有藤椅的静物》Still Life with Chair Caning（1912，巴黎毕加索博物馆）
+- **看什么**：椭圆画框 + 绳索边框；油画布上贴「藤编」油布（实物材料直接入场）；字母 "JOU"；再现与实物同框。https://www.museepicassoparis.fr/en/collection/ ；交叉：https://en.wikipedia.org/wiki/Still_Life_with_Chair_Caning
+- **学什么**：拼贴的逻辑——材料本身的指涉（藤编=椅子）；「把现实碎片插入绘画虚构」的边界操作。
+- **怎么练**：① 用现成印刷材料（报纸/乐谱/纹理纸）拼一幅静物，限定 1 处「实物材料」+ 1 处手绘（§4-P4 中档）；② 再画一版全手绘同构图，对比「差在哪」并写 3 行笔记；③ 自查：材料区与手绘区在同一明度层内咬合（无强边界）。
+
+### 12.6 《三个音乐家》Three Musicians（1921，MoMA，78630）
+- **看什么**：拼图式平涂色块；中心亮、暗环包裹；commedia dell'arte 三角色与乐谱；壁画级尺幅。https://www.moma.org/collection/works/78630
+- **学什么**：综合立体主义的「色块咬合」与符号编码（丑角≈自指）；尺寸即姿态。
+- **怎么练**：① 三人场景转 20–40 个互锁色块，硬边、零渐变；② 平涂判据自查：相邻 ΔE≤6 像素对 ≥85%（§8.2-6）；③ 中心 1/3 平均 L* 比边缘高 ≥8（§8.2-5）。
+
+### 12.7 《三个舞者》The Three Dancers（1925，Tate，T00729）
+- **看什么**：三个舞者的扭折、尖角与断裂感；重绘痕迹（1926 年 Pichot 自杀后改画）；古典→超现实的断点。https://www.tate.org.uk/art/artworks/picasso-the-three-dancers-t00729 ；研究：https://www.tate.org.uk/research/tate-papers/28/picasso-three-dancers
+- **学什么**：情绪驱动的人体变形；「同一张画多次改写」的再语义化。
+- **怎么练**：① 同一舞蹈姿势画 3 版：写实素描 → 几何简化 → 加 1 个「不协调」元素（尖角/错位色块）；② 给三版做「情绪强度」盲评（≥3 人）；③ 练习「重绘」：把旧稿局部覆盖并保留 1 处旧笔触可见。
+
+### 12.8 《格尔尼卡》Guernica（1937，索菲亚王后国家艺术中心博物馆）
+- **看什么**：灰阶（grisaille）+ 金字塔结构；符号系统（牛/马/灯/母亲/士兵）；「巨幅海报」式叙事；草图与 Dora Maar 摄影记录的过程。https://www.museoreinasofia.es/en/collection/artwork/guernica-0
+- **学什么**：用 ≤7 个符号压缩事件；灰阶作为「新闻纸」语法；大尺幅的构图控制。
+- **怎么练**：① 选一则新闻事件，仅用 ≤7 个符号 + 纯灰阶做一张 A2 构图；② 做「三态推进」：草图 → 简化（删 30% 元素）→ 定稿（再删 10%），每次删一个最弱元素；③ 缩至明信片尺寸自查：「受难—光源—混乱」三层仍可读。
+
+### 12.9 《生活的欢乐》La Joie de vivre（1946，昂蒂布毕加索博物馆）
+- **看什么**：战后色彩的自由回归（明快饱和）；古典神话（法翁/半人马/宁芙）+ 装饰性曲线；大尺幅里的「舞与乐」。https://www.antibesjuanlespins.com/decouvrir/les-incontournables/le-musee-picasso
+- **学什么**：「地中海色盘」的搭配法；古典母题的现代改写；曲线主导的构图。
+- **怎么练**：① 用 5–6 个高饱和色块画一幅「宴乐」场景，人物几何化（圆+波浪线）；② 细节 ≤10 处、禁用明暗渐变；③ 与 12.2 的玫瑰色盘对照，写 3 行「同一主题、两种时代色盘」差异笔记。
+
+### 12.10 《战争与和平》La Guerre et la Paix（1952，瓦洛里斯毕加索国家博物馆）
+- **看什么**：双联对照（战争：暗、碎、乱；和平：亮、圆、舞）；约 300 幅草稿；教堂空间中的装置（1959「和平圣殿」）。https://musees-nationaux-alpesmaritimes.fr/picasso/collection/la-guerre-et-la-paix
+- **学什么**：二元叙事结构；公共尺度的构图与符号通俗化；「为现场而作」的装置思维。
+- **怎么练**：① 「对照双联」练习：同主题两张，一暗一明、一碎一整，符号各 ≤5；② 并排 + 间隔 2m 观看测试（打印小样），验证 3 秒内能读出对立；③ 写 1 条「现场笔记」：假设它挂在长廊尽头，你会改哪里？
+
+---
+
 ## 自审（写进文件末尾）
 
 ### A 早产出

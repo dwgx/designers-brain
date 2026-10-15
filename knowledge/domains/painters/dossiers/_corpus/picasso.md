@@ -1,6 +1,6 @@
 # Pablo Picasso（毕加索）— 自述与同代记录语料
 
-> 用途：`knowledge/domains/painters/dossiers/_corpus/`（A-10 / DB-C2c-CorpusB）；采集 2026-10-15。
+> 用途：`knowledge/domains/painters/dossiers/_corpus/`（A-10 / DB-C2c-CorpusB）；采集 2026-10-15；**追加 2026-10-15（wave14：Q17–Q24）**。
 > 类型：`[self-written]`＝本人书写；`[reported speech]`＝他人记录的本人言辞；`[contemporary record]`＝同代/近同代记录。项目分级对应：前二者≈[自述]（后者为转述），末者≈[史料]。
 > 逐字核对底本（cache 原文）：① fr.wikiquote «Pablo Picasso» wikitext（`wqfr_picasso.wt`，出处含 Brassaï《Conversations avec Picasso》、Gilot《Vivre avec Picasso》、Malraux《Le Miroir des limbes》、Parmelin《Picasso dit…》、*Propos sur l'art* 等）；② en.wikiquote «Pablo Picasso»（`wqen_picasso.json`，含 1923 年「Picasso Speaks」与 Zervos 1935 访谈的英译）。
 > 警示：毕加索几无「手写文本」存世（见 Parmelin 记述），本卡除 Q11 手记一条外均为访谈/转述（[reported speech]）；英译条目（Q6、Q12）法语原文本次未取得。
@@ -114,3 +114,68 @@
 - 毕加索的**书信/手稿**类一手文本本次未采集（Q13 为唯一手记条）；其著名「言论」多为访谈转述，各版本转译互有出入（如 Q8/Q9 的「寻找—找到」在不同出版物中措辞不同）。
 - Q6、Q12 与 Q7 的**法语原文未取得**（Zervos 1935 原刊、1934 谈话原记录）；以英译为准并已标注。
 - 1935 年 Zervos 谈话法文原刊（*Cahiers d'art*, 1935, n° 7-10）与 Malraux 书中其他段落（p. 750/759/765/781/784/789/801-802）尚有余量未收。
+
+## 追加（wave14 加固 · 2026-10-15）
+
+> 本区为 wave14 生平加固的语料追加（Q17–Q24），对应档案 §11/§12，覆盖「蓝色时期 / 战争期 / 瓦洛里斯 / 传记三源」四条线。
+> **引语分级警示（本区执行口径）**：Q20/Q21（Gilot 回忆录）为**事后追记的对话重构**——写于事发 10–20 年后，出版曾遭毕加索诉讼阻挠（未果），按 `[reported speech·memoir]` **降置信度**使用，引用时必须携带「回忆录转述」标注；Q18/Q19（Penrose）为亲历者传记转述 `[reported speech]`；Q22 为即时报刊访谈 `[reported speech·press]`；Q17/Q23/Q24 为各底本转述（见各条）。
+> 本区全部条目核对底本：fr.wikiquote / en.wikiquote / 馆方页（2026-10-15 抓取；raw 存 `_scratch/picasso_w14/`）。
+
+### Q17. «C'est en pensant à Casagemas…»（蓝色时期起源）
+- **原文（法）**：« C'est en pensant à Casagemas [son ami récemment disparu] que je me suis mis à peindre en bleu. »
+- **出处**：Picasso à Pierre Daix；载 Marie-Laure Bernadac & Paule du Bouchet, *Picasso : le sage et le fou*, Gallimard（1986；2007 新版），p. 31。转录底本：fr.wikiquote。**注**：转录中拼作 "Casegemas"（录入误），正字 Casagemas；方括号为底本编者注。
+- **类型**：`[reported speech]`（转述：Daix / 传记）
+- **中文意译**：是想着卡萨赫马斯（我新近离世的朋友），我才开始画蓝色。
+- **交叉**：与「I started painting in blue when I learned of Casagemas's death」（en.wikipedia 引，见档案 §11 来源 S17）语义互证。
+
+### Q18. «Quand j'avais leur âge…»（Penrose 记录，儿童画展）
+- **原文（法）**：« Quand j'avais leur âge, je dessinais comme Raphaël, mais il m'a fallu toute une vie pour apprendre à dessiner comme eux. »
+- **出处**：Roland Penrose, *Picasso*（法译本, Flammarion, 1982），p. 361（语出一次儿童画展）；对照 *Propos sur l'art*（Gallimard, 1998），p. 160。转录底本：fr.wikiquote。
+- **类型**：`[reported speech]`（Penrose 传记转述）
+- **中文意译**：我像他们那么大的时候，画得像拉斐尔；但学他们那样画画，我花了一辈子。
+- **异文**：Vallentin 1957 版作「十二岁我画得像拉斐尔」（p. 8）；英文流行版「It took me four years to paint like Raphael, but a lifetime to paint like a child」转引链复杂（Erskine/Mattingly 1998、Marina Picasso 2001 等变体），本卡不采用为逐字引语。
+
+### Q19. «You mustn't always believe what I say…»（Penrose 记录）
+- **原文（英）**："You mustn't always believe what I say", he once told me. "Questions tempt you to tell lies, particularly when there is no answer."
+- **出处**：Roland Penrose, *Picasso: His Life and Work*（1981 版），p. 413。转录底本：en.wikiquote（原转录 "alway" 为录入误，按语义还原为 "always"）。
+- **类型**：`[reported speech]`（Penrose 传记转述）
+- **中文意译**：「别总信我说的话」，他有一次对我说，「问题会诱人说谎——尤其在没有答案的时候。」
+
+### Q20. «…hérissée de lames de rasoir…»（Gilot 回忆录）
+- **原文（法）**：« Je veux que mes peintures puissent se défendre, résister à l'envahisseur, comme si chaque surface était hérissée de lames de rasoir, afin que personne ne puisse y toucher sans se couper les mains. »
+- **出处**：Françoise Gilot & Carlton Lake, *Vivre avec Picasso*（Calmann-Lévy, 1965），p. 253。转录底本：fr.wikiquote。
+- **类型**：`[reported speech·memoir]`（回忆录追记——谨慎引用）
+- **中文意译**：我要我的画能自卫、能抵抗入侵者——像每寸表面都竖着剃刀片，谁碰谁割手。
+- **交叉**：同一「剃刀片」意象另见 Malraux 转述（本卡 Q2，p. 801）——两处独立来源、措辞不同，可互证意象而非逐字。
+
+### Q21. «…engager une action dramatique…»（Gilot 回忆录，1944）
+- **原文（法）**：« Pour moi, peindre un tableau c'est engager une action dramatique au cours de laquelle la réalité se trouve déchirée. Ce drame l'emporte sur toute autre considération. L'acte plastique n'est que secondaire, en ce qui me concerne. Ce qui compte, c'est le drame de l'acte lui-même, le moment où l'univers s'échappe pour rencontrer sa propre destruction. »
+- **出处**：同上（*Vivre avec Picasso*），p. 49（1944 年语）。转录底本：fr.wikiquote。
+- **类型**：`[reported speech·memoir]`（回忆录追记——谨慎引用）
+- **中文意译**：对我而言，画一张画就是展开一场戏剧行动——现实在其中被撕开。这场戏剧压倒一切；就我来说「造型动作」是次要的。要紧的是行动本身的戏剧性：宇宙挣脱出去、迎向自身毁灭的那一刻。
+
+### Q22. «…instrument de guerre…»（1945 报刊访谈）
+- **原文（法）**：« Cette peinture n'est pas faite pour décorer les appartements. C'est un instrument de guerre, offensif et défensif contre l'ennemi. »
+- **出处**：Simone Téry 访谈〈Picasso n'est pas officier dans l'armée française〉，*Les Lettres françaises*，1945-03-24。转录底本：fr.wikipedia（Guernica 段）/ en.wikiquote。
+- **类型**：`[reported speech·press]`（即时报刊访谈）
+- **中文意译**：这幅画不是用来装饰公寓的——它是针对敌人的进攻性兼防御性武器。
+- **异文注**：en.wikiquote 旧录作 "La peinture… offensive et défensive" 且日期标 1943（本机核为误）；fr.wikipedia 作 "Cette peinture… offensif et défensif"。逐字以原刊待核。
+
+### Q23. «…des bougies à la main…»（瓦洛里斯小教堂）
+- **原文（法）**：« Il ne fait pas très clair dans cette chapelle, et je voudrais qu'on ne l'éclaire pas, que les visiteurs aient des bougies à la main, qu'ils se promènent le long des murs comme dans des grottes préhistoriques, découvrant les figures, que la lumière bouge sur ce que j'ai peint, une petite lumière de chandelle. »
+- **出处**：Picasso à Claude Roy；载 Claude Roy, *Picasso, La guerre et la paix*, Cercle d'Art, 1954；馆方转录：瓦洛里斯馆「La chapelle」页。转录底本：馆方页 + fr.wikiquote。
+- **类型**：`[reported speech]`（Claude Roy 记录，馆方转录）
+- **中文意译**：这间小教堂里不够亮——我倒希望不要照明：让参观者手拿蜡烛，像在史前洞穴里一样沿墙走，发现那些形象，让烛光在我画的东西上移动，一点小小的烛光。
+
+### Q24. «…mon seul et unique maître…»（论塞尚）
+- **原文（法）**：« Si je connais Cézanne ! Il était mon seul et unique maître ! Vous pensez bien que j'ai regardé ses tableaux… J'ai passé des années à les étudier… Cézanne ! Il était comme notre père à nous tous. C'est lui qui nous protégeait. »
+- **出处**：Brassaï, *Conversations avec Picasso*, Gallimard, 1964，p. 99。转录底本：fr.wikiquote。
+- **类型**：`[reported speech]`
+- **中文意译**：我认识塞尚吗！他是我唯一的大师！您想得到，我看了他的画多少年……我花了好些年研究它们……塞尚！他就像我们所有人的父亲。是他护着我们。
+- **交叉**：与档案 §9 [13]（Tate "My one and only master"）同源互证；此条给出可核页码（p. 99）。
+
+## 缺口（wave14 追加）
+
+- 本区新增条目的**原书页码未直接复核**（archive.org 三种书均为借阅受限：Gilot / Penrose / Brassaï 全文检索接口返回受限；已试：fulltext inside.php、BookReader JSIA、Open Library search-inside）。核对口径 = 上列转录底本（与 v1 语料口径一致）。
+- Richardson《A Life of Picasso》四卷未取得电子文本；其引述内容暂不入语料区（档案 §11 仅用其书目与生平事实）。
+- Q22 的逐字（"Cette/La"、拼写与日期 1943/1945 之争）待原刊或权威转录复核后升级。
