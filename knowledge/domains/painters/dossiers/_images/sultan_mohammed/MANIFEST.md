@@ -10,22 +10,22 @@
 
 | 文件 | 作品 | 年份 | 馆藏 | 来源（Commons 文件页） | License | 归属 |
 |---|---|---|---|---|---|---|
-| `court_gayumars.jpg` | 《古尤马尔斯宫廷》（The Court of Gayumars）全页 | c. 1524–25 | 多伦多，阿迦汗博物馆 AKM165（原 Sadruddin Aga Khan 旧藏） | https://commons.wikimedia.org/wiki/File%3ACourt_of_Gayumars_Persian_miniature.jpg | Public domain | 苏丹·穆罕默德（Dust Muhammad 1544 记述） |
-| `court_gayumars_detail.jpg` | 《古尤马尔斯宫廷》画面裁切版 | c. 1524–25 | 阿迦汗博物馆 AKM165 | https://commons.wikimedia.org/wiki/File%3AThe_Court_of_Gayumars_%28Cropped%29.jpg | Public domain | 苏丹·穆罕默德（记述） |
-| `death_of_zahhak.jpg` | 《扎哈克之死》f.37v | c. 1535 | 阿迦汗博物馆 AKM155 | https://commons.wikimedia.org/wiki/File%3ASultan_Muhammad_Tiran_Zahhak.jpg | Public domain | 苏丹·穆罕默德（馆方归属；论证为其对《列王纪》最后贡献） |
-| `rustam_sleeping_bm.jpg` | 《鲁斯塔姆沉睡，拉赫什斗狮》 | c. 1515–22 | 伦敦，大英博物馆 1948,1211,0.23 | https://commons.wikimedia.org/wiki/File%3ASleeping_Rustam.jpg | Public domain | 苏丹·穆罕默德（BM 策展归属；早期风格） |
-| `faridun_zahhak_freer.jpg` | 《法里顿锤击扎哈克》 | c. 1525 | 华盛顿，弗里尔美术馆 F1996.2 | https://commons.wikimedia.org/wiki/File%3AFaridun_strikes_Zahhak_with_the_ox-headed_mace.jpg | Public domain | 苏丹·穆罕默德（馆方归属） |
-| `feast_of_sada_met.jpg` | 《萨达节之宴》f.22v | c. 1525 | 纽约，大都会艺术博物馆 1970.301.2 | https://commons.wikimedia.org/wiki/File%3A%22The_Feast_of_Sada%22%2C_Folio_22v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107689.jpg | CC0 | 苏丹·穆罕默德（Met 归属：「Painting attributed to」） |
-| `tahmuras_divs_met.jpg` | 《塔赫穆拉斯降魔》f.23v | c. 1525 | 大都会艺术博物馆 1970.301.3 | https://commons.wikimedia.org/wiki/File%3A%22Tahmuras_Defeats_the_Divs%22%2C_Folio_23v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107119.jpg | CC0 | 苏丹·穆罕默德（Met 归属） |
-| `zahhak_fate_met.jpg` | 《扎哈克听闻命运》f.29v | c. 1524 | 大都会艺术博物馆 1970.301.4 | https://commons.wikimedia.org/wiki/File%3A%22Zahhak_is_Told_His_Fate%22%2C_Folio_29v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107120.jpg | CC0 | 苏丹·穆罕默德（Met 归属） |
-| `zal_magi_met.jpg` | 《扎尔问卜》f.73v | c. 1530–35 | 大都会艺术博物馆 1970.301.8 | https://commons.wikimedia.org/wiki/File%3A%22Zal_Consults_the_Magi%22%2C_Folio_73v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107124.jpg | CC0 | 苏丹·穆罕默德（Met 归属；assisted by 'Abd al-'Aziz） |
-| `hafiz_allegory_met.jpg` | 《世界与彼世的醉酒》f.135a（Cartier 哈菲兹） | c. 1531 | 大都会艺术博物馆 × 哈佛艺术博物馆（1988.430 联合藏） | https://commons.wikimedia.org/wiki/File%3AFolio_Divan_Hafiz_Met_1988.430.jpg | Public domain | 苏丹·穆罕默德（**直署**：عمل سلطان محمد） |
-| `hafiz_signature.jpg` | 《庆祝开斋节》签名细部（统治者足下） | c. 1531 | 私人收藏（原 Cartier 旧藏） | https://commons.wikimedia.org/wiki/File%3ASultan_Muhammad_signature%2C_at_the_feet_of_the_ruler._The_feast_of_I%E2%80%99d_begins%2C_Diwan_of_Hafiz_manuscript%2C_1531.jpg | Public domain | 苏丹·穆罕默德（**直署**） |
-| `celebration_id.jpg` | 《庆祝开斋节》f.86a（Cartier 哈菲兹） | c. 1527–31 | 私人收藏（原 Cartier 旧藏） | https://commons.wikimedia.org/wiki/File%3APortrait_of_Sam_Mirza_as_a_patron%3B_The_feast_of_I%E2%80%99d_begins%2C_copy_of_Diwan_Hafiz_manuscript.jpg | Public domain | 苏丹·穆罕默德（**直署**） |
-| `lovers_picnic_harvard.jpg` | 《恋人野餐》 | c. 1530 | 哈佛艺术博物馆 2007.183.2 | https://commons.wikimedia.org/wiki/File%3ALovers%27_Picnic.jpg | Public domain | 苏丹·穆罕默德（馆方归属：Attributed to） |
-| `khusraw_shirin_bl.jpg` | 《霍斯鲁窥见西琳沐浴》f.53v | 1539–43 | 伦敦，大英图书馆 Or.2265 | https://commons.wikimedia.org/wiki/File%3AKhusraw_watches_Shirin_bathing.jpg | CC0 | 苏丹·穆罕默德（BL 馆档归属） |
-| `jamal_jalal_divan.jpg` | 《贾马尔与贾拉尔》f.2v「苏丹的迪万」 | c. 1502–05 | 乌普萨拉大学图书馆 O Nova 2 | https://commons.wikimedia.org/wiki/File%3AThe_sultan_in_his_divan_%28full_view%2C_f._2v%29%2C_Dastan-i_Jamal_u_Jalal._1502-1505%2C_Tabriz_%28Uppsala_University_Library%2C_O_Nova_2%29.jpg | Public domain | 苏丹·穆罕默德（「可能」级；Commons/学界归属） |
-| `earthly_drunkenness_harvard.jpg` | 《尘世醉酒》 | c. 1530 | 哈佛艺术博物馆 1988.460.2 | https://commons.wikimedia.org/wiki/File%3AEarthly_Drunkenness.jpg | Public domain | 苏丹·穆罕默德（馆方归属） |
+| `court_gayumars.jpg` | 《古尤马尔斯宫廷》（The Court of Gayumars）全页 | c. 1524–25 | 多伦多，阿迦汗博物馆 AKM165（原 Sadruddin Aga Khan 旧藏） | https://commons.wikimedia.org/wiki/File:Court_of_Gayumars_Persian_miniature.jpg | Public domain | 苏丹·穆罕默德（Dust Muhammad 1544 记述） |
+| `court_gayumars_detail.jpg` | 《古尤马尔斯宫廷》画面裁切版 | c. 1524–25 | 阿迦汗博物馆 AKM165 | https://commons.wikimedia.org/wiki/File:The_Court_of_Gayumars_%28Cropped%29.jpg | Public domain | 苏丹·穆罕默德（记述） |
+| `death_of_zahhak.jpg` | 《扎哈克之死》f.37v | c. 1535 | 阿迦汗博物馆 AKM155 | https://commons.wikimedia.org/wiki/File:Sultan_Muhammad_Tiran_Zahhak.jpg | Public domain | 苏丹·穆罕默德（馆方归属；论证为其对《列王纪》最后贡献） |
+| `rustam_sleeping_bm.jpg` | 《鲁斯塔姆沉睡，拉赫什斗狮》 | c. 1515–22 | 伦敦，大英博物馆 1948,1211,0.23 | https://commons.wikimedia.org/wiki/File:Sleeping_Rustam.jpg | Public domain | 苏丹·穆罕默德（BM 策展归属；早期风格） |
+| `faridun_zahhak_freer.jpg` | 《法里顿锤击扎哈克》 | c. 1525 | 华盛顿，弗里尔美术馆 F1996.2 | https://commons.wikimedia.org/wiki/File:Faridun_strikes_Zahhak_with_the_ox-headed_mace.jpg | Public domain | 苏丹·穆罕默德（馆方归属） |
+| `feast_of_sada_met.jpg` | 《萨达节之宴》f.22v | c. 1525 | 纽约，大都会艺术博物馆 1970.301.2 | https://commons.wikimedia.org/wiki/File:%22The_Feast_of_Sada%22%2C_Folio_22v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107689.jpg | CC0 | 苏丹·穆罕默德（Met 归属：「Painting attributed to」） |
+| `tahmuras_divs_met.jpg` | 《塔赫穆拉斯降魔》f.23v | c. 1525 | 大都会艺术博物馆 1970.301.3 | https://commons.wikimedia.org/wiki/File:%22Tahmuras_Defeats_the_Divs%22%2C_Folio_23v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107119.jpg | CC0 | 苏丹·穆罕默德（Met 归属） |
+| `zahhak_fate_met.jpg` | 《扎哈克听闻命运》f.29v | c. 1524 | 大都会艺术博物馆 1970.301.4 | https://commons.wikimedia.org/wiki/File:%22Zahhak_is_Told_His_Fate%22%2C_Folio_29v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107120.jpg | CC0 | 苏丹·穆罕默德（Met 归属） |
+| `zal_magi_met.jpg` | 《扎尔问卜》f.73v | c. 1530–35 | 大都会艺术博物馆 1970.301.8 | https://commons.wikimedia.org/wiki/File:%22Zal_Consults_the_Magi%22%2C_Folio_73v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107124.jpg | CC0 | 苏丹·穆罕默德（Met 归属；assisted by 'Abd al-'Aziz） |
+| `hafiz_allegory_met.jpg` | 《世界与彼世的醉酒》f.135a（Cartier 哈菲兹） | c. 1531 | 大都会艺术博物馆 × 哈佛艺术博物馆（1988.430 联合藏） | https://commons.wikimedia.org/wiki/File:Folio_Divan_Hafiz_Met_1988.430.jpg | Public domain | 苏丹·穆罕默德（**直署**：عمل سلطان محمد） |
+| `hafiz_signature.jpg` | 《庆祝开斋节》签名细部（统治者足下） | c. 1531 | 私人收藏（原 Cartier 旧藏） | https://commons.wikimedia.org/wiki/File:Sultan_Muhammad_signature%2C_at_the_feet_of_the_ruler._The_feast_of_I%E2%80%99d_begins%2C_Diwan_of_Hafiz_manuscript%2C_1531.jpg | Public domain | 苏丹·穆罕默德（**直署**） |
+| `celebration_id.jpg` | 《庆祝开斋节》f.86a（Cartier 哈菲兹） | c. 1527–31 | 私人收藏（原 Cartier 旧藏） | https://commons.wikimedia.org/wiki/File:Portrait_of_Sam_Mirza_as_a_patron%3B_The_feast_of_I%E2%80%99d_begins%2C_copy_of_Diwan_Hafiz_manuscript.jpg | Public domain | 苏丹·穆罕默德（**直署**） |
+| `lovers_picnic_harvard.jpg` | 《恋人野餐》 | c. 1530 | 哈佛艺术博物馆 2007.183.2 | https://commons.wikimedia.org/wiki/File:Lovers%27_Picnic.jpg | Public domain | 苏丹·穆罕默德（馆方归属：Attributed to） |
+| `khusraw_shirin_bl.jpg` | 《霍斯鲁窥见西琳沐浴》f.53v | 1539–43 | 伦敦，大英图书馆 Or.2265 | https://commons.wikimedia.org/wiki/File:Khusraw_watches_Shirin_bathing.jpg | CC0 | 苏丹·穆罕默德（BL 馆档归属） |
+| `jamal_jalal_divan.jpg` | 《贾马尔与贾拉尔》f.2v「苏丹的迪万」 | c. 1502–05 | 乌普萨拉大学图书馆 O Nova 2 | https://commons.wikimedia.org/wiki/File:The_sultan_in_his_divan_%28full_view%2C_f._2v%29%2C_Dastan-i_Jamal_u_Jalal._1502-1505%2C_Tabriz_%28Uppsala_University_Library%2C_O_Nova_2%29.jpg | Public domain | 苏丹·穆罕默德（「可能」级；Commons/学界归属） |
+| `earthly_drunkenness_harvard.jpg` | 《尘世醉酒》 | c. 1530 | 哈佛艺术博物馆 1988.460.2 | https://commons.wikimedia.org/wiki/File:Earthly_Drunkenness.jpg | Public domain | 苏丹·穆罕默德（馆方归属） |
 
 ## 逐张明细（原始尺寸 → 落盘）
 
