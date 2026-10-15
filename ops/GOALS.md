@@ -79,7 +79,17 @@
 | A-73 | done | wave18·萨拉希：544 行 v2 档案（§11 2147 字 + 41 行 + 16 来源；§12 10 件）+ 语料 44 条 + 22 张图**全在 `_private/`**（公开侧零图）；分工 vs 康定斯基/贝赫扎德写死（对侧口径互查一致） | `knowledge/domains/painters/dossiers/el_salahi.md` | ArtistElSalahi（wave18） |
 | A-74 | done | wave18·吴冠中：500 行 v2 档案（§11 2052 字 + 47 行 + 17 来源；§12 10 件）+ 语料 40 条 + 25 张图**全在 `_private/`**（公开侧零图；版权护栏入 §8.1）；分工 vs 康定斯基/八大山人/黄公望写死（抽象线中文落点，与 kandinsky.md 互洽） | `knowledge/domains/painters/dossiers/wu_guanzhong.md` | ArtistWuGuanzhong（wave18） |
 | A-75 | done | 索引合并二轮：三表并入 wave15/17（35 位/844 条；manifest 公开 273 张 + 私有例外 126 张；_index 35 行含 pass2 九行重算）；核验 **PASS 140 / FAIL 0**；两处口径决定留档（mucha 12/5、kandinsky 私有 11） | `knowledge/domains/painters/dossiers/` | IndexMerge2（wave16） |
-| A-76 | running | 模块卡 20→**42 张**（wave15/17/18 共 22 位入 ARTISTS + 生成 + README/domains.yaml 同步） | `knowledge/domains/painters/modules/` | ModuleCards42（wave16） |
+| A-76 | done | 模块卡 20→**42 张**：22 位入 ARTISTS + 生成 + README/SKILL/domains.yaml 同步；验收：`--check` **126/126** · skill `_selfcheck` PASS · 旧 20 卡零改动（sha256 全等）· `--write` 幂等 | `knowledge/domains/painters/modules/` | ModuleCards42（wave16） |
+| A-87 | running | wave20·赵孟頫（Zhao Mengfu）v2（书画同源） | `knowledge/domains/painters/dossiers/zhao_mengfu.md` | ArtistZhaoMengfu（wave20） |
+| A-88 | running | wave20·倪瓒（Ni Zan）v2（一河两岸/极简） | `knowledge/domains/painters/dossiers/ni_zan.md` | ArtistNiZan（wave20） |
+| A-89 | running | wave20·仇英（Qiu Ying）v2（工笔重彩） | `knowledge/domains/painters/dossiers/qiu_ying.md` | ArtistQiuYing（wave20） |
+| A-90 | running | wave20·尾形光琳（Ogata Kōrin）v2（琳派装饰） | `knowledge/domains/painters/dossiers/ogata_korin.md` | ArtistOgataKorin（wave20） |
+| A-91 | running | wave20·布莱克（Blake）v2（幻视图像体系） | `knowledge/domains/painters/dossiers/blake.md` | ArtistBlake（wave20） |
+| A-92 | running | wave20·夏尔丹（Chardin）v2（静物触感） | `knowledge/domains/painters/dossiers/chardin.md` | ArtistChardin（wave20） |
+| A-93 | running | wave20·马奈（Manet）v2（平面化现代性） | `knowledge/domains/painters/dossiers/manet.md` | ArtistManet（wave20） |
+| A-94 | running | wave20·索罗拉（Sorolla）v2（强阳光） | `knowledge/domains/painters/dossiers/sorolla.md` | ArtistSorolla（wave20） |
+| A-95 | running | wave20·佐恩（Zorn）v2（有限色板） | `knowledge/domains/painters/dossiers/zorn.md` | ArtistZorn（wave20） |
+| A-96 | running | wave20·苏丹·穆罕默德（Sultan Muhammad）v2（萨法维细密画） | `knowledge/domains/painters/dossiers/sultan_mohammed.md` | ArtistSultanMohammed（wave20） |
 | A-77 | running | wave19·范宽（Fan Kuan）v2（巨碑式山水/雨点皴） | `knowledge/domains/painters/dossiers/fan_kuan.md` | ArtistFanKuan（wave19） |
 | A-78 | running | wave19·雪舟（Sesshū）v2（日本水墨） | `knowledge/domains/painters/dossiers/sesshu.md` | ArtistSesshu（wave19） |
 | A-79 | running | wave19·康斯泰勃尔（Constable）v2（云的研究） | `knowledge/domains/painters/dossiers/constable.md` | ArtistConstable（wave19） |
