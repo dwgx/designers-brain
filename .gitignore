@@ -27,3 +27,6 @@ knowledge/domains/painters/_scratch/
 .DS_Store
 Thumbs.db
 *.swp
+
+# --- Private research layer (never commit) ---
+_private/

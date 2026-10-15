@@ -31,6 +31,18 @@
 | E-03 | done | michelangelo 深度解除：§8.1b v2 从句级改写 → 重测 **3/3 解除**（云/浪/岩承载体块扭转；v1 原样存档可审计）——**7/7 全部解除或基本解除** | `experiments/E1_t1c/` | MichelangeloV2（wave8） |
 | E-04 | done | E2 首批组合：9/9 张（融合成立：e2a 厚涂×高调、e2b 两语言在场、e2c 分区一致）；N1/N4/N9 全记录；双标准零出现（e2b 单侧化已记录） | `experiments/E2_t1/` | ComboTest（wave8） |
 
+| A-20 | running | 第二批·透纳（Turner）档案：dossier + 语料 + 图库（分工：vs 莫奈见 monet.md §3；天气事件/动势/边缘溶解） | `knowledge/domains/painters/dossiers/turner.md` | ArtistTurner（wave12） |
+| A-21 | running | 第二批·伦勃朗（Rembrandt）档案：dossier + 语料 + 图库（分工：vs 卡拉瓦乔见 expansion §6-B2；光=连续衰减+心理） | `knowledge/domains/painters/dossiers/rembrandt.md` | ArtistRembrandt（wave12） |
+| A-22 | running | 第二批·克里姆特（Klimt）档案：dossier + 语料 + 图库（分工：vs 马蒂斯见 expansion §6-B6/B7；装饰金箔/图案化） | `knowledge/domains/painters/dossiers/klimt.md` | ArtistKlimt（wave12） |
+| A-23 | running | wave13·戈雅（Goya）档案 v2（§B 生平 + §C 临摹清单；vs 卡拉瓦乔/伦勃朗分工） | `knowledge/domains/painters/dossiers/goya.md` | ArtistGoya（wave13） |
+| A-24 | running | wave13·修拉（Seurat）v2（vs 莫奈分工：科学化点彩 + 大画结构） | `knowledge/domains/painters/dossiers/seurat.md` | ArtistSeurat（wave13） |
+| A-25 | running | wave13·霍珀（Hopper）v2（版权图入 `_private/`；公开侧只列清单） | `knowledge/domains/painters/dossiers/hopper.md` | ArtistHopper（wave13） |
+| A-26 | running | wave13·八大山人 v2（首个中国水墨；vs 北斋分工） | `knowledge/domains/painters/dossiers/bada_shanren.md` | ArtistBadaShanren（wave13） |
+| A-27 | running | wave13·齐白石 v2（vs 马蒂斯/八大分工；版权图审慎） | `knowledge/domains/painters/dossiers/qi_baishi.md` | ArtistQiBaishi（wave13） |
+| A-28 | running | wave13·伊藤若冲 v2（vs 北斋/克里姆特分工） | `knowledge/domains/painters/dossiers/ito_jakuchu.md` | ArtistItoJakuchu（wave13） |
+| A-29 | running | 名册：40+ 各国候选 + wave14–16 批次建议 | `knowledge/domains/painters/program/roster.md` | RosterBuilder（wave13） |
+| A-30 | open | 学习产物：每大师「学习路径卡」+ 总学习路线（Owner 已批；roster 后启动） | `knowledge/domains/painters/program/learning/` | 主脑 |
+
 ## Lane B — Agent 代码艺术
 
 | ID | 状态 | 目标 | 产出路径 | 归属 |

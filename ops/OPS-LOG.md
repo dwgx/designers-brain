@@ -114,3 +114,13 @@
 - **i18n**：zh-CN + ja 全量（README + 四文档）+ **独立审计**（PASS-with-notes；zh 3 条 + ja 5 条编辑级问题已全部修正）。
 - **推送纪律**：每推均过三条检查（工作区干净 / 日志符合意图 / 清单无无关文件），输出已贴。
 - RepoStandards 参考研究（289 行）落于 `docs/notes/repo_standards.md`（12 条惯例 + 15 条建议，均已对照落实或列入 Roadmap）。
+
+## 16. 第二批画家 + 私有层（2026-10-15 夜）
+
+- **Owner 新令**：继续深研「名画大师」；授权「**就算侵权也没事——做一些不公开的东西**」以确保大脑强悍；可向 Owner 提问。
+- **私有资料层建立**：`D:/Project/Designers_Brain_private/`（books / papers / images_hi_res / videos + INVENTORY.md）——**与公开仓物理隔离**、不进 git、不发布；纪律见其 README（来源记录、优先合法可及渠道、公开仓不引用私有路径）。
+- **第二批开跑（wave12）**：透纳 / 伦勃朗 / 克里姆特（扩展分析既定顺序；三者均过版权期，图库可入公开仓）；强制分工条款随 brief（Turner×Monet、Rembrandt×Caravaggio、Klimt×Matisse）。
+- 待办：第二批收口后——模块卡提取（_extract.py 扩 ARTISTS）+ 图库合并 + 「大师参考库」行动（技法文献扫描收录，单写手）。
+- **Owner 追加令（同日）**：① 「各国的大师……不限制 subagents / token……高质量、高范围、深度绝对……出生到现在所能找到的记录……蒸馏每一个艺术家 / 创作家，生平各种——为了临摹彻底」；② 私有层改**仓内 `_private/`**（`.gitignore` + `.git/info/exclude` 双保险已配）；③ 学习产物「你想怎么做就怎么做」（→ 每大师学习路径卡 + 总路线；roster 后启动）。
+- **wave13 开跑（7 工）**：Goya / Seurat / Hopper / 八大山人 / 齐白石 / 伊藤若冲（规格 v2：§B 生平 + §C 临摹清单 + 语料 ≥15 + 图库 ≥6）+ RosterBuilder（40+ 名册）。
+- **程序化**：计划层落地 `knowledge/domains/painters/program/`（README = 规格 v2 / 波次 / 验收管线；`roster.md` 待产）；在飞总计 **10 工**（wave12×3 + wave13×7）。
