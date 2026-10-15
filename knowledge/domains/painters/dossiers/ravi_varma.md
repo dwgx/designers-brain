@@ -419,7 +419,7 @@ cartoon, anime, 3D render, glowing highlights
 
 ### A. 早产出
 
-本轮按「先核后写、中间产物先落」执行：开工先全仓核对 `ravi_varma` 无既有文件（find/grep，仅 roster/GOALS 中作为候选出现）→ 建 `_scratch/ravi_varma/` → **图片先落**：16 张下载 + contact sheet 目验（1 张 oleograph 因 Commons 429 未取，如实记录）→ **语料先完整落盘**（30 条，21 KB）→ 档案**分三段落盘**（① 头部+§0–§4，17.3 KB；② §5–§10；③ §11+§12+自审）→ 图库 MANIFEST 与私有层 INVENTORY。中间产物全部在 `_scratch/`（采集脚本、meta.json、contact sheet，未提交）与 `_private/`（论文副本），公开侧无脚手架。
+本轮按「先核后写、中间产物先落」执行：开工先全仓核对 `ravi_varma` 无既有文件（find/grep，仅 roster/GOALS 中作为候选出现）→ 建 `_scratch/ravi_varma/` → **图片先落**：16 张下载 + contact sheet 目验；oleograph 样张于收尾前补取（Commons 429 限流下取「列出尺寸」缩略图 500px，如实标注）——合计 **17 张** → **语料先完整落盘**（30 条，21 KB）→ 档案**分三段落盘**（① 头部+§0–§4，17.3 KB；② §5–§10；③ §11+§12+自审）→ 图库 MANIFEST 与私有层 INVENTORY。中间产物全部在 `_scratch/`（采集脚本、meta.json、contact sheet，未提交）与 `_private/`（论文副本），公开侧无脚手架。
 
 ### B. 反驳（挑最强结论逐条试推翻）
 
@@ -437,12 +437,40 @@ cartoon, anime, 3D render, glowing highlights
 检查器：`python _scratch/ravi_varma/check_dossier.py`（读取档案/语料/图库后计数；无落盘）+ 计数命令（2026-10-16 执行）。
 
 ```
-<!-- CHECKER-OUTPUT -->
+=== ravi_varma.md 结构检查（2026-10-16；eval/Python；无落盘）===
+§4  抽取: 900 chars, 13 lines
+§8.1 抽取: 1381 chars
+§8.2 抽取: 766 chars, 8 rules
+分工条款出现: 7 处（期望 ≥2 写死节 + 头部 + 交叉）
+§3.7/§3.8/§3.9 存在: True
+§11.1 叙述 CJK 字数: 2057 (期望 ≥2000)
+§11.2 年份表行数: 32 (期望 ≥15)
+§12 件数（标题）: 10
+§9 参考来源条数: 25
+语料条目数: 30 (期望 ≥15)
+图库张数: 17 (期望 ≥6)
+图库合计: 6.6 MB
+档案: 453 行 / 59967 bytes
+PASS-CHECK-DONE
+```
+
+计数命令（原样）：
+```
+$ grep -c '^### ' _corpus/ravi_varma.md      → 30（语料条目 ≥15 ✓）
+$ ls _images/ravi_varma/*.jpg | wc -l        → 17（图库 ≥6 ✓；含 MANIFEST.md 共 18 文件 / 6.6 MB）
+$ grep -c '分工条款' ravi_varma.md           → 7（含 §3.7/§3.8 两处「写死」节）
+$ wc -l ravi_varma.md _corpus/ravi_varma.md  → 453 / 229
+```
+
+回归（项目检查器，未受本档影响）：
+```
+$ python knowledge/domains/painters/modules/_extract.py --check → checks=60 ok=60 fail=0（20 卡 × §8.1/§8.2/§4；ravi_varma 尚未入 ARTISTS——模块卡扩展属主脑/ModuleCards20 任务）
+$ python docs/skill/_selfcheck.py                               → RESULT: PASS (checked=53 fail=0 · junctions=4/4 · domains=ok)
 ```
 
 ### D. 小结（≤14 行）
 
-- **已确立**：v2 全规格落盘——§0–§10 + §11（生平叙述 + 年份表）+ §12（临摹清单 10 件）+ 自审四段；语料 **30 条**（自述/同代/研究三栏）；图库 **16 张**（全 PD/PD-Art）。
+- **已确立**：v2 全规格落盘——§0–§10 + §11（生平叙述 + 年份表）+ §12（临摹清单 10 件）+ 自审四段；语料 **30 条**（自述/同代/研究三栏）；图库 **17 张**（全 PD/PD-Art）。
 - **已确立**：分工条款两处写死——§3.7 vs 欧洲学院派写实线（光/面孔/空间/题材四判据 + 组合注记）、§3.8 vs 谢尔吉尔（复制/图像志/凝视/色彩四判据）；§3.9 邻卡简表（北斋/贝赫扎德）。
 - **已确立**：系统首个印度大师（文化首开）；能力定位=神话舞台调度 + 达显正面性 + 学院写实本土化 + 石版彩印复制。
 - **被削弱（已标注）**：芝加哥奖章口径（两枚 vs 三枚金奖）；自画像两说；卒地/卒日异说；Baroda 年份/幅数；Jensen 年份与国籍；妻子名；1895 信收信人。

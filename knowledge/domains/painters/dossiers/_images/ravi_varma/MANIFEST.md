@@ -1,9 +1,9 @@
 # MANIFEST — 拉维·瓦尔马（ravi_varma）图库
 
-> 采集：ArtistRaviVarma（wave17）· 2026-10-16 · 规格 v2：**≥6 张** PD/开放许可（本目录 **16 张**）。
-> 落盘规范：单张长边 ≤1800px；合计约 6.5 MB。
+> 采集：ArtistRaviVarma（wave17）· 2026-10-16 · 规格 v2：**≥6 张** PD/开放许可（本目录 **17 张**）。
+> 落盘规范：单张长边 ≤1800px；合计约 6.6 MB。
 > 许可说明：全部图像来自 **Wikimedia Commons**——作品本体为 Public domain（作者 1906 年卒，life+100 以内；美国 1931 年前出版）；照片为忠实 2D 复制品（PD-Art），Commons 逐张核为 PD。来源列中的 Google Arts & Culture / 拍卖行链接为 Commons 著录的原始数字来源（版权不因数字来源改变——作品本体已 PD）。
-> 采集工具：Special:FilePath 直取 + PIL 缩放（脚本：`_scratch/ravi_varma/download_images.py`；Commons API 中途限流 429，一张 oleograph 样张未取，见文末备注）。
+> 采集工具：Special:FilePath 直取 + PIL 缩放（脚本：`_scratch/ravi_varma/download_images.py`；Commons API/原件下载中途限流 429——oleograph 样张以「列出尺寸」缩略图补取（500px），见文末备注）。
 
 ## 总表
 
@@ -25,6 +25,7 @@
 | `self_portrait.jpg` | 《自画像》（晚年像；私人收藏，出处：Rupika Chawla, *Raja Ravi Varma: Painter of Colonial India*） | 未定年 | 私人收藏 | [File](https://commons.wikimedia.org/wiki/File:Self_portrait_by_Raja_Ravi_Varma.jpg) | Public domain (PD-Art) |
 | `shakuntala_patra_lekhan.jpg` | 《沙恭达罗写信》（Shakuntala Patra-lekhan） | c.1870s–90s | 未注（Commons 未记馆藏） | [File](https://commons.wikimedia.org/wiki/File:Sakunthala-pathralekhanam.jpg) | Public domain |
 | `saraswati.jpg` | 《辩才天女》（Saraswati，持维纳琴；神像油画原型） | 1896 | **Maharaja Fateh Singh Museum**（Lakshmi Vilas Palace, Vadodara） | [File](https://commons.wikimedia.org/wiki/File:Saraswati.jpg) | Public domain |
+| `saraswati_oleograph.jpg` | 《辩才天女》石版彩印版（oleograph；Press 印制） | c.1900s | 藏处未注（Commons；Ravi Varma Press 印刷品） | [File](https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma,_Goddess_Saraswati.jpg) | Public domain |
 
 ## 逐张明细（来源 URL / 落盘尺寸）
 
@@ -60,13 +61,15 @@
     - Commons: https://commons.wikimedia.org/wiki/File:Sakunthala-pathralekhanam.jpg ｜ 落盘: 982×670px，184 KB
 16. **saraswati.jpg** — 1896；油彩；Maharaja Fateh Singh Museum 藏；与 Press 版《Saraswati》同为「人形化神像」原型（Commons 另有其 oleograph 版本）。
     - Commons: https://commons.wikimedia.org/wiki/File:Saraswati.jpg ｜ 落盘: 925×1496px，384 KB
+17. **saraswati_oleograph.jpg** — Press 石版彩印样本（与 #16 油画原型对照；印刷品把油画语言转为套色平版——见档案 §2-10/§8.2-8）。
+    - Commons: https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma,_Goddess_Saraswati.jpg ｜ 落盘: 500×688px，135 KB（**分辨率如实标注**：Commons 429 限流下取「列出尺寸」缩略图；原件未取）
 
 ## 备注
 
-- **来源分布**：Wikimedia Commons 16 张（含其著录的数字来源：Google Arts & Culture 3、拍卖/画廊档案 3、其他 10）。
-- **馆藏分布**（据 Commons 著录）：Sree Chitra Art Gallery 3；NGMA 新德里 1；Kowdiar Palace 1；Fateh Singh Museum 1；私人收藏/拍卖记录 6；未注 4。
+- **来源分布**：Wikimedia Commons 17 张（含其著录的数字来源：Google Arts & Culture 3、拍卖/画廊档案 3、其他 11）。
+- **馆藏分布**（据 Commons 著录）：Sree Chitra Art Gallery 3；NGMA 新德里 1；Kowdiar Palace 1；Fateh Singh Museum 1；私人收藏/拍卖记录 6；未注 4；Press 印刷品 1（藏处未注）。
 - **缺失与替代**：
-  - 一张 **oleograph 样张**（`Raja Ravi Varma, Goddess Saraswati.jpg`，Press 印刷版）因 Commons 429 限流未取；如需印刷版对照，可用 `saraswati.jpg`（油画原型）+ 档案 §8 文字说明，或后续补取。
+  - **oleograph 样张已补取**（`saraswati_oleograph.jpg`，Press 印刷版；Commons 429 限流下取「列出尺寸」缩略图 500×688——原件未取，分辨率如实标注）。
   - 《Nair Lady》《自画像》两图源分辨率偏低（Commons 现状），已如实标注；不伪造高清替代。
 - 全部图像：作者卒于 1906（PD）；复制品为忠实 2D 复制（PD-Art / Commons 逐张核 PD）；无 3D 物摄影版权争议。
 - 采集过程记录：`knowledge/domains/painters/_scratch/ravi_varma/`（会话内工作目录，未提交；含 contact_sheet.png 与元数据 meta.json）。
