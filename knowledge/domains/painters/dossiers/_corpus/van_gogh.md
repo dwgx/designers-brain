@@ -4,6 +4,7 @@
 > 类型标注：[self-written] 本人书写（书信）；[reported speech] 他人转述；[contemporary record] 同时代记录。
 > 底本：vangoghletters.org（Van Gogh Museum / Huygens ING 全集网络版）书信原文（法文/荷兰文）逐字摘录；英文对照见同页翻译。
 > 原信行内断字与版式标记（页码、草图位置）已规范化，不改变词句。
+> **wave14 追加（2026-10-15，BioVanGogh / A-33）**：+16 条（#21–36）→ 合计 36 条；新增「生平与心境」（13 条）与「提奥书信」（3 条）两节（信 155/156/497/569/677/682/691/741/783/881/899/902 + 提奥 819/900/901）。
 
 ## 技法
 
@@ -157,8 +158,131 @@
 - 中文意译：（荷兰语）我总在画我还不会画的东西，为的是学会画它。
 - 注：同段自承「我认识不到哪个画家像我这样错误百出，但这并不使我确信自己根本错了」。
 
+## 生平与心境（wave14 追加）
+
+### 21. 心里的火与路人（let155, 致提奥）
+> Tel a un grand foyer dans son âme et personne n’y vient jamais se chauffer et les passants n’en aperçoivent qu’un petit peu de fumée en haut par la cheminée et puis s’en vont leur chemin.
+
+- 来源：Vincent van Gogh, letter 155 to Theo van Gogh（Cuesmes，1880-06-22/24）；https://vangoghletters.org/vg/letters/let155/letter.html
+- 类型：[self-written]
+- 中文意译：有人心里有一团大火，却从没有人来取暖；路人只看见烟囱口冒出的一小缕烟，然后继续走他们的路。
+
+### 22. 「积极的忧郁」（let155, 致提奥）
+> j’ai pris le parti de mélancholie active pour autant que j’avais la puissance d’activité, ou en d’autres termes j’ai préféré la mélancholie qui espère et qui aspire et qui cherche à celle qui morne et stagnante désespère.
+
+- 来源：同 21（let155）
+- 类型：[self-written]
+- 中文意译：我选择了「积极的忧郁」——只要我仍有行动的力量；换言之，我宁愿要那种怀着希望、向上渴望、不停寻找的忧郁，也不要那种阴沉、停滞、绝望的忧郁。
+
+### 23. 只要我能继续工作（let156, 致提奥）
+> Si seulement je puis continuer à tra[va]iller, je remonterai encore de manière ou autre.
+
+- 来源：letter 156（Cuesmes，1880-08-20）；https://vangoghletters.org/vg/letters/let156/letter.html
+- 类型：[self-written]
+- 中文意译：只要我能继续工作，我总能以某种方式重新站起来。
+- 注：`[va]` 为编者对残损字迹的补字（原样保留）。
+
+### 24. 土豆与手（let497, 致提奥）
+> die luidjes die bij hun lampje hun aardappels eten, met die handen die zij in den schotel steken zelf de aarde hebben omgespit en het spreekt dus van handenarbeid en van – dat zij hun eten zoo eerlijk verdiend hebben.
+
+- 来源：letter 497（Nuenen，1885-04-30）；https://vangoghletters.org/vg/letters/let497/letter.html
+- 类型：[self-written]
+- 中文意译：这些在油灯下吃土豆的人，用他们伸进盘子里的那双手翻过土地——画里说的是体力劳动，以及他们诚实地挣得了自己的食物。
+
+### 25. 强烈的色彩（let569, 致 H. M. Livens）
+> Trying to render intense COLOUR and not a grey harmony.
+
+- 来源：letter 569 to Horace Mann Livens（Paris，1886 年 9 或 10 月）；https://vangoghletters.org/vg/letters/let569/letter.html
+- 类型：[self-written]
+- 中文意译：尝试画出强烈的色彩，而不是灰色的和谐。
+- 注：本信以英文写成；同信另有 `the french air clears up the brain and does one good – a world of good`。
+
+### 26. 为别人备一张床（let677, 致提奥）
+> Dès le commencement j’ai voulu arranger la maison non pas pour moi seul mais de façon à pouvoir loger quelqu’un.
+
+- 来源：letter 677（Arles，1888-09-09）；https://vangoghletters.org/vg/letters/let677/letter.html
+- 类型：[self-written]
+- 中文意译：从一开始我就想把房子布置成不只是为我自己，而是能给别人提供住处。
+
+### 27. 爱人（let682, 致提奥）
+> il n’y a rien de plus reellement artistique que d’aimer les gens.
+
+- 来源：letter 682（Arles，1888-09-18）；https://vangoghletters.org/vg/letters/let682/letter.html
+- 类型：[self-written]
+- 中文意译：没有什么比爱人更真正艺术的了。
+
+### 28. 宗教的需要（let691, 致提奥）
+> j’ai un besoin terrible de, dirai je le mot – de religion – alors je vais la nuit dehors pour peindre les étoiles et je rêve toujours un tableau comme cela avec un groupe de figures vivantes des copains.
+
+- 来源：letter 691（Arles，1888-09-29 前后）；https://vangoghletters.org/vg/letters/let691/letter.html
+- 类型：[self-written]
+- 中文意译：我有个可怕的需要——要不要说出来——宗教的需要。于是我夜里出去画星星，并且总梦见一幅画：一群活生生的朋友。
+
+### 29. 津德尔特的记忆（let741, 致提奥）
+> Pendant ma maladie j’ai revu chaque chambre de la maison à Zundert, chaque sentier, chaque plante dans le jardin, les aspects d’alentour, les champs, les voisins, le cimetiere, l’eglise, notre jardin potager derriere – jusqu’au nid de pie dans un haut accacia dans le cimetière.
+
+- 来源：letter 741（Arles，1889-01-22）；https://vangoghletters.org/vg/letters/let741/letter.html
+- 类型：[self-written]
+- 中文意译：病中我又看见了津德尔特家里的每一个房间、每一条小路、花园里每一株植物、四周的景致、田野、邻居、墓地、教堂、屋后的菜园——直到墓地里那棵高槐树上的喜鹊窝。
+- 注：同信另有「病后重看我的画，我觉得最好的是《卧室》」（When I saw my canvases again after my illness, what seemed to me the best was the bedroom.）。
+
+### 30. 柏树（let783, 致提奥）
+> Les cyprès me preoccupent toujours, je voudrais en faire une chose comme les toiles des tournesols parceque cela m’étonne qu’on ne les aie pas encore fait comme je les vois. C’est beau comme lignes et comme proportions, comme une obelisque egyptienne.
+
+- 来源：letter 783（Saint-Rémy，1889-06-25）；https://vangoghletters.org/vg/letters/let783/letter.html
+- 类型：[self-written]
+- 中文意译：柏树一直让我惦记——我想像画向日葵那样为它们做点什么，因为我惊讶于还没有人把它们画成我看见的样子。它们的线条与比例很美，像一座埃及方尖碑。
+
+### 31. 噩梦止息（let881, 致提奥与 Jo）
+> C’est drôle tout de même que le cauchemar aie cessé ici à tel point.
+
+- 来源：letter 881 to Theo van Gogh and Jo van Gogh-Bonger（Auvers，1890-06-10）；https://vangoghletters.org/vg/letters/let881/letter.html
+- 类型：[self-written]
+- 中文意译：说也奇怪，在这里噩梦竟这样止息了。
+
+### 32. 想念母亲与妹妹（let899, 致母亲与 Wil）
+> Dikwijls denk ik aan U beiden en zou wel erg graag U nog eens terugzien.
+
+- 来源：letter 899 to Anna van Gogh-Carbentus and Willemien van Gogh（Auvers，1890-07-10/14）；https://vangoghletters.org/vg/letters/let899/letter.html
+- 类型：[self-written]
+- 中文意译：我常常想到你们两位，很想再见到你们。
+- 注：荷兰语；写于去世前两周余。
+
+### 33. 全神贯注（let902, 致提奥·末信）
+> je m’applique sur mes toiles avec toute mon attention, je cherche à faire aussi bien que de certains peintres que j’ai beaucoup aimé et admiré.
+
+- 来源：letter 902（Auvers，1890-07-23；致提奥的最后一封信）；https://vangoghletters.org/vg/letters/let902/letter.html
+- 类型：[self-written]
+- 中文意译：我正全神贯注地画我的画布，努力画得像某些我深爱并钦佩的画家一样好。
+
+## 提奥书信（Theo → Vincent，wave14 追加）
+
+### 34. 鸢尾花被人看见（let819, 提奥致文森特）
+> Les Iris ont été vu par beaucoup de personnes qui m’en parlent.
+
+- 来源：Theo van Gogh, letter 819 to Vincent van Gogh（Paris，1889-11-16）；https://vangoghletters.org/vg/letters/let819/letter.html
+- 类型：[self-written]（提奥·梵高致文森特）
+- 中文意译：独立者沙龙虽然办得糟，《鸢尾花》却被很多人看到，他们都跟我提起。
+- 注：同信谈布鲁塞尔「二十人展」邀请、Jo 与家中近况。
+
+### 35. 车夫上坡（let900, 提奥致文森特）
+> nous sommes comme les charretiers qui avec tous les efforts des chevaux ont atteints presque le sommet de la colline, ils tournent bride & souvent alors avec un nouvel effort ils atteignent le sommet.
+
+- 来源：Theo van Gogh, letter 900 to Vincent van Gogh（Paris，1890-07-14）；https://vangoghletters.org/vg/letters/let900/letter.html
+- 类型：[self-written]（提奥·梵高致文森特）
+- 中文意译：我们像那些车夫：马匹用尽全力快爬到山顶了，他们一掉头，常常再一使劲就到了顶。
+
+### 36. 健康是件大事（let901, 提奥致文森特）
+> Espérons que la santé à nous tous puisse s’améliorer, car la santé c’est beaucoup.
+
+- 来源：Theo van Gogh, letter 901 to Vincent van Gogh（Paris，1890-07-22）；https://vangoghletters.org/vg/letters/let901/letter.html
+- 类型：[self-written]（提奥·梵高致文森特）
+- 中文意译：希望我们大家的健康都能好转，因为健康是件大事。
+- 注：写于文森特去世前 5 天；同信回应梵高对「家事争吵」的误会，并请他「尽快来信」（`Donne moi de tes nouvelles aussitôt que possible.`）。
+
 ## 缺口与待验证
 
 - 本文件从缓存内 13 封带原文（法/荷）的书信中摘取；全集 903 封中其余书信未逐封核对原文，未收。
 - 全部条目均可在 vangoghletters.org 对应 letter 页（原文＋英译）复核。
 - 引文中的旧式拼写（如 chôse、suprimées、ca）系梵高本人或底本写法，未改动。
+- **wave14 追加（2026-10-15）**：新增 16 条（#21–36）已逐条对照 vangoghletters.org `original_text` / `translation` 页核过；信 569 为英文、899 为荷兰语、其余为法语；提奥 3 条（#34–36）为 [self-written]（提奥致文森特），已随条标注。

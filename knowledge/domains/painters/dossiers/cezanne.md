@@ -228,6 +228,140 @@ poses, facial expression detail, high-contrast lighting, neon colors
 
 ---
 
+## 11. 生平与年代轴（详细）
+
+> wave14 加固增项（BioCezanne，2026-10-15；规格 `program/README.md` §1：叙述 ≥2000 字 + 年份表 ≥15 行 + 来源 ≥10 条）。重点：**与左拉书信（Rewald 版）/ 艾克斯晚年档案 / 圣维克多山年代 / 1907 回顾展与身后影响链**。本节来源独立编号 **S1–S16**（与 §9 的 [n] 编号并存，互不冲突）；引文按原文照录并附中译。
+
+### 11.1 叙述
+
+**一、出生与少年（1839–1858）。** 1839 年 1 月 19 日生于普罗旺斯艾克斯（28 rue de l'Opéra），22 日在 Madeleine 教堂受洗；父亲 Louis-Auguste Cézanne（1798–1886）由制帽商转营银行（Cézanne et Cabassol），母亲 Anne-Élisabeth-Honorine Aubert（1814–1897），下有两个妹妹 Marie（1841）与 Rose（1854）。家境的宽裕是他一生「不靠卖画为生」的物质底。`[史料]`（S5、S15）十岁入 Saint-Joseph 学校；**1852 年入 Collège Bourbon，与 Émile Zola、Baptistin Baille 结为「Les Trois Inséparables」（三个不分离的人）**——三人读荷马与维吉尔、写诗、在 Arc 河畔游泳；Zola 劝他把诗写得认真些，他只当消遣。这段少年时光是《作品》里「三个不分离的人」的原型，也是全部左拉叙事与书信的起点。`[史料]`（S15、S5）1857 年起在艾克斯市立免费素描学校随 Joseph Gibert 学画；1858 年 2 月 Zola 随母迁居巴黎，两地通信自此开始——**Cézanne 现存最早致 Zola 的信为 1858 年 4 月 9 日**（诗体长信，写「自从你离开艾克斯，一种阴郁的悲伤压着我」；原件 BnF，NAF 24516，Rewald 编《Correspondance》1978 版 pp.17–21），**Zola 最早致 Cézanne 的信为 1858 年 6 月 14 日**（1894 年被《高卢人报》匿名刊出，1928 年才入全集）。`[史料]`（S5、S2）1859 年遵父命入艾克斯大学法科（两年后放弃），继续画校夜课，8 月获素描二等奖；同年父亲购下 Jas de Bouffan 庄园——此后近四十年的家族宅邸与画室。`[史料]`（S15、S14）
+
+**二、学徒期与巴黎往返（1861–1878）。** 1861 年 4 月首次赴巴黎（Zola 力劝促成），考 École des Beaux-Arts 落榜，改入 Académie Suisse（结识 Pissarro）；9 月失望返艾克斯。1862 年末再赴巴黎；1863 年入「落选者沙龙」；1864–1869 年连年送审沙龙被拒。1866–67 年受 Courbet 影响，以调色刀作厚重、暗色的「couillarde」系列（后人称「厚涂时期」）。`[史料]`（S15）1869 年结识装订工之女 Hortense Fiquet（后为妻子、被画最多的模特，约 26 幅）；1870 年 5 月 31 日在 Zola 婚礼上任男傧相；普法战争期间与 Hortense 避居 L'Estaque（曾被举报为逃兵）。1872 年 1 月 4 日儿子 Paul 出生（对父亲长期隐瞒）；1872–74 年随 Pissarro 在 Pontoise、Auvers 写生——**「向印象派学习」的转折**：色板转亮、户外作画、以色彩梯度代替线性轮廓。1874 年参加首届印象派群展（《现代奥林匹亚》遭群嘲；Manet 讥其「用瓦刀作画的泥水匠」）；1877 年第三届再展 16 件，此后不再与印象派同展。`[史料]`（S15）1878 年 3 月父亲发现 Hortense 与私生子，削减津贴，他一度向 Zola 求助；同年 4 月 14 日在致 Zola 信中写下对圣维克多山的著名一叹「**Quel beau motif！**」（见本节六）。`[史料]`（S15、S8）
+
+**三、与左拉：四十年通信（1858–1906）。** 通信有两个高峰：1858–1861（Zola 在巴黎、Cézanne 在艾克斯；1860 年 Zola 去信 16 封）与 1881–1887（Zola 充当 Cézanne 的私人事务顾问；1878 年 Cézanne 去信 18 封）。现存 Cézanne 书信约 230 件（Rewald 编），**致 Zola 者占最大宗**；2016 年 Gallimard 出版《Lettres croisées 1858–1887》（Mitterand 作序），首次按对话体例合刊 **115 封**——「不再是两个孤立的声音，而是一场对话」。`[史料]`（S3、S4）名场面：1860 年 3 月 25 日 Zola 信——「**我做了一个梦……我们的名字用金字并排闪耀在扉页上，在天才的兄弟情谊中形影不离地走向后世。**」`[史料]`（S2、S3）1886 年 3 月，Zola《作品》（L'Œuvre）出版（《Gil Blas》连载至 3 月 27 日，单行本 3 月 31 日）：主人公画家 Claude Lantier 长期被读作 Cézanne 的「失败者肖像」，「因《作品》而绝交」的传说由此而来。`[史料]`（S5、S2）**4 月 4 日 Cézanne 自 Gardanne 致谢**：「我刚收到你惠寄的《作品》。感谢《卢贡-马卡尔家族》的作者这番情谊的表示，请允许我握你的手，回想过去的年月。**Tout à toi sous l'impression des temps écoulés.**」——Rewald 旧版把末句误录为「impulsion」并判为「告别信」；2011 年 Lebensztejn 依手稿复原为「impression」（手稿先写「journées」后改「temps」），语气由「了结」变回「感念」。`[史料]`（S1、S2、S16）**2013 年 11 月 26 日**，Sotheby's 巴黎拍出一封此前未知的信：**1887 年 11 月 28 日** Cézanne 在巴黎再谢 Zola 寄赠《土地》（La Terre），并写道「**等你回来，我去看你、握你的手**」；估价 €4,000–6,000，成交 €27,500（五倍），现藏巴黎 Musée des lettres et manuscrits——「绝交」说就此被证伪，学界转而讨论「关系的渐行渐远」（Pagès 2012、Lethbridge 2014/2016）。`[史料]`（S1、S2、S16）此后 1888–1902 年，两人通信稀少、多经艾克斯友人（Numa Coste、Paul Alexis）间接传话；1896 年 5 月 2 日 Zola 在《费加罗报》仍称他「我的朋友」「我的兄弟」，却用了「avorté（未竟的）」一词，引发风波；1902 年 9 月 29 日 Zola 去世，据 Vollard 记，Cézanne 闻讯闭门痛哭一日。`[史料]`（S3、S2）**1906 年 5 月 27 日**（逝世前五个月），他出席艾克斯 Méjanes 图书馆的 Zola 胸像揭幕礼（Alexandrine Zola 刚把《三城记》手稿捐给 Méjanes）；Numa Coste 追述少年书信——「我们曾在山间、在绿橡树下诵读这些信，像读一场战役的战报」——时，**Cézanne 泣不成声**；同月他已授权 Alexandrine 出版 Zola 写给他的少年书信（即 1907 年 Fasquelle《Lettres de jeunesse》）。`[史料]`（S1、S2、S7）两人的书信此后分藏两馆：Cézanne→Zola 者由 Zola 生前妥存，1932 年经 Alexandrine 遗赠 BnF，Rewald 1937 年据以编《Correspondance》；Zola→Cézanne 者 1952 年由 Marie Gasquet 捐入 Méjanes（1982 年方解禁）。`[史料]`（S2、S7）
+
+**四、成熟期与转折（1878–1895）。** 1878 年起圣维克多山系列启动；1882 年经友人 Guillemet 运作首次（也是最后一次）入选官方沙龙；1882–85 年作《圣维克多山与阿尔克河谷高架桥》（Met）；1885–86 年 Gardanne 时期的「几何化块面」被公认为立体主义前奏（Met：「预告了立体主义」）。1886 年 4 月 28 日与 Hortense 结婚（为儿子继承权计），10 月 23 日父亲去世——继承约 40 万法郎，财务自此无忧。1890 年 1 月，布鲁塞尔「二十人展」（Les XX）第 7 届展出其三件（风景、房屋、浴者各一；本人未到场、无一售出）；同年起患糖尿病，健康与脾气逐年恶化。1895 年 11 月 Vollard 画廊首个个展（从约 150 件中选展 50 件）——**市场与名声的转折点**；1895 年前后租下 Bibémus 采石场小屋，与 Château Noir 一带成为此后十年的核心写生地（1888–1904）。`[史料]`（S15、S5、S6）
+
+**五、晚年与艾克斯档案（1896–1906）。** 1897 年 10 月 25 日母亲去世；1899 年 11 月 21 日 Jas de Bouffan 经拍卖售出（9 月 3 日他自 Marlotte 签署授权书；档案：Bouches-du-Rhône 省档案，307 E 1465，n°740），迁居艾克斯城内 23 rue Boulegon（顶层加建画室；装修期间短暂借住 Gasquet 家）。`[史料]`（S5）**1901 年 11 月 16 日以 2,000 法郎购下 Lauves 坡地约 50 are**（档案：307 E 1473，n°687），**1902 年建成「Atelier des Lauves」**——此后至 1906 年，他几乎每晨在此工作（官方站：「De 1902 à sa mort en 1906, Cezanne travaille tous les matins dans cet atelier」），午后外出写生（Bibémus、Château Noir、Lauves 山坡）。`[史料]`（S5、S14）1903 年首展秋季沙龙；1904 年秋季沙龙为其辟出专室（10 月 15 日–11 月 15 日）——年轻一代「发现」Cézanne 的现场；同年 2 月 Émile Bernard 到访一月、7 月在《L'Occident》刊文，两人通信持续至他去世。`[史料]`（S15）晚年本地舆论仍敌视（1903 年 3 月 Rochefort《对丑的爱》事件，艾克斯有人往他门上放报纸叫他离开），但他对 Vollard 自陈：「**我工作得很顽强，我瞥见了应许之地。我会像希伯来人的伟大首领那样（望而不入），还是能走进去？**」（1903 年 1 月 9 日信）。`[自述]`（S6）**1906 年 10 月 15 日**在 Lauves 上方写生时遇暴雨，坚持数小时后归途昏倒，被路过的洗衣车送回 rue Boulegon；次日仍起身去画园丁 Vallier 肖像，再次昏厥，从此卧床。**10 月 22 日**晨在 rue Boulegon 家中去世（死亡登记 n°716 记 10 月 23 日；据考系为延迟葬礼而少记一日；锁匠 Cyrille Rougier 被唤来为他合眼）；10 月 24 日葬于 Saint-Pierre 家族墓。`[史料]`（S5）身后，工作室原状保留：1954 年经 James Lord、John Rewald 发起的美国基金会（114 位出资人）购自旧主 Marcel Provence 并移交艾克斯大学，1969 年转归市有；今日与修复重开的 Jas de Bouffan、Bibémus 采石场、「画家花园」（Jardin des Peintres，眺望圣维克多山的公共观景点）并列为「Cezanne en Provence」四站点。`[史料]`（S14、S15）
+
+**六、圣维克多山年代。** 1878 年 4 月 14 日致 Zola 信是**已知最早以「motif（母题）」称呼该山的文献**——火车驶过 Alexis 乡宅附近时，「东侧出现一个惊人的母题：圣维克多山与俯瞰 Beaurecueil 的岩石」，同行的 Gibert 却说「线条晃得太厉害」；该铁路 1877 年 10 月 15 日通车，写信时仅早六个月。`[自述]`（S8）数量口径（并列）：MoMA 称该山「出现在其约 100 件绘画与素描中」；另有「30 余件油画 + 45 件水彩」「80 余次」等统计口径。`[史料]`（S12、S15）年代锚点：c.1878 系列启动；1882–85《高架桥》（站于其姐 Montbriand 地产上方；Met 称铁路桥「如罗马水道」，呼应 Poussin）；c.1887《大松树》（Courtauld；同景三幅中最完整，曾赠 Gasquet，后成为 Samuel Courtauld 1922 年「魔幻」时刻的起点）；1888–1904 Château Noir/Bibémus 期多幅（如 1897《圣维克多山俯瞰 Bibémus 采石场》）；1902–06 晚期自 Lauves 视角的油画与水彩系列（Met 1994.420；MoMA 水彩 114.1962 等）——晚期水彩的「留白与色块」反向塑造了其油画语言。`[史料]`（S9、S11、S6、S10、S12）
+
+**七、身后：1907 回顾展与影响链。** 1907 年两场回顾展：**6 月 17–29 日** Bernheim-Jeune 画廊展出 **79 件水彩**；**10 月 5 日–11 月 15 日**第 5 届秋季沙龙（Grand Palais）以两室陈列 **49 幅油画 + 7 件水彩**——Meier-Graefe、Kessler、Rilke 到场；Met 一语定评：「Posthumous exhibitions at Galerie Bernheim-Jeune and the Salon d'Automne in 1907 in Paris established Cézanne's artistic legacy.」`[史料/研究]`（S13、S15）影响链：Matisse、Derain 最先热忱，继而 Picasso、Léger、Braque、Duchamp、Mondrian；1907–08 年 Picasso《亚维农少女》、Braque 埃斯塔克风景（1908，被 Vauxcelles 讥为「立方体」）；1912 年 Gleizes/Metzinger《立体主义》：「**从他那里我们学到，改变一个物体的色彩即改变它的结构**」；1910 年 Roger Fry 伦敦「Manet and the Post-Impressionists」（Grafton Galleries，创「后印象派」之名）、1912 年续展；美国：1910/11 年纽约「291」画廊首展、1913 年军械库展；1929 年 MoMA 开馆首展即「Cézanne, Gauguin, Seurat, Van Gogh」。`[研究]`（S15、S13、S12）文本证据：Rilke 1907 书信（后结集《Letters on Cézanne》）、Modersohn-Becker 1907 年 10 月 21 日信（「像雷雨或重大事件」）、Klee 1909 年日记（「Cézanne 是我的老师 par excellence」）、Kandinsky 1912《论艺术的精神》。`[研究]`（S15）毕加索：「他是我们所有人的父亲」（「我唯一的大师」另见 §6）；Braque 1961：「Cézanne 是第一个从学院式机械透视中转身的人」；Matisse 1949：欠 Cézanne 最多；Giacometti 1957 访谈：他把头部当物来画。`[史料]`（S15、§6 既有 [12][13]）市场与制度：2011 年《玩纸牌的人》一版售予卡塔尔王室、2022 年《圣维克多山》在 Paul Allen 专拍以 1.38 亿美元成交（创其拍卖纪录）；艾克斯市 2025 年启动「Cézanne 2025」计划（约 3,000 万欧元；含名称商标注册、Musée Granet「Cézanne au Jas de Bouffan」大展 2025-06-28–10-12、修复并开放故居与工作室），2026 年适逢逝世 120 周年、Lauves 工作室修复后重开。`[研究]`（S15、S14）
+
+### 11.2 年份表（≥15 行）
+
+| 年份 | 事件 | 来源 |
+|---|---|---|
+| 1839 | 1 月 19 日生于艾克斯；2 月 22 日受洗 | S15、S5 |
+| 1852 | 入 Collège Bourbon；与 Zola、Baille 结「三剑客」 | S15 |
+| 1857 | 入市立素描学校（Gibert 门下） | S15 |
+| 1858 | 2 月 Zola 迁巴黎；4 月 9 日 Cézanne 最早致 Zola 信；6 月 14 日 Zola 最早致 Cézanne 信 | S5 |
+| 1859 | 入大学法科；父购 Jas de Bouffan | S15 |
+| 1861 | 首赴巴黎；入 Académie Suisse；9 月返艾克斯 | S15 |
+| 1862 | 再赴巴黎（此后长期两地往返） | S15 |
+| 1863 | 入「落选者沙龙」；1864–69 连年送审被拒 | S15 |
+| 1869 | 识 Hortense Fiquet | S15 |
+| 1870 | 任 Zola 婚礼男傧相；避居 L'Estaque | S15 |
+| 1872 | 子 Paul 出生；随 Pissarro 在 Pontoise/Auvers 写生 | S15 |
+| 1874 | 首届印象派群展（《现代奥林匹亚》被讥） | S15 |
+| 1877 | 第三届印象派展 16 件（最后一次） | S15 |
+| 1878 | 4 月 14 日致 Zola 信「Quel beau motif」；圣维克多山系列启动 | S8 |
+| 1882 | 首次入选官方沙龙（经 Guillemet） | S15 |
+| 1885–86 | Gardanne 几何化时期；《加尔达讷》预告立体主义 | S15、S13 |
+| 1886 | 3 月《作品》出版；4 月 4 日致谢信；4 月 28 日结婚；10 月 23 日父逝 | S5、S2 |
+| 1887 | 11 月 28 日致 Zola 信（2013 年重现；「绝交」证伪） | S1 |
+| 1890 | 患糖尿病；布鲁塞尔 Les XX 展 3 件 | S15、S5 |
+| 1895 | Vollard 首次个展；租 Bibémus 小屋（约 1895 起） | S15、S6 |
+| 1897 | 10 月 25 日母逝 | S5 |
+| 1899 | 11 月 21 日 Jas de Bouffan 售出；迁 23 rue Boulegon | S5 |
+| 1901 | 11 月 16 日购 Lauves 地块（2,000 法郎，约 50 are） | S5 |
+| 1902 | Lauves 工作室建成使用；9 月 29 日 Zola 去世 | S5、S15 |
+| 1903 | 首展秋季沙龙；致 Vollard「应许之地」信 | S15、S6 |
+| 1904 | 秋季沙龙专室（10.15–11.15）；Bernard 到访并刊文 | S15 |
+| 1906 | 5 月 27 日 Méjanes 揭幕礼；10 月 15 日遇雨；10 月 22 日去世；10 月 24 日葬 Saint-Pierre | S5、S1 |
+| 1907 | Bernheim-Jeune 水彩展（6 月）；秋季沙龙回顾展（10–11 月） | S13、S15 |
+| 1910 | Fry 伦敦展；Meier-Graefe 首部传记 | S15 |
+| 1913 | 纽约军械库展（美国首波大展） | S15 |
+| 1929 | MoMA 开馆首展以 Cézanne 领衔 | S12 |
+
+### 11.3 来源（≥10 条；S# 独立编号）
+
+| # | 来源 | 类型 | 出处/URL |
+|---|---|---|---|
+| S1 | Société Paul Cézanne：《Une lettre de Cezanne à Zola en 1887》（含 Sotheby's 2013-11-26 拍品转录、Mitterand 日期考订、Pagès 论文） | 档案转录+研究 | https://web.archive.org/web/20160815213100/http://www.societe-cezanne.fr/une-lettre-de-cezanne-a-zola-en-1887/ （原页 404，2026-10-15 经 Wayback 核） |
+| S2 | Société Paul Cézanne（Chédeville & Pagès）：《Cezanne et Zola, la fin d'une amitié ?》 | 研究 | https://www.societe-cezanne.fr/2016/07/09/cezanne-et-zola-la-fin-dune-amitie/ |
+| S3 | Henri Mitterand：《Une fraternité d'artistes : les Lettres croisées de Cézanne et de Zola》（2016-09-24 科罗克讲稿） | 研究 | https://www.societe-cezanne.fr/2016/12/07/une-fraternite-dartistes-les-lettres-croisees-de-cezanne-et-de-zola-henri-mitterand/ |
+| S4 | P. Cézanne & É. Zola：《Lettres croisées (1858–1887)》，Gallimard（Blanche），2016，464 p.，Mitterand 序 | 书信集（书目级） | gallimard.fr / librairie-gallimard.com 书目页（2026-10-15 核；未逐页比对） |
+| S5 | Société Paul Cézanne：《La vie de Paul Cezanne – Chronologie par Alain Mothe》（逐年页，含档案编号引文） | 档案+年表 | https://www.societe-cezanne.fr/lhomme/（本档核 1858/1886/1890/1891/1899/1901/1906 各页） |
+| S6 | Denis Coutagne：《Château Noir et Bibémus》 | 研究 | https://www.societe-cezanne.fr/2013/09/02/chateau-noir-et-bibemus/ |
+| S7 | Paul Smith：《Cezanne in the Joachim Gasquet archives in the Bibliothèque Méjanes》（2025 科罗克文集，2026-06 刊） | 研究（档案） | https://www.societe-cezanne.fr/2026/06/10/cezanne-in-the-joachim-gasquet-archives-in-the-bibliotheque-mejanes-paul-smith/ |
+| S8 | Tomoki Akimaru：《Cézanne and the Railway (1)》（2024；引 Rewald 编《Correspondance》1978 p.165；《Letters》1995 pp.158-159） | 研究（含书信引文） | https://critique.aicajapan.com/6562 |
+| S9 | The Met：《Mont Sainte-Victoire and the Viaduct of the Arc River Valley》（29.100.64，1882–85） | 馆藏 | https://www.metmuseum.org/art/collection/search/435877 |
+| S10 | The Met：《Mont Sainte-Victoire》（1994.420，c.1902–06） | 馆藏 | https://www.metmuseum.org/art/collection/search/435878 |
+| S11 | The Courtauld：《Montagne Sainte-Victoire with Large Pine》（c.1887） | 馆藏 | https://courtauld.ac.uk/highlights/montagne-sainte-victoire-with-large-pine/ |
+| S12 | MoMA：《Mont Sainte-Victoire》（1902–06，水彩，114.1962）+ 艺术家页（「约 100 件」） | 馆藏 | https://www.moma.org/collection/works/34092 · https://www.moma.org/artists/1053-paul-cezanne |
+| S13 | The Met Heilbrunn（Voorhies, 2004）：《Paul Cézanne (1839–1906)》 | 馆方研究 | https://www.metmuseum.org/essays/paul-cezanne-1839-1906 |
+| S14 | 「Cezanne en Provence」官方站（Atelier des Lauves / Bastide du Jas de Bouffan 页）+ Musée Granet「Cézanne 2025」资料 | 官方站/馆方 | https://www.cezanne-en-provence.com/L-Atelier-des-Lauves · https://www.cezanne-en-provence.com/La-Bastidedu-Jas-de-Bouffan |
+| S15 | Wikipedia《Paul Cézanne》（三手汇总，仅作交叉核对与部分口径来源） | 三手（交叉核对） | https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne |
+| S16 | R. Lethbridge：《The End of the Affair: Zola and Cézanne》（French Studies Bulletin 35:133, 2014, pp.95-99）+《Rethinking Zola and Cézanne》（Journal of European Studies, 2016） | 研究（摘要级核验） | doi:10.1093/frebul/ktu026 · doi:10.1177/0047244116629891 |
+
+> 注：S15（Wikipedia）为三手来源，仅用于交叉核对与部分汇总口径（1907 展数量、Rilke/Klee 转引等）；凡可另挂一手/馆方源者均已另挂。S4/S16 为书目/摘要级核验（本机未获全文）。
+
+---
+
+## 12. 临摹/学习清单
+
+> wave14 加固增项。用法：先按「看什么」做 20–30 分钟纯观察（建议打开馆藏页放大局部），再按「学什么」做小稿，最后执行「怎么练」。作品按学习顺序排列（结构 → 静物 → 人物 → 晚期 → 水彩 → 立体主义前夜）；馆藏与来源见 §9 与 §11.3 的 S 编号。
+
+**1. 《圣维克多山与阿尔克河谷高架桥》（Mont Sainte-Victoire and the Viaduct of the Arc River Valley，1882–85，Met 29.100.64）**
+- **看什么**：整幅由小笔触「织」成；房屋、树、山体被压成几何块面；铁路桥横穿画面（Met 称其「如罗马水道」，呼应 Poussin）；画家站位于其姐 Montbriand 地产上方。
+- **学什么**：建设性笔触如何「一次完成塑形 + 统一表面」；用水平分层构建纵深；风景的几何化（立体主义前奏）。
+- **怎么练**：① 选一张自己的风景照，先用 3 个明度层画 15×20 cm 底稿；② 再用 ≤1 cm 的平行笔触（4–6 个方向族）重画一遍，禁用黑色；③ 两稿并排，按 §8.2 规则 1/2 自查（方向族数量、近黑像素 ≤0.5%）。〔S9、§9 [5]〕
+
+**2. 《圣维克多山与大松树》（Montagne Sainte-Victoire with Large Pine，c.1887，Courtauld）**
+- **看什么**：前景松枝作「取景框」与远山呼应；绿黄引向蓝粉的山；画面右侧铁路高架桥与一缕蒸汽（现代性细节）；同景三幅中最完整的一幅。
+- **学什么**：用色温差（暖近/冷远）推空间而不靠透视；取景框构图；「赠 Gasquet」的收藏史背景。
+- **怎么练**：同一取景点画两张 15×20 cm：A 版近景只许暖色系、远景只许冷色系；B 版冷暖互换。比较哪张「退得更远」。〔S11〕
+
+**3. 《有蓝水壶的静物》（Still Life with Water Jug，c.1892–93，NG L696）**
+- **看什么**：未完成状态下的四个阶段痕迹（蓝灰骨架线 → 块面 → 主色 → 深入）；红绿强度代替明暗；桌沿的视点错位。
+- **学什么**：四阶段工序（§2-1）；「未完成感 = 工序外显」而非随意。
+- **怎么练**：摆一组 3 件静物，严格按四阶段各做 20 分钟并逐阶段拍照；停在第三阶段即为合格品（对照 NG 页面的逐层分析）。〔§9 [7]〕
+
+**4. 《玩纸牌的人》（The Card Players，c.1892–96，Courtauld）**
+- **看什么**：两人隔桌的对称与微差；人物被简化为体块与色阶；模特是 Jas de Bouffan 的农业工人（Courtauld 称其为「画家圣维克多山式的」纪念碑感）。
+- **学什么**：把人物当静物/几何体处理；对称构图中的节奏差；有限色板。
+- **怎么练**：请一位朋友对坐，用 6 个色阶块面画 30×40 cm「色块草图」（不画五官与手部细节）；隔日再画一版，只调整块面比例。〔§9 [8]〕
+
+**5. 《浴者（大浴女）》（Bathers (Les Grandes Baigneuses)，c.1894–1905，NG NG6359）**
+- **看什么**：11 人排成金字塔基座、与圣维克多山轮廓呼应；人物蓝色断裂轮廓 + 黑色加固；天空与大地同质（反大气透视）。
+- **学什么**：大构图的骨架先行；人物与风景的同质化；蓝网整合。
+- **怎么练**：① 只画轮廓线稿：人物轮廓画两遍、留 ≥30% 断口；② 用蓝色重描全部轮廓并局部以黑加固；③ 按 §8.2 规则 3/4 对照自查。〔§9 [6]〕
+
+**6. 《大浴者》（The Large Bathers，1900–06，费城艺术博物馆）**
+- **看什么**：未完成的大画（208×249 cm，为最大版本）；反复返工的痕迹；「进行中」的完成感。
+- **学什么**：长期多轮返工的工作法；「purposeful unfinish」。
+- **怎么练**：准备一张 40×50 cm 画布，连续 4 周每周重画一次同一构图（可刮可覆盖），保留每轮可见痕迹；第 4 轮后停笔不修。〔§9 [11]〕
+
+**7. 《圣维克多山》（c.1902–06，Met 1994.420）**
+- **看什么**：晚期笔触网格（色阶全画编织）；无黑阴影；山体的「建筑感」与天空同质。
+- **学什么**：纯色阶建模的极限状态；同一母题的晚年再处理。
+- **怎么练**：限定 6 色（赭、橙、橄榄绿、翠绿、钴蓝、群青）画 30×40 cm 风景；全程禁用黑色与渐变，逐 64×64 块检查明度梯度（§8.2 规则 2）。〔S10〕
+
+**8. 《圣维克多山》（1902–06，水彩，MoMA 114.1962）**
+- **看什么**：铅笔虚线 + 重叠水彩罩染；留白（空纸）承担光感；「像在运动中观看」的振动感。
+- **学什么**：水彩的透明罩染与留白；虚线多重轮廓。
+- **怎么练**：三色水彩（黄/蓝/绿）速写山景 3 张：第一张留白 ≥20%，第二张全罩染，第三张用虚线轮廓 + 局部罩染；比较三张的「空气感」。〔S12〕
+
+**9. 《加尔达讷》（Gardanne，1885–86，Met 57.181）**
+- **看什么**：屋顶群被压成有韵律的几何块面；高视点俯视构图；Met 称其「预告了立体主义」（尤其 Braque 1908 年埃斯塔克风景）。
+- **学什么**：建筑群块面化；从「写生」到「结构」的临界点。
+- **怎么练**：选一片屋顶/街区照片做两版：A 版忠实写生；B 版只保留几何块面 + 色阶（笔触方向族收紧到 3 个）——B 版即「立体主义前夜」实验（与 §8.1 中文说明中「P4 拉满」对应）。〔§9 [5]；Met 57.181，对象页 435871〕
+
+> 说明：1–9 按「结构 → 静物 → 人物 → 晚期 → 水彩 → 前夜」排序；练习产物若含临摹照片请按 `_private/` 惯例自行留档，勿入公开仓。
+
+---
+
 ## 自审（写进文件末尾）
 
 ### A 早产出

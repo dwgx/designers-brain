@@ -316,6 +316,167 @@ motion blur, speed lines, text, watermark, signature, modern objects, fantasy el
 
 ---
 
+## 11. 生平与年代轴（详细）
+
+> wave14 加固新增（写手：BioVermeer；2026-10-15）。本节与 §12 为新增节，§0–§10 未改动；新来源编号 **[R37]–[R50]** 续 §9（完整定义见 11.3）。语料全文见 `_corpus/vermeer.md`。引文照录原拼写；凡档案无载处写「未找到（已查: …）」。
+
+### 11.1 生平叙述（约 2,600 字；含引文与西文合计 5,500+ 字符）
+
+**材料状况（先读这一段）。** 维米尔没有留下任何书信、日记、笔记或访谈——本档案的全部「生平」都由代尔夫特及其周边的档案文书（公证、登记、清点、请愿）拼合而成。决定性工作是 John Michael Montias 完成的：这位美国经济学家 1975 年起扎进代尔夫特市档案馆（连同荷兰、比利时共 17 座城市的档案），汇集了 **454 份**与维米尔及其家族相关的文书，先于 1982 年出版行会研究（*Artists and Artisans in Delft*），1989 年出版 *Vermeer and His Milieu: A Web of Social History*。Montias 自述：与「强势、频频出现在诉讼与公证里的伦勃朗」相比，维米尔「似乎过着相当退隐的生活——妻子、强势的岳母、一大群孩子（主要是女孩）」，「档案给出的只是他性格的一个模糊剪影」（"only a shadowy image of his character emerges from archival documents"）。本节据此立两条纪律：① 凡档案无载，直接写「未找到（已查: …）」（汇总见 11.4）；② 不把推测写成事实。
+
+**出生与家世（1632–1652）。** 维米尔 1632 年 10 月 31 日受洗于代尔夫特新教堂（Nieuwe Kerk），登记名 "Joannis"（原档：Archief 14, inv. 55, fol. 119v）；同一页登记簿上、四天后的 11 月 4 日受洗的，是后来成为「显微镜学之父」的 Antonie van Leeuwenhoek——两位同城名人的人生在同一页纸上打了个照面。父亲 Reynier Jansz（约 1591–1652）出身手工与商贩阶层：1611 年赴阿姆斯特丹学 caffa（一种丝织物）织造，1615 年与 Digna Baltens 结婚，随后定居代尔夫特；1629–1631 年间经营旅店，1631 年 10 月 13 日以画商身份加入圣路加行会；1641 年春购入集市广场上更大的旅店 "Mechelen"（200 盾现金＋两笔抵押 2,100＋400 盾；背靠 Voldersgracht，与行会会所一街之隔）。母亲一系戏剧性更强：外祖父 Balthasar Gerrits（约 1573–约 1630）是安特卫普出身的金工与币模师，1620 年卷入伪造钱币案被捕——同案两名同伙被斩首，他供出同党后获释；1627 年他被形容为「钟表与奇器的巧匠」。这段「伪币案」是 Montias 最得意的家族发现之一（"my mother's father who participated in a counterfeiting scheme in which his partners were beheaded"）。维米尔是家中次子、独子，姐姐 Gertruy 大他十二岁；1632 年时全家住 Voldersgracht 的 "De Vliegende Vos"（飞狐）旅店。小维米尔在旅店、织机与画框之间长大——他日后进入的行业，人脉在他出生前就已铺好（父亲的往来对象包括画家 Bramer、Van der Ast、Groenewegen）。父亲 1652 年 10 月去世；按例应向慈善院（Kamer van Charitate）缴纳的款项，家里没有交——二十三年后维米尔自己的葬礼上，历史重演。
+
+**学徒与师承（约 1640 年代）：未找到。** 维米尔「在哪里、向谁学画」，**未找到**任何档案记录（已查: 行会名册 1613–1675、Montias 文书目录、[R8] 十份文书、[R37][R43]，2026-10-15）。候选师傅（Van Groenewegen、Van Aelst、Bloemaert、Fabritius、Van Loo）逐一核查后均无实据；Montias 推测他可能在外地（乌得勒支，也许还有阿姆斯特丹）受训——依据是他入会时被收取 **6 盾全额入会费**（若为「行会成员之子、且在本城师傅门下受训满两年」，本应只缴 3 盾）。Liedtke 提示：1653 年 4 月前后四份代尔夫特记录提到他时，都没有称他「画家」——他可能没走完标准的学徒流程。1653 年 12 月 29 日，维米尔入会（名册第 78 号；[R43] 同页一处作 77）；先付 1 盾 10 斯图弗，余款 4 盾 10 斯图弗到 1656 年 7 月才付清（[R43]；[R37] 页面一处误作 1665 年）。
+
+**婚姻与宗教（1653）。** 1653 年 4 月 4 日晚，画家 Bramer 与军官 Melling（一文一武，一「天主教」一「新教」）在律师 Ranck 陪同下登门拜访 Maria Thins——替维米尔向她女儿 Catharina Bolnes 的婚事做说客。Maria 拒签正式同意书，但表示不会阻挠；次日的公证记录在案（婚约登记一度被划掉、后又重新录入）。4 月 20 日，两人在代尔夫特城外的天主教据点 Schipluiden 完婚；4 月 22 日，维米尔已与年长十五岁、正值盛名的画家 Ter Borch 一道在公证文件上签名作证。Catharina 比他大一岁半，来自高得多的天主教家庭；维米尔**很可能改宗天主教**，但**未找到**任何直接档案（已查: [R8][R37][R42][R44]）——学界至今分歧（Abels 存疑、Wheelock 肯定、Liedtke 认为似出于信念）；「de Pottere 神父主持婚礼」属推测链。这场「跨教派、跨阶层」的婚姻把他从新教的 Voldersgracht 带进了天主教聚居的 "Papenhoek"（教皇角）：他此后一生住在岳母家 Oude Langendijk 的宅子里（至迟 1660 年 12 月的丧葬记录已载明；婚后何时迁入**未找到**确证）。
+
+**家庭与债务（一）：担保、借款与赞助人（1653–1671）。** 头二十年是一连串与钱有关的文书：1655 年 12 月 14 日，他与妻子共同为亡父 1648 年的一笔 250 盾旧债作保（名字前首次被尊称 "Sr."——社会地位上升的标志）；1657 年 11 月 30 日，两人从富裕市民 Pieter van Ruijven 处借入 200 盾（年息 4.5%；Montias 判读为「购画预付款」）。Van Ruijven 与妻子 Maria de Knuijt 由此成为他最重要的赞助人——夫妇俩先后收走他近半产出（后经其女婿 Dissius 的 1696 年拍卖散出）。2023 年 Rijksmuseum 的新研究（Bakker & Noorman）进一步主张，主导者是 de Knuijt 本人：她娘家就在 Mechelen 旅店西侧几栋房子，儿时便认识维米尔一家；1664 年 6 月 9 日她的遗嘱附条把 **500 盾**单独留给维米尔（对非亲属的遗赠在当时几乎独一无二），并规定若维米尔先逝、这笔钱也不转给他人。家庭同时在扩张：Catharina 共生育 15 个孩子（4 个早夭）；名字可考者 10 名——Maria、Elisabeth、Cornelia、Aleydis、Beatrix、Johannes、Gertruyd、Franciscus、Catharina、Ignatius——几乎全取天主教圣徒名（长子 Ignatius 直指耶稣会创始人）。1660 年 12 月 27 日、1667、1669、1673 年，各有一个孩子葬入 Oude Kerk 的家族墓（墓在 Maria Thins 名下）。家的另一半靠岳母：Maria Thins 在 1660 年代年收入约 1,500 盾，为全家提供免租住房与「兜底」支持（Liedtke 称，这位「体面的年轻人」在档案里「除债务外没有一句负面记录」）；1667、1668 年，她委托维米尔代为收债、打理资金。1670 年 2 月母亲 Digna 去世、5 月姐姐 Gertruy 去世，维米尔继承 Mechelen 旅店——但只从姐姐遗产中实收 148 盾，其余抵了旅店旧债。他自己的产量极低，约 2–3 幅/年。
+
+**转折与代表作（1656–1675）。** 1656 年的《老鸨》是他现存最早的「生活场景」（署年 1656，为其仅三件署年作品之一）；随后数年内，他从历史画彻底转向室内：《睡着的女仆》《窗前读信的少女》（约 1657–59）→ 以《倒牛奶的女仆》《军官与笑女》（约 1658–61）实现突破 → 《代尔夫特风景》（约 1660–63；Proust 日后为之写下「小片黄墙」）→ 1662–65 年间一组小尺幅的 "pearl pictures"（《持天平的女人》《蓝衣读信女》等）→ 《绘画的艺术》（约 1666–68）→《天文学家》《地理学家》（1668/69；部分学者认为原型与赞助人是同城的 Van Leeuwenhoek，无定论）→ 晚期《情书》《吉他手》《花边女工》、维金纳琴两联与《信仰的寓言》（约 1670–75）。他的「关系网」极窄：可考的同行往来只有 Ter Borch（一次公证）、Bramer（家族友人、说客）、De Hooch（互看关系）等寥寥数条；**未找到**他与伦勃朗工作室的任何文书（已查: [R8][R9][R26][R37]）。
+
+**盛期与公职（1662–1674）。** 1662 年 10 月 18 日（圣路加日）当选行会头目（hoofdman；1662–63 任内；1663 年 11 月 12 日记为卸任）；1670 年再任（与 Louis Elsevier 同任，1670–71）。以三十岁上下的年纪两度出任此职，说明他在代尔夫特艺术界已被视为「established」。1663 年 8 月 11 日，法国旅行者 Monconys 造访其工作室——维米尔手边没有自己的作品，一行人被引到面包师 Van Buyten 家看画；1669 年 5–6 月，海牙绅士 Teding van Berckhout 两度来访，留下「最非凡、最奇特之处在于透视」的评语。1671 年（一说 1672），他受邀与 30 余名画家一道鉴定勃兰登堡选帝侯所购的一批「意大利画」，与 Jordaens 共同判其为劣作（"great pieces of rubbish"）。1674 年，他列名市民自卫队（Schutterij）名册（Oranje Vendel 第一中队）。旅行：**未找到**他离开代尔夫特的任何记录（已查: [R37]–[R39]）；「曾赴意大利」一说已被推翻——去意大利的是乌得勒支的同名人。
+
+**晚年、债务与逝世（1672–1675）。** 1672 年（Rampjaar，「灾难年」）法军入侵、市场崩盘，他的最后一次卖画记录停在 1672。此后是密集的财务操作：1673 年 6 月为 Thins 家遗产赴 Gouda 陈情、7 月赴阿姆斯特丹出售 800 盾债券；1675 年 3 月代表岳母处理遗产分配与租约；1675 年 7 月，赴阿姆斯特丹以岳母名义押借 **1,000 盾**——他受托收取 Gouda 孤儿院的 2,900 盾款项，却把债权典押给了阿姆斯特丹丝绸商 Jacob Romboutsz。Montias 认为此事「与他一生为人的性格完全不符」（"out of character with the whole life of the artist"），甚至怀疑是 Thins 后来「加工」过的说法。1675 年 12 月 13 或 14 日，维米尔去世，享年 43。妻子的请愿书说他「仿佛陷入一阵狂乱，一天半之内就从健康变为死亡」（"as if he had fallen into a frenzy, in a day and a half he went from being healthy to being dead"）；12 月 15 日葬入 Oude Kerk 家族墓——新发现的葬礼记录显示 **14 名抬棺人、鸣钟一次**（规格颇高，费用疑由 Maria Thins 承担）；但次日（12 月 16 日），慈善院账上对他的名字只记了两个词：「**niet te haelen**」（什么都拿不到）。
+
+**身后（1675–1696 及其后）。** 1676 年 2 月 29 日，公证人 Van Veen 的书记员逐屋清点了 Oude Langendijk 宅中的动产（原档：Archief 161, inv. 2224），留下那份著名的遗产清单：楼上「前间」列着两副画架、三块调色板、六块画板、十幅画布与三捆版画；另有 25 本书（"of all kinds"，书名无存）；厨房里挂着「两幅土耳其式 tronie」（《戴珍珠耳环的少女》一类作品的唯一同时代「存在证明」）；衣柜里有那件黄缎白毛边外套（在画中反复出现）。Montias 怀疑清单「没有覆盖全部动产」——最好的东西被提前转移（《绘画的艺术》已「过户」给 Maria Thins，以避债权人）。1676 年 1–2 月，Catharina 把两幅画抵押给面包师 Van Buyten，抵 617 盾 6 斯图弗的旧账；4 月 30 日，她向高等法院提交部分债务豁免请愿（letter of cessie），留下关于丈夫之死的著名证词；9 月 30 日，市府任命 **Antonie van Leeuwenhoek** 为遗产管理人——两位同年受洗于同一页登记簿的代尔夫特人，以这种方式再次相遇。Maria Thins 于 1680 年 12 月 27 日葬入 Oude Kerk（因多年接济获赠《绘画的艺术》）；Catharina 迁居 Breda（1681–84），1687 年末去世。1696 年 5 月 16 日，Van Ruijven/de Knuijt 旧藏经 Dissius 遗产在阿姆斯特丹拍卖：21 幅维米尔共拍得 **1,503 盾 10 斯图弗**——他身后第一次「系统性定价」。此后近两个世纪，他的名字淡出公共记忆（重估链见 §6.2），直到 19 世纪被 Thoré-Bürger 等人「重新发现」。Montias 对「维米尔一生是否悲惨」的最终判断值得一提：「除 1670 年代的金钱烦恼与养家之难外，我无法被说服维米尔的一生有多悲惨。」（"With the exception of the money troubles and the difficulty he had bringing up his children in the 1670s, I cannot be persuaded that Vermeer had such a wretched life."）
+
+### 11.2 关键年份表（39 行）
+
+| 年份·日期 | 事件 | 类别 | 来源 |
+|---|---|---|---|
+| 1632-10-31 | 受洗于新教堂（登记名 Joannis；同页登记簿 11-04 受洗者含 Van Leeuwenhoek） | 出生 | [R37][R44] |
+| 1641 春 | 全家迁入集市广场旅店 Mechelen（200 盾现金＋抵押 2,100＋400 盾） | 家庭 | [R37] |
+| 1652-10 | 父亲 Reynier Jansz 去世；未向慈善院缴款 | 家庭 | [R37] |
+| 1653-04-04/05 | Bramer/Melling/Ranck 登门；次日公证（Maria Thins 不阻挠，婚约登记先划后录） | 婚姻 | [R8][R44] |
+| 1653-04-20 | 与 Catharina Bolnes 于 Schipluiden 完婚（婚约登记 4-05） | 婚姻 | [R8][R44] |
+| 1653-04-22 | 与 Ter Borch 共同见证担保公证（"Johannis Vermeer" 签名） | 婚姻 | [R8] |
+| 1653-12-29 | 入圣路加行会（名册第 78 号；先付 1 盾 10 斯图弗） | 行会 | [R43] |
+| 1654-01-10 | 首次被称 "Meester-schilder" | 行会 | [R8] |
+| 1654-10-12 | Delfts Donderslag 火药爆炸（Fabritius 遇难） | 城市 | [R37] |
+| 1655-12-14 | 为亡父 250 盾旧债作保（首次被称 "Sr."） | 债务 | [R8][R44] |
+| 1656-07 | 行会费余额付清；同年《老鸨》署年 1656 | 行会·转折 | [R43][R37] |
+| 1657-11-30 | 从 Van Ruijven 借 200 盾（年息 4.5%；Montias：购画预付款） | 债务·赞助 | [R8][R44] |
+| 1660-12-27 | 丧子记录（住 Oude Langendijk；葬 Oude Kerk 家族墓） | 家庭 | [R37] |
+| 1662-10-18 | 当选行会头目（1662–63 任内） | 行会 | [R37] |
+| 1663-08-11 | Monconys 造访工作室（"六百利弗，只有一个形象"） | 目击 | [R7] |
+| 1663-11-12 | 记录为卸任（第二年在任）行会头目 | 行会 | [R37] |
+| 1664-06-09 | de Knuijt 遗嘱附条：500 盾留给维米尔（条件式；2023 新发现） | 赞助 | [R42] |
+| 1667–1668 | 丧子；受岳母委托收债、打理资金（含子女名下遗产款） | 家庭·财务 | [R38] |
+| 1669-02 | 母亲挂拍 Mechelen（5,000 盾）未售；改租出（190 盾/年） | 家庭·财务 | [R38] |
+| 1669-05-14 / 06-21 | Teding van Berckhout 两访（"透视"评语） | 目击 | [R7] |
+| 1670-02-13 / 05-02 | 母亲下葬；姐姐 Gertruy 卒（维米尔获 Mechelen，实收 148 盾） | 家庭 | [R38] |
+| 1670 | 再任行会头目（与 Louis Elsevier 同任） | 行会 | [R38] |
+| 1671 | 参与 35 人鉴定团（勃兰登堡选帝侯购画案；与 Jordaens 判其为劣作） | 公职 | [R39] |
+| 1672-01-14 | Mechelen 租与 Johannes van der Meer（180 盾/年） | 家庭·财务 | [R44] |
+| 1672 | Rampjaar：市场崩溃（最后一次售画记录） | 转折 | [R39] |
+| 1673-06 / 07 | 为 Thins 遗产赴 Gouda 陈情；赴阿姆斯特丹售 800 盾债券 | 财务 | [R39] |
+| 1674 | 列名市民自卫队名册（Oranje Vendel 第一中队） | 公职 | [R39] |
+| 1675-03 | 受托处理岳母亡夫遗产；赴 Gouda 续租约 | 财务 | [R39] |
+| 1675-07 | 阿姆斯特丹押借 1,000 盾（2,900 盾债权典当；Montias 存疑） | 债务 | [R39] |
+| 1675-12-13/14 | 去世（"一天半"病亡；享年 43） | 逝世 | [R39][R42] |
+| 1675-12-15 | 葬入 Oude Kerk 家族墓（14 抬棺人、鸣钟一次；登记"8 名未成年子女"） | 逝世 | [R44][R39] |
+| 1675-12-16 | 慈善院登记 "niet te haelen" | 身后 | [R8][R44] |
+| 1676-01/02 | 两画抵押 Van Buyten（617 盾 6 斯图弗旧账） | 身后 | [R38][R39] |
+| 1676-02-29 | 遗产清单（公证人 J. van Veen；原档 Archief 161/2224） | 身后 | [R9][R44] |
+| 1676-04-30 | Catharina 请愿部分债务豁免（"狂乱"证词） | 身后 | [R42][R47] |
+| 1676-09-30 | Van Leeuwenhoek 任遗产管理人 | 身后 | [R44] |
+| 1680-12-27 | Maria Thins 葬入 Oude Kerk（因接济获赠《绘画的艺术》） | 身后 | [R42] |
+| 1687/1688 | Catharina 卒（终傅 1687-12-23；葬期两说） | 身后 | [R42][R45] |
+| 1696-05-16 | Dissius 拍卖：21 幅共 1,503 盾 10 斯图弗 | 身后 | [R6] |
+
+### 11.3 生平细节来源（14 条；[R37]–[R50] 续 §9，本节为完整定义）
+
+1. **[R37]** EV — *Vermeer's Life and Art*（part II，早期室内 / 赞助人 / 突破 / 行会 1662）https://www.essentialvermeer.com/vermeer%27s_life_02.html — ✅read（2026-10-15，下同）
+2. **[R38]** EV — *Vermeer's Life and Art*（part III，名声 / 天文学家与地理学家 / 丧子 / 收入）https://www.essentialvermeer.com/vermeer%27s_life_03.html — ✅read
+3. **[R39]** EV — *Vermeer's Life and Art*（part IV，最后五年 / 自卫队 / 晚年作品 / 死亡）https://www.essentialvermeer.com/vermeer%27s_life_04.html — ✅read
+4. **[R40]** EV — *Timeline of Vermeer's Life*（1632–1675 年表）https://www.essentialvermeer.com/timelines/timeline_vermeers_life.html — ✅read（节选）
+5. **[R41]** EV — *Interview with John Michael Montias*（2003-01-29；方法自述与"454 份文书"）https://www.essentialvermeer.com/interviews_newsletter/montias_interview.html — ✅read
+6. **[R42]** EV — *Vermeer and Catharina*（Catharina Bolnes 页；Knuijt 遗嘱 / 请愿书 / 卒葬）https://www.essentialvermeer.com/women%27s_faces/catharina.html — ✅read
+7. **[R43]** EV — *The Guild of Saint Luke of Delft*（行会制度 / 费用 / 名册）https://www.essentialvermeer.com/saint_luke%27s_guild_delft.html — ✅read
+8. **[R44]** Erfgoed Delft / Stadsarchief Delft — *Sporen van Vermeer in het stadsarchief*（洗礼 / 婚约 / 借款 / 租约 / 清单 / 慈善院等原件与档案号）https://erfgoeddelft.nl/verhalen/johannes-vermeer — ✅read
+9. **[R45]** Wikipedia (en) — *Johannes Vermeer*（生平核注；转引 Montias 档案；1,000 盾借款等）https://en.wikipedia.org/wiki/Johannes_Vermeer — ✅read
+10. **[R46]** Piet Bakker & Judith Noorman, "Women's Vermeers: Maria de Knuijt and New Archival Documentation on Vermeer's Primary Patron", in *Closer to Vermeer*（Rijksmuseum/Hannibal, 2023）— 转引自 [R42]；原书未直读（转引已标注）
+11. **[R47]** Wikipedia (de) — *Jan Vermeer*（"Bitte um teilweisen Schuldenerlass vom 30. April 1676"——请愿日期）https://de.wikipedia.org/wiki/Jan_Vermeer — ✅read
+12. **[R48]** EV — *Maria Thins, Vermeer's Mother-in-Law*（分居 / 15,606 盾 / 葬礼规格）https://www.essentialvermeer.com/women%27s_faces/maria-thins.html — ✅read
+13. **[R49]** EV — *Vermeer: The Man and the Painter*（"唯一直接写人的档案" / 性格研究史）https://www.essentialvermeer.com/vermeer_the_man.html — ✅read
+14. **[R50]** John Michael Montias, *Vermeer and His Milieu: A Web of Social History*（Princeton UP, 1989）— 本档所引 Montias 页码（xvi/134/161/172/199/212/216/222/337 等）均经 [R37]–[R39][R41][R44][R48][R49] 转引核对；原书（archive.org 借阅件）未逐页直读
+
+### 11.4 未找到清单与口径核注
+
+**A. 未找到（已查: …）——「生平材料稀少」如实记录**
+- 学徒/师承记录：**未找到**（已查: 行会名册 1613–1675、Montias 454 份文书目录、[R8][R37][R43]，2026-10-15）。
+- 改宗天主教的直接档案：**未找到**（已查: [R8][R37][R42][R44]）。
+- 私人书信/日记/任何自述：**未找到**（结构性缺失；已查: [R8][R9][R41][R49]）。
+- 可靠肖像/相貌描述：**未找到**（《老鸨》左端人物为「疑似自画像」，非确证；已查: [R49]）。
+- 死因的医学记录：**未找到**（「一天半」病亡与「狂乱」说均为妻方陈述；已查: [R39][R42]）。
+- 代尔夫特以外的旅行记录：**未找到**（已查: [R37]–[R39]）。
+- 婚后迁入 Oude Langendijk 的确切时间：**未找到**（现存最早居住记录为 1660-12-27；已查: [R37][R44]）。
+
+**B. 口径核注（本次加固核出的 5 处）**
+1. **行会费余额日期**：EV Life I 页面一处作「1653 年后三年、1665 年 7 月 24 日」——[R43] 行会页与 Montias 口径均为 **1656 年 7 月**；本档采 1656。
+2. **行会名册号**：[R43] 同页正文一处作 77、图注与 [R37] 作 **78**；本档采 78（2/3 处一致）。
+3. **请愿日期**：[R39] 一处作「次年」（1677），[R47] 作 **1676-04-30**、与 Montias「数月后」口径一致；本档采 1676-04-30。
+4. **画室房间**：1676 清单将画具列于楼上「前间」（voorkamer）；[R9] 导言一处作「顶层后间」——两说并列，本档以清单条目为准（[R9][R44]）。
+5. **Uylenburgh 鉴定案年份**：EV 作 1671、de.wiki 作 1672；本档采 1671（并注「一说 1672」）。
+
+---
+
+## 12. 临摹/学习清单（10 件，各写「看什么 / 学什么 / 怎么练」）
+
+> 用法：按顺序练（1→4 建立「单侧光＋材质高光」基本功；5→7 练构图与空间；8→10 练限色与晚期简化）。练习阈值与 §4 控制参数、§8.2 自查规则对应；「怎么练」均为可执行练习，建议每件限时并留过程稿。
+
+1. **《倒牛奶的女仆》*The Milkmaid*（c. 1658–1661，Rijksmuseum，SK-A-2344）**
+   - 看什么：单一事件（牛奶流）对全画静止；面包、铜壶、瓷罐上「数百个彩点」；左窗光把白墙照成浅灰金；动态范围极低（无纯黑纯白）。
+   - 学什么：材质＝高光形状（锐利小点＝瓷、宽软面＝锡、哑光＝毛呢）；「单一光源＋单一动作」的叙事压缩。
+   - 怎么练：把画面转为灰度，用 5 个明度阶手绘「明度地图」；再放大面包篮与铜壶，逐一标出高光点、统计直径与间距（对照 §8.2 规则 3 的 1–3 px 口径）。
+
+2. **《戴珍珠耳环的少女》*Girl with a Pearl Earring*（c. 1665，Mauritshuis，inv. 670）**
+   - 看什么：「珍珠」＝两笔白颜料、无挂钩；面部无轮廓线（sfumato）；暗背景（黑底＋绿釉）把人物向前推；黄蓝对撞＋冷调阴影。
+   - 学什么：极简高光的信息密度；「省略」作为完成度；边缘过渡带 ≥2 px 的控制（§4 P5）。
+   - 怎么练：同一头像画两遍——第一遍单色（棕/蓝）起稿只做明度，第二遍只用透明层调色温；硬性规定：面部不得出现 1 px 硬线、耳环挂钩不画。
+
+3. **《代尔夫特风景》*View of Delft*（c. 1660–1663，Mauritshuis）**
+   - 看什么：城市全景的「明暗分区」（云影横过画面）；前景砖石与船体上的点状斑驳；Proust 的「小片黄墙」（petit pan de mur jaune）。
+   - 学什么：大场景的动态范围压缩与光斑分配；湿边/干边的分区控制。
+   - 怎么练：取一张城市照片，做「云影分区图」——4 个明度阶＋2 个色温区（暖/冷）重绘；全画只允许一处最亮点（对应「小片黄墙」）。
+
+4. **《小街》*The Little Street*（c. 1657–1661，Rijksmuseum）**
+   - 看什么：砖石与灰泥的哑光质感；门洞/窗内的暗部「平而不死」；两个玩耍的孩子是全画唯一「人迹」。
+   - 学什么：建筑＝几何网格＋表面质感；静默街景的「无人感」经营。
+   - 怎么练：选一条巷子写生——先只画「光斑与暗块」（20 分钟明暗草图），再补质感（砖缝/灰泥），但禁止添加任何人物与故事元素。
+
+5. **《持天平的女人》*Woman Holding a Balance*（c. 1664，National Gallery of Art，1942.9.97）**
+   - 看什么：中心对称构图；天平空置（称量的是「虚无/灵魂」）；后墙《最后的审判》画中画；左侧光点亮墙面。
+   - 学什么：单点透视＋静物（珠宝盒/天平）的布置；「象征物」与光的合成。
+   - 怎么练：布置一个对称静物＋单光源，绘构图稿：标出消失点、光线方向、「最亮面/最暗面」各一处；用 3 个明度阶验证对称性。
+
+6. **《绘画的艺术》*The Art of Painting*（c. 1666–1668，Kunsthistorisches Museum）**
+   - 看什么：帘幕—画家—模特—地图的四层景深；吊灯（哈布斯堡双鹰）；模特＝历史缪斯 Clio 的解读。
+   - 学什么：三层以上景深的「逐层后退」（帘＝最前、地图＝最后）；画中画/象征系统。
+   - 怎么练：布置「前景帘＋中景人物＋背景墙饰」的室内场景，画 3 张构图小稿；要求：帘幕遮住 ≥1/5 画面、消失点单一、背景挂图与人物视线呼应。
+
+7. **《窗前读信的少女》*Girl Reading a Letter at an Open Window*（c. 1657–1659，Gemäldegalerie Alte Meister, Dresden）**
+   - 看什么：早期室内；绿帘 trompe-l'œil；X 光发现的「丘比特」覆绘已于 2021 年去除（复原史样本）。
+   - 学什么：从历史画到室内画的转折期笔法；pentimenti（改动痕迹）的读法。
+   - 怎么练：同一静物画两遍——第一遍写生版；第二遍故意改动 2 处（删一件、加一件），对比两版信息变化并记录「为什么改」。
+
+8. **《蓝衣读信女》*Woman in Blue Reading a Letter*（c. 1662–1665，Rijksmuseum）**
+   - 看什么：群青蓝的「权重」（蓝衣＋蓝椅＋蓝墙影）；白墙的明度控制；地图与椅背的几何。
+   - 学什么：限色策略（蓝×白×赭）；高调画面的冷调统一（§4 P4）。
+   - 怎么练：限三色（群青/白/赭＋黑）画室内光场景；要求：蓝占 ≥40% 面积但不「抢」主体、阴影必须用蓝系而非黑。
+
+9. **《天文学家》*The Astronomer*（1668，Louvre）／《地理学家》*The Geographer*（1669，Städel）**
+   - 看什么：男性学者＋科学仪器；地球仪/星图/书本的道具群；左窗光与「知识气氛」；Van Leeuwenhoek 原型说（存疑）。
+   - 学什么：人物＋道具的叙事平衡；道具如何被光「点名」。
+   - 怎么练：画「工作中的手」（持罗盘/翻书）局部 3 张，每张只允许 2 个高光点；同时在同一房间做单点透视网格推演（参照 [R5] 的针孔/弦线资料）。
+
+10. **《站在维金纳琴前的女子》*A Lady Standing at a Virginal*（c. 1670–1674，National Gallery, London）**
+    - 看什么：晚期「简化＋书法性」笔触；琴盖上的画中画（Van Groenewegen 风景）；直立如柱的站姿与斜向地砖。
+    - 学什么：晚期风格＝减少模型层次、保留结构；「简化模型」的边界（§4 P6 弱档对照）。
+    - 怎么练：同一场景画「精细版/简化版」各一张；简化版规定：模型层次 ≤3 阶、细节点 ≤10 处——检查「结构是否仍读得出维米尔」。
+
+---
+
 ## 自审四段（LOOP 协议 §3.4）
 
 ### A. 早产出

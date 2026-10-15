@@ -30,3 +30,7 @@ Thumbs.db
 
 # --- Private research layer (never commit) ---
 _private/
+
+# --- Worker scratch/temp (local only) ---
+/_scratch/
+/_tmp_*

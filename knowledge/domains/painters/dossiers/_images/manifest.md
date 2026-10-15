@@ -1,6 +1,8 @@
 # 代表作图库 · manifest（D-02）
 
 > 11 位画家 × 3 张 = **33 张**；采集日 2026-10-15；采集人 ImageLibrary（wave4 / D-02）。
+> **wave12 追加**：克里姆特（klimt）3 张，2026-10-15，ArtistKlimt / A-22 → **现共 12 位 × 3 张 = 36 张**（总量 20.9 MB → 约 24.2 MB）。
+> **wave13 追加**：修拉（seurat）10 张，2026-10-15，ArtistSeurat / A-24 → **现共 46 张**（36 + 修拉 10；总量约 34.5 MB）。
 > 单张长边 ≤1800px（满足「单张 ≤2000px 宽」）；总量 **20.9 MB**（目标 ≤100MB）。
 > 许可：全部为公有领域（PD）或开放许可（CC0 / CC BY-SA）；CC 类署名逐张记录。
 > 目录结构：`_images/<artist>/<slug>.jpg`；本文件为唯一 manifest。
@@ -42,6 +44,19 @@
 | `durer/adam_and_eve.jpg` | Adam and Eve | Albrecht Dürer | 1504 | The Metropolitan Museum of Art, New York | https://www.metmuseum.org/art/collection/search/336222 | CC0 1.0（Met Open Access） |
 | `durer/melencolia_i.jpg` | Melencolia I | Albrecht Dürer | 1514 | The Metropolitan Museum of Art, New York | https://www.metmuseum.org/art/collection/search/360018 | CC0 1.0（Met Open Access） |
 | `durer/the_rhinoceros.jpg` | The Rhinoceros | Albrecht Dürer | 1515 | The Metropolitan Museum of Art, New York | https://www.metmuseum.org/art/collection/search/356497 | CC0 1.0（Met Open Access） |
+| `klimt/the_kiss.jpg` | The Kiss (Lovers)（吻） | Gustav Klimt | c. 1907–1909 | Belvedere, Vienna（inv. 912） | https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Der_Kuss_(Liebespaar)_-_912_-_%C3%96sterreichische_Galerie_Belvedere.jpg | Public domain（PD-Art；PD-old-100-expired；上传者附加 CC BY-SA 4.0） |
+| `klimt/adele_bloch_bauer_i.jpg` | Portrait of Adele Bloch-Bauer I（阿黛尔·布洛赫-鲍尔像 I） | Gustav Klimt | 1907 | Neue Galerie New York | https://commons.wikimedia.org/wiki/File:Gustav_Klimt,_1907,_Adele_Bloch-Bauer_I,_Neue_Galerie_New_York.jpg | Public domain（PD-Art；PD-old-auto-1923） |
+| `klimt/death_and_life.jpg` | Death and Life（死与生） | Gustav Klimt | 1910/11, reworked 1912/13 & 1915/16 | Leopold Museum, Vienna（inv. 630） | https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg | Public domain（PD-Art；PD-Art-two-auto） |
+| `seurat/a_sunday_on_la_grande_jatte.jpg` | A Sunday on La Grande Jatte — 1884（大碗岛） | Georges Seurat | 1884–86（边框 1888–89） | Art Institute of Chicago（1926.224） | https://www.artic.edu/artworks/27992 | CC0（AIC Public Domain Designation） |
+| `seurat/bathers_at_asnieres.jpg` | Bathers at Asnières（阿尼埃尔浴场） | Georges Seurat | 1884 | National Gallery, London（NG3908） | https://commons.wikimedia.org/wiki/File:Baigneurs_a_Asnieres.jpg | Public domain |
+| `seurat/study_for_a_sunday_on_la_grande_jatte.jpg` | Study for "A Sunday on La Grande Jatte" | Georges Seurat | 1884 | The Metropolitan Museum of Art, New York（51.112.6） | https://www.metmuseum.org/art/collection/search/437658 | CC0 1.0（Met Open Access） |
+| `seurat/gray_weather_grande_jatte.jpg` | Gray Weather, Grande Jatte | Georges Seurat | ca. 1886–88 | The Metropolitan Museum of Art, New York（2002.62.3） | https://www.metmuseum.org/art/collection/search/438015 | CC0 1.0（Met Open Access） |
+| `seurat/circus_sideshow_parade_de_cirque.jpg` | Circus Sideshow (Parade de cirque)（阅兵） | Georges Seurat | 1887–88 | The Metropolitan Museum of Art, New York（61.101.17） | https://www.metmuseum.org/art/collection/search/437654 | CC0 1.0（Met Open Access） |
+| `seurat/aman_jean_drawing.jpg` | Aman-Jean (Portrait of Edmond François Aman-Jean)（孔特素描） | Georges Seurat | 1882–83 | The Metropolitan Museum of Art, New York（61.101.16） | https://www.metmuseum.org/art/collection/search/339751 | CC0 1.0（Met Open Access） |
+| `seurat/le_chahut.jpg` | Le Chahut（康康舞） | Georges Seurat | 1889–90 | Kröller-Müller Museum, Otterlo | https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Le_Chahut_-_Google_Art_Project.jpg | Public domain |
+| `seurat/the_circus.jpg` | The Circus (Le Cirque)（马戏） | Georges Seurat | 1890–91（未完成） | Musée d'Orsay, Paris | https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_The_Circus_-_Google_Art_Project.jpg | Public domain |
+| `seurat/young_woman_powdering_herself.jpg` | Young Woman Powdering Herself（扑粉的年轻女子） | Georges Seurat | 1888–90 | The Courtauld Gallery, London | https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Young_Woman_Powdering_Herself_-_Google_Art_Project.jpg | Public domain |
+| `seurat/les_poseuses.jpg` | Les Poseuses (Models)（模特们） | Georges Seurat | 1886–88 | Barnes Foundation, Philadelphia | https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Models_(Poseuses)_-_BF811_-_Barnes_Foundation.jpg | Public domain |
 
 ## 逐张明细（尺寸 / 体积 / 备注）
 
@@ -199,12 +214,70 @@
   - License: CC0 1.0（Met Open Access）；credit: Gift of Junius Spencer Morgan, 1919
   - 落盘: 1800×1440px，886 KB
 
+### klimt — 克里姆特（3 张；wave12 追加）
+- **the_kiss.jpg** — The Kiss (Lovers)（吻），Gustav Klimt，c. 1907–1909，Belvedere, Vienna（inv. 912；180×180 cm）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Der_Kuss_(Liebespaar)_-_912_-_%C3%96sterreichische_Galerie_Belvedere.jpg （原始出处：digital.belvedere.at/objects/6678，Belvedere 数字收藏）
+  - License: Public domain（PD-Art；PD-old-100-expired；上传者另附 CC BY-SA 4.0，详见 Commons 文件页）；原始文件 3457×3508px
+  - 落盘: 1774×1800px，1322 KB
+- **adele_bloch_bauer_i.jpg** — Portrait of Adele Bloch-Bauer I，Gustav Klimt，1907，Neue Galerie New York（140×140 cm）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Gustav_Klimt,_1907,_Adele_Bloch-Bauer_I,_Neue_Galerie_New_York.jpg （原始出处：neuegalerie.org）
+  - License: Public domain（PD-Art；PD-old-auto-1923）；原始文件 2036×2035px
+  - 落盘: 1800×1799px，1325 KB
+- **death_and_life.jpg** — Death and Life，Gustav Klimt，1910/11（1912/13、1915/16 改绘），Leopold Museum, Vienna（inv. 630；180.8×200.6 cm）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg （Google Art Project / Leopold Museum）
+  - License: Public domain（PD-Art；PD-Art-two-auto）；原始文件 4059×3533px
+  - 落盘: 1800×1567px，703 KB
+
+### seurat — 修拉（10 张；wave13 追加）
+- **a_sunday_on_la_grande_jatte.jpg** — A Sunday on La Grande Jatte — 1884（大碗岛），Georges Seurat，1884–86（边框 1888–89），Art Institute of Chicago（1926.224；207.5×308.1 cm）。
+  - 来源: https://www.artic.edu/artworks/27992 （AIC IIIF `full/1686,`；真 Chromium 取回）
+  - License: CC0（AIC Public Domain Designation）；原始文件 9310×6237px
+  - 落盘: 1686×1130px，626 KB
+- **bathers_at_asnieres.jpg** — Bathers at Asnières（阿尼埃尔浴场），Georges Seurat，1884，National Gallery, London（NG3908；201×300 cm）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Baigneurs_a_Asnieres.jpg （作品页 https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres）
+  - License: Public domain；原始文件 6367×4226px
+  - 落盘: 1800×1195px，632 KB
+- **study_for_a_sunday_on_la_grande_jatte.jpg** — Study for "A Sunday on La Grande Jatte"，Georges Seurat，1884，The Met（51.112.6；70.5×104.1 cm）。
+  - 来源: https://www.metmuseum.org/art/collection/search/437658 （Met Open Access）
+  - License: CC0 1.0；原始文件 1959×1332px
+  - 落盘: 1800×1224px，731 KB
+- **gray_weather_grande_jatte.jpg** — Gray Weather, Grande Jatte，Georges Seurat，ca. 1886–88，The Met（2002.62.3）。
+  - 来源: https://www.metmuseum.org/art/collection/search/438015
+  - License: CC0 1.0；原始文件 3811×3132px
+  - 落盘: 1800×1479px，1334 KB
+- **circus_sideshow_parade_de_cirque.jpg** — Circus Sideshow (Parade de cirque)（阅兵），Georges Seurat，1887–88，The Met（61.101.17；99.7×149.9 cm）。
+  - 来源: https://www.metmuseum.org/art/collection/search/437654
+  - License: CC0 1.0；原始文件 3920×2621px
+  - 落盘: 1800×1204px，948 KB
+- **aman_jean_drawing.jpg** — Aman-Jean (Portrait of Edmond François Aman-Jean)，孔特蜡笔 / Michallet 纸，Georges Seurat，1882–83，The Met（61.101.16）。
+  - 来源: https://www.metmuseum.org/art/collection/search/339751
+  - License: CC0 1.0；原始文件 2975×3885px
+  - 落盘: 1378×1800px，907 KB
+- **le_chahut.jpg** — Le Chahut（康康舞），Georges Seurat，1889–90，Kröller-Müller Museum, Otterlo。
+  - 来源: https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Le_Chahut_-_Google_Art_Project.jpg （Google Art Project 扫描）
+  - License: Public domain；原始文件 3582×4349px
+  - 落盘: 1483×1800px，1609 KB
+- **the_circus.jpg** — The Circus (Le Cirque)（马戏），Georges Seurat，1890–91（未完成），Musée d'Orsay, Paris。
+  - 来源: https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_The_Circus_-_Google_Art_Project.jpg
+  - License: Public domain；原始文件 3918×4855px
+  - 落盘: 1453×1800px，1266 KB
+- **young_woman_powdering_herself.jpg** — Young Woman Powdering Herself（扑粉的年轻女子），Georges Seurat，1888–90，The Courtauld Gallery, London。
+  - 来源: https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Young_Woman_Powdering_Herself_-_Google_Art_Project.jpg
+  - License: Public domain；原始文件 1539×2401px
+  - 落盘: 1154×1800px，852 KB
+- **les_poseuses.jpg** — Les Poseuses (Models)（模特们），Georges Seurat，1886–88，Barnes Foundation, Philadelphia。
+  - 来源: https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Models_(Poseuses)_-_BF811_-_Barnes_Foundation.jpg
+  - License: Public domain；原始文件 4096×3298px
+  - 落盘: 1800×1449px，1146 KB
+
 ## 来源与许可口径
 
 - **Met Open Access（15 张）**：仅取 `isPublicDomain=true` 且 `primaryImage` 非空的对象；图像 = CC0 1.0。来源 URL 为 metmuseum.org 对象页（直链 images.metmuseum.org/...）。
 - **Art Institute of Chicago（4 张）**：API `is_public_domain=true`，作品页标注 "CC0 Public Domain Designation"；图像经 IIIF `https://www.artic.edu/iiif/2/<image_id>/full/1800,/0/default.jpg`。
 - **Cleveland Museum of Art（3 张）**：API `share_license_status=CC0`（Open Access）；图像 `<accession>_print.jpg`（约 3400px）缩放。
 - **Wikimedia Commons（11 张）**：PD 或 CC0/CC BY-SA；缩略图经 API `iiurlwidth=1600`。CC 类署名见总表。
+- **wave12 追加（克里姆特 3 张）**：原画 1918 年后进入公有领域；现代扫描/摄影**逐张核验** Commons 许可模板——`Licensed-PD-Art`（Kiss；另附 CC BY-SA 4.0）/ `PD-Art`（Adele）/ `PD-Art-two-auto`（Death and Life）。未使用馆方 © 摄影图（Klimt Foundation / Leopold 官网图像未采）；未经核实的第三方扫描未采。
+- **wave13 追加（修拉 10 张）**：AIC 1（CC0，IIIF）+ Met 4（Open Access，`isPublicDomain=true`）+ Commons 5（PD，imageinfo 逐张核验）。《浴场》图像采用 Commons PD 版（作品藏 NGL；NGL 官网图像许可口径未明，未采用其文件，作品页仅作档案文本来源）。**无版权未清项**；高清原图（>1800px）留私有层。
 - 统一后处理：LANCZOS 缩放至长边 ≤1800px，JPEG quality 88 progressive；无裁切、无加水印。
 
 ## 缺口与备注（不硬凑）

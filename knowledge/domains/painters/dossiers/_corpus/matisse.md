@@ -1,6 +1,6 @@
 # Henri Matisse（马蒂斯）— 自述与同代记录语料
 
-> 用途：`knowledge/domains/painters/dossiers/_corpus/`（A-10 / DB-C2c-CorpusB）；采集 2026-10-15。
+> 用途：`knowledge/domains/painters/dossiers/_corpus/`（A-10 / DB-C2c-CorpusB）；采集 2026-10-15。｜**wave14 追加**（A-37，2026-10-15）：Q14–Q24（生平·毕加索往来·尼斯/旺斯·剪纸·礼拜堂）。
 > 类型：`[self-written]`＝本人书写（文章、笔记、书）；`[reported speech]`＝他人记录的本人言辞；`[contemporary record]`＝同代/近同代记录。项目分级对应：前二者≈[自述]（后者为转述），末者≈[史料]。
 > 逐字核对底本（cache 原文）：① fr.wikiquote «Henri Matisse» wikitext（`wqfr_matisse.wt`，引文出处＝*Écrits et propos sur l'art*, Hermann 2021 各页）；② en.wikiquote «Henri Matisse»（`wqen_matisse.json`，含 Jazz 法文原句与 «Notes of a Painter» 英译）。
 > 缺口提示：1908《Notes d'un peintre》法语原文的 Gallica 扫描受 403/ALTCHA 拦截、fr.wikisource 无此文，本卡中该文引文以 fr.wikiquote 所载法文为准；色彩条目 Q5 仅有英译。
@@ -91,8 +91,78 @@
 - **类型**：`[self-written]`
 - **中文意译**：为了释放优雅与自然，我在钢笔素描前做大量练习；从不强迫自己，而是像舞者或走钢丝者先用数小时柔软练习，好让身体各部分在观众面前听命于情感。
 
+## 生平·毕加索往来·旺斯与礼拜堂（wave14 追加，2026-10-15）
+
+### Q14. 致尼斯主教的献堂信（1951-06-25）
+- **原文（法）**：「Je n'ai pas cherché la beauté, j'ai cherché la vérité. Je vous présente en toute humilité la chapelle du Rosaire des dominicaines de Vence… Cette œuvre m'a demandé quatre années d'un travail exclusif et assidu. Elle est le résultat de toute ma vie active… Je la considère, malgré toutes ses imperfections, comme mon chef-d'œuvre.」
+- **出处**：马蒂斯致尼斯主教信，1951-06-25 祝圣礼由 Père Couturier 代读（马蒂斯病中未出席）；转录见 fr.wikipedia「Chapelle du Rosaire (Vence)」（引馆方/档案）；旺斯市政页同文（末句表记略异：«…le résultat de toute ma vie active. Je la considère malgré toute ses imperfections comme mon chef-d'œuvre.»）。
+- **类型**：`[self-written]`
+- **中文意译**：我追求的不是美，而是真。我以谦卑之心把旺斯多明我会修女的玫瑰礼拜堂呈献给你们……这件作品耗费了我四年专注而勤勉的工作，是我一生事业的结晶；尽管它有种种不完美，我仍视之为我的杰作。
+
+### Q15. 「第二人生」（致 Marquet，1941）
+- **原文（法）**：「Il me semble être dans une seconde vie.」
+- **出处**：1941 年（里昂手术后）致 Albert Marquet 信；转引自 chapellematisse.com 官方纪年（旺斯多明我会修女会）。
+- **类型**：`[self-written]`
+- **中文意译**：我仿佛身处第二人生。
+- **语境**：1941 年 1 月手术后「像奇迹般恢复」，自感"多活了一段"——此后进入剪纸与礼拜堂的晚年创作期。
+
+### Q16. 致 Henry Clifford 信（1948-02-14，节选）
+- **原文（法）**：「J'ai toujours essayé de dissimuler mes efforts, j'ai toujours souhaité que mes œuvres aient la légèreté et la gaieté du printemps qui ne laisse jamais soupçonner le travail qu'il a coûté. […] Ce n'est qu'après des années de préparation que le jeune artiste a le droit de toucher aux couleurs — pas aux couleurs en tant que moyen de description — mais en tant que moyen d'expression intime.»
+- **出处**：Lettre à Henry Clifford（费城美术馆策展人），Vence, 1948-02-14；法文转录见 deslettres.fr / bycamcouture（2026-10-15 读取）；英译转录见 projectarts.org；另载 *Matisse on Art*（Flam, No.41）与 *Écrits et propos sur l'art*；chapellematisse.com 首页引首句。
+- **类型**：`[self-written]`
+- **中文意译**：我总在设法隐藏自己的用力，希望作品带着春天的轻盈与欢快，从不让人猜出它花了多少功夫。……只有在多年准备之后，年轻艺术家才有权碰色彩——不是把色彩当作描述手段，而是当作内在表达的手段。
+
+### Q17. 「唯一有权批评我的人」（晚年）
+- **原文（英）**："Only one person has the right to criticize me, it's Picasso."
+- **出处**：美国国家美术馆（NGA）讲座页 "The Goldfish and the Minotaur"（David Gariff）逐字引用；法语原文本次未取得（已查: NGA 页 / fr.wikipedia / Vanity Fair 转引）。
+- **类型**：`[reported speech]`
+- **中文意译**：只有一个人有权批评我，那就是毕加索。
+
+### Q18. 「我们要尽可能多谈」（对 Gilot 说）
+- **原文（英）**："We must talk to each other as much as we can. When one of us dies, there will be some things that the other will never be able to talk about with anyone else."
+- **出处**：Françoise Gilot 记录；转引自 John Richardson, "Between Picasso and Matisse", *Vanity Fair*, 2003-02（"As Matisse told Picasso's mistress Françoise Gilot…"）；The Independent（2002-05-07）同引并注"归属两说"。
+- **类型**：`[reported speech]`
+- **中文意译**：我们要尽可能多谈。等我们中一个人走了，有些东西，另一个人就再也没法跟任何人谈了。
+
+### Q19. 剪纸的「飞翔感」（晚年）
+- **原文（英）**："When I am doing the cut-outs, you cannot imagine to what degree the sensation of flight which comes to me helps me better to adjust my hand as it guides the path of my scissors."
+- **出处**：转引自 John Richardson, "Between Picasso and Matisse", *Vanity Fair*, 2003-02；法语原文未取得（已查: VF 英文转引）。
+- **类型**：`[reported speech]`
+- **中文意译**：做剪纸的时候，你无法想象那种飞翔感在多大程度上帮我调整手腕、引导剪刀的路径。
+
+### Q20. 「小花园」（约 1952–53）
+- **原文（英）**："I have made a little garden all around me where I can walk. There are leaves, fruits, a bird."
+- **出处**：MoMA 互动站 *Henri Matisse: The Cut-Outs*（In the Studio，2014）转引；语境为 Régina 工作室的《鹦鹉与美人鱼》环绕环境。
+- **类型**：`[self-written]`（馆方页转引；原始笔记出处待补）
+- **中文意译**：我在四周做了一座小花园，可以散步——有叶子、果实和一只鸟。
+
+### Q21. 库图里耶日记（1951-08-09）「闭着眼画」
+- **原文（法）**：「Ces choses-là il faut les savoir tellement par cœur qu'on puisse les dessiner les yeux fermés.」
+- **出处**：Journal du père Couturier, 1951-08-09（谈《苦路》各站的反复习作）；转录见 fr.wikipedia「Chapelle du Rosaire (Vence)」。
+- **类型**：`[contemporary record]`（同代记录；库图里耶为礼拜堂项目合作神父）
+- **中文意译**：这些东西要熟到能闭着眼睛画出来。
+
+### Q22. 毕加索论马蒂斯（1950s）
+- **原文（英）**："No one has ever looked at Matisse's painting more carefully than I; and no one has looked at mine more carefully than he."
+- **出处**：Picasso to Pierre Daix；转引自 John Richardson, "Between Picasso and Matisse", *Vanity Fair*, 2003-02；pablopicasso.org 同引。
+- **类型**：`[contemporary record]`（同代记录——毕加索语，关于马蒂斯）
+- **中文意译**：没有人比我更仔细地看过马蒂斯的画；也没有人比他更仔细地看过我的。
+
+### Q23. 毕加索「说到底，只有马蒂斯」（晚年）
+- **原文（英）**："All things considered, there is only Matisse."
+- **出处**：NGA 讲座页（David Gariff）转引；pablopicasso.org 同引（"…believing to the end, as he said, 'All things considered, there is only Matisse.'"）。
+- **类型**：`[contemporary record]`
+- **中文意译**：说到底，只有马蒂斯。
+
+### Q24. 「我工作的对象不是画布」（礼拜堂时期）
+- **原文（法）**：「Je ne travaille pas sur la toile mais sur celui qui la regarde.」
+- **出处**：礼拜堂创作语境；转录见 fr.wikipedia「Chapelle du Rosaire (Vence)」。
+- **类型**：`[reported speech]`
+- **中文意译**：我工作的对象不是画布，而是看画的人。
+
 ## 缺口
 
 - 1908《Notes d'un peintre》与 1939《Notes… sur son dessin》的**原始刊载版**（*La Grande Revue* 1908-12-25；*Le Point* 1939）未能直读（Gallica 拦截）；本卡引文出自 fr.wikiquote 转录（其底本为 *Écrits et propos sur l'art*, Hermann 2021），核对未及原刊。
 - *Jazz*（1947）与 1948 年致 Clifford 信（论「素描属精神、色彩属感觉」）等只取到英译/转引，法语原书未直读。
 - Q9 引文末句在缓存中被截断（[…]），未补全。
+- **wave14 追記（2026-10-15）**：Q16 法语文本已取得转录（部分关闭上条缺口）；Q14 祝圣文本法语全文已取；**仍缺**：Spurling 两卷页码级引用、马蒂斯—毕加索直接往来书信原件（未找到系统性辑录）、Q17 法语原文、Q19/Q20 原始刊载出处。

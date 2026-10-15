@@ -4,6 +4,7 @@
 > 类型：`[self-written]`＝本人书写（书信）；`[reported speech]`＝他人记录的本人言辞；`[contemporary record]`＝同代/近同代记录。项目分级对应：前二者≈[自述]（后者为转述），末者≈[史料]。
 > 逐字核对底本（cache 原文）：① Émile Bernard, *Souvenirs sur Paul Cézanne et Lettres*, 1921（Gallica / BnF-INHA, coll. J. Doucet 扫描 OCR，`bernard.txt`）；② Joachim Gasquet, *Cézanne*, Paris: Bernheim-Jeune, 1926（Project Gutenberg #78132，`gasquet.txt`）；③ fr.wikiquote «Paul Cézanne» wikitext（`wqfr_cezanne.wt`，其引文出处为 Rewald 编《Correspondance》Grasset 1995 与 Bernard《L'Occident》1904）。
 > 警示：Gasquet 的「对话」为文学性重构，文本可靠性低于书信；《L'Occident》诸条为 Bernard 记录的塞尚谈话（1904）。
+> **补采（2026-10-15，wave14 / BioCezanne）**：与左拉通信 7 条（Q18–Q24）——底本为 Société Paul Cézanne 网站转录（含 Sotheby's 2013 拍品数据、Mitterand/Pagès 考订）与 Rewald 编《Correspondance》（Grasset 1978）页码（经 Akimaru 2024、Mitterand 2016 转引）。
 
 ## 技法
 
@@ -115,8 +116,54 @@
 - **类型**：`[self-written]`
 - **中文意译**：我始终对自然研究……但我老了、病了，我发过誓要死在作画中。
 
+## 与左拉通信（补采 2026-10-15，wave14）
+
+> 7 条（Q18–Q24）：含 1878「母题」、1886 致谢、1887「证伪绝交」三封关键信；Zola 侧 2 条按 `[contemporary record]` 处理。
+
+### Q18. «Je viens de recevoir l'Œuvre…»（致 Zola，1886-04-04）
+- **原文（法）**：« Mon cher Émile, / Je viens de recevoir l'Œuvre que tu as bien voulu m'adresser. Je remercie l'auteur des Rougon-Macquart de ce bon témoignage de souvenir, et je lui demande de me permettre de lui serrer la main en songeant aux anciennes années. / Tout à toi sous l'impression des temps écoulés. / Paul Cezanne / À Gardanne, arrondissement d'Aix. »
+- **出处**：手稿影印（BnF 藏）转录；Société Paul Cézanne 网站（2016）；校订依 Lebensztejn, *Paul Cezanne. Cinquante-trois lettres*, L'Échoppe, 2011, p. 32；Rewald 编 *Correspondance*, Grasset 1978, p. 225（旧录「impulsion」，2011 年依手稿复原为「impression」，手稿先写「journées」后改「temps」）。
+- **类型**：`[self-written]`
+- **中文意译**：亲爱的埃米尔：我刚收到你惠寄的《作品》。感谢《卢贡-马卡尔家族》的作者这番情谊的表示，请允许我握你的手，回想过去的年月。一切属于你——在流逝的时间留下的「印象」之下。（此信长期被误读为「绝交/告别信」，2013 年 1887 年信发现后证伪。）
+
+### Q19. «…j'irai te voir pour te serrer la main»（致 Zola，1887-11-28）
+- **原文（法）**：« Paris, 28 9bre 1887. / Mon cher Emile, / Je viens de recevoir de retour d'Aix le volume la Terre, que tu as bien voulu m'adresser. Je te remercie pour l'envoi de ce nouveau rameau poussé sur l'arbre généalogique des Rougon-Macquart. / Je te remercie d'accepter mes remerciements et mes plus sincères salutations. / Paul Cezanne / Quand tu seras de retour j'irai te voir pour te serrer la main. »
+- **出处**：Sotheby's Paris，2013-11-26，lot 56（成交 €27,500；现藏 Musée des lettres et manuscrits, Paris）；Société Paul Cézanne 转录（2014；Mitterand 考订：原读「28 7bre（9 月）」改订「28 9bre（11 月）」——《土地》单行本 1887-11-15 出版）。
+- **类型**：`[self-written]`
+- **中文意译**：亲爱的埃米尔：我刚从艾克斯取回你惠寄的《土地》一卷。感谢你寄来这枝从《卢贡-马卡尔家族》族谱之树上长出的新枝……等你回来，我去看你、握你的手。
+
+### Q20. «Quel beau motif !»（致 Zola，1878-04-14）
+- **原文（英译）**："When I went to Marseille I was in the company of Monsieur Gibert. These people see correctly, but they have the eyes of Professors. Where the train passes close to Alexis's country house, a stunning motif appears on the East side: Ste Victoire and the rocks that dominate Beaurecueil. I said: 'What a beautiful motif'; he replied: 'The lines are swaying too much.'…"
+- **出处**：Rewald 编 *Correspondance*, Grasset 1978, p. 165；*Letters*, ed. Rewald, trans. Kay, Da Capo 1995, pp. 158-159（据 Akimaru 2024 转引）。已知最早以「motif」称呼圣维克多山的文献。
+- **类型**：`[self-written]`
+- **中文意译**：去马赛时我与 Gibert 先生同行。这些人看得很准，却长着教授的眼睛。火车驶近 Alexis 乡宅处，东侧出现一个惊人的母题：圣维克多山与俯瞰 Beaurecueil 的岩石。我说「多美的母题」；他答「线条晃得太厉害」……
+
+### Q21. «Si tu m'écris, tu me parleras d'art.»（致 Zola，1878-11-04）
+- **原文（法）**：« Si tu m'écris, tu me parleras d'art. »
+- **出处**：转引自 Mitterand, «Une fraternité d'artistes : les Lettres croisées de Cézanne et de Zola»（2016 科罗克讲稿；见《Lettres croisées》）。
+- **类型**：`[self-written]`
+- **中文意译**：你若给我写信，就同我谈艺术。
+
+### Q22. «J'ai fait un rêve…»（Zola 致 Cézanne，1860-03-25）
+- **原文（法）**：« J'ai fait un rêve, l'autre jour. J'avais écrit un beau livre, un livre sublime que tu avais illustré de belles, de sublimes gravures. Nos deux noms en lettres d'or brillaient, unis sur le premier feuillet, et, dans cette fraternité du génie, passaient inséparables à la postérité. Ce n'est encore qu'un rêve malheureusement. »
+- **出处**：转引自 Mitterand 2016（同上）；另见 Chédeville & Pagès 2016（Société Paul Cézanne）。
+- **类型**：`[contemporary record]`（Zola 书信；非 Cézanne 自述）
+- **中文意译**：前些天我做了一个梦：我写了一本美丽的书、一本崇高的书，你为它配了美丽、崇高的版画。我们两人的名字以金字并排闪耀在扉页上，在天才的兄弟情谊中形影不离地走向后世。可惜这还只是一个梦。
+
+### Q23. «Encore un peu de mon très lointain passé qui s'en va.»（Zola 致妻子 Alexandrine，1897-10-29）
+- **原文（法）**：« Il [Coste] m'annonce que Cezanne a perdu sa mère. Encore un peu de mon très lointain passé qui s'en va. […] Il me parle de Cezanne et de Solari, qui sont là-bas comme deux grands enfants, tels qu'ils étaient il y a quarante ans. »
+- **出处**：转引自 Mitterand 2016（同上）。
+- **类型**：`[contemporary record]`
+- **中文意译**：他（Coste）告知我，Cezanne 失去了母亲。我那极遥远的过去又逝去了一点……他同我谈起 Cezanne 和 Solari，他们在那边像两个大孩子，一如四十年前的样子。
+
+### Q24. «…comme on lit les bulletins d'une campagne qui commence.»（Numa Coste 在 Méjanes 揭幕礼上的讲话，1906-05-27）
+- **原文（法）**：« Après que Zola eut précédé le cénacle à Paris, il adressait, à mon vieil ami Paul Cezanne, ses premiers essais, en même temps qu'il nous tenait au courant de ses espérances. Ces lettres, nous les lisions au milieu des collines, à l'ombre des chênes verts, comme on lit les bulletins d'une campagne qui commence. »
+- **出处**：《Compte rendu de l'inauguration du buste d'Émile Zola à la Bibliothèque Méjanes》（Aix, Imprimerie S. Bourély, 1906, pp. 22-23），据 Pagès（Société Paul Cézanne, 2016）转引。
+- **类型**：`[contemporary record]`
+- **中文意译**：在 Zola 先于众人去巴黎之后，他把最初的习作寄给我多年的老友 Paul Cezanne，同时也让我们知晓他的期望。这些信，我们曾在山间、在绿橡树的树荫下诵读，像读一场刚开始的战役的战报。
+
 ## 缺口
 
 - Gasquet（1926）对话体的原始可靠性在学界有争议；本卡已将 Gasquet 来源单独标注，核心技法条款以书信与 Bernard 记录为准。
 - 《L'Occident》1904 原刊未逐页复核（以 fr.wikiquote 转引 + Bernard 1921 书影抽查核对）；两处转引存在「Conversations 1978 校正」备注（见 wqfr 原注）。
-- 塞尚致 Zola 等早期书信、以及他抄录/批注过的文本（如巴尔扎克《不为人知的杰作》页边注）本次未采集。
+- 塞尚致 Zola 的早期书信：**已补采 7 条（Q18–Q24，2026-10-15）**，含 1878（母题）、1886（致谢）、1887（证伪「绝交」）三封关键信；仍缺：早期书信逐字全文（本机未获《Lettres croisées》/Danchev 全本）、抄录/批注文本（如巴尔扎克《不为人知的杰作》页边注）。

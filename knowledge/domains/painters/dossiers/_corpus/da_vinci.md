@@ -3,6 +3,7 @@
 > 用途：「艺术家视觉语言蒸馏系统」的可溯源语料。每条 = 原文（逐字）＋来源＋类型＋中文意译。
 > 类型标注：[self-written] 本人书写（笔记/论著）；[reported speech] 他人转述的本人言语；[contemporary record] 同时代人的记录。
 > 底本：Trattato della Pittura（1890 版，it.wikisource 校对本）逐字摘录；引用处个别省略以「…」标出，截取到句中处已注明。
+> **wave14 追加（2026-10-15，BioDaVinci）**：新增「生平档案」6 条（第 17–22 条：出生/受洗记录、求职信、班德罗、De Beatis、Trivulziano、Forster）。
 
 ## 技法
 
@@ -128,9 +129,62 @@
 - 类型：[self-written]
 - 中文意译：（谈及坏的画风）你会认出这种人：他们的实践从不向自然之作请教，只图画得多；为多挣一个铜板，他们宁可整天缝鞋也不画画。
 
+## 生平档案（wave14 追加，2026-10-15）
+
+> 本节 6 条（第 17–22 条）为 A-31 加固 pass 追加：生平关键档案与手稿引文；标注与体例同上。转引条目已注明（原件未直读）。
+
+### 17. 出生与受洗（祖父备忘册）
+> Nacque un mio nipote, figliolo di ser Piero mio figliolo a dì 15 aprile del 1452 in sabato a ore 3 di notte. Ebbe nome Lionardo. Battizzollo prete Piero di Bartolomeo da Vinci, in presenza di Papino di Nanni, Meo di Tonino, Pier di Malvolto, Nanni di Venzo, Arigo di Giovanni Tedesco, monna Lisa di Domenico di Brettone, monna Antonia di Giuliano, monna Niccolosa del Barna, monna Maria, figlia di Nanni di Venzo, monna Pippa di Previcone.
+
+- 来源：Firenze, Archivio di Stato, Notarile P 389, c. 105t（祖父 Antonio 备忘册 ricordanze；转录：Antonio Forcellino, *Leonardo: Genio senza pace*, Laterza 2017, Parte prima；经 it.wikipedia 校读）
+- 类型：[contemporary record]
+- 中文意译：1452年4月15日星期六、夜第三时，我的孙子、我儿皮耶罗之子出生，取名莱昂纳多。受洗由神父皮耶罗·迪·巴尔托洛梅奥主持，在场者有帕皮诺·迪·南尼、梅奥·迪·托宁诺、皮耶尔·迪·马尔沃尔托、南尼·迪·文佐、阿里戈·迪·乔瓦尼·泰代斯科，以及蒙娜·丽莎·迪·多梅尼科·迪·布雷托内、蒙娜·安东尼娅·迪·朱利亚诺、蒙娜·尼科洛萨·德尔·巴尔纳、蒙娜·玛丽亚（南尼·迪·文佐之女）、蒙娜·皮帕·迪·普雷维科内。
+- 注：本档最早记录；档案原件未直读（两处转录互校一致）。
+
+### 18. 致卢多维科·斯福尔扎求职信（草稿节选）
+> [英译（Richter）] "Having now sufficiently considered the specimens of all those who proclaim themselves skilled contrivers of instruments of war … I shall endeavour, without prejudice to any one else, to explain myself to your Excellency showing your Lordship my secrets … Item: I can carry out sculpture in marble, bronze or clay, and also in painting whatever may be done, and as well as any other, be he whom he may. Again, the bronze horse may be taken in hand, which is to be to the immortal glory and eternal honour of the prince your father of happy memory, and of the illustrious house of Sforza."
+
+- 来源：Codex Atlanticus f. 391r（草稿；自左向右书写，罕见）；英译：J. P. Richter, *The Notebooks of Leonardo da Vinci*, 1888, No. 1340（Project Gutenberg #5000）
+- 类型：[self-written]
+- 中文意译：我已充分审视所有自称擅长战争器械者之作……谨向阁下陈明我的秘密……我能以大理石、青铜或陶土作雕塑，绘画亦不输任何人。此外，青铜马之事可付诸实施——它将为令先父（美好回忆）与斯福尔扎家族带来不朽荣光。
+- 注：意文原稿未逐字核对（见 dossier §11.3）。
+
+### 19. 班德罗：《最后的晚餐》目击记
+> …soleva dal nascente Sole sino all'imbrunita sera non levarsi mai il pennello di mano, ma scordatosi il mangiare et il bere, di continovo dipingere. Se ne sarebbe poi stato dui, tre e quattro dì, che non v'averebbe messo mano, e tuttavia dimorava talhora una o due ore al giorno e solamente contemplava, considerava et essaminando tra sé, le sue figure giudicava.
+
+- 来源：Matteo Bandello, *Novelle*, LVIII（转引：it.wikipedia；小说家为莱昂纳多同时代人）
+- 类型：[contemporary record]
+- 中文意译：他常从日出到暮色四合一直画笔不离手，忘了吃、忘了喝，不停作画；随后又会两三天、三四天不动笔，只在那里一站一两个小时，凝视、审视，心中评断自己的人物。
+- 注：转引（二级）；引文截取处已注明。
+
+### 20. De Beatis 日记（1517-10-10，克洛吕斯）
+> …certa paralesi ne la dextra … gli mostrò tre quadri, uno di certa donna Fiorentina facta di naturale ad istantia del quondam mag.co Juliano de Medici, l'altro de San Joane Bap.ta giovane et uno de la Madona et del figliolo che stan posti in grembo di S.ta Anna tucti perfectissimi … Ha ben facto un creato Milanese chi lavora assai bene, et benché il p.to M. Lunardo non possa colorir con quella dulceza che solea, pur serve a…
+
+- 来源：Antonio de Beatis, *Itinerario di monsignor R.mo Cardinale de Aragonia*（1517-10-10；转引 it.wikipedia / fr.wikipedia）
+- 类型：[contemporary record]
+- 中文意译：（莱昂纳多）右手某种瘫痪……仍出示三幅画：一幅佛罗伦萨妇人的自然写照（受已故朱利亚诺·德·美第奇之请）、一幅青年施洗者圣约翰、一幅圣母与圣子坐于圣安妮膝上——皆极完美……他有一位米兰弟子，画得很好；虽然这位莱昂纳多先生已不能以昔日的柔美作画，但仍能（指导）……
+- 注：转引（二级）；「佛罗伦萨妇人」通认为《蒙娜丽莎》。
+
+### 21. 一生善用者，死亦欣然（《特里武尔齐亚诺抄本》）
+> Sì come una giornata bene spesa dà lieto dormire, così una vita bene usata dà lieto morire.
+
+- 来源：Codice Trivulziano 2162, f. 27r（it.wikiquote / it.wikipedia 校读）
+- 类型：[self-written]
+- 中文意译：如同一个用得其所的白天带来安眠，一个用得其所的人生带来安然的死亡。
+- 注：常被引作他晚年的"预言式"句子（见 dossier §11.1）。
+
+### 22. 弟子须超越老师（《福斯特抄本 III》）
+> Tristo è quel discepolo che non avanza il suo maestro.
+
+- 来源：Codice Forster III（V&A 藏；it.wikiquote 整理）
+- 类型：[self-written]
+- 中文意译：不能超越老师的学生是可怜的。
+- 注：与《福斯特抄本》现藏 V&A 的实物对应（dossier §11 [B12]）。
+
 ## 缺口与待验证
 
-- 本文件只收《画论》文本；达·芬奇笔记手稿（Codex）中大量技法条目未逐一核对，未收入。
+- 本文件 v0.1 只收《画论》文本；**wave14 已补「生平档案」6 条（17–22）**；达·芬奇笔记手稿（Codex）中大量技法条目仍未逐一核对、未收入。
+- 第 17–20 条为档案/同时代记录，其中 17 经两处转录互校、18 为英译底本、19–20 为二级转引（原件未直读）。
 - 章节编号依 1890 版（Parte 内连续编号），与部分现代选本编号不同。
 - 已查：Trattato 全部八部分（it.wikisource 文本）；未查：Codex Atlanticus/Urbinate 数字版逐页（超出本轮预算）。
 - [UNVERIFIED]：个别章号（如「不以自然为师的实践者」条目）由文内定位，未与纸本页码复核。
