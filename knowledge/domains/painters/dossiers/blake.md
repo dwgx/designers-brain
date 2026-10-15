@@ -421,7 +421,48 @@ small scale, dense detail, a thick ruled border; the whole page is one object �
 
 **检查器**（eval 内联 + `_extract.py` 契约直测；原样输出，本节落盘前的运行快照）：
 
-<!-- C-OUTPUT -->
+```
+=== blake.md 结构检查（2026-10-16；eval/Python；无落盘）===
+总行数 438 / 字节 71781
+§1 指纹: 10 | §2 规则: 10 | §3 原则: 8
+§4 参数: 6 | §5: 10 | §7: 10 | §8.2: 8
+§11.1 CJK 字数: 2147
+§11.2 年表行: 32 | §11.3 来源: 12
+§12 条数: 10
+URL 总数/去重: 28 / 18
+分工条款密度: 蒙克×16 丢勒×22 写死×9 图文一体×20 浮雕蚀刻×31
+corpus: 条目 28（≥15 ✓）
+arch_4: OK 1231 chars | head: | # | 参数 | 弱（20–30%）…
+arch_81: OK 2445 chars | head: **正向段（可直接粘贴）** ``` Blake-style visionary…
+arch_82: OK 940 chars | head: 1. **轮廓线规则**：≥3 个主要形体，各 ≥80% 边界…
+images: 18 张（≥6 ✓）
+  albion_rose_1794.jpg                    6e0464e45805ae80
+  ancient_of_days_1794.jpg                77c5271b7ef459e8
+  behemoth_and_leviathan_1825.jpg         133dab48c30d65d0
+  circle_of_the_lustful_1827.jpg          0b9346456f08f047
+  elohim_creating_adam_1795.jpg           de5c34fcc52f4dee
+  europe_title_1794.jpg                   50a97d5b3a059a73
+  ghost_of_a_flea_c1819.jpg               1cddbf61f5c2d7f4
+  great_red_dragon_c1805.jpg              8f09e6fccd8af742
+  jerusalem_frontispiece_1804.jpg         6adb574c2465ae0c
+  marriage_of_heaven_and_hell_plate5_1827.jpg 0a51f33ac70dab0c
+  milton_preface_1804.jpg                 4aa8599a1d9170d5
+  nebuchadnezzar_1795.jpg                 49505ce2cdfb7828
+  newton_1795.jpg                         6eda3693cc611780
+  number_of_the_beast_1805.jpg            282758ce51808ac0
+  pity_c1795.jpg                          cd05002e17f25897
+  songs_innocence_title_1789.jpg          4fb716ba62962384
+  tyger_1794.jpg                          cef5e376c574af66
+  urizen_title_1794.jpg                   13794079f7e728b4
+
+=== 抽取契约直测（_extract.py 三函数对 blake.md）===
+arch_81 = 2445 chars · arch_82 = 940 chars · arch_4 = 1231 chars —— PARSE OK（模块卡批次扩表时可直接入 ARTISTS）
+
+=== 回归：python modules/_extract.py --check（尾行）===
+checks=126 ok=126 fail=0   # 42 卡 × §8.1/§8.2/§4 逐字比对（blake 尚未入表——本批不动既有卡）
+```
+
+- 另：`_corpus/blake.md` 条目 28（≥15 ✅）；`_images/blake/MANIFEST.md` 存在（18 行总表 + 逐张明细 + sha256 全表）；私有层 `_private/INVENTORY_blake.md` 随后落盘。
 
 ### D. 小结（≤14 行）
 
