@@ -1,0 +1,71 @@
+== 1. 段逐字（main_segment ⊂ 卡原文；sha256 复核）==
+  [PASS] final_vermeer_monet_windowlight segment-verbatim
+  [PASS] final_vermeer_monet_windowlight segment-sha256
+  [PASS] cand1_monet_dawn segment-verbatim
+  [PASS] cand1_monet_dawn segment-sha256
+  [PASS] cand2_vermeer_monet_windowlight segment-verbatim
+  [PASS] cand2_vermeer_monet_windowlight segment-sha256
+  [PASS] cand3_matisse_colorblocks segment-verbatim
+  [PASS] cand3_matisse_colorblocks segment-sha256
+== 2. prompt 组装（逐字重组比对）==
+  [PASS] final_vermeer_monet_windowlight prompt==rebuild
+  [PASS] final_vermeer_monet_windowlight prompt-sha256
+  [PASS] cand1_monet_dawn prompt==rebuild
+  [PASS] cand1_monet_dawn prompt-sha256
+  [PASS] cand2_vermeer_monet_windowlight prompt==rebuild
+  [PASS] cand2_vermeer_monet_windowlight prompt-sha256
+  [PASS] cand3_matisse_colorblocks prompt==rebuild
+  [PASS] cand3_matisse_colorblocks prompt-sha256
+== 3. 留档（req/resp/img）==
+  [PASS] final_vermeer_monet_windowlight has-result
+  [PASS] final_vermeer_monet_windowlight img-exists  final/final_vermeer_monet_windowlight.jpg
+  [PASS] final_vermeer_monet_windowlight req-exists  final/final_vermeer_monet_windowlight.req.json
+  [PASS] final_vermeer_monet_windowlight resp-exists  final/final_vermeer_monet_windowlight.resp.json
+  [PASS] final_vermeer_monet_windowlight req.prompt==job.prompt
+  [PASS] final_vermeer_monet_windowlight req.model==bare-name
+  [PASS] final_vermeer_monet_windowlight req.size
+  [PASS] final_vermeer_monet_windowlight resp.url
+  [PASS] cand1_monet_dawn has-result
+  [PASS] cand1_monet_dawn img-exists  candidates/cand1_monet_dawn.jpg
+  [PASS] cand1_monet_dawn req-exists  candidates/cand1_monet_dawn.req.json
+  [PASS] cand1_monet_dawn resp-exists  candidates/cand1_monet_dawn.resp.json
+  [PASS] cand1_monet_dawn req.prompt==job.prompt
+  [PASS] cand1_monet_dawn req.model==bare-name
+  [PASS] cand1_monet_dawn req.size
+  [PASS] cand1_monet_dawn resp.url
+  [PASS] cand2_vermeer_monet_windowlight has-result
+  [PASS] cand2_vermeer_monet_windowlight img-exists  candidates/cand2_vermeer_monet_windowlight.jpg
+  [PASS] cand2_vermeer_monet_windowlight req-exists  candidates/cand2_vermeer_monet_windowlight.req.json
+  [PASS] cand2_vermeer_monet_windowlight resp-exists  candidates/cand2_vermeer_monet_windowlight.resp.json
+  [PASS] cand2_vermeer_monet_windowlight req.prompt==job.prompt
+  [PASS] cand2_vermeer_monet_windowlight req.model==bare-name
+  [PASS] cand2_vermeer_monet_windowlight req.size
+  [PASS] cand2_vermeer_monet_windowlight resp.url
+  [PASS] cand3_matisse_colorblocks has-result
+  [PASS] cand3_matisse_colorblocks img-exists  candidates/cand3_matisse_colorblocks.jpg
+  [PASS] cand3_matisse_colorblocks req-exists  candidates/cand3_matisse_colorblocks.req.json
+  [PASS] cand3_matisse_colorblocks resp-exists  candidates/cand3_matisse_colorblocks.resp.json
+  [PASS] cand3_matisse_colorblocks req.prompt==job.prompt
+  [PASS] cand3_matisse_colorblocks req.model==bare-name
+  [PASS] cand3_matisse_colorblocks req.size
+  [PASS] cand3_matisse_colorblocks resp.url
+== 4. 图片（魔数/尺寸/sha256）==
+  [PASS] final_vermeer_monet_windowlight jpeg-magic
+  [PASS] final_vermeer_monet_windowlight img-sha256
+  [PASS] final_vermeer_monet_windowlight dims=768x1152  768x1152
+  [PASS] cand1_monet_dawn jpeg-magic
+  [PASS] cand1_monet_dawn img-sha256
+  [PASS] cand1_monet_dawn dims=768x1152  768x1152
+  [PASS] cand2_vermeer_monet_windowlight jpeg-magic
+  [PASS] cand2_vermeer_monet_windowlight img-sha256
+  [PASS] cand2_vermeer_monet_windowlight dims=768x1152  768x1152
+  [PASS] cand3_matisse_colorblocks jpeg-magic
+  [PASS] cand3_matisse_colorblocks img-sha256
+  [PASS] cand3_matisse_colorblocks dims=768x1152  768x1152
+== 5. 产物清单 ==
+  [PASS] candidates>=2  3
+  [PASS] compare-page
+  [PASS] final==1
+  [PASS] final img exists
+
+RESULT: checks=64 ok=64 fail=0

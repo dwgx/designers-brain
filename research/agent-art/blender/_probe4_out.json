@@ -1,0 +1,180 @@
+{
+ "steps": [
+  {
+   "name": "build_options",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "build_options_ffmpeg": true,
+    "build_options": [
+     "alembic",
+     "audaspace",
+     "bullet",
+     "codec_avi",
+     "codec_ffmpeg",
+     "codec_sndfile",
+     "compositor_cpu",
+     "coreaudio",
+     "count",
+     "cycles",
+     "cycles_osl",
+     "experimental_features",
+     "fluid",
+     "freestyle",
+     "haru",
+     "image_cineon",
+     "image_dds",
+     "image_hdr",
+     "image_openexr",
+     "image_openjpeg",
+     "image_tiff",
+     "image_webp",
+     "index",
+     "input_ndof",
+     "international",
+     "io_fbx",
+     "io_gpencil",
+     "io_ply",
+     "io_stl",
+     "io_wavefront_obj",
+     "jack",
+     "libmv",
+     "mod_oceansim",
+     "mod_remesh",
+     "n_fields",
+     "n_sequence_fields",
+     "n_unnamed_fields",
+     "openal",
+     "opencolorio",
+     "openmp",
+     "opensubdiv",
+     "openvdb",
+     "potrace",
+     "pugixml",
+     "pulseaudio",
+     "sdl",
+     "usd",
+     "wasapi",
+     "xr_openxr"
+    ],
+    "image_settings_rna_id": "ImageFormatSettings"
+   }
+  },
+  {
+   "name": "ffmpeg_output",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "static_enum_has_FFMPEG": true,
+    "static_len": 16,
+    "set_on_scene_render": "FAIL: bpy_struct: item.attr = val: enum \"FFMPEG\" not found in ('AVIF', 'JPEG', 'OPEN_EXR', 'PNG', 'WEBP', 'BMP', 'CINEON', 'DPX', 'IRIS', 'JPEG2000', 'HDR', 'TARGA', 'TARGA_RAW', 'TIFF')",
+    "has_render_ffmpeg": true,
+    "render_attrs_with_video": [
+     "is_movie_format"
+    ],
+    "scene_attrs_with_video": []
+   }
+  },
+  {
+   "name": "ffmpeg_retry",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "after_frame_end_60": "FAIL: bpy_struct: item.attr = val: enum \"FFMPEG\" not found in ('AVIF', 'JPEG', 'OPEN_EXR', 'PNG', 'WEBP', 'BMP', 'CINEON', 'DPX', 'IRIS', 'JPEG2000', 'HDR', 'TARGA', 'TARGA_RAW', 'TIFF')"
+   }
+  },
+  {
+   "name": "motion_blur_detail",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "cycles_motion_related": [
+     "blur_glossy",
+     "rolling_shutter_type",
+     "rolling_shutter_duration"
+    ],
+    "render_use_motion_blur": false,
+    "render_motion_blur_shutter": 0.5,
+    "eevee_only_attrs": [
+     "motion_blur_depth_scale",
+     "motion_blur_max",
+     "motion_blur_steps"
+    ]
+   }
+  },
+  {
+   "name": "rigidbody_sim_bake",
+   "ok": true,
+   "secs": 0.11,
+   "result": {
+    "bake_secs": 0.08,
+    "ball_z_by_frame": {
+     "1": 5.0,
+     "20": 1.943,
+     "40": 0.5,
+     "60": 0.5,
+     "80": 0.5,
+     "90": 0.5
+    },
+    "rb_attrs": [
+     "angular_damping",
+     "collision_collections",
+     "collision_margin",
+     "collision_shape",
+     "deactivate_angular_velocity",
+     "deactivate_linear_velocity",
+     "enabled",
+     "friction",
+     "kinematic",
+     "linear_damping",
+     "mass",
+     "mesh_source",
+     "restitution",
+     "type",
+     "use_deactivation",
+     "use_deform",
+     "use_margin",
+     "use_start_deactivated"
+    ]
+   }
+  },
+  {
+   "name": "bake_physics_to_keyframes",
+   "ok": false,
+   "secs": 0.0,
+   "error": "RuntimeError: Error: Python: Traceback (most recent call last):\n  File \"D:\\Software\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\startup\\bl_operators\\rigidbody.py\", line 165, in execute\n    bpy.ops.anim.keyframe_insert_by_name(type='BUILTIN_KSI_LocRot')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Operator bpy.ops.anim.keyframe_insert_by_name.poll() failed, context is incorrect\nLocation: D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe4.py:105\n",
+   "tb": "^^^\nRuntimeError: Error: Python: Traceback (most recent call last):\n  File \"D:\\Software\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\startup\\bl_operators\\rigidbody.py\", line 165, in execute\n    bpy.ops.anim.keyframe_insert_by_name(type='BUILTIN_KSI_LocRot')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Operator bpy.ops.anim.keyframe_insert_by_name.poll() failed, context is incorrect\nLocation: D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe4.py:105\n\n"
+  },
+  {
+   "name": "keyframe_api",
+   "ok": false,
+   "secs": 0.0,
+   "error": "AttributeError: 'Action' object has no attribute 'fcurves'",
+   "tb": "Traceback (most recent call last):\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe4.py\", line 8, in step\n    r = fn()\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe4.py\", line 115, in f_keyframes_api\n    fc = ob.animation_data.action.fcurves\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Action' object has no attribute 'fcurves'\n"
+  },
+  {
+   "name": "render_png_sequence",
+   "ok": false,
+   "secs": 0.0,
+   "error": "RuntimeError: Error: Cannot render, no camera\n",
+   "tb": "Traceback (most recent call last):\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe4.py\", line 8, in step\n    r = fn()\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe4.py\", line 131, in f_render_frame_sequence\n    bpy.ops.render.render(animation=True)\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\nRuntimeError: Error: Cannot render, no camera\n\n"
+  },
+  {
+   "name": "image_api_numpy",
+   "ok": true,
+   "secs": 0.46,
+   "result": {
+    "size": [
+     1920,
+     1080
+    ],
+    "channels": 4,
+    "array_len": 8294400,
+    "numpy_ok": true,
+    "has_foreach_get": true,
+    "image_new_api": true,
+    "has_image_save": true
+   }
+  }
+ ]
+}

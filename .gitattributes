@@ -1,0 +1,20 @@
+# === Designers_Brain .gitattributes ===
+* text=auto eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.mp4 binary
+*.mkv binary
+*.mp3 binary
+*.wav binary
+*.blend binary
+*.blend1 binary
+*.npz binary
+*.zip binary

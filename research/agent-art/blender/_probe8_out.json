@@ -1,0 +1,105 @@
+{
+ "steps": [
+  {
+   "name": "a_motion_blur_in_frame",
+   "ok": true,
+   "secs": 1.75,
+   "result": {
+    "off": {
+     "bytes": 48347,
+     "std": 0.43326
+    },
+    "on": {
+     "bytes": 52383,
+     "std": 0.43207
+    },
+    "mean_abs_pixel_diff": 0.004838,
+    "max_abs_pixel_diff": 0.64706,
+    "motion_blur_changes_image": true
+   }
+  },
+  {
+   "name": "b_eevee_raytracing_glass",
+   "ok": true,
+   "secs": 15.68,
+   "result": {
+    "surface_render_method": "BLENDED",
+    "options": [
+     "DITHERED",
+     "BLENDED"
+    ],
+    "eevee_raytracing_default": false,
+    "raytracing_off": {
+     "bytes": 146560
+    },
+    "raytracing_on": {
+     "bytes": 146572
+    },
+    "mean_abs_pixel_diff": 0.0,
+    "raytracing_changes_image": false
+   }
+  },
+  {
+   "name": "c_softbody_squash_on_collision_floor",
+   "ok": false,
+   "secs": 0.04,
+   "error": "TypeError: bpy_struct: item.attr = val: SoftBodySettings.plastic expected an int type, not float",
+   "tb": "Traceback (most recent call last):\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe8.py\", line 12, in step\n    r = fn()\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe8.py\", line 136, in f_squash\n    st.plastic = 0.0\n    ^^^^^^^^^^\nTypeError: bpy_struct: item.attr = val: SoftBodySettings.plastic expected an int type, not float\n"
+  },
+  {
+   "name": "d_rigidbody_push_neighbours",
+   "ok": true,
+   "secs": 3.7,
+   "result": {
+    "marbles": 49,
+    "block_rest_z": 0.7,
+    "sample_before": {
+     "Proto.001": [
+      -1.8,
+      -1.8
+     ],
+     "Proto.002": [
+      -1.8,
+      -1.2
+     ],
+     "Proto.003": [
+      -1.8,
+      -0.6
+     ],
+     "Proto.004": [
+      -1.8,
+      0.0
+     ],
+     "Proto.005": [
+      -1.8,
+      0.6
+     ]
+    },
+    "sample_after": {
+     "Proto.001": [
+      -1.8,
+      -1.8
+     ],
+     "Proto.002": [
+      -1.8,
+      -1.2
+     ],
+     "Proto.003": [
+      -1.8,
+      -0.6
+     ],
+     "Proto.004": [
+      -1.8,
+      0.0
+     ],
+     "Proto.005": [
+      -1.8,
+      0.6
+     ]
+    },
+    "marbles_pushed_beyond_1u_radius": 49,
+    "max_radial_distance": 5.962
+   }
+  }
+ ]
+}

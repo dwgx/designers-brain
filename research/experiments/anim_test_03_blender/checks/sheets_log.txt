@@ -1,0 +1,7 @@
+SHEET D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\key\keyframes_sheet.png 2880 x 1080 tiles 6
+SHEET D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\review_sheet.png 1920 x 900 tiles 30
+SHEET D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\review_fine.png 1920 x 1080 tiles 100
+SHEETS_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,13 @@
+$ ffmpeg -i out.mp4 -af loudnorm=print_format=json -f null -   (取 input_i / input_tp / input_lra)
+{
+	"input_i" : "-17.16",
+	"input_tp" : "-1.17",
+	"input_lra" : "11.80",
+	"input_thresh" : "-28.33",
+	"output_i" : "-19.82",
+	"output_tp" : "-2.51",
+	"output_lra" : "6.90",
+	"output_thresh" : "-30.17",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-4.18"
+}

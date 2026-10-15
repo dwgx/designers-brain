@@ -1,0 +1,52 @@
+{
+ "steps": [
+  {
+   "name": "penumbra_width_vs_light_size",
+   "ok": true,
+   "secs": 2.02,
+   "result": {
+    "scanline": "row 256 of 512, column 0..511",
+    "per_light_size": [
+     {
+      "light_size": 0.1,
+      "bytes": 74603,
+      "row_min": 0.0,
+      "row_max": 0.0039,
+      "penumbra_px_10_90": 3
+     },
+     {
+      "light_size": 2.0,
+      "bytes": 76592,
+      "row_min": 0.0,
+      "row_max": 0.2118,
+      "penumbra_px_10_90": 235
+     },
+     {
+      "light_size": 8.0,
+      "bytes": 156592,
+      "row_min": 0.7529,
+      "row_max": 0.8471,
+      "penumbra_px_10_90": 235
+     }
+    ],
+    "note": "penumbra_px_10_90 = width of the 10%-90% transition band; bigger = softer shadow"
+   }
+  },
+  {
+   "name": "rubber_sss_evidence",
+   "ok": true,
+   "secs": 0.33,
+   "result": {
+    "sss_off": {
+     "bytes": 94126
+    },
+    "sss_on": {
+     "bytes": 102709
+    },
+    "mean_abs_pixel_diff": 0.009706,
+    "sss_changes_image": true,
+    "eevee_sss_extra_toggle": "material.use_sss_translucency (default False)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-15",
+  "task": "E-02 · E1_t1b · §8.1b 拆分",
+  "pure_style": {
+    "da_vinci": {
+      "text": "Renaissance oil painting in the manner of Leonardo da Vinci, sfumato: absolutely no hard contours anywhere, every light-to-shadow transition is a wide, continuous grey gradient, soft smoky modelling; single soft light from the upper left moulding forms out of deep shadow; aerial perspective — distant forms turn blue-grey, lose saturation and dissolve into haze; narrow earth palette of ochre, umber, muted blue and dull gold, overall low saturation; rocks shaped like rounded cones, wet atmosphere over shallow green water; invisible brushwork, glazed surface, matte, aged varnish warmth; contemplative, quiet, mysterious mood",
+      "removed": "young woman、half-smile、curly hair、figures、flowers",
+      "rewritten": "the figures→forms、distant mountains→distant forms"
+    },
+    "michelangelo": {
+      "text": "High Renaissance fresco in the manner of Michelangelo Buonarroti: colossal, heroic forms with clearly defined volumes; forms locked in serpentine torsion — counter-rotations forming an S-curve; forms designed to be seen from below, strong foreshortening, monumental scale; sculptural modelling — forms look chiselled out of the surface, hard-edged cast shadows, relief-like light and shadow; dense swirling composition of many interlocking forms rotating around a calm central axis; limited fresco palette of earthy ochre, muted green, pale violet and sky blue, matte plaster surface; an atmosphere of awe and terribilità",
+      "removed": "nude figures、muscle groups、bodies（torsion）、drapery、idealised faces、flesh tones",
+      "rewritten": "figures→forms（3 处）"
+    },
+    "picasso": {
+      "text": "Analytic Cubist painting in the manner of Picasso, autumn 1910: the scene fractured into 40–120 semi-transparent angular planes; foreground and background merge into one shallow, crystalline lattice; 3–5 simultaneous viewpoints; palette restricted to 4–5 hues — ochre, umber, warm grey, slate, black — with at least 6 value steps; form modeled only by value jumps between flat planes, no gradients; matte oil-on-canvas surface, fine canvas weave; brightest values concentrated at the center, dark aura toward the edges; composition reads as monumental, melancholic.",
+      "removed": "portrait、seated man、anchors（hair/tie/watch/hands）、seated pose、frontally posed",
+      "rewritten": "figure and background→foreground and background"
+    },
+    "cezanne": {
+      "text": "Late Cézanne landscape in the manner of his late period (1895–1906): the entire surface built from short, visible parallel brushstrokes (taches) of 0.5–1.5 cm equivalent, arranged in groups of 4–8 directional families that both model volume and unify the picture plane; forms constructed only by color modulation — light, half-tone and quarter-tone steps of ochre, orange, olive, viridian, cobalt and ultramarine — never by black shading; forms carry broken, multiple outlines, 30% of contour segments left open so forms merge into the background; a network of blue in shadows, contours and sky (12–15% of pixels); sky and earth painted with equal substance, no atmospheric recession, distant forms the same scale as near ones; shifting viewpoints within one frame; 5–8% of the canvas left thinly covered or bare, suggesting unfinish; dry, matte oil surface, fine canvas weave visible.",
+      "removed": "still-life foreground、Bathers period、tipped tabletop",
+      "rewritten": "objects carry→forms carry、Bathers period→late period"
+    },
+    "caravaggio": {
+      "text": "Caravaggio-style tenebrist oil painting: one single hard directional light from high left, no fill light, no reflected light; background areas in near-black shadow (values under 10% of the lit highlights); deep dark brown ground left visible inside the shadows as their mid-tone; violent chiaroscuro: lit passages bright and warm, shadows crushed, midtones suppressed; one frozen instant of dramatic action; the main motif pushed flat against the picture plane and cropped by the frame edge; restrained earth palette — ochre, madder red, lead white, bitumen black, one or two saturated accents; direct painting, broad final touches, impasto highlights on the lit edges",
+      "removed": "faces and hands、gestures、working people as saints、dark interior（no landscape/no sky）、prop accent",
+      "rewritten": "walls and floor→areas、figures pushed flat→the main motif pushed flat、narrative action→dramatic action"
+    },
+    "vermeer": {
+      "text": "quiet Dutch Golden Age painting: soft natural daylight from a single source on the LEFT, large pale areas catching the light, high-key tonality, deep shadows rendered as flat unmodulated areas of cool blue-grey paint (no detail inside shadows), dominant colour pair of natural ultramarine blue and ochre yellow with tiny red accents, specular highlights painted as small round globular dots (pointillés) on glossy surfaces, soft edges with no hard contour lines (sfumato, details deliberately omitted), matte and glossy surfaces distinguished only by the shape of their highlights, single-point perspective grid, thin translucent glazes over a light grey ground, smooth levigated paint surface with the canvas weave barely visible, dark neutral or deep green backdrop, timeless stillness, oil on canvas, museum-quality",
+      "removed": "interior genre scene、single figure、window、plaster wall、object list（porcelain…bread crust）、tiled floor/window frames、Delft world",
+      "rewritten": "single window→single source、plaster wall→pale areas、pushing the figure forward 删除"
+    },
+    "durer": {
+      "text": "Northern Renaissance engraving in the manner of Albrecht Dürer's burin master prints (1513-1514): pure black ink line work on warm off-white paper, no grey fill anywhere - every tone is built from parallel hatching and layered cross-hatching; hatching lines follow and wrap each volume; cross layers sit at 30-45 degrees; line spacing tapers from about 6px in the lights to 1.5px in the darks (1000px wide frame), darkest zones get 3 or more superimposed hatch directions; engraved lines swell slightly mid-stroke and end in fine points; hard contour lines separate every form: no soft edges, no sfumato, no airbrush; hyper-detailed microtexture; backgrounds closed with dense parallel line fields instead of empty space; calm, measured composition",
+      "removed": "contrapposto figures、microtexture examples（hairs/grass/leaf）、monogram plate、cartellino、allegorical still-life",
+      "rewritten": "calm measured figures…→calm, measured composition"
+    }
+  },
+  "notes": {
+    "van_gogh": "§8.1 无人物/肖像/室内/静物题材词；E1_t1 灯塔场景保留，风格可直接跨场景迁移（cypress / wheat field / stars 等风景道具词仅作次要元素出现，可按需删除）。",
+    "monet": "§8.1 无题材词；E1_t1 灯塔场景完整保留，风格可直接跨场景迁移（无需拆分）。",
+    "matisse": "§8.1 仅含装饰母题词（dancer / snail / leaf / star）；E1_t1 未见人物实体化、场景保留，风格可迁移（如需更纯净可删母题词）。",
+    "hokusai": "§8.1 含 Mount Fuji / tiny figures 等非主体题材词；E1_t1 中仅作远景与比例元素、未替换场景，风格可迁移（如需更纯净可删上述词）。"
+  },
+  "inserted": [
+    {
+      "id": "da_vinci",
+      "kind": "pure_style",
+      "chars": 976
+    },
+    {
+      "id": "michelangelo",
+      "kind": "pure_style",
+      "chars": 967
+    },
+    {
+      "id": "van_gogh",
+      "kind": "note",
+      "chars": 147
+    },
+    {
+      "id": "monet",
+      "kind": "note",
+      "chars": 92
+    },
+    {
+      "id": "picasso",
+      "kind": "pure_style",
+      "chars": 939
+    },
+    {
+      "id": "cezanne",
+      "kind": "pure_style",
+      "chars": 1239
+    },
+    {
+      "id": "matisse",
+      "kind": "note",
+      "chars": 130
+    },
+    {
+      "id": "hokusai",
+      "kind": "note",
+      "chars": 132
+    },
+    {
+      "id": "caravaggio",
+      "kind": "pure_style",
+      "chars": 1115
+    },
+    {
+      "id": "vermeer",
+      "kind": "pure_style",
+      "chars": 1276
+    },
+    {
+      "id": "durer",
+      "kind": "pure_style",
+      "chars": 1156
+    }
+  ]
+}

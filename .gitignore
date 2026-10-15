@@ -1,0 +1,29 @@
+# === Designers_Brain .gitignore (v1, 2026-10-15) ===
+
+# --- Third-party media (not redistributed in this repo) ---
+research/source_video/**/*.mkv
+research/source_video/**/*.mp4
+research/source_video/**/*.webm
+research/source_video/**/*.png
+research/source_video/**/*.jpg
+research/source_video/**/*.jpeg
+research/experiments/*/ref/**/*.mp4
+research/experiments/*/ref/**/*.webm
+research/experiments/*/ref/**/*.mkv
+
+# --- Heavy generated artifacts ---
+**/frames/
+**/node_modules/
+**/__pycache__/
+*.npz
+
+# --- Scratch ---
+_tmp_picasso/
+
+# --- Junctions (local skill activation) ---
+.agents/skills/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp

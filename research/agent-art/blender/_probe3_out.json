@@ -1,0 +1,107 @@
+{
+ "steps": [
+  {
+   "name": "build_scene",
+   "ok": true,
+   "secs": 0.04,
+   "result": "<bpy_struct, Scene(\"Scene\") at 0x000002D0708BE060>"
+  },
+  {
+   "name": "gpu_platform",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "gpu_api_err": "SystemError: GPU functions for drawing requires the gpu module to be initialized. See gpu.init."
+   }
+  },
+  {
+   "name": "view_transforms_no_factory_startup",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "view_transform_enum": [
+     "NONE"
+    ],
+    "current": "AgX",
+    "look_enum": [
+     "NONE"
+    ],
+    "display_device": "sRGB",
+    "sequencer_colorspace": "sRGB"
+   }
+  },
+  {
+   "name": "render_eevee_1080p",
+   "ok": true,
+   "secs": 3.53,
+   "result": {
+    "seconds": 3.53,
+    "file": "D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_render_eevee_.png",
+    "exists": true,
+    "bytes": 1675668
+   }
+  },
+  {
+   "name": "render_cycles_1080p_64spp",
+   "ok": true,
+   "secs": 27.1,
+   "result": {
+    "seconds": 27.1,
+    "file": "D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_render_cycles_.png",
+    "exists": true,
+    "bytes": 1824829,
+    "device": "CPU",
+    "denoise": true
+   }
+  },
+  {
+   "name": "cycles_devices",
+   "ok": true,
+   "secs": 0.31,
+   "result": {
+    "compute_device_type": "NONE",
+    "devices": [
+     {
+      "type": "CUDA",
+      "name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+      "use": true
+     },
+     {
+      "type": "CPU",
+      "name": "Intel Core Ultra 9 275HX",
+      "use": false
+     },
+     {
+      "type": "OPTIX",
+      "name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+      "use": true
+     },
+     {
+      "type": "ONEAPI",
+      "name": "Intel(R) Graphics",
+      "use": true
+     }
+    ]
+   }
+  },
+  {
+   "name": "compositor_52_api",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "has_compositing_node_group": true,
+    "value": "None",
+    "glare_node_created": "CompositorNodeGlare",
+    "node_tree_assign_ok": true,
+    "use_nodes_after": true
+   }
+  },
+  {
+   "name": "ffmpeg_direct_mp4",
+   "ok": false,
+   "secs": 0.0,
+   "error": "TypeError: bpy_struct: item.attr = val: enum \"FFMPEG\" not found in ('AVIF', 'JPEG', 'OPEN_EXR', 'PNG', 'WEBP', 'BMP', 'CINEON', 'DPX', 'IRIS', 'JPEG2000', 'HDR', 'TARGA', 'TARGA_RAW', 'TIFF')",
+   "tb": "Traceback (most recent call last):\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe3.py\", line 9, in step\n    r = fn()\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe3.py\", line 144, in ffmpeg_write_video\n    sc.render.image_settings.file_format = \"FFMPEG\"\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: bpy_struct: item.attr = val: enum \"FFMPEG\" not found in ('AVIF', 'JPEG', 'OPEN_EXR', 'PNG', 'WEBP', 'BMP', 'CINEON', 'DPX', 'IRIS', 'JPEG2000', 'HDR', 'TARGA', 'TARGA_RAW', 'TIFF')\n"
+  }
+ ]
+}

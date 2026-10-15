@@ -1,0 +1,109 @@
+=== 0. 帧文件 ===
+frames/*.png count = 300
+frame size = 1920x1080
+
+=== 1. 一笔画连通性（墨色 mask → 8 连通分量；期望 1 个主体） ===
+f0000 ink_px=      0 comps>50px=0  comps_all=0  max=0
+f0030 ink_px=   1569 comps>50px=1  comps_all=1  max=1569
+f0063 ink_px=   3448 comps>50px=1  comps_all=1  max=3448
+f0100 ink_px=   5058 comps>50px=1  comps_all=1  max=5058
+f0126 ink_px=   6391 comps>50px=1  comps_all=1  max=6391
+f0150 ink_px=  10279 comps>50px=1  comps_all=1  max=10279
+f0182 ink_px=  12577 comps>50px=1  comps_all=1  max=12577
+f0200 ink_px=  14018 comps>50px=1  comps_all=1  max=14018
+f0230 ink_px=  12277 comps>50px=1  comps_all=1  max=12277
+f0250 ink_px=  15028 comps>50px=1  comps_all=1  max=15028
+f0266 ink_px=  17160 comps>50px=1  comps_all=1  max=17160
+f0275 ink_px=  14032 comps>50px=1  comps_all=1  max=14032
+f0284 ink_px=  14140 comps>50px=1  comps_all=1  max=14140
+f0290 ink_px=  14140 comps>50px=1  comps_all=1  max=14140
+f0299 ink_px=  14140 comps>50px=1  comps_all=1  max=14140
+
+=== 2. 线宽恒定（5x5 腐蚀两次后残留 = 交叉/结点；直段横切游程） ===
+f0063 ink=   3448 after_erode1=  1254 after_erode2=   26
+f0126 ink=   6391 after_erode1=  2242 after_erode2=   38
+f0200 ink=  14018 after_erode1=  5615 after_erode2=  314
+f0250 ink=  15028 after_erode1=  5957 after_erode2=  197
+f0126 row y=755 ink runs = [3, 8]
+f0126 row y=760 ink runs = [3, 7]
+f0126 row y=765 ink runs = [3, 8, 24]
+f0126 col x=650 ink runs = [2, 3, 3, 3]
+f0126 col x=660 ink runs = [3, 3, 3, 3]
+f0299 row y=500 ink runs (x,len) = [(779, 3), (973, 5), (1010, 4), (1025, 9), (1041, 3), (1059, 5), (1066, 3), (1080, 4), (1096, 4), (1103, 3), (1109, 5), (1156, 5), (1318, 3)]
+
+=== 3. 笔尖光点（近 #ff9d1f；f0-266 在，填色后熄灭） ===
+f0000 dot_px= 120 centroid=(444.5, 899.5)
+f0060 dot_px=  57 centroid=(487.7, 745.5)
+f0126 dot_px=  56 centroid=(639.5, 985.6)
+f0150 dot_px=  70 centroid=(759.5, 946.0)
+f0200 dot_px=  88 centroid=(1039.7, 563.0)
+f0250 dot_px=  92 centroid=(906.2, 270.7)
+f0266 dot_px=  55 centroid=(1271.3, 655.5)
+f0270 dot_px=   0
+f0280 dot_px=   0
+f0299 dot_px=   0
+
+=== 4. 闭合填色（徽章圆内 天空/山体/太阳 色像素数） ===
+f0264 fill_px=    589
+f0266 fill_px=    586
+f0268 fill_px=    908
+f0270 fill_px=   5804
+f0272 fill_px=  22240
+f0274 fill_px=  59701
+f0276 fill_px= 119354
+f0278 fill_px= 176003
+f0280 fill_px= 209367
+f0282 fill_px= 221617
+f0284 fill_px= 221621
+f0299 fill_px= 221621
+monotonic_non_decreasing (tol 100px) = True
+badge_area = 228977
+
+=== 5. 结尾文案「山野骑行」（深绿 #2f5d45，文案区内） ===
+f0280 text_px=     0
+f0284 text_px=     0
+f0288 text_px=     0
+f0292 text_px= 13227 bbox=(833,842)-(1245,923)
+f0299 text_px= 13243 bbox=(833,842)-(1245,923)
+
+=== 6. 帧间统计（全 300 帧） ===
+identical-to-previous frames = 7/299 (2%)
+mean abs diff per frame: mean=0.209 max=1.484 frames with diff>0.5 = 44
+
+=== 7. 色数（抽样 50 帧并集；本片无“限色”约束，仅记录） ===
+sampled frames = 50, union colors = 2136, per-frame min=102 max=726
+
+=== 8. 音轨（audio/score.wav 逐秒 RMS/峰值） ===
+sr=44100 ch=2 frames=441000 dur=10.000s
+  t=0-1s rms=0.035 peak=0.271
+  t=1-2s rms=0.019 peak=0.148
+  t=2-3s rms=0.034 peak=0.175
+  t=3-4s rms=0.019 peak=0.142
+  t=4-5s rms=0.047 peak=0.268
+  t=5-6s rms=0.035 peak=0.176
+  t=6-7s rms=0.067 peak=0.263
+  t=7-8s rms=0.104 peak=0.700
+  t=8-9s rms=0.086 peak=0.599
+  t=9-10s rms=0.110 peak=0.513
+
+=== 9. 6 关键帧（key/） ===
+key/k0000.png: (1920, 1080) 12400B sha256:4c3801fcb9872641
+key/k0050.png: (1920, 1080) 24103B sha256:9ffaff1299adfe4c
+key/k0100.png: (1920, 1080) 31470B sha256:8d9c50a142294efb
+key/k0150.png: (1920, 1080) 51910B sha256:cf0fa31ad9009d0e
+key/k0200.png: (1920, 1080) 69621B sha256:45d7831c7b8cb96b
+key/k0250.png: (1920, 1080) 72805B sha256:127fcda1950d3d75
+pairwise differing-pixel counts (of 129600, |diff|>10):
+               0      50     100     150     200     250
+       0       0     543     957    1791    2400    2514
+      50     543       0     463    1299    1906    2020
+     100     957     463       0     936    1752    1868
+     150    1791    1299     936       0    2607    2715
+     200    2400    1906    1752    2607       0    2911
+     250    2514    2020    1868    2715    2911       0
+keyframes_sheet.png: (1936, 728)
+
+=== 10. 官方参考帧（ref/02-line-art.mp4 抽取） ===
+ref_1.png: (1920, 1080) sha256:ddc08f15cd9264d8
+ref_2.png: (1920, 1080) sha256:ca97463330bfff10
+ref_3.png: (1920, 1080) sha256:2e27dfc4654bbaca

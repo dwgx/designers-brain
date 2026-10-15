@@ -1,0 +1,99 @@
+{
+  "experiment": "E-04 · E2 首批组合实验（70/30 主辅）· T1「暴风雨中的海边灯塔」",
+  "date": "2026-10-15",
+  "model": "grok-imagine-image-2.0",
+  "note": "N1=负向段重算记录（未发送）；N4=冲突轴二选一/分区判定；N9=组合卡验收口径。逐条原文与判定过程见 RESULTS_E2.md §3–§5。",
+  "cells": [
+    {
+      "cell": "e2a_monet_van_gogh",
+      "prompt_sha256": "a889d23f",
+      "n1": {
+        "pool_size": 27,
+        "consistent": 23,
+        "flagged": 4,
+        "items": [
+          {"item": "hard black outlines", "source": "monet 负向", "vs": "van_gogh 正向『bold expressive outlines on key forms』", "verdict": "冲突", "fix": "限定：禁『无差别硬黑勾线』；关键形体上的表现性粗轮廓除外"},
+          {"item": "pastel or muted earth palette", "source": "van_gogh 负向", "vs": "monet 正向『light-toned ground and high-key palette（pale blue/lavender/rose/cream…）』", "verdict": "冲突", "fix": "删除『pastel』字样：禁『灰暗泥土色系』；高调浅色系不受限"},
+          {"item": "smooth gradients", "source": "van_gogh 负向", "vs": "monet 正向『atmospheric envelope』（雾色/对比梯度）", "verdict": "冲突", "fix": "限定：禁『空气刷式平滑渐变』；大气包络渐变除外"},
+          {"item": "soft focus", "source": "van_gogh 负向", "vs": "monet 正向『soft haze…soft edges dissolving』", "verdict": "冲突", "fix": "限定：禁『摄影式柔焦』；绘画性软边/大气柔度除外"}
+        ],
+        "note": "计数口径：按词级条计（逗号分条）；其余 23 条逐条核对为一致（明细见 RESULTS_E2.md §3.1）。"
+      },
+      "n4": {
+        "c_hits": [],
+        "axes": [],
+        "conclusion": "无命中 C 条 → 无冲突轴，N4 不适用（无需二选一/分区）。已逐条核对两卡冲突注记所列 C 条（monet: C-05/06/10/14；van_gogh: C-05/09/12）——均以第三方模块为对手，本对不命中。"
+      },
+      "n9": {
+        "checklist": "主模块（莫奈）§8.2 全集 7 条 + 辅模块（梵高）§8.2 全集 7 条（无冲突轴 → 无移除）",
+        "removed": [],
+        "value_notes": ["笔触覆盖率：≥95%（两卡同向取严）", "色相簇：≤8（两卡同向取严）", "梵高互补对：保留『≥2 对出现』；『面积近 1:1』降为『≥1:3』（C-12 同类预防性取值）"],
+        "double_standard_card": "无（逐轴单标准）",
+        "double_standard_output": "未出现（目检：全画面碎笔触、无硬黑勾线；高调浅色系与蓝黄互补并存，未见两套标准拉扯）"
+      }
+    },
+    {
+      "cell": "e2b_da_vinci_caravaggio",
+      "prompt_sha256": "b412f97d",
+      "n1": {
+        "pool_size": 43,
+        "consistent": 34,
+        "flagged": 9,
+        "items": [
+          {"item": "crisp photographic edges", "source": "da_vinci 负向", "vs": "caravaggio 正向『one single hard directional light…』（硬光；C-01 半影口径）", "verdict": "冲突", "fix": "限定：禁摄影/数字脆边；显式声明的硬光受光边为例外（半影 ≤0.6% 短边；C-01 拆分口径）"},
+          {"item": "soft diffuse lighting", "source": "caravaggio 负向", "vs": "da_vinci 正向『single soft light from the upper left』", "verdict": "冲突", "fix": "限定：禁漫射环境光；单一柔方向主光除外"},
+          {"item": "smooth airbrushed gradients", "source": "caravaggio 负向", "vs": "da_vinci 正向『wide, continuous grey gradient』（sfumato）", "verdict": "冲突", "fix": "限定：sfumato 过渡带除外"},
+          {"item": "fog, haze", "source": "caravaggio 负向", "vs": "da_vinci 正向『dissolve into haze』（空气透视）", "verdict": "冲突", "fix": "分区限定：近景/中景禁雾霾；远景空气透视雾除外"},
+          {"item": "visible brush strokes or impasto", "source": "da_vinci 负向", "vs": "caravaggio 正向『impasto highlights on the lit edges』", "verdict": "冲突", "fix": "限定：平滑区禁可见笔触；受光边缘厚涂高光除外"},
+          {"item": "landscape, sky, daylight", "source": "caravaggio 负向", "vs": "组合题材（T1 海景灯塔；原句适用域=室内题材）", "verdict": "冲突（适用域）", "fix": "限定：禁『明亮白昼风景/开阔蓝天』；暗风暴场景不受限（N2 适用域原则）"}
+        ],
+        "note": "计数口径：按词级条计（逗号分条）；表内 `fog, haze` 与 `landscape, sky, daylight` 各归为一组展示（共 6 组）。其余 34 条逐条核对为一致（明细见 RESULTS_E2.md §3.2）。"
+      },
+      "n4": {
+        "c_hits": ["C-01", "C-02（同轴口径）", "C-03"],
+        "axes": [
+          {"axis": "阴影硬度/反约束（C-01）", "side_main": "达·芬奇：无硬边、过渡带 ≥1.5% 短边", "side_aux": "卡拉瓦乔：单一硬光、亮部边界硬（半影 ≤0.6% 改写口径）", "type": "反约束层（N1 改写，§3.2 表 1/2 行）+ 验收层单主", "owner": "达·芬奇（主）", "aux_disposition": "硬边标准移出验收；『半影宽度』自查按主模块口径（柔；≥1.5% 短边）"},
+          {"axis": "明暗过渡带宽度（C-02 同轴）", "side_main": "≥1.5% 短边（软）", "side_aux": "硬边（≤0.6% 改写口径）", "type": "同一像素统计量 → 不可拆 → 二选一", "owner": "达·芬奇（主）", "aux_disposition": "整条移除（验收）；本批未写分区表"},
+          {"axis": "直方图/中间调（C-03）", "side_main": "中间调 ≥55%；纯黑+纯白 ≤3%", "side_aux": "中间带 ≤25%；暗带 ≥40%（§8.2-2/-3 背景压暗机制）", "type": "同一统计量（全帧直方图）→ 不可拆 → 二选一", "owner": "达·芬奇（主）", "aux_disposition": "卡拉瓦乔 §8.2-2/-3 整条移除（验收）"}
+        ],
+        "conclusion": "三轴均判二选一（本批未写分区表）；生成侧为原始融合尝试（双方特征均在 prompt 中），验收侧单主。实测见 RESULTS_E2.md §6/§7.2。注：C-02 正本为达·芬奇×米开朗基罗对，本格按同一『过渡带宽度』轴对卡拉瓦乔硬边口径执行同判。"
+      },
+      "n9": {
+        "checklist": "主模块（达·芬奇）§8.2 全集 7 条 + 辅模块（卡拉瓦乔）§8.2 保留 5 条（移除 2 条）",
+        "removed": ["caravaggio §8.2-2 背景明度上限（直方图/明暗分布轴）", "caravaggio §8.2-3 中间调压缩（直方图/明暗分布轴）"],
+        "kept": ["caravaggio §8.2-1 光源单一性", "§8.2-4 光斑三处法则", "§8.2-5 贴平面构图", "§8.2-6 定格瞬间", "§8.2-7 暗部保细节"],
+        "value_notes": ["环境光/补光上限：取严 ≤5%（辅卡）", "纯黑占比：取严 ≤3%（主卡）", "对象映射：脸/手/关键道具 → 灯室/礁岩/浪峰（题材映射注记）", "冲突轴单主行：过渡带/半影 ≥1.5% 短边；直方图中间调 ≥55%"],
+        "double_standard_card": "无（冲突轴单主；其余轴显式取值）",
+        "double_standard_output": "未出现同一统计量两套标准并存；但实测输出偏暗（直方图倾向辅侧），主模块 ≥55% 中间调未达成——原始融合下的单侧化结果（见 RESULTS_E2.md §6/§7.2）"
+      }
+    },
+    {
+      "cell": "e2c_monet_cezanne",
+      "prompt_sha256": "6a83bbe3",
+      "n1": {
+        "pool_size": 25,
+        "consistent": 23,
+        "flagged": 2,
+        "items": [
+          {"item": "atmospheric haze", "source": "cezanne 负向", "vs": "monet 正向『atmospheric envelope…soft haze』", "verdict": "冲突", "fix": "分区限定：近景/中景禁雾；远景层包络除外（C-10 分区口径）"},
+          {"item": "smooth blended gradients", "source": "cezanne 负向", "vs": "monet 正向『soft edges dissolving…包络梯度』", "verdict": "冲突", "fix": "分区限定：中近景块面禁平滑渐变；远景层包络除外"}
+        ],
+        "note": "计数口径：按词级条计（逗号分条）；其余 23 条逐条核对为一致（明细见 RESULTS_E2.md §3.3）。"
+      },
+      "n4": {
+        "c_hits": ["C-10"],
+        "axes": [
+          {"axis": "深度衰减/空间（C-10）", "side_main": "莫奈：大气包络（远景对比 ≤60%、单调梯度、色相收拢）", "side_aux": "塞尚：反大气透视（远近同尺度、空间压缩、无大气后退）", "type": "可分区域（按地平线分层）→ 分区", "owner": "分区：远景层=莫奈；中近景层=塞尚", "partition_table": [{"layer": "远景层（天空+远海/远岸；地平线以上及线以下远景带）", "owner": "莫奈", "standard": "远景对比 ≤60% 近景；单调对比度梯度（仅本层拟合）；色相向单一大气色收拢"}, {"layer": "中近景层（礁岩/浪/灯塔/近水面）", "owner": "塞尚", "standard": "远近同尺度（高度比 ≥0.5）；多点透视；无雾色"}], "mask_note": "掩膜=地平线分割（目检；脚本侧按地平线 y 分区）；梯度 R² 仅在远景掩膜内拟合。已按 C-10 要求①『显式写分层边界』写入 prompt（分区句，见 §2.3）。"}
+        ],
+        "conclusion": "可拆（分层）→ 分区；②『包络梯度仅远景层』③『近景禁雾色』为自查口径。"
+      },
+      "n9": {
+        "checklist": "主模块（莫奈）§8.2 全集 7 条 + 辅模块（塞尚）§8.2 全集 8 条；深度轴按分区表（各层单标准）",
+        "removed": [],
+        "value_notes": ["笔触覆盖率：≥90%（两卡交集 90–100%）", "笔触长：取交集 [8,12] px", "阴影/轮廓蓝：取交集 H 220–250"],
+        "double_standard_card": "无（深度轴按掩膜分区、各层单标准）",
+        "double_standard_output": "未出现（目检：近景无雾色、色块饱和；远景带呈浅色收拢——分区方向一致；未见『近景雾+远景压平』式分裂）"
+      }
+    }
+  ]
+}

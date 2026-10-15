@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-15",
+  "n_cells": 3,
+  "cells": [
+    {
+      "cell": "e2a_monet_van_gogh",
+      "title": "E2a · 莫奈(主) + 梵高(辅)",
+      "main": "monet",
+      "aux": "van_gogh",
+      "prompt_sha256": "a889d23f7ad43fd9ae60f12c6d359ecdfa0f83b046e60aeedc117d3fe3537111",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "abdb8f68c6bc51d1bb27391b435ce9362df9b8b95faaeab30f4f2f5f8d77b77e",
+          "bytes": 572602,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "622981fb32076786ffbd2eab7a4ac786711e6c8f5da27f5352dcb34f448592e9",
+          "bytes": 558123,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "6e4ad0e6e33c66b6538d616c59b44ce3824349bb644f6e6db05533290b6f907a",
+          "bytes": 631422,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 53.9
+    },
+    {
+      "cell": "e2b_da_vinci_caravaggio",
+      "title": "E2b · 达·芬奇(主) + 卡拉瓦乔(辅)",
+      "main": "da_vinci",
+      "aux": "caravaggio",
+      "prompt_sha256": "b412f97da0869dc5dadfb75f204dd075b3a66e6e95d2ee18b3b53f6c897d2ca9",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "33fcb9508d4b43098a9157a46485bd3c5e45458f1d9fc537c9279f2b991c54d9",
+          "bytes": 271751,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "94cd05fa61bdf0a5eb395faab60c8e9dd654beb09cfa1b14a9cc5d7646233a2c",
+          "bytes": 270248,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "55e70d21f414153832b233c90bd8c7fd43e9bbb2f7409e2dbad043626116ca92",
+          "bytes": 312514,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 64.0
+    },
+    {
+      "cell": "e2c_monet_cezanne",
+      "title": "E2c · 莫奈(主) + 塞尚(辅)",
+      "main": "monet",
+      "aux": "cezanne",
+      "prompt_sha256": "6a83bbe35767082ea94a36d473ffbaa816e763aa502d22c7156c32559a209d42",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "05d33ceb0a40f313ecd52201456accacecca2b03d6ef8762f40406985046e03f",
+          "bytes": 497385,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "5aa57c4ef32fb92f508a51c45093967bb5edae7e51f3b360cc5e850a05406df8",
+          "bytes": 502325,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "26369138882390ad1a0a1e02296371bf4b1d7add368fbbf08765bdfb72f4c86d",
+          "bytes": 521859,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 76.5
+    }
+  ]
+}

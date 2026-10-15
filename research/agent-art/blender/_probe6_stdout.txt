@@ -1,0 +1,39 @@
+00:01.875  render           | Video append frame 1
+00:01.969  render           | Video append frame 2
+00:02.047  render           | Video append frame 3
+00:02.125  render           | Video append frame 4
+00:02.204  render           | Video append frame 5
+00:02.266  render           | Video append frame 6
+00:02.344  render           | Video append frame 7
+00:02.407  render           | Video append frame 8
+00:02.485  render           | Video append frame 9
+00:02.547  render           | Video append frame 10
+00:02.625  render           | Video append frame 11
+00:02.704  render           | Video append frame 12
+00:02.782  render           | Video append frame 13
+00:02.860  render           | Video append frame 14
+00:02.922  render           | Video append frame 15
+00:03.000  render           | Video append frame 16
+00:03.079  render           | Video append frame 17
+00:03.157  render           | Video append frame 18
+00:03.219  render           | Video append frame 19
+00:03.313  render           | Video append frame 20
+00:03.375  render           | Video append frame 21
+00:03.454  render           | Video append frame 22
+00:03.516  render           | Video append frame 23
+00:03.594  render           | Video append frame 24
+00:03.672  render           | Video append frame 25
+00:03.750  render           | Video append frame 26
+00:03.813  render           | Video append frame 27
+00:03.875  render           | Video append frame 28
+00:03.954  render           | Video append frame 29
+00:04.047  render           | Video append frame 30
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+PROBE6_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,129 @@
+{
+ "v1_default_start1": {
+  "gravity": [
+   0.0,
+   0.0,
+   -9.8100004196167
+  ],
+  "z_series": [
+   5.0,
+   4.783,
+   4.145,
+   3.087,
+   1.615,
+   0.622,
+   0.816,
+   0.656,
+   0.518
+  ],
+  "secs": 0.0,
+  "enabled": true,
+  "kinematic": false
+ },
+ "v2_deact_start1": {
+  "gravity": [
+   0.0,
+   0.0,
+   -9.8100004196167
+  ],
+  "z_series": [
+   5.0,
+   4.783,
+   4.145,
+   3.087,
+   1.615,
+   0.622,
+   0.816,
+   0.656,
+   0.518
+  ],
+  "secs": 0.0,
+  "enabled": true,
+  "kinematic": false
+ },
+ "v3_deact_start72": {
+  "gravity": [
+   0.0,
+   0.0,
+   -9.8100004196167
+  ],
+  "z_series": [
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0
+  ],
+  "secs": 0.0,
+  "enabled": true,
+  "kinematic": false
+ },
+ "v4_deact_start72_preupd": {
+  "gravity": [
+   0.0,
+   0.0,
+   -9.8100004196167
+  ],
+  "z_series": [
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0
+  ],
+  "secs": 0.0,
+  "enabled": true,
+  "kinematic": false
+ },
+ "v5_deact_start72_bake_bake": "OK",
+ "v5_deact_start72_bake": {
+  "gravity": [
+   0.0,
+   0.0,
+   -9.8100004196167
+  ],
+  "z_series": [
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5
+  ],
+  "secs": 0.0,
+  "enabled": true,
+  "kinematic": false
+ },
+ "v6_default_start72_preupd": {
+  "gravity": [
+   0.0,
+   0.0,
+   -9.8100004196167
+  ],
+  "z_series": [
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0,
+   5.0
+  ],
+  "secs": 0.0,
+  "enabled": true,
+  "kinematic": false
+ }
+}

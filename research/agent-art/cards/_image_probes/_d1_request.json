@@ -1,0 +1,1 @@
+{"model":"grok-imagine-image","messages":[{"role":"user","content":"Generate an image: a red circle on a white background."}],"stream":false}

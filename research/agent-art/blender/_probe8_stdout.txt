@@ -1,0 +1,19 @@
+D:\Project\Designers_Brain\research\agent-art\blender\_probe8.py:46: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new("M"); m.use_nodes = True
+00:02.078  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_mb2_off.png'
+00:02.187  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_mb2_on.png'
+D:\Project\Designers_Brain\research\agent-art\blender\_probe8.py:75: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new("Glass"); m.use_nodes = True
+D:\Project\Designers_Brain\research\agent-art\blender\_probe8.py:85: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mb = bpy.data.materials.new("Back"); mb.use_nodes = True
+00:07.140  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_glass_rt_off.png'
+00:17.859  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_glass_rt_on.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+PROBE8_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,22 @@
+=== 规格 ===
+官方 02-line-art.mp4 : 1920,1080,30/1,300
+本项目 out.mp4 : 1920,1080,30/1,300
+
+=== 背景色与线条极性（首帧 (100,100) 取样 + 全帧均值） ===
+ref: bg RGB at (100,100) = (5, 11, 19)
+ours: bg RGB at (100,100) = (247, 243, 235)
+ref  frame mean RGB = (11, 18, 31)
+ours frame mean RGB = (245, 241, 233)
+ref  最亮像素 (932,507) RGB=(242, 237, 211)；横切灰度=[np.int64(89), np.int64(84), np.int64(83), np.int64(90), np.int64(97), np.int64(100), np.int64(140), np.int64(180), np.int64(230), np.int64(201), np.int64(184), np.int64(158), np.int64(131), np.int64(103), np.int64(92), np.int64(86), np.int64(80)]
+ref  该处线宽：核心(>200)=2px，FWHM(>125)=7px（含辉光）
+ours 线宽（t=5.0 x=660 列扫，暗游程）: [3, 3, 15, 3, 3]
+
+=== 运动统计（480x270 灰度，全 300 帧） ===
+--- ref 02-line-art.mp4 ---
+frames = 300
+mean abs diff per frame: mean=1.167 max=5.694 frames with diff>0.5 = 240
+identical-to-previous frames = 0/299
+--- ours out.mp4 ---
+frames = 300
+mean abs diff per frame: mean=0.213 max=1.516 frames with diff>0.5 = 44
+identical-to-previous frames = 0/299

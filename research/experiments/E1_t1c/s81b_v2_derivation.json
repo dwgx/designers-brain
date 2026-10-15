@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-15",
+  "task": "E-03 · E1_t1c · michelangelo §8.1b v2 从句级改写",
+  "trigger": "E-02 · E1_t1b §4.2：部分解除——灯塔回中心但巨型肌肉形体仍环绕；风格语言（serpentine torsion / 雕塑式体积 / 仰视透视 / many interlocking forms）与人体绑定，仅删题材名词不足。",
+  "v1": {
+    "text": "High Renaissance fresco in the manner of Michelangelo Buonarroti: colossal, heroic forms with clearly defined volumes; forms locked in serpentine torsion — counter-rotations forming an S-curve; forms designed to be seen from below, strong foreshortening, monumental scale; sculptural modelling — forms look chiselled out of the surface, hard-edged cast shadows, relief-like light and shadow; dense swirling composition of many interlocking forms rotating around a calm central axis; limited fresco palette of earthy ochre, muted green, pale violet and sky blue, matte plaster surface; an atmosphere of awe and terribilità",
+    "text_sha256": "3326164fb5666fb9cd5dc896ea3cd267c4c95f9f568e2d96c8909cbc0ee24c2c",
+    "section_sha256": "8b71fcab4bab8f4956d47285f91f54d5c1c04ee5dca7efb13ef6040f633129af",
+    "snapshot": "research/experiments/E1_t1c/s81b_v1_snapshot.md（整节逐字）",
+    "card_archive": "michelangelo.md §8.1b → ### v1 审计存档（逐字块）",
+    "backup": "research/experiments/E1_t1c/_backup_card_before_v2/michelangelo.md"
+  },
+  "v2": {
+    "text": "High Renaissance fresco in the manner of Michelangelo Buonarroti: colossal masses with clearly defined volumes; rock, wave and cloud masses locked in serpentine torsion — counter-rotating blocks forming an S-curve; low-angle composition, strong foreshortening, monumental scale; sculptural modelling — surfaces rise and fall as if chiselled from solid mass, hard-edged cast shadows, relief-like light and shadow; dense swirling composition of many interlocking masses rotating around a calm central axis; limited fresco palette of earthy ochre, muted green, pale violet and sky blue, matte plaster surface; an atmosphere of awe and terribilità",
+    "text_sha256": "214dd6735d18f8352fe24bbca4b7d0533112e2adb392644d32b9f582d180f0e7",
+    "wrapped": "High Renaissance fresco in the manner of Michelangelo Buonarroti: colossal\nmasses with clearly defined volumes; rock, wave and cloud masses locked in\nserpentine torsion — counter-rotating blocks forming an S-curve; low-angle\ncomposition, strong foreshortening, monumental scale; sculptural modelling —\nsurfaces rise and fall as if chiselled from solid mass, hard-edged cast\nshadows, relief-like light and shadow; dense swirling composition of many\ninterlocking masses rotating around a calm central axis; limited fresco\npalette of earthy ochre, muted green, pale violet and sky blue, matte plaster\nsurface; an atmosphere of awe and terribilità",
+    "card_block": "michelangelo.md §8.1b → **正向段 v2（可直接粘贴）**"
+  },
+  "clause_map": [
+    {
+      "n": 1,
+      "clause_v1": "colossal, heroic forms with clearly defined volumes",
+      "clause_v2": "colossal masses with clearly defined volumes",
+      "change_type": "形体词清扫（heroic forms→masses）",
+      "kept": "colossal（尺度）/ clearly defined volumes（体积可读性）",
+      "reason": "「heroic forms」是英雄人体词；与后句扭转联读会被实体化为裸体肌体。主语改为无机「masses」，尺度与体积可判定性不变。"
+    },
+    {
+      "n": 2,
+      "clause_v1": "forms locked in serpentine torsion — counter-rotations forming an S-curve",
+      "clause_v2": "rock, wave and cloud masses locked in serpentine torsion — counter-rotating blocks forming an S-curve",
+      "change_type": "体积块面扭转→岩石/浪体（+云）块体的扭转",
+      "kept": "serpentine torsion / S-curve（几何可判定，对应 §8.2-2 扭转检测的视觉源）",
+      "reason": "扭转主体显式绑定无机块体（岩石/浪体为主，云体一并纳入——E-02 证据中「云体巨人」是主要人体化载体之一）；counter-rotations→counter-rotating blocks（块面级表述）。"
+    },
+    {
+      "n": 3,
+      "clause_v1": "forms designed to be seen from below, strong foreshortening, monumental scale",
+      "clause_v2": "low-angle composition, strong foreshortening, monumental scale",
+      "change_type": "仰视透视→低角度构图",
+      "kept": "strong foreshortening / monumental scale（透视与尺度可读性）",
+      "reason": "视角升格为构图级属性（低角度构图），不再暗示「供仰视的（人物）形体」。"
+    },
+    {
+      "n": 4,
+      "clause_v1": "sculptural modelling — forms look chiselled out of the surface, hard-edged cast shadows, relief-like light and shadow",
+      "clause_v2": "sculptural modelling — surfaces rise and fall as if chiselled from solid mass, hard-edged cast shadows, relief-like light and shadow",
+      "change_type": "肌肉起伏→表面雕塑化起伏",
+      "kept": "hard-edged cast shadows / relief-like light and shadow（§8.2-3 硬边阴影，过渡带 ≤0.6% 短边）",
+      "reason": "塑造对象从「forms（会读成肌体）」改为「surface 的起伏」；chiselled 保留「凿出」的雕刻感。"
+    },
+    {
+      "n": 5,
+      "clause_v1": "dense swirling composition of many interlocking forms rotating around a calm central axis",
+      "clause_v2": "dense swirling composition of many interlocking masses rotating around a calm central axis",
+      "change_type": "形体词清扫（interlocking forms→masses）",
+      "kept": "dense / swirling / calm central axis（§8.2-4 构图密度 ≥55%、空白 ≤15%）",
+      "reason": "「many interlocking forms」是 E-02 点名的另一人体触发词；改为 masses。"
+    },
+    {
+      "n": 6,
+      "clause_v1": "limited fresco palette of earthy ochre, muted green, pale violet and sky blue, matte plaster surface",
+      "clause_v2": "（不变）",
+      "change_type": "保留",
+      "kept": "§8.2-6 色彩（全帧饱和 ≤0.5、强调色 ≤2、四族限色）",
+      "reason": "无人体绑定（flesh tones 已于 v1 删除）。"
+    },
+    {
+      "n": 7,
+      "clause_v1": "an atmosphere of awe and terribilità",
+      "clause_v2": "（不变）",
+      "change_type": "保留",
+      "kept": "氛围词（无形体绑定）",
+      "reason": "terribilità 为风格签名，无人体绑定。"
+    }
+  ],
+  "thresholds_kept": [
+    "S-curve 反扭（serpentine torsion + counter-rotating blocks）→ §8.2-2 扭转检测的视觉源",
+    "hard-edged cast shadows → §8.2-3 硬边阴影（明暗过渡带 ≤0.6% 短边）",
+    "dense swirling composition + calm central axis → §8.2-4 构图密度（人群/主体 ≥55%、空白 ≤15%）",
+    "limited fresco palette（四族）→ §8.2-6 色彩（全帧饱和 ≤0.5、强调色 ≤2）",
+    "monumental scale / strong foreshortening → 尺度与透视可读性（剪影可读性 §8.2-5 的构图前提）"
+  ],
+  "notes": "v2 以无机块体（岩石/浪体/云体）承载原人体绑定语言；换场景时把块体名词替换为该场景的无机块体。未加入显式反人物短语（保持「仅从句级改写」的实验纯度——若重跑仍绑定，记为新问题/后续手段）。",
+  "post_run": {
+    "date": "2026-10-15",
+    "note": "重跑结论回填：卡内 §8.1b note 追加一行「重跑验证…」（apply 之后追加，非 _apply_s81b_v2.py 产物）；v2 文本未变。重跑结果见 RESULTS_t1c.md §3–4。",
+    "v2_text_sha256_check": "214dd6735d18f8352fe24bbca4b7d0533112e2adb392644d32b9f582d180f0e7",
+    "rerun": {
+      "cell": "e1_michelangelo_v2",
+      "n_ok": "3/3",
+      "verdict": "解除（T1）",
+      "results": "research/experiments/E1_t1c/RESULTS_t1c.md"
+    }
+  }
+}

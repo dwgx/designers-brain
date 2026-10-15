@@ -1,0 +1,165 @@
+{
+ "steps": [
+  {
+   "name": "setup_scene",
+   "ok": true,
+   "secs": 0.04,
+   "result": {
+    "objects": [
+     "BackWall",
+     "Ball",
+     "Cam",
+     "Cove",
+     "Floor",
+     "Key"
+    ],
+    "camera_lens_mm": 50.0,
+    "sensor_width": 36.0
+   }
+  },
+  {
+   "name": "physics_light_cam_eevee_defaults",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "type": "ACTIVE",
+    "mass": 1.0,
+    "friction": 0.5,
+    "restitution": 0.0,
+    "linear_damping": 0.03999999910593033,
+    "angular_damping": 0.10000000149011612,
+    "use_deactivation": false,
+    "deactivate_linear_velocity": 0.4000000059604645,
+    "deactivate_angular_velocity": 0.5,
+    "collision_shape": "CONVEX_HULL",
+    "collision_margin": 0.03999999910593033,
+    "use_margin": false,
+    "world_attrs": [
+     "collection",
+     "constraints",
+     "enabled",
+     "solver_iterations",
+     "substeps_per_frame",
+     "time_scale",
+     "use_split_impulse"
+    ],
+    "world": {
+     "time_scale": 1.0,
+     "substeps_per_frame": 10,
+     "solver_iterations": 10,
+     "use_split_impulse": false
+    },
+    "gravity": [
+     0.0,
+     0.0,
+     -9.8100004196167
+    ],
+    "light": {
+     "type": "AREA",
+     "size": 0.25,
+     "shape": "SQUARE",
+     "energy": 10.0,
+     "shadow_soft_size": 0.0,
+     "spread": 3.1415927410125732
+    },
+    "cam_dof": {
+     "use_dof": false,
+     "focus_distance": 10.0,
+     "aperture_fstop": 2.799999952316284,
+     "aperture_blades": 0,
+     "focus_object": null
+    },
+    "eevee": {
+     "taa_render_samples": 64,
+     "use_shadows": true,
+     "use_raytracing": false,
+     "use_fast_gi": true,
+     "shadow_ray_count": 1,
+     "shadow_step_count": 6,
+     "motion_blur_steps": 1,
+     "motion_blur_max": 32
+    },
+    "render_mb": {
+     "use_motion_blur": false,
+     "motion_blur_shutter": 0.5
+    },
+    "render": {
+     "film_transparent": false,
+     "filter_size": 1.5,
+     "use_simplify": false,
+     "threads_mode": "AUTO"
+    }
+   }
+  },
+  {
+   "name": "motion_blur_pixel_evidence",
+   "ok": true,
+   "secs": 1.85,
+   "result": {
+    "off": {
+     "bytes": 37686,
+     "mean": 0.2502427101135254
+    },
+    "on": {
+     "bytes": 37686,
+     "mean": 0.2502427101135254
+    },
+    "mean_abs_pixel_diff": 0.0,
+    "motion_blur_changes_image": false
+   }
+  },
+  {
+   "name": "soft_body_squash",
+   "ok": true,
+   "secs": 0.01,
+   "result": {
+    "bake": "OK",
+    "settings_sample": [
+     "aero",
+     "aerodynamics_type",
+     "ball_damp",
+     "ball_size",
+     "ball_stiff",
+     "bend",
+     "choke",
+     "collision_collection",
+     "collision_type",
+     "damping",
+     "error_threshold",
+     "friction",
+     "fuzzy",
+     "goal_default",
+     "goal_friction",
+     "goal_max",
+     "goal_min",
+     "goal_spring",
+     "gravity",
+     "location_mass_center",
+     "mass",
+     "plastic"
+    ],
+    "deformed_over_time": [
+     {
+      "frame": 1,
+      "verts": 8,
+      "min_z": -0.6,
+      "max_z": 0.6
+     },
+     {
+      "frame": 10,
+      "verts": 8,
+      "min_z": -0.996,
+      "max_z": 0.204
+     },
+     {
+      "frame": 20,
+      "verts": 8,
+      "min_z": -2.325,
+      "max_z": -1.125
+     }
+    ],
+    "note": "min_z/max_z span shows the mesh deforming (squash) \u2014 soft body deforms geometry, rigid body cannot"
+   }
+  }
+ ]
+}

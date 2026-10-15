@@ -1,0 +1,13 @@
+--- 本项目 out.mp4 逐帧 PNG（frames/） ---
+frames = 300
+unique colors (union) = 24
+per-frame unique: min=23 max=24 mean=23.3
+identical-to-previous frames (holds) = 119/299 (40%)
+mean abs diff per frame: mean=0.92 max=5.25 frames with diff>1.0 = 116
+
+--- 官方 20-pixel.mp4（ref/all/） ---
+frames = 300
+unique colors (union) = 464735
+per-frame unique: min=74 max=25663 mean=18386.2
+identical-to-previous frames (holds) = 0/299 (0%)
+mean abs diff per frame: mean=7.16 max=171.70 frames with diff>1.0 = 190

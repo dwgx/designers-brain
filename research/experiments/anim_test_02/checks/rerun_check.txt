@@ -1,0 +1,9 @@
+$ node render.js --rerun 299,266,150,63,0   # 乱序重渲（P0）
+{"mode": "rerun", "frames": 5, "dir": "checks/rerun", "errors": [], "seconds": 0.4}
+
+$ sha256 compare (frames/ vs checks/rerun/)
+f0299: 69c38ef50e396dca / 69c38ef50e396dca  IDENTICAL
+f0266: f0d1a63ad7ffcd73 / f0d1a63ad7ffcd73  IDENTICAL
+f0150: cf0fa31ad9009d0e / cf0fa31ad9009d0e  IDENTICAL
+f0063: 036ff7f1a98799f2 / 036ff7f1a98799f2  IDENTICAL
+f0000: 4c3801fcb9872641 / 4c3801fcb9872641  IDENTICAL

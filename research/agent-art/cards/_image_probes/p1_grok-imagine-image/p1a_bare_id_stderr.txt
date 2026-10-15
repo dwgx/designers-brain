@@ -1,0 +1,17 @@
+Working...
+46412 | ` + `Use /login, set an API key environment variable, or create ${Xt()}
+46413 | 
+46414 | ` + "Then use /model to select a model.");
+46415 |       }
+46416 |       const E = await this.#B.getApiKey(this.model, this.sessionId);
+46417 |         throw new Error(`No API key found for ${this.model.provider}.
+                      ^
+error: No API key found for zenmux.
+
+Use /login, set an API key environment variable, or create C:\Users\dwgx1\.omp\agent\agent.db
+      at #Qs (B:/~BUN/root/chunks/cli-ah31rv0s.js:46417:15)
+      at async #io (B:/~BUN/root/chunks/cli-ah31rv0s.js:46163:26)
+
+
+[Recovery]
+  Main: omp --resume 01a13ee8-ad42-738c-8544-716cf2d3ce7e

@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "D:\Software\Blender Foundation\Blender 5.2\5.2\scripts\startup\bl_operators\rigidbody.py", line 165, in execute
+    bpy.ops.anim.keyframe_insert_by_name(type='BUILTIN_KSI_LocRot')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Operator bpy.ops.anim.keyframe_insert_by_name.poll() failed, context is incorrect
+00:00.390  bpy.rna          | ERROR Python script error in RIGIDBODY_OT_bake_to_keyframes.execute
+00:00.390  physics.rigidbody | ERROR no vertices to define Convex Hull collision shape with
+00:00.390  physics.rigidbody | ERROR no vertices to define Convex Hull collision shape with
+00:01.875  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0001.png'
+00:01.937  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0002.png'
+00:02.000  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0003.png'
+00:02.078  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0004.png'
+00:02.140  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0005.png'
+00:02.203  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0006.png'
+00:02.265  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0007.png'
+00:02.328  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0008.png'
+00:02.390  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0009.png'
+00:02.437  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_seq2\f_0010.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Error: Python: Traceback (most recent call last):
+  File "D:\Software\Blender Foundation\Blender 5.2\5.2\scripts\startup\bl_operators\rigidbody.py", line 165, in execute
+    bpy.ops.anim.keyframe_insert_by_name(type='BUILTIN_KSI_LocRot')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Operator bpy.ops.anim.keyframe_insert_by_name.poll() failed, context is incorrect
+Location: D:\Project\Designers_Brain\research\agent-art\blender\_probe5.py:106
+PROBE5_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

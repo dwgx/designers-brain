@@ -1,0 +1,17 @@
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s16le
+[Parsed_loudnorm_0 @ 0000028d77a4a840] 
+{
+	"input_i" : "-18.91",
+	"input_tp" : "-1.28",
+	"input_lra" : "5.50",
+	"input_thresh" : "-29.18",
+	"output_i" : "-16.48",
+	"output_tp" : "-1.50",
+	"output_lra" : "4.40",
+	"output_thresh" : "-26.66",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.48"
+}
+[out#0/null @ 0000028d779d38c0] video:0KiB audio:7500KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:10.00 bitrate=N/A speed=35.2x elapsed=0:00:00.28    

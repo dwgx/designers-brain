@@ -1,0 +1,1 @@
+f22 vs f1.1 | displayed-bottom(near) 0.03945 | mid-focus(letters zone) 0.01761 | upper(far field) 0.00277 | top(backdrop) 0.00086

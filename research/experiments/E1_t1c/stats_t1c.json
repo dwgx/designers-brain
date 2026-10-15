@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-15",
+  "n_cells": 1,
+  "cells": [
+    {
+      "cell": "e1_michelangelo_v2",
+      "module": "michelangelo",
+      "module_name": "米开朗基罗",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "dd79ba3d16beead804bdabd5add8572d22f2dbdd114f957be866a092d78fb66f",
+          "bytes": 442279,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "fd9b401d22fc275cd13921cc5369fced5656cc47a8f0e9737bf2d4889517d28a",
+          "bytes": 446718,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "4cb48350a3d9cf74a3554deb343cf5c8260ef16ad384f4ef1b5f94f175260cc9",
+          "bytes": 443012,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 58.5,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "214dd6735d18f8352fe24bbca4b7d0533112e2adb392644d32b9f582d180f0e7",
+      "v1_sha256_audit": "3326164fb5666fb9cd5dc896ea3cd267c4c95f9f568e2d96c8909cbc0ee24c2c"
+    }
+  ]
+}

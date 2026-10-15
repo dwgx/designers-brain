@@ -1,0 +1,4 @@
+interface:
+  display_name: "Designers Brain"
+  short_description: "设计顾问：选风格 / 换风格 / 换内容 / 出稿"
+  default_prompt: "帮我为这个需求选风格并出稿"

@@ -1,0 +1,154 @@
+{
+ "steps": [
+  {
+   "name": "material_eevee_props",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "eevee_relevant_material_props": [
+     "displacement_method",
+     "blend_method",
+     "show_transparent_back",
+     "use_backface_culling_shadow",
+     "use_backface_culling_lightprobe_volume",
+     "use_transparent_shadow",
+     "use_raytrace_refraction",
+     "use_screen_refraction",
+     "use_sss_translucency",
+     "refraction_depth",
+     "thickness_mode",
+     "use_thickness_from_shadow",
+     "volume_intersection_method",
+     "max_vertex_displacement"
+    ],
+    "defaults": {
+     "displacement_method": "'BUMP'",
+     "blend_method": "'HASHED'",
+     "show_transparent_back": "True",
+     "use_backface_culling_shadow": "False",
+     "use_backface_culling_lightprobe_volume": "True",
+     "use_transparent_shadow": "True",
+     "use_raytrace_refraction": "False",
+     "use_screen_refraction": "False",
+     "use_sss_translucency": "False",
+     "refraction_depth": "0.0",
+     "thickness_mode": "'SPHERE'",
+     "use_thickness_from_shadow": "False",
+     "volume_intersection_method": "'FAST'",
+     "max_vertex_displacement": "0.0"
+    }
+   }
+  },
+  {
+   "name": "glass_refraction_toggle_matrix",
+   "ok": true,
+   "secs": 2.32,
+   "result": {
+    "mat_has_use_raytrace_refraction": true,
+    "mat_has_use_transparent_shadow": true,
+    "combos": [
+     {
+      "scene_raytracing": false,
+      "mat_raytrace_refraction": false,
+      "bytes": 141172,
+      "mean_abs_diff_vs_first": 0.0
+     },
+     {
+      "scene_raytracing": false,
+      "mat_raytrace_refraction": true,
+      "bytes": 141369,
+      "mean_abs_diff_vs_first": 0.001681
+     },
+     {
+      "scene_raytracing": true,
+      "mat_raytrace_refraction": false,
+      "bytes": 143050,
+      "mean_abs_diff_vs_first": 0.00043
+     },
+     {
+      "scene_raytracing": true,
+      "mat_raytrace_refraction": true,
+      "bytes": 162566,
+      "mean_abs_diff_vs_first": 0.033982
+     }
+    ]
+   }
+  },
+  {
+   "name": "softbody_squash_fixed",
+   "ok": true,
+   "secs": 2.19,
+   "result": {
+    "cube_verts": 386,
+    "rest_height": 1.2,
+    "samples": [
+     {
+      "f": 1,
+      "min_z": -0.504,
+      "max_z": 0.504,
+      "height": 1.007
+     },
+     {
+      "f": 6,
+      "min_z": -0.625,
+      "max_z": 0.382,
+      "height": 1.007
+     },
+     {
+      "f": 10,
+      "min_z": -0.884,
+      "max_z": 0.123,
+      "height": 1.007
+     },
+     {
+      "f": 14,
+      "min_z": -1.277,
+      "max_z": -0.27,
+      "height": 1.007
+     },
+     {
+      "f": 20,
+      "min_z": -1.386,
+      "max_z": -0.856,
+      "height": 0.53
+     },
+     {
+      "f": 30,
+      "min_z": -1.387,
+      "max_z": -0.721,
+      "height": 0.666
+     }
+    ],
+    "note": "height < 1.2 == squashed"
+   }
+  },
+  {
+   "name": "soft_shadow_vs_light_size",
+   "ok": true,
+   "secs": 0.42,
+   "result": {
+    "per_light_size": [
+     {
+      "light_size": 0.25,
+      "bytes": 37684,
+      "mean_edge_gradient": 0.000603,
+      "p99_edge_gradient": 0.003922
+     },
+     {
+      "light_size": 3.0,
+      "bytes": 61276,
+      "mean_edge_gradient": 0.001962,
+      "p99_edge_gradient": 0.011765
+     },
+     {
+      "light_size": 12.0,
+      "bytes": 94821,
+      "mean_edge_gradient": 0.004691,
+      "p99_edge_gradient": 0.035294
+     }
+    ],
+    "note": "bigger light size -> softer (lower-contrast) shadow edge"
+   }
+  }
+ ]
+}

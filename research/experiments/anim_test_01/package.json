@@ -1,0 +1,16 @@
+{
+  "name": "anim-test-01",
+  "version": "0.1.0",
+  "private": true,
+  "description": "B-07 end-to-end test: pixel-style 10s MG animation (card 11 of 15), frame-deterministic HTML/Canvas2D pipeline",
+  "scripts": {
+    "keys": "node render.js --keys",
+    "frames": "node render.js --frames",
+    "rerun": "node render.js --rerun",
+    "audio": "node render_audio.js",
+    "colors": "node checks/colorcount.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.10.0"
+  }
+}

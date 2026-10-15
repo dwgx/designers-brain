@@ -1,0 +1,59 @@
+### ffprobe frame count (out.mp4)
+300
+
+### ffprobe streams/format (out.mp4)
+index=0
+codec_name=h264
+codec_type=video
+width=1920
+height=1080
+r_frame_rate=30/1
+nb_frames=300
+index=1
+codec_name=aac
+codec_type=audio
+sample_rate=44100
+channels=2
+r_frame_rate=0/0
+nb_frames=432
+duration=10.000000
+size=10253026
+bit_rate=8202420
+
+### key/ listing
+key/k0000.png
+key/k0050.png
+key/k0100.png
+key/k0150.png
+key/k0200.png
+key/k0250.png
+
+### key sizes + hashes
+key/k0000.png 2422238 1abcdb48f4090faa
+key/k0050.png 2407073 cc19a592d79f9722
+key/k0100.png 2359602 2b43fdef864231f7
+key/k0150.png 2326212 4085b99055021746
+key/k0200.png 2191054 db023142e87bd663
+key/k0250.png 2142511 e06acb3c45738902
+
+### frames count + first/last
+300
+frames/f0000.png
+frames/f0001.png
+frames/f0298.png
+frames/f0299.png
+
+### audio
+codec_name=pcm_s16le
+sample_rate=44100
+channels=2
+duration=10.000000
+size=1764078
+
+### video.mp4 (silent intermediate)
+codec_name=h264
+width=1920
+height=1080
+r_frame_rate=30/1
+duration=10.000000
+size=9996930

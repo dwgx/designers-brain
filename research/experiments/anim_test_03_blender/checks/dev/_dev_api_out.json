@@ -1,0 +1,177 @@
+{
+ "view_transform": {
+  "available": [
+   "NONE"
+  ],
+  "set_ok": {
+   "Khronos PBR Neutral": true,
+   "AgX": true,
+   "Standard": true,
+   "Filmic": true
+  }
+ },
+ "eevee_attrs": {
+  "eevee_props": [
+   "gi_diffuse_bounces",
+   "gi_cubemap_resolution",
+   "gi_visibility_resolution",
+   "gi_glossy_clamp",
+   "gi_irradiance_pool_size",
+   "taa_samples",
+   "taa_render_samples",
+   "use_taa_reprojection",
+   "ray_tracing_method",
+   "use_shadow_jitter_viewport",
+   "clamp_surface_direct",
+   "clamp_surface_indirect",
+   "clamp_volume_direct",
+   "clamp_volume_indirect",
+   "direct_light_intensity",
+   "indirect_light_intensity",
+   "volumetric_start",
+   "volumetric_end",
+   "volumetric_tile_size",
+   "volumetric_samples",
+   "volumetric_sample_distribution",
+   "volumetric_ray_depth",
+   "volumetric_light_clamp",
+   "use_volumetric_shadows",
+   "volumetric_shadow_samples",
+   "use_volume_custom_range",
+   "use_fast_gi",
+   "fast_gi_thickness_near",
+   "fast_gi_quality",
+   "fast_gi_step_count",
+   "fast_gi_ray_count",
+   "fast_gi_method",
+   "fast_gi_distance",
+   "fast_gi_bias",
+   "fast_gi_resolution",
+   "bokeh_max_size",
+   "bokeh_threshold",
+   "bokeh_neighbor_max",
+   "use_bokeh_jittered",
+   "bokeh_overblur",
+   "motion_blur_depth_scale",
+   "motion_blur_max",
+   "motion_blur_steps",
+   "use_shadows",
+   "shadow_pool_size",
+   "shadow_ray_count",
+   "shadow_step_count",
+   "light_threshold",
+   "use_overscan",
+   "overscan_size",
+   "use_raytracing",
+   "shadow_resolution_scale"
+  ],
+  "vals": {
+   "taa_render_samples": 64,
+   "taa_samples": 16,
+   "motion_blur_steps": 1,
+   "motion_blur_max": 32,
+   "use_raytracing": false,
+   "shadow_ray_count": 1,
+   "shadow_step_count": 6,
+   "use_shadows": true,
+   "use_volumetric_shadows": false,
+   "shadow_pool_size": "512"
+  },
+  "rt_options_props": [
+   "resolution_scale",
+   "use_backface_hit",
+   "backface_radiance_scale",
+   "use_denoise",
+   "denoise_spatial",
+   "denoise_temporal",
+   "denoise_bilateral",
+   "screen_trace_thickness",
+   "trace_max_roughness",
+   "screen_trace_quality"
+  ],
+  "rt_options_vals": {
+   "resolution_scale": "2",
+   "use_backface_hit": true,
+   "backface_radiance_scale": 0.25,
+   "use_denoise": true,
+   "denoise_spatial": true,
+   "denoise_temporal": true,
+   "denoise_bilateral": true,
+   "screen_trace_thickness": 0.10000000149011612,
+   "trace_max_roughness": 0.5,
+   "screen_trace_quality": 0.25
+  }
+ },
+ "rigidbody_attrs": {
+  "props": [
+   "type",
+   "mesh_source",
+   "enabled",
+   "collision_shape",
+   "kinematic",
+   "use_deform",
+   "mass",
+   "use_deactivation",
+   "use_start_deactivated",
+   "deactivate_linear_velocity",
+   "deactivate_angular_velocity",
+   "linear_damping",
+   "angular_damping",
+   "friction",
+   "restitution",
+   "use_margin",
+   "collision_margin",
+   "collision_collections"
+  ],
+  "vals": {
+   "type": "ACTIVE",
+   "mass": 1.0,
+   "friction": 0.5,
+   "restitution": 0.0,
+   "linear_damping": 0.03999999910593033,
+   "angular_damping": 0.10000000149011612,
+   "use_deactivation": false,
+   "deactivate_linear_velocity": 0.4000000059604645,
+   "deactivate_angular_velocity": 0.5,
+   "kinematic": false,
+   "collision_shape": "CONVEX_HULL",
+   "use_margin": false,
+   "collision_margin": 0.03999999910593033,
+   "use_start_deactivated": false,
+   "mesh_source": "DEFORM"
+  }
+ },
+ "object_material_slot": {
+  "link": "OBJECT",
+  "mat": "m2",
+  "a_mat": "m1",
+  "shared_mesh": true
+ },
+ "text_to_mesh": {
+  "verts": 984,
+  "polys": 894,
+  "bbox_x": [
+   0.01,
+   2.394
+  ],
+  "bbox_y": [
+   -0.06,
+   0.746
+  ],
+  "bbox_z": [
+   -0.46,
+   0.46
+  ]
+ },
+ "compositor": {
+  "glare": "CompositorNodeGlare",
+  "types": "n/a",
+  "use_comp": true
+ },
+ "light_defaults": {
+  "energy_default": 10.0,
+  "size_default": 0.25,
+  "shape": "SQUARE",
+  "eevee_samples_note": "n/a"
+ }
+}

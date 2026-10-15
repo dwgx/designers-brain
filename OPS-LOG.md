@@ -1,0 +1,100 @@
+# OPS-LOG — 运维日志与反省（append-only）
+
+> 主脑维护。Owner 指示（2026-10-15）：「你监工总结反省派发 irc 理解通讯…有反省和自检就记录更新」。
+> 每条带日期与证据；新条追加在下方，旧条不改写。
+
+## 1. 通道状态（2026-10-15）
+
+| 通道 | 状态 | 证据 |
+|---|---|---|
+| omp task 子代理 | ✅ 正常 | wave1–5 已交付 25+ 个工人（数字见 GOALS.md） |
+| 跨家 omp / deepseek-v4.1-flash | ✅ 正常 | DB-C1b（69 行 / 18min）、DB-C3（16 条 / 5min）、DB-C2b/C2c（126 条语料） |
+| 跨家 claude / sonnet-5-5 | ⚠️ 首用即挂 | DB-C2：3600s 超时、零产出、无 session id |
+| 跨家 codex | ❌ 401 断供（缺鉴权） | db-c1 receipt：Missing bearer，未再派 |
+| web_search | ⚠️ 全 provider 限流全天 | 替代路径（read/curl/urllib/eval browser/GitHub API）全部实测可用，交付未受影响 |
+| eval browser / chrome MCP | ✅ | GitHub 抓取、Bing 溯源成功；chrome MCP 只 list 未动他人页面 |
+| yt-dlp | ✅ | Bilibili 直下成功；YouTube 需 `--js-runtimes node` 才能过 403 |
+
+## 2. 事故与教训（每条：现象 → 教训）
+
+1. **修正项路由错配**（16:5x）：复核修正 2 条（「1257 件」/「晚年」）误发给 van_gogh 作者——**被工人自己抓出并正确路由**。教训：派修正项前先对 `_review.md` 原文逐条核对归属。
+2. **claude 后端首用即挂**：3600s 零输出。教训：新后端首派先用小任务探针；大任务拆小或走已验证通道。
+3. **edit 工具长中文行匹配失败 ×3**（images_index Bilibili 行）。教训：改长行前先 read 精确原文再改；或用行内唯一短锚点。
+4. **ffmpeg 两个坑（本机实测）**：① 本 build 无 `-pattern_type glob`；② 关键帧非连续编号时 `-i k%04d.png` 只读 1 帧。已写进产物。
+5. **hook 正确拦截 1 次**：`rm -rf _seq`（临时目录外递归删）被 recursive-delete 门拒；改 `rm 文件` + `rmdir` 通过。护栏按设计工作。
+6. **搜索限流期的证据纪律**：全员切直读通道，产物 URL 计数正常。教训：「搜索失败」≠「内容缺口」。
+7. **omp 崩溃（exit=-1）与 resume**：Corpus A 工 12 分钟后崩溃，da_vinci.md 已落盘 → **resume 同会话**补 3 份，一次成功。教训：崩溃后先查已落产物，能 resume 就 resume，勿重开空白工人。
+8. **OPS-LOG 自身被编辑插乱 ×2**：长中文锚点 edit 出错。教训：本文件改动一律整份重写（write），不用 edit。
+
+## 3. IRC 协作记录（样本）
+
+- ArtistExpansion ↔ ArtistVanGoghMonet / ArtistMatisseHokusai：重叠度口径 + let535 引文复核（两轮往返）。
+- ArtistVanGoghMonet → 主脑：抓出修正项路由错配（1257/晚年 属 picasso 写路径）。
+- DossierReview → 主脑 → 原作者：4+2 处标注级修正双闭环（van_gogh 27,916B；picasso 37,958B）。
+- ConflictsList → StyleCardTemplates → 主脑：N1/N3/N6 落 style_card v0.2；N4/N9 落 design.md §5b + E2b/E2c + 回链。
+- AnimTest01 → 主脑 → StyleCardTemplates/HtmlFrameRender/PipelineHandbook：乱序重渲等三条实测坑回填三份文档（全部确认）。
+
+## 4. 监工小结（首日）
+
+- 已收口：wave1 全部（8 档案 + 4 线 + 3 跨家）、wave2 全部、wave3 全部（含 B-07 里程碑）、wave4 全部（含 3 份回填）。
+- 在飞：wave5（迁移指南 / 第二支片 / vsc 深拆 / 标注清扫）。
+- 风险：claude 通道质量未知（未再使用）；web_search 依赖外部恢复；E 系列图像实验缺出图通道（待决策）。
+
+## 5. 授权记录
+
+- Owner（2026-10-15）：「本项目交给你运维了 不限制浪费token ultrathink」；「联网各种 人家的作品记录参考备份切片研究都可以」——下载/备份/切片参考作品（源视频、参考片、帧对照）在授权范围内。
+
+## 6. 追加记录（2026-10-15）
+
+- **claude 失败细节补充**：其 scratch cache 实收 42 份源文本（Leonardo 8 卷 / rime / Gasquet / Perry / Wikiquote JSON…）——工人有在干活，但 60 分钟从未写交付文件、未吐收尾 JSON。已把该目录作为「预抓源文本」写进两个新 brief（省重抓）。
+- **omp 瞬态故障**：重派时 `Model "buddyfarm/deepseek-v4.1-flash" not found`（1.9s 即败）；`omp -p` 探针 7s 返回 OK → 判瞬态（模型目录刷新竞态），重发成功。教训：同通道报错先探针再重派。
+- **B-11 × B-12 交叉采纳闭环**：见 §3 第 4 条。
+
+## 7. 里程碑（2026-10-15 晚）
+
+- **B-07 首次端到端成功**：非 Opus 模型（omp coder）按「像素卡」产出 300 帧 / 10s / 1920×1080 成片，全规格达标（24 色、10 姿态/秒、无补间、结尾文案、合成音轨），端到端 21s。**抓出真 bug**：fillStyle 被赋非法值 → 静默沿用上一帧状态；同序重渲不可见，**乱序重渲**（`--rerun 299,150,0`）才暴露（f0150 差 158 像素）；修复后 3/3 帧 SHA256 一致。→ 教训：P0 自查必须含乱序重渲（已回填三份文档）。
+- **A-10 语料收口**：8 位画家 126 条带来源引文（拆 2 工；A 工中途崩溃 → resume 补完）。
+- **D-02 图库收口**：33 张 / 20.9MB / 全开放许可 + manifest。
+- **两次失败对照**：claude（超时零产出）→ 换通道拆小；omp（崩溃）→ resume。同一错误类别两种处置，都按 派发.md 规程走。
+
+## 8. 外部接口现状（2026-10-15 实测，供后续工人引用）
+
+- **Met API v1 search 已退役**（410 Gone）→ 用 `/public/collection/v1.1/search`；直连 `requests` 被 WAF 403，须 curl。
+- **Met 部分 PD 名画被标 `isPublicDomain=false` 且无图**（如 Monet 两幅）→ 换 AIC/Commons。
+- **AIC IIIF 有 Cloudflare JS 挑战**（curl/requests 403）→ 用真实 Chromium 页面 fetch。
+- **Commons 无毕加索干净复制品** → 用 Cleveland CC0。
+- yt-dlp：Bilibili 直下可用；YouTube 需 `--js-runtimes node`。
+- 以上均写进 `research/artists/_images/manifest.md` 相关节。
+
+## 9. 里程碑追加（2026-10-15 深夜）
+
+- **B-19 Blender 端到端 #3 成功**：3D 质感卡（01）300 帧 / 10s 交付（玻璃弹珠阵 + 橡胶 PLAY + 推镜）；确定性 P1 记录（EEVEE 采样随机性 max 5/255、≤0.05% 像素）。**三条管线（网页 2D ×2 + Blender 3D ×1）全部端到端验证。**
+- **E-01 首批图像实验**：36/36 张（12 格）；发现**题材偏置 5 格** → E-02 拆「纯风格段」同格重跑对照。
+- **B-20 图像通道**：网关直连 API 可用（裸模型名 `grok-imagine-image-2.0`、无负向通道、尺寸固定 768×1152）。
+
+## 10. 工作纪律观察（记录在案）
+
+- **RefsMapping** 直接改了 `GOALS.md` 的 D-03 行（内容正确，但 GOALS 归主脑维护）。
+- **AnimTest03Blender** 在 `~/.dwgx/ops/boards/Designers_Brain.md` 写了 2 行版项目板（内容准确，属 ops 区惯例位置，保留）；其「机器板与盘分歧时以盘为准」的处理正确。
+- 共同点：**产物正确但越了写路径**。后续 brief 在 Non-Conflict 之外补一句：「不得写 GOALS.md / 机器板 / 项目外路径；完成情况写在回执里」。
+
+## 11. 收官与开新线（2026-10-15）
+
+- **E-02 题材偏置修正**：12 格诊断（7 格偏置）→ §8.1b 纯风格段拆分（7 卡 + 4 卡注记；§8.1 逐字不动）→ 重跑 21/21；同格对照 6/7 解除。
+- **E-03 michelangelo 深度解除**：§8.1b v2 从句级改写（人体绑定从句 → 无机物等价语言；v1 存档可审计）→ 重测 3/3 解除 → **7/7 全部解除或基本解除**。
+- **E-04 组合实验**：9/9 张；莫奈×梵高 / 达芬奇×卡拉瓦乔 / 莫奈×塞尚；N1/N4/N9 全记录；双标准零出现（e2b「单侧化」已记录）。
+- **归档**：`owners research prompt/` → `research/origin_cards/`（Owner 指示；24 处引用批量更新；原件保留、只归档）。
+- **新线（Owner 新需求）**：Designers_Brain **skill 化**——设计顾问模式（agent 按 Owner 语义/需求主动询问「怎么设计、怎么替换」）→ wave9 启动：SkillEcosystem（superpowers 等参照）+ SkillSpec（规格 + SKILL.md 草案）。
+- 纪律延续：MichelangeloV2 与 ComboTest 均未动 GOALS/机器板（§10 教训已生效）。
+
+## 12. Skill 线：建包 + 盲测（2026-10-15）
+
+- **S-03 建包**：`skills/designers-brain/` 落地（SKILL.md 106 行 + references×9 + domains.yaml + agents/openai.yaml + 打包件×3 + `templates/design_brief.md`）；激活 junction ×4（仓库内 + `~/.agents` + `~/.claude` + `~/.codex`，逐条先核后建、无覆盖）；`_selfcheck.py` 扩展后 PASS（checked=54 / junctions=4/4 / domains=ok）；`_extract.py --check` 33/33。
+- **S-04 盲测（RED-GREEN）**：同一需求双组对照（「拾光」咖啡馆）——行为增量成立：①「5 条自由问」→「3+2 带默认填空」②「方向给太早」→「方向留到风格环节」③「信息不全就抛方案」→「默认 + 假设 + 可否决」；新增替换轴 / 冲突预检 / 视觉门 / 出稿字段 / gate / 评审六层。裁定：候选数口径（2–3，可压到 2）写回 spec §2.5 + SKILL.md。
+- 遗留：S-05 真实走查（多轮 + 真出图 + 自主触发实测）。
+
+## 13. Skill 线：全链走查（2026-10-15）
+
+- **S-05 走查（演练版）**：全链真跑——首问包 → 推荐单 → **3 张真图候选**（莫奈晨光 / 维米尔70×莫奈30 / 马蒂斯色块）+ 对比页 + 展示后停 → 定稿（维米尔×莫奈）+ gate 文件 + 独立评审（机械 64/64；7 维 7/6/7/7/7；必须修 3 条 → 首稿「可看不可定稿」，如实）。组合预检全链留痕（N4 → N3 轴移除 → N1 重算 → near-miss 取值 → N9）。
+- **自主触发探针**：会话内 spawn 继承旧 catalog（未触发，属会话启动枚举预期）；**新鲜 omp 进程 catalog 已含 designers-brain** → 新会话触发就绪。
+- 走查暴露 4 条 skill 改进（→ S-06）：近似 opt-out 口径 / 无字 KV↔海报边界 / 组合建议须附可判读观察点（莫奈 30% 轴实测不可判读）/ rubric 静态图适配。

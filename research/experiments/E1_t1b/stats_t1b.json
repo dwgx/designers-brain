@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-15",
+  "n_cells": 7,
+  "cells": [
+    {
+      "cell": "e1_da_vinci",
+      "module": "da_vinci",
+      "module_name": "达·芬奇",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "ddd68b7e6d36f8c0cea5d5e20c348241d721ec0d9bb691c5afe235256b866fbc",
+          "bytes": 245555,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "a6e4b014ba5be049d3d92f2610a5e8ae8c71918cdeedab9d61342dcb67472cd9",
+          "bytes": 266670,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "418d75e9983cee2b5729dc7d920d2ccb8860b356704edd265df3beb2d9407c7a",
+          "bytes": 273453,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 51.6,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "21015cfef5fdc39744d22f027b77f584f17762ba4112784a4638532715a09af7"
+    },
+    {
+      "cell": "e1_michelangelo",
+      "module": "michelangelo",
+      "module_name": "米开朗基罗",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "10447f51b67c5125ccf3e7a8bbda08f966501af278aa2d725ebdc1a3a7ae743f",
+          "bytes": 495852,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "697f5921a002a437a0bfdc91631ebf9c22d70a59fce32dac348e0e48c0409203",
+          "bytes": 468706,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "e39ca250a6b8ad384c01e79e2701dcdd073fed3864e915d742dc56073a886d4e",
+          "bytes": 432415,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 61.0,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "3326164fb5666fb9cd5dc896ea3cd267c4c95f9f568e2d96c8909cbc0ee24c2c"
+    },
+    {
+      "cell": "e1_picasso",
+      "module": "picasso",
+      "module_name": "毕加索",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "b611e9ab5e3679c0fd4d462b5ca6c8b92ce15d64b400f4ca3ab03e729ae149fe",
+          "bytes": 439163,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "bb8001a085bccf2ed7c3058c2af1971333af8b2412a8e70c8db4f21db0c5aa1a",
+          "bytes": 426981,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "1bf23ac63ee51858109aae0ee0af50cf98cf879103816c21b1e1b78506e55fb6",
+          "bytes": 430916,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 51.7,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "6d730e72a5b113588dcc5a1b4c04a860d177fdb1aaf17a1ec2e1edf18b315737"
+    },
+    {
+      "cell": "e1_cezanne",
+      "module": "cezanne",
+      "module_name": "塞尚",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "b2bc10f9c9d7b7c63ee54e161bab18202bc1820764b9b35b5d34eaebcba97d0a",
+          "bytes": 565766,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "fcd67657cdbec67d42796d71fb3a81319590a5ad7b6c3348c18da6d73a0eb341",
+          "bytes": 555397,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "a6b0ee7a45b3db8ad0b840b69949423d7c367aafbb784ed466c42c6bce134756",
+          "bytes": 566297,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 72.0,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "9a3502cba1a0a0895a1f29a42c9c370a6cd3d0580e23abb605f30f849bdae6fc"
+    },
+    {
+      "cell": "e1_caravaggio",
+      "module": "caravaggio",
+      "module_name": "卡拉瓦乔",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "407e57f59a85ed1ae2f3be2fa2e71bad14b4c29349c06508b5d40d1262ab452d",
+          "bytes": 420252,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "32be7e27a5c290a6e44adcf3010a0a814d05adae504b884dc64f3f4145987b2a",
+          "bytes": 375115,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "1c7a5dc92546e234f41463ce0e9ebf5ced3acb66fdc47363c3986b2f1d3a9584",
+          "bytes": 384572,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 59.1,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "e651a3ebd49db6d463b7c0c9f17d562c3ba57bad973aed038c1d09568c1d7861"
+    },
+    {
+      "cell": "e1_vermeer",
+      "module": "vermeer",
+      "module_name": "维米尔",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "037458d48f131a19acf7c57f0ae07d6348ef91d99f869f683dca478de9133b2a",
+          "bytes": 318642,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "9cbcb65d14fec79b4526879855181f524e2527b8a46ba25f542ec99a4eecc5b3",
+          "bytes": 316106,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "d4bbb159707503c3ab446fb87206415438170d56fe2d703900a894ae3d25d4db",
+          "bytes": 322944,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 56.0,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "012500f1d0fa6b13b8fbeea3c208449dbb2ed8c971dde16debd4fc6e00cf19ba"
+    },
+    {
+      "cell": "e1_durer",
+      "module": "durer",
+      "module_name": "丢勒",
+      "imgs": [
+        {
+          "n": 1,
+          "sha256": "2264f4429233dee5bec99fbff451c213e127dc4163c966e4da81a3681f44fda3",
+          "bytes": 688522,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 2,
+          "sha256": "a22b5ae86ff559b71559a271228418e6f2df723e1e3e7768196b7866c38eb7a5",
+          "bytes": 709075,
+          "w": 768,
+          "h": 1152
+        },
+        {
+          "n": 3,
+          "sha256": "ce61fc80c04ee8ba1b2c9ebb9a49ab1ce7eab340f9ccaa71a8752fc46b2afeae",
+          "bytes": 694195,
+          "w": 768,
+          "h": 1152
+        }
+      ],
+      "n_ok": 3,
+      "attempts": 3,
+      "retries": 0,
+      "fails": 0,
+      "total_s": 65.0,
+      "dims": [
+        [
+          768,
+          1152
+        ]
+      ],
+      "s81b_sha256": "381ab146fc48fde2289713698007f751575ab0c3eeeeda8e704c8d850bde26db"
+    }
+  ]
+}

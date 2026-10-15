@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>PIXEL — 大丰收 (B-07 anim_test_01)</title>
+<style>
+  html,body{margin:0;padding:0;background:#000;overflow:hidden}
+  #stage{display:block;width:1920px;height:1080px;image-rendering:pixelated}
+</style>
+</head>
+<body>
+<canvas id="stage" width="1920" height="1080"></canvas>
+<script>
+"use strict";
+/* =============================================================================
+   B-07 端到端实验 #1 —— 15 卡第 11 张「像素 PIXEL」
+   《像素小渔夫 · 大丰收！》 1920×1080 / 30fps / 300 帧
+   渲染契约：window.seek(frame) —— 纯函数，帧号是唯一时间源。
+   禁用：requestAnimationFrame / performance.now / Date.now / Math.random（未播种）。
+   内部画布 320×180，整数倍(×6)放大，imageSmoothingEnabled=false，全部坐标为整数。
+   ============================================================================= */
+
+/* ---------- 0. 常量 ---------- */
+const W = 1920, H = 1080;      // 输出尺寸
+const CW = 320, CH = 180;      // 像素画布
+const SCALE = W / CW;          // = 6（整数倍）
+const FPS = 30, NFRAMES = 300; // 10.0s
+const HORIZON = 100;           // 地平线 y
+const SUNX = 222, SUNY = 100, SUNR = 27;
+const BOBX = 238, BOBY = 122;  // 浮漂基准位
+
+/* ---------- 1. 调色板（25 色；全片唯一色数上限 32） ---------- */
+const HEX = {
+  ink0:'#0d0a14', ink1:'#241432', ink2:'#43224a',
+  sky0:'#1c1638', sky1:'#38265c', sky2:'#682c66', sky3:'#a33a5c', sky4:'#d9613b', sky5:'#f59a3f',
+  sun0:'#ffd76e', sun1:'#fff2bd',
+  wat0:'#0e1630', wat1:'#1b2a4e', wat2:'#2f4670', wat3:'#5c3f6e', wat4:'#a8523f',
+  gold0:'#b8732c', gold1:'#edb144', gold2:'#ffe08a',
+  red0:'#cf3a3a', white:'#f8f4e6', pink0:'#e0708c',
+  brn0:'#6d4a2a', brn1:'#9c7340', grn0:'#3f7a52'
+};
+const PAL32 = {};                       // name -> packed ABGR (little-endian canvas)
+for (const k in HEX) {
+  const h = HEX[k];
+  const r = parseInt(h.slice(1,3),16), gg = parseInt(h.slice(3,5),16), b = parseInt(h.slice(5,7),16);
+  PAL32[k] = (((255<<24) | (b<<16) | (gg<<8) | r) >>> 0);
+}
+
+/* CRT 扫描线：每 3 行压暗 1 行。压暗目标全部落在同一调色板内（色数不增）。 */
+const DIM = {
+  sky5:'sky4', sky4:'sky3', sky3:'sky2', sky2:'sky1', sky1:'sky0', sky0:'sky0',
+  sun1:'sun0', sun0:'gold1',
+  wat4:'wat3', wat3:'wat2', wat2:'wat1', wat1:'wat0', wat0:'wat0',
+  gold2:'gold1', gold1:'gold0', gold0:'gold0',
+  white:'sun1', red0:'red0', pink0:'red0',
+  ink2:'ink1', ink1:'ink0', ink0:'ink0',
+  brn1:'brn0', brn0:'ink1', grn0:'grn0'
+};
+const LUT = new Map();
+for (const k in PAL32) LUT.set(PAL32[k], PAL32[DIM[k] || k]);
+
+/* ---------- 2. 画布 ---------- */
+const stage = document.getElementById('stage');
+const ctx = stage.getContext('2d', { alpha:false });
+ctx.imageSmoothingEnabled = false;
+const buf = document.createElement('canvas'); buf.width = CW; buf.height = CH;
+const g = buf.getContext('2d', { alpha:false });
+g.imageSmoothingEnabled = false;
+const imgData = g.createImageData(CW, CH);
+const pix = new Uint32Array(imgData.data.buffer);
+
+/* ---------- 3. 基础工具（全部整数坐标） ---------- */
+const BAYER = [0,2,3,1];               // 2×2 有序抖动矩阵
+function rng(seed){                    // mulberry32，播种 PRNG（禁 Math.random）
+  let a = seed >>> 0;
+  return function(){
+    a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function rect(x,y,w,h,c){ g.fillStyle = c; g.fillRect(x|0, y|0, w|0, h|0); }
+function px(x,y,c){ g.fillStyle = c; g.fillRect(x|0, y|0, 1, 1); }
+function line(x0,y0,x1,y1,c){          // Bresenham，1px，硬边
+  x0|=0; y0|=0; x1|=0; y1|=0;
+  const dx = Math.abs(x1-x0), sx = x0<x1?1:-1;
+  const dy = -Math.abs(y1-y0), sy = y0<y1?1:-1;
+  let err = dx+dy;
+  g.fillStyle = c;
+  for(;;){
+    g.fillRect(x0,y0,1,1);
+    if (x0===x1 && y0===y1) break;
+    const e2 = 2*err;
+    if (e2 >= dy){ err += dy; x0 += sx; }
+    if (e2 <= dx){ err += dx; y0 += sy; }
+  }
+}
+/* 位图 sprite：'.'=透明，其余查 CHARS 表；shear = 每行水平位移(像素/行，四舍五入取整) */
+const CHARS = { i:'ink0', k:'ink1', K:'ink2' };
+function drawArt(art, ox, oy, shear, cmap){
+  const M = cmap || CHARS;
+  const rows = art.length, mid = (rows-1)/2;
+  for (let r=0; r<rows; r++){
+    const sh = shear ? Math.round(shear*(r-mid)) : 0;
+    const row = art[r];
+    for (let c=0; c<row.length; c++){
+      const ch = row[c];
+      if (ch === '.') continue;
+      const col = M[ch];
+      if (!col) continue;
+      g.fillStyle = HEX[col];
+      g.fillRect((ox+c+sh)|0, (oy+r)|0, 1, 1);
+    }
+  }
+}
+
+/* ---------- 4. 时间轴（帧号 @30fps） ---------- */
+const TL = {
+  idle:   [0,30],   windup:[30,45], swing:[45,53], fly:[53,63], splash:[63,67],
+  wait:   [67,146], dip:  [146,150], sink:[150,156], startle:[156,166], pull:[166,196],
+  leap:   [196,212], splash2:[212,216], hoist:[216,240], hold:[240,300]
+};
+function inT(f, name){ const r = TL[name]; return f >= r[0] && f < r[1]; }
+const BEAT = 3;                              // 角色动作 3 帧一拍 = 10 张/秒（8-12 区间内）
+function beatOf(f){ return Math.floor(f/BEAT); }
+
+/* ---------- 5. 背景（sky / sun / water + 抖动渐变） ---------- */
+const SKY_RAMP = ['sky0','sky1','sky2','sky3','sky4','sky5'];
+const WAT_RAMP = ['wat3','wat2','wat1','wat0'];
+function drawBackground(f){
+  const skyN = SKY_RAMP.length - 1, watN = WAT_RAMP.length - 1;
+  for (let y=0; y<CH; y++){
+    const off = y*CW;
+    let cA, cB, frac;
+    if (y < HORIZON){
+      const t = Math.pow(y/HORIZON, 1.7);
+      const fx = t*skyN; const i = Math.min(skyN-1, Math.floor(fx)); frac = fx-i;
+      cA = PAL32[SKY_RAMP[i]]; cB = PAL32[SKY_RAMP[i+1]];
+    } else {
+      const t = (y-HORIZON)/(CH-HORIZON);
+      const fx = t*watN; const i = Math.min(watN-1, Math.floor(fx)); frac = fx-i;
+      cA = PAL32[WAT_RAMP[i]]; cB = PAL32[WAT_RAMP[i+1]];
+    }
+    for (let x=0; x<CW; x++){
+      pix[off+x] = (((BAYER[((y&1)<<1)|(x&1)]+0.5)*0.25) < frac) ? cB : cA;
+    }
+  }
+  /* 夕阳：半轮沉入地平线，下半部带横条缺口（像素日落经典画法） */
+  for (let y=SUNY-SUNR; y<HORIZON; y++){
+    const dy = y-SUNY;
+    const half = Math.floor(Math.sqrt(Math.max(0, SUNR*SUNR - dy*dy)));
+    for (let x=SUNX-half; x<=SUNX+half; x++){
+      if (x<0||x>=CW) continue;
+      let c = PAL32.sun0;
+      const dx = x-SUNX, dyy = dy+9;
+      if (dyy < 0 && dx*dx + dyy*dyy < 90) c = PAL32.sun1;                 // 高光核心
+      if (dy > -2 && ((y - (SUNY-SUNR)) % 6) < 2) c = PAL32.sky4;          // 横条
+      pix[y*CW+x] = c;
+    }
+  }
+  /* 湖面：太阳倒影（窄柱 + 逐行涟漪相位）+ 水色渐变 */
+  const b = Math.floor(f/2);                            // 水面闪烁 15Hz（角色仍 10Hz）
+  for (let y=HORIZON; y<CH; y++){
+    const off = y*CW;
+    const depth = (y-HORIZON)/(CH-HORIZON);
+    const band = ((y + b*2) % 4 < 2) ? 1 : 0.42;          // 10Hz 涟漪条带
+    for (let x=0; x<CW; x++){
+      const dx = Math.abs(x-SUNX);
+      const inten = Math.max(0, 1 - dx/24) * Math.max(0, 1 - depth*1.3) * band;
+      const d = (BAYER[((y&1)<<1)|(x&1)]+0.5)*0.25;
+      if (inten > 0.04 && d < inten){
+        pix[off+x] = inten > 0.5 ? PAL32.gold2 : (inten > 0.24 ? PAL32.gold1 : PAL32.wat4);
+      }
+    }
+  }
+  g.putImageData(imgData, 0, 0);
+}
+
+/* ---------- 6. 云（两层视差，整像素滚动） ---------- */
+function drawCloud(x, y, w){
+  const rows = [
+    [4, w-16], [2, w-10], [0, w-4], [1, w], [3, w-6]
+  ];
+  for (let i=0; i<rows.length; i++){
+    const c = (i === rows.length-1) ? HEX.gold1 : (i >= 3 ? HEX.sky1 : HEX.sky0);
+    rect(x+rows[i][0], y+i, rows[i][1], 1, c);
+  }
+}
+function drawClouds(f){
+  const b = beatOf(f);
+  const x1 = ((46 - Math.floor(f/6)) % 460 + 460) % 460 - 70;   // 远景层：1px / 6帧
+  const x2 = ((300 - Math.floor(f/3)) % 520 + 520) % 520 - 80;  // 近景层：1px / 3帧
+  drawCloud(x1|0, 40, 34);
+  drawCloud(x2|0, 62, 26);
+  drawCloud(((x1+210)%460-70)|0, 54, 20);
+}
+
+/* ---------- 7. 水面动画（10Hz 离散） ---------- */
+function drawWater(f){
+  const b = beatOf(f);
+  for (let i=0; i<10; i++){
+    const y = 104 + i*8;
+    if (y >= CH) break;
+    const phase = ((b + i*2) % 4);
+    for (let x=0; x<CW; x+=8){
+      const k = (x/8 + phase) % 4;
+      if (k === 0) rect(x, y, 4, 1, HEX.wat3);
+      else if (k === 2) rect(x+2, y, 2, 1, HEX.wat2);
+    }
+  }
+  /* 太阳倒影上的碎光：15Hz 闪烁，位置来自播种 PRNG */
+  const r = rng(0x5EED + Math.floor(f/2));
+  for (let i=0; i<9; i++){
+    const x = SUNX - 34 + Math.floor(r()*68);
+    const y = HORIZON + 3 + Math.floor(r()*54);
+    if (r() < 0.5) px(x, y, HEX.gold2);
+  }
+}
+
+/* ---------- 8. 木栈桥 + 芦苇（前景） ---------- */
+const PIER = { x0:6, x1:74, top:111, thick:4 };
+function drawPier(){
+  rect(PIER.x0, PIER.top, PIER.x1-PIER.x0, 1, HEX.brn1);
+  rect(PIER.x0, PIER.top+1, PIER.x1-PIER.x0, PIER.thick-1, HEX.brn0);
+  for (let x=PIER.x0; x<PIER.x1; x+=9) rect(x, PIER.top, 1, PIER.thick, HEX.ink0);
+  rect(PIER.x0, PIER.top+PIER.thick, PIER.x1-PIER.x0, 1, HEX.ink0);
+  /* 桥桩 */
+  for (const px0 of [14, 62]){
+    rect(px0, PIER.top+PIER.thick+1, 4, 20, HEX.brn0);
+    rect(px0, PIER.top+PIER.thick+1, 1, 20, HEX.ink0);
+    rect(px0+3, PIER.top+PIER.thick+1, 1, 20, HEX.ink0);
+    /* 倒影 */
+    for (let i=0; i<6; i++) rect(px0+1, PIER.top+PIER.thick+22+i*3, 2, 1, HEX.wat0);
+  }
+  for (let i=0; i<7; i++) rect(PIER.x0+2+i*11, PIER.top+PIER.thick+6, 5, 1, HEX.wat0);
+  /* 左下芦苇 */
+  for (let i=0; i<5; i++){
+    const x = 1 + i*4, hgt = 26 + (i%3)*7;
+    rect(x, HORIZON+16-hgt, 1, hgt, HEX.grn0);
+    rect(x, HORIZON+16-hgt, 2, 1, HEX.grn0);
+    px(x, HORIZON+16-hgt-2, HEX.ink0);
+  }
+}
+
+/* ---------- 9. 渔夫（位图 sprite + 程序化手臂/钓竿） ---------- */
+const SPR = {
+  /* 12×16；无手臂（手臂按姿态程序化画），硬方块 */
+  stand: [
+    '....iiii....',
+    '...iiiiii...',
+    '....kkkk....',
+    '....kkkk....',
+    '...kkkkkk...',
+    '..kkkkkkkk..',
+    '..kkkkkkkk..',
+    '..kkkkkkkk..',
+    '...kkkkkk...',
+    '...kkkkkk...',
+    '...kkkkkk...',
+    '...kk.kkk...',
+    '...kk..kk...',
+    '...kk..kk...',
+    '...kk..kk...',
+    '..iii..iii..'
+  ],
+  leanF: [
+    '.....iiii...',
+    '....iiiiii..',
+    '.....kkkk...',
+    '.....kkkk...',
+    '....kkkkkk..',
+    '...kkkkkkkk.',
+    '...kkkkkkkk.',
+    '...kkkkkkkk.',
+    '....kkkkkk..',
+    '....kkkkkk..',
+    '...kkkkkkk..',
+    '...kkk.kkk..',
+    '...kk...kk..',
+    '..kk....kk..',
+    '..kk....kk..',
+    '.iii...iii..'
+  ],
+  crouch: [
+    '....iiii....',
+    '...iiiiii...',
+    '....kkkk....',
+    '....kkkk....',
+    '...kkkkkk...',
+    '..kkkkkkkk..',
+    '..kkkkkkkk..',
+    '..kkkkkkkk..',
+    '...kkkkkk...',
+    '...kkkkkk...',
+    '..kkkkkkk...',
+    '..kkk.kkk...',
+    '..kk...kk...',
+    '.kk....kk...',
+    '.kk....kk...',
+    'iii....iii..'
+  ],
+  brace: [
+    '...iiii.....',
+    '..iiiiii....',
+    '...kkkk.....',
+    '...kkkk.....',
+    '..kkkkkk....',
+    '.kkkkkkkk...',
+    '.kkkkkkkk...',
+    '.kkkkkkkk...',
+    '..kkkkkk....',
+    '..kkkkkk....',
+    '..kkkkkk....',
+    '..kkk.kkk...',
+    '..kk...kk...',
+    '.kk.....kk..',
+    '.kk.....kk..',
+    'iii.....iii.'
+  ],
+  startle: [
+    '...iiii.....',
+    '..iiiiii....',
+    '...kkkk.....',
+    '...kkkk.....',
+    '..kkkkkk....',
+    '.kkkkkkkk...',
+    '.kkkkkkkk...',
+    '.kkkkkkkk...',
+    '..kkkkkk....',
+    '..kkkkkk....',
+    '..kkkkkk....',
+    '..kkk.kkk...',
+    '..kk...kk...',
+    '..kk...kk...',
+    '.kk.....kk..',
+    'iii.....iii.'
+  ],
+  hold: [
+    '....iiii....',
+    '...iiiiii...',
+    '....kkkk....',
+    '....kkkk....',
+    '...kkkkkk...',
+    '..kkkkkkkk..',
+    '..kkkkkkkk..',
+    '..kkkkkkkk..',
+    '...kkkkkk...',
+    '...kkkkkk...',
+    '...kkkkkk...',
+    '...kk.kkk...',
+    '...kk..kk...',
+    '...kk..kk...',
+    '...kk..kk...',
+    '..iii..iii..'
+  ]
+};
+/* 姿态表：art = 身体 sprite；sh = 肩点；hd = 手点（sprite 局部坐标）；rod = 竿尖相对手的偏移；bend = 竿弯折（0=直） */
+const POSE = {
+  stand:   { art:'stand',   sh:[6,5],  hd:[10,7],  rod:[15,-11], bend:0 },
+  stand_b: { art:'stand',   sh:[6,5],  hd:[10,8],  rod:[15,-10], bend:0 },
+  windup:  { art:'crouch',  sh:[6,5],  hd:[2,4],   rod:[-11,-12],bend:0 },
+  swing:   { art:'leanF',   sh:[6,5],  hd:[11,4],  rod:[14,-14], bend:0 },
+  follow:  { art:'leanF',   sh:[6,5],  hd:[11,7],  rod:[16,-3],  bend:0 },
+  wait:    { art:'stand',   sh:[6,5],  hd:[10,6],  rod:[17,-12], bend:0 },
+  wait_b:  { art:'stand',   sh:[6,5],  hd:[10,7],  rod:[17,-11], bend:0 },
+  startle: { art:'startle', sh:[6,5],  hd:[8,3],   rod:[10,-16], bend:0 },
+  pullA:   { art:'brace',   sh:[6,5],  hd:[7,4],   rod:[12,-6],  bend:1 },
+  pullB:   { art:'brace',   sh:[6,5],  hd:[7,3],   rod:[11,-3],  bend:2 },
+  pullC:   { art:'brace',   sh:[6,5],  hd:[8,3],   rod:[10,0],   bend:2 },
+  hold:    { art:'hold',    sh:[6,5],  hd:[10,2],  rod:[7,-16],  bend:0 },
+  hold_b:  { art:'hold',    sh:[6,5],  hd:[10,3],  rod:[7,-15],  bend:0 }
+};
+const FISHER_X = 36, FISHER_Y = 96;   // sprite 左上角（脚在 y=111 栈桥面）
+function poseName(f){
+  if (inT(f,'idle'))    return (beatOf(f)%2) ? 'stand_b' : 'stand';
+  if (inT(f,'windup'))  return 'windup';
+  if (inT(f,'swing'))   return 'swing';
+  if (inT(f,'fly') || inT(f,'splash')) return 'follow';
+  if (inT(f,'wait'))    return (beatOf(f)%2) ? 'wait_b' : 'wait';
+  if (inT(f,'dip'))     return (beatOf(f)%2) ? 'wait_b' : 'wait';
+  if (inT(f,'sink'))    return 'startle';
+  if (inT(f,'startle')) return 'startle';
+  if (inT(f,'pull') || inT(f,'leap') || inT(f,'splash2')){
+    const b = beatOf(f)%3;
+    return b===0 ? 'pullA' : (b===1 ? 'pullB' : 'pullC');
+  }
+  if (inT(f,'hoist'))   return (f < 228) ? ((beatOf(f)%3===0)?'pullA':(beatOf(f)%3===1?'pullB':'pullC')) : ((beatOf(f)%2)?'hold_b':'hold');
+  return (beatOf(f)%2) ? 'hold_b' : 'hold';
+}
+/* 竿尖坐标（手 + rod 偏移，弯折时竿身中点下垂） */
+function rodPoints(f, pose, handX, handY){
+  let [rx, ry] = pose.rod;
+  if (inT(f,'sink') || inT(f,'startle')) ry += 4 + (beatOf(f)%2);   // 咬钩：竿尖下坠 + 10Hz 抖动
+  if (pose.bend === 1) ry += 2;
+  if (pose.bend === 2) ry += 4;
+  const tipX = handX + rx, tipY = handY + ry;
+  const midX = Math.round((handX + tipX)/2), midY = Math.round((handY + tipY)/2) + (pose.bend ? 2*pose.bend : 0);
+  return [[handX,handY],[midX,midY],[tipX,tipY]];
+}
+function drawFisherman(f){
+  const name = poseName(f), pose = POSE[name];
+  const art = SPR[pose.art];
+  drawArt(art, FISHER_X, FISHER_Y, 0);
+  /* 手臂：肩 -> 肘 -> 手，1px 硬边 */
+  const sx = FISHER_X + pose.sh[0], sy = FISHER_Y + pose.sh[1];
+  const hx = FISHER_X + pose.hd[0], hy = FISHER_Y + pose.hd[1];
+  const ex = Math.round((sx+hx)/2) + (hx > sx ? 1 : -1), ey = Math.round((sy+hy)/2) + 1;
+  line(sx, sy, ex, ey, HEX.ink1);
+  line(ex, ey, hx, hy, HEX.ink1);
+  px(hx, hy, HEX.ink2);
+  /* 钓竿 */
+  const pts = rodPoints(f, pose, hx, hy);
+  line(pts[0][0], pts[0][1], pts[1][0], pts[1][1], HEX.ink0);
+  line(pts[1][0], pts[1][1], pts[2][0], pts[2][1], HEX.ink0);
+  return pts[2];                                   // 返回竿尖
+}
+
+/* ---------- 10. 浮漂 / 鱼线 / 水花 ---------- */
+function drawBobber(x, y, wake){
+  rect(x-1, y-3, 3, 1, HEX.ink0);
+  rect(x, y-3, 1, 1, HEX.red0);
+  rect(x-1, y-2, 3, 1, HEX.red0);
+  rect(x-1, y-1, 3, 1, HEX.white);
+  px(x, y, HEX.ink0);
+  if (wake){ rect(x-3, y, 2, 1, HEX.white); rect(x+2, y, 2, 1, HEX.white); }
+}
+function splash(cx, cy, r, col){
+  const n = 3 + r*2;
+  for (let i=0; i<=n; i++){
+    const a = Math.PI * i / n;
+    const x = cx + Math.round(Math.cos(a)*r*1.4);
+    const y = cy - Math.round(Math.sin(a)*r*0.7);
+    px(x, y, col);
+  }
+  px(cx - r - 1, cy + 1, col); px(cx + r + 1, cy + 1, col);
+}
+/* 浮漂位置（整数像素） */
+function bobberPos(f){
+  if (f < TL.fly[0]){ const tip = window.__lastTip; return [tip ? tip[0] : 60, (tip ? tip[1] : 84) + 8]; }
+  if (inT(f,'fly')){
+    const n = TL.fly[1]-TL.fly[0], i = f-TL.fly[0], t = i/(n-1);
+    const x0 = 60, y0 = 84, x1 = BOBX, y1 = BOBY;
+    const x = Math.round(x0 + (x1-x0)*t);
+    const y = Math.round(y0 + (y1-y0)*t - 34*Math.sin(Math.PI*t));
+    return [x, y];
+  }
+  if (inT(f,'wait')){
+    const b = beatOf(f);
+    return [BOBX + ((b%4===0)?0:((b%4===1)?0:-1)), BOBY + (b%2)];
+  }
+  if (inT(f,'dip'))  return [BOBX, BOBY + 1 + (f-TL.dip[0])];
+  if (inT(f,'sink')) return [BOBX, BOBY + 5 + Math.min(3, f-TL.sink[0])];
+  if (inT(f,'startle') || inT(f,'pull') || inT(f,'leap') || inT(f,'splash2')){
+    const b = beatOf(f);
+    return [BOBX - 4 + ((b*3)%9), BOBY + 3 + ((b*5)%4)];
+  }
+  return [BOBX, BOBY];                               // hoist / hold：漂已离水（不画）
+}
+function drawLine(tip, bob){
+  if (!tip || !bob) return;
+  line(tip[0], tip[1], bob[0], bob[1], HEX.white);
+}
+/* 大鱼在片中的位置（各阶段），供鱼线与本体共用 */
+function fishPos(f){
+  if (inT(f,'leap')){
+    const i = f - TL.leap[0], n = TL.leap[1]-TL.leap[0]-1, t = i/n;
+    return { x: Math.round(238 + (228-238)*t), y: Math.round(120 - 46*Math.sin(Math.PI*t)),
+             shear: (t < 0.5 ? -0.7 : 0.7), glow: false };
+  }
+  if (inT(f,'splash2')) return { x: 232, y: 116 + (f-TL.splash2[0])*2, shear: 0.7, glow: false };
+  if (inT(f,'hoist')){
+    const i = f - TL.hoist[0], n = TL.hoist[1]-TL.hoist[0]-1, t = i/n;
+    return { x: Math.round(232 + (66-232)*t), y: Math.round(112 + (99-112)*t - 26*Math.sin(Math.PI*t)),
+             shear: t < 0.35 ? 0.5 : (t < 0.7 ? 0 : -0.5), glow: true };
+  }
+  if (inT(f,'hold')){
+    const sway = (beatOf(f)%2) ? 1 : 0;
+    return { x: 66 + sway, y: 96 + sway, shear: -0.2, glow: (beatOf(f)%3) === 0 };
+  }
+  return null;
+}
+function drawFishing(f){
+  const tip = drawFisherman(f);        // 渔夫 + 钓竿，返回竿尖
+  window.__lastTip = tip;
+  const fp = fishPos(f);
+  if (fp){                             // 上钩后：鱼线从竿尖挂到鱼嘴
+    const mouth = [fp.x - FISH_RX - 1, fp.y + 1];
+    drawLine(tip, mouth);
+  } else {
+    const bp = bobberPos(f);
+    const inWater = !inT(f,'fly') && f >= TL.fly[0];
+    drawLine(tip, bp);
+    if (inT(f,'fly')) { px(bp[0], bp[1], HEX.red0); px(bp[0], bp[1]+1, HEX.white); }
+    else if (f < TL.fly[0]) { px(bp[0], bp[1], HEX.red0); }   // 抛竿前：钩/漂挂在竿尖下
+    else if (inWater) drawBobber(bp[0], bp[1], true);
+  }
+  if (inT(f,'splash')){
+    const i = f - TL.splash[0];
+    splash(BOBX, BOBY, 2 + i*2, HEX.sun1);
+    splash(BOBX, BOBY, 1 + i, HEX.white);
+  }
+  if (inT(f,'sink')){
+    const i = f - TL.sink[0];
+    splash(BOBX, BOBY+2, 2 + i, HEX.white);
+  }
+  if (inT(f,'splash2')){
+    const i = f - TL.splash2[0];
+    splash(232, 118, 2 + i*2, HEX.sun1);
+    splash(232, 118, 1 + i, HEX.white);
+  }
+}
+
+/* ---------- 11. 大鱼 / 金币 / 闪光 ---------- */
+/* 大鱼：程序化生成 sprite（椭圆身体 + 叉尾 + 背/胸鳍 + 眼睛），再膨胀 1px ink0 轮廓 */
+const FISH_W = 36, FISH_H = 18, FISH_CX = 13, FISH_CY = 9, FISH_RX = 10;
+const FISH_CHARS = { i:'ink0', g:'gold1', G:'gold2', o:'gold0', p:'pink0', w:'white' };
+const FISH_ART = (function buildFish(){
+  const grid = [];
+  for (let y=0; y<FISH_H; y++) grid.push(new Array(FISH_W).fill('.'));
+  const set = (x,y,c) => { if (x>=0 && x<FISH_W && y>=0 && y<FISH_H) grid[y][x] = c; };
+  const RX = FISH_RX, RY = 6;
+  for (let y=-RY; y<=RY; y++){                      // 身体（竖椭圆）
+    const hw = Math.round(RX*Math.sqrt(Math.max(0, 1-(y/(RY+0.5))*(y/(RY+0.5)))));
+    for (let x=-hw; x<=hw; x++){
+      let c = 'g';
+      if (y <= -3) c = 'G';
+      if (y >= 4) c = 'o';
+      set(FISH_CX+x, FISH_CY+y, c);
+    }
+  }
+  for (let y=-6; y<=6; y++){                        // 叉尾（右侧）
+    const t = Math.round(2 + 7*(1-Math.abs(y)/7));
+    for (let x=0; x<t; x++){
+      if (Math.abs(y) <= 1 && x < t-2) continue;
+      set(FISH_CX+RX-2+x, FISH_CY+y, y < -1 ? 'G' : 'o');
+    }
+  }
+  for (let i=0; i<6; i++) set(FISH_CX-3+i, FISH_CY-RY+Math.round(i*0.7), 'p');    // 背鳍
+  for (let i=0; i<5; i++) set(FISH_CX-4+i, FISH_CY+RY+1-Math.round(i*0.5), 'p');  // 胸鳍
+  set(FISH_CX-5, FISH_CY-2, 'w'); set(FISH_CX-4, FISH_CY-2, 'w');                 // 眼
+  set(FISH_CX-5, FISH_CY-1, 'i'); set(FISH_CX-4, FISH_CY-1, 'w');
+  const out = grid.map(r => r.slice());             // 轮廓膨胀（1px）
+  for (let y=0; y<FISH_H; y++) for (let x=0; x<FISH_W; x++){
+    if (grid[y][x] !== '.') continue;
+    const n = (x>0 && grid[y][x-1] !== '.') || (x<FISH_W-1 && grid[y][x+1] !== '.') ||
+              (y>0 && grid[y-1][x] !== '.') || (y<FISH_H-1 && grid[y+1][x] !== '.');
+    if (n) out[y][x] = 'i';
+  }
+  return out.map(r => r.join(''));
+})();
+function drawFish(cx, cy, shear, glow){
+  drawArt(FISH_ART, cx - FISH_CX, cy - FISH_CY, shear, FISH_CHARS);
+  if (glow){ px(cx-8, cy-8, HEX.sun1); px(cx+4, cy-7, HEX.sun1); px(cx+12, cy+6, HEX.sun1); }
+  return [cx - FISH_RX - 1, cy + 1];                 // 返回鱼嘴（挂线点）
+}
+const COIN = [
+  ['..i..','.igi.','igGgi','.igi.','..i..'],
+  ['.iii.','igGgi','igGgi','igGgi','.iii.'],
+  ['..i..','..G..','..G..','..G..','..i..']
+];
+function drawCoin(x, y, phase){
+  const art = COIN[phase%3];
+  for (let r=0; r<5; r++) for (let c=0; c<5; c++){
+    const ch = art[r][c];
+    if (ch === '.') continue;
+    px(x+c, y+r, ch === 'i' ? HEX.ink0 : (ch === 'g' ? HEX.gold1 : HEX.gold2));
+  }
+}
+function drawCreature(f){
+  const b = beatOf(f);
+  /* 水下鱼影（拉锯段） */
+  if (inT(f,'pull') || inT(f,'leap')){
+    const sx = BOBX - 22 + ((b*7)%44);
+    const sy = 132 + ((b*3)%6);
+    rect(sx-9, sy-2, 18, 4, HEX.wat0);
+    rect(sx-6, sy-3, 12, 1, HEX.wat0);
+    px(sx+10, sy-2, HEX.wat0); px(sx+11, sy, HEX.wat0);
+  }
+  /* 大鱼（位置与鱼线共用 fishPos） */
+  const fp = fishPos(f);
+  if (fp) drawFish(fp.x, fp.y, fp.shear, fp.glow);
+  /* 金币（大丰收） */
+  if (f >= 250){
+    const r = rng(0xC01D);
+    for (let i=0; i<12; i++){
+      const sx = 30 + Math.floor(r()*260);
+      const t0 = 250 + Math.floor(r()*36);
+      const speed = 2 + Math.floor(r()*2);
+      if (f < t0) continue;
+      const y = -6 + (f-t0)*speed;
+      if (y > CH+6) continue;
+      drawCoin(sx, y, b + i);
+    }
+  }
+  /* 闪光（10Hz 闪烁） */
+  if (f >= 232){
+    const r = rng(0x5A17);
+    for (let i=0; i<10; i++){
+      const x = 20 + Math.floor(r()*280), y = 40 + Math.floor(r()*130);
+      const t0 = 232 + Math.floor(r()*40);
+      if (f < t0 || ((b + i) % 3) !== 0) continue;
+      px(x, y, HEX.white); px(x-1, y, HEX.sun1); px(x+1, y, HEX.sun1);
+      px(x, y-1, HEX.sun1); px(x, y+1, HEX.sun1);
+    }
+  }
+}
+
+/* ---------- 12. 结尾文案「大丰收！」（16×16 点阵字，无字体渲染 = 无色污染） ---------- */
+const GLYPH = {
+  '大': [
+    '................','.......##.......','.......##.......','.......##.......',
+    '..############..','.......##.......','......####......','.....##..##.....',
+    '....##....##....','...##......##...','..##........##..','.##..........##.',
+    '##............##','#...............','................','................'
+  ],
+  '丰': [
+    '................','.......##.......','.......##.......','.......##.......',
+    '...##########...','.......##.......','.......##.......','.......##.......',
+    '....########....','.......##.......','.......##.......','.......##.......',
+    '..############..','.......##.......','.......##.......','................'
+  ],
+  '收': [
+    '................','.####...........','...##.....##....','...##....##.....',
+    '...##...##......','...##..##.......','...##.##########','...##...##......',
+    '...##....##.....','...##.....##....','...##......##...','...##.......##..',
+    '...##........##.','.###.........##.','................','................'
+  ],
+  '！': [
+    '................','.......##.......','.......##.......','.......##.......',
+    '.......##.......','.......##.......','.......##.......','.......##.......',
+    '.......##.......','.......##.......','................','.......##.......',
+    '.......##.......','................','................','................'
+  ]
+};
+const TEXT = '大丰收！';
+function drawGlyph(ch, ox, oy, scale, color, outline){
+  const art = GLYPH[ch];
+  if (!art) return;
+  const put = (dx,dy,c) => {
+    for (let r=0; r<16; r++) for (let c2=0; c2<16; c2++){
+      if (art[r][c2] !== '#') continue;
+      rect(ox+dx + c2*scale, oy+dy + r*scale, scale, scale, c);
+    }
+  };
+  if (outline){
+    put(-1,0,outline); put(1,0,outline); put(0,-1,outline); put(0,1,outline);
+  }
+  put(0,0,color);
+}
+function drawEndText(f){
+  if (f < 270) return;
+  const punch = (f < 273) ? 1 : 2;                 // 三帧小字 -> 放大两倍（离散，无补间）
+  const sc = punch * 1;
+  const gw = 16*sc, n = TEXT.length;
+  const totalW = gw*n;
+  const x0 = Math.round((CW - totalW)/2);
+  const y0 = 72;
+  for (let i=0; i<n; i++){
+    drawGlyph(TEXT[i], x0 + i*gw, y0, sc, HEX.white, HEX.ink0);
+  }
+  /* 字下压条 + 落点冲击线 */
+  if (f >= 273 && f < 276){
+    const i = f-273;
+    rect(x0-6-i*2, y0+16*sc+2, totalW+12+i*4, 1, HEX.ink0);
+  }
+}
+
+/* ---------- 13. CRT 扫描线（LUT 压暗，色数不增） ---------- */
+function applyScanlines(){
+  const im = g.getImageData(0,0,CW,CH);
+  const a = new Uint32Array(im.data.buffer);
+  for (let y=2; y<CH; y+=3){
+    const off = y*CW;
+    for (let x=0; x<CW; x++){
+      const i = off+x;
+      const d = LUT.get(a[i]);
+      if (d !== undefined) a[i] = d;
+    }
+  }
+  g.putImageData(im, 0, 0);
+}
+
+/* ---------- 14. seek：帧号 → 画面（纯函数） ---------- */
+function seek(frame){
+  const f = Math.max(0, Math.min(NFRAMES-1, frame|0));
+  window.__lastTip = null;
+  g.fillStyle = HEX.ink0;              // 清掉上一帧遗留的样式状态（seek 必须自洽）
+  g.globalAlpha = 1;
+  drawBackground(f);
+  drawClouds(f);
+  drawWater(f);
+  drawPier();
+  drawFishing(f);
+  drawCreature(f);
+  drawEndText(f);
+  applyScanlines();
+  ctx.drawImage(buf, 0, 0, CW, CH, 0, 0, W, H);
+}
+window.seek = seek;
+window.__meta = {
+  W, H, CW, CH, SCALE, FPS, NFRAMES, palette: Object.keys(HEX), paletteSize: Object.keys(HEX).length
+};
+
+/* ---------- 15. 自检（sprite 行宽） ---------- */
+(function selfTest(){
+  for (const name in SPR){
+    const art = SPR[name], w = art[0].length;
+    art.forEach((r,i) => { if (r.length !== w) throw new Error('sprite '+name+' row '+i+': '+r.length+' != '+w); });
+  }
+  for (const ch in GLYPH){
+    GLYPH[ch].forEach((r,i) => { if (r.length !== 16) throw new Error('glyph '+ch+' row '+i+': '+r.length+' != 16'); });
+  }
+  window.__selftest = 'ok';
+})();
+seek(0);
+</script>
+</body>
+</html>

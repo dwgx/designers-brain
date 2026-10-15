@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta charset="utf-8"><title>anim_test_02 — audio synth</title></head>
+<body>
+<script src="cues.js"></script>
+<script>
+"use strict";
+/* =============================================================================
+   audio.html —— 代码合成音轨（无采样、无录音、无 Math.random）
+   与画面共用 cues.js：所有事件时间 = 帧号 / 30；44.1kHz 下每帧恰好 1470 采样。
+   输出：window.renderScore() → { base64(wav), peak, gain, seconds }
+   ============================================================================= */
+const SR = 44100, FPS = 30, DUR = 10;
+const CUES = window.CUES;
+
+function mulberry32(a){
+  return function(){
+    a |= 0; a = a + 0x6D2B79F5 | 0;
+    let t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+function b64(ab){
+  const u8 = new Uint8Array(ab);
+  let s = '';
+  const CH = 0x8000;
+  for (let i=0;i<u8.length;i+=CH) s += String.fromCharCode.apply(null, u8.subarray(i, i+CH));
+  return btoa(s);
+}
+
+async function renderScore(){
+  const ac = new OfflineAudioContext(2, SR*DUR, SR);
+  const master = ac.createGain(); master.gain.value = 1.0; master.connect(ac.destination);
+  const busM = ac.createGain(); busM.gain.value = 0.50; busM.connect(master);   // 配乐
+  const busS = ac.createGain(); busS.gain.value = 0.95; busS.connect(master);   // 音效
+  const T = f => f / FPS;
+
+  /* 噪声缓冲（播种，一次性） */
+  const nBuf = ac.createBuffer(1, SR*2, SR);
+  { const rnd = mulberry32(20261015); const d = nBuf.getChannelData(0);
+    for (let i=0;i<d.length;i++) d[i] = rnd()*2 - 1; }
+
+  function tone(type, f0, f1, t0, dur, peak, bus, atk){
+    const o = ac.createOscillator(); o.type = type;
+    const g = ac.createGain();
+    o.frequency.setValueAtTime(f0, t0);
+    if (f1 && f1 !== f0) o.frequency.exponentialRampToValueAtTime(Math.max(1, f1), t0 + dur);
+    g.gain.setValueAtTime(0, t0);
+    g.gain.linearRampToValueAtTime(peak, t0 + (atk || 0.008));
+    g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+    o.connect(g); g.connect(bus);
+    o.start(t0); o.stop(t0 + dur + 0.03);
+  }
+  function noise(t0, dur, peak, freq, q, bus, f1){
+    const s = ac.createBufferSource(); s.buffer = nBuf; s.loop = true;
+    const fl = ac.createBiquadFilter(); fl.type = 'bandpass'; fl.frequency.setValueAtTime(freq, t0);
+    if (f1) fl.frequency.exponentialRampToValueAtTime(Math.max(40,f1), t0+dur);
+    fl.Q.value = q || 1;
+    const g = ac.createGain();
+    g.gain.setValueAtTime(0, t0);
+    g.gain.linearRampToValueAtTime(peak, t0 + 0.006);
+    g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+    s.connect(fl); fl.connect(g); g.connect(bus);
+    s.start(t0); s.stop(t0 + dur + 0.03);
+  }
+  function bell(t0, f, peak, dur, bus){
+    const parts = [1, 2.76, 5.40, 8.93], amps = [1, 0.45, 0.22, 0.10], decs = [1, 0.75, 0.55, 0.4];
+    for (let i=0;i<parts.length;i++){
+      const o = ac.createOscillator(); o.type = 'sine'; o.frequency.value = f*parts[i];
+      const g = ac.createGain();
+      g.gain.setValueAtTime(0, t0);
+      g.gain.linearRampToValueAtTime(peak*amps[i], t0 + 0.004);
+      g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur*decs[i]);
+      o.connect(g); g.connect(bus);
+      o.start(t0); o.stop(t0 + dur + 0.06);
+    }
+  }
+
+  /* ---- 配乐：120 BPM，5 小节 x 2s（A - F#m - D - E - A），轻拨弦+垫+沙锤 ---- */
+  const bars = [
+    { ch:[220.00, 277.18, 329.63], bass:110.00, pat:[0,2,4,2,1,3,2,4] },
+    { ch:[185.00, 220.00, 277.18], bass: 92.50, pat:[1,3,5,3,2,4,3,5] },
+    { ch:[146.83, 185.00, 220.00], bass:146.83, pat:[0,3,5,7,5,3,2,0] },
+    { ch:[164.81, 207.65, 246.94], bass:164.81, pat:[2,4,6,4,3,5,4,2] },
+    { ch:[220.00, 277.18, 329.63], bass:110.00, pat:[0,2,4,7,5,4,2,0] }
+  ];
+  const PENT = [440.00, 493.88, 554.37, 659.25, 739.99, 880.00, 987.77, 1108.73];
+  const beat = 0.5;                                     // 120 BPM
+  for (let b=0;b<5;b++){
+    const t0 = b*2;
+    for (const f of bars[b].ch) tone('sine', f, 0, t0, 1.9, 0.055, busM, 0.35);       // 垫
+    tone('sine', bars[b].bass/2, 0, t0, 0.55, 0.16, busM, 0.01);                       // 低音 1
+    tone('sine', bars[b].bass/2, 0, t0+1.0, 0.55, 0.13, busM, 0.01);                   // 低音 3
+    for (let e=0;e<8;e++){
+      const t = t0 + e*0.25;
+      if (bars[b].pat[e] >= 0) tone('triangle', PENT[bars[b].pat[e]], 0, t, 0.32, 0.085, busM, 0.004);
+      noise(t, 0.05, e%2 ? 0.030 : 0.020, 6200, 1.1, busM);                            // 沙锤
+    }
+  }
+
+  /* ---- 音效（按 cues.js 的帧号） ---- */
+  const S = {};
+  for (const s of CUES.sfx) (S[s.name] = S[s.name] || []).push(s.f);
+  const at = n => T((S[n] && S[n][0]) || 0);
+
+  tone('sine', 1300, 620, at('touch'), 0.07, 0.10, busS);                              // 落笔
+  noise(at('touch'), 0.05, 0.05, 2600, 1.5, busS);
+
+  { const t0 = at('shimmerUp');                                                        // 甩射线：五声上行
+    const seq = [659.25, 739.99, 880.00, 987.77, 1318.51];
+    for (let i=0;i<seq.length;i++) tone('triangle', seq[i], 0, t0 + i*0.10, 0.30, 0.11, busS, 0.003);
+    noise(t0, 0.5, 0.035, 2200, 1.0, busS, 7000);
+  }
+  { const t0 = at('riseGliss'), t1 = T(182);                                           // 升起
+    tone('sine', 220, 880, t0, t1-t0, 0.10, busS, 0.05);
+    noise(t0, t1-t0, 0.045, 500, 0.8, busS, 5200);
+  }
+  { const t0 = at('swell');                                                            // 山脊起笔
+    tone('sine', 110, 0, t0, 1.3, 0.09, busS, 0.45);
+    tone('sine', 165, 0, t0, 1.3, 0.05, busS, 0.5);
+  }
+  { const t0 = at('fallGliss'), t1 = T(230);                                           // 下落
+    tone('sine', 880, 190, t0, t1-t0, 0.10, busS, 0.03);
+    noise(t0, t1-t0, 0.05, 4200, 0.9, busS, 420);
+  }
+  { const t0 = at('boom');                                                             // 落入山口
+    tone('sine', 64, 38, t0, 0.55, 0.50, busS, 0.006);
+    noise(t0, 0.25, 0.16, 180, 0.8, busS, 90);
+  }
+  { const t0 = at('whoosh');                                                           // 徽章大回环
+    noise(t0, 1.25, 0.06, 320, 0.7, busS, 2600);
+  }
+  { const t0 = at('chime');                                                            // 闭合
+    bell(t0, 880, 0.22, 1.6, busS);
+    bell(t0 + 0.10, 1318.51, 0.14, 1.4, busS);
+  }
+  { const t0 = at('sparkle');                                                          // 填色：上行闪烁
+    const seq = [554.37, 659.25, 739.99, 880.00, 987.77, 1108.73, 1318.51, 1479.98];
+    for (let i=0;i<seq.length;i++) tone('triangle', seq[i], 0, t0 + i*0.085, 0.34, 0.09, busS, 0.003);
+  }
+  { const t0 = at('chordEnd');                                                         // 文案落定
+    for (const f of [440, 554.37, 659.25]) tone('sine', f, 0, t0, 1.6, 0.10, busS, 0.25);
+    bell(t0 + 0.06, 1760, 0.10, 1.2, busS);
+  }
+
+  /* ---- 渲染 → 峰值归一 → WAV ---- */
+  const buf = await ac.startRendering();
+  const ch0 = buf.getChannelData(0), ch1 = buf.getChannelData(1);
+  let peak = 0;
+  for (let i=0;i<ch0.length;i++){ const a=Math.abs(ch0[i]), b=Math.abs(ch1[i]); if (a>peak) peak=a; if (b>peak) peak=b; }
+  const gain = peak > 1e-9 ? 0.70/peak : 1;
+  const n = ch0.length, bytes = 44 + n*4;
+  const ab = new ArrayBuffer(bytes), v = new DataView(ab);
+  const wr = (o, s) => { for (let i=0;i<s.length;i++) v.setUint8(o+i, s.charCodeAt(i)); };
+  wr(0,'RIFF'); v.setUint32(4, 36+n*4, true); wr(8,'WAVE'); wr(12,'fmt ');
+  v.setUint32(16,16,true); v.setUint16(20,1,true); v.setUint16(22,2,true);
+  v.setUint32(24,SR,true); v.setUint32(28,SR*4,true); v.setUint16(32,4,true); v.setUint16(34,16,true);
+  wr(36,'data'); v.setUint32(40, n*4, true);
+  const q = x => { const y = Math.max(-1, Math.min(1, x*gain)); return Math.round(y*32767); };
+  for (let i=0;i<n;i++){ v.setInt16(44+i*4, q(ch0[i]), true); v.setInt16(46+i*4, q(ch1[i]), true); }
+  return { base64: b64(ab), peak: +peak.toFixed(4), gain: +gain.toFixed(4), seconds: DUR, bytes: bytes };
+}
+window.renderScore = renderScore;
+window.__ready = true;
+</script>
+</body>
+</html>

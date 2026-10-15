@@ -1,0 +1,13 @@
+file 'lbl_0000.png'
+duration 1
+file 'lbl_0050.png'
+duration 1
+file 'lbl_0100.png'
+duration 1
+file 'lbl_0150.png'
+duration 1
+file 'lbl_0200.png'
+duration 1
+file 'lbl_0250.png'
+duration 1
+file 'lbl_0250.png'

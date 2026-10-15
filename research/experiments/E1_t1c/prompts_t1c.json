@@ -1,0 +1,22 @@
+{
+  "experiment": "E-03 · E1_t1c michelangelo §8.1b v2 重跑 · 主题 T1（暴风雨中的海边灯塔）",
+  "date": "2026-10-15",
+  "model": "grok-imagine-image-2.0",
+  "endpoint": "/v1/images/generations",
+  "size_requested": "1024x1536",
+  "theme": "A lighthouse on a rocky coast in a storm, towering waves crashing against the rocks, dark storm clouds overhead.",
+  "recipe": "prompt = THEME + ' ' + michelangelo §8.1b v2 正向段（逐行解包为单行）；负向段未随请求发送（通道无负向参数）；对照复用 E1_t1（§8.1 偏置版）与 E1_t1b（§8.1b v1 版）。",
+  "counterpart_biased": "research/experiments/E1_t1/cells/e1_michelangelo（§8.1 偏置版）",
+  "counterpart_v1": "research/experiments/E1_t1b/cells/e1_michelangelo（§8.1b v1 版）",
+  "cells": [
+    {
+      "cell": "e1_michelangelo_v2",
+      "module": "michelangelo",
+      "module_name": "米开朗基罗",
+      "prompt": "A lighthouse on a rocky coast in a storm, towering waves crashing against the rocks, dark storm clouds overhead. High Renaissance fresco in the manner of Michelangelo Buonarroti: colossal masses with clearly defined volumes; rock, wave and cloud masses locked in serpentine torsion — counter-rotating blocks forming an S-curve; low-angle composition, strong foreshortening, monumental scale; sculptural modelling — surfaces rise and fall as if chiselled from solid mass, hard-edged cast shadows, relief-like light and shadow; dense swirling composition of many interlocking masses rotating around a calm central axis; limited fresco palette of earthy ochre, muted green, pale violet and sky blue, matte plaster surface; an atmosphere of awe and terribilità",
+      "s81b_text": "High Renaissance fresco in the manner of Michelangelo Buonarroti: colossal masses with clearly defined volumes; rock, wave and cloud masses locked in serpentine torsion — counter-rotating blocks forming an S-curve; low-angle composition, strong foreshortening, monumental scale; sculptural modelling — surfaces rise and fall as if chiselled from solid mass, hard-edged cast shadows, relief-like light and shadow; dense swirling composition of many interlocking masses rotating around a calm central axis; limited fresco palette of earthy ochre, muted green, pale violet and sky blue, matte plaster surface; an atmosphere of awe and terribilità",
+      "s81b_sha256": "214dd6735d18f8352fe24bbca4b7d0533112e2adb392644d32b9f582d180f0e7",
+      "source": "research/prompts/artist_modules/michelangelo.md §8.1b v2（E-03）"
+    }
+  ]
+}

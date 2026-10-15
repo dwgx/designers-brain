@@ -1,0 +1,17 @@
+{
+  "name": "anim-test-02",
+  "version": "0.1.0",
+  "private": true,
+  "description": "B-17 end-to-end test #2: ONE LINE (card 08 of 15) 10s MG animation — single-stroke route + curvature cost model + group transforms + radial fill; frame-deterministic HTML/Canvas2D pipeline",
+  "scripts": {
+    "keys": "node render.js --keys",
+    "frames": "node render.js --frames",
+    "rerun": "node render.js --rerun 299,266,150,63,0",
+    "audio": "node render_audio.js",
+    "selfcheck": "python checks/selfcheck.py",
+    "refcompare": "python checks/ref_compare.py"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.10.0"
+  }
+}

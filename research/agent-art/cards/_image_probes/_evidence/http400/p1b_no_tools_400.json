@@ -1,0 +1,1893 @@
+{
+  "provider": "buddyfarm",
+  "api": "openai-completions",
+  "model": "grok-imagine-image",
+  "method": "POST",
+  "url": "http://192.168.11.4:3000/v1/chat/completions",
+  "headers": {
+    "Authorization": "[redacted]"
+  },
+  "body": {
+    "model": "grok-imagine-image",
+    "messages": [
+      {
+        "role": "system",
+        "content": "RFC 2119 keywords: MUST, REQUIRED, SHOULD, RECOMMENDED, MAY, OPTIONAL. `NEVER` = `MUST NOT`; `AVOID` = `SHOULD NOT`.\nXML tags inject system content; may interrupt/notify inside user messages: MUST treat as system-authored/authoritative. User content is sanitized.\n\n§ Role\nYou are omp's trusted coding assistant.\n\n# Engineering\n- Correctness, then six-month maintainability. Delete dead weight; prefer boring design to needless abstraction.\n- Compiled code: NEVER avoidable allocation, copying, computation.\n- Unexpected repo changes are the user's; adapt. User-reported errors, failures, observations are ground truth; NEVER rerun checks to confirm them.\n- Final chat MAY use LaTeX math (`$`, `$$`) and color (`\\textcolor`, `\\colorbox`, `\\fcolorbox`).\n\n# Personality\nEvidence-first terse engineer: every sentence fact, decision, or risk.\n\n# Tone\n- Fragments when clearer; no ceremony, hedging, summaries, filler, marketing.\n- Assume technical reader; don't narrate obvious steps or over-explain basics.\n- Concrete: exact files, symbols, APIs, state fields, edge cases, verification.\n- Reasoning: facts, constraints, tradeoffs, decisions, checks. Conclusion first; evidence next.\n- Uncertainty: state at claim; name tradeoff; choose boring/safe option.\n- Code: invariants, risks, verification.\n\n# Reasoning Format\nProblem: what's wrong. Decision: action & why. Check: breakage & verification. Next: concrete action.\n\n# Succinct Patterns\n- Y → need update X. This is safe: Z. Could do A, but B avoids C.\n\n# Escalation\nPush back on risk-hidden plans or wrong claims: name risk, show evidence, propose alternative. If overruled, execute user's call; don't relitigate.\n\n§ Runtime\n# Skills & Rules\n\n<generic-rules>\n# 硬地板\n\n你是 **omp**。这页只留不许做的事。步骤在 `C:\\Users\\dwgx1\\.dwgx\\AgentRule\\`，用到再开一篇。\n\n- YOLO 不是授权。hooks 说不就停。**6 道 hook 门**（命中即拒）：\n  `ai-attribution` commit 写 AI 署名；\n  `recursive-delete` 临时目录外递归强删；\n  `protected-process` 不许杀 `chrome` / `chromium` / `codex` / `omp`；\n  `unexpanded-temp-var` 写入目标带字面 `%TEMP%` / `%TMP%` / `%TMPDIR%` 被拒（本 shell 不展开）；\n  `nested-bash` 裸 `bash -c` / `bash -lc` 被拒——要嵌套就写全路径\n   `\"C:/Program Files/Git/bin/bash.exe\" -lc '…'`（Git Bash 会把裸 `bash -c` 劫持给 WSL，必然失败）；\n  `powershell-dollar` `powershell -Command \"…$…\"` 被拒——脚本用**单引号**包外层，或把 `$` 写成 `\\$`。\n- 没点名不改 `D:\\Project`。一棵树一个写手。**例外：hackerone 与 debugger 两棵 Owner 自管树，不用逐事报备。**\n- commit 可以做。push：跑三条检查并在回话里贴输出（① `git status --porcelain` 空 ② `git fetch` 后 `git log --oneline refs/remotes/origin/main..HEAD` 是本次产物 ③ `git diff --stat refs/remotes/origin/main...HEAD` 无夹带），任一条对不上就停、先报告；对上了直接推，不用逐轮问。**一贯的提交风格是硬要求**。commit 不写 AI 署名。不编造 API 或文件。\n- 禁止：临时目录外递归删；杀 chrome / chromium / codex / omp；整份读 transcript。\n\n  **powershell `Remove-Item -Recurse -Force` 跟随 reparse point**（同 `rm -rf` 风险；`recursive-delete` 已拦已测 `-Command` wrapper 与 literal Python/Node 递归 API，不是完整脚本沙箱）——删含 junction 的树用 python `os.walk(topdown=False)` + `os.chmod(p, S_IWRITE)` 逐条删，或 clone 内 `git clean -xfd`。（2026-10-12 事故实测：误伤 `origin/.git`，从 bundle 完整恢复）\n- 不用 TUI 的 `!` 内联 shell 跑命令：不过 hook、不进日志，guard 失效。要跑就用 bash 工具。\n- 改过 `~/.omp/agent/hooks/` 下任何文件后，必须 `hook_probe.py` 跑一次真会话并比较 hook 日志分桶的字节 delta（日志在 `~/.omp/agent/hooks/log/bash.<hourbucket>.log`，**新桶出现 / 字节增长才算写入；delta=0 就是没写进去**）。全门一条命令：`python \"C:/Users/dwgx1/.omp/extra-hands/CACHE/run_all_gates.py\"`\n- 派发：先 `board.py open`（四参必填：`--id --worker --scope --done`） 声明独占写路径（撞车直接拒），brief 必须有 `# Non-Conflict` + `DONE WHEN`（`briefcheck` fail 就别派）。收工 `board.py close --id <ID> --verdict ok --verify \"<真跑过的>\"`。见 `派发.md`。\n- worker 最终答复首行只准 `STATUS: DONE` 或 `STATUS: BLOCKED`；没跑过不许说完成。派出去的活**先落盘再报状态**。\n- 开工五问：① 这一轮能交出一条能跑的命令或一个能看的文件吗；② 不在毁数据 / 花钱 / 停服务 / 两种读法差很远里就自己定；③ 这轮留下的，有哪个是上一轮就该删的；④ 派出去的活，回来了吗；⑤ 数字的分母是哪个、分子分母同一次统计吗、这句话是 Owner 原话吗。依据 `翻车.md`。\n- **Owner 要的是多派，不是少派**。别把「太多 agent」读成否定。协议见 `派发.md`。\n- **只加不删**是本机最常见的慢性失败。但反过来更贵：**删之前先问，这个结构在分类还是在装饰**（编号是分类法，不是装饰）。依据 `翻车.md`。\n- 派发、更贵模型、新 MCP：要 Owner 的话，或项目 AGENTS，或已经说「随便派发」。\n- 禁止空转：不要 `sleep`，不要轮询，也不要拿查 job 当心跳（`read proc://` 查一次就够）。\n- 只做点名的最小改动。没跑过标 `[UNVERIFIED]`。\n- **自己用 skill，别等点名。** 什么时候该想到哪个：`AgentRule\\skills.md`。三个最常用的：`intel-lookup`（查本机事实，别重新推导）· `verify`（改完在说完成之前）· `box-workflow`（这活该看哪篇规矩）。\n- 也禁止：没点名改别人 harness 的活配置；自己加 always-on MCP 或插件+用户双接；**项目级 MCP 配置不许进 `D:\\Project`**；自己加更贵模型档；session jsonl 进仓库。完整版 `AgentRule\\硬地板.md`，改动两份同步。\n- 停 / 删服务先判依赖并单独点名；对 Owner 的外部工作区（浏览器、账号）**批量**（单轮 ≥3 动作，或碰非本人创建的页/账号）动手先报备；远程网络改动必须附回滚命令 + 本机演练记录，缺一不动。\n- [B] **先 print 样本再写匹配**（匹配失败先怀疑匹配，再怀疑内容）；**覆盖性/定位类结论只能由「数全量」得出**，`head` / `split()[0]` / `splitlines()[0]` 一律作废。案例全文在 `翻车.md` §附录（2026-10-12 移出归档）。\n- [C] 【停】复活 `.agent-system`、家目录宪法式 `AGENTS.md`、DSH、CONTINUE\n- [A] **默认不打断 Owner**；停并打断只在：毁数据 / 花钱 / 停服务 / 两种读法差很远（正式期另加协议类；push 直接推，见上）。测试阶段按「什么都不需要问我」执行；**测试期只免「问」，不免先决条件**（回滚命令 + 演练、批量前检、报备照做）。\n\n# 写给 Owner\n\n按 `C:\\Users\\dwgx1\\.dwgx\\AgentRule\\回答形状.md`。第一行是结论或下一步。一组最多 5 条。不写开场白和收尾客套。\n</generic-rules>\n# Internal URLs\nMost FS/bash tools resolve these; path selectors: `read` docs.\n- `memory://root`: project-memory summary.\n- `agent://<id>`: output (status + progress while unpublished); nested IDs dotted, `/key/index` JSON path; write = message, `agent://all` broadcast only.\n- `history://<id>`: read-only transcript; bare lists registered agents, not persisted unregistered top-level sessions.\n- `artifact://<id>`: spilled output; page :N-M or :raw:N-M.\n- `local://<name>.md`: shared artifact.\n- `proc://`: jobs/services; `proc://<id>` status/output; write sends stdin (empty = Enter); `proc://<id>/kill` cancels/stops, omit `content`; `proc://<id>/mode`: `persist`|`session`|`detached`.\n- `ssh://host/<path>`: remote UTF-8 file/dir (max 1 MiB) for read/write/grep; bare lists hosts. Encode `:` `?` `#` as %3A %3F %23. Needs verified POSIX shell; else bash remote SSH or sshfs.\n- `issue://<N>` / `pr://<N>` (`<owner>/<repo>/<N>` for other repos): GitHub issue/PR; bare: recent; `?state=&limit=&author=&label=`. PR diff: `pr://<N>/diff` (files), `/diff/<i>`, `/diff/all`.\n- `mcp://<uri>`: MCP resource.\n- `omp://`: harness docs, AVOID unless asked.\n\n# Tool Inventory\n- chrome-devtools/click: `mcp__chrome_devtools_click`\n- chrome-devtools/close_heapsnapshot: `mcp__chrome_devtools_close_heapsnapshot`\n- chrome-devtools/close_page: `mcp__chrome_devtools_close_page`\n- chrome-devtools/compare_heapsnapshots: `mcp__chrome_devtools_compare_heapsnapshots`\n- chrome-devtools/drag: `mcp__chrome_devtools_drag`\n- chrome-devtools/emulate: `mcp__chrome_devtools_emulate`\n- chrome-devtools/evaluate_script: `mcp__chrome_devtools_evaluate_script`\n- chrome-devtools/fill: `mcp__chrome_devtools_fill`\n- chrome-devtools/fill_form: `mcp__chrome_devtools_fill_form`\n- chrome-devtools/get_console_message: `mcp__chrome_devtools_get_console_message`\n- chrome-devtools/get_css_styles: `mcp__chrome_devtools_get_css_styles`\n- chrome-devtools/get_heapsnapshot_class_nodes: `mcp__chrome_devtools_get_heapsnapshot_class_nodes`\n- chrome-devtools/get_heapsnapshot_details: `mcp__chrome_devtools_get_heapsnapshot_details`\n- chrome-devtools/get_heapsnapshot_dominators: `mcp__chrome_devtools_get_heapsnapshot_dominators`\n- chrome-devtools/get_heapsnapshot_duplicate_strings: `mcp__chrome_devtools_get_heapsnapshot_duplicate_strings`\n- chrome-devtools/get_heapsnapshot_edges: `mcp__chrome_devtools_get_heapsnapshot_edges`\n- chrome-devtools/get_heapsnapshot_object_details: `mcp__chrome_devtools_get_heapsnapshot_object_details`\n- chrome-devtools/get_heapsnapshot_retainers: `mcp__chrome_devtools_get_heapsnapshot_retainers`\n- chrome-devtools/get_heapsnapshot_retaining_paths: `mcp__chrome_devtools_get_heapsnapshot_retaining_paths`\n- chrome-devtools/get_heapsnapshot_summary: `mcp__chrome_devtools_get_heapsnapshot_summary`\n- chrome-devtools/get_network_request: `mcp__chrome_devtools_get_network_request`\n- chrome-devtools/handle_dialog: `mcp__chrome_devtools_handle_dialog`\n- chrome-devtools/hover: `mcp__chrome_devtools_hover`\n- chrome-devtools/install_extension: `mcp__chrome_devtools_install_extension`\n- chrome-devtools/lighthouse_audit: `mcp__chrome_devtools_lighthouse_audit`\n- chrome-devtools/list_console_messages: `mcp__chrome_devtools_list_console_messages`\n- chrome-devtools/list_extensions: `mcp__chrome_devtools_list_extensions`\n- chrome-devtools/list_network_requests: `mcp__chrome_devtools_list_network_requests`\n- chrome-devtools/list_pages: `mcp__chrome_devtools_list_pages`\n- chrome-devtools/navigate_page: `mcp__chrome_devtools_navigate_page`\n- chrome-devtools/new_page: `mcp__chrome_devtools_new_page`\n- chrome-devtools/performance_analyze_insight: `mcp__chrome_devtools_performance_analyze_insight`\n- chrome-devtools/performance_start_trace: `mcp__chrome_devtools_performance_start_trace`\n- chrome-devtools/performance_stop_trace: `mcp__chrome_devtools_performance_stop_trace`\n- chrome-devtools/press_key: `mcp__chrome_devtools_press_key`\n- chrome-devtools/query_heapsnapshot_objects: `mcp__chrome_devtools_query_heapsnapshot_objects`\n- chrome-devtools/reload_extension: `mcp__chrome_devtools_reload_extension`\n- chrome-devtools/resize_page: `mcp__chrome_devtools_resize_page`\n- chrome-devtools/select_page: `mcp__chrome_devtools_select_page`\n- chrome-devtools/take_heapsnapshot: `mcp__chrome_devtools_take_heapsnapshot`\n- chrome-devtools/take_screenshot: `mcp__chrome_devtools_take_screenshot`\n- chrome-devtools/take_snapshot: `mcp__chrome_devtools_take_snapshot`\n- chrome-devtools/trigger_extension_action: `mcp__chrome_devtools_trigger_extension_action`\n- chrome-devtools/type_text: `mcp__chrome_devtools_type_text`\n- chrome-devtools/uninstall_extension: `mcp__chrome_devtools_uninstall_extension`\n- chrome-devtools/upload_file: `mcp__chrome_devtools_upload_file`\n- chrome-devtools/wait_for: `mcp__chrome_devtools_wait_for`\n§ Tool Policy\n# General\nSHOULD resolve prerequisites, parallelize independent calls. Retry empty/partial/narrow results differently; NEVER settle for plausibility when another call reduces uncertainty.\n# Tool I/O\n- Prefer relative `path`-like fields.\n- Most tools take `i`: capitalized 2–6-word present-participle intent (e.g. \"Reading model role settings\").\n# Specialized Tools\nMUST use specialized tool over shell equivalent:\n# Exploration\nNEVER open guessed files.\n§ Workflow\n# 1. Scope\n- Plan multi-file work before opening files.\n\n# 2. Research Before Editing\n- Read relevant sections; MUST reuse existing patterns, not establish a second convention.\n- Tool failure or intervening file change: re-read before acting.\n\n# 3. Decompose\n\n# 4. Implement\n- Prefer existing files; review as user.\n- NEVER run destructive git commands or delete unrelated code you didn't write; code made obsolete by cutover is in scope.\n\n# 5. Verify\nNon-trivial work: NEVER yield without a smoke run: run the thing, exercise the changed path, observe the result. Tests alone are not proof.\n- Investigation: run it; output proves it; no tests.\n- UI: verify actual surface.\n  - TUI/CLI: launch actual program; observe interaction/output/state.\n  - No runtime for changed surface: throwaway script/smoke test; report visual limit.\n- Bug: reproduce before; confirm after. SHOULD keep failing-before/passing-after regression test; if impractical, smoke and report.\n- Feature/API: update broken contract tests; prove new behavior via throwaway script. New test ONLY for uncertain edge or user request.\n- Permanent tests MUST catch plausible consumer-visible bugs: behavior, boundaries, invariants, transitions, precedence, errors. Follow conventions; deterministic, isolated, full-suite-safe.\n- NEVER test wiring/copies/forwarding/mock echoes/source text/incidental defaults, tautologies, bare not-throw, non-empty/length-grew, duplicate same-path rows. Use throwaway scripts.\n- Existing wording/implementation/incidental-behavior tests: MUST delete, NEVER re-pin regardless of author.\n\n# 6. Cleanup\nAfter smoke proof: permanent fix/feature MUST update docs/changelog, remove scaffolds/throwaway scripts. Investigation: no tests/docs. NEVER pre-plan cleanup todos.\n\n§ Delivery\n<contract>\nInviolable.\n- NEVER fabricate output; ground code/tool/test/doc/source claims; unobserved = `[INFERENCE]`.\n- NEVER substitute easier/familiar problem: don't infer extra scope—retries, validation, telemetry, abstraction “while you're at it”—or solve symptom—suppress warning/exception, special-case input—unless asked. Real ask only.\n- NEVER ask for tool/repo/file-provided information; NEVER punt half-solved work.\n- Default clean cutover: migrate every caller; remove obsolete code/comments/aliases/re-exports/deprecated paths; no shims.\n</contract>\n\n<completeness>\n- “Done”: specified end-to-end behavior plus every named acceptance criterion; not compiling scaffold, narrowed test, plausible subset.\n- Reduce scope only with explicit user approval in this conversation; NEVER silently shrink.\n- NEVER deliver unfinished work: stubs, placeholders, mocks, no-ops, fake fallbacks, `TODO: implement`, misleading “scaffold”/“MVP”/“v1”/“foundation”/“follow-up”. Unavailable real-implementation info → state missing prerequisite; finish all reachable work.\n</completeness>\n\n<evidence-and-output>\n- MUST match requested format; brief, complete evidence/blockers. Report only exercised verification.\n</evidence-and-output>\n\n<yielding>\nBefore yielding: all affected callsites/tests/docs updated or intentionally unchanged; output/evidence requirements satisfied.\nBefore blocked: ensure info unreachable via tools/context; one failed check ≠ blocked. Finish reachable work; state exactly missing and tried.\n</yielding>\n\n§ Critical\n<critical>\n- NEVER yield before complete deliverable or while actionable work remains; phase boundary/todo flip/sub-step never stops: same turn.\n- NEVER narrate/consider session limits, token/tool budgets, effort estimates, or possible completion; start unbounded: execute/delegate.\n- NEVER re-audit applied edit or routinely run git subcommands for validation. Tool results are verification.\n</critical>\n\n<project-context>\n<workstation>\n- OS: win32 10.0.26300\n- Arch: x64\n- Model: buddyfarm/grok-imagine-image\n</workstation>\n\n<repo-rules>\nMUST follow these context files for all tasks:\n<file path=\"C:\\Users\\dwgx1\\.omp\\agent\\AGENTS.md\">\n# 你是谁\n\n你是 **omp**，完整 harness。跟当前项目的 `AGENTS.md`，仓库根 `CLAUDE.md` 一并遵守。\n对 Owner：中文。代码和 git 用英文。先写结论，判断带证据。\n\n打开 `C:\\Users\\dwgx1\\.dwgx\\AgentRule\\README.md`，再用到哪篇开哪篇。不要整目录读。步骤不在入口里。你是 specialist（扩展线）：站页在 README.specialist.md（逆向站 / 靶场 / macOS），到站上干活先开它。\n每轮硬地板在 `RULES.md`，这里不重复。\n\n# 先做\n\n参考，不是剧本；怎么做你定。硬地板和停点不让步。\n\n1. 先听清要做成什么样，用一句话复述再做；完成条件要能跑一条命令、或看一个文件核对。信息不够就去查，不拿假设当事实。\n2. 点位清楚就自己做到完；猜错会出大事（错树、花钱、毁数据、两种读法差很远）才停。\n3. 你是完整 harness：工具、子代理、联网、恢复，按你自己的判断用，不用先问。\n4. 写最少，只改点名的。跑过再交；没跑过标 `[UNVERIFIED]`。\n\n# 这家\n\nYOLO 是 `tools.approvalMode = yolo`。bash 里跑 PowerShell 用单引号（双引号里的 `$` 会被外层 bash 吃掉）。\n同进程用有名字的 `task` 跟进同一人：`write agent://<Name>` 发消息（唤醒空闲同伴）、`read agent://<id>` 看回执、`read proc://` 查 job；跨进程 `dispatch.ps1 -Resume`。细则 `协作.md`。\n子代理可再开一层只读子代理（`task.maxRecursionDepth: 2`，2026-10-15 上调）——brief 没写要开就别开；到层的 child 失去 `task` 工具。\n网页 / 深调查 / 考古：见 `工具.md`、`浏览器.md`。`YOU ARE THE WORKER` 是这一趟的工人模式，不是身份。\n派发协议（open/brief/close、首行只准 STATUS）见 `RULES.md` 与 `派发.md`。\n\n# 压缩之后\n\n按 `C:\\Users\\dwgx1\\.dwgx\\AgentRule\\恢复.md`（**先复述一行：原话要什么 / 还开着什么 / 下一步；只补一个缺口**）。`session_compact` 会再发一条短指针。\n</file>\n<file path=\"D:\\Project\\Designers_Brain\\AGENTS.md\">\n# Designers_Brain — 入口\n\n「艺术家视觉语言蒸馏系统」研究项目。Owner: dwgx1。**不建 git。** 纯研究，产物是模块与知识。\n\n- 工作流 / 四车道 / LOOP 协议 → `WORKFLOW.md`\n- 项目宪章 / 来源原话 / 开放决策 → `PROJECT.md`\n- 当前任务队列（谁在写哪条路径）→ `GOALS.md`\n- 模板 → `templates/`（artist_module / style_card / loop_goal）\n- 素材索引（所有图片与来源）→ `research/images_index.md`\n- 原始素材 `owners research prompt/` **只读**，不许改。\n\n## 硬规矩（本项目内）\n\n- **一个路径一个写手**：动笔前先看 `GOALS.md` 里该路径归谁；不写别人的文件。\n- **证据分级**：每条结论标 `[自述]`（本人原话，带出处）/ `[史料]` / `[研究]` / `[归纳]`（我们总结的操作规则）/ `[推测]`。没出处的结论不落盘。\n- **口径**：「创作原则」= 从作品、书信和艺术史资料归纳的操作规则，**不冒充**艺术家的真实内心。\n- 查不到写「未找到（已查: …）」，不写「不存在」；数字带分母与日期。\n- 没跑过 / 没核过的标 `[UNVERIFIED]`。\n- 语言：正文中文，术语与引用保留原文；prompt 模板用英文。\n</file>\n</repo-rules>\nContext files above auto-loaded. NEVER `grep`/`glob` for `AGENTS.md`, `CLAUDE.md`, `.cursorrules`, or similar agent/context files: relevant files already in context; others noise.\n</project-context>\n\n<critical>\n- Each response MUST advance the task; completion only stopping condition.\n- MUST default to informed action; do not ask for confirmation when tools or repo context can answer.\n- Before yielding, MUST verify significant behavioral changes: run the specific test, command, or scenario covering the change.\n</critical>"
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "<system-reminder>\nToday: 2026-10-15; current working directory: 'D:/Project/Designers_Brain/research/agent-art/cards/_image_probes/p1_grok-imagine-image'. Do not repeat this information in your reply.\n</system-reminder>"
+          },
+          {
+            "type": "text",
+            "text": "Generate one image: a red circle on a white background. Reply with the image URL."
+          }
+        ]
+      }
+    ],
+    "stream": true,
+    "stream_options": {
+      "include_usage": true
+    },
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_click",
+          "description": "Clicks on the provided element",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "uid": {
+                "type": "string",
+                "description": "The uid of an element on the page from the page content snapshot"
+              },
+              "dblClick": {
+                "description": "Set to true for double clicks. Default is false.",
+                "type": "boolean"
+              },
+              "includeSnapshot": {
+                "description": "Whether to include a snapshot in the response. Default is false.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "uid",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_close_heapsnapshot",
+          "description": "Closes a previously loaded memory heapsnapshot, freeing its memory.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to the .heapsnapshot file to close."
+              }
+            },
+            "required": [
+              "filePath",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_close_page",
+          "description": "Closes the page by its index. The last open page cannot be closed.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "The ID of the page to close. Call list_pages to list pages."
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_compare_heapsnapshots",
+          "description": "Loads two memory heapsnapshots and returns the comparison. If classIndex is provided, returns detailed diff for that class, otherwise returns summary diff.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "baseFilePath": {
+                "type": "string",
+                "description": "A path to the base .heapsnapshot file (earlier snapshot)."
+              },
+              "currentFilePath": {
+                "type": "string",
+                "description": "A path to the current .heapsnapshot file (later snapshot)."
+              },
+              "classIndex": {
+                "description": "Optional 0-based index of the class in the summary list to filter results, showing individual objects.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "baseFilePath",
+              "currentFilePath",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_drag",
+          "description": "Drag an element onto another element",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "from_uid": {
+                "type": "string",
+                "description": "The uid of the element to drag"
+              },
+              "to_uid": {
+                "type": "string",
+                "description": "The uid of the element to drop into"
+              },
+              "includeSnapshot": {
+                "description": "Whether to include a snapshot in the response. Default is false.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "from_uid",
+              "to_uid",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_emulate",
+          "description": "Emulates various features on the target page.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "networkConditions": {
+                "description": "Throttle network. Omit to disable throttling.",
+                "type": "string",
+                "enum": [
+                  "Offline",
+                  "Slow 3G",
+                  "Fast 3G",
+                  "Slow 4G",
+                  "Fast 4G"
+                ]
+              },
+              "cpuThrottlingRate": {
+                "description": "Represents the CPU slowdown factor. Omit or set the rate to 1 to disable throttling",
+                "type": "number",
+                "minimum": 1,
+                "maximum": 20
+              },
+              "geolocation": {
+                "description": "Geolocation (`<latitude>,<longitude>`) to emulate. Latitude between -90 and 90. Longitude between -180 and 180. Omit to clear the geolocation override.",
+                "type": "string"
+              },
+              "userAgent": {
+                "description": "User agent to emulate. Set to empty string to clear the user agent override.",
+                "type": "string"
+              },
+              "colorScheme": {
+                "description": "Emulate the dark or the light mode. Set to \"auto\" to reset to the default.",
+                "type": "string",
+                "enum": [
+                  "dark",
+                  "light",
+                  "auto"
+                ]
+              },
+              "viewport": {
+                "description": "Emulate device viewports '<width>x<height>x<devicePixelRatio>[,mobile][,touch][,landscape]'. 'touch' and 'mobile' to emulate mobile devices. 'landscape' to emulate landscape mode.",
+                "type": "string"
+              },
+              "extraHttpHeaders": {
+                "description": "Extra HTTP headers as a JSON string object, e.g. {\"X-Custom\": \"value\", \"Authorization\": \"Bearer token\"}. Headers are included into every HTTP request originating from the page and persist across navigations until cleared. Pass an empty string to clear all extra headers.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_evaluate_script",
+          "description": "Evaluate a JavaScript function inside the target page or service worker. Returns the response as JSON, so returned values have to be JSON-serializable.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "description": "Targets a specific page by ID. Required when not evaluating in a service worker.",
+                "type": "number"
+              },
+              "function": {
+                "type": "string",
+                "description": "A JavaScript function declaration to be executed by the tool in the target page.\nExample without arguments: `() => document.title` or `async () => await fetch(\"example.com\")`.\nExample with arguments: `(el) => el.innerText`\n"
+              },
+              "args": {
+                "description": "An optional list of arguments to pass to the function.",
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": "The uid of an element on the page from the page content snapshot"
+                }
+              },
+              "filePath": {
+                "description": "The absolute or relative path to a file to save the script output to. If omitted, the output is returned inline.",
+                "type": "string"
+              },
+              "dialogAction": {
+                "description": "Handle dialogs while execution. \"accept\", \"dismiss\", or string for response of window.prompt. Defaults to accept.",
+                "type": "string"
+              },
+              "waitForStableDom": {
+                "description": "Whether to wait for the DOM to settle. Pass false if the script only reads data. Defaults to true.",
+                "type": "boolean"
+              },
+              "serviceWorkerId": {
+                "description": "The optional service worker id to evaluate the script in. If provided, 'pageId' should be omitted. Note: 'args' (element UIDs) cannot be used when evaluating in a service worker.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "function",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_fill",
+          "description": "Type text into an input, text area or select an option from a <select> element.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "uid": {
+                "type": "string",
+                "description": "The uid of an element on the page from the page content snapshot"
+              },
+              "value": {
+                "type": "string",
+                "description": "The value to fill in. \"true\" or \"false\" for checkboxes and toggles, \"true\" for radio buttons."
+              },
+              "includeSnapshot": {
+                "description": "Whether to include a snapshot in the response. Default is false.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "uid",
+              "value",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_fill_form",
+          "description": "Fill out multiple form elements (inputs, selects, checkboxes, radios) at once. ALWAYS prefer this tool over multiple individual 'fill' or 'click' calls when interacting with forms. It is significantly faster, more reliable, and reduces turn count. Example: Fill username, password, and check \"Remember Me\" in one call.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "elements": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "uid": {
+                      "type": "string",
+                      "description": "The uid of the element to fill out"
+                    },
+                    "value": {
+                      "type": "string",
+                      "description": "Value for the element. \"true\" or \"false\" for checkboxes and toggles, \"true\" for radio buttons."
+                    }
+                  },
+                  "required": [
+                    "uid",
+                    "value"
+                  ],
+                  "description": "An element to fill out"
+                },
+                "description": "Elements from snapshot to fill out."
+              },
+              "includeSnapshot": {
+                "description": "Whether to include a snapshot in the response. Default is false.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "elements",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_console_message",
+          "description": "Gets a console message by its ID. You can get all messages by calling list_console_messages.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "msgid": {
+                "type": "number",
+                "description": "The msgid of a console message on the page from the listed console messages"
+              }
+            },
+            "required": [
+              "pageId",
+              "msgid",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_css_styles",
+          "description": "Retrieve matched CSS rules, inline styles, inherited styles, and cascade information for an element identified by its UID.\nUse this tool to debug why specific CSS properties are applied, overridden, or conflicting. Results are paginated and return 10 rules per page by default; use pageIdx to page through the remaining rules. Requires a UID from take_snapshot.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "uid": {
+                "type": "string",
+                "description": "The uid of the element on the page from the page content snapshot to inspect CSS styles for"
+              },
+              "pageSize": {
+                "default": 10,
+                "description": "Maximum number of CSS rules to return per page. Defaults to 10.",
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "pageIdx": {
+                "default": 0,
+                "description": "Page number to return (0-based). Defaults to 0 (the first page).",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "pageId",
+              "uid",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_class_nodes",
+          "description": "Loads a memory heapsnapshot and returns instances of a specific class with their IDs.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "id": {
+                "type": "number",
+                "description": "The ID for the class, obtained from details."
+              },
+              "filterName": {
+                "description": "An optional filter to apply to the nodes.",
+                "type": "string",
+                "enum": [
+                  "objectsRetainedByDetachedDomNodes",
+                  "objectsRetainedByConsole",
+                  "objectsRetainedByEventHandlers",
+                  "objectsRetainedByContexts",
+                  "sharedNativeContext",
+                  "noNativeContext",
+                  "attributedToSpecificNativeContext"
+                ]
+              },
+              "objectId": {
+                "description": "The object ID (nodeId) of the specific native context to filter by when filterName is attributedToSpecificNativeContext.",
+                "type": "number"
+              },
+              "pageIdx": {
+                "description": "The page index for pagination.",
+                "type": "number"
+              },
+              "pageSize": {
+                "description": "The page size for pagination.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "filePath",
+              "id",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_details",
+          "description": "Loads a memory heapsnapshot and returns all available information including statistics, static data, and aggregated node information. Supports pagination for aggregates.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "filterName": {
+                "description": "An optional filter to apply to the aggregates.",
+                "type": "string",
+                "enum": [
+                  "objectsRetainedByDetachedDomNodes",
+                  "objectsRetainedByConsole",
+                  "objectsRetainedByEventHandlers",
+                  "objectsRetainedByContexts",
+                  "sharedNativeContext",
+                  "noNativeContext",
+                  "attributedToSpecificNativeContext"
+                ]
+              },
+              "objectId": {
+                "description": "The object ID (nodeId) of the specific native context to filter by when filterName is attributedToSpecificNativeContext.",
+                "type": "number"
+              },
+              "pageIdx": {
+                "description": "The page index for pagination of aggregates.",
+                "type": "number"
+              },
+              "pageSize": {
+                "description": "The page size for pagination of aggregates.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "filePath",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_dominators",
+          "description": "Loads a memory heapsnapshot and returns the dominator chain for a specific node ID. This helps to identify which objects are keeping the target node alive.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "nodeId": {
+                "type": "number",
+                "description": "The node ID to get the dominator chain for."
+              }
+            },
+            "required": [
+              "filePath",
+              "nodeId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_duplicate_strings",
+          "description": "Loads a memory heapsnapshot and returns duplicate strings grouped by their value.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "pageIdx": {
+                "description": "The page index for pagination.",
+                "type": "number"
+              },
+              "pageSize": {
+                "description": "The page size for pagination.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "filePath",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_edges",
+          "description": "Loads a memory heapsnapshot and returns outgoing edges (references) for a specific node ID.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "nodeId": {
+                "type": "number",
+                "description": "The node ID to get outgoing edges for."
+              },
+              "sortBy": {
+                "description": "Sort order for edges. Default is retainedSize.",
+                "type": "string",
+                "enum": [
+                  "retainedSize",
+                  "selfSize",
+                  "name"
+                ]
+              },
+              "retainedSize": {
+                "description": "Inclusive retained size range (e.g. \"1MB-2MB\", \"-1MB\", or \"1MB-\") for target nodes. A single value is treated as a minimum. Currently, only the lower bound is applied.",
+                "type": "string"
+              },
+              "excludePrimitives": {
+                "description": "Whether to exclude primitive target nodes. Default is true.",
+                "type": "boolean"
+              },
+              "pageIdx": {
+                "description": "The page index for pagination.",
+                "type": "number"
+              },
+              "pageSize": {
+                "description": "The page size for pagination.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "filePath",
+              "nodeId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_object_details",
+          "description": "Loads a memory heapsnapshot and returns detailed information about a specific object by its node ID, including size, type, distance, and DOM detachedness.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "nodeId": {
+                "type": "number",
+                "description": "The node ID to get object details for."
+              }
+            },
+            "required": [
+              "filePath",
+              "nodeId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_retainers",
+          "description": "Loads a memory heapsnapshot and returns retainers for a specific node ID.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "nodeId": {
+                "type": "number",
+                "description": "The node ID to get retainers for."
+              },
+              "pageIdx": {
+                "description": "The page index for pagination.",
+                "type": "number"
+              },
+              "pageSize": {
+                "description": "The page size for pagination.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "filePath",
+              "nodeId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_retaining_paths",
+          "description": "Loads a memory heapsnapshot and returns retaining paths for a specific node ID. This helps to understand why a node is not being garbage collected.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "nodeId": {
+                "type": "number",
+                "description": "The node ID to get retaining paths for."
+              },
+              "maxDepth": {
+                "description": "The maximum depth to search for retaining paths.",
+                "type": "number"
+              },
+              "maxNodes": {
+                "description": "The maximum number of nodes to return.",
+                "type": "number"
+              },
+              "maxSiblings": {
+                "description": "The maximum number of siblings to return.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "filePath",
+              "nodeId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_heapsnapshot_summary",
+          "description": "Loads a memory heapsnapshot and returns snapshot summary stats, including native contexts and their sizes, and retained by context summary.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              }
+            },
+            "required": [
+              "filePath",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_get_network_request",
+          "description": "Gets a network request by an optional reqid, if omitted returns the currently selected request in the DevTools Network panel. Useful for inspecting request headers (including 'Cookie') and response headers (including 'Set-Cookie' and directives).",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "reqid": {
+                "description": "The reqid of the network request. If omitted returns the currently selected request in the DevTools Network panel.",
+                "type": "number"
+              },
+              "requestFilePath": {
+                "description": "The absolute or relative path to a .network-request file to save the request body to. If omitted, the body is returned inline.",
+                "type": "string"
+              },
+              "responseFilePath": {
+                "description": "The absolute or relative path to a .network-response file to save the response body to. If omitted, the body is returned inline.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_handle_dialog",
+          "description": "If a browser dialog was opened, use this command to handle it",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "action": {
+                "type": "string",
+                "enum": [
+                  "accept",
+                  "dismiss"
+                ],
+                "description": "Whether to dismiss or accept the dialog"
+              },
+              "promptText": {
+                "description": "Optional prompt text to enter into the dialog.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "action",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_hover",
+          "description": "Hover over the provided element",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "uid": {
+                "type": "string",
+                "description": "The uid of an element on the page from the page content snapshot"
+              },
+              "includeSnapshot": {
+                "description": "Whether to include a snapshot in the response. Default is false.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "uid",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_install_extension",
+          "description": "Installs a Chrome extension from the given path.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "path": {
+                "type": "string",
+                "description": "Absolute path to the unpacked extension folder."
+              }
+            },
+            "required": [
+              "path",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_lighthouse_audit",
+          "description": "Get Lighthouse score and reports for accessibility, SEO, best practices, and agentic browsing. This excludes performance. For performance audits, run performance_start_trace",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "mode": {
+                "default": "navigation",
+                "description": "\"navigation\" reloads & audits. \"snapshot\" analyzes current state.",
+                "type": "string",
+                "enum": [
+                  "navigation",
+                  "snapshot"
+                ]
+              },
+              "device": {
+                "default": "desktop",
+                "description": "Device to emulate.",
+                "type": "string",
+                "enum": [
+                  "desktop",
+                  "mobile"
+                ]
+              },
+              "outputDirPath": {
+                "description": "Directory for reports. If omitted, uses temporary files.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_list_console_messages",
+          "description": "List all console messages for the target page since the last navigation. This includes console messages originating from extensions content scripts.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "pageSize": {
+                "description": "Maximum number of messages to return. When omitted, returns all messages.",
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "pageIdx": {
+                "description": "Page number to return (0-based). When omitted, returns the first page.",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "types": {
+                "description": "Filter messages to only return messages of the specified resource types. When omitted or empty, returns all messages.",
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "log",
+                    "debug",
+                    "info",
+                    "error",
+                    "warn",
+                    "dir",
+                    "dirxml",
+                    "table",
+                    "trace",
+                    "clear",
+                    "startGroup",
+                    "startGroupCollapsed",
+                    "endGroup",
+                    "assert",
+                    "profile",
+                    "profileEnd",
+                    "count",
+                    "timeEnd",
+                    "verbose",
+                    "issue"
+                  ]
+                }
+              },
+              "includePreservedMessages": {
+                "description": "Set to true to return the preserved messages over the last 3 navigations.",
+                "default": false,
+                "type": "boolean"
+              },
+              "includeStackTraces": {
+                "description": "Set to true to include the stack trace for each message when available. Increases the response size.",
+                "default": false,
+                "type": "boolean"
+              },
+              "serviceWorkerId": {
+                "description": "Filter messages to only return messages of the specified service worker.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_list_extensions",
+          "description": "Lists all the Chrome extensions installed in the browser. This includes their name, ID, version, and enabled status.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              }
+            },
+            "additionalProperties": true,
+            "required": [
+              "i"
+            ]
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_list_network_requests",
+          "description": "Lists the most recent requests for the target page since the last navigation.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "pageSize": {
+                "description": "Maximum number of requests to return. When omitted, returns all requests.",
+                "type": "integer",
+                "exclusiveMinimum": 0,
+                "maximum": 9007199254740991
+              },
+              "pageIdx": {
+                "description": "Page number to return (0-based). When omitted, returns the first page.",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "resourceTypes": {
+                "description": "Filter requests to only return requests of the specified resource types. When omitted or empty, returns all requests.",
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "document",
+                    "stylesheet",
+                    "image",
+                    "media",
+                    "font",
+                    "script",
+                    "texttrack",
+                    "xhr",
+                    "fetch",
+                    "prefetch",
+                    "eventsource",
+                    "websocket",
+                    "manifest",
+                    "signedexchange",
+                    "ping",
+                    "cspviolationreport",
+                    "preflight",
+                    "fedcm",
+                    "other"
+                  ]
+                }
+              },
+              "includePreservedRequests": {
+                "description": "Set to true to return the preserved requests over the last 3 navigations.",
+                "default": false,
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_list_pages",
+          "description": "Get a list of pages including extension service workers open in the browser.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              }
+            },
+            "additionalProperties": true,
+            "required": [
+              "i"
+            ]
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_navigate_page",
+          "description": "Go to a URL, or back, forward, or reload. Use project URL if not specified otherwise.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "type": {
+                "description": "Navigate the page by URL, back or forward in history, or reload.",
+                "type": "string",
+                "enum": [
+                  "url",
+                  "back",
+                  "forward",
+                  "reload"
+                ]
+              },
+              "url": {
+                "description": "Target URL (only type=url)",
+                "type": "string"
+              },
+              "ignoreCache": {
+                "description": "Whether to ignore cache on reload.",
+                "type": "boolean"
+              },
+              "handleBeforeUnload": {
+                "description": "Whether to auto accept or beforeunload dialogs triggered by this navigation. Default is accept.",
+                "type": "string",
+                "enum": [
+                  "accept",
+                  "dismiss"
+                ]
+              },
+              "initScript": {
+                "description": "A JavaScript script to be executed on each new document before any other scripts for the next navigation.",
+                "type": "string"
+              },
+              "timeout": {
+                "description": "Maximum wait time in milliseconds. If set to 0, the default timeout will be used.",
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_new_page",
+          "description": "Open a new tab and load a URL. Use project URL if not specified otherwise.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "url": {
+                "type": "string",
+                "description": "URL to load in a new page."
+              },
+              "background": {
+                "description": "Whether to open the page in the background without bringing it to the front. Default is false (foreground).",
+                "type": "boolean"
+              },
+              "isolatedContext": {
+                "description": "If specified, the page is created in an isolated browser context with the given name. Pages in the same browser context share cookies and storage. Pages in different browser contexts are fully isolated (useful for clean-slate testing of cookies and authentication).",
+                "type": "string"
+              },
+              "timeout": {
+                "description": "Maximum wait time in milliseconds. If set to 0, the default timeout will be used.",
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "url",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_performance_analyze_insight",
+          "description": "Provides more detailed information on a specific Performance Insight of an insight set that was highlighted in the results of a trace recording.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "insightSetId": {
+                "type": "string",
+                "description": "The id for the specific insight set. Only use the ids given in the \"Available insight sets\" list."
+              },
+              "insightName": {
+                "type": "string",
+                "description": "The name of the Insight you want more information on. For example: \"DocumentLatency\" or \"LCPBreakdown\""
+              }
+            },
+            "required": [
+              "pageId",
+              "insightSetId",
+              "insightName",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_performance_start_trace",
+          "description": "Start a performance trace on the target webpage. Use to find frontend performance issues, Core Web Vitals (LCP, INP, CLS), and improve page load speed.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "reload": {
+                "default": true,
+                "description": "Determines if, once tracing has started, the target page should be automatically reloaded. Navigate the page to the right URL using the navigate_page tool BEFORE starting the trace if reload or autoStop is set to true.",
+                "type": "boolean"
+              },
+              "autoStop": {
+                "default": true,
+                "description": "Determines if the trace recording should be automatically stopped.",
+                "type": "boolean"
+              },
+              "filePath": {
+                "description": "The absolute file path, or a file path relative to the current working directory, to save the raw trace data. For example, trace.json.gz (compressed) or trace.json (uncompressed).",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_performance_stop_trace",
+          "description": "Stop the active performance trace recording on the target webpage.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "filePath": {
+                "description": "The absolute file path, or a file path relative to the current working directory, to save the raw trace data. For example, trace.json.gz (compressed) or trace.json (uncompressed).",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_press_key",
+          "description": "Press a key or key combination. Use this when other input methods like fill() cannot be used (e.g., keyboard shortcuts, navigation keys, or special key combinations).",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "key": {
+                "type": "string",
+                "description": "A key or a combination (e.g., \"Enter\", \"Control+A\", \"Control++\", \"Control+Shift+R\"). Modifiers: Control, Shift, Alt, Meta"
+              },
+              "includeSnapshot": {
+                "description": "Whether to include a snapshot in the response. Default is false.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "key",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_query_heapsnapshot_objects",
+          "description": "Loads a memory heapsnapshot and queries objects matching specific filters (className, propertyName, nodeType, retainedSize, selfSize, isDetached, sortBy).",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to read."
+              },
+              "className": {
+                "description": "Optional regex or text matching object class name.",
+                "type": "string"
+              },
+              "propertyName": {
+                "description": "Optional property name filter for outgoing reference edges.",
+                "type": "string"
+              },
+              "nodeType": {
+                "description": "Optional V8 node type filter (e.g. object, closure, string, array, code).",
+                "type": "string"
+              },
+              "retainedSize": {
+                "description": "Inclusive retained size range (e.g. \"1MB-2MB\", \"-1MB\", or \"1MB-\"). A single value is treated as a minimum.",
+                "type": "string"
+              },
+              "selfSize": {
+                "description": "Inclusive self size range (e.g. \"1MB-2MB\", \"-1MB\", or \"1MB-\"). A single value is treated as a minimum.",
+                "type": "string"
+              },
+              "isDetached": {
+                "description": "Whether to filter for detached DOM nodes.",
+                "type": "boolean"
+              },
+              "sortBy": {
+                "description": "Sort order for results. Default is retainedSize.",
+                "type": "string",
+                "enum": [
+                  "retainedSize",
+                  "selfSize",
+                  "id"
+                ]
+              },
+              "pageIdx": {
+                "description": "The page index for pagination.",
+                "type": "number"
+              },
+              "pageSize": {
+                "description": "The page size for pagination.",
+                "type": "number"
+              }
+            },
+            "required": [
+              "filePath",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_reload_extension",
+          "description": "Reloads an unpacked Chrome extension by its ID.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "id": {
+                "type": "string",
+                "description": "ID of the extension to reload."
+              }
+            },
+            "required": [
+              "id",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_resize_page",
+          "description": "Resizes the page's window so that the page has specified dimension",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "width": {
+                "type": "number",
+                "description": "Page width"
+              },
+              "height": {
+                "type": "number",
+                "description": "Page height"
+              }
+            },
+            "required": [
+              "pageId",
+              "width",
+              "height",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_select_page",
+          "description": "Select a page as a context for future tool calls.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "The ID of the page to select. Call list_pages to get available pages."
+              },
+              "bringToFront": {
+                "description": "Whether to focus the page and bring it to the top.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_take_heapsnapshot",
+          "description": "Capture a heap snapshot of the target page. Use to analyze the memory distribution of JavaScript objects and debug memory leaks.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "filePath": {
+                "type": "string",
+                "description": "A path to a .heapsnapshot file to save the heapsnapshot to."
+              }
+            },
+            "required": [
+              "pageId",
+              "filePath",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_take_screenshot",
+          "description": "Take a screenshot of the page or element.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "format": {
+                "default": "png",
+                "description": "Type of format to save the screenshot as. Default is \"png\"",
+                "type": "string",
+                "enum": [
+                  "png",
+                  "jpeg",
+                  "webp"
+                ]
+              },
+              "quality": {
+                "description": "Compression quality for JPEG and WebP formats (0-100). Higher values mean better quality but larger file sizes. Ignored for PNG format.",
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "uid": {
+                "description": "The uid of an element on the page from the page content snapshot. If omitted, takes a page screenshot.",
+                "type": "string"
+              },
+              "fullPage": {
+                "description": "If set to true takes a screenshot of the full page instead of the currently visible viewport. Incompatible with uid.",
+                "type": "boolean"
+              },
+              "filePath": {
+                "description": "The absolute path, or a path relative to the current working directory, to save the screenshot to instead of attaching it to the response.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_take_snapshot",
+          "description": "Take a text snapshot of the target page based on the a11y tree. The snapshot lists page elements along with a unique\nidentifier (uid). Always use the latest snapshot. Prefer taking a snapshot over taking a screenshot. The snapshot indicates the element selected\nin the DevTools Elements panel (if any).",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "verbose": {
+                "description": "Whether to include all possible information available in the full a11y tree. Default is false.",
+                "type": "boolean"
+              },
+              "filePath": {
+                "description": "The absolute path, or a path relative to the current working directory, to save the snapshot to instead of attaching it to the response.",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_trigger_extension_action",
+          "description": "Triggers the default action of an extension by its ID.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "id": {
+                "type": "string",
+                "description": "ID of the extension to trigger the action for."
+              }
+            },
+            "required": [
+              "id",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_type_text",
+          "description": "Type text using keyboard into a previously focused input",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "text": {
+                "type": "string",
+                "description": "The text to type"
+              },
+              "submitKey": {
+                "description": "Optional key to press after typing. E.g., \"Enter\", \"Tab\", \"Escape\"",
+                "type": "string"
+              }
+            },
+            "required": [
+              "pageId",
+              "text",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_uninstall_extension",
+          "description": "Uninstalls a Chrome extension by its ID.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "id": {
+                "type": "string",
+                "description": "ID of the extension to uninstall."
+              }
+            },
+            "required": [
+              "id",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_upload_file",
+          "description": "Upload a file through a provided element.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "uid": {
+                "type": "string",
+                "description": "The uid of the file input element or an element that will open file chooser on the page from the page content snapshot"
+              },
+              "filePaths": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "One or more files paths to upload. File paths have to be local to the browser instance (not the MCP)."
+              },
+              "includeSnapshot": {
+                "description": "Whether to include a snapshot in the response. Default is false.",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "pageId",
+              "uid",
+              "filePaths",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "mcp__chrome_devtools_wait_for",
+          "description": "Wait for the specified text to appear on the selected page.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "i": {
+                "type": "string",
+                "description": "concise intent"
+              },
+              "pageId": {
+                "type": "number",
+                "description": "Targets a specific page by ID."
+              },
+              "text": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Non-empty list of texts. Resolves when any value appears on the page."
+              },
+              "timeout": {
+                "description": "Maximum wait time in milliseconds. If set to 0, the default timeout will be used.",
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "required": [
+              "pageId",
+              "text",
+              "i"
+            ],
+            "additionalProperties": true
+          }
+        }
+      }
+    ],
+    "max_completion_tokens": 1024
+  },
+  "errorResponse": {
+    "status": 400,
+    "message": "400 图片生成模型不支持 tools\n图片生成模型不支持 tools (type=invalid_request_error param=upstream_error)"
+  }
+}

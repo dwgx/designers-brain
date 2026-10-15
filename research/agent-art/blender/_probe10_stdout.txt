@@ -1,0 +1,18 @@
+D:\Project\Designers_Brain\research\agent-art\blender\_probe10.py:28: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mf = bpy.data.materials.new("F"); mf.use_nodes = True
+00:02.250  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_pen_0.1.png'
+00:02.375  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_pen_2.0.png'
+00:02.500  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_pen_8.0.png'
+D:\Project\Designers_Brain\research\agent-art\blender\_probe10.py:81: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new("Rubber"); m.use_nodes = True
+00:02.672  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_sss_sss_off.png'
+00:02.828  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_sss_sss_on.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+PROBE10_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

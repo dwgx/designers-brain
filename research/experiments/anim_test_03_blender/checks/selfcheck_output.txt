@@ -1,0 +1,15 @@
+frame count: 300
+.. f0000.png
+.. f0050.png
+.. f0100.png
+.. f0150.png
+.. f0200.png
+.. f0250.png
+global mean range: 0.4805 .. 0.5438
+frame-to-frame mean-lum delta: median 0.01085 | max 0.06273 at f0114.png
+flags: none
+top jumps: [('f0114.png', 0.06273), ('f0113.png', 0.06246), ('f0115.png', 0.06223), ('f0116.png', 0.06202), ('f0112.png', 0.06126), ('f0111.png', 0.05988), ('f0117.png', 0.05822), ('f0081.png', 0.05717)]
+SELFCHECK_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

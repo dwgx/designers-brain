@@ -1,0 +1,64 @@
+00:00.406  blend            | Read blend: "D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\scene.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+=== M1. scene data ===
+marbles: 270 | unique meshes: {'marble_shared'} | mesh users: 279
+strays: 7 | PLAY: True | rigid bodies left: 0 | rb world: None
+lights: ['fill', 'key', 'rim', 'spec', 'wall']
+--- wave check (row j=8, z at f=0/10/20/30/40) ---
+f00: 0.328 0.346 0.395 0.466 0.547 0.623 0.678 0.704 0.694 0.653 0.588 0.514 0.446 0.397 0.377
+f10: 0.428 0.363 0.312 0.296 0.299 0.346 0.414 0.495 0.575 0.640 0.676 0.672 0.649 0.590 0.523
+f20: 0.576 0.550 0.497 0.428 0.357 0.298 0.265 0.265 0.300 0.362 0.441 0.523 0.591 0.633 0.643
+f30: 0.501 0.559 0.594 0.603 0.579 0.525 0.453 0.376 0.306 0.262 0.256 0.270 0.326 0.399 0.477
+f40: 0.383 0.413 0.465 0.529 0.588 0.630 0.642 0.622 0.571 0.497 0.415 0.340 0.285 0.261 0.272
+max |measured - formula| over rows: 0.00554
+m0_0 location key counts per axis: [75, 75, 75]
+PLAY fcurves: [('location', 0, 148), ('location', 1, 148), ('location', 2, 148), ('rotation_euler', 0, 148), ('rotation_euler', 1, 148), ('rotation_euler', 2, 148), ('scale', 0, 191), ('scale', 1, 191), ('scale', 2, 191)]
+=== M2. glass refraction dual-switch matrix (f150, 480x270, 16spp) ===
+glass materials: ['glass_amber', 'glass_aqua', 'glass_clear', 'glass_lime', 'glass_rose', 'glass_sky', 'glass_violet'] | use_raytrace_refraction: True
+00:01.500  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\refr_False_False.png'
+00:01.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\refr_False_True.png'
+00:02.015  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\refr_True_False.png'
+00:02.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\refr_True_True.png'
+scene_raytracing=False mat_refraction=False -> {'mean': 0.0, 'max': 0.0, 'frac_gt_002': 0.0}
+scene_raytracing=False mat_refraction=True -> {'mean': 9e-06, 'max': 0.02353, 'frac_gt_002': 2e-05}
+scene_raytracing=True mat_refraction=False -> {'mean': 0.006857, 'max': 0.38431, 'frac_gt_002': 0.10833}
+scene_raytracing=True mat_refraction=True -> {'mean': 0.015805, 'max': 0.39608, 'frac_gt_002': 0.27808}
+=== M3. rubber SSS toggle (f250, 480x270) ===
+rubber Subsurface Weight = 0.75 | Radius = (0.4000000059604645, 0.15000000596046448, 0.10000000149011612) | Scale = 0.11999999731779099
+00:02.500  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\sss_on.png'
+00:02.953  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\sss_off.png'
+sss on vs off: {'mean': 0.000757, 'max': 0.31373, 'frac_gt_002': 0.01154}
+=== M4. metal reflection (chrome vs matte, f250) ===
+chrome: Metallic 1.0 Roughness 0.07999999821186066
+00:03.218  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\metal_metal.png'
+00:03.437  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\metal_matte.png'
+chrome vs matte-diffuse: {'mean': 0.001568, 'max': 0.49412, 'frac_gt_002': 0.00955}
+=== M5. DOF: gradient energy focus vs background (f250, 960x540) ===
+00:04.015  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\dof_f250.png'
+gradient energy: focus=0.02336 background=0.02951 near-field=0.00346 | focus/bg ratio=0.79
+camera dof: fstop 1.100000023841858 | focus_distance 7.65 | blades 0
+=== M6. motion blur on/off (f95 fall, f108 scatter, 480x270) ===
+00:04.265  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\mb_off_95.png'
+00:04.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\mb_on_95.png'
+f95 on vs off: {'mean': 0.004306, 'max': 0.60392, 'frac_gt_002': 0.04892}
+00:04.797  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\mb_off_108.png'
+00:05.078  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\mb_on_108.png'
+f108 on vs off: {'mean': 0.010015, 'max': 0.82745, 'frac_gt_002': 0.11908}
+=== M7. penumbra width vs light size (mini scene, 512x512) ===
+D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\check_mechanisms.py:169: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mf = bpy.data.materials.new("F"); mf.use_nodes = True
+00:05.328  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\pen_0.1.png'
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+light size 0.1 -> penumbra 3 px
+00:05.437  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\pen_2.0.png'
+light size 2.0 -> penumbra 235 px
+00:05.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\checks\mech\pen_8.0.png'
+light size 8.0 -> penumbra 235 px
+=== MECH DONE ===
+MECH_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

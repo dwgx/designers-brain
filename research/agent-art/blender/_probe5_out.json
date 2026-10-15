@@ -1,0 +1,191 @@
+{
+ "steps": [
+  {
+   "name": "setup",
+   "ok": true,
+   "secs": 0.04,
+   "result": {
+    "objects": [
+     "Cam",
+     "K",
+     "Sphere"
+    ]
+   }
+  },
+  {
+   "name": "keyframe_slotted_action_api",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "action_name": "SphereAction",
+    "action_attrs": [
+     "animation_data_clear",
+     "animation_data_create",
+     "asset_clear",
+     "asset_data",
+     "asset_generate_preview",
+     "asset_mark",
+     "bl_rna",
+     "bl_system_properties_get",
+     "copy",
+     "curve_frame_range",
+     "deselect_keys",
+     "evaluated_get",
+     "fcurve_ensure_for_datablock",
+     "flip_with_pose",
+     "frame_end",
+     "frame_range",
+     "frame_start",
+     "id_type",
+     "is_action_layered",
+     "is_action_legacy",
+     "is_editable",
+     "is_embedded_data",
+     "is_empty",
+     "is_evaluated",
+     "is_library_indirect",
+     "is_linked_packed",
+     "is_missing",
+     "is_runtime_data",
+     "layers",
+     "library",
+     "library_weak_reference",
+     "make_local",
+     "name",
+     "name_full",
+     "original",
+     "override_create",
+     "override_hierarchy_create",
+     "override_library",
+     "pose_markers",
+     "preview",
+     "preview_ensure",
+     "rename",
+     "rna_type",
+     "session_uid",
+     "slots",
+     "tag",
+     "update_tag",
+     "use_cyclic",
+     "use_extra_user",
+     "use_fake_user",
+     "use_frame_range",
+     "user_clear",
+     "user_of_id",
+     "user_remap",
+     "users"
+    ],
+    "has_fcurves_attr": false,
+    "has_layers": true,
+    "has_slots": true,
+    "n_layers": 1,
+    "layer_attrs": [
+     "bl_rna",
+     "name",
+     "rna_type",
+     "strips"
+    ],
+    "n_strips": 1,
+    "strip_attrs": [
+     "bl_rna",
+     "channelbag",
+     "channelbags",
+     "key_insert",
+     "rna_type",
+     "type"
+    ],
+    "has_channelbags": true,
+    "n_channelbags": 1,
+    "channelbag_attrs": [
+     "bl_rna",
+     "fcurves",
+     "groups",
+     "rna_type",
+     "slot",
+     "slot_handle"
+    ],
+    "n_fcurves": 3,
+    "fcurve0": "location",
+    "n_keyframes": 2,
+    "interp": "BEZIER",
+    "n_slots": 1,
+    "slot0": {
+     "identifier": "OBSphere",
+     "name_display": "Sphere",
+     "target_id_type": "OBJECT"
+    },
+    "action_slot_attr": true
+   }
+  },
+  {
+   "name": "fcurve_interp_and_modifiers",
+   "ok": false,
+   "secs": 0.0,
+   "error": "KeyError: 'bpy_prop_collection[key]: key \"type\" not found'",
+   "tb": "Designers_Brain\\research\\agent-art\\blender\\_probe5.py\", line 8, in step\n    r = fn()\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe5.py\", line 87, in f_fcurve_modifiers_and_interp\n    \"modifier_types_avail\": [i.identifier for i in fc.modifiers.bl_rna.properties[\"type\"].enum_items] if hasattr(fc.modifiers, \"bl_rna\") else \"n/a\"}\n                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^\nKeyError: 'bpy_prop_collection[key]: key \"type\" not found'\n"
+  },
+  {
+   "name": "bake_to_keyframes_temp_override",
+   "ok": true,
+   "secs": 0.01,
+   "result": {
+    "temp_override": "FAIL: Error: Python: Traceback (most recent call last):\n  File \"D:\\Software\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\startup\\bl_operators\\rigidbody.py\", line 165, in execute\n    bpy.ops.anim.keyframe_insert_by_name(type='BUILTIN_KSI_LocRot')\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Operator bpy.ops.anim.keyframe_insert_by_name.poll() failed, context is incorrect\nLocation: D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe5.py:106\n",
+    "fcurves_after_bake": [
+     "location",
+     "location",
+     "location"
+    ]
+   }
+  },
+  {
+   "name": "manual_physics_bake",
+   "ok": true,
+   "secs": 0.02,
+   "result": {
+    "fcurves": 3,
+    "total_keyframes": 30,
+    "z_by_frame": [
+     1.5,
+     1.411,
+     1.411
+    ]
+   }
+  },
+  {
+   "name": "png_sequence_render",
+   "ok": true,
+   "secs": 2.04,
+   "result": {
+    "dir": "D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_seq2",
+    "files": [
+     "f_0001.png",
+     "f_0002.png",
+     "f_0003.png",
+     "f_0004.png",
+     "f_0005.png",
+     "f_0006.png",
+     "f_0007.png",
+     "f_0008.png",
+     "f_0009.png",
+     "f_0010.png"
+    ],
+    "count": 10
+   }
+  },
+  {
+   "name": "contact_sheet_numpy",
+   "ok": true,
+   "secs": 0.05,
+   "result": {
+    "sheet_size": [
+     960,
+     360
+    ],
+    "frames": 6,
+    "out": "D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_contact_sheet.png",
+    "exists": true,
+    "bytes": 106183
+   }
+  }
+ ]
+}

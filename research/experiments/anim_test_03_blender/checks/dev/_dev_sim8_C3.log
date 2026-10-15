@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\_dev_sim8.py", line 44, in <module>
+    print("  marble.002 rb:", rbinfo(bpy.data.objects["Sphere.002"]))
+                                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "Sphere.002" not found'
+VAR C3
+  rw.collection objects: 50 ['Plane', 'Proto.001', 'Proto.002', 'Proto.003', 'Proto.004', 'Proto.005']
+  proto exists: True
+  proto rb: NO_RB
+  marble.001 rb: {'en': True, 'type': 'ACTIVE', 'kin': False, 'mass': 0.2, 'shape': 'CONVEX_HULL', 'deact': False, 'start_deact': False, 'hv': False, 'hr': False}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

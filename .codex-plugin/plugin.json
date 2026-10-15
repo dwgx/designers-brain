@@ -1,0 +1,11 @@
+{
+  "name": "designers-brain",
+  "version": "0.1.0",
+  "description": "Designers_Brain 设计顾问：画家模块 × MG 卡 × 冲突清单 × 输出契约",
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Designers Brain",
+    "shortDescription": "设计顾问 skill",
+    "defaultPrompt": ["帮我为这个需求选风格并出稿"]
+  }
+}

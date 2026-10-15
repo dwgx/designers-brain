@@ -1,0 +1,75 @@
+{
+ "marbles": 270,
+ "unique_mesh": [
+  "marble_shared"
+ ],
+ "rb_left": 0,
+ "wave_err_max": 0.00554,
+ "refraction_matrix": {
+  "(False, False)": {
+   "mean": 0.0,
+   "max": 0.0,
+   "frac_gt_002": 0.0
+  },
+  "(False, True)": {
+   "mean": 9e-06,
+   "max": 0.02353,
+   "frac_gt_002": 2e-05
+  },
+  "(True, False)": {
+   "mean": 0.006857,
+   "max": 0.38431,
+   "frac_gt_002": 0.10833
+  },
+  "(True, True)": {
+   "mean": 0.015805,
+   "max": 0.39608,
+   "frac_gt_002": 0.27808
+  }
+ },
+ "sss": {
+  "mean": 0.000757,
+  "max": 0.31373,
+  "frac_gt_002": 0.01154
+ },
+ "metal": {
+  "mean": 0.001568,
+  "max": 0.49412,
+  "frac_gt_002": 0.00955
+ },
+ "dof": {
+  "focus": 0.02336,
+  "bg": 0.02951,
+  "near": 0.00346,
+  "ratio": 0.79
+ },
+ "mb": {
+  "95": {
+   "mean": 0.004306,
+   "max": 0.60392,
+   "frac_gt_002": 0.04892
+  },
+  "108": {
+   "mean": 0.010015,
+   "max": 0.82745,
+   "frac_gt_002": 0.11908
+  }
+ },
+ "penumbra": [
+  {
+   "light_size": 0.1,
+   "penumbra_px_10_90": 3,
+   "bytes": 74603
+  },
+  {
+   "light_size": 2.0,
+   "penumbra_px_10_90": 235,
+   "bytes": 76592
+  },
+  {
+   "light_size": 8.0,
+   "penumbra_px_10_90": 235,
+   "bytes": 156592
+  }
+ ]
+}

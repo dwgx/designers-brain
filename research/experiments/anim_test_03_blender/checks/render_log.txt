@@ -1,0 +1,611 @@
+00:00.359  blend            | Read blend: "D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\scene.blend"
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+RENDER_START {'frames': 300, 'pct': 100, 'samples': 64, 'mb': True, 'mb_steps': 16, 'out': 'D:\\Project\\Designers_Brain\\research\\experiments\\anim_test_03_blender\\frames'}
+00:03.937  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0000.png'
+FRAME 0 3.5s
+00:06.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0001.png'
+FRAME 1 2.5s
+00:09.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0002.png'
+FRAME 2 2.6s
+00:11.609  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0003.png'
+FRAME 3 2.6s
+00:14.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0004.png'
+FRAME 4 2.6s
+00:16.734  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0005.png'
+FRAME 5 2.5s
+00:19.234  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0006.png'
+FRAME 6 2.5s
+00:21.750  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0007.png'
+FRAME 7 2.5s
+00:24.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0008.png'
+FRAME 8 2.5s
+00:26.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0009.png'
+FRAME 9 2.5s
+00:29.328  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0010.png'
+FRAME 10 2.5s
+00:31.891  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0011.png'
+FRAME 11 2.6s
+00:34.500  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0012.png'
+FRAME 12 2.6s
+00:37.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0013.png'
+FRAME 13 2.5s
+00:39.641  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0014.png'
+FRAME 14 2.6s
+00:42.203  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0015.png'
+FRAME 15 2.6s
+00:44.859  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0016.png'
+FRAME 16 2.6s
+00:47.453  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0017.png'
+FRAME 17 2.6s
+00:50.016  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0018.png'
+FRAME 18 2.6s
+00:52.625  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0019.png'
+FRAME 19 2.6s
+00:55.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0020.png'
+FRAME 20 2.6s
+00:57.891  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0021.png'
+FRAME 21 2.6s
+01:00.547  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0022.png'
+FRAME 22 2.7s
+01:03.172  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0023.png'
+FRAME 23 2.6s
+01:05.766  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0024.png'
+FRAME 24 2.6s
+01:08.328  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0025.png'
+FRAME 25 2.6s
+01:10.922  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0026.png'
+FRAME 26 2.6s
+01:13.531  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0027.png'
+FRAME 27 2.6s
+01:16.125  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0028.png'
+FRAME 28 2.6s
+01:18.750  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0029.png'
+FRAME 29 2.6s
+01:21.422  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0030.png'
+FRAME 30 2.7s
+01:24.109  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0031.png'
+FRAME 31 2.7s
+01:26.812  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0032.png'
+FRAME 32 2.7s
+01:29.437  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0033.png'
+FRAME 33 2.6s
+01:32.094  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0034.png'
+FRAME 34 2.7s
+01:34.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0035.png'
+FRAME 35 2.6s
+01:37.375  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0036.png'
+FRAME 36 2.7s
+01:40.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0037.png'
+FRAME 37 2.7s
+01:42.734  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0038.png'
+FRAME 38 2.7s
+01:45.391  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0039.png'
+FRAME 39 2.7s
+01:48.078  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0040.png'
+FRAME 40 2.7s
+01:50.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0041.png'
+FRAME 41 2.7s
+01:53.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0042.png'
+FRAME 42 2.7s
+01:56.125  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0043.png'
+FRAME 43 2.7s
+01:58.766  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0044.png'
+FRAME 44 2.7s
+02:01.422  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0045.png'
+FRAME 45 2.7s
+02:04.281  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0046.png'
+FRAME 46 2.9s
+02:07.031  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0047.png'
+FRAME 47 2.8s
+02:09.875  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0048.png'
+FRAME 48 2.8s
+02:12.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0049.png'
+FRAME 49 2.7s
+02:15.078  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0050.png'
+FRAME 50 2.5s
+02:17.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0051.png'
+FRAME 51 2.6s
+02:20.234  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0052.png'
+FRAME 52 2.6s
+02:22.766  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0053.png'
+FRAME 53 2.5s
+02:25.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0054.png'
+FRAME 54 2.5s
+02:27.797  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0055.png'
+FRAME 55 2.5s
+02:30.266  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0056.png'
+FRAME 56 2.5s
+02:32.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0057.png'
+FRAME 57 2.5s
+02:35.281  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0058.png'
+FRAME 58 2.5s
+02:38.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0059.png'
+FRAME 59 3.4s
+02:42.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0060.png'
+FRAME 60 4.0s
+02:46.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0061.png'
+FRAME 61 3.6s
+02:48.641  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0062.png'
+FRAME 62 2.4s
+02:51.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0063.png'
+FRAME 63 2.4s
+02:53.453  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0064.png'
+FRAME 64 2.4s
+02:55.828  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0065.png'
+FRAME 65 2.4s
+02:58.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0066.png'
+FRAME 66 2.4s
+03:00.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0067.png'
+FRAME 67 2.5s
+03:03.062  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0068.png'
+FRAME 68 2.4s
+03:05.484  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0069.png'
+FRAME 69 2.4s
+03:07.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0070.png'
+FRAME 70 2.4s
+03:10.312  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0071.png'
+FRAME 71 2.4s
+03:12.766  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0072.png'
+FRAME 72 2.5s
+03:15.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0073.png'
+FRAME 73 2.5s
+03:17.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0074.png'
+FRAME 74 2.5s
+03:20.109  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0075.png'
+FRAME 75 2.4s
+03:22.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0076.png'
+FRAME 76 2.4s
+03:24.969  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0077.png'
+FRAME 77 2.4s
+03:27.422  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0078.png'
+FRAME 78 2.4s
+03:29.797  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0079.png'
+FRAME 79 2.4s
+03:32.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0080.png'
+FRAME 80 2.4s
+03:34.578  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0081.png'
+FRAME 81 2.4s
+03:37.000  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0082.png'
+FRAME 82 2.4s
+03:39.359  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0083.png'
+FRAME 83 2.4s
+03:41.797  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0084.png'
+FRAME 84 2.4s
+03:44.234  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0085.png'
+FRAME 85 2.4s
+03:46.687  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0086.png'
+FRAME 86 2.5s
+03:49.141  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0087.png'
+FRAME 87 2.5s
+03:51.531  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0088.png'
+FRAME 88 2.4s
+03:54.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0089.png'
+FRAME 89 2.5s
+03:56.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0090.png'
+FRAME 90 2.5s
+03:59.078  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0091.png'
+FRAME 91 2.5s
+04:01.641  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0092.png'
+FRAME 92 2.6s
+04:04.234  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0093.png'
+FRAME 93 2.6s
+04:06.875  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0094.png'
+FRAME 94 2.6s
+04:09.500  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0095.png'
+FRAME 95 2.6s
+04:12.141  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0096.png'
+FRAME 96 2.6s
+04:14.766  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0097.png'
+FRAME 97 2.6s
+04:17.375  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0098.png'
+FRAME 98 2.6s
+04:19.937  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0099.png'
+FRAME 99 2.6s
+04:22.953  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0100.png'
+FRAME 100 3.0s
+04:27.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0101.png'
+FRAME 101 4.1s
+04:31.187  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0102.png'
+FRAME 102 4.1s
+04:33.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0103.png'
+FRAME 103 2.5s
+04:36.234  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0104.png'
+FRAME 104 2.5s
+04:38.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0105.png'
+FRAME 105 2.5s
+04:41.594  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0106.png'
+FRAME 106 2.8s
+04:45.859  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0107.png'
+FRAME 107 4.3s
+04:50.141  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0108.png'
+FRAME 108 4.3s
+04:52.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0109.png'
+FRAME 109 2.6s
+04:55.281  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0110.png'
+FRAME 110 2.6s
+04:57.953  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0111.png'
+FRAME 111 2.7s
+05:01.531  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0112.png'
+FRAME 112 3.6s
+05:05.594  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0113.png'
+FRAME 113 4.1s
+05:09.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0114.png'
+FRAME 114 3.7s
+05:11.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0115.png'
+FRAME 115 2.5s
+05:14.297  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0116.png'
+FRAME 116 2.5s
+05:16.828  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0117.png'
+FRAME 117 2.5s
+05:19.359  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0118.png'
+FRAME 118 2.5s
+05:21.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0119.png'
+FRAME 119 2.5s
+05:24.437  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0120.png'
+FRAME 120 2.5s
+05:26.937  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0121.png'
+FRAME 121 2.5s
+05:29.484  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0122.png'
+FRAME 122 2.5s
+05:31.969  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0123.png'
+FRAME 123 2.5s
+05:34.437  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0124.png'
+FRAME 124 2.5s
+05:36.922  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0125.png'
+FRAME 125 2.5s
+05:39.453  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0126.png'
+FRAME 126 2.5s
+05:41.969  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0127.png'
+FRAME 127 2.5s
+05:44.437  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0128.png'
+FRAME 128 2.5s
+05:46.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0129.png'
+FRAME 129 2.5s
+05:49.391  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0130.png'
+FRAME 130 2.5s
+05:51.875  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0131.png'
+FRAME 131 2.5s
+05:54.391  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0132.png'
+FRAME 132 2.5s
+05:56.859  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0133.png'
+FRAME 133 2.5s
+05:59.375  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0134.png'
+FRAME 134 2.5s
+06:01.844  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0135.png'
+FRAME 135 2.5s
+06:04.328  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0136.png'
+FRAME 136 2.5s
+06:06.812  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0137.png'
+FRAME 137 2.5s
+06:09.281  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0138.png'
+FRAME 138 2.5s
+06:11.750  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0139.png'
+FRAME 139 2.5s
+06:14.234  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0140.png'
+FRAME 140 2.5s
+06:16.687  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0141.png'
+FRAME 141 2.5s
+06:19.156  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0142.png'
+FRAME 142 2.5s
+06:21.594  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0143.png'
+FRAME 143 2.4s
+06:24.125  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0144.png'
+FRAME 144 2.5s
+06:26.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0145.png'
+FRAME 145 2.4s
+06:29.000  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0146.png'
+FRAME 146 2.4s
+06:31.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0147.png'
+FRAME 147 2.6s
+06:34.016  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0148.png'
+FRAME 148 2.5s
+06:36.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0149.png'
+FRAME 149 2.5s
+06:38.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0150.png'
+FRAME 150 2.4s
+06:41.359  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0151.png'
+FRAME 151 2.4s
+06:43.797  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0152.png'
+FRAME 152 2.4s
+06:46.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0153.png'
+FRAME 153 2.5s
+06:48.687  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0154.png'
+FRAME 154 2.4s
+06:51.156  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0155.png'
+FRAME 155 2.5s
+06:53.641  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0156.png'
+FRAME 156 2.5s
+06:56.078  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0157.png'
+FRAME 157 2.4s
+06:58.547  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0158.png'
+FRAME 158 2.5s
+07:01.016  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0159.png'
+FRAME 159 2.5s
+07:03.422  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0160.png'
+FRAME 160 2.4s
+07:05.812  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0161.png'
+FRAME 161 2.4s
+07:08.187  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0162.png'
+FRAME 162 2.4s
+07:10.625  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0163.png'
+FRAME 163 2.4s
+07:13.062  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0164.png'
+FRAME 164 2.4s
+07:15.500  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0165.png'
+FRAME 165 2.4s
+07:17.922  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0166.png'
+FRAME 166 2.4s
+07:21.266  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0167.png'
+FRAME 167 3.3s
+07:24.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0168.png'
+FRAME 168 3.4s
+07:27.094  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0169.png'
+FRAME 169 2.4s
+07:29.547  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0170.png'
+FRAME 170 2.5s
+07:31.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0171.png'
+FRAME 171 2.2s
+07:33.953  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0172.png'
+FRAME 172 2.2s
+07:36.156  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0173.png'
+FRAME 173 2.2s
+07:38.359  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0174.png'
+FRAME 174 2.2s
+07:40.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0175.png'
+FRAME 175 2.2s
+07:42.766  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0176.png'
+FRAME 176 2.2s
+07:45.109  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0177.png'
+FRAME 177 2.3s
+07:47.422  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0178.png'
+FRAME 178 2.3s
+07:49.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0179.png'
+FRAME 179 2.3s
+07:52.031  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0180.png'
+FRAME 180 2.3s
+07:54.375  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0181.png'
+FRAME 181 2.3s
+07:56.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0182.png'
+FRAME 182 2.3s
+07:59.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0183.png'
+FRAME 183 2.3s
+08:01.406  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0184.png'
+FRAME 184 2.4s
+08:03.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0185.png'
+FRAME 185 2.4s
+08:06.172  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0186.png'
+FRAME 186 2.4s
+08:08.562  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0187.png'
+FRAME 187 2.4s
+08:11.000  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0188.png'
+FRAME 188 2.4s
+08:13.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0189.png'
+FRAME 189 2.5s
+08:15.937  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0190.png'
+FRAME 190 2.5s
+08:18.391  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0191.png'
+FRAME 191 2.5s
+08:20.828  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0192.png'
+FRAME 192 2.4s
+08:23.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0193.png'
+FRAME 193 2.4s
+08:25.687  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0194.png'
+FRAME 194 2.4s
+08:28.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0195.png'
+FRAME 195 2.5s
+08:30.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0196.png'
+FRAME 196 2.5s
+08:33.125  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0197.png'
+FRAME 197 2.5s
+08:35.547  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0198.png'
+FRAME 198 2.4s
+08:38.016  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0199.png'
+FRAME 199 2.5s
+08:40.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0200.png'
+FRAME 200 2.4s
+08:42.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0201.png'
+FRAME 201 2.4s
+08:45.359  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0202.png'
+FRAME 202 2.5s
+08:47.812  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0203.png'
+FRAME 203 2.5s
+08:50.266  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0204.png'
+FRAME 204 2.5s
+08:52.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0205.png'
+FRAME 205 2.4s
+08:55.156  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0206.png'
+FRAME 206 2.4s
+08:57.594  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0207.png'
+FRAME 207 2.4s
+08:59.984  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0208.png'
+FRAME 208 2.4s
+09:02.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0209.png'
+FRAME 209 2.5s
+09:04.859  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0210.png'
+FRAME 210 2.4s
+09:07.297  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0211.png'
+FRAME 211 2.4s
+09:09.734  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0212.png'
+FRAME 212 2.4s
+09:12.187  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0213.png'
+FRAME 213 2.4s
+09:14.641  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0214.png'
+FRAME 214 2.5s
+09:17.062  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0215.png'
+FRAME 215 2.4s
+09:19.484  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0216.png'
+FRAME 216 2.4s
+09:21.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0217.png'
+FRAME 217 2.4s
+09:24.328  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0218.png'
+FRAME 218 2.4s
+09:26.750  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0219.png'
+FRAME 219 2.4s
+09:29.172  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0220.png'
+FRAME 220 2.4s
+09:31.625  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0221.png'
+FRAME 221 2.4s
+09:34.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0222.png'
+FRAME 222 2.4s
+09:36.453  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0223.png'
+FRAME 223 2.4s
+09:38.891  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0224.png'
+FRAME 224 2.4s
+09:41.312  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0225.png'
+FRAME 225 2.4s
+09:43.750  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0226.png'
+FRAME 226 2.4s
+09:46.187  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0227.png'
+FRAME 227 2.4s
+09:48.641  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0228.png'
+FRAME 228 2.5s
+09:51.062  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0229.png'
+FRAME 229 2.4s
+09:53.484  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0230.png'
+FRAME 230 2.4s
+09:55.891  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0231.png'
+FRAME 231 2.4s
+09:58.297  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0232.png'
+FRAME 232 2.4s
+10:00.812  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0233.png'
+FRAME 233 2.5s
+10:03.281  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0234.png'
+FRAME 234 2.5s
+10:05.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0235.png'
+FRAME 235 2.4s
+10:08.125  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0236.png'
+FRAME 236 2.4s
+10:10.531  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0237.png'
+FRAME 237 2.4s
+10:12.922  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0238.png'
+FRAME 238 2.4s
+10:15.297  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0239.png'
+FRAME 239 2.4s
+10:17.687  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0240.png'
+FRAME 240 2.4s
+10:20.078  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0241.png'
+FRAME 241 2.4s
+10:22.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0242.png'
+FRAME 242 2.4s
+10:24.859  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0243.png'
+FRAME 243 2.4s
+10:27.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0244.png'
+FRAME 244 2.4s
+10:29.594  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0245.png'
+FRAME 245 2.4s
+10:31.969  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0246.png'
+FRAME 246 2.4s
+10:34.344  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0247.png'
+FRAME 247 2.4s
+10:36.734  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0248.png'
+FRAME 248 2.4s
+10:39.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0249.png'
+FRAME 249 2.5s
+10:41.703  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0250.png'
+FRAME 250 2.5s
+10:44.109  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0251.png'
+FRAME 251 2.4s
+10:46.500  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0252.png'
+FRAME 252 2.4s
+10:48.891  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0253.png'
+FRAME 253 2.4s
+10:51.328  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0254.png'
+FRAME 254 2.4s
+10:53.719  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0255.png'
+FRAME 255 2.4s
+10:56.094  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0256.png'
+FRAME 256 2.4s
+10:58.484  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0257.png'
+FRAME 257 2.4s
+11:00.875  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0258.png'
+FRAME 258 2.4s
+11:03.250  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0259.png'
+FRAME 259 2.4s
+11:05.656  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0260.png'
+FRAME 260 2.4s
+11:08.016  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0261.png'
+FRAME 261 2.4s
+11:10.406  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0262.png'
+FRAME 262 2.4s
+11:12.766  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0263.png'
+FRAME 263 2.4s
+11:15.141  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0264.png'
+FRAME 264 2.4s
+11:17.531  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0265.png'
+FRAME 265 2.4s
+11:19.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0266.png'
+FRAME 266 2.4s
+11:22.297  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0267.png'
+FRAME 267 2.4s
+11:24.687  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0268.png'
+FRAME 268 2.4s
+11:27.078  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0269.png'
+FRAME 269 2.4s
+11:29.469  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0270.png'
+FRAME 270 2.4s
+11:31.812  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0271.png'
+FRAME 271 2.4s
+11:34.156  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0272.png'
+FRAME 272 2.3s
+11:36.531  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0273.png'
+FRAME 273 2.4s
+11:38.906  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0274.png'
+FRAME 274 2.4s
+11:41.312  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0275.png'
+FRAME 275 2.4s
+11:43.687  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0276.png'
+FRAME 276 2.4s
+11:46.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0277.png'
+FRAME 277 2.4s
+11:48.406  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0278.png'
+FRAME 278 2.4s
+11:50.750  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0279.png'
+FRAME 279 2.4s
+11:53.109  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0280.png'
+FRAME 280 2.3s
+11:55.484  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0281.png'
+FRAME 281 2.4s
+11:57.859  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0282.png'
+FRAME 282 2.4s
+12:00.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0283.png'
+FRAME 283 2.4s
+12:02.594  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0284.png'
+FRAME 284 2.4s
+12:04.969  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0285.png'
+FRAME 285 2.4s
+12:07.328  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0286.png'
+FRAME 286 2.4s
+12:09.656  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0287.png'
+FRAME 287 2.3s
+12:12.031  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0288.png'
+FRAME 288 2.4s
+12:14.406  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0289.png'
+FRAME 289 2.4s
+12:16.781  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0290.png'
+FRAME 290 2.4s
+12:19.219  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0291.png'
+FRAME 291 2.4s
+12:21.594  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0292.png'
+FRAME 292 2.4s
+12:23.937  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0293.png'
+FRAME 293 2.3s
+12:26.312  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0294.png'
+FRAME 294 2.4s
+12:28.672  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0295.png'
+FRAME 295 2.4s
+12:31.047  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0296.png'
+FRAME 296 2.4s
+12:33.437  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0297.png'
+FRAME 297 2.4s
+12:35.812  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0298.png'
+FRAME 298 2.4s
+12:38.156  render           | Saved: 'D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\frames\f0299.png'
+FRAME 299 2.4s
+RENDER_DONE 757.8s for 300 frames
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

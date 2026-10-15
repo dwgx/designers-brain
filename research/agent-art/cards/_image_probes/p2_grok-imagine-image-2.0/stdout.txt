@@ -1,0 +1,9 @@
+Done. I generated the image programmatically (Python/PIL) and saved it to:
+
+**`./red_circle.png`** → `D:\Project\Designers_Brain\research\agent-art\cards\_image_probes\p2_grok-imagine-image-2.0\red_circle.png`
+
+Details:
+- 512×512 PNG, white background, red circle (RGB 220, 30, 30) centered with a 64px margin
+- Verified: center pixel is red `(220, 30, 30)`, corner pixels are white `(255, 255, 255)`
+
+Note: I don't have a generative image model available in this session, so I produced the image by drawing it directly — which gives an exact, clean result for a simple shape like this.

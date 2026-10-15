@@ -1,0 +1,133 @@
+{
+ "steps": [
+  {
+   "name": "media_type_video",
+   "ok": true,
+   "secs": 0.04,
+   "result": {
+    "has_media_type": true,
+    "media_type_enum": [
+     "IMAGE",
+     "MULTI_LAYER_IMAGE",
+     "VIDEO"
+    ],
+    "default": "IMAGE",
+    "after_set_VIDEO": "VIDEO",
+    "file_format_after": "FFMPEG",
+    "is_movie_format": true,
+    "ffmpeg": {
+     "format": "MKV",
+     "codec": "H264",
+     "formats": [
+      "MPEG4",
+      "MKV",
+      "WEBM",
+      "AVI",
+      "DV",
+      "FLASH",
+      "MPEG1",
+      "MPEG2",
+      "OGG",
+      "QUICKTIME"
+     ],
+     "codecs": [
+      "NONE",
+      "AV1",
+      "H264",
+      "H265",
+      "WEBM",
+      "DNXHD",
+      "DV",
+      "FFV1",
+      "FLASH",
+      "HUFFYUV",
+      "MPEG1",
+      "MPEG2",
+      "MPEG4",
+      "PNG",
+      "PRORES",
+      "QTRLE",
+      "THEORA"
+     ],
+     "crf_enum": [
+      "NONE",
+      "LOSSLESS",
+      "PERC_LOSSLESS",
+      "HIGH",
+      "MEDIUM",
+      "LOW",
+      "VERYLOW",
+      "LOWEST",
+      "CUSTOM"
+     ],
+     "attrs": [
+      "audio_bitrate",
+      "audio_channels",
+      "audio_codec",
+      "audio_mixrate",
+      "audio_volume",
+      "buffersize",
+      "codec",
+      "constant_rate_factor",
+      "custom_constant_rate_factor",
+      "ffmpeg_preset",
+      "ffmpeg_prores_profile",
+      "format",
+      "gopsize",
+      "max_b_frames",
+      "maxrate",
+      "minrate",
+      "muxrate",
+      "packetsize",
+      "use_autosplit",
+      "use_lossless_output",
+      "use_max_b_frames",
+      "video_bitrate"
+     ]
+    }
+   }
+  },
+  {
+   "name": "blender_direct_mp4_30f",
+   "ok": true,
+   "secs": 3.64,
+   "result": {
+    "seconds": 3.63,
+    "file": "D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_video_test.mp4",
+    "exists": true,
+    "bytes": 22706
+   }
+  },
+  {
+   "name": "instancing_wave_144_objects",
+   "ok": true,
+   "secs": 0.04,
+   "result": {
+    "instances": 144,
+    "method": "object.copy() + shared mesh data + keyframed location",
+    "note": "same mesh data shared -> cheap; 144 objects"
+   }
+  },
+  {
+   "name": "gn_nodes_available",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "GeometryNodeInstanceOnPoints": true,
+    "GeometryNodeMeshGrid": true,
+    "GeometryNodeSetPosition": true,
+    "GeometryNodeInputPosition": true,
+    "GeometryNodeMath": false,
+    "GeometryNodeSine": false,
+    "GeometryNodeRealizeInstances": true
+   }
+  },
+  {
+   "name": "dof_config",
+   "ok": false,
+   "secs": 0.0,
+   "error": "AttributeError: 'NoneType' object has no attribute 'data'",
+   "tb": "Traceback (most recent call last):\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe6.py\", line 8, in step\n    r = fn()\n  File \"D:\\Project\\Designers_Brain\\research\\agent-art\\blender\\_probe6.py\", line 105, in f_dof_check\n    cam.data.dof.use_dof = True\n    ^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'data'\n"
+  }
+ ]
+}

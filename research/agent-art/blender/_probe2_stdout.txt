@@ -1,0 +1,6 @@
+D:\Project\Designers_Brain\research\agent-art\blender\_probe2.py:102: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new("M"); m.use_nodes = True
+PROBE2_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

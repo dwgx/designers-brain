@@ -1,0 +1,18 @@
+D:\Project\Designers_Brain\research\agent-art\blender\_probe3.py:35: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name); m.use_nodes = True
+00:03.922  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_render_eevee_.png'
+00:31.015  render           | Saved: 'D:\Project\Designers_Brain\research\agent-art\blender\_render_cycles_.png'
+00:31.125  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+D:\Project\Designers_Brain\research\agent-art\blender\_probe3.py:134: DeprecationWarning: 'Scene.use_nodes' is expected to be removed in Blender 6.0
+  sc.use_nodes = True
+D:\Project\Designers_Brain\research\agent-art\blender\_probe3.py:135: DeprecationWarning: 'Scene.use_nodes' is expected to be removed in Blender 6.0
+  out["use_nodes_after"] = sc.use_nodes
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+PROBE3_DONE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

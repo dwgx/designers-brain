@@ -1,0 +1,3 @@
+Working...
+403 the model provider refused this request; retry later or change the request - request content was rejected by content policy; adjust the prompt and retry
+the model provider refused this request; retry later or change the request - request content was rejected by content policy; adjust the prompt and retry (type=invalid_request_error)

@@ -1,0 +1,293 @@
+{
+ "steps": [
+  {
+   "name": "cycles_addon",
+   "ok": true,
+   "secs": 0.01,
+   "result": {
+    "addon_modules_matching": [
+     [
+      "cycles",
+      "Cycles Render Engine",
+      [
+       true,
+       true
+      ]
+     ]
+    ],
+    "enabled_addons": [
+     "bl_pkg",
+     "cycles",
+     "io_anim_bvh",
+     "io_curve_svg",
+     "io_mesh_uv_layout",
+     "io_scene_fbx",
+     "io_scene_gltf2",
+     "pose_library"
+    ]
+   }
+  },
+  {
+   "name": "engine_enum",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "enum": [
+     "BLENDER_EEVEE"
+    ],
+    "set_CYCLES": "OK",
+    "set_BLENDER_EEVEE": "OK",
+    "set_BLENDER_WORKBENCH": "OK"
+   }
+  },
+  {
+   "name": "motion_blur",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "scene.render.use_motion_blur": false,
+    "scene.render.motion_blur_shutter": 0.5,
+    "has_scene.cycles": true,
+    "cycles_attrs_motion": [
+     "blur_glossy"
+    ],
+    "eevee_motion": {
+     "motion_blur_max": 32,
+     "motion_blur_steps": 1,
+     "motion_blur_depth_scale": 100.0
+    }
+   }
+  },
+  {
+   "name": "camera_dof",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "dof_attrs": [
+     "dof"
+    ],
+    "dof_defaults": {
+     "use_dof": false,
+     "focus_distance": 10.0,
+     "aperture_fstop": 2.799999952316284,
+     "aperture_blades": 0
+    }
+   }
+  },
+  {
+   "name": "physics_ops",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "rigidbody_ops": [
+     "bake_to_keyframes",
+     "connect",
+     "constraint_add",
+     "constraint_remove",
+     "mass_calculate",
+     "object_add",
+     "object_remove",
+     "object_settings_copy",
+     "objects_add",
+     "objects_remove",
+     "shape_change",
+     "world_add",
+     "world_remove"
+    ],
+    "has_rigidbody_object_add": true,
+    "has_rigidbody_world_add": true,
+    "has_cloth_ops": true,
+    "object_modifier_add": true,
+    "has_sim_physics_bake": true
+   }
+  },
+  {
+   "name": "ffmpeg_settings",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "format": "MPEG1",
+    "codec": "NONE",
+    "formats": [
+     "MPEG4",
+     "MKV",
+     "WEBM",
+     "AVI",
+     "DV",
+     "FLASH",
+     "MPEG1",
+     "MPEG2",
+     "OGG",
+     "QUICKTIME"
+    ],
+    "codecs": [
+     "NONE",
+     "AV1",
+     "H264",
+     "H265",
+     "WEBM",
+     "DNXHD",
+     "DV",
+     "FFV1",
+     "FLASH",
+     "HUFFYUV",
+     "MPEG1",
+     "MPEG2",
+     "MPEG4",
+     "PNG",
+     "PRORES",
+     "QTRLE",
+     "THEORA"
+    ],
+    "container": "ABSENT",
+    "constant_rate_factor": "NONE"
+   }
+  },
+  {
+   "name": "color_management",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "view_transform_enum": [
+     "NONE"
+    ],
+    "look_enum": [
+     "NONE"
+    ]
+   }
+  },
+  {
+   "name": "geometry_nodes",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "has_geometry_node_tree": true,
+    "gn_node_types_sample": [
+     "GeometryNode",
+     "GeometryNodeAccumulateField",
+     "GeometryNodeApplySimulatedData",
+     "GeometryNodeAttributeDomainSize",
+     "GeometryNodeAttributeStatistic",
+     "GeometryNodeBake",
+     "GeometryNodeBlurAttribute",
+     "GeometryNodeBoneInfo",
+     "GeometryNodeBoundBox",
+     "GeometryNodeCameraInfo",
+     "GeometryNodeCaptureAttribute",
+     "GeometryNodeClosureToList",
+     "GeometryNodeClosureToListItem",
+     "GeometryNodeClosureToListItems",
+     "GeometryNodeClusterByConnected",
+     "GeometryNodeClusterByDistance",
+     "GeometryNodeCollectionChildren",
+     "GeometryNodeCollectionInfo",
+     "GeometryNodeConvexHull",
+     "GeometryNodeCornersOfEdge",
+     "GeometryNodeCornersOfFace",
+     "GeometryNodeCornersOfVertex",
+     "GeometryNodeCubeGridTopology",
+     "GeometryNodeCurveArc",
+     "GeometryNodeCurveEndpointSelection",
+     "GeometryNodeCurveHandleTypeSelection",
+     "GeometryNodeCurveLength",
+     "GeometryNodeCurveOfPoint",
+     "GeometryNodeCurvePrimitiveBezierSegment",
+     "GeometryNodeCurvePrimitiveCircle"
+    ],
+    "has_instance_on_points": true
+   }
+  },
+  {
+   "name": "lights",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "light_types": [
+     "POINT",
+     "SUN",
+     "SPOT",
+     "AREA"
+    ],
+    "area_attrs": [
+     "shadow_filter_radius",
+     "shadow_soft_size",
+     "shape",
+     "size",
+     "size_y",
+     "spread"
+    ],
+    "size": 0.25,
+    "shape": "SQUARE"
+   }
+  },
+  {
+   "name": "principled_bsdf",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "principled_inputs": [
+     "Base Color",
+     "Metallic",
+     "Roughness",
+     "IOR",
+     "Alpha",
+     "Thin Wall",
+     "Normal",
+     "Weight",
+     "Diffuse Roughness",
+     "Subsurface Weight",
+     "Subsurface Radius",
+     "Subsurface Scale",
+     "Subsurface IOR",
+     "Subsurface Anisotropy",
+     "Specular IOR Level",
+     "Specular Tint",
+     "Anisotropic",
+     "Anisotropic Rotation",
+     "Tangent",
+     "Transmission Weight",
+     "Coat Weight",
+     "Coat Roughness",
+     "Coat IOR",
+     "Coat Tint",
+     "Coat Normal",
+     "Sheen Weight",
+     "Sheen Roughness",
+     "Sheen Tint",
+     "Emission Color",
+     "Emission Strength",
+     "Thin Film Thickness",
+     "Thin Film IOR"
+    ],
+    "material_node_types_sample": [
+     "ShaderNodeBsdfAnisotropic",
+     "ShaderNodeBsdfDiffuse",
+     "ShaderNodeBsdfGlass",
+     "ShaderNodeBsdfHair",
+     "ShaderNodeBsdfHairPrincipled",
+     "ShaderNodeBsdfMetallic",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeBsdfRayPortal",
+     "ShaderNodeBsdfRefraction",
+     "ShaderNodeBsdfSheen",
+     "ShaderNodeBsdfToon",
+     "ShaderNodeBsdfTranslucent",
+     "ShaderNodeBsdfTransparent"
+    ]
+   }
+  },
+  {
+   "name": "output_settings",
+   "ok": true,
+   "secs": 0.0,
+   "result": {
+    "filepath": "/tmp\\",
+    "image_settings_file_format": "PNG",
+    "color_mode": "RGBA",
+    "color_depth": "8",
+    "has_use_overwrite": true,
+    "resolution_percentage": 100
+   }
+  }
+ ]
+}

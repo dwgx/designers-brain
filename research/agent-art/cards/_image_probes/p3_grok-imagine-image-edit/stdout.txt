@@ -1,0 +1,4 @@
+Done — image generated and verified (I rendered it programmatically with Pillow, since no image-model tool is available in this session).
+
+- **Saved to:** `D:\Project\Designers_Brain\research\agent-art\cards\_image_probes\p3_grok-imagine-image-edit\red_circle.png`
+- **Contents:** 512×512 PNG, white background, solid red circle (RGB 220, 30, 30) centered with a 64px margin — confirmed by re-reading the file.

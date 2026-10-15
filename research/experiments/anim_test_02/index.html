@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head><meta charset="utf-8">
+<title>anim_test_02 — 一笔画 ONE LINE（山野骑行）</title>
+<style>html,body{margin:0;padding:0;background:#f8f5ee;overflow:hidden}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script src="cues.js"></script>
+<script>
+"use strict";
+/* =============================================================================
+   anim_test_02 / B-17「一笔画 ONE LINE」（卡片 08，内容槽：自行车→太阳→山脊→徽章→山野骑行）
+   契约：window.seek(frame) 为纯函数 —— 同一帧号任何时候渲染出同一画面。
+   结构：整片 = 一条折线 V[]（顶点可标 sun 组）；reveal 按「成本」沿折线推进；
+        sun 组顶点可整体平移/缩放（前轮→太阳的升起与落入）。
+   ============================================================================= */
+const FPS = 30, NFRAMES = 300, W = 1920, H = 1080;
+const cv = document.getElementById('c');
+const ctx = cv.getContext('2d');
+
+const HEX = {
+  paper:'#f8f5ee', ink:'#332f2a',
+  sky:'#f6c453', mtn:'#38684e', sun:'#e2662e',
+  dot:'#ff9d1f', text:'#2f5d45'
+};
+const LINE_W = 3.5;      // 线宽不变
+const K_TURN = 2.8;      // 拐弯慢直线快：成本 = 长度 x (1 + K·转角)
+
+/* ---------------- 几何构建 ---------------- */
+const V = [];            // {x,y,g,w}  g=1 → sun 组；w = 拐弯惩罚权重（射线装饰段用低权重）
+function push(x, y, g, w){ V.push({ x:x, y:y, g:g||0, w:(w===undefined?1:w) }); }
+function seg(x0,y0,x1,y1,g,w){
+  const n = Math.max(1, Math.ceil(Math.hypot(x1-x0, y1-y0) / 3));
+  for (let i=1;i<=n;i++) push(x0+(x1-x0)*i/n, y0+(y1-y0)*i/n, g, w);
+}
+function arc(cx,cy,r,a0,a1,g){
+  const n = Math.max(8, Math.ceil(Math.abs(a1-a0)*r/3));
+  for (let i=1;i<=n;i++){ const a=a0+(a1-a0)*i/n; push(cx+r*Math.cos(a), cy+r*Math.sin(a), g); }
+}
+function ell(cx,cy,rx,ry,a0,a1,g){
+  const n = Math.max(8, Math.ceil(Math.abs(a1-a0)*Math.max(rx,ry)/3));
+  for (let i=1;i<=n;i++){ const a=a0+(a1-a0)*i/n; push(cx+rx*Math.cos(a), cy+ry*Math.sin(a), g); }
+}
+
+/* ---- 路线（按画笔顺序；每形状尾巴接下一形状开头） ---- */
+push(445, 900, 0);                                  // 起笔：后轮最右点
+arc(360,900,85, 0, -2*Math.PI, 0);                  // ① 后轮一圈
+seg(445,900, 510,928, 0);                           // ② 连到牙盘右缘
+arc(485,928,25, 0, -2*Math.PI, 0);                  // ③ 牙盘一圈
+seg(510,928, 447,742, 0);                           // ④ 座管
+seg(447,742, 495,739, 0);                           // ⑤ 到坐垫前端
+ell(447,739,48,9, 0, -2*Math.PI, 0);                // ⑥ 坐垫（扁椭圆）
+seg(495,739, 594,782, 0);                           // ⑦ 上管
+seg(594,782, 595,766, 0);                           // ⑧ 把立
+seg(595,766, 700,770, 0);                           // ⑨ 车把上沿
+seg(700,770, 708,779, 0);                           // ⑩ 把端钩
+seg(708,779, 706,787, 0);
+seg(706,787, 610,779, 0);                           // ⑪ 车把下沿
+seg(610,779, 602,820, 0);                           // ⑫ 头管
+push(640,900, 1);                                   // ⑬ 前叉：一段直线（末端=轴心，属 sun 组 → 太阳升起时变牵线）
+const iAxle = V.length - 1;
+seg(640,900, 640,985, 1);                           // ⑭ 辐条
+arc(640,900,85, Math.PI/2, Math.PI/2-2*Math.PI, 1); // ⑮ 前轮一圈
+const iBike = V.length - 1;                         // bike 相位终点（=轮底=射线起点）
+/* 太阳射线：一笔甩出的锯齿（15 根，外半径 137 / 内半径 90；低拐弯权重=手腕快甩） */
+{
+  let px = 640, py = 985;                                  // 起点=轮底
+  for (let k=0;k<15;k++){
+    const aOut = Math.PI/2 + k*(24*Math.PI/180);
+    const ox = 640+137*Math.cos(aOut), oy = 900+137*Math.sin(aOut);
+    seg(px,py, ox,oy, 1, 0.08);
+    const aIn = aOut + 24*Math.PI/180;
+    const ix = 640+90*Math.cos(aIn), iy = 900+90*Math.sin(aIn);
+    seg(ox,oy, ix,iy, 1, 0.08);
+    px = ix; py = iy;
+  }
+}
+const iRays = V.length - 1;                         // rays 相位终点
+/* 山脊：太阳底 → 左坡 → 峰1 → 山口 → 峰2 → 右坡脚（徽章圆起点）
+   连接线为单段（起点=太阳底，属 sun 组 → 随太阳升落伸缩） */
+push(900,690, 0);
+seg(900,690, 975,500, 0);
+seg(975,500, 1055,578, 0);
+seg(1055,578, 1135,468, 0);
+seg(1135,468, 1271,655, 0);
+const iRidge = V.length - 1;
+/* 徽章圆：从右坡脚（35°）顺时针一整圈闭合 */
+arc(1050,500,270, 35*Math.PI/180, 35*Math.PI/180 + 2*Math.PI, 0);
+const N = V.length;
+
+/* ---------------- 成本模型（拐弯慢直线快：转角密度沿路径平滑 ±3σ） ---------------- */
+const segLen = new Float64Array(N);      // segLen[i] = |V[i-1]→V[i]|
+const sPos  = new Float64Array(N);       // 弧长坐标
+{
+  for (let i=1;i<N;i++){
+    segLen[i] = Math.hypot(V[i].x-V[i-1].x, V[i].y-V[i-1].y);
+    sPos[i] = sPos[i-1] + segLen[i];
+  }
+}
+const TURN_MIN = 0.25;                   // 小于 ~14° 的连续弯（如圆）不计惩罚
+const pen = new Float64Array(N);
+{
+  for (let i=1;i<N-1;i++){
+    const dx=V[i].x-V[i-1].x, dy=V[i].y-V[i-1].y;
+    const dx2=V[i+1].x-V[i].x, dy2=V[i+1].y-V[i].y;
+    const l1=segLen[i], l2=Math.hypot(dx2,dy2);
+    if (l1>1e-9 && l2>1e-9){
+      let c = (dx*dx2+dy*dy2)/(l1*l2);
+      c = Math.max(-1, Math.min(1, c));
+      const th = Math.acos(c) * V[i].w;
+      pen[i] = Math.max(0, th - TURN_MIN);
+    }
+  }
+}
+const SIG = 35;                          // 平滑尺度（px）：拐弯前后 ~±70px 内减速
+const D = new Float64Array(N);
+{
+  for (let i=0;i<N;i++){
+    let a = 0;
+    for (let j=i;   j>=0 && (sPos[i]-sPos[j])<3*SIG; j--) a += pen[j]*Math.exp(-Math.pow((sPos[i]-sPos[j])/SIG,2));
+    for (let j=i+1; j<N  && (sPos[j]-sPos[i])<3*SIG; j++) a += pen[j]*Math.exp(-Math.pow((sPos[j]-sPos[i])/SIG,2));
+    D[i] = a;
+  }
+}
+const cost = new Float64Array(N);
+{
+  let acc = 0;
+  for (let i=1;i<N;i++){
+    acc += segLen[i] * (1 + K_TURN*D[i]);
+    cost[i] = acc;
+  }
+}
+const C_BIKE = cost[iBike], C_RAYS = cost[iRays], C_RIDGE = cost[iRidge], C_TOTAL = cost[N-1];
+
+/* ---------------- 相位 → 成本 ---------------- */
+const PH = window.CUES.phases;
+function phaseOf(name){ for (const p of PH) if (p.name===name) return p; throw new Error(name); }
+const CB = {
+  bike:  [0,       C_BIKE ],
+  rays:  [C_BIKE,  C_RAYS ],
+  ridge: [C_RAYS,  C_RIDGE],
+  badge: [C_RIDGE, C_TOTAL],
+  rise:  [C_RAYS,  C_RAYS ],
+  fall:  [C_RIDGE, C_RIDGE],
+  fill:  [C_TOTAL, C_TOTAL],
+  text:  [C_TOTAL, C_TOTAL]
+};
+function smooth(u){ return u*u*(3-2*u); }
+function phaseAt(f){
+  for (const p of PH) if (f>=p.f0 && f<p.f1) return p;
+  return PH[PH.length-1];
+}
+function costAt(f){
+  const p = phaseAt(f);
+  const c0 = CB[p.name][0], c1 = CB[p.name][1];
+  const u = Math.min(1, Math.max(0, (f-p.f0)/(p.f1-p.f0)));
+  return c0 + (c1-c0)*smooth(u);
+}
+function posAtCost(c){
+  if (c <= 0) return { i:0, t:0 };
+  if (c >= C_TOTAL) return { i:N-1, t:0 };
+  let lo=0, hi=N-1;
+  while (hi-lo > 1){ const m=(lo+hi)>>1; if (cost[m] <= c) lo=m; else hi=m; }
+  const t = (c-cost[lo])/((cost[hi]-cost[lo]) || 1);
+  return { i:lo, t:t };
+}
+
+/* ---------------- sun 组变换（升起/落入） ---------------- */
+const SUN0  = { cx:640,  cy:900 };     // 前轮原位
+const SUN_SKY = { cx:1030, cy:415 };   // 升起位
+const SUN_LAND= { cx:1055, cy:560 };   // 落入山口位
+const P_RISE = phaseOf('rise'), P_FALL = phaseOf('fall');
+function sunXf(f){
+  if (f < P_RISE.f0) return { cx:SUN0.cx, cy:SUN0.cy, s:1 };
+  if (f < P_RISE.f1){
+    const u = smooth((f-P_RISE.f0)/(P_RISE.f1-P_RISE.f0));
+    return { cx:SUN0.cx+(SUN_SKY.cx-SUN0.cx)*u, cy:SUN0.cy+(SUN_SKY.cy-SUN0.cy)*u, s:1 };
+  }
+  if (f < P_FALL.f0) return { cx:SUN_SKY.cx, cy:SUN_SKY.cy, s:1 };
+  if (f < P_FALL.f1){
+    const u0 = (f-P_FALL.f0)/(P_FALL.f1-P_FALL.f0);
+    const u = u0*u0;   // 重力：先慢后快
+    return { cx:SUN_SKY.cx+(SUN_LAND.cx-SUN_SKY.cx)*u,
+             cy:SUN_SKY.cy+(SUN_LAND.cy-SUN_SKY.cy)*u,
+             s:1+(0.62-1)*u };
+  }
+  return { cx:SUN_LAND.cx, cy:SUN_LAND.cy, s:0.62 };
+}
+function posOf(v, xf){
+  if (!v.g) return [v.x, v.y];
+  return [ xf.cx + (v.x-SUN0.cx)*xf.s, xf.cy + (v.y-SUN0.cy)*xf.s ];
+}
+
+/* ---------------- 徽章/山脊/填色几何 ---------------- */
+const BADGE = { cx:1050, cy:500, r:270 };
+const RIDGE_PTS = [[900,690],[975,500],[1055,578],[1135,468],[1271,655]];
+function badgePath(){ ctx.beginPath(); ctx.arc(BADGE.cx, BADGE.cy, BADGE.r, 0, 2*Math.PI); }
+function ridgePath(){ ctx.beginPath(); ctx.moveTo(RIDGE_PTS[0][0], RIDGE_PTS[0][1]);
+  for (let i=1;i<RIDGE_PTS.length;i++) ctx.lineTo(RIDGE_PTS[i][0], RIDGE_PTS[i][1]); }
+function mtnPoly(){ ridgePath(); ctx.lineTo(1400,790); ctx.lineTo(700,790); ctx.closePath(); }
+function aboveRidgePoly(){ ridgePath(); ctx.lineTo(1400,0); ctx.lineTo(700,0); ctx.closePath(); }
+
+/* ---------------- 渲染 ---------------- */
+const P_FILL = phaseOf('fill'), P_TEXT = phaseOf('text');
+const DOT_FADE0 = P_FILL.f0, DOT_FADE1 = P_FILL.f0 + 12;
+function wipeR(f){
+  if (f <= P_FILL.f0) return 0;
+  const u = Math.min(1, (f-P_FILL.f0)/(P_FILL.f1-P_FILL.f0));
+  return 340 * smooth(u);
+}
+function penTip(xf, rev){
+  if (rev.t > 0 && rev.i < N-1){
+    const a = posOf(V[rev.i], xf), b = posOf(V[rev.i+1], xf);
+    return [ a[0]+(b[0]-a[0])*rev.t, a[1]+(b[1]-a[1])*rev.t ];
+  }
+  return posOf(V[rev.i], xf);
+}
+function inkPath(xf, rev){
+  ctx.beginPath();
+  const p0 = posOf(V[0], xf);
+  ctx.moveTo(p0[0], p0[1]);
+  for (let i=1;i<=rev.i;i++){ const p = posOf(V[i], xf); ctx.lineTo(p[0], p[1]); }
+  if (rev.t > 0 && rev.i < N-1){
+    const a = posOf(V[rev.i], xf), b = posOf(V[rev.i+1], xf);
+    ctx.lineTo(a[0]+(b[0]-a[0])*rev.t, a[1]+(b[1]-a[1])*rev.t);
+  }
+}
+function sunPath(xf){
+  ctx.beginPath();
+  let first = true;
+  for (let i=iAxle;i<=iRays;i++){
+    const p = posOf(V[i], xf);
+    if (first){ ctx.moveTo(p[0],p[1]); first=false; } else ctx.lineTo(p[0],p[1]);
+  }
+}
+function drawDot(p, a){
+  if (a <= 0.003) return;
+  const g = ctx.createRadialGradient(p[0],p[1],0, p[0],p[1],34);
+  g.addColorStop(0,   'rgba(255,157,31,'+(0.55*a).toFixed(4)+')');
+  g.addColorStop(0.35,'rgba(255,157,31,'+(0.16*a).toFixed(4)+')');
+  g.addColorStop(1,   'rgba(255,157,31,0)');
+  ctx.fillStyle = g;
+  ctx.beginPath(); ctx.arc(p[0],p[1],34,0,2*Math.PI); ctx.fill();
+  ctx.fillStyle = 'rgba(255,157,31,'+a.toFixed(4)+')';
+  ctx.beginPath(); ctx.arc(p[0],p[1],6.5,0,2*Math.PI); ctx.fill();
+}
+function drawText(f){
+  const u = Math.max(0, Math.min(1, (f-P_TEXT.f0)/9));
+  const a = smooth(u);
+  if (a <= 0) return;
+  ctx.save();
+  ctx.globalAlpha = a;
+  ctx.fillStyle = HEX.text;
+  ctx.font = '700 86px "Microsoft YaHei","SimHei",sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.letterSpacing = '26px';
+  ctx.fillText('山野骑行', 1050, 890 + 16*(1-a));
+  ctx.restore();
+}
+function render(f){
+  /* ① 纸面 */
+  ctx.fillStyle = HEX.paper;
+  ctx.fillRect(0, 0, W, H);
+  const xf = sunXf(f);
+  const rev = posAtCost(costAt(f));
+  /* ② 笔尖光点（画在墨线之下：光晕在纸面、线帽压住点心，线不断） */
+  if (f < DOT_FADE1){
+    const a = f < DOT_FADE0 ? 1 : 1-(f-DOT_FADE0)/(DOT_FADE1-DOT_FADE0);
+    drawDot(penTip(xf, rev), a);
+  }
+  /* ③ 墨线：已画出的那一段（整片唯一的一条线） */
+  inkPath(xf, rev);
+  ctx.lineWidth = LINE_W;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  ctx.strokeStyle = HEX.ink;
+  ctx.stroke();
+  /* ④ 填色：最后一个形状（徽章圆）闭合后，从太阳落点向外铺满 */
+  if (f >= P_FILL.f0){
+    const R = wipeR(f);
+    const wx = SUN_LAND.cx, wy = SUN_LAND.cy;
+    ctx.save();                                        // 填色层
+    ctx.beginPath(); ctx.arc(wx,wy,R,0,2*Math.PI); ctx.clip();
+    badgePath(); ctx.clip();
+    ctx.fillStyle = HEX.sky; ctx.fillRect(0,0,W,H);    // 天空
+    ctx.beginPath(); ctx.arc(xf.cx, xf.cy, 85*xf.s, 0, 2*Math.PI);
+    ctx.fillStyle = HEX.sun; ctx.fill();               // 太阳盘
+    mtnPoly(); ctx.fillStyle = HEX.mtn; ctx.fill();    // 山体
+    ctx.restore();
+    ctx.save();                                        // 重描层：线稿浮回色块之上
+    ctx.beginPath(); ctx.arc(wx,wy,R+3,0,2*Math.PI); ctx.clip();   // +3px 与底墨重叠，避免接缝
+    badgePath(); ctx.clip();
+    ridgePath();
+    ctx.lineWidth = LINE_W; ctx.lineCap='round'; ctx.lineJoin='round';
+    ctx.strokeStyle = HEX.ink; ctx.stroke();           // 山口线
+    badgePath(); ctx.stroke();                         // 徽章圆
+    ctx.save();
+    aboveRidgePoly(); ctx.clip();                      // 太阳只在山脊线以上可见
+    sunPath(xf); ctx.stroke();
+    ctx.restore();
+    ctx.restore();
+  }
+  /* ⑤ 结尾文案 */
+  drawText(f);
+}
+
+/* ---------------- 对外接口 ---------------- */
+window.seek = function(frame){
+  const f = Math.max(0, Math.min(NFRAMES-1, frame|0));
+  render(f);
+  return f;
+};
+window.__meta = {
+  fps: FPS, frames: NFRAMES, width: W, height: H,
+  routeVerts: N,
+  routePx: Math.round(cost[N-1]),
+  lineWidth: LINE_W, lineCap: 'round', lineJoin: 'round',
+  phases: PH.map(p => ({ name:p.name, f0:p.f0, f1:p.f1, draw:p.draw })),
+  cost: { bike: Math.round(C_BIKE), rays: Math.round(C_RAYS), ridge: Math.round(C_RIDGE), total: Math.round(C_TOTAL) }
+};
+/* 速度剖面（自查证据：直线快/拐弯慢，px/帧） */
+window.__speed = (function(){
+  const rate = {};
+  for (const p of PH){
+    const c0 = CB[p.name][0], c1 = CB[p.name][1];
+    rate[p.name] = (c1-c0)/Math.max(1, p.f1-p.f0);
+  }
+  function phaseOfCost(c){
+    if (c < C_BIKE)  return 'bike';
+    if (c < C_RAYS)  return 'rays';
+    if (c < C_RIDGE) return 'ridge';
+    return 'badge';
+  }
+  let sSum=0, sN=0, cMin=1e9, cAt=null, cD=0;
+  for (let i=1;i<N;i++){
+    const r = rate[phaseOfCost(cost[i])];
+    const v = r / (1 + K_TURN*D[i]);        // px/帧
+    if (D[i] < 0.05){ sSum += v; sN++; }
+    if (D[i] > cD){ cD = D[i]; cMin = v; cAt = [Math.round(V[i].x), Math.round(V[i].y)]; }
+  }
+  const sAvg = sSum/Math.max(1,sN);
+  return { straightPxPerFrame: +sAvg.toFixed(1), cornerPxPerFrame: +cMin.toFixed(1),
+           ratio: +(sAvg/Math.max(1e-9,cMin)).toFixed(1), cornerAt: cAt,
+           cornerDensity: +cD.toFixed(2) };
+})();
+window.__selftest = (function(){
+  let maxGap = 0, at = -1, sunN = 0, longN = 0;
+  const longs = [];
+  for (let i=1;i<N;i++){
+    const g = Math.hypot(V[i].x-V[i-1].x, V[i].y-V[i-1].y);
+    if (g > maxGap){ maxGap = g; at = i; }
+    if (g > 12){ longN++; if (longs.length < 6) longs.push([Math.round(V[i-1].x),Math.round(V[i-1].y),Math.round(V[i].x),Math.round(V[i].y),+g.toFixed(1)]); }
+    if (V[i].g) sunN++;
+  }
+  /* 仅允许两段有意的长直段：前叉（88.6px）与山脊连接线（397px，起点属 sun 组随太阳伸缩） */
+  const ok = maxGap < 420 && longN <= 2 && sunN > 100;
+  return { ok: ok, maxGap: +maxGap.toFixed(3), at: at,
+           longSegs: longs, sunVerts: sunN, verts: N };
+})();
+document.fonts.ready.then(() => { window.seek(0); window.__ready = true; });
+</script>
+</body>
+</html>

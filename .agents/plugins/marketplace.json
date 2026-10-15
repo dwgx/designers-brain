@@ -1,0 +1,20 @@
+{
+  "name": "designers-brain-dev",
+  "interface": {
+    "displayName": "Designers Brain"
+  },
+  "plugins": [
+    {
+      "name": "designers-brain",
+      "source": {
+        "source": "local",
+        "path": "./plugins/designers-brain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

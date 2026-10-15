@@ -1,0 +1,252 @@
+[build    0.0s] eevee: samples 64 rt True rt_res 1 mb_steps 16
+D:\Project\Designers_Brain\research\experiments\anim_test_03_blender\build_scene.py:115: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+[build    0.0s] materials done: ['amber', 'aqua', 'chrome', 'clear', 'cyc', 'gold', 'lime', 'rose', 'rubber', 'sky', 'violet']
+[build    0.0s] cyc done, verts 3577
+[build    0.1s] marbles: 195 + deco: 75 | shared mesh users: 272
+[build    0.1s] strays: 7
+[build    0.1s] PLAY: verts 1148, bbox w 2.550 h 0.872 t 0.781
+[build    0.1s] lights done
+[build    0.1s] world done
+[build    0.1s] physics set: world + 195 marbles + PLAY
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+bake: frame 78 :: 299
+bake: frame 79 :: 299
+bake: frame 80 :: 299
+bake: frame 81 :: 299
+bake: frame 82 :: 299
+bake: frame 83 :: 299
+bake: frame 84 :: 299
+bake: frame 85 :: 299
+bake: frame 86 :: 299
+bake: frame 87 :: 299
+bake: frame 88 :: 299
+bake: frame 89 :: 299
+bake: frame 90 :: 299
+bake: frame 91 :: 299
+bake: frame 92 :: 299
+bake: frame 93 :: 299
+bake: frame 94 :: 299
+bake: frame 95 :: 299
+bake: frame 96 :: 299
+bake: frame 97 :: 299
+bake: frame 98 :: 299
+bake: frame 99 :: 299
+bake: frame 100 :: 299
+bake: frame 101 :: 299
+bake: frame 102 :: 299
+bake: frame 103 :: 299
+bake: frame 104 :: 299
+bake: frame 105 :: 299
+bake: frame 106 :: 299
+bake: frame 107 :: 299
+bake: frame 108 :: 299
+bake: frame 109 :: 299
+bake: frame 110 :: 299
+bake: frame 111 :: 299
+bake: frame 112 :: 299
+bake: frame 113 :: 299
+bake: frame 114 :: 299
+bake: frame 115 :: 299
+bake: frame 116 :: 299
+bake: frame 117 :: 299
+bake: frame 118 :: 299
+bake: frame 119 :: 299
+bake: frame 120 :: 299
+bake: frame 121 :: 299
+bake: frame 122 :: 299
+bake: frame 123 :: 299
+bake: frame 124 :: 299
+bake: frame 125 :: 299
+bake: frame 126 :: 299
+bake: frame 127 :: 299
+bake: frame 128 :: 299
+bake: frame 129 :: 299
+bake: frame 130 :: 299
+bake: frame 131 :: 299
+bake: frame 132 :: 299
+bake: frame 133 :: 299
+bake: frame 134 :: 299
+bake: frame 135 :: 299
+bake: frame 136 :: 299
+bake: frame 137 :: 299
+bake: frame 138 :: 299
+bake: frame 139 :: 299
+bake: frame 140 :: 299
+bake: frame 141 :: 299
+bake: frame 142 :: 299
+bake: frame 143 :: 299
+bake: frame 144 :: 299
+bake: frame 145 :: 299
+bake: frame 146 :: 299
+bake: frame 147 :: 299
+bake: frame 148 :: 299
+bake: frame 149 :: 299
+bake: frame 150 :: 299
+bake: frame 151 :: 299
+bake: frame 152 :: 299
+bake: frame 153 :: 299
+bake: frame 154 :: 299
+bake: frame 155 :: 299
+bake: frame 156 :: 299
+bake: frame 157 :: 299
+bake: frame 158 :: 299
+bake: frame 159 :: 299
+bake: frame 160 :: 299
+bake: frame 161 :: 299
+bake: frame 162 :: 299
+bake: frame 163 :: 299
+bake: frame 164 :: 299
+bake: frame 165 :: 299
+bake: frame 166 :: 299
+bake: frame 167 :: 299
+bake: frame 168 :: 299
+bake: frame 169 :: 299
+bake: frame 170 :: 299
+bake: frame 171 :: 299
+bake: frame 172 :: 299
+bake: frame 173 :: 299
+bake: frame 174 :: 299
+bake: frame 175 :: 299
+bake: frame 176 :: 299
+bake: frame 177 :: 299
+bake: frame 178 :: 299
+bake: frame 179 :: 299
+bake: frame 180 :: 299
+bake: frame 181 :: 299
+bake: frame 182 :: 299
+bake: frame 183 :: 299
+bake: frame 184 :: 299
+bake: frame 185 :: 299
+bake: frame 186 :: 299
+bake: frame 187 :: 299
+bake: frame 188 :: 299
+bake: frame 189 :: 299
+bake: frame 190 :: 299
+bake: frame 191 :: 299
+bake: frame 192 :: 299
+bake: frame 193 :: 299
+bake: frame 194 :: 299
+bake: frame 195 :: 299
+bake: frame 196 :: 299
+bake: frame 197 :: 299
+bake: frame 198 :: 299
+bake: frame 199 :: 299
+bake: frame 200 :: 299
+bake: frame 201 :: 299
+bake: frame 202 :: 299
+bake: frame 203 :: 299
+bake: frame 204 :: 299
+bake: frame 205 :: 299
+bake: frame 206 :: 299
+bake: frame 207 :: 299
+bake: frame 208 :: 299
+bake: frame 209 :: 299
+bake: frame 210 :: 299
+bake: frame 211 :: 299
+bake: frame 212 :: 299
+bake: frame 213 :: 299
+bake: frame 214 :: 299
+bake: frame 215 :: 299
+bake: frame 216 :: 299
+bake: frame 217 :: 299
+bake: frame 218 :: 299
+bake: frame 219 :: 299
+bake: frame 220 :: 299
+bake: frame 221 :: 299
+bake: frame 222 :: 299
+bake: frame 223 :: 299
+bake: frame 224 :: 299
+bake: frame 225 :: 299
+bake: frame 226 :: 299
+bake: frame 227 :: 299
+bake: frame 228 :: 299
+bake: frame 229 :: 299
+bake: frame 230 :: 299
+bake: frame 231 :: 299
+bake: frame 232 :: 299
+bake: frame 233 :: 299
+bake: frame 234 :: 299
+bake: frame 235 :: 299
+bake: frame 236 :: 299
+bake: frame 237 :: 299
+bake: frame 238 :: 299
+bake: frame 239 :: 299
+bake: frame 240 :: 299
+bake: frame 241 :: 299
+bake: frame 242 :: 299
+bake: frame 243 :: 299
+bake: frame 244 :: 299
+bake: frame 245 :: 299
+bake: frame 246 :: 299
+bake: frame 247 :: 299
+bake: frame 248 :: 299
+bake: frame 249 :: 299
+bake: frame 250 :: 299
+bake: frame 251 :: 299
+bake: frame 252 :: 299
+bake: frame 253 :: 299
+bake: [build   62.1s] rigid bake done in 62.0s (pc range 78..299)
+[build   62.3s] sim done in 62.2s
+[build   62.3s] pz coarse: [3.05, 2.96, 2.7, 2.26, 1.65, 0.87, 0.68, 0.89, 0.92, 0.77, 0.52, 0.57, 0.52, 0.52, 0.5, 0.5, 0.49, 0.49, 0.48, 0.47, 0.45, 0.4, 0.31, 0.25, 0.18, 0.07, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+[build   63.4s] physics stripped; remaining rigid bodies: 0 | world: None
+[build   63.4s] contacts: [(100, 7.05), (159, 2.6)]
+[build   63.4s] pop layer: max hop = 0.899
+[build   63.9s] marble keys done in 0.4s (168 keys each)
+[build   64.0s] deco keys done
+[build   64.0s] squash: max |s| = 0.373 at t=3.40s
+[build   64.0s] PLAY keys done (c1=100)
+[build   64.0s] camera keys done; c1=100
+[build   64.0s] compositor done {'Type': 'Bloom', 'Quality': 'High', 'Threshold': 1.5, 'Strength': 0.08, 'Size': 0.4}
+[build   64.0s] post-bake check: marble0 delta at f200 = 0.000000
+Info: Saved as "scene.blend"
+[build   64.0s] saved scene.blend; stats: {"contacts": [[100, 7.05], [159, 2.6]], "play_z_f100": 0.517, "play_z_f150": 0.481, "play_z_f250": 0.0, "play_z_f299": 0.0, "marbles_moved_gt_03": 54, "marbles_moved_gt_10": 45, "max_radial_disp": 2.639, "max_radial_disp_mid_f150": 0.273, "sample_marbles": [{"name": "m0_2", "base": [-3.921, -3.636, 0.25], "final": [-3.936, -3.624, 0.243]}, {"name": "m3_11", "base": [-2.255, 1.398, 0.25], "final": 
+BUILD_DONE
+frame 254 :: 299
+bake: frame 255 :: 299
+bake: frame 256 :: 299
+bake: frame 257 :: 299
+bake: frame 258 :: 299
+bake: frame 259 :: 299
+bake: frame 260 :: 299
+bake: frame 261 :: 299
+bake: frame 262 :: 299
+bake: frame 263 :: 299
+bake: frame 264 :: 299
+bake: frame 265 :: 299
+bake: frame 266 :: 299
+bake: frame 267 :: 299
+bake: frame 268 :: 299
+bake: frame 269 :: 299
+bake: frame 270 :: 299
+bake: frame 271 :: 299
+bake: frame 272 :: 299
+bake: frame 273 :: 299
+bake: frame 274 :: 299
+bake: frame 275 :: 299
+bake: frame 276 :: 299
+bake: frame 277 :: 299
+bake: frame 278 :: 299
+bake: frame 279 :: 299
+bake: frame 280 :: 299
+bake: frame 281 :: 299
+bake: frame 282 :: 299
+bake: frame 283 :: 299
+bake: frame 284 :: 299
+bake: frame 285 :: 299
+bake: frame 286 :: 299
+bake: frame 287 :: 299
+bake: frame 288 :: 299
+bake: frame 289 :: 299
+bake: frame 290 :: 299
+bake: frame 291 :: 299
+bake: frame 292 :: 299
+bake: frame 293 :: 299
+bake: frame 294 :: 299
+bake: frame 295 :: 299
+bake: frame 296 :: 299
+bake: frame 297 :: 299
+bake: frame 298 :: 299
+bake: frame 299 :: 299
+
+Blender quit

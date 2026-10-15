@@ -1,0 +1,89 @@
+{
+  "experiment": "E-04 · E2 首批组合实验（70/30 主辅）· 主题 T1（暴风雨中的海边灯塔）",
+  "date": "2026-10-15",
+  "model": "grok-imagine-image-2.0",
+  "endpoint": "/v1/images/generations",
+  "size_requested": "1024x1536",
+  "theme": "A lighthouse on a rocky coast in a storm, towering waves crashing against the rocks, dark storm clouds overhead.",
+  "recipe": "prompt = THEME + ' ' + 融合句（70/30） + ' ' + 主段 + ' ' + 辅段 [+ ' ' + 分区句（仅 e2c）]；主/辅段逐字取自模块卡（§8.1b 或 §8.1）；负向段未随请求发送（通道无负向参数），原文存档备查。",
+  "cells": [
+    {
+      "cell": "e2a_monet_van_gogh",
+      "title": "E2a · 莫奈(主) + 梵高(辅)",
+      "main": {
+        "id": "monet",
+        "zh": "莫奈",
+        "en": "Claude Monet",
+        "source": "§8.1 正向段（4 卡注记口径：可迁移，无需拆分）"
+      },
+      "aux": {
+        "id": "van_gogh",
+        "zh": "梵高",
+        "en": "Vincent van Gogh",
+        "source": "§8.1 正向段（4 卡注记口径：可迁移；风景道具词仅作次要元素）"
+      },
+      "lead": "Fusion of two painterly languages: Claude Monet dominant (70%), Vincent van Gogh secondary (30%).",
+      "partition": null,
+      "main_segment": "oil painting in the style of Claude Monet, french impressionism, en plein air, broken comma-like brushwork with unblended strokes laid side by side, light-toned ground and high-key palette, coloured shadows (blue-violet) instead of black, atmospheric envelope unifying the whole scene, soft haze and shimmering water with broken reflections, asymmetrical cropped composition with no linear perspective and no three-dimensional modelling, water surface occupying a large portion of the canvas, sky and water mirroring each other, palette: pale blue, lavender, rose, cream, turquoise, soft green, pale yellow; soft edges dissolving between colour patches",
+      "aux_segment": "oil painting in the style of Vincent van Gogh, post-impressionist, thick impasto oil paint with visible brushstrokes and canvas weave, swirling turbulent sky of cobalt and ultramarine with glowing lemon-yellow stars ringed by concentric halos, complementary colour pairs (yellow/blue, orange/blue) laid side by side, flame-like cypress rising almost to the top edge, wheat field of short directional strokes, flat decorative space with cropped asymmetric composition inspired by Japanese woodblock prints, bold expressive outlines on key forms, colour used arbitrarily to express feeling rather than to reproduce the scene, no smooth blending, palette: cobalt blue, ultramarine, chrome yellow, lemon yellow, viridian, vermilion, pure white highlights",
+      "main_segment_sha256": "6d09117bb61fa323aef12d202617304a6c379f9cfd40a063120c57205f830bb9",
+      "aux_segment_sha256": "c97b503115d7888b7304463ef7e7091737e4f62ee371557c0e5ba2ba69a84baf",
+      "main_negative": "hard black outlines, chiaroscuro, dark varnished browns, smooth blending, photographic detail, crisp vector edges, studio lighting, neon saturation, 3D modelling, symmetrical centred composition, depth of field, HDR",
+      "aux_negative": "photorealistic, smooth gradients, airbrush, soft focus, pastel or muted earth palette, grey overcast light, thin transparent glazes, watercolour washes, 3D render, clean vector edges, perfectly symmetrical centred composition, depth of field, HDR, lens flare, fine detail miniature work",
+      "prompt": "A lighthouse on a rocky coast in a storm, towering waves crashing against the rocks, dark storm clouds overhead. Fusion of two painterly languages: Claude Monet dominant (70%), Vincent van Gogh secondary (30%). oil painting in the style of Claude Monet, french impressionism, en plein air, broken comma-like brushwork with unblended strokes laid side by side, light-toned ground and high-key palette, coloured shadows (blue-violet) instead of black, atmospheric envelope unifying the whole scene, soft haze and shimmering water with broken reflections, asymmetrical cropped composition with no linear perspective and no three-dimensional modelling, water surface occupying a large portion of the canvas, sky and water mirroring each other, palette: pale blue, lavender, rose, cream, turquoise, soft green, pale yellow; soft edges dissolving between colour patches oil painting in the style of Vincent van Gogh, post-impressionist, thick impasto oil paint with visible brushstrokes and canvas weave, swirling turbulent sky of cobalt and ultramarine with glowing lemon-yellow stars ringed by concentric halos, complementary colour pairs (yellow/blue, orange/blue) laid side by side, flame-like cypress rising almost to the top edge, wheat field of short directional strokes, flat decorative space with cropped asymmetric composition inspired by Japanese woodblock prints, bold expressive outlines on key forms, colour used arbitrarily to express feeling rather than to reproduce the scene, no smooth blending, palette: cobalt blue, ultramarine, chrome yellow, lemon yellow, viridian, vermilion, pure white highlights",
+      "prompt_sha256": "a889d23f7ad43fd9ae60f12c6d359ecdfa0f83b046e60aeedc117d3fe3537111"
+    },
+    {
+      "cell": "e2b_da_vinci_caravaggio",
+      "title": "E2b · 达·芬奇(主) + 卡拉瓦乔(辅)",
+      "main": {
+        "id": "da_vinci",
+        "zh": "达·芬奇",
+        "en": "Leonardo da Vinci",
+        "source": "§8.1b 纯风格段（7 卡）"
+      },
+      "aux": {
+        "id": "caravaggio",
+        "zh": "卡拉瓦乔",
+        "en": "Caravaggio",
+        "source": "§8.1b 纯风格段（7 卡）"
+      },
+      "lead": "Fusion of two painterly languages: Leonardo da Vinci dominant (70%), Caravaggio secondary (30%).",
+      "partition": null,
+      "main_segment": "Renaissance oil painting in the manner of Leonardo da Vinci, sfumato: absolutely no hard contours anywhere, every light-to-shadow transition is a wide, continuous grey gradient, soft smoky modelling; single soft light from the upper left moulding forms out of deep shadow; aerial perspective — distant forms turn blue-grey, lose saturation and dissolve into haze; narrow earth palette of ochre, umber, muted blue and dull gold, overall low saturation; rocks shaped like rounded cones, wet atmosphere over shallow green water; invisible brushwork, glazed surface, matte, aged varnish warmth; contemplative, quiet, mysterious mood",
+      "aux_segment": "Caravaggio-style tenebrist oil painting: one single hard directional light from high left, no fill light, no reflected light; background areas in near-black shadow (values under 10% of the lit highlights); deep dark brown ground left visible inside the shadows as their mid-tone; violent chiaroscuro: lit passages bright and warm, shadows crushed, midtones suppressed; one frozen instant of dramatic action; the main motif pushed flat against the picture plane and cropped by the frame edge; restrained earth palette — ochre, madder red, lead white, bitumen black, one or two saturated accents; direct painting, broad final touches, impasto highlights on the lit edges",
+      "main_segment_sha256": "21015cfef5fdc39744d22f027b77f584f17762ba4112784a4638532715a09af7",
+      "aux_segment_sha256": "e651a3ebd49db6d463b7c0c9f17d562c3ba57bad973aed038c1d09568c1d7861",
+      "main_negative": "--no hard outlines, --no cel shading, --no comic linework, --no high saturation, --no neon colors, --no flat even lighting, --no multiple light sources, --no visible brush strokes or impasto, --no crisp photographic edges, --no symmetric frontal pose, --no open-mouth grin or clear emotion, --no sharp geometric mountains, --no modern clothing",
+      "aux_negative": "--no soft diffuse lighting, ambient light, multiple light sources, rim light, backlight, glow, bloom, lens flare, volumetric rays, evenly lit faces, bright background, landscape, sky, daylight, symmetry, idealised anatomy, smooth airbrushed gradients, pastel palette, neon colours, cartoon, 3D render, photographic realism, motion blur, fog, haze, mirror, chandelier, candles visible in frame, halo disc, crowd",
+      "prompt": "A lighthouse on a rocky coast in a storm, towering waves crashing against the rocks, dark storm clouds overhead. Fusion of two painterly languages: Leonardo da Vinci dominant (70%), Caravaggio secondary (30%). Renaissance oil painting in the manner of Leonardo da Vinci, sfumato: absolutely no hard contours anywhere, every light-to-shadow transition is a wide, continuous grey gradient, soft smoky modelling; single soft light from the upper left moulding forms out of deep shadow; aerial perspective — distant forms turn blue-grey, lose saturation and dissolve into haze; narrow earth palette of ochre, umber, muted blue and dull gold, overall low saturation; rocks shaped like rounded cones, wet atmosphere over shallow green water; invisible brushwork, glazed surface, matte, aged varnish warmth; contemplative, quiet, mysterious mood Caravaggio-style tenebrist oil painting: one single hard directional light from high left, no fill light, no reflected light; background areas in near-black shadow (values under 10% of the lit highlights); deep dark brown ground left visible inside the shadows as their mid-tone; violent chiaroscuro: lit passages bright and warm, shadows crushed, midtones suppressed; one frozen instant of dramatic action; the main motif pushed flat against the picture plane and cropped by the frame edge; restrained earth palette — ochre, madder red, lead white, bitumen black, one or two saturated accents; direct painting, broad final touches, impasto highlights on the lit edges",
+      "prompt_sha256": "b412f97da0869dc5dadfb75f204dd075b3a66e6e95d2ee18b3b53f6c897d2ca9"
+    },
+    {
+      "cell": "e2c_monet_cezanne",
+      "title": "E2c · 莫奈(主) + 塞尚(辅)",
+      "main": {
+        "id": "monet",
+        "zh": "莫奈",
+        "en": "Claude Monet",
+        "source": "§8.1 正向段（4 卡注记口径）"
+      },
+      "aux": {
+        "id": "cezanne",
+        "zh": "塞尚",
+        "en": "Paul Cézanne",
+        "source": "§8.1b 纯风格段（7 卡）"
+      },
+      "lead": "Fusion of two painterly languages: Claude Monet dominant (70%), Paul Cézanne secondary (30%).",
+      "partition": "Split the scene into two explicit layers at the horizon: the sky and the distant water layer follow the atmospheric envelope — soft haze, a gradual falling-off of contrast confined to this layer, colour gathered into one air tone; the mid-ground and foreground layer (rocks, waves, the lighthouse) follows the structural treatment — compressed space, near and far forms at the same scale, shifting viewpoints, and no fog or haze colour in this near layer.",
+      "main_segment": "oil painting in the style of Claude Monet, french impressionism, en plein air, broken comma-like brushwork with unblended strokes laid side by side, light-toned ground and high-key palette, coloured shadows (blue-violet) instead of black, atmospheric envelope unifying the whole scene, soft haze and shimmering water with broken reflections, asymmetrical cropped composition with no linear perspective and no three-dimensional modelling, water surface occupying a large portion of the canvas, sky and water mirroring each other, palette: pale blue, lavender, rose, cream, turquoise, soft green, pale yellow; soft edges dissolving between colour patches",
+      "aux_segment": "Late Cézanne landscape in the manner of his late period (1895–1906): the entire surface built from short, visible parallel brushstrokes (taches) of 0.5–1.5 cm equivalent, arranged in groups of 4–8 directional families that both model volume and unify the picture plane; forms constructed only by color modulation — light, half-tone and quarter-tone steps of ochre, orange, olive, viridian, cobalt and ultramarine — never by black shading; forms carry broken, multiple outlines, 30% of contour segments left open so forms merge into the background; a network of blue in shadows, contours and sky (12–15% of pixels); sky and earth painted with equal substance, no atmospheric recession, distant forms the same scale as near ones; shifting viewpoints within one frame; 5–8% of the canvas left thinly covered or bare, suggesting unfinish; dry, matte oil surface, fine canvas weave visible.",
+      "main_segment_sha256": "6d09117bb61fa323aef12d202617304a6c379f9cfd40a063120c57205f830bb9",
+      "aux_segment_sha256": "9a3502cba1a0a0895a1f29a42c9c370a6cd3d0580e23abb605f30f849bdae6fc",
+      "main_negative": "hard black outlines, chiaroscuro, dark varnished browns, smooth blending, photographic detail, crisp vector edges, studio lighting, neon saturation, 3D modelling, symmetrical centred composition, depth of field, HDR",
+      "aux_negative": "--no chiaroscuro, black cast shadows, single-point perspective, atmospheric haze, photorealistic detail, smooth blended gradients, glossy varnish, palette-knife impasto (that is the 1860s style), narrative action, dramatic poses, facial expression detail, high-contrast lighting, neon colors",
+      "prompt": "A lighthouse on a rocky coast in a storm, towering waves crashing against the rocks, dark storm clouds overhead. Fusion of two painterly languages: Claude Monet dominant (70%), Paul Cézanne secondary (30%). oil painting in the style of Claude Monet, french impressionism, en plein air, broken comma-like brushwork with unblended strokes laid side by side, light-toned ground and high-key palette, coloured shadows (blue-violet) instead of black, atmospheric envelope unifying the whole scene, soft haze and shimmering water with broken reflections, asymmetrical cropped composition with no linear perspective and no three-dimensional modelling, water surface occupying a large portion of the canvas, sky and water mirroring each other, palette: pale blue, lavender, rose, cream, turquoise, soft green, pale yellow; soft edges dissolving between colour patches Late Cézanne landscape in the manner of his late period (1895–1906): the entire surface built from short, visible parallel brushstrokes (taches) of 0.5–1.5 cm equivalent, arranged in groups of 4–8 directional families that both model volume and unify the picture plane; forms constructed only by color modulation — light, half-tone and quarter-tone steps of ochre, orange, olive, viridian, cobalt and ultramarine — never by black shading; forms carry broken, multiple outlines, 30% of contour segments left open so forms merge into the background; a network of blue in shadows, contours and sky (12–15% of pixels); sky and earth painted with equal substance, no atmospheric recession, distant forms the same scale as near ones; shifting viewpoints within one frame; 5–8% of the canvas left thinly covered or bare, suggesting unfinish; dry, matte oil surface, fine canvas weave visible. Split the scene into two explicit layers at the horizon: the sky and the distant water layer follow the atmospheric envelope — soft haze, a gradual falling-off of contrast confined to this layer, colour gathered into one air tone; the mid-ground and foreground layer (rocks, waves, the lighthouse) follows the structural treatment — compressed space, near and far forms at the same scale, shifting viewpoints, and no fog or haze colour in this near layer.",
+      "prompt_sha256": "6a83bbe35767082ea94a36d473ffbaa816e763aa502d22c7156c32559a209d42"
+    }
+  ]
+}
