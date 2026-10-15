@@ -478,7 +478,7 @@ genre anecdote, still life, decorative gold ornament, flat cartoon vector, text 
 - **复跑（本节落盘后，终稿状态）**：
 
 ```
-[1] el_greco.md: 492 行 / 71,294 字节 | 节命中: 14 / 14 | 分工条款计数: vs 蒙克×6 · vs 毕加索×4 · 「写死」×3
+[1] el_greco.md: 497 行 / 74,057 字节 | 节命中: 14 / 14 | 分工条款计数: vs 蒙克×6 · vs 毕加索×4 · 「写死」×3
 [2] corpus: 30 条（自述 10 / 同时代 14 / 后世 6）| [3] images: 17 张 + MANIFEST.md
 [4] private: INVENTORY_el_greco.md + 2 书（Cossío/Calvert 1909）+ 3 高清（orgaz/nobleman/laocoon 3000px）
 抽取契约: arch_4=1018 / arch_81=2096 / arch_82=1188 chars — OK
