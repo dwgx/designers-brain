@@ -54,7 +54,7 @@
 | A-40 | done | 加固·维米尔：§11（2578 字 + 39 行年表 + 14 来源 + 未找到 7 条）+ §12（10 件）；语料新建 22 条；验收：`_extract.py --check` 33/33 + git diff 纯插入 0 删除 | `knowledge/domains/painters/dossiers/vermeer.md` | BioVermeer（wave14） |
 | A-41 | done | 加固·丢勒：§11（2426 字 + 25 行年表 + 12 来源）+ §12（10 件）；语料新建 27 条（德文原文+英译+中译）；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/durer.md` | BioDurer（wave14） |
 | A-50 | done | 模块卡扩展 11→**20 张**（9 新画家入 ARTISTS + 生成 + README/domains.yaml 同步）；验收：`--check` **60/60** · skill `_selfcheck` PASS（domains 20/20）· 旧 11 卡零改动（sha256 全等）· `--write` 幂等 | `knowledge/domains/painters/modules/` | ModuleCards20（wave16） |
-| A-51 | running | 索引合并：语料 INDEX / 图片 manifest / 档案 _index 三表对账合并 | `knowledge/domains/painters/dossiers/` | IndexMerge（wave16） |
+| A-51 | done | 索引合并（wave16 口径 20 位）：`_corpus/INDEX.md` 20 行/455 条 · `_images/manifest.md` 20 位（公开 104 张 + 私有例外 32 张）· `_index.md` 20 行；全表核验 PASS（重复 0、过时 21+ 处全修、缺失 26 处全补）；wave15/17 位次随各自收口另并 | `knowledge/domains/painters/dossiers/` | IndexMerge（wave16） |
 | A-52 | running | wave17·弗里德里希（Friedrich）v2 全规格 | `knowledge/domains/painters/dossiers/friedrich.md` | ArtistFriedrich（wave17） |
 | A-53 | running | wave17·列宾（Repin）v2 | `knowledge/domains/painters/dossiers/repin.md` | ArtistRepin（wave17） |
 | A-54 | done | wave17·拉维·瓦尔马：481 行 v2 档案（§11 2057 字 + 32 行 + 25 来源；§12 10 件）+ 语料 30 条 + 图库 17 张全 PD + 私有论文 2 件；分工 vs 欧洲学院派/谢尔吉尔写死（§3.7/§3.8）；系统首个印度大师 | `knowledge/domains/painters/dossiers/ravi_varma.md` | ArtistRaviVarma（wave17） |
