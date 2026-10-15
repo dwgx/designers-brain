@@ -23,7 +23,7 @@
   3. *Miss La La at the Cirque Fernando*（费尔南多马戏团的拉拉小姐）1879，伦敦国家美术馆（NG4121）— https://www.nationalgallery.org.uk/paintings/hilaire-germain-edgar-degas-miss-la-la-at-the-cirque-fernando
   4. *Danseuses bleues*（蓝色舞者）约 1890，奥赛博物馆（RF 1951 10）— https://www.musee-orsay.fr/fr/oeuvres/danseuses-bleues-1144
   5. *The Little Fourteen-Year-Old Dancer*（十四岁的小舞者）modeled 1881 / 铸铜 1922，大都会艺术博物馆（29.100.370）— https://www.metmuseum.org/art/collection/search/196439
-- **语料/图库**：`_corpus/degas.md`（36 条，一手转记为主）；`_images/degas/`（13 张，全 PD/CC0，含《舞蹈课》双馆对读 + 《蓝色舞者》+《拉拉小姐》+ 小舞者雕塑 + 浴女粉彩 + 梳头/咖啡桌/家族像/舞台后厅）。
+- **语料/图库**：`_corpus/degas.md`（36 条，一手转记为主）；`_images/degas/`（13 张，全 PD/开放许可——含 1 张 CC BY-SA 4.0；含《舞蹈课》双馆对读 + 《蓝色舞者》+《拉拉小姐》+ 小舞者雕塑 + 浴女粉彩 + 梳头/咖啡桌/家族像/舞台后厅）。
 
 ---
 
@@ -460,7 +460,7 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 
 **① 四处落盘计数**
 ```
-$ wc -l degas.md _corpus/degas.md          → 438 degas.md / 296 _corpus/degas.md（自审段追加后为 458 / 296）
+$ wc -l degas.md _corpus/degas.md          → 503 degas.md（含自审四段全文）/ 296 _corpus/degas.md
 $ grep -c '^### ' _corpus/degas.md         → 36（语料 ≥15 ✓；含原书核验补录 2 条）
 $ ls _images/degas/*.jpg | wc -l           → 13（图库 ≥6 ✓；含 MANIFEST.md 共 14 文件）
 $ ls _private/images_hi_res/degas/ | wc -l → 10（高清副本）+ _private/books/ 2 件 + INVENTORY_degas.md

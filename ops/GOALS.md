@@ -56,11 +56,11 @@
 | A-50 | done | 模块卡扩展 11→**20 张**（9 新画家入 ARTISTS + 生成 + README/domains.yaml 同步）；验收：`--check` **60/60** · skill `_selfcheck` PASS（domains 20/20）· 旧 11 卡零改动（sha256 全等）· `--write` 幂等 | `knowledge/domains/painters/modules/` | ModuleCards20（wave16） |
 | A-51 | done | 索引合并（wave16 口径 20 位）：`_corpus/INDEX.md` 20 行/455 条 · `_images/manifest.md` 20 位（公开 104 张 + 私有例外 32 张）· `_index.md` 20 行；全表核验 PASS（重复 0、过时 21+ 处全修、缺失 26 处全补）；wave15/17 位次随各自收口另并 | `knowledge/domains/painters/dossiers/` | IndexMerge（wave16） |
 | A-52 | done | wave17·弗里德里希：491 行 v2 档案（§11 2242 字 + 43 行 + 14 来源；§12 10 件）+ 语料 31 条 + 图库 12 张全 PD + 私有 6 件；分工 vs 透纳/康斯泰勃尔写死（各 4 判据）；引文 19/19 | `knowledge/domains/painters/dossiers/friedrich.md` | ArtistFriedrich（wave17） |
-| A-53 | running | wave17·列宾（Repin）v2 | `knowledge/domains/painters/dossiers/repin.md` | ArtistRepin（wave17） |
+| A-53 | done | wave17·列宾：500 行 v2 档案（§11 ~2400 字 + 56 行 + 来源 ≥10；§12 9 件）+ 语料 23 条 + 图库 10 张全 PD + 私有 3+3 件（Стасов 通信集 OCR）；分工 vs 戈雅/米开朗基罗/伦勃朗写死；1 条 OVERTURNED（信日期讹误核正） | `knowledge/domains/painters/dossiers/repin.md` | ArtistRepin（wave17） |
 | A-54 | done | wave17·拉维·瓦尔马：481 行 v2 档案（§11 2057 字 + 32 行 + 25 来源；§12 10 件）+ 语料 30 条 + 图库 17 张全 PD + 私有论文 2 件；分工 vs 欧洲学院派/谢尔吉尔写死（§3.7/§3.8）；系统首个印度大师 | `knowledge/domains/painters/dossiers/ravi_varma.md` | ArtistRaviVarma（wave17） |
-| A-55 | running | wave17·德加（Degas）v2 | `knowledge/domains/painters/dossiers/degas.md` | ArtistDegas（wave17） |
-| A-56 | running | wave17·高更（Gauguin）v2 | `knowledge/domains/painters/dossiers/gauguin.md` | ArtistGauguin（wave17） |
-| A-57 | running | wave17·凡·艾克（Van Eyck）v2 | `knowledge/domains/painters/dossiers/van_eyck.md` | ArtistVanEyck（wave17） |
+| A-55 | done | wave17·德加：503 行 v2 档案（§11 2237 字 + 38 行 + 17 来源；§12 10 件）+ 语料 36 条 + 图库 13 张（Met CC0/奥赛/NGL）+ 私有 12 件；分工 vs 莫奈/修拉写死（各 4 轴 + 70/30 纪律）；引文原书级核验（Moore/Vollard 全文） | `knowledge/domains/painters/dossiers/degas.md` | ArtistDegas（wave17） |
+| A-56 | done | wave17·高更：504 行 v2 档案（§11 2020 字 + 35 行 + 16 来源；§12 10 件）+ 语料 33 条（Noa Noa 法文版底本）+ 图库 20 张全 PD + 私有论文 2 件；分工 vs 马蒂斯/修拉/梵高写死（各判据 + 70/30）；1 条 OVERTURNED（信日期 1885→1888） | `knowledge/domains/painters/dossiers/gauguin.md` | ArtistGauguin（wave17） |
+| A-57 | done | wave17·凡·艾克：483 行 v2 档案（§11 2020 字 + 37 行 + 12 来源；§12 10 件）+ 语料 20 条（题刻逐字转录）+ 图库 17 张 PD/CC0 + 私有 8 件；分工 vs 维米尔第一条款写死（4 判据对齐 vermeer.md）；1 条 OVERTURNED（「发明油画」→「定型者」） | `knowledge/domains/painters/dossiers/van_eyck.md` | ArtistVanEyck（wave17） |
 | A-58 | done | wave17·恩格瓦雷：481 行 v2 档案（§11 2574 字 + 33 行 + 15 来源；§12 10 件）+ 语料 18 条 + 14 张图**全在 `_private/`**（公开侧零图；原住民伦理护栏 + ICIP 参考）；分工 vs 修拉写死（符号/大地 vs 光学混合） | `knowledge/domains/painters/dossiers/kngwarreye.md` | ArtistKngwarreye（wave17） |
 | A-59 | running | 加固pass2·透纳：新增 §11（叙述≥2000 字+年表≥15+来源≥10）+ §12（5–10 件） | `knowledge/domains/painters/dossiers/turner.md` | HardTurner（wave16p2） |
 | A-60 | running | 加固pass2·伦勃朗：新增 §11+§12 | `knowledge/domains/painters/dossiers/rembrandt.md` | HardRembrandt（wave16p2） |

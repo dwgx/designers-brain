@@ -4,14 +4,14 @@
 > 类型标注：[self-written] 本人书写（书信/笔记/著作/报刊文章/题刻）· [reported speech] 他人转记（对话/回忆，可能经文学化）· [contemporary record] 同时代记录/评述。
 > 底本：**Noa Noa**（Gauguin & Morice 法文版，据 BnF/Gallica 数字化，Project Gutenberg #11646——法文原版逐字）；**Avant et Après**（1903；英译 *The Intimate Journals of Paul Gauguin*, trans. Van Wyck Brooks, 1923, William Heinemann——archive.org 全文）；**Letters of Paul Gauguin to Georges Daniel de Monfreid**（1922, Dodd Mead——archive.org 全文）；**Paul Gauguin: Letters to His Wife and Friends**（ed. Maurice Malingue, trans. Henry J. Stenning, 1946——archive.org 扫描本，OCR 质量一般处已对照转引载体）；*The Writings of a Savage*（ed. Daniel Guérin, 1996, Da Capo）经 en.wikiquote 转引（逐条注明页码）；法文原句以 fr.wikipedia / en.wikiquote 所载原文复核。
 > **口径**：高更**文字极多**（书信、Noa Noa、Avant et Après、报刊 Le Sourire、笔记 Cahier pour Aline/Diverses choses）——本语料只取与**创作与视觉语言**直接相关者，并保留少量「时代语境/争议」条目（单列，供档案 §7/§10 使用）。区分「本人书写」与「转记/记录」。
-> 引用格式建议：`Gauguin, [载体]（[日期]）`，例：`Gauguin, 致 Schuffenecker 信（1885-08-14）`。
+> 引用格式建议：`Gauguin, [载体]（[日期]）`，例：`Gauguin, 致 Schuffenecker 信（1888-08-14）`。
 
 ## 一、创作论：抽象、综合与「梦见」（1885–1901）
 
-### 1. 不要过度照抄自然——「艺术是抽象」（致 Schuffenecker 信，Pont-Aven，1885-08-14）
+### 1. 不要过度照抄自然——「艺术是抽象」（致 Schuffenecker 信，Pont-Aven，1888-08-14）
 > Un conseil, ne copiez pas trop d'après nature, l'art est une abstraction, tirez-la de la nature en rêvant devant, et pensez plus à la création qu'au résultat.
 
-- 来源：fr.wikipedia《Paul Gauguin》所载原文（引致 Émile Schuffenecker 信，1885-08-14，Pont-Aven）；英文版对照 *Letters to His Wife and Friends*（Malingue 编，1946）letter 67：*"A hint—don't paint too much direct from nature. Art is an abstraction! Study nature then brood on it and treasure the creation which will result…"*（archive.org 扫描 OCR，用词以法文原句为准）
+- 来源：fr.wikipedia《Paul Gauguin》所载原文（引致 Émile Schuffenecker 信，1888-08-14，Pont-Aven；另经 RACAR 期刊论文核对为「August 14, 1888」）；英文版对照 *Letters to His Wife and Friends*（Malingue 编，1946）letter 67：*"A hint—don't paint too much direct from nature. Art is an abstraction! Study nature then brood on it and treasure the creation which will result…"*（archive.org 扫描 OCR，用词以法文原句为准）
 - 类型：[self-written]
 - 中文意译：一个忠告——不要过于照着自然描摹。**艺术是一种抽象**：要在自然面前一边做梦一边把它抽取出来，多想「创造」，少想「结果」。
 

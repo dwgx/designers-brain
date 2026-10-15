@@ -45,5 +45,5 @@
 - **The Met（5 张）**：438817 / 436123 / 436139 / 436127 / 196439——Met Open Access（CC0 1.0），经 images.metmuseum.org 直取（Open Access API v1.1 核验 isPublicDomain=true）。
 - **奥赛（6 张）**：RF 1976 / RF 1951 10 / RF 12258 / RF 1977 / RF 1147 / RF 2210——Commons PD 复制品（Google Art Project / Yorck Project 等）；许可经 Commons imageinfo 逐张核验（Public domain / PD-Art）。
 - **伦敦国家美术馆（2 张）**：NG4121（PD）/ NG486（CC BY-SA 4.0，上传者照片许可；**引用需署名**——本 manifest 即署名记录）。作品本身均已 PD（德加 1917 年卒）。
-- 全部 13 张经 Commons/Met API `imageinfo` 逐张核验（许可/尺寸，2026-10-16），并作 13 格 contact sheet 目检（13/13 无错件；见档案 §自审·C）。
+- 全部 13 张经 Commons/Met API `imageinfo` 逐张核验（许可/尺寸，2026-10-16），并作 13 格 contact sheet 目检（13/13 无错件；见档案 §自审·B5）。
 - **缺口**：高分辨率研究副本（>1800px）见 `_private/images_hi_res/degas/`（Met 5 件 + Commons 4 件，共 9 件；其余待补，记录于 `_private/INVENTORY_degas.md`）。
