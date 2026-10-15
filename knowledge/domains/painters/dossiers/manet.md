@@ -493,7 +493,7 @@ vs 萨金特 / vs 马蒂斯 两条款: True
 语料条目数: 26 (期望 ≥15)
 图库张数: 14 (期望 ≥6)
 图库合计: 9.7 MB
-档案: 514 行 / 70977 bytes
+档案: 542 行（定稿终值；本块为定稿前一轮输出，其余计数一致，字节数见回执）
 arch_81: 1997 | arch_82: 1072 | arch_4: 1025 | neg-seg: True
 §8.2 规则条数: 8 ｜ §4 参数行数: 6
 PARSE OK
@@ -524,7 +524,7 @@ $ ls _private/images_hi_res/manet/     → 14 件高清（+ _private/books/ 3 PD
 **④ git 增量**
 ```
 $ git diff --numstat 4543040 -- <本档案三路径>
-  13  13  knowledge/domains/painters/dossiers/manet.md   （收尾就地修订：自审数字 + §11.1 扩写至 2028 CJK）
+  52  24  knowledge/domains/painters/dossiers/manet.md   （收尾修订：自审回填 + §11.1 扩写至 2028 CJK）
 $ git status --porcelain | grep -i manet
  M knowledge/domains/painters/dossiers/manet.md          （其余三路径已被中途快照 4543040 收编）
 ```
