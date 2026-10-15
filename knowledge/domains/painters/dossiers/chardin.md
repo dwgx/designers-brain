@@ -68,3 +68,63 @@
 > 口径提醒（项目宪章）：以上为**从作品、馆方研究与史料归纳的操作规则**；第 1/2/3/4/6/7/10/11 条有馆方或档案级支撑；第 5/8/9 条以研究文献与归纳为主，阈值为 `[归纳]`。
 
 ---
+
+## 3. 创作原则（8 条 + 分工条款）
+
+1. **画所见，不画所贵**：谦卑对象的选择是原则，不是题材限制——「无内在趣味之物」被画成主角；Proust：「If all of this now seems to you beautiful to look at, it is because Chardin found it beautiful to paint. And he found it beautiful to paint because he found it beautiful to look at.」`[研究]`（[R25]）
+2. **用感受作画，而非用颜色**：颜色只是工具，「感受」（sentiment）才是本体——本档案唯一确证的第一人称名句（见 §5-1）。`[自述转记]`（[R27][R33]）
+3. **真实＝色调与效果的真实，而非细节的累积**：Cochin：「他并不满足于对自然的表面摹写；他要的是**色调与效果**的最大真实」——为此反复重画至「rupture de tons」（色调断裂/分离）与「accord magique」。`[史料]`（[R27]）
+4. **光与反光优先于局部**：先织「反光网络」再谈细节——「每个物体都带上周围一切的颜色与光」（Goncourt）。`[研究]`（[R29]）
+5. **只取「temps mort」（动作中停）**：人物停在动作的中段或间隙（餐前、门边、目光离画）；静物天然静止——画面时间＝「停顿」，不是「事件」。`[研究]`（[R30]）
+6. **反叙事、反道德剧**：不给情节、不给教训（与荷兰 genre 的「笑话/训诫」划界）；NGL：「any moralising purpose… very understated」；Démoris：「人的在场被断然逐出」。`[研究]`（[R20][R30]）
+7. **重复作为方法**：同一构图重复制作（virtually indistinguishable）；「找到合适的结构就复制它」——复制既是经济行为也是工作方式（慢工 + 需求）。`[史料]`（[R23][R22]）
+8. **不随时尚、不装身份**：不随洛可可、不攀「历史画」——「宁做低等门类里的第一，不做高等门类里的无名者」（Éloge 1780 记其取舍逻辑）；晚年以「Bonhomme Chardin」（夏尔丹老头）的自我形象面对公众。`[史料]`（[R32][R22]）
+
+### 3.1 分工条款（写死；来源：`roster.md` §2.4 + wave20 brief；`[归纳]`，可被组合实验推翻）
+
+- **vs 维米尔（第一写死条款——「光学室内 vs 触觉静物」）**：两位都以「安静 + 日常 + 光」著称（视觉气质高度重叠），但**光与表面的职能**不同，分两档、不得混用：
+  - **维米尔＝「光学档」**：真实来自**光的行为与色调轮廓**——单侧窗光、高调墙面、**暗部平坦无细节**（`vermeer.md` §4 P2）、**点状高光 pointillés**（1–3mm 圆点，§4 P3）、表面**平滑到织纹不可见**（levigated，§4 P6）、细节**主动省略**（§3-1/§3-8）；房间**几何网格 + 单点透视**（§1-9）；**冷调阴影**（§1-5）。
+  - **夏尔丹＝「触觉档」**：真实来自**材质的手感与反光网络**——漫射软光、**有层次的暖暗部**、**宽软反光**（常带邻物色，reflets）、表面**可见笔触/点触**（密实、不平）、形体**柔软但完整**；浅空间 + **中性背景场**；暖调土色系。
+  - **判据（可判读，写进自查表）**：① **光的功能**——维：光自身是主题（明度结构可测量、墙面大块接光、冷调阴影）vs 夏：光为触感服务（材质表面可读，光不构成独立图案）。② **高光形态**——维：**点状高光**（1–3mm 圆点、按材质成组、软边 σ=0.5–1px）vs 夏：**宽软反光面 + 跨物反光**（≥2 处邻物色，无点状系统）。③ **表面**——维：釉层压平（织纹不可见）vs 夏：可见笔触/点触、近观有颜料颗粒（表面高低不平）。④ **空间**——维：房间几何（地砖网格、消失点、窗框）vs 夏：桌面/搁板前缘、浅空间、背景无几何。⑤ **阴影色相**——维：冷（蓝/绿）vs 夏：暖（褐/灰绿）。
+  - **边界注**：夏尔丹的《La Fontaine》（厨房内景、门洞引出第二空间）是他最「荷兰」的一张——但判定**不看「有没有门」**，看①②③④⑤ **≥2 轴联合成立（尤②③⑤）**；维米尔的静物性局部（面包、铜壶的点彩）仍在维档（点彩 + 平坦暗部）。反向：夏尔丹的《Le Gobelet d'argent》里银器的**宽软高光**与维米尔的点彩是两种「金属语言」——不可互换。
+  - **组合纪律**：两模块同用时必须**选一个主导轴**（建议 70/30 起）——维米尔的平滑冷光会吃掉夏尔丹的触感；夏尔丹的暖调笔触会破坏维米尔的光学纯度。默认二选一。
+- **vs 塞尚（第二写死条款——「静物：结构 vs 质感」）**：两位是静物史的两端（Maurice Denis 1907 论塞尚：「cette méthode de travail, renouvelée peut être de Chardin」——塞尚的并置法或正来自夏尔丹），但**静物被用来做什么**不同：
+  - **塞尚＝「结构档」**：静物是**结构的实验场**——离散 tache 铺满全画（`cezanne.md` §1-1）、**色阶代替明暗**（§1-2）、**轮廓破碎多重**（§1-3）、**蓝网**（§1-4）、**空间压缩/视点游移**（§1-6）、**未完成感**（§1-7）；四阶段工序（§2-1）。
+  - **夏尔丹＝「质感档」**：静物是**质感的剧场**——触觉表面（手感）、材质对比、反光网络、**形体忠实**（轮廓柔软但完整）、**明暗塑形**、完成度高（无裸露画布）。
+  - **判据**：① **笔触系统**——塞：等尺寸、方向族化的 tache 统一全表面（覆盖率 ≥80%）vs 夏：**功能化**笔触（此处点触、彼处罩染、边缘揉开——无统一角度族、覆盖率 30–80%）。② **形体与轮廓**——塞：几何化变形、≥30% 轮廓断口/双线 vs 夏：形体忠实、轮廓柔软完整（无断口、无多重线）。③ **明暗与色**——塞：无黑阴影、色阶塑形、蓝 ≥15% vs 夏：明暗塑形、暖褐阴影、蓝仅作点缀/反光。④ **空间**——塞：桌面倾斜、多点透视、反大气 vs 夏：单一视点、稳定浅空间、桌沿水平（或轻微斜）。⑤ **完成度**——塞：5–8% 裸露/骨架线可见 vs 夏：无裸露、表面密实。
+  - **边界注**：塞尚早期（1860s–70s）暗调静物最接近夏档——一旦**几何化/多视点/色阶化**出现即回塞档；夏尔丹的「并置」笔触是**混合前**的并置（服务于质感），塞尚的并置是**结构单元**（服务于建构）——判定不看「并置」本身，看①–⑤ **≥2 轴**（尤②④⑤）。
+  - **组合纪律**：同用必须**分轴**（表面轴归夏、结构轴归塞）或分区；**不得折中成「半几何半触感」的中间态**（N4 不可拆轴：形体处理）。默认二选一。
+- **与系统其余模块**：不得复制邻近模块独有机制——不借卡拉瓦乔的「画外单光 + 近黑背景 + 亮部只落脸/手」；不借伦勃朗的「连续衰减照单脸」；不借马蒂斯的平涂；不借北斋的线骨架；不借荷兰静物画的珍奇堆陈（pronk 式炫耀）。组合时按 `knowledge/cross/conflicts.md` 预检（重点：**C-01 硬阴影**——夏站软光侧（顺风，反约束句保留「软光」表述）；**C-05 笔触可见度**——夏为「可见但非全覆盖」档，须显式取值防误判；**C-11 高光计数**——夏站「宽软反光」侧，与卡（少而准）/维（点状）均不同轴，按 N7 口径单独声明「反光带」类；**C-12 色相预算**——暖土色系显式取值；**C-13 阴影色相**——暖褐/灰绿）。
+
+---
+
+## 4. 控制参数（6 个，各三档）
+
+| # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%） | 默认建议 |
+|---|---|---|---|---|---|
+| P1 | **触感密度**（Tactile Density）`[归纳]` | 表面平滑、材质概括（晚期粉彩式轻处理） | 主要物体笔触可读、近观可见颗粒 | 全画稠密点触与堆叠——近看颜料、远看成物（La Raie/Le Buffet 档） | **70%** |
+| P2 | **反光网络密度**（Reflex Network）`[归纳]` | 无跨物反光（各物孤立高光） | 各物自带软高光 + 1–2 处邻物色 | 系统性互映 ≥3 处（铜映肉红、玻璃映红蓝、银映果与布） | **65%** |
+| P3 | **材质对比度**（Material Contrast）`[归纳]` | 单一材质主导 | 2–3 类（金属/玻璃/食物） | ≥4 类同屏、各有专属表面（金属钝光、玻璃湿亮、面包颗粒、瓷温润、织物哑光） | **70%** |
+| P4 | **光质柔和度**（Light Diffusion）`[归纳]` | 方向性硬光与锐投影（**越界警报：卡拉瓦乔档**） | 单侧软光、暖褐阴影、无锐投影 | 包围漫射、全中调、无投影（晚期静物档） | **60%** |
+| P5 | **空间浅度与中性场**（Shallow Space & Neutral Ground）`[归纳]` | 纵深可读、背景有细节（**越界警报：荷兰室内档**） | 桌面深度（前缘—背景两带）、背景简化 | 物体贴前缘、背景为单一中性半调（灰绿/褐） | **65%** |
+| P6 | **表面整合度**（Finition / Blend）`[归纳]` | 大笔触并置明显（约 1730s 前中期） | 并置 + 局部揉合 | 反光、透明与 fondu 主导（约 1755 后晚期档） | **50%** |
+
+> **用法**：P1/P2 定「是不是夏尔丹」（触感 + 反光网络，两条 ≥ 中档才成立）；P3/P4 定材质与光档；P5 定构图；P6 是**时期滑轨**（早期并置 ↔ 晚期揉合，工作流参数）。
+> **越界警报（与 §3.1 对齐，组合实验按此判分）**：① 表面压平、高光点状、冷调蓝阴影、地砖网格 → 越界**维米尔**；② tache 方向族、多轮廓、蓝网、裸露画布 → 越界**塞尚**；③ 画外单光 + 近黑背景 + 亮部只落脸/手 → 越界**卡拉瓦乔**；④ 平涂无笔触、无高光 → 越界**马蒂斯**。
+
+---
+
+## 5. 自述与原话（6 条；完整语料 28 条见 `_corpus/chardin.md`）
+
+> 口径：夏尔丹**无画论、无书信集、无日记存世**——他的「声音」全部经由**他人转录**或**极少量亲笔信**（1778 致 d'Angivillier）。本节条目一律标注载体；**不得**当画论引用；涉及「他心里如何」的表述按项目宪章降级为操作规则。
+
+1. **「On se sert des couleurs, mais on peint avec le sentiment.」**（用颜色——但要靠感受来画）——**完整对话**（Cochin 致 Haillet 信，1780，夏尔丹去世后不久）：「Un jour, un artiste fait grand étalage des moyens qu'il employait pour purifier et perfectionner ses couleurs. M. Chardin, impatient de ce bavardage de la part d'un homme à qui il ne reconnoissoit d'autre talent que celui d'une exécution froide et soignée, lui dit : « Mais qui vous a dit qu'on peignît avec les couleurs ? — Avec quoy donc ? répliqua l'autre, fort étonné. — On se sert des couleurs, reprit M. Chardin, mais on peint avec le sentiment. »」`[自述转记]`（[R33] 转录；[R24] p.434 同记）
+2. **致 d'Angivillier 伯爵信（1778 年 7 月前）·画家的账**：「Si j'osais, en finissant, Monsieur le Comte après avoir parlé des intérêts du Trésorier, stipuler aussi ceux du peintre, je prendrois la liberté d'observer au Protecteur des Arts que cette faveur rejailliroit en tems sur un artiste qui se plaît à convenir à la vérité que dans le courant de ses travaux, les bienfaits de sa Majesté l'ont aidé à soutenir la peinture avec honneur, mais qui a malheureusement éprouvé que les études longues et opiniâtres qu'exige la nature, ne le conduisoient point à la fortune.」`[自述]`（[R22] 转录；原件为 1778 年与王家建筑总管往来文书，未回查档案原件）
+3. **同上信·转向粉彩的自述**：「Mes infirmités m'ont empêché de continuer à peindre à l'huile, je me suis rejeté sur le pastel…」（身体不允许我再画油画，我就改投粉彩）`[自述]`（[R22][R24]——与 Cochin 1780 信的「铅白伤眼」旁证并列）
+4. **转引版（与 #1 同源异文）**：Malraux《Les Voix du silence》（1951）记：「Il disait qu'« on fait de la peinture avec des sentiments, non avec des couleurs »」。`[史料·转引]`（[R22]——与 #1 并读，**取 #1 为主文本**）
+5. **经马蒂斯转引**：「J'aime ce mot de Chardin : « Je mets de la couleur jusqu'à ce que ce soit ressemblant. »」（我喜欢夏尔丹这句话：「我一直放颜色，直到像为止。」）`[自述转引·经马蒂斯]`（Matisse《Notes d'un peintre》1908；本库 `matisse.md` 语料转录）
+6. **（转记·关于他）以夹克易画**：Met 图录记 Le Bas 轶事——Le Bas 到访见其正画「一只猫盯着一只死兔」，欲购；「Chardin is said to have replied that this could be arranged, as Le Bas was wearing a jacket that pleased him; Le Bas exchanged the jacket for the painting.」（据传夏尔丹答：可以，因为你身上这件夹克我喜欢；Le Bas 便以夹克换了画。）`[史料·转记]`（[R14]）
+
+> **排除清单（防误挂）**：① 「l'ennemi de toute peinture est le gris」（一切绘画的敌人是灰）——这是 **Delacroix** 笔记语（1852），fr.wikipedia 明确以虚拟式联想夏尔丹，**不得**归他；② 其余「他说过……」类转述若无法定位载体，一律不入本档案（已查: [R22][R23][R24][R33] 全量检索）。
+
+---

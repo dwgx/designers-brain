@@ -23,7 +23,7 @@
   3. *The Holy Trinity*（三位一体）1577–79，**普拉多**（P000824；300×179 cm；原为 Santo Domingo el Antiguo 主祭坛顶阁）— https://www.museodelprado.es/en/the-collection/art-work/the-holy-trinity/8b502bfc-bc6d-43d1-b72b-b047eeea033c （直读 403 → 存档快照 [R2]）
   4. *View of Toledo*（托莱多风景）约 1599–1600，**Met**（29.100.6）— https://www.metmuseum.org/art/collection/search/436575 （API ✅ [R4]）
   5. *The Vision of Saint John*（圣约翰的异象 / 第五封印的开启）约 1608–14，**Met**（56.48）— https://www.metmuseum.org/art/collection/search/436576 （API ✅ [R4]）
-- **语料/图库**：`_corpus/el_greco.md`（30 条：自述 10 / 同时代记述 14 / 后世评述 6）；`_images/el_greco/`（14–15 张，全 PD/CC0：Met 6 + Commons 8–9；MANIFEST 逐张核验）。
+- **语料/图库**：`_corpus/el_greco.md`（30 条：自述 10 / 同时代记述 14 / 后世评述 6）；`_images/el_greco/`（**17 张**，全 PD/CC0：Met 6 + Commons 11；MANIFEST 逐张核验、contact sheet 目检 17/17）。
 
 ---
 
@@ -288,7 +288,7 @@ genre anecdote, still life, decorative gold ornament, flat cartoon vector, text 
 7. **散光说 / 大麻说**：fringe 理论（Goldschmidt/Beritens 1912 散光说；Perera 大麻说）——Merleau-Ponty 已将其收束为「表达而非病因」；本档案**不采用病因论**。
 8. **量化阈值为归纳、未实测**：§4 六参数与 §8.2 八条规则阈值均未对原作做像素测量（分母＝假想参考帧）；组合实验可按 §8.2 自查表回改。
 9. **画论佚失**：其画论著作原文未传（[R3] 明记 "lost"）——未找到（已查: Met essay、Prado 页、Wikiquote 转引链、Cossío 1909）。
-10. **图像与私有层**：图库 14–15 张已核（Met PD/CC0 6 + Commons PD 8–9，见 `_images/el_greco/MANIFEST.md`）；`_private/INVENTORY_el_greco.md` 记研究副本与受阻项（按 `_private/README.md` 纪律，不公开路径）。
+10. **图像与私有层**：图库 **17 张**已核（Met PD/CC0 6 + Commons PD 11，见 `_images/el_greco/MANIFEST.md`）；`_private/INVENTORY_el_greco.md` 记研究副本与受阻项（按 `_private/README.md` 纪律，不公开路径）。
 
 ---
 

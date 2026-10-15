@@ -31,7 +31,7 @@
 
 ## 备注
 
-- **许可核查**：Commons 5 张 = Public domain（PD-Art；作者卒于 11 世纪，全球 PD；忠实复制品 PD-Art）× 2 张 NPM 开放数据 CC0（临流独坐/秋林飞瀑）… 合计：PD×3（xishan_xinglv / xishan_signature / xuejing_hanlin）＋ CC0×3（linliu_duzuo / qiulin_feipu / fang_fankuan_met / zhaoyuan_handscroll 实为 4 张）＋ NPM 开放资料 1（wanghui_fa_fankuan）。逐张记录，无版权未清项。
+- **许可核查**：8 张 = **Public domain ×3**（xishan_xinglv / xishan_signature / xuejing_hanlin；作者卒于 11 世纪，全球 PD；二维作品忠实复制品 PD-Art）+ **CC0 ×4**（linliu_duzuo / qiulin_feipu / fang_fankuan_met / zhaoyuan_handscroll）+ **NPM 开放资料 ×1**（wanghui_fa_fankuan，政府资料开放授权条款）。逐张记录，无版权未清项。
 - **获取方式注记**：Wikimedia 对本机 IP 限流（upload.wikimedia.org 429 频发）——大图经 `thumb.wikimedia.org` 预生成缩略档与浏览器上下文取回；MET 图改走 `images.metmuseum.org`；NPM 图经 IIIF 服务（`iiifod.npm.gov.tw`）取回。NPM 数字档案详情页（digitalarchive.npm.gov.tw）对本机直连返回 403，经浏览器直读。
 - **未收录（公开侧无开放许可图像）**：雪山萧寺图（台北故宫）、群峰雪霁图（台北故宫）、海山图——馆方网页图版权未清，未入公开侧；如需研究副本另采私有层。NPM《溪山行旅图》官方 1MP CC0 / 6MP CC BY 4.0 下载（需验证码）未取——公开侧已有两版高清扫描（见上）。
 - 本分册未改 `_images/manifest.md`（跨画家共享文件，由主脑合并）。

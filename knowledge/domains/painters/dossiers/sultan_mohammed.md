@@ -168,3 +168,251 @@
 
 ---
 
+## 8. 提示词模块
+
+### 8.1 图像生成模块（英文 prompt + 中文说明）
+
+**正向段（可直接粘贴）**
+```
+Sultan Muhammad-style Safavid miniature — a page from a royal Safavid manuscript (Tabriz, c. 1525–35):
+a scene of courtly or mythic action at the height of Safavid color — lapis blue, turquoise, vermilion, orange, and leaf green
+laid in flat, saturated pigment fields with no visible brushwork; a gold sky above, sprinkled gold across the page margins;
+stacked planes and soaring mountains that break out of the painted frame into the margins on three sides;
+rock formations, clouds and water animated with hidden faces and creatures — a lion's head, a horse, monkeys, dragons woven into the stone;
+figures in leopard-skin robes and tall red Qizilbash turbans, whirling, galloping, gesturing — one figure points toward a distant event;
+minute, jewel-like detail in textiles, fur, water and tilework; calligraphic text panels set into the page;
+a drama quietly announced — a gaze, a gesture, a foreboding beneath the harmony;
+opaque watercolor, ink, silver and gold on paper, gold-sprinkled borders, nasta'liq text panels
+```
+**负向约束（`--no` 风格）**
+```
+--no single-point perspective, converging lines, vanishing point, cast shadows from one light, chiaroscuro,
+photographic depth of field, atmospheric haze, European easel composition, oil-paint impasto, visible brushwork,
+metallic sheen, relief or texture on the gold, photorealistic faces, individual psychological portraiture,
+restrained or muted palette, large empty unpatterned voids, watermark, 3D render, anime, cartoon, modern clothing
+```
+**中文使用说明**
+- 三档先跑：P1 动势 65% + P2 色彩 70% 是「是不是苏丹·穆罕默德」的起步；《古尤马尔斯》档把 P4 升到 40%+（金天）且 P5 升到 60%（岩中脸）；早期档（《鲁斯塔姆沉睡》）P5 降、P2 略降。
+- 生成后自查三件事：① 动势——≥1 处旋转/飞扬/事件性动势？② 金层——是平涂金面（无光泽起伏）而非金属材质？③ 岩山——嵌入面孔/动物 ≥3 处？
+- 组合注意（预检写死）：与 Lane B 组合按 §3.1 处理 C-15/N6（金层单列、显式声明「平涂金彩、非高光材质」）、C-16（「没有高光的平涂」反约束须限定为「金属/液体表面」，不得误伤平涂金面）、C-17（空场口径取交集/分区）；与贝赫扎德、克里姆特组合先按判据轴定单主（N3）。
+
+### 8.2 代码艺术模块（8 条可判定规则，逐帧可查）
+
+1. **动势指数规则**：≥1 人物姿态偏轴 ≥30°（相对垂直轴）或画面含事件性动势（奔/斗/坠/旋）；全静场判失败。自查：姿态角度估计 + 事件计数。（依据：ravish 判据 [R14]；§3.1 轴①）
+2. **满幅色彩规则**：色相簇 ≥6；高饱和（S ≥0.6）面积 ≥35%；未图案化空场 ≤20%。自查：色相直方图聚类 + 饱和度掩膜 + 空场检测。（依据：色彩奢华 [R1][R17]；§3.1 轴②）
+3. **平涂金层规则**：金区（H 35–55°、S ≥0.5、V ≥0.7）为**平涂色面**——区域内部明度动态范围 ≤5%（无高光/光泽起伏）；面积 5–25%（金天档）或点缀档（≤5%）；金层单列、不计入色数上限（C-15/N6 接口）。自查：HSV 掩膜 + 区域明度方差。（依据：金天/撒金 [R1][R13]；vs 克里姆特判据①）
+4. **拟人化岩山规则**：岩山/云/水纹中可辨面孔或动物形 ≥3 处。自查：局部区域目检（人检；模板匹配可选）。（依据：[R1][R9][R20]）
+5. **无消失点规则（族征）**：全帧直线族中，平行后退线不得收敛——「消失点检验」= 0 组汇聚线（≥3 条线共点即失败）。自查：Hough 线检测 + 共点聚类。（依据：层叠平面 [R13][R18]；与贝赫扎德同侧）
+6. **人物比例恒定规则（族征）**：人物高度不随「纵深」缩放；同帧人物高度方差 ≤15%。自查：人体框高度统计。（依据：无透视纵深语法 [R10][R18]）
+7. **戏剧性装置规则**：画面含 ≥1 处「预兆/指向」装置——信号性手势（指向远处事件）、不祥凝视、局部异常（岩中脸/云中兽）；装置与主体事件的空间分离 ≥1/3 画面距离。自查：装置计数 + 位置校验。（依据：「on the brink of tragedy」[R13][R21]；AKM155「一人向上指洞穴」[R2]）
+8. **文本整合规则（族征）**：文本栏/题记 ≥1 处，与画心同页一体（不悬浮）；书法线条密度与纹样同量级。自查：文本区域检测 + 位置校验。（依据：手抄本页整体设计 [R1][R12]）
+
+> 以上阈值为本项目 `[归纳]`，**未对原作做像素测量**（分母 = 假想参考帧）；1–2 条与 §3.1 分工判据同轴，组合实验时以本节自查表为准。
+
+### 8.3 野外样本（可选）
+
+- **检索结果**：对本地语料 `knowledge/domains/motion-graphics/origin/提示词全文.md` 全文 grep `Sultan Muhammad|سطان محمد|safavid|细密画|miniature` → **零命中**（2026-10-16）——未找到以苏丹·穆罕默德/萨法维细密画命名的野外样本卡。
+- 记录两条与 Lane B 的机制关系（可操作）：
+  1. **反约束误伤候选**：Lane B 02 卡反约束含「没有高光的平涂」（C-16 已记录误伤面）。本模块的**平涂金面正需「无高光」**——组合时该句必须限定为「金属/液体表面」，否则与本模块正向规则直接矛盾（触发 N1 一致性检查）。`[史料]`（`conflicts.md` C-16）+ `[归纳]`
+  2. **正协同**：金撒页缘 + 文本栏的「页面整体设计」与视频「画面 + 字幕/落地文案框 + 材质点缀」同构——页缘撒金可直接映射为片尾/版式层的质感装置（低频、非叙事区）。`[归纳]`
+
+---
+
+## 9. 参考资料（编号 ↔ 正文标注）
+
+| # | 来源 | URL | 本机可达性（2026-10-16） |
+|---|---|---|---|
+| R1 | Aga Khan Museum —《The Court of Kayumars》AKM165 对象页（Canby 撰） | https://collections.agakhanmuseum.org/collection/artifact/court-of-kayumars-akm165 | ✅ 直读 200（全文已存私有层） |
+| R2 | Aga Khan Museum —《The Death of Zahhak》AKM155 对象页（Canby 撰） | https://collections.agakhanmuseum.org/collection/artifact/the-death-of-zahhak-akm155 | ✅ 直读 200（全文已存私有层） |
+| R3 | The Met — Heilbrunn 论文「The Shahnama of Shah Tahmasp」（Leoni, 2008） | https://www.metmuseum.org/toah/hd/shnm/hd_shnm.htm | ⚠️ 直读 429；**Wayback 快照 ✅**（已存私有层） |
+| R4 | The Met — 452111《The Feast of Sada》（1970.301.2） | https://www.metmuseum.org/art/collection/search/452111 | ⚠️ 429；**Wayback 快照 ✅** |
+| R5 | The Met — 452112《Tahmuras Defeats the Divs》（1970.301.3） | https://www.metmuseum.org/art/collection/search/452112 | ⚠️ 429；**Wayback 快照 ✅** |
+| R6 | The Met — 452113《Zahhak is Told His Fate》（1970.301.4） | https://www.metmuseum.org/art/collection/search/452113 | ⚠️ 429；**Wayback 快照 ✅** |
+| R7 | The Met — 452117《Zal Consults the Magi》（1970.301.8） | https://www.metmuseum.org/art/collection/search/452117 | ⚠️ 429；**Wayback 快照 ✅** |
+| R8 | The Met — 452110《Firdausi's Parable of the Ship of Shi'ism》（Mirza 'Ali 作；父子链证据） | https://www.metmuseum.org/art/collection/search/452110 | ⚠️ 429；**Wayback 快照 ✅** |
+| R9 | The Met — 453311《Allegory of Worldly and Otherworldly Drunkenness》（Divan of Hafiz；Met×Harvard 联合藏） | https://www.metmuseum.org/art/collection/search/453311 | ⚠️ 429；API 已取元数据 |
+| R10 | British Museum —《Rostam sleeping while Rakhsh fights a lion》1948,1211,0.23 | https://islamicworld.britishmuseum.org/collection/RFM797 ｜ https://www.britishmuseum.org/collection/object/W_1948-1211-0-23 | ✅ islamicworld 页直读 200 |
+| R11 | Musée du Louvre —《Portrait équestre présumé de Shah Tahmasp》OA 7138（verso；recto 书法页） | https://collections.louvre.fr/en/ark:/53355/cl010329521 | ✅ 直读 200（JSON 已存私有层） |
+| R12 | British Library — Or.2265《Shah Tahmasp's 'Khamsah' of Niẓāmī》馆档 | https://searcharchives.bl.uk/catalog/032-001608356 | ✅ 直读 200 |
+| R13 | Smarthistory —「The Court of Gayumars」（Demerdash / Çakir Phillip / Chagnon, 2020） | https://smarthistory.org/the-court-of-gayumars/ | ⚠️ 直读 403；**Wayback 快照 ✅**（全文） |
+| R14 | Qadi Ahmad,《Calligraphers and Painters》, tr. Minorsky（Freer Occ. Papers 3/2, 1959）pp.180–181/186–187 | https://archive.org/details/calligrapherspa321959ahma | ✅ 全文 djvu.txt 逐字核（私有层共用副本） |
+| R15 | Roxburgh, "Kamal al-Din Bihzad and Authorship in Persianate Painting", *Muqarnas* 17 (2000)（注 74） | https://s3.amazonaws.com/media.archnet.org/system/publications/contents/5128/original/DPC1861.pdf | ✅ PDF 全文（私有层副本；本机 pdftotext 核） |
+| R16 | Dust Muhammad 序（1544）转引链 — Thackston,《A Century of Princes》1989, pp.348/355 | （书目；经 R15 注 74 与 R1 引） | ⚠️ 原书未直读（转引级） |
+| R17 | Wikipedia（en）— Sultan Mohammed | https://en.wikipedia.org/wiki/Sultan_Mohammed | ✅ read 200 + wikitext |
+| R18 | Wikipedia（en）— Shahnameh of Shah Tahmasp | https://en.wikipedia.org/wiki/Shahnameh_of_Shah_Tahmasp | ✅ read 200 + wikitext |
+| R19 | Canby,《The Golden Age of Persian Art, 1501–1722》（2000） | （书目） | ⚠️ 原书未直读（经 R1/R17 转引） |
+| R20 | Welch —《A King's Book of Kings》（1972）｜《Persian Painting: Five Royal Safavid Manuscripts》（1976）｜《Wonders of the Age》（1979） | https://www.metmuseum.org/met-publications/a-kings-book-of-kings-the-shah-nameh-of-shah-tahmasp ｜ https://archive.org/details/persianpaintingf0000welc | ⚠️ 页 429；**1972 PDF 已存私有层**（图像版）；1976 借阅受限（转引） |
+| R21 | Binyon / Gray / Wilkinson,《Persian Miniature Painting》（1933; Dover 1989）p.186 | https://archive.org/details/persianminiature00biny | ⚠️ 借阅受限（转引：R18） |
+| R22 | Freer Gallery of Art（Smithsonian）—《Faridun strikes Zahhak with the ox-headed mace》F1996.2 | https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1996.2/ | ⚠️ 未直读（经 Commons 文件页核） |
+| R23 | Uppsala University Library —《Dastan-i Jamal u Jalal》O Nova 2（哈佛数字目录） | http://id.lib.harvard.edu/images/8001266923/catalog | ⚠️ 未直读（经 Commons 分类核） |
+| R24 | Wikimedia Commons — Category: Persian miniatures by Sultan Muhammad（图源总入口） | https://commons.wikimedia.org/wiki/Category:Persian_miniatures_by_Sultan_Muhammad | ✅ API 逐张 imageinfo 核（16 张） |
+
+---
+
+## 10. 缺口与待验证
+
+1. **无自述（结构性缺口）**：书信/笔记/画论未见（已查: Qadi Ahmad 全书、Met/BM/Louvre/AKM 馆档、Wikipedia 书目）。语料以「签名 + 记述 + 馆方研究」立档——**不含任何 `[self-written]` 条目**；两幅签名是唯一「自述」级材料。
+2. **归属分级（重点）**：仅 **2 幅直署**（《庆祝开斋节》《醉酒寓言》）+ **1 幅同时代文字具体提及**（《古尤马尔斯宫廷》）+ 1 幅馆档归属组（Or.2265 两页）；其余全部为风格/馆方归属——引用时保持层级，不升格。
+3. **出生年不定**：文献无载；口径「1470s」（Wikidata/Commons）；本档案写「约 1470s」并注明。
+4. **卒年不定**：「1555 前」（Canby 2000, p.72 口径）与「c. 1555」（常见简写）两存；卒地塔布里兹（Qadi Ahmad）。
+5. **《庆祝开斋节》年代两说**：Welch 口径 c. 934/1527 vs 常见口径 1531——两存（本档案写「约 1527–1531」）。
+6. **1481《五卷诗》补绘数口径不一**：文本称「eleven new miniatures」而所列 folio 为 9 处（12, 38v, 46, 89v, 192, 196, 233, 244, 285）——原书未核，两存。
+7. **《贾马尔与贾拉尔》归属**：Wikipedia「可能参与」级；Commons/Uppsala 归其名下——保持「可能」级。
+8. **《古尤马尔斯》制作时长**：Canby/Welch「三年」vs Smarthistory「三年以上」——两存。
+9. **量化阈值未实测**：§4 六参数档位与 §8.2 八条规则阈值均未对原作做像素测量（分母 = 假想参考帧）。
+10. **波斯原文未回查**：签名原文与 Dust Muhammad 序原文均依赖转写/英译（Blair 2014 / Thackston 1989 / Binyon 1933）——建议对照 Canby 1998 图版与 Dickson & Welch 1981 逐字核录。
+11. **转引级条目**：#4/#5/#21 类（Thackston/Binyon/Canby/Welch 原书）未直读——见 §9 可达性列。
+12. **C-15/N6 回填建议（待主脑）**：「平涂金彩 vs 金属材质」的量化分界（建议：金区明度动态范围 ≤5% 平涂、≥10% 材质、5–10% 灰区）——待组合实验实测；本档案不改 `conflicts.md`。
+13. **图像许可备注**：AKM 官网图（AKM155/165）为 CC BY-NC——**不入公开侧**；本档用 Commons 的 PD 版本（Welch 1976 扫描等）。卢浮宫 RMN 图（© GrandPalaisRmn）入私有层，公开侧只给对象页链接。
+14. **卢浮宫骑手像性质**：「presumed（推定）」级；与塔赫玛斯普肖像传统、与 Or.2265 中「以塔赫玛斯普为原型」之说的关系待核。
+15. **Met 453311 版权状态**：API 标 `isPublicDomain=false`（联合所有权）——公开侧图用 Commons PD 版，对象页仅作链接。
+16. **未直读清单**：R16/R19/R21/R22/R23（原书或馆页）——均标转引/经核级，待通道恢复补录。
+
+---
+
+## 11. 生平与年代轴（详细）（v2 增项）
+
+### 11.1 生平叙述
+
+**塔布里兹的学徒（约 1470s–1501）。** 苏丹·穆罕默德约生于 1470 年代的塔布里兹——当时波斯西北部的文化都会，先后处于黑羊与白羊（阿科·科云卢）土库曼王朝治下。他成长于土库曼宫廷画坊的传统之中；大英博物馆的策展人后来把他的早期风格描述为「塔布里兹阿科·科云卢土库曼画坊的熟练大师」之作——动势与想象、狂放的植被与拟人化的岩山，是这一传统的底色。出生年文献无载，学界以「1470s」笼统带过；他的名字（سلطان محمد）与日后的别号「伊拉克的」（'Erāqi）都提示其塔布里兹-波斯伊拉克背景。他一生的工作地点可以确定为塔布里兹——这座在他有生之年从土库曼都城变为萨法维新京的城市。`[史料/研究]`（[R17][R10]）
+
+**萨法维开国与早期委任（1501–1522）。** 1501 年，伊斯玛仪一世攻取塔布里兹、建立萨法维王朝；画坊易主而技艺延续。约 1505 年，苏丹·穆罕默德受伊斯玛仪之命，为一部 1481 年制作的土库曼《五卷诗》（今伊斯坦布尔托普卡帕宫 H.762）补绘新插图——画中主角开始戴上伊斯玛仪的新式头巾「海达尔之冠」（Taj-i Haydari），新旧两层的分界正靠这类图像标志辨认。约 1502–05 年间，一部《贾马尔与贾拉尔的故事》（今乌普萨拉大学图书馆 O Nova 2）也可能出自其手——若确证，这是他最早的存世作品群。1515–1522 年间，他为一部后来未完成的《列王纪》画下《鲁斯塔姆沉睡，拉赫什斗狮》——大英博物馆 1948,1211,0.23：密林、怪脸岩石、搏斗的马与狮，全画是「动势 + 拟人化自然」的早期宣言；研究者认为它「vigorous Tabriz style」过于强烈，或许因此被弃置未完成、后又被装订进另一部抄本。`[史料/研究]`（[R17][R10][R18]）
+
+**王子之师与《列王纪》工程（1522–约 1525）。** 1522 年，被逐出赫拉特的贝赫扎德抵达塔布里兹——Qadi Ahmad 记下了这个同馆错位的场面：当贝赫扎德从赫拉特到来时，苏丹·穆罕默德已在塔赫玛斯普王子的图书馆中执教，「指导那位『四域之霍斯鲁』习画」。塔赫玛斯普自赫拉特返回后，苏丹·穆罕默德受命教其绘画（阿迦汗博物馆口径）；师徒关系可能正是这部御制《列王纪》的起点。约 1522–25 年，他出任《塔赫玛斯普列王纪》的首任项目总监——这部 759 叶、258 幅插图的巨制，被视为波斯书籍艺术的最高成就之一；他为它画下最著名的一页《古尤马尔斯宫廷》（f.20v）：金天之下，初代国王端坐岩座，豹皮之民环列，山水越出画框、面孔藏入岩石——据同时代材料，他在这一页上工作三年以上。1544 年，Dust Muhammad 在画册序中为它写下「狮心者战栗」的评语——这是 16 世纪文献对单幅细密画罕见的直接记录。`[史料/研究]`（[R14][R1][R13][R3]）
+
+**成熟期（约 1525–1543）。** 贝赫扎德的到来让赫拉特的「逻辑布置」融入塔布里兹的「生动性格化」（Met 对《扎哈克听闻命运》的分析）。1524 年伊斯玛仪去世、塔赫玛斯普继位；工程继续，总监先后交棒米尔·穆萨维尔（1527 起）与阿卡·米拉克（1530 年代初）。约 1531 年（一说 934/1527），他为萨姆·米尔扎的《哈菲兹诗集》（Cartier 哈菲兹）画下两幅直署作——《庆祝开斋节》（f.86a）与《世界与彼世的醉酒》（f.135a）：前者把年轻的沙阿画在画面中央的宝座上，签名落在统治者足下，环绕以「胜利、神助、吉运、凯旋、长寿」；后者以酒罐、门窗与人群织出寓言空间。约 1535 年，《扎哈克之死》（f.37v）——据论证是其对《列王纪》的最后贡献：岩山收束、面孔变少、色调转沉，风格已从「狂放」走向「成熟」。1539–43 年，他又为另一部御制《五卷诗》（大英图书馆 Or. 2265）贡献两幅：《霍斯鲁窥见西琳沐浴》（f.53v）与《巴赫拉姆·古尔一箭射中野驴与狮》（f.202v）。`[史料/研究]`（[R18][R1][R2][R12][R6]）
+
+**晚年与身后（1543–1555 前）。** 他的晚年记载稀少：Qadi Ahmad 只留下一句「他卒于塔布里兹」；现代口径把卒年定在「1555 年之前」。可以确认的是家族画坊的延续：其子米尔扎·阿里在「其父在世时」已长于王室画坊，绘画「无人能及」（Qadi Ahmad），并为同一部 Or. 2265 画下 f.77v《霍斯鲁听巴尔巴德弹琴》；其外孙米尔·扎因·阿比丁是门人兼画家与装金师，终身为沙阿画坊效力。两幅签名、一页被写进历史的《古尤马尔斯宫廷》、一部散页各归其处的《列王纪》——他在文献中留下的痕迹不多，却几乎每一处都指向「最高」：Dust Muhammad 称其「时代的顶点」，现代研究者称《古尤马尔斯宫廷》「无与伦比」「或许是伊朗艺术中最伟大的一幅画」。`[史料/研究]`（[R14][R17][R12][R21][R18]）
+
+### 11.2 关键年份表
+
+| 年份 | 事件 | 来源 |
+|---|---|---|
+| 约 1470s | 生于塔布里兹（年份无载，学界口径） | [R17][R24] |
+| 1501 前 | 成长于塔布里兹土库曼（阿科·科云卢）画坊传统 | [R10] |
+| 1501 | 伊斯玛仪一世取塔布里兹、建萨法维朝；画坊转入萨法维体系 | [R17] |
+| 约 1502–05 | 《贾马尔与贾拉尔的故事》（Uppsala O Nova 2）或出其手（「可能」级） | [R23] |
+| 约 1505 | 为 1481 年土库曼《五卷诗》（Topkapı H.762）补绘新插图（Taj-i Haydari 层） | [R17] |
+| 约 1515–22 | 《鲁斯塔姆沉睡，拉赫什斗狮》（BM 1948,1211,0.23）——未完成《列王纪》散页 | [R10][R19] |
+| 1522 | 贝赫扎德抵塔布里兹；Qadi Ahmad 记「苏丹·穆罕默德已在教塔赫玛斯普」 | [R14] |
+| 1522 前后 | 受命教塔赫玛斯普绘画（AKM 口径：塔赫玛斯普自赫拉特返回后） | [R1] |
+| 约 1522–25 | 《塔赫玛斯普列王纪》首任总监；画《古尤马尔斯宫廷》（f.20v，制作三年+） | [R1][R3][R13] |
+| 1524 | 伊斯玛仪一世卒；塔赫玛斯普继位 | [R17][R3] |
+| 约 1525 | 《萨达节之宴》（f.22v）、《塔赫穆拉斯降魔》（f.23v）、《扎哈克听闻命运》（f.29v）等（Met 藏） | [R4][R5][R6] |
+| 1527 | 工程总监交棒米尔·穆萨维尔（Met 口径） | [R8] |
+| 约 1527–1531 | Cartier 哈菲兹（萨姆·米尔扎本）：两幅直署作（f.86a / f.135a） | [R14][R17] |
+| 约 1530–35 | 《扎尔问卜》（f.73v）等（Met 藏） | [R7] |
+| 1530 年代初 | 总监交棒阿卡·米拉克 | [R8] |
+| 约 1535 | 《扎哈克之死》（f.37v）——论证为其对《列王纪》的最后贡献 | [R2] |
+| 1539–43 | 为 Or. 2265《五卷诗》贡献 f.53v、f.202v | [R12] |
+| 1555 前 | 卒（一说 c.1555）；卒地塔布里兹 | [R14][R17][R19] |
+| 1544 | Dust Muhammad 序（评价「狮心」句/「时代顶点」） | [R1][R16] |
+| 1568 | 《列王纪》赠奥斯曼苏丹塞利姆二世（身后） | [R3][R18] |
+| 1970s | Houghton 拆分《列王纪》；Met 获赠 78 页（1970 赠，一作 77） | [R3][R18] |
+| 1994 | 剩余 118 幅与德黑兰当代艺术馆交换（Woman III） | [R18] |
+| 2000s– | 经典化：AKM 收藏两幅核心页；「伊朗艺术最伟大」评语流通 | [R1][R20] |
+
+### 11.3 生平细节来源
+
+- 骨架与年表交叉源：[R14]（Qadi Ahmad：塔布里兹、教塔赫玛斯普、卒地、家族）；[R1]/[R2]（AKM：1522 教学口径、三年+、1535 最后贡献）；[R17]（Wikipedia：归属分级、1505 补绘、卒年）；[R3]（Met 论文：工程史与 1568/1970s 流转）。
+- 早期风格与画坊定位：[R10]（BM：土库曼画坊、弃置说）；[R6]（Met：Herat×Turkmen 融合）。
+- 文本/评语层：[R15]/[R16]（Roxburgh/Thackston：1544 序引文）；[R21]（Binyon：时代顶点）；[R13]（Smarthistory：AKM 策展人对谈）。
+- 未回查项（出生年、卒年、补绘数口径、转引级原书）已在 §10 逐条列出；「卒地两说」类矛盾不在本档案（Qadi Ahmad 单一来源记塔布里兹）。
+
+---
+
+## 12. 临摹/学习清单（v2 增项；10 件代表作，各含「看什么 / 学什么 / 怎么练」）
+
+> 用途：为「临摹彻底」与学习路径卡提供**可执行练习**。练习条目为 `[归纳]`（本项目设计），作品信息为 `[史料]`。
+
+**1. 《古尤马尔斯宫廷》（Shahnameh of Shah Tahmasp，f.20v，c.1524–25，阿迦汗博物馆 AKM165）**
+- 看什么：金天之下初代国王的岩座；豹皮之民环列；山水越框（三侧）；岩中藏脸、云中藏兽；「天堂濒临失去」的指向手势（国王指向即将被害的儿子）。
+- 学什么：**动势 × 满幅色彩**的总纲；椭圆/上升构图；拟人化景观；戏剧性预置。
+- 怎么练：以「一次聚会 + 一个预兆」为题：主角置于三角顶点、≥2 处岩中脸、金天 + 撒金页缘、≥1 个指向手势（不许画箭头）；再写一张自查卡逐条对照 §8.2。
+
+**2. 《扎哈克之死》（同上 f.37v，c.1535，AKM155）**
+- 看什么：顶部洞中悬链的暴君；下方狩猎人群「浑然不觉」；一人向上指；岩山收束、色调转沉。
+- 学什么：**双区并置 + 视线接力**（下区→上区）；晚期减法（面孔变少、尺度变大）。
+- 怎么练：画「上下两区」：上区一个被遗忘的惩罚、下区一个日常事件，仅靠一人的指向连接两区；限制面孔数 ≤4。
+
+**3. 《鲁斯塔姆沉睡，拉赫什斗狮》（未完成 Shahnameh 散页，c.1515–22，大英博物馆 1948,1211,0.23）**
+- 看什么：沉睡者与搏斗的马狮（静-动同框）；密林中的次生事件（劫巢之蛇）；怪脸岩石。
+- 学什么：**早期风格**——狂放植被、怪脸岩山、动势事件的原始强度；「未完成」的工序层。
+- 怎么练：同题材单页：一人沉睡（静）+ 一兽搏斗（动），环境藏 ≥3 个次生小事件；只用土色系 + 蓝 + 金。
+
+**4. 《萨达节之宴》（同上 f.22v，c.1525，Met 1970.301.2）**
+- 看什么：环坐的豹皮人群与山景；发现火的庆典；「机智而善意」的人与动物。
+- 学什么：**环形构图**；把「事件」放在自然中；椭圆包络 + 山体升入页缘。
+- 怎么练：画「庆祝」主题：≥12 人环坐、中心一件「发现物」；人物高度方差 ≤15%（§8.2-6）。
+
+**5. 《塔赫穆拉斯降魔》（同上 f.23v，c.1525，Met 1970.301.3）**
+- 看什么：王跨马降魔；魔怪面孔与手势的「幽默」；斑驳皮肤的处理。
+- 学什么：**类型化 + 性格化**的魔怪；动势（驰骋）与平涂色彩。
+- 怎么练：画 3 个魔怪：各一种「可怖又好笑」的面孔类型；禁止写实恐怖渲染。
+
+**6. 《扎哈克听闻命运》（同上 f.29v，c.1524，Met 1970.301.4）**
+- 看什么：暴君昏厥瞬间；星官/贤士环绕；弯垂蔷薇与蜗状云（土库曼层）；人物在空间中的「逻辑布置」（赫拉特层）。
+- 学什么：**双源融合**的样本——秩序（空间）+ 性格化（人物）；昏厥姿态的动势。
+- 怎么练：画「一个坏消息」的场景：主角的失衡姿态 + ≥2 件环境信号（弯枝/异云）；颜色按「满幅」档检查。
+
+**7. 《庆祝开斋节》（Cartier 哈菲兹 f.86a，约 1527–1531）**
+- 看什么：沙阿居中宝座；签名在统治者足下；「胜利/神助/吉运/凯旋/长寿」环绕；宫室与人群满幅。
+- 学什么：**签名法**（嵌入画面物件）；宫廷场景的满幅调度；图与文（为王者形容词）的互文。
+- 怎么练：临一幅宫廷聚会：签名（或练习标记）嵌入画面内一处（足下/门楣/器物）；禁止画在边框外。
+
+**8. 《醉酒寓言》（Cartier 哈菲兹 f.135a，约 1527–1531，Met×Harvard）**
+- 看什么：门楣签名；酒罐、门窗、人群的寓言空间；哈菲兹在窗上的「点睛」。
+- 学什么：**寓言的空间化**；多层门窗作为叙事层；签名与建筑的一体。
+- 怎么练：以「一栋楼 + 三种醉态」为题：每层一种状态，门楣留签名位。
+
+**9. 《霍斯鲁窥见西琳沐浴》（Khamsa of Nizami，Or.2265 f.53v，1539–43，大英图书馆）**
+- 看什么：窥视的构图（视线三角）；水与岩的拟人化；晚期色阶。
+- 学什么：**「窥见」主题的视线编排**；水纹/岩纹的细节密度。
+- 怎么练：画「偷看」场景：三人以内、视线链 ≥2 跳、环境含 ≥1 处「脸」（岩或云）；色彩按 P2 强档。
+
+**10. 《法里顿锤击扎哈克》（Shahnameh of Shah Tahmasp 散页，c.1525，弗里尔美术馆 F1996.2）**
+- 看什么：宫室内的一击（动势极值）；金蓝顶、砖饰与人群；事件被建筑包裹。
+- 学什么：**把「暴力事件」放进华丽室内**；建筑框景与动势中心的对比。
+- 怎么练：画「一击」：室内场景、动势中心偏轴 ≥30°、建筑纹样 ≥2 种；金层按 P4 中档自查。
+
+> 组合练习建议（与系统联动）：第 1/2 件练「动势 × 色彩总纲」；第 3/4 件练「早期/盛期两档」；第 7/8 件练「签名与版面」——三条正好对应本档案的能力定位，可各自与邻近模块（贝赫扎德 / 克里姆特）做 A/B 对照（对照轴 = §3.1 分工判据）。
+
+---
+
+## 自审四段（LOOP 协议 §3.4）
+
+### A. 早产出
+
+- **图库先行**：开工即完成 16 张候选的检索与核验（Commons imageinfo 逐张核许可/尺寸）→ 下载（含限流重试与 thumb 通道）→ 长边 ≤1800px 重编码 → 落盘 `_images/sultan_mohammed/` → **16 格 contact sheet 目检**（16/16 无错件；2 张疑点件逐张放大复核后确认）——先让「可核验物」上盘，再展开研究。
+- 档案分 **2 次落盘**（头+§0–§7 → §8–§12+自审），每段都是可读的完整节；语料（24 条）先于档案 §5 完成；图库 MANIFEST、私有层清单随后。
+- 中间产物（Met/Commons/AKM/Louvre 抓取件、Wayback 快照、imageinfo JSON、contact sheet）在 `knowledge/domains/painters/_scratch/sultan_mohammed/`；**无仅存于对话的结论**。
+
+### B. 反驳（挑最强结论逐条试推翻）
+
+| # | 结论 | 反驳动作（跑过什么） | 判定 |
+|---|---|---|---|
+| 1 | 「苏丹·穆罕默德 = 动势」（分工判据轴①） | 复核反例：《萨达节之宴》环坐、《庆祝开斋节》端坐——其画面并非全动 | **CONFIRMED（限定为判据轴口径）**：§3.1 把「动」限定为「相对贝赫扎德之静」的判据轴（姿态幅度/旋转 ≥1 即成立），非「全画面皆动」 |
+| 2 | 「两幅直署 + 一幅同时代提及」（归属分级） | 复核 Wikipedia（引 Canby/Blair）原文；再核 AKM/BM 页 | **CONFIRMED**：全档案按三级归属标注，未升格 |
+| 3 | 「金 = 平涂色面（vs 克里姆特）」（§3.1 判据①） | 复核《古尤马尔斯》金天与页缘撒金——是平涂/洒点，无金属光泽渲染；但发现与 C-15/N6「材质层 ≤5%」的接口空缺 | **WEAKENED → 加注**：新增「金层口径（建议回填）」条目（§3.1 末 + §10-12），不自裁阈值 |
+| 4 | 「《古尤马尔斯宫廷》制作三年」（时长） | 复核双源：Canby/Welch「三年」 vs Smarthistory 对谈「三年以上」 | **WEAKENED → 两存**：§11 写「三年以上」，§10-8 记录口径差 |
+| 5 | 「1481《五卷诗》补绘 11 幅」 | 复核 Wikipedia 原文：文本称 11 幅，但所列 folio 仅 9 处 | **WEAKENED**：§10-6 记录口径不一，不采用单一数字 |
+| 6 | 「其卒于 1555 前」（卒年） | 复核：Qadi Ahmad 无卒年；Canby p.72「before 1555」；常见简写「1555」 | **CONFIRMED（两存写法）**：§0/§11 写「1555 前（一说 c.1555）」 |
+| 7 | 「《庆祝开斋节》年代 1531」 | 复核：Welch 口径 c. 934/1527；Wikipedia/常见口径 1531 | **WEAKENED → 两存**：写「约 1527–1531」 |
+
+### C. 机械验证
+
+**检查器**（eval/内联脚本）：`sultan_mohammed.md` 结构检查 + `_extract.py` 抽取契约直测（复刻谓词）+ 引文本机全文抽查 + 图库 sha256。原样输出（节选）：
+
+```
+【待填：终稿复跑输出】
+```
+
+### D. 小结（≤14 行）
+
+- **已确立**：v2 全节（§0–§12 + 本节）；§4/§8.1/§8.2 与抽取契约同构（直测通过）；分工条款（vs 贝赫扎德 / vs 克里姆特）在 §3.1 写死并带可判读判据（与 `behzad.md` §3.1 三轴逐轴对齐）；系统缺口「色彩奢华 + 动势」（细密画线第二站）登记。
+- **已确立（四处落盘）**：① `dossiers/sultan_mohammed.md`；② `_corpus/sultan_mohammed.md`（24 条）；③ `_images/sultan_mohammed/`（16 张 PD/CC0 + MANIFEST）；④ `_private/INVENTORY_sultan_mohammed.md`（+ 研究副本）。
+- **被削弱/降级**：「制作三年」→ 三年以上（两存）；「补绘 11 幅」→ 口径不一（两存）；「1531」→ 约 1527–1531（两存）；「金层」→ 新增 C-15/N6 回填建议（不自裁）。
+- **被推翻**：无完全推翻项（归属类结论均按「直署 / 记述 / 风格」三级保留）。
+- **未知**：无自述（结构性）；出生年与卒年不定；波斯原文未回查；量化阈值未实测；转引级原书未直读（§10 逐条）。
+- **下一步（建议）**：① 主脑验收复跑 §C 检查器 + 抽查引文；② 组合实验用 §8.1 跑「神话全景动势 / 宫廷场景 / 窥见」三题材，按 §8.2 八条逐帧自查；③ 与贝赫扎德、克里姆特做判据轴联测（动势指数 / 金层形态）；④ conflicts.md 回填「平涂金彩 vs 金属材质」分界（主脑）。
+

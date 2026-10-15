@@ -96,7 +96,7 @@
 | A-80 | done | wave19·普桑（重派）：505 行 v2 档案（§11 2019 字 + 43 行；§12 10 件）+ 语料 24 条（Jouanny 1911 页码级）+ 图库 13 张全 PD/CC0 + 私有 7 件；分工 vs 达芬奇/米开朗基罗/弗里德里希写死（镜像互认）；scratch 核验 17/20 可用 | `knowledge/domains/painters/dossiers/poussin.md` | ArtistPoussin-2（wave19） |
 | A-81 | running | wave19·勃鲁盖尔（Bruegel）v2（全景叙事/季节组画） | `knowledge/domains/painters/dossiers/bruegel.md` | ArtistBruegel（wave19） |
 | A-82 | running | wave19·埃尔·格列柯（El Greco）v2（变形精神张力） | `knowledge/domains/painters/dossiers/el_greco.md` | ArtistElGreco（wave19） |
-| A-83 | running | wave19·荷尔拜因（Holbein）v2（肖像精准） | `knowledge/domains/painters/dossiers/holbein.md` | ArtistHolbein（wave19） |
+| A-83 | done | wave19·荷尔拜因（重派）：504 行 v2 档案（§11 2170 字 + 47 行 + 14 来源；§12 10 件）+ 语料 26 条（题铭/遗嘱/van Mander 订正）+ 图库 13 张全 PD/CC0 + 私有 9 件；分工 vs 丢勒/伦勃朗写死；引文 18/18；scratch 核验弃用 10 件 | `knowledge/domains/painters/dossiers/holbein.md` | ArtistHolbein-2（wave19） |
 | A-84 | running | wave19·艾瓦佐夫斯基（Aivazovsky）v2（海与浪） | `knowledge/domains/painters/dossiers/aivazovsky.md` | ArtistAivazovsky（wave19） |
 | A-85 | done | wave19·欧姬芙（重派）：550 行 v2 档案（§11 2062 字 + 89 行 + 12 来源；§12 10 件）+ 语料 35 条 + 16 张图**全在 `_private/`**（公开侧零图）；分工 vs 马蒂斯/莫奈写死；引文 42/42；scratch 51 件核验后重取 4 件 | `knowledge/domains/painters/dossiers/okeeffe.md` | ArtistOkeeffe-2（wave19） |
 | A-86 | done | wave19·里维拉（重派）：533 行 v2 档案（§11 2109 字 + 43 行 + 12 来源；§12 10 件）+ 语料 23 条 + 14 张图**全在 `_private/`**（公开侧零图）；分工 vs 米开朗基罗/戈雅写死 + 镜像 vs 卡罗互查；scratch 先核再用（OK=64） | `knowledge/domains/painters/dossiers/rivera.md` | ArtistRivera-2（wave19） |
