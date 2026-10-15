@@ -63,12 +63,12 @@
 | A-57 | done | wave17·凡·艾克：483 行 v2 档案（§11 2020 字 + 37 行 + 12 来源；§12 10 件）+ 语料 20 条（题刻逐字转录）+ 图库 17 张 PD/CC0 + 私有 8 件；分工 vs 维米尔第一条款写死（4 判据对齐 vermeer.md）；1 条 OVERTURNED（「发明油画」→「定型者」） | `knowledge/domains/painters/dossiers/van_eyck.md` | ArtistVanEyck（wave17） |
 | A-58 | done | wave17·恩格瓦雷：481 行 v2 档案（§11 2574 字 + 33 行 + 15 来源；§12 10 件）+ 语料 18 条 + 14 张图**全在 `_private/`**（公开侧零图；原住民伦理护栏 + ICIP 参考）；分工 vs 修拉写死（符号/大地 vs 光学混合） | `knowledge/domains/painters/dossiers/kngwarreye.md` | ArtistKngwarreye（wave17） |
 | A-59 | done | 加固pass2·透纳：新增 §11（11.1 **2411 字** + 年表 40 行 + 来源 13 条）+ §12（10 件）；纯插入 +134/0；回归 60/60 | `knowledge/domains/painters/dossiers/turner.md` | HardTurner（wave16p2） |
-| A-60 | running | 加固pass2·伦勃朗：新增 §11+§12 | `knowledge/domains/painters/dossiers/rembrandt.md` | HardRembrandt（wave16p2） |
+| A-60 | done | 加固pass2·伦勃朗：新增 §11（11.1 **2977 字** + 年表 47 行 + 来源 28 条 + 11.4 口径注）+ §12（10 件）；纯插入 +180/0；回归 60/60；婚期两历并记等口径修正入 11.4 | `knowledge/domains/painters/dossiers/rembrandt.md` | HardRembrandt（wave16p2） |
 | A-61 | done | 加固pass2·克里姆特：新增 §11（11.1 **2278 字** + 年表 40 行 + 来源 12 条）+ §12（10 件）；纯插入 +138/0；回归 60/60 | `knowledge/domains/painters/dossiers/klimt.md` | HardKlimt（wave16p2） |
-| A-62 | running | 加固pass2·戈雅：§11 叙述扩至 ≥2000 + 子节归一（11.1/11.2/11.3） | `knowledge/domains/painters/dossiers/goya.md` | HardGoya（wave16p2） |
+| A-62 | done | 加固pass2·戈雅：§11.1 406→**2380 字**（12 段；子节归一 B.x→11.x 零残留；§11.3 补至 12 条目）；回归 60/60 | `knowledge/domains/painters/dossiers/goya.md` | HardGoya（wave16p2） |
 | A-63 | done | 加固pass2·修拉：§11.1 450→**2488 字**（8 段；子节归一）；§C→§12 归一 + §B/§C 引用清理（0 残留）；回归 60/60 | `knowledge/domains/painters/dossiers/seurat.md` | HardSeurat（wave16p2） |
 | A-64 | done | 加固pass2·霍珀：§11.1 205→**3017 字**（8 段；含 Whitney/AAA 档案 + Jo 日记线索；子节归一）；§12 9 件核对一致；回归 60/60 | `knowledge/domains/painters/dossiers/hopper.md` | HardHopper（wave16p2） |
-| A-65 | running | 加固pass2·八大山人：§11 叙述扩至 ≥2000 | `knowledge/domains/painters/dossiers/bada_shanren.md` | HardBada（wave16p2） |
+| A-65 | done | 加固pass2·八大山人：§11.1 304→**2869 字**（9 段；含青云谱公案考辨/花押考释）；§0–§10/§12 字节比对零改动；回归 60/60 | `knowledge/domains/painters/dossiers/bada_shanren.md` | HardBada（wave16p2） |
 | A-66 | done | 加固pass2·齐白石：§11.1 308→**2954 字**（8 段详述；子节归一 11.1/11.2/11.3）；§11 外零改动（逐字节核）；回归 60/60 | `knowledge/domains/painters/dossiers/qi_baishi.md` | HardQi（wave16p2） |
 | A-67 | done | 加固pass2·伊藤若冲：§11.1 760→**2208 字**（六段；来源 13 条；子节归一）；《藤花亭画谱》查无→改用『藤景和画記』等实证材料并留档；回归 60/60 | `knowledge/domains/painters/dossiers/ito_jakuchu.md` | HardIto（wave16p2） |
 | A-68 | running | wave18·广重（Hiroshige）v2 全规格 | `knowledge/domains/painters/dossiers/hiroshige.md` | ArtistHiroshige（wave18） |
