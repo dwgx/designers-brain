@@ -1,9 +1,11 @@
 ---
 name: designers-brain
 description: >
-  当用户要做视觉风格选型、风格/内容替换或出稿时使用——包括：点名 20 位画家（达·芬奇、米开朗基罗、梵高、莫奈、
+  当用户要做视觉风格选型、风格/内容替换或出稿时使用——包括：点名 42 位画家（达·芬奇、米开朗基罗、梵高、莫奈、
   毕加索、塞尚、马蒂斯、北斋、卡拉瓦乔、维米尔、丢勒、透纳、伦勃朗、克里姆特、戈雅、修拉、霍珀、
-  八大山人、齐白石、伊藤若冲），点名 15 张 MG 风格卡（3D 质感 / 液态 / 等轴 2.5D /
+  八大山人、齐白石、伊藤若冲、慕夏、蒙克、康定斯基、委拉斯开兹、博斯、弗里达·卡罗、贝赫扎德、黄公望、
+  弗里德里希、列宾、拉维·瓦尔马、德加、高更、凡·艾克、恩格瓦雷、歌川广重、萨金特、皮耶罗·德拉·弗朗切斯卡、
+  阿尔泰米西娅·真蒂莱斯基、纳马吉拉、萨拉希、吴冠中），点名 15 张 MG 风格卡（3D 质感 / 液态 / 等轴 2.5D /
   复古未来 / 形变 / 包豪斯 / 科幻 HUD / 一笔画 / 玻璃拟态 / 拼贴 / 像素 / 手绘线条沸腾 / 扁平矢量 / 贴纸科普 /
   综艺花字），要求「换内容不换骨架」「换风格」「调强度」，或要做图像 prompt、10 秒 MG 动画、Blender 场景。
   触发后先问（三句话 + 风格意图 + 替换意图），再出推荐单与首稿。
@@ -14,13 +16,13 @@ description: >
 > v0.2（2026-10-15；v0.1 初稿 + R1 并入 SkillEcosystem）｜落位：`D:/Project/Designers_Brain/skills/designers-brain/SKILL.md`｜规格：`D:/Project/Designers_Brain/docs/skill/skill_spec.md`
 > 仓库根：`D:/Project/Designers_Brain`（下称 REPO）。本 skill 不复制内容，只做路由与协议；一切细节读 REPO 原文件。
 
-把 REPO 既有资产（20 画家模块卡 / 15 MG 卡 / 冲突清单 / 确定性契约）转成可执行的设计推荐：**先问 → 再选 → 后出稿**。
+把 REPO 既有资产（42 画家模块卡 / 15 MG 卡 / 冲突清单 / 确定性契约）转成可执行的设计推荐：**先问 → 再选 → 后出稿**。
 
 ## 何时用
 
 - 触发（任一）：
   - 「选风格 / 换个画家 / 换内容不换骨架 / 换风格 / 调强度 / 帮我设计…」；
-  - 点名 20 画家之一，或 15 张 MG 卡之一；
+  - 点名 42 画家之一，或 15 张 MG 卡之一；
   - 要出「图像 prompt / 10 秒 MG 动画 / Blender 场景」。
 - 不触发：纯研究、写档案、改仓库文件（研究线的活）；与本仓库无关的通用设计问题。
 - **第一动作 = 发首问包**（见下），不许直接出稿。例外：用户说「直接做 / 随便」→ 停问，用默认值做并一行列出假设；信息已齐 → 复述一次直接进推荐。
@@ -34,7 +36,7 @@ description: >
 ① 你是做什么的：<业务 / 产品 / 身份，一句话>
 ② 给谁看：<受众 + 场景，一句话>
 ③ 手上有什么物料：<文件 / 图片 / 文档 / 现成文案，列路径>
-④ 风格意图：想要什么感觉 / 点名谁？（20 画家、15 张 MG 卡，或说气质我推荐）
+④ 风格意图：想要什么感觉 / 点名谁？（42 画家、15 张 MG 卡，或说气质我推荐）
 ⑤ 替换意图：这次是——A 换内容（有骨架，换故事/品牌/文案）/ B 换风格（同一内容换模块）/ C 调强度（同模块强弱）/ D 从零选型？
 ```
 
@@ -53,7 +55,7 @@ description: >
 
 ## 怎么选
 
-1. **域过滤**（读 `REPO/knowledge/domains/painters/modules/README.md` 的 20 卡能力定位；15 卡读 `REPO/knowledge/domains/motion-graphics/origin/提示词全文.md`）：
+1. **域过滤**（读 `REPO/knowledge/domains/painters/modules/README.md` 的 42 卡能力定位；15 卡读 `REPO/knowledge/domains/motion-graphics/origin/提示词全文.md`）：
    - 情绪张力 → 梵高；宁静光感 → 莫奈 / 维米尔；戏剧冲突 → 卡拉瓦乔；力量 / 人体 → 米开朗基罗；解构 → 毕加索；结构 → 塞尚；色彩海报 → 马蒂斯；东方线韵 → 北斋；版画工艺 → 丢勒。
    - 科技感 → MG 07 / 03；数据科普 → 14 / 13；复古 → 04 / 15；极简 → 06 / 13；手工温情 → 12 / 10；像素 → 11。
 2. **组合预检**（≥2 模块时必做，正本 `REPO/knowledge/cross/conflicts.md`）：查 §1 总表（C-01–C-18）→ §4 near-miss 显式取值 → N1 反约束重算 → N3 轴所有权表 → N4 可拆 / 不可拆 → N9 验收口径（N1–N9 全文见 conflicts.md §3；其余：N2 适用域 / N5 改写句式 / N6 色数口径 / N7 高光口径 / N8 运动预算）。冲突轴只保留持有者一行；不许双标准；辅模块冲突条整条移除（不降档）。
@@ -90,7 +92,7 @@ description: >
 
 | 要什么 | 读 |
 |---|---|
-| 20 卡索引 + 组合速查 | `REPO/knowledge/domains/painters/modules/README.md` |
+| 42 卡索引 + 组合速查 | `REPO/knowledge/domains/painters/modules/README.md` |
 | 15 卡全文 + 结构 | `REPO/knowledge/domains/motion-graphics/origin/提示词全文.md`、`REPO/knowledge/domains/motion-graphics/cards/structure.md` |
 | 冲突清单 + N1–N9 | `REPO/knowledge/cross/conflicts.md` |
 | 卡模板 / 契约 / 迁移 | `REPO/templates/style_card.md`、`REPO/templates/determinism_contract.md`、`REPO/knowledge/cross/transfer_guide.md` |

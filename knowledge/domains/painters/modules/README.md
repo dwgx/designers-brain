@@ -1,10 +1,10 @@
 # 画家模块库 · artist_modules
 
-> **A-19 · A-50** ｜ 20 张可组合模块卡：从 20 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
+> **A-19 · A-50** ｜ 42 张可组合模块卡：从 42 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
 > 口径：**只搬运与浓缩，不改档案**；卡内 §8.1 英文正向/负向、§8.2 代码艺术规则、§4 控制参数均为**原样转录（含 `[归纳]` 等标注）**。
 > 组合与冲突处置**以 `knowledge/cross/conflicts.md` 为正本**（18 条 C 冲突 + N1–N9 组合规则 + 8 对 near-miss）。
 
-## 模块清单（20 张）
+## 模块清单（42 张）
 
 | 卡 | 画家 | 能力定位 | 相关冲突（conflicts.md） |
 |---|---|---|---|
@@ -28,8 +28,30 @@
 | [bada_shanren.md](bada_shanren.md) | 八大山人 | 水墨极简 / 留白 / 冷峻 | C-07 · C-17 · 分工 vs 北斋 / 齐白石 / 马蒂斯 |
 | [qi_baishi.md](qi_baishi.md) | 齐白石 | 写意花鸟 / 红花墨叶 / 工写结合 | C-17 · 分工 vs 马蒂斯 / 八大山人 |
 | [ito_jakuchu.md](ito_jakuchu.md) | 伊藤若冲 | 浓彩花鸟 / 技法实验 / 装饰密度 | 分工 vs 北斋 / 克里姆特 |
+| [mucha.md](mucha.md) | 慕夏 | 海报平面 / 字画一体 / 新艺术曲线 | 分工 vs 克里姆特 / 马蒂斯 / 伊藤若冲 · C-15 |
+| [munch.md](munch.md) | 蒙克 | 心理景观 / 象征色区 / 组画叙事 | 分工 vs 梵高 / 卡罗 / 弗里德里希 · C-01 · C-05 · C-09 · C-12 |
+| [kandinsky.md](kandinsky.md) | 康定斯基 | 非具象构成 / 点线面语法 / 色彩声部 | 分工 vs 毕加索 / 萨拉希 / 吴冠中 / 恩格瓦雷 · C-15 · C-16 · C-17 |
+| [velazquez.md](velazquez.md) | 委拉斯开兹 | 宫廷肖像 / 空气与观看 / alla prima | 分工 vs 伦勃朗 / 维米尔 / 达·芬奇 · 旁注 vs 卡拉瓦乔 |
+| [bosch.md](bosch.md) | 博斯 | 怪诞生物发明 / 全景道德叙事 | 分工 vs 戈雅 · 预判 vs 达利 / 勃鲁盖尔 · C-01 · C-06 · C-12 · C-15 |
+| [kahlo.md](kahlo.md) | 弗里达·卡罗 | 自传象征 / 民间色 / 身体符号 | 分工 vs 蒙克 / 里维拉 · C-05 · C-12 · C-14 |
+| [behzad.md](behzad.md) | 贝赫扎德 | 无透视叙事空间 / 手抄本编排 / 微书精度 | 分工 vs 北斋 / 苏丹·穆罕默德 · C-15 · C-16 · C-17 |
+| [huang_gongwang.md](huang_gongwang.md) | 黄公望 | 文人山水长卷 / 披麻皴积墨 | 分工 vs 八大山人 / 塞尚 / 北斋 / 范宽 |
+| [friedrich.md](friedrich.md) | 弗里德里希 | 静默的崇高 / Rückenfigur / 层带风景 | 分工 vs 透纳 / 康斯泰勃尔 / 蒙克 / 普桑 · C-01 · C-09 · C-12 |
+| [repin.md](repin.md) | 列宾 | 社会现实叙事 / 群像调度 / 心理肖像 | 分工 vs 戈雅 / 米开朗基罗 / 伦勃朗 · C-01 · C-05 · C-12 |
+| [ravi_varma.md](ravi_varma.md) | 拉维·瓦尔马 | 神话舞台 / 达显正面性 / 石版彩印 | 分工 vs 欧洲学院派线 / 谢尔吉尔 / 北斋 · C-01 · C-05 · C-07 |
+| [degas.md](degas.md) | 德加 | 抓拍构图 / 动态人体 / 粉彩层叠 | 分工 vs 莫奈 / 修拉 / 米开朗基罗 · C-05 · C-08 · C-09 · C-12 |
+| [gauguin.md](gauguin.md) | 高更 | 综合主义 / 平面色块＋粗轮廓 / 象征色彩 | 分工 vs 马蒂斯 / 修拉 / 梵高 · C-05 · C-06 · C-12 · C-16 |
+| [van_eyck.md](van_eyck.md) | 凡·艾克 | 物证级微细节 / 镜面反射 / 材质百科 | 分工 vs 维米尔 / 丢勒 / 达·芬奇 · C-01 · C-05 · C-11 · C-12 |
+| [kngwarreye.md](kngwarreye.md) | 恩格瓦雷 | 大地抽象 / 点阵线网 / 全幅图案场 | 分工 vs 修拉 · 对照 vs 康定斯基 |
+| [hiroshige.md](hiroshige.md) | 歌川广重 | 系列叙事 / 天气抒情 / 渐印大气 | 分工 vs 北斋 / 贝赫扎德 / 透纳 · C-07 · C-12 · C-16 · C-17 |
+| [sargent.md](sargent.md) | 萨金特 | 肖像笔法（bravura）/ 社交姿态 / 水彩即兴 | 分工 vs 马奈 / 委拉斯开兹 / 佐恩 · C-05 · C-08 · C-09 · C-12 |
+| [piero_della_francesca.md](piero_della_francesca.md) | 皮耶罗·德拉·弗朗切斯卡 | 数学化构图 / 透视盒 / 均匀白昼光 | 分工 vs 达·芬奇 / 塞尚 / 米开朗基罗 · C-02 · C-05 · C-10 · C-14 |
+| [artemisia_gentileschi.md](artemisia_gentileschi.md) | 阿尔泰米西娅·真蒂莱斯基 | 叙事心理 / 行动身体 / 有动机的光 | 分工 vs 卡拉瓦乔 / 米开朗基罗 / 伦勃朗 · C-01 · C-08 · C-11 · C-12 · C-13 |
+| [namatjira.md](namatjira.md) | 纳马吉拉 | 干旱大陆光色 / 水彩分层 / 地点肖像 | 分工 vs 康斯泰勃尔 / 透纳 · 对照 vs 恩格瓦雷 · C-01 · C-05 · C-09 |
+| [el_salahi.md](el_salahi.md) | 萨拉希 | 书法现代主义 / 字母骨架 / 土色抽象 | 分工 vs 康定斯基 / 贝赫扎德 · 注记 vs 吴冠中 · C-15 · C-16 · C-17 |
+| [wu_guanzhong.md](wu_guanzhong.md) | 吴冠中 | 水墨抽象收束 / 银灰点线面 / 风筝不断线 | 分工 vs 康定斯基 / 八大山人 / 黄公望 · C-17 |
 
-> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。
+> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。wave15/17/18 新 22 卡（慕夏—吴冠中）的分工条款出自各档案 §3.1；C 条与 near-miss 预检以 `conflicts.md` 为正本。
 
 ## 组合规则速查
 
@@ -74,8 +96,8 @@
 ## 维护 / 复跑
 
 - 卡片由 `_extract.py` 生成（只读档案、只写本目录）：
-  - `python _extract.py --write` 重建 20 张卡；
-  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=60 ok=60 fail=0`）；
+  - `python _extract.py --write` 重建 42 张卡；
+  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=126 ok=126 fail=0`）；
   - `python _extract.py --diff <id> [--sec 81|82|4] [--full]` 查看单卡比对详情（含 sha256 与原样全文）。
 - §8.1b 为 E-02 派生补充（非档案内容；E-03 起可含 v2 修订与「v1 审计存档」子节，如 michelangelo）：`--check` 在 §8.1b 处截断后比对 §8.1（不参与逐字校验）；`--write` 重建时原样保留卡内现有 §8.1b 节。
 - 档案更新 → 重跑 `--write` + `--check`；`conflicts.md` 更新（C 条被推翻 / 新增）→ 同步各卡「冲突注记」。
