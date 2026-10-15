@@ -53,14 +53,23 @@
 | A-39 | done | 加固·卡拉瓦乔：§11（2444 字 + 44 行年表 + 19 来源；「2007 年书信」误传已核正）+ §12（9 件）；语料新建 22 条；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/caravaggio.md` | BioCaravaggio（wave14） |
 | A-40 | done | 加固·维米尔：§11（2578 字 + 39 行年表 + 14 来源 + 未找到 7 条）+ §12（10 件）；语料新建 22 条；验收：`_extract.py --check` 33/33 + git diff 纯插入 0 删除 | `knowledge/domains/painters/dossiers/vermeer.md` | BioVermeer（wave14） |
 | A-41 | done | 加固·丢勒：§11（2426 字 + 25 行年表 + 12 来源）+ §12（10 件）；语料新建 27 条（德文原文+英译+中译）；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/durer.md` | BioDurer（wave14） |
-| A-42 | running | wave15·慕夏（Mucha）v2 全规格 | `knowledge/domains/painters/dossiers/mucha.md` | ArtistMucha（wave15） |
-| A-43 | running | wave15·蒙克（Munch）v2 | `knowledge/domains/painters/dossiers/munch.md` | ArtistMunch（wave15） |
-| A-44 | running | wave15·康定斯基（Kandinsky）v2 | `knowledge/domains/painters/dossiers/kandinsky.md` | ArtistKandinsky（wave15） |
-| A-45 | running | wave15·委拉斯开兹（Velázquez）v2 | `knowledge/domains/painters/dossiers/velazquez.md` | ArtistVelazquez（wave15） |
-| A-46 | running | wave15·博斯（Bosch）v2 | `knowledge/domains/painters/dossiers/bosch.md` | ArtistBosch（wave15） |
+| A-50 | running | 模块卡扩展：11→20 张（9 位新画家入 `_extract.py` ARTISTS + 生成 + README/domains.yaml 同步） | `knowledge/domains/painters/modules/` | ModuleCards20（wave16） |
+| A-51 | running | 索引合并：语料 INDEX / 图片 manifest / 档案 _index 三表对账合并 | `knowledge/domains/painters/dossiers/` | IndexMerge（wave16） |
+| A-52 | running | wave17·弗里德里希（Friedrich）v2 全规格 | `knowledge/domains/painters/dossiers/friedrich.md` | ArtistFriedrich（wave17） |
+| A-53 | running | wave17·列宾（Repin）v2 | `knowledge/domains/painters/dossiers/repin.md` | ArtistRepin（wave17） |
+| A-54 | running | wave17·拉维·瓦尔马（Ravi Varma）v2 | `knowledge/domains/painters/dossiers/ravi_varma.md` | ArtistRaviVarma（wave17） |
+| A-55 | running | wave17·德加（Degas）v2 | `knowledge/domains/painters/dossiers/degas.md` | ArtistDegas（wave17） |
+| A-56 | running | wave17·高更（Gauguin）v2 | `knowledge/domains/painters/dossiers/gauguin.md` | ArtistGauguin（wave17） |
+| A-57 | running | wave17·凡·艾克（Van Eyck）v2 | `knowledge/domains/painters/dossiers/van_eyck.md` | ArtistVanEyck（wave17） |
+| A-58 | running | wave17·恩格瓦雷（Kngwarreye）v2（版权图入 `_private/`；原住民伦理） | `knowledge/domains/painters/dossiers/kngwarreye.md` | ArtistKngwarreye（wave17） |
+| A-42 | done | wave15·慕夏：510 行 v2 档案（§11 2020 字 + 47 行 + 来源 ≥10；§12 10 件）+ 语料 25 条 + 图库 12 张（11 PD + 1 CC BY-SA 已署名）+ 私有 8 件；分工 vs 克里姆特写死（平面印刷档 × 材质工艺档）；引文 15/15 | `knowledge/domains/painters/dossiers/mucha.md` | ArtistMucha（wave15） |
+| A-43 | done | wave15·蒙克：493 行 v2 档案（§11 2043 字 + 38 行 + 11 来源；§12 10 件）+ 语料 29 条（挪威语原文）+ 图库 13 张 + 私有论文 3 件；分工 vs 梵高写死（4 判据）；抽取直测 OK | `knowledge/domains/painters/dossiers/munch.md` | ArtistMunch（wave15） |
+| A-44 | done | wave15·康定斯基：531 行 v2 档案（§11 2094 字 + 43 行 + 16 来源；§12 9 件）+ 语料 29 条（德文 6 条逐字核过）+ 图库 11 张（剔除 1 误认件）+ 私有 4 组；分工 vs 毕加索写死（解构↔抽象 4 判据） | `knowledge/domains/painters/dossiers/kandinsky.md` | ArtistKandinsky（wave15） |
+| A-45 | done | wave15·委拉斯开兹：452 行 v2 档案（§11 2005 字 + 30 行 + 16 来源；§12 10 件）+ 语料 20 条 + 图库 12 张 + 私有高清 12 张；分工「光的第三档：画室与空气」写死（vs 伦勃朗/维米尔/达芬奇三对判分轴） | `knowledge/domains/painters/dossiers/velazquez.md` | ArtistVelazquez（wave15） |
+| A-46 | done | wave15·博斯：505 行 v2 档案（§11 2070 字 + 24 行 + 12 来源；§12 10 件）+ 语料 26 条（无存世文字——档案转写+早期文献）+ 图库 10 张；分工 vs 戈雅写死（怪诞两档：噩梦 vs 百科）；抽取直测 OK | `knowledge/domains/painters/dossiers/bosch.md` | ArtistBosch（wave15） |
 | A-47 | running | wave15·黄公望 v2（水墨山水） | `knowledge/domains/painters/dossiers/huang_gongwang.md` | ArtistHuangGongwang（wave15） |
-| A-48 | running | wave15·弗里达·卡罗（Kahlo）v2（版权图入 `_private/`） | `knowledge/domains/painters/dossiers/kahlo.md` | ArtistKahlo（wave15） |
-| A-49 | running | wave15·贝赫扎德（Behzād）v2（波斯细密画） | `knowledge/domains/painters/dossiers/behzad.md` | ArtistBehzad（wave15） |
+| A-48 | done | wave15·卡罗：497 行 v2 档案（§11 2014 字 + 34 行；§12 9 件；含 2 条误传排除附录）+ 语料 24 条 + 13 张图**全在 `_private/`**（公开侧零图）；分工 vs 蒙克/里维拉写死；抽取 PASS | `knowledge/domains/painters/dossiers/kahlo.md` | ArtistKahlo（wave15） |
+| A-49 | done | wave15·贝赫扎德：465 行 v2 档案（§11 生平 + §12 临摹清单）+ 语料 21 条 + 图库 12 张（PD/CC0）+ 私有 4 件；分工 vs 北斋/苏丹·穆罕默德写死；系统首个伊斯兰绘画大师 | `knowledge/domains/painters/dossiers/behzad.md` | ArtistBehzad（wave15） |
 
 ## Lane B — Agent 代码艺术
 

@@ -1,10 +1,10 @@
 # 画家模块库 · artist_modules
 
-> **A-19** ｜ 11 张可组合模块卡：从 11 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
+> **A-19 · A-50** ｜ 20 张可组合模块卡：从 20 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
 > 口径：**只搬运与浓缩，不改档案**；卡内 §8.1 英文正向/负向、§8.2 代码艺术规则、§4 控制参数均为**原样转录（含 `[归纳]` 等标注）**。
 > 组合与冲突处置**以 `knowledge/cross/conflicts.md` 为正本**（18 条 C 冲突 + N1–N9 组合规则 + 8 对 near-miss）。
 
-## 模块清单（11 张）
+## 模块清单（20 张）
 
 | 卡 | 画家 | 能力定位 | 相关冲突（conflicts.md） |
 |---|---|---|---|
@@ -19,8 +19,17 @@
 | [caravaggio.md](caravaggio.md) | 卡拉瓦乔 | 光的开关 + 物理（硬光戏剧） | C-01 · C-03 · C-04 · C-08 · C-11 · C-12 · C-13 |
 | [vermeer.md](vermeer.md) | 维米尔 | 室内自然光 + 材质表面 | C-08 · C-09 · C-11 |
 | [durer.md](durer.md) | 丢勒 | 排线明暗 + 版画工艺 | C-07 |
+| [turner.md](turner.md) | 透纳 | 天气事件 / 大气 / 边缘溶解 | 分工 vs 莫奈 |
+| [rembrandt.md](rembrandt.md) | 伦勃朗 | 光的连续衰减 + 心理（心理化光斑） | C-01 · 分工 vs 卡拉瓦乔 / 达·芬奇 |
+| [klimt.md](klimt.md) | 克里姆特 | 装饰平面 / 金箔工艺 / 图案密度（带材质） | C-15 |
+| [goya.md](goya.md) | 戈雅 | 纪实叙事 / 怪诞 / 版画序列 | C-01 · C-05 · C-07 · C-11 · C-12 · C-17 · 分工 vs 伦勃朗 |
+| [seurat.md](seurat.md) | 修拉 | 色彩科学化点彩 / 大画结构 | 分工 vs 莫奈 |
+| [hopper.md](hopper.md) | 霍珀 | 城市硬光 / 几何 / 孤独 | C-01 · 分工 vs 维米尔 · 越界 vs 卡拉瓦乔 |
+| [bada_shanren.md](bada_shanren.md) | 八大山人 | 水墨极简 / 留白 / 冷峻 | C-07 · C-17 · 分工 vs 北斋 / 齐白石 / 马蒂斯 |
+| [qi_baishi.md](qi_baishi.md) | 齐白石 | 写意花鸟 / 红花墨叶 / 工写结合 | C-17 · 分工 vs 马蒂斯 / 八大山人 |
+| [ito_jakuchu.md](ito_jakuchu.md) | 伊藤若冲 | 浓彩花鸟 / 技法实验 / 装饰密度 | 分工 vs 北斋 / 克里姆特 |
 
-> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条与 near-miss 明细。
+> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。
 
 ## 组合规则速查
 
@@ -65,8 +74,8 @@
 ## 维护 / 复跑
 
 - 卡片由 `_extract.py` 生成（只读档案、只写本目录）：
-  - `python _extract.py --write` 重建 11 张卡；
-  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=33 ok=33 fail=0`）；
+  - `python _extract.py --write` 重建 20 张卡；
+  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=60 ok=60 fail=0`）；
   - `python _extract.py --diff <id> [--sec 81|82|4] [--full]` 查看单卡比对详情（含 sha256 与原样全文）。
 - §8.1b 为 E-02 派生补充（非档案内容；E-03 起可含 v2 修订与「v1 审计存档」子节，如 michelangelo）：`--check` 在 §8.1b 处截断后比对 §8.1（不参与逐字校验）；`--write` 重建时原样保留卡内现有 §8.1b 节。
 - 档案更新 → 重跑 `--write` + `--check`；`conflicts.md` 更新（C 条被推翻 / 新增）→ 同步各卡「冲突注记」。

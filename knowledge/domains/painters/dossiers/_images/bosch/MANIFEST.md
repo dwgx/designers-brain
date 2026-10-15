@@ -39,4 +39,4 @@
 - **NGA（1 张）**：Death and the Miser —— CC0 1.0（NGA Open Access，1952.5.33）；下载走 media.nga.gov IIIF（Commons 429 时切换，源一致）。
 - **其余（4 张）**：Louvre（RF 2218 官方摄影，PD）、MNAA Lisbon（PD）、MSK Ghent（PD）、维也纳美术学院（PD）。
 - 全部 10 张经逐张 `imageinfo`（许可/尺寸，2026-10-15）与十宫格目检；SHA256 前 16 位见档案「自审四段·C」。
-- **缺口**：Wikimedia 对部分全尺寸原件限流（HTTP 429）——高分辨率研究副本仅补齐 2 件入私有层（见 `_private/INVENTORY_bosch.md`）；公开侧以本 10 张为准，后续可补采。
+- **缺口**：Wikimedia 对部分全尺寸原件限流（HTTP 429）——高分辨率研究副本 1 件已入私有层（NGA 源）、1 件受阻待补（见 `_private/INVENTORY_bosch.md`）；公开侧以本 10 张为准，后续可补采。
