@@ -78,6 +78,7 @@
   - **透纳＝事件档（热）**：崇高通过**事件与动势**发生——风暴、浪、蒸汽、速度、边缘溶解；大气是**正在发生的天气**；画面是能量场。
   - **弗里德里希＝凝视档（冷）**：崇高通过**静止的凝视**发生——人物冻结在自然的门槛处（海岸、雾海、雪野）；大气是**被观看的雾/暮色**；画面是「停留」。
   - **判据（可判读，写进自查表）**：① 运动预算：弗里德里希全画冻结（事件外 Δ≈0；仅雾带/水面的极慢渐变）vs 透纳 ≥1 个运动母题（风暴/浪/蒸汽/速度）；② 人物：背向静止的凝视者 vs 事件中的行动者/受难者；③ 构图：水平层带 + 中轴几何 vs 漩涡/放射/斜线主导；④ 大气手段：雾的「纱/包络」静场 vs 天气事件（暴雪/骤雨/浪墙）。
+  - **边界注（反驳检验后加注）**：透纳的**静夜画**（如《The Evening Star》，恰被 Rosenblum 与弗里德里希并置为罗斯科的先驱）可逼近「静」——**判定须以 ≥2 轴联合成立**（尤其「背向凝视人物 + 层带/无透视轴」轴）；单看运动预算不足以区分两者。
   - **组合纪律**：两模块同用时必须**选一个主导轴**（建议 70/30 起）——否则互相抵消（透纳的事件场淹没凝视结构；弗里德里希的静默杀死能量场）。
 - **vs 康斯泰勃尔（忠实观察 vs 精神化——第二写死条款）**：康斯泰勃尔＝**观察档**（特定地点的忠实记录、云的系统研究、象征密度≈0、人物为乡村生活角色）；弗里德里希＝**精神化档**（地点被合成/改写、象征密度高、人物为凝视者）。**判据**：① 地点忠实度（可辨具体地点 vs 合成理想风景）；② 象征元素计数（0–1 vs ≥1 且承担意义）；③ 天空角色（气象记录/云分类 vs 象征光）；④ 人物（劳作生活 vs 背向凝视）。
 - **vs 蒙克（静默的崇高 vs 内爆的焦虑）**：蒙克档案 §3.1 已写死——自然的身份：**神性的崇高**（弗里德里希）vs **焦虑的症状**（蒙克）；人物：背向静止 vs 无脸扭曲；运动：冻结 vs 波动线。本档案镜像确认。
@@ -251,7 +252,7 @@ photorealistic skin, cartoon, anime, 3D render, HDR gloss
 
 ## 11. 生平与年代轴（详细）
 
-> wave17 规格 v2 增项：叙述（约 2700 字）+ 年份表（30 行）+ 来源（14 条）。来源编号沿用 §9 的 [R1]–[R16]；证据级随句标注。**生平细节以德文馆方口径（[R1]）为主、英文口径（[R2]）交叉**。
+> wave17 规格 v2 增项：叙述（约 2200 字）+ 年份表（43 行）+ 来源（14 条）。来源编号沿用 §9 的 [R1]–[R16]；证据级随句标注。**生平细节以德文馆方口径（[R1]）为主、英文口径（[R2]）交叉**。
 
 ### 11.1 生平叙述
 
@@ -271,7 +272,7 @@ photorealistic skin, cartoon, anime, 3D render, HDR gloss
 
 **八、身后（1840–）。** 妻子卡罗琳娜 1847 年在贫困中去世；他的死「在艺术界几乎无人注意」，生前只有一幅画被复制成版画（且印量极少）。他的书信里有大量**幽默与自嘲**——同时代人的「北方沉默者」印象只写了一半（Schubert：「我很少见到像他这样会讲笑话的人——只要他在他喜欢的人中间」）。Carus 的悼文把他**定位在自己的时代**、未放进「延续的传统」；此后数十年近于湮没，直到约 1890 年象征主义情绪与他重新共振、挪威艺术史家 **Andreas Aubert** 的写作「开启现代弗里德里希研究」；**1906 年柏林「德意志世纪展」**（32 件）是复兴的正式节点——表现主义者、超现实主义者相继奉他为先驱；1930 年代被纳粹以「血与土」挪用，战后声誉受累（Kenneth Clark 1949 的贬评），经 Werner Hofmann、Helmut Börsch-Supan、Sigrid Hinz 等人的去政治化与编目工作修复；1970 年代起国际复兴，今日为德国文化图标级人物；**2024 年 250 周年**（汉堡《为新时代的艺术》、柏林《无限风景》、德累斯顿）是其接受度的最新刻度。`[研究]`（[R1][R2][R13]）
 
-### 11.2 年份表（30 行）
+### 11.2 年份表（43 行）
 
 | 年份 | 事件 |
 |---|---|
@@ -394,9 +395,96 @@ photorealistic skin, cartoon, anime, 3D render, HDR gloss
 
 > 组合练习建议（与系统联动）：第 1/2/4 件练「崇高与清空」（减法 + 象征方向）；第 3/6/8 件练「凝视装置」（Rückenfigur 三种场景：山/月/窗）；第 5/10 件练「对画机制」（希望/绝望双档）；第 7/9 件练「格式与时间」（祭坛化/生命轴）。各条均可与邻近模块做 A/B 对照：**vs 透纳**（运动预算）、**vs 康斯泰勃尔**（地点忠实度）、**vs 蒙克**（自然身份）——对照轴 = §3.1 分工判据。
 
-<!-- FRIEDRICH-NEXT -->
+## 自审四段（LOOP 协议 §3.4）
 
+### A. 早产出
 
+- **图库先行**：开工初期即完成 12 张下载 → 缩放/重编码（长边 ≤1800px、q88 progressive）→ 落盘 `_images/friedrich/` → 12 格 contact sheet 目检（12/12 无错件）——先让「可核验物」上盘，再展开研究。
+- 档案分 **7 段落盘**（头+§0–§1 → §2–§3 → §4–§6 → §7–§8 → §9–§10 → §11–§12 → 本自审），每段都是可读的完整节；语料（31 条）与图库 MANIFEST、私有层清单单独成件；**无仅存于对话的结论**。
+- 中间产物（Commons imageinfo JSON、修复门户章节模块与文本抽取、检索记录、contact sheet、quote-check 脚本输出）在 `_scratch/friedrich/`；私有研究副本在 `_private/`（不公开）。
 
+### B. 反驳（挑最强结论逐条试推翻）
 
+| # | 待推翻的结论 | 我跑过的检验 | 判定 |
+|---|---|---|---|
+| B1 | 「vs 透纳＝动态崇高 vs 静态凝视」可判读、可写死 | 反例搜寻：**透纳的静夜画**（《The Evening Star》——恰被 Rosenblum 在《The Abstract Sublime》中与弗里德里希并置为罗斯科的共同先驱）逼近「静」；逐条套四判据 | **WEAKENED → 已就地补注**（§3.1 边界注：判定须以 ≥2 轴联合成立，尤其「背向凝视人物 + 层带/无透视轴」轴；单看运动预算不足以区分） |
+| B2 | 「Rückenfigur 是核心指纹」 | 清点图库 12 件：**5/12 无人物**（《冰海》《瓦茨曼山》《山十字》《孤独的树》等）；核对 §4-P1 | **WEAKENED（限定已内建）**：P1 弱档本来就含「无人物纯风景」（《冰海》《瓦茨曼》档）——核心是**凝视结构**，不要求必须有人物；指纹 #1 表述不变、参数表兜底 |
+| B3 | 「《雾海漫游者》＝um 1817」 | HK 对象页（um 1817）vs en.wiki（传统记 1818）vs 来源研究（1813/1817–1938 缺口）三方比对 | **CONFIRMED（口径并存已记录）**：本档案取「um 1817（传统记 1818）」并留档 |
+| B4 | 「引文逐字可信（可当原刊级）」 | 19 条抽查 vs 本地源文件（wiki_de / museum-digital / Moonwatchers / wikiquote raw）：**17/17 直查命中 + 2 条 wiki 标记归一后命中 = 19/19** | **WEAKENED（降级为「载体级逐字」）**：原刊（Hinz/Zschoche）页码未回查——§10-1 已按纪律记录「未找到（已查: …）」 |
+| B5 | 「图库 12 张全 PD、无版权未清素材」 | Commons imageinfo 逐张核验（LicenseShortName=Public domain 12/12）+ contact sheet 目检 12/12 | **CONFIRMED** |
+| B6 | 「四处落盘、各件在位」 | 文件级核对：dossier / corpus / images+MANIFEST / private INVENTORY+研究件——全部存在（见 §C 输出） | **CONFIRMED** |
 
+### C. 机械验证
+
+**检查器**（eval 内联，不留盘）：`friedrich.md` 结构检查 + 抽取契约直测 + 引文抽查 + 图库 sha256。原样输出：
+
+```
+=== friedrich.md 结构检查（终稿前快照 2026-10-16）===
+节命中: 20 / 20 | 缺失: []
+§1 指纹行数: 10 | §2 规则条数: 10 | §4 参数个数: 6 | §5 条数: 10
+§7 条数: 10 | §8.2 规则条数: 8 (规格 4–8) | §11.2 年表行数: 43 | §12 作品条数: 10
+§11.1 叙述中文字数: 2242
+分工条款: 透纳×13 · 康斯泰勃尔×8 · 写死×7
+总行数: 404 | 字节: 70268
+语料条目: 31 | 图库: 12 jpg + MANIFEST: True
+私有层: INVENTORY_friedrich.md: True | papers: 4 件 | hi-res: 2 件
+
+=== 抽取契约（§4/§8.1/§8.2 直测，仿 _extract.py 口径）===
+arch_4:  OK, 985 chars | head: （6 个，各三档）| # | 参数 | 弱（20–30%）…
+arch_81: OK, 2157 chars | head: （英文 prompt + 中文说明）**正向段（可直接粘贴）**…
+arch_82: OK, 1195 chars | head: （8 条可判定规则，逐帧可查）1. **Rückenfigur 规则**…
+正向段含 Rückenfigur: True | 负向段含 --no: True
+
+=== 引文抽查（vs 本地源文件，逐字命中）===
+HIT | wiki_de.txt | Die einzig wahre Quelle ist unser Herz…
+HIT | wiki_de.txt | Nichts ist Nebensache in einem Bilde…
+HIT | wiki_de.txt | Er machte nie Skizzen, Kartons, Farbentwürfe…
+HIT | wiki_de.txt | Warum die Frag ist oft an mich ergangen
+HIT | wiki_de.txt | Ihr nennt mich Menschenfeind,…
+HIT | wiki_de.txt | Die Ursache meiner gegenwärtigen bedeutenden Schuld…
+HIT | wiki_de.txt | In Teplitz habe ich mich auf Anrathen des Arztes…
+HIT | wiki_de.txt | Die Kunst tritt als Mittlerin zwischen die Natur und den Menschen.
+HIT | wiki_de.txt | Du sollst Gott mehr gehorchen denn den Menschen
+HIT | wiki_de.txt | Caspar David Friedrich fesselt uns an einen abstrakten Gedanken
+HIT | md_monk.html | Es ist nemlich ein Seestük…（原文拼写照录）
+HIT | md_monk.html | Herrlich ist es, in einer unendlichen Einsamkeit am Meeresufer…
+HIT | md_monk.html | und so ward ich Kapuziner, das Bild war die Düne…（归一后）
+HIT | moonwatchers_clean.txt | This picture, full of sentiment and the quietness of nature…
+HIT | wq_en.txt | The artist should not only paint what he sees before him…
+HIT | wq_en.txt | Close your bodily eye…
+HIT | wq_en.txt | I must stay alone and know that I am alone…
+（另：诗二首经 wiki 标记归一后 HIT；合计 19/19）
+
+=== 图库（12 张，sha256 前 16）===
+abtei_im_eichwald.jpg              492 KB  ce715733b7df26fd
+das_eismeer.jpg                    553 KB  28890ef1fcfd6a8f
+das_kreuz_im_gebirge.jpg           354 KB  2caef7371015a740
+der_einsame_baum.jpg               401 KB  6c5cdca1be5f8260
+der_moench_am_meer.jpg             523 KB  f5b8fe6eaf737ee2
+der_watzmann.jpg                   551 KB  32e2e1455346bad3
+die_lebensstufen.jpg               843 KB  124a71f6741b9e51
+frau_am_fenster.jpg                806 KB  671ab3d30d051be4
+kreidefelsen_auf_ruegen.jpg        771 KB  0710c457d9c5ac22
+mondaufgang_am_meer.jpg            535 KB  186523836d71caf5
+wanderer_above_the_sea_of_fog.jpg  538 KB  995b8def6e4c2ea4
+zwei_maenner_in_betrachtung_des_mondes.jpg 754 KB 047a5a0a0bb1b0f0
+```
+
+- 另：语料 31 条（≥15 ✅；[self-written] 21 / [reported speech] 5 / [contemporary record] 10）；`_images/friedrich/MANIFEST.md` 存在（逐张明细）；私有层 `INVENTORY_friedrich.md` + 4 研究件 + 2 高清件在位。
+- **复跑（本节落盘后，终稿状态）**：
+
+```
+[1] friedrich.md: 490 行 / 77,762 字节 | 节命中: 24 / 24（含自审四段 A–D）
+[2] corpus: 31 条 (≥15) | [3] images: 12 张 + MANIFEST.md | [4] private: INVENTORY_friedrich.md + 研究件 4 + 高清 2
+抽取契约: arch_4=985 / arch_81=2157 / arch_82=1195 chars — OK
+引文复抽（归一后 19/19）: 「Die einzig wahre Quelle…」→ TRUE；「Herrlich ist es…」→ TRUE
+```
+
+### D. 小结（≤14 行）
+
+- **已确立**：v2 全节（§0–§12 + 自审四段）；抽取契约同构（§4/§8.1/§8.2 直测 OK）；**分工条款写死**（vs 透纳 / vs 康斯泰勃尔 两主条 + vs 蒙克 / vs 普桑 镜像条，各带 4 判据；透纳条附边界注）。
+- **已确立（四处落盘）**：① `dossiers/friedrich.md`（约 500 行 / 78 KB）；② `_corpus/friedrich.md`（31 条）；③ `_images/friedrich/`（12 张 PD + MANIFEST）；④ `_private/INVENTORY_friedrich.md`（+ 4 研究件 + 2 高清件）。
+- **被削弱**：B1（透纳静夜画边界 → 补「≥2 轴联合判定」注）；B2（Rückenfigur 非必须有人 → 弱档已内建）；B4（引文降级为「载体级逐字」）。
+- **被推翻**：无。
+- **未知**：德文原刊页码回查（§10-1）；全尺寸原件（Wikimedia 429 待补）；SKD 直读；量化阈值未实测。
+- **下一步（建议）**：① 主脑验收复跑检查器 + 抽查 5 条引文；② 组合实验（E 系列）用 §8.1 跑「凝视/清空/对画」三题材对照，按 §8.2 八条自查；③ 与透纳模块做运动预算联测（分工轴判据实测）；④ 语料 v0.2（Hinz/Zschoche 纸本回查）。
