@@ -84,17 +84,17 @@
 | A-88 | running | wave20·倪瓒（Ni Zan）v2（一河两岸/极简） | `knowledge/domains/painters/dossiers/ni_zan.md` | ArtistNiZan（wave20） |
 | A-89 | running | wave20·仇英（Qiu Ying）v2（工笔重彩） | `knowledge/domains/painters/dossiers/qiu_ying.md` | ArtistQiuYing（wave20） |
 | A-90 | done | wave20·尾形光琳：529 行 v2 档案（§11 2287 字 + 32 行 + 16 来源；§12 10 件）+ 语料 24 条 + 图库 19 张全 PD/CC0 + 私有 9 件；分工 vs 克里姆特/马蒂斯写死（金地两说并存留档）；金地论争两说并存 | `knowledge/domains/painters/dossiers/ogata_korin.md` | ArtistOgataKorin（wave20） |
-| A-91 | running | wave20·布莱克（Blake）v2（幻视图像体系） | `knowledge/domains/painters/dossiers/blake.md` | ArtistBlake（wave20） |
+| A-91 | done | wave20·布莱克：476 行 v2 档案（§11 2147 字 + 32 行 + 12 来源；§12 10 件）+ 语料 28 条（Erdman 1988 逐字）+ 图库 18 张（17 PD + 1 CC0）+ 私有 5 组；分工 vs 蒙克/丢勒写死；3 条 OVERTURNED（信日期/Plate 5/YCBA） | `knowledge/domains/painters/dossiers/blake.md` | ArtistBlake（wave20） |
 | A-92 | running | wave20·夏尔丹（Chardin）v2（静物触感） | `knowledge/domains/painters/dossiers/chardin.md` | ArtistChardin（wave20） |
 | A-93 | running | wave20·马奈（Manet）v2（平面化现代性） | `knowledge/domains/painters/dossiers/manet.md` | ArtistManet（wave20） |
 | A-94 | running | wave20·索罗拉（Sorolla）v2（强阳光） | `knowledge/domains/painters/dossiers/sorolla.md` | ArtistSorolla（wave20） |
 | A-95 | running | wave20·佐恩（Zorn）v2（有限色板） | `knowledge/domains/painters/dossiers/zorn.md` | ArtistZorn（wave20） |
-| A-96 | running | wave20·苏丹·穆罕默德（Sultan Muhammad）v2（萨法维细密画） | `knowledge/domains/painters/dossiers/sultan_mohammed.md` | ArtistSultanMohammed（wave20） |
+| A-96 | done | wave20·苏丹·穆罕默德：457 行 v2 档案（§11 2031 字 + 23 行 + 12 来源；§12 10 件）+ 语料 24 条 + 图库 16 张全 PD/CC0 + 私有 13 件；分工 vs 贝赫扎德（三轴复读对齐）/克里姆特写死；引文 26/26；AKM NC 图未采用（改 PD 版） | `knowledge/domains/painters/dossiers/sultan_mohammed.md` | ArtistSultanMohammed（wave20） |
 | A-77 | running | wave19·范宽（Fan Kuan）v2（巨碑式山水/雨点皴） | `knowledge/domains/painters/dossiers/fan_kuan.md` | ArtistFanKuan（wave19） |
 | A-78 | done | wave19·雪舟（重派·续写）：511 行 v2 档案（§11 2035 字 + 43 行 + 18 来源；§12 10 件）+ 语料 17 条（复核合格，26/26 HIT）+ 图库 18 张全 PD + MANIFEST + 私有 6 件；分工 vs 八大山人/徐渭/北斋写死；1 条 OVERTURNED（「首个日本水墨模块」） | `knowledge/domains/painters/dossiers/sesshu.md` | ArtistSesshu-2（wave19） |
 | A-79 | done | wave19·康斯泰勃尔（重派·续写）：472 行 v2 档案（§11 2061 字 + 37 行 + 12 来源；§12 10 件）+ 语料 36 条 + 图库 17 张 PD/CC0 + MANIFEST；分工 vs 透纳/莫奈/弗里德里希写死（与 friedrich.md 互查一致）；引文 13/13 | `knowledge/domains/painters/dossiers/constable.md` | ArtistConstable-2（wave19） |
 | A-80 | done | wave19·普桑（重派）：505 行 v2 档案（§11 2019 字 + 43 行；§12 10 件）+ 语料 24 条（Jouanny 1911 页码级）+ 图库 13 张全 PD/CC0 + 私有 7 件；分工 vs 达芬奇/米开朗基罗/弗里德里希写死（镜像互认）；scratch 核验 17/20 可用 | `knowledge/domains/painters/dossiers/poussin.md` | ArtistPoussin-2（wave19） |
-| A-81 | running | wave19·勃鲁盖尔（Bruegel）v2（全景叙事/季节组画） | `knowledge/domains/painters/dossiers/bruegel.md` | ArtistBruegel（wave19） |
+| A-81 | done | wave19·勃鲁盖尔（重派）：v2 档案（§11 2066 字 + 41 行；§12 10 件）+ 语料 28 条（28/28 HIT）+ 图库 20 张全 PD + MANIFEST；分工 vs 北斋/米开朗基罗写死；commit 264a521+11e80f7 已随 sweep 入库 | `knowledge/domains/painters/dossiers/bruegel.md` | ArtistBruegel-2（wave19） |
 | A-82 | running | wave19·埃尔·格列柯（El Greco）v2（变形精神张力） | `knowledge/domains/painters/dossiers/el_greco.md` | ArtistElGreco（wave19） |
 | A-83 | done | wave19·荷尔拜因（重派）：504 行 v2 档案（§11 2170 字 + 47 行 + 14 来源；§12 10 件）+ 语料 26 条（题铭/遗嘱/van Mander 订正）+ 图库 13 张全 PD/CC0 + 私有 9 件；分工 vs 丢勒/伦勃朗写死；引文 18/18；scratch 核验弃用 10 件 | `knowledge/domains/painters/dossiers/holbein.md` | ArtistHolbein-2（wave19） |
 | A-84 | running | wave19·艾瓦佐夫斯基（Aivazovsky）v2（海与浪） | `knowledge/domains/painters/dossiers/aivazovsky.md` | ArtistAivazovsky（wave19） |
