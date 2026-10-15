@@ -4,8 +4,8 @@
 
 English · [中文](README.zh-CN.md) · [日本語](README.ja.md)
 
-[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
-[![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSE-CONTENT.md)
+[![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE)
 
 ## What this is
 
@@ -80,4 +80,4 @@ templates/    module / style-card / determinism / design-brief templates
 
 ## License
 
-Code: [MIT](LICENSE). Content & docs: [CC BY 4.0](LICENSE-CONTENT.md). Third-party: see [NOTICE.md](NOTICE.md).
+Content & docs: [CC BY 4.0](LICENSE). Code: [MIT](LICENSE-CODE). Third-party: see [NOTICE.md](NOTICE.md).

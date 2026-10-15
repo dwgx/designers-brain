@@ -98,3 +98,11 @@
 - **S-05 走查（演练版）**：全链真跑——首问包 → 推荐单 → **3 张真图候选**（莫奈晨光 / 维米尔70×莫奈30 / 马蒂斯色块）+ 对比页 + 展示后停 → 定稿（维米尔×莫奈）+ gate 文件 + 独立评审（机械 64/64；7 维 7/6/7/7/7；必须修 3 条 → 首稿「可看不可定稿」，如实）。组合预检全链留痕（N4 → N3 轴移除 → N1 重算 → near-miss 取值 → N9）。
 - **自主触发探针**：会话内 spawn 继承旧 catalog（未触发，属会话启动枚举预期）；**新鲜 omp 进程 catalog 已含 designers-brain** → 新会话触发就绪。
 - 走查暴露 4 条 skill 改进（→ S-06）：近似 opt-out 口径 / 无字 KV↔海报边界 / 组合建议须附可判读观察点（莫奈 30% 轴实测不可判读）/ rubric 静态图适配。
+
+## 14. 仓库重构 + 发布准备（2026-10-15）
+
+- **git 落地**（Owner 令：建 git + 发布 public）：`git init -b main` → 快照 `f40a633`（982 文件；忽略帧序列 / node_modules / 第三方媒体）→ 重构 `2aad143`（977 变更）→ 英文文档 `534924e`。
+- **重构**：`research/` 拆为 `knowledge/`（domains/cross/agent-art/INDEX）+ `experiments/` + `docs/skill/` + `ops/`；引用重写（99 文件、单遍无级联）；历史日志（本文件 / session-digest）不改写，映射见 `docs/MIGRATION.md`。
+- **验证器全回归（重构后）**：`_extract` 33/33 · skill `_selfcheck` PASS（junctions 4/4）· E1_t1 / E1_t1b / E1_t1c / E2 / W01(64/64) · anim01/02 ref_compare · anim03 selfcheck —— **全 PASS**。
+- **发布件**：README（EN）+ LICENSE（MIT）+ LICENSE-CONTENT（CC BY 4.0）+ NOTICE + AGENTS/CLAUDE/CONTRIBUTING；i18n zh/ja 两工在飞；gh 已登录 `dwgx`（repo scope），待发布。
+- 待办：RepoStandards 参考研究收口；发布前 secret scan 复跑 + 三条检查（push 纪律）。

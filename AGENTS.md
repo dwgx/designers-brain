@@ -22,3 +22,19 @@ You are working in **Designers_Brain**, a research repository that distills desi
 ## Layout at a glance
 
 `knowledge/` distilled product · `experiments/` evidence runs · `docs/` manuals · `skills/designers-brain/` the skill · `ops/` state · `templates/` reusable templates.
+
+## Commands (runnable checks)
+
+```bash
+python docs/skill/_selfcheck.py                                  # skill refs + junctions + domains → expect PASS
+python knowledge/domains/painters/modules/_extract.py --check    # module cards → expect checks=33 ok=33
+cd experiments/E2_t1 && python _verify_e2.py                     # experiment → expect VERIFY PASS
+```
+
+Every experiment directory ships its own `_verify*.py`; every knowledge domain ships a checker.
+
+## Recent learnings (keep current)
+
+- Sequential re-renders can hide state bugs — always re-render a **non-contiguous sample** and compare frame hashes (out-of-order rerun).
+- One writer per path; `ops/GOALS.md` / `ops/OPS-LOG.md` are main-brain only.
+- Pipelines transfer across models; **style mechanisms must be rewritten with matching mechanical checks**.

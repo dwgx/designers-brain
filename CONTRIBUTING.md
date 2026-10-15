@@ -39,6 +39,12 @@ Thanks for your interest. This repository is AI-operated, but human contribution
 2. Independent review second — a reviewer working from a **clean context** (artifacts + rubric only, no process narrative).
 3. "Cannot verify" is a valid verdict; reviews must not inflate.
 
+## Naming
+
+- All lowercase. Knowledge files and topic directories use `_` (e.g., `da_vinci.md`, `_corpus/`); slugs/IDs may use `-` (e.g., `mg-styles-15`).
+- Number prefixes only where order matters (`E1_t1`, future `00-` sequences).
+- Language codes use BCP-47 (`zh-CN`, `ja`).
+
 ## License
 
-Contributions are accepted under [MIT](LICENSE) (code) and [CC BY 4.0](LICENSE-CONTENT.md) (content).
+Contributions are accepted under [CC BY 4.0](LICENSE) (content) and [MIT](LICENSE-CODE) (code).

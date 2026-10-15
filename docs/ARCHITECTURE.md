@@ -18,7 +18,7 @@ The project's name is the ambition: a *brain for designers* — deep research pe
 ```
 designers-brain/
 ├── README.md · README.zh-CN.md · README.ja.md   — public face (EN primary + translations)
-├── LICENSE · LICENSE-CONTENT.md · NOTICE.md      — MIT (code) + CC BY 4.0 (content) + third-party notices
+├── LICENSE · LICENSE-CODE · NOTICE.md            — CC BY 4.0 (content) + MIT (code) + third-party notices
 ├── AGENTS.md · CLAUDE.md                         — entry points for AI agents
 ├── CONTRIBUTING.md                               — how to contribute (domains, cards, fixes)
 ├── docs/

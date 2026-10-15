@@ -82,6 +82,15 @@
 | S-05 | done | 走查（演练版）：全链真跑 4 轮（首问包 → 推荐单 → 3 真图候选 + 展示后停 → 定稿 + gate + 独立评审）；机械 64/64；自主触发：新鲜 omp 进程 catalog 已含 designers-brain | `docs/skill/walkthrough_01/` + `docs/skill/tests/autotrigger_probe.md` | ConsultWalkthrough（wave11） |
 | S-06 | open | skill 改进 4 条（走查发现）：近似 opt-out 口径 / 无字 KV↔海报边界 / 组合建议可判读观察点 / rubric 静态图适配 → spec v0.3 补丁 | `docs/skill/skill_spec.md` | 主脑 |
 
+## Lane R — Repo & Release
+
+| ID | 状态 | 目标 | 产出路径 | 归属 |
+|---|---|---|---|---|
+| R-01 | done | 仓库重构：research/ → knowledge/ + experiments/ + docs/ + ops/；引用重写（99 文件）；验证器全回归 PASS（33/33 · skill selfcheck · E×4 · W01 64/64 · anim×3） | `docs/MIGRATION.md` | 主脑 |
+| R-02 | done | 英文主文档 11 件（README/ARCHITECTURE/WORKFLOW/PROTOCOLS/ROADMAP/CONTRIBUTING/AGENTS/CLAUDE/NOTICE/LICENSE×2） | 根目录 + `docs/` | 主脑 |
+| R-03 | running | i18n：zh-CN + ja 本地化（README + 四文档） | `docs/i18n/` + `README.<lang>.md` | I18nZH / I18nJA |
+| R-04 | open | GitHub public 发布（gh repo create + push + 三条检查） | github.com/dwgx/designers-brain | 主脑 |
+
 ## 环境实测（2026-10-15，供后续引用）
 
 - node v24.19.0 · npm 11.17.0 · ffmpeg n9.0.1 · Python 3.14.7 · **ImageMagick 未装**
