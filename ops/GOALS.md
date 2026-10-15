@@ -88,8 +88,8 @@
 |---|---|---|---|---|
 | R-01 | done | 仓库重构：research/ → knowledge/ + experiments/ + docs/ + ops/；引用重写（99 文件）；验证器全回归 PASS（33/33 · skill selfcheck · E×4 · W01 64/64 · anim×3） | `docs/MIGRATION.md` | 主脑 |
 | R-02 | done | 英文主文档 11 件（README/ARCHITECTURE/WORKFLOW/PROTOCOLS/ROADMAP/CONTRIBUTING/AGENTS/CLAUDE/NOTICE/LICENSE×2） | 根目录 + `docs/` | 主脑 |
-| R-03 | running | i18n：zh-CN + ja 本地化（README + 四文档） | `docs/i18n/` + `README.<lang>.md` | I18nZH / I18nJA |
-| R-04 | open | GitHub public 发布（gh repo create + push + 三条检查） | github.com/dwgx/designers-brain | 主脑 |
+| R-03 | done | i18n：zh-CN + ja（README + 四文档）落盘 + 独立审计（PASS-with-notes；问题 3+5 条全部修正） | `docs/i18n/` + `README.<lang>.md` | I18nZH / I18nJA + AuditZH/JA |
+| R-04 | done | **GitHub public 发布**：https://github.com/dwgx/designers-brain（main @ ae0680b；1008 文件 / 369 MiB；许可检测 CC-BY-4.0 + MIT；topics ×7）；验收：远端 README 抓取 + gh api 元数据 + git ls-remote | github.com/dwgx/designers-brain | 主脑 |
 
 ## 环境实测（2026-10-15，供后续引用）
 

@@ -106,3 +106,11 @@
 - **验证器全回归（重构后）**：`_extract` 33/33 · skill `_selfcheck` PASS（junctions 4/4）· E1_t1 / E1_t1b / E1_t1c / E2 / W01(64/64) · anim01/02 ref_compare · anim03 selfcheck —— **全 PASS**。
 - **发布件**：README（EN）+ LICENSE（MIT）+ LICENSE-CONTENT（CC BY 4.0）+ NOTICE + AGENTS/CLAUDE/CONTRIBUTING；i18n zh/ja 两工在飞；gh 已登录 `dwgx`（repo scope），待发布。
 - 待办：RepoStandards 参考研究收口；发布前 secret scan 复跑 + 三条检查（push 纪律）。
+
+## 15. GitHub 发布（2026-10-15）
+
+- **发布完成**：`https://github.com/dwgx/designers-brain`（**public**，main）。首推 `e6f7bb1`（1008 文件 / 369 MiB）→ 许可排布修复 `98c63d6` → 纯 CC 文本 `ae0680b`（**license 检测 = CC-BY-4.0**）。gh 账号 `dwgx`；topics ×7；描述已设；默认分支 main。
+- **发布前门**：secret scan 零命中；用户向链接 0 断（164 个 md 全扫 + 引用链接绝对化修复）；>50MB 文件 0；`LICENSE`=CC BY 4.0（full legalcode）/ `LICENSE-CODE`=MIT。
+- **i18n**：zh-CN + ja 全量（README + 四文档）+ **独立审计**（PASS-with-notes；zh 3 条 + ja 5 条编辑级问题已全部修正）。
+- **推送纪律**：每推均过三条检查（工作区干净 / 日志符合意图 / 清单无无关文件），输出已贴。
+- RepoStandards 参考研究（289 行）落于 `docs/notes/repo_standards.md`（12 条惯例 + 15 条建议，均已对照落实或列入 Roadmap）。
