@@ -131,3 +131,4 @@
 - **wave14 加固完成（2026-10-16 凌晨）**：11/11 全部收口（§11 生平 2080–2816 字 + §12 临摹清单 8–10 件；语料合计 +7~+16 条/人）；期间经历 3 轮 provider 流中断，全部以「resume 同会话 + 每 10–15 分钟写盘」恢复，**零规格降级**。附带产出：3 条旧说被 OVERTURNED（塞尚「绝交信」/ 米氏「1509 揭幕」/ 齐白石「画吾自画」归属）；齐白石 4 件 URAA 图从严移入 `_private/`；bada×qi 分工互引闭环。
 - 进行中：wave15 ×8（mucha 等）+ wave13 尾单（huang_gongwang 续跑）。
 - **wave16 收口开跑（2 工）**：ModuleCards20（模块卡 11→20 张）+ IndexMerge（语料/图片/档案三索引对账）。**wave17 开跑（7 工）**：friedrich / repin / ravi_varma / degas / gauguin / van_eyck / kngwarreye（后者版权图入 `_private/` + 原住民伦理约束）。在飞约 17 工。commit：`8f3d7f4`（wave14 完成态）已推。
+- **上下文压缩前准备（2026-10-16 凌晨）**：commit `54f4173` 已推（wave15 七位：mucha/munch/kandinsky/velazquez/bosch/kahlo/behzad 收口 + ModuleCards20 进行中片段）；机器板已刷新（`~/.dwgx/ops/boards/Designers_Brain.md` = 压缩后第一读）；在飞 10 工（huang_gongwang / ModuleCards20 / IndexMerge / wave17×7）——后台继续，不受压缩影响。恢复流程：先读板 → 复述一行 → 补一个缺口（`恢复.md`）。

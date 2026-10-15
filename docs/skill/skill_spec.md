@@ -9,13 +9,13 @@
 
 ## 0. 定位
 
-**一句话**：把仓库既有研究资产（11 画家模块卡 / 15 MG 风格卡 / 冲突清单 C-01–C-18 / 组合规则 N1–N9 / 三种输出形态与确定性契约）打包成一个**设计顾问 skill**——agent 拿到「设计 / 替换」需求后**先问**（三句话 + 风格意图 + 替换意图），多轮收敛，然后**按推荐逻辑选卡、按替换语义改写、按输出形态出稿**；全程引用仓库既有文件，不复制、不漂移。
+**一句话**：把仓库既有研究资产（20 画家模块卡 / 15 MG 风格卡 / 冲突清单 C-01–C-18 / 组合规则 N1–N9 / 三种输出形态与确定性契约）打包成一个**设计顾问 skill**——agent 拿到「设计 / 替换」需求后**先问**（三句话 + 风格意图 + 替换意图），多轮收敛，然后**按推荐逻辑选卡、按替换语义改写、按输出形态出稿**；全程引用仓库既有文件，不复制、不漂移。
 
 ### 0.1 资产盘点（skill 的「零件」全部已存在）
 
 | 资产 | 位置（REPO 相对） | 在 skill 里的角色 |
 |---|---|---|
-| 11 画家模块卡 + 索引 | `knowledge/domains/painters/modules/`（README + 11 卡） | 推荐域 A：图像 / 动画风格模块 |
+| 20 画家模块卡 + 索引 | `knowledge/domains/painters/modules/`（README + 20 卡） | 推荐域 A：图像 / 动画风格模块 |
 | 11 份画家档案（正本） | `knowledge/domains/painters/dossiers/` | 卡的上游正本（卡 = 浓缩，档案 = 全量） |
 | 15 MG 风格卡 | `knowledge/domains/motion-graphics/origin/`（截图 + `提示词全文.md`） | 推荐域 B：10 秒 MG 动画骨架 |
 | 15 卡结构蒸馏 / 管线手册 | `knowledge/domains/motion-graphics/cards/structure.md`、`knowledge/domains/motion-graphics/cards/mg-styles-15_handbook.md` | 域 B 的索引与实现细节 |
@@ -154,7 +154,7 @@ interface:
 ① 你是做什么的：<业务 / 产品 / 身份，一句话>
 ② 给谁看：<受众 + 场景，一句话>
 ③ 手上有什么物料：<文件 / 图片 / 文档 / 现成文案，列路径>
-④ 风格意图：想要什么感觉 / 点名谁？（11 画家、15 张 MG 卡，或说气质我推荐）
+④ 风格意图：想要什么感觉 / 点名谁？（20 画家、15 张 MG 卡，或说气质我推荐）
 ⑤ 替换意图：这次是——A 换内容（有骨架，换故事/品牌/文案）/ B 换风格（同一内容换模块）/ C 调强度（同模块强弱）/ D 从零选型？
 ```
 
@@ -215,7 +215,7 @@ interface:
 
 ### 3.2 域与卡过滤（第一层）
 
-**域 A · 画家模块（11 卡）**——能力定位速查（正本：`knowledge/domains/painters/modules/README.md`）：
+**域 A · 画家模块（20 卡）**——能力定位速查（正本：`knowledge/domains/painters/modules/README.md`）：
 
 | 卡 | 能力定位 | 相关 C 条（conflicts.md） |
 |---|---|---|
@@ -380,7 +380,7 @@ interface:
 
 | 指针文件 | 指向 |
 |---|---|
-| `references/painter-modules.md` | `knowledge/domains/painters/modules/README.md`（11 卡索引 + 组合速查）+ 各卡 |
+| `references/painter-modules.md` | `knowledge/domains/painters/modules/README.md`（20 卡索引 + 组合速查）+ 各卡 |
 | `references/mg-cards.md` | `knowledge/domains/motion-graphics/cards/structure.md` + `knowledge/domains/motion-graphics/cards/mg-styles-15_handbook.md` + `knowledge/domains/motion-graphics/origin/提示词全文.md` |
 | `references/conflicts.md` | `knowledge/cross/conflicts.md` |
 | `references/output-forms.md` | `templates/style_card.md` + `templates/determinism_contract.md` + `knowledge/cross/transfer_guide.md` |
