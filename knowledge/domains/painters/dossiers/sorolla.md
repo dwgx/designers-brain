@@ -435,6 +435,7 @@ checks=126 ok=126 fail=0   # 42 卡 × §8.1/§8.2/§4 逐字比对
 $ git status --short -- <本档三路径>
  M knowledge/domains/painters/dossiers/sorolla.md      ← 仅本档 2 行互查状态更新（其余版本由主脑 sweep 入库）
 （_corpus/sorolla.md 与 _images/sorolla/ 已随 sweep 入库、与盘上一致）
+$ git commit → 2e004ab（本地；待主脑 sweep 推送）
 ```
 
 ### D. 小结（≤14 行）
@@ -443,7 +444,7 @@ $ git status --short -- <本档三路径>
 - **能力定位**：强阳光——正午高照度 + 白上加白；与系统现有模块无重叠（莫奈=包络、透纳=天气、霍珀=城市光）。
 - **推翻/收窄**：① 「无雾/无黄昏」收窄为「正午高照度档」；② 「从不修改」降为单一来源慎用；③ 偏瘫日期两说留档（从 1920）。
 - **未定**：Blanca Pons-Sorolla 引语未采；《Sol de la tarde》自评单源；Valencia 面板低清。
-- **下一步**：主脑验收；模块卡（`_extract.py` 扩 ARTISTS）与索引合并按批收口；与 `zorn.md` 回读互核（佐侧落盘后）。
+- **下一步**：主脑验收；模块卡（`_extract.py` 扩 ARTISTS）与索引合并按批收口；「vs 佐恩」互查**已完成**（`zorn.md` 已落盘、逐条一致——见 §3.1 互查记录）。
 
 ---
 
