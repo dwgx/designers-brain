@@ -23,7 +23,7 @@
   3. *Ellen Terry as Lady Macbeth* 1889，泰特（N02053）— https://www.tate.org.uk/art/artworks/sargent-ellen-terry-as-lady-macbeth-n02053
   4. *El Jaleo* 1882，伊莎贝拉·斯图尔特·加德纳博物馆（ISG，波士顿）— https://www.gardnermuseum.org/ （直连受阻，见 §10-2；条目内容经 [R10][R13] 交叉）
   5. *The Wyndham Sisters: Lady Elcho, Mrs. Adeane, and Mrs. Tennant* 1899，大都会艺术博物馆（27.67）— https://www.metmuseum.org/art/collection/search/12477
-- **语料/图库**：`_corpus/sargent.md`（26 条，书信/转记/同时代记录为主）；`_images/sargent/`（14 张全 PD/CC0：Met Open Access ×5 + Met-CC0（Commons） ×3 + 泰特 ×3 + ISG ×1 + 英国国家肖像馆 ×2）；私有层 `_private/INVENTORY_sargent.md`（Charteris 1927 全书 PDF/文本 + 高清副本）。
+- **语料/图库**：`_corpus/sargent.md`（30 条，书信/转记/同时代记录为主）；`_images/sargent/`（14 张全 PD/CC0：Met Open Access ×5 + Met-CC0（Commons） ×3 + 泰特 ×3 + ISG ×1 + 英国国家肖像馆 ×2）；私有层 `_private/INVENTORY_sargent.md`（Charteris 1927 全书 PDF/文本 + 高清副本）。
 
 ---
 
@@ -118,7 +118,7 @@
 
 ---
 
-## 5. 自述与原话（10 条；完整语料 26 条见 `_corpus/sargent.md`）
+## 5. 自述与原话（10 条；完整语料 30 条见 `_corpus/sargent.md`）
 
 > 口径：萨金特**无理论著作**；以下全部为书信或转记（载体逐条标注）。不得把其中任何一条当作「他内心状态」的证据——一律按「他写下/说出的操作陈述」使用。
 
@@ -306,7 +306,7 @@ digital smoothness, airbrushed skin, photo-bash, 3D render, cartoon, text
 
 ## 11. 生平与年代轴（详细）
 
-> wave18 规格 v2 增项：叙述（约 2900 字）+ 年份表（48 行）+ 来源（17 条）。来源编号沿用 §9 的 [R1]–[R17]；证据级随句标注。
+> wave18 规格 v2 增项：叙述（约 2900 字）+ 年份表（51 行）+ 来源（17 条）。来源编号沿用 §9 的 [R1]–[R17]；证据级随句标注。
 
 ### 11.1 生平叙述
 
@@ -322,7 +322,7 @@ digital smoothness, airbrushed skin, photo-bash, 3D render, cartoon, text
 
 **六、战争、晚年与身后（1914–1925）。** 1918 年，他从美国返英后被英国新闻部任命为**战争画家**——他去了西线，画出巨幅《Gassed》（毒气伤员，现藏帝国战争博物馆）与大量水彩（《Tommies Bathing》等）；同年他的外甥女 Rose-Marie 在巴黎圣热尔韦教堂炮击中身亡，对他打击很深。1919 年，波士顿公共图书馆壁画中的《教会》与《会堂》两块引发「反犹形象」争议（犹太会堂被画成盲眼丑妇、教会是光明的少女）——他始料未及、受伤且困惑，最终放弃完成整组壁画。1921 年他勉强接下皇家艺术学院绘画学部主席；1922 年参与创办纽约 Grand Central 美术馆。1925 年 4 月，他仍在准备赴美（最后一件油画肖像是当年 3 月画的格雷丝·寇松侯爵夫人像）；4 月 14 日晚，他在妹妹 Violet 的告别晚宴上精神很好，散席后回家；**15 日清晨，女仆敲门无人应答——约翰·萨金特已在睡梦中去世**，手边摊着一本伏尔泰《哲学辞典》。他葬于沃金附近的 Brookwood 公墓（enwiki 记卒因心脏病、卒日 4 月 14 日——两个口径并存，见 §10-5）。身后声誉一度跌至谷底（1926 年弗莱、1930 年代芒福德），1950 年代起回升；1986 年惠特尼回顾展与 1999 年三国巡回展后重立为「爱德华时代肖像的化身」；1980 年代其隐藏男性裸体的展出进一步改写了对他个人与作品复杂性的理解。`[史料]`（[R10][R11][R14]）
 
-### 11.2 年份表（48 行）
+### 11.2 年份表（51 行）
 
 | 年份 | 事件 | 来源 |
 |---|---|---|
@@ -447,4 +447,98 @@ digital smoothness, airbrushed skin, photo-bash, 3D render, cartoon, text
 
 ---
 
-<!-- CONTINUE -->
+## 自审四段（LOOP 协议 §3.4）
+
+### A. 早产出
+
+本轮为「先骨架、后成稿 + 逐节落盘」：开工先读规格与格式基准（`program/README.md` §1、`roster.md` §1/§3、wave17 样板 `degas.md`、分工接口 `velazquez.md` §3.1、`conflicts.md`、`expansion.md` G18 条目），随后建立中间产物目录 `knowledge/domains/painters/_scratch/sargent/`（Charteris 1927 全文 OCR + PDF、Met API 输出、Tate 抓页、Commons imageinfo 记录、限流与下载日志、contact sheet）。**档案骨架（§0–§2）先落盘**，随后按「研究一段、追加一段」补齐 §3–§10、§11/§12，最后写自审。语料（30 条）在 §5 定稿后完整落盘；图库 14 张 + MANIFEST 随后落盘（含限流绕行与 2 张误取件的替换记录）；私有层（Charteris 2 件 + 13 件高清副本 + INVENTORY）收尾。**四处落盘全部完成**：① 本档案；② `_corpus/sargent.md`；③ `_images/sargent/`（14 张 + MANIFEST）；④ `_private/INVENTORY_sargent.md`（+ `_private/books/`、`_private/images_hi_res/sargent/`）。
+
+### B. 反驳（挑最强结论逐条试推翻）
+
+| # | 结论 | 反驳动作（跑过什么） | 判定 |
+|---|---|---|---|
+| 1 | 「萨金特笔法＝委拉斯开兹谱系（写死条款）」 | ① 复读 `velazquez.md` §3.1：其「空气轴」「笔触融解轴」已按 N3 留给委——须验证本档案未把同轴叠给萨；② 核 Met 三处（[R4]「pay tribute to Velázquez」、[R14]「palette and brushwork derived from Velázquez」、[R10] 课堂口号） | **CONFIRMED**（谱系成立；机制四轴分离、无轴重叠） |
+| 2 | 「vs 马奈」的分离轴成立 | ① Met Heilbrunn 明言《X 夫人》面部「unmodulated treatment… inspired by Manet」——若两模块机制重叠则条款失败；② 核 `roster.md` §1 马奈条目（「平面化…取消中间调」）与本节「功能/空间/明度/社会装置」四轴 | **CONFIRMED**（alla prima 是共享技艺、不构成区分；区分在功能与用途——条款以四轴分离） |
+| 3 | 「卒日 = 4 月 14 日」 | Charteris 行 11039–11065（14 日晚晚餐、15 日晨被发现）vs enwiki（14 日、卒因心脏病、Brookwood 墓）——两口径无法由本机材料单源裁定 | **WEAKENED**（双记入档 §0/§11.2；§10-5 标注） |
+| 4 | 「图库 14 张全部 PD/CC0、内容无错件」 | ① Commons/Met API `imageinfo` 逐张核验（14/14）；② 14 格 contact sheet 目检——**首轮抓出 2 张误取件**（ladyrose/hammersley 的 Commons 文件实为画框+签名细节照），替换为 Met 官方 CC0 全画版（DT1151/DT2064）后复检 | **CONFIRMED**（替换过程留痕于 MANIFEST §限流与绕行记录） |
+| 5 | 「§4/§8.1/§8.2 可被 `_extract.py` 契约机械抽取（与 20 卡同构）」 | 以 `_extract.py` 三个抽取函数直测本档案（见 C 段输出） | **CONFIRMED**（§4=1109 / §8.1=2205 / §8.2=1056 chars；neg-seg True） |
+| 6 | 「『Every time I paint a portrait I lose a friend』确为萨金特语」 | Charteris 1927 全文 grep「lose a friend / lose…friend」→ 零命中；仅 en.wikiquote 归 Bentley & Esar (1951) | **WEAKENED**（不删；降级为二手转引并标注——语料 #8） |
+
+> 被削弱/待验证项（已在正文就地标注，不冒充结论）：§4/§8.2 全部阈值为 `[归纳]`、未对原作做像素测量（§10-7）；NPG/ISG 直连受阻、相关文本为交叉转引（§10-1/§10-2）；水彩总量「2000+」为 enwiki 单一来源（§10-9）。
+
+### C. 机械验证（原样粘贴）
+
+检查器：`knowledge/domains/painters/_scratch/sargent/check_sargent.py`（结构计数与抽取直测）+ `_extract.py --check`（回归）+ `docs/skill/_selfcheck.py`（skill 自检）+ `git`（增量）。2026-10-16 执行。
+
+**① 结构/规格直测（`check_sargent.py` 全文输出）**
+```
+=== sargent.md 结构检查（2026-10-16；eval/Python；无落盘）===
+§4  抽取: 1109 chars, 15 lines
+§8.1 抽取: 2205 chars
+§8.2 抽取: 1056 chars, 8 rules
+neg-seg: True
+分工条款出现: 4 处（期望 ≥2 写死节 + 头部 + 交叉）
+vs 马奈/vs 委拉斯开兹/vs 佐恩 三条款: True
+§11.1 叙述 CJK 字数: 2244 (期望 ≥2000)
+§11.2 年份表行数: 51 (期望 ≥15; 标题声称 51)
+§9 参考来源条数: 17
+§12 件数（标题）: 10 / 实计条目: 10
+语料条目数: 30 (期望 ≥15)
+图库张数: 14 (期望 ≥6)
+图库合计: 8.0 MB
+档案: 544 行 / 82377 bytes
+PASS-CHECK-DONE
+```
+
+**①b 模块级复核（直接调用 `_extract.py` 的 `arch_81/arch_82/arch_4` 函数——抽取契约的最终判据）**
+```
+§8.1: 2171 | §8.2: 1025 | §4: 1083 | neg-seg: True
+§8.2 规则条数: 8 ｜ §4 参数行数: 6
+PARSE OK
+```
+（与 ① 的差值来自模块 `trim()` 的边界处理——两者同谓词、同边界标记。）
+
+**② 回归与自检**
+```
+$ python knowledge/domains/painters/modules/_extract.py --check
+checks=60 ok=60 fail=0   # 20 卡 × §8.1/§8.2/§4 逐字比对
+
+$ python docs/skill/_selfcheck.py
+RESULT: PASS  (checked=53 fail=0 planned=1 · junctions=4/4 · domains=ok · harness_fail=0)
+```
+
+**③ 计数（wc / grep / ls）**
+```
+$ wc -l sargent.md _corpus/sargent.md
+  544 sargent.md
+  247 _corpus/sargent.md
+$ grep -c '^### ' _corpus/sargent.md     → 30
+$ ls _images/sargent/*.jpg | wc -l       → 14（+ MANIFEST.md）
+$ ls _private/images_hi_res/sargent/     → 13 件高清（+ _private/books/ 2 件）
+```
+
+**④ git 增量（纯新增验证）**
+```
+$ git diff --numstat 51328de -- <本档案四路径> | awk '{d+=$2} END {print "total deleted lines:", d+0}'
+total deleted lines: 0
+$ git diff --stat 51328de -- <本档案四路径> | tail -1
+ 15 files changed, 450 insertions(+)
+$ git status --porcelain（本轮相关）
+?? knowledge/domains/painters/dossiers/_corpus/sargent.md      （新文件，待主脑随提交纳入）
+?? knowledge/domains/painters/dossiers/_images/sargent/MANIFEST.md（新文件）
+ M knowledge/domains/painters/dossiers/sargent.md              （4 行计数修正——主脑中途快照 8d070d0 已收编在飞稿）
+ M knowledge/domains/painters/dossiers/_images/sargent/lady_with_the_rose_1882.jpg（细节照→全画替换）
+ M knowledge/domains/painters/dossiers/_images/sargent/mrs_hugh_hammersley_1892.jpg（同上）
+```
+（说明：主脑中途快照 `8d070d0` 已把本轮在飞文件收编入库；**相对 wave18 基线 `51328de` 的全部改动为纯新增、0 删除**。`_private/` 为忽略层、不进入 git——按纪律不列 diff。）
+
+### D. 小结（≤14 行）
+
+- **已确立（四处落盘）**：① 本档案（544 行 / 82.4 KB，v2 全规格 §0–§12 + 自审）；② `_corpus/sargent.md`（30 条，24 条经 Charteris 1927 OCR 行号定位）；③ `_images/sargent/`（14 张全 PD/CC0 + MANIFEST）；④ `_private/INVENTORY_sargent.md`（+ Charteris 2 件 + 13 件高清副本，sha256 逐件）。
+- **已确立（分工写死）**：vs 马奈（功能/空间/明度/社会装置四轴——「社交炫技 vs 平面实验」）；vs 委拉斯开兹（观看距离/空气/光/社会装置四轴——「笔法谱系」）；vs 佐恩（色板宽度/炫技位置/题材/光四轴——**预写**，佐恩档案落地后对齐）；各附可判读判据与组合纪律（N3 轴所有权）。
+- **已确立（规格计数）**：§11.1 叙述 2244 CJK（≥2000）｜§11.2 年份表 51 行（≥15）｜§11.3 来源 17（≥10）｜§12 10 件（5–10）｜语料 30（≥15）｜图库 14（≥6）。
+- **已确立（契约直测）**：§4=1109 / §8.1=2205 / §8.2=1056 chars，neg-seg True；回归 `_extract.py --check` 60/60；skill `_selfcheck` PASS。
+- **被削弱（已就地标注）**：卒日 14/15 双口径（§10-5）；「lose a friend」二手转引（语料 #8）；NPG/ISG 直连受阻（§10-1/§10-2）；水彩总量单一来源（§10-9）。
+- **未知**：ISG《El Jaleo》专页 ID（CDX 502）；NPG 高解析原图（Cloudflare）；§4/§8.2 阈值未对原作做像素测量（分母＝假想参考帧）。
+- **下一步**：① 主脑验收后并入共享索引（语料 INDEX / 图库 manifest / `_index.md` 由主脑合并）；② 模块卡提取时把 sargent 加入 `_extract.py` ARTISTS（波次收口后）；③ 组合预检实验：与马奈/委拉斯开兹做 70/30 对照（按 §3.1 判据）、与佐恩条款待其档案对齐。
+- **我仍赌错的是什么**：§4 六参数与 §8.2 八条规则的数值档位是按馆方文字与目测归纳的**未实测参数**；「51 行 / 2244 字」等计数以本机脚本（`check_sargent.py`）为准——如验收脚本口径不同，以验收方输出为准并回改。

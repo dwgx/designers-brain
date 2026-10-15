@@ -72,10 +72,10 @@
 | A-66 | done | 加固pass2·齐白石：§11.1 308→**2954 字**（8 段详述；子节归一 11.1/11.2/11.3）；§11 外零改动（逐字节核）；回归 60/60 | `knowledge/domains/painters/dossiers/qi_baishi.md` | HardQi（wave16p2） |
 | A-67 | done | 加固pass2·伊藤若冲：§11.1 760→**2208 字**（六段；来源 13 条；子节归一）；《藤花亭画谱》查无→改用『藤景和画記』等实证材料并留档；回归 60/60 | `knowledge/domains/painters/dossiers/ito_jakuchu.md` | HardIto（wave16p2） |
 | A-68 | done | wave18·广重：536 行 v2 档案（§11 2045 字 + 41 行 + 14 来源；§12 10 件）+ 语料 24 条 + 图库 18 张 PD/CC0（Met 12 CC0）+ 私有 10 件；分工 vs 北斋/贝赫扎德写死（G13 系列叙事清账）；引文 25/25 | `knowledge/domains/painters/dossiers/hiroshige.md` | ArtistHiroshige（wave18） |
-| A-69 | running | wave18·萨金特（Sargent）v2 | `knowledge/domains/painters/dossiers/sargent.md` | ArtistSargent（wave18） |
-| A-70 | running | wave18·皮耶罗·德拉·弗朗切斯卡 v2 | `knowledge/domains/painters/dossiers/piero_della_francesca.md` | ArtistPiero（wave18） |
-| A-71 | running | wave18·阿尔泰米西娅·真蒂莱斯基 v2（vs 卡拉瓦乔写死） | `knowledge/domains/painters/dossiers/artemisia_gentileschi.md` | ArtistArtemisia（wave18） |
-| A-72 | running | wave18·纳马吉拉（Namatjira）v2（版权图入 `_private/`） | `knowledge/domains/painters/dossiers/namatjira.md` | ArtistNamatjira（wave18） |
+| A-69 | done | wave18·萨金特：544 行 v2 档案（§11 2244 字 + 51 行 + 17 来源；§12 10 件）+ 语料 30 条（Charteris 1927 全文 OCR）+ 图库 14 张全 PD/CC0 + 私有 14 件；分工 vs 马奈/委拉斯开兹写死（vs 佐恩预写待对齐）；contact sheet 抓出 2 误取件已替换 | `knowledge/domains/painters/dossiers/sargent.md` | ArtistSargent（wave18） |
+| A-70 | done | wave18·皮耶罗：500 行 v2 档案（§11 2206 字 + 46 行 + 11 来源；§12 10 件）+ 语料 24 条（《De prospectiva pingendi》中古意大利语原文）+ 图库 17 张（14 PD + 3 CC BY-SA）+ 私有 3 件；分工 vs 达芬奇/塞尚写死；2 条 OVERTURNED（Vasari 旧说） | `knowledge/domains/painters/dossiers/piero_della_francesca.md` | ArtistPiero（wave18） |
+| A-71 | done | wave18·阿尔泰米西娅：517 行 v2 档案（§11 2028 字 + 47 行 + 12 来源；§12 10 件）+ 语料 29 条（庭审记录/书信；含 1653 戏谑墓志铭误传源头）+ 图库 16 张全 PD + 私有 5 件；分工 vs 卡拉瓦乔写死（4 判据 + 边界注 ≥2 轴）；引文 25/25 | `knowledge/domains/painters/dossiers/artemisia_gentileschi.md` | ArtistArtemisia（wave18） |
+| A-72 | done | wave18·纳马吉拉：511 行 v2 档案（§11 2041 字 + 28 行 + 15 来源；§12 10 件）+ 语料 22 条 + 31 张图**全在 `_private/`**（公开侧零图；原住民伦理护栏 + 2029 版权警示）；分工 vs 康斯泰勃尔/透纳写死 | `knowledge/domains/painters/dossiers/namatjira.md` | ArtistNamatjira（wave18） |
 | A-73 | done | wave18·萨拉希：544 行 v2 档案（§11 2147 字 + 41 行 + 16 来源；§12 10 件）+ 语料 44 条 + 22 张图**全在 `_private/`**（公开侧零图）；分工 vs 康定斯基/贝赫扎德写死（对侧口径互查一致） | `knowledge/domains/painters/dossiers/el_salahi.md` | ArtistElSalahi（wave18） |
 | A-74 | done | wave18·吴冠中：500 行 v2 档案（§11 2052 字 + 47 行 + 17 来源；§12 10 件）+ 语料 40 条 + 25 张图**全在 `_private/`**（公开侧零图；版权护栏入 §8.1）；分工 vs 康定斯基/八大山人/黄公望写死（抽象线中文落点，与 kandinsky.md 互洽） | `knowledge/domains/painters/dossiers/wu_guanzhong.md` | ArtistWuGuanzhong（wave18） |
 | A-75 | done | 索引合并二轮：三表并入 wave15/17（35 位/844 条；manifest 公开 273 张 + 私有例外 126 张；_index 35 行含 pass2 九行重算）；核验 **PASS 140 / FAIL 0**；两处口径决定留档（mucha 12/5、kandinsky 私有 11） | `knowledge/domains/painters/dossiers/` | IndexMerge2（wave16） |

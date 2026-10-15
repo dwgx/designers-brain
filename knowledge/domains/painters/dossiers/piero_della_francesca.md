@@ -22,7 +22,7 @@
   3. 《鞭笞》（The Flagellation of Christ，约 1455–70），乌尔比诺国立马尔凯美术馆 — https://gndm.it/en/opere/flagellazione/ （[R5][R18]；本批任务指定源）
   4. 《蒙特费尔特罗祭坛画》（Brera Madonna / Montefeltro Altarpiece，1472–74），米兰布雷拉美术馆 — 见 [R11]
   5. 《乌尔比诺公爵双联像》（Diptych of Federico da Montefeltro and Battista Sforza，约 1465–75），佛罗伦萨乌菲齐 — 见 [R12]
-- **语料 / 图库**：`_corpus/piero_della_francesca.md`（22 条：著作自述 9 条 + 题刻/档案 6 条 + 同时代与转记 4 条 + 研究 3 条）；`_images/piero_della_francesca/`（16 张，全 PD/CC 开放许可，见 MANIFEST.md）。私有层：`_private/INVENTORY_piero_della_francesca.md`（研究副本与文献登记）。
+- **语料 / 图库**：`_corpus/piero_della_francesca.md`（24 条：著作自述 9 条 + 题刻 2 条 + 文书 4 条 + 同时代 1 条 + 转记 5 条 + 研究 3 条）；`_images/piero_della_francesca/`（17 张，全 PD/CC 开放许可，见 MANIFEST.md）。私有层：`_private/INVENTORY_piero_della_francesca.md`（研究副本与文献登记）。
 
 ---
 
@@ -104,7 +104,7 @@
 
 ---
 
-## 5. 自述与原话（10 条；完整语料 22 条见 `_corpus/piero_della_francesca.md`）
+## 5. 自述与原话（10 条；完整语料 24 条见 `_corpus/piero_della_francesca.md`）
 
 > 口径：皮耶罗**留下理论著作**——《De prospectiva pingendi》（透视论，约 1474–1482）、《Trattato d'abaco》（算书，约 1450）、《Libellus de quinque corporibus regularibus》（正多面体，1485 完成）——本节的"自述"是**著作文字级**证据。1–8 条底本＝《De prospectiva pingendi》中古意大利语原文（Winterberg 1899 年刊本，archive.org 全文 [R17]；OCR 转录，个别字形已按上下文归一：inse→in sé、parli→parti、uscuri→oscuri、lidevai'iano→li devaria 等，〔〕内为补读）；9–10 条为题刻/文书级。
 
@@ -411,3 +411,89 @@ turbulence, no cartoon, anime, 3D render, photographic HDR
 > **组合练习建议（与系统联动）**：第 1/3/8 件练「轴线与对称」；第 2/6/10 件练「透视盒与光柱」；第 4/9 件练「光的两档（夜点光 vs 神光）」；第 5/7 件练「群像与剪影」。各条均可与邻近模块做 A/B 对照——对照轴 = §3.1 分工判据（vs 达芬奇：过渡带宽度/边缘；vs 塞尚：空间生成器/阴影系统）。
 
 ---
+
+## 自审四段（LOOP 协议 §3.4）
+
+### A. 早产出
+
+- **第一段产出 = 图库**：17 张分四批落盘（首批 8 张 → 限流中断 → 批 A 4 张 → 批 B 4 张 → 双联补正 2 张）→ contact sheet 两轮目检（16 格发现"双联只有单幅"→ 补取正/背两幅 → 17 格全对，17/17 无错件）——先让「可核验物」上盘，再展开研究。
+- **档案分 6 次落盘**（头+§0–§2 → §3–§5 → §6–§7 → §8–§10 → §11–§12 → §11.1 扩写 → 本自审），每段都是可读的完整节；语料（24 条）、图库 MANIFEST、私有层清单分别在相应阶段落盘。
+- 中间产物（Commons 检索/信息 JSON、下载记录、contact sheet、预览图）在 `knowledge/domains/painters/_scratch/piero/`（gitignored）；**无仅存于对话的结论**。
+- 过程修正记录：① 双联首图误取单幅（Battista 面板）→ 目检发现 → 补取正面双联 + 背面凯旋两幅（CC BY-SA 摄影署名已记录）；② 私有层批量下载因路径写法（`/d/` vs `D:/`）失败一次，已修正重跑；③ 采集期 Commons 429 限流两次触发，改分批 + 退避重试完成。
+
+### B. 反驳（挑最强结论逐条试推翻）
+
+| # | 结论 | 反驳动作（跑过什么） | 判定 |
+|---|---|---|---|
+| 1 | 「Vasari：父亲在他出生前去世（遗腹子）」 | 对照档案：父亲 1438 年代子开收据、1464-02-20 卒（[R14]） | **OVERTURNED（降级为旧说）**：全档改写为"Vasari 旧说已为档案修正" |
+| 2 | 「Vasari：60 岁失明」 | 对照 1487 遗嘱"身体健全" + 1482 里米尼租屋写作（[R14]） | **WEAKENED**：程度与年份不可全信，入 §10-3 |
+| 3 | 「Pacioli 抄袭皮耶罗著作」 | 读 1849 版编者注（Pungileoni/Lanzi/Bossi 为 Pacioli 辩护；Vasari 二版已删相关墓志铭；[R16]） | **WEAKENED**：指控有据、责任分配有争议，入 §10-4 |
+| 4 | 「《De prospectiva pingendi》以拉丁文写成」 | 直读 1899 版全文（[R17]）——正文为中古意大利语；[R10] 亦称 "the text is written in Italian" | **OVERTURNED**：全档口径写"拉丁标题、意大利语正文" |
+| 5 | 「《受洗》胡桃树按黄金分割分割画面」 | 单一来源（[R6]）；[R1] 未提该比例，未回查原始论文 | **WEAKENED**：标 `[推测]`，入 §10-6 |
+| 6 | 「罗马时期由 Nicholas V 召见」 | 与 1459-04-12 教廷付款档案（Pius II 时期）冲突（[R14][R4]） | **WEAKENED**：采 Pius II 口径，Nicholas V 说存疑（§10-5） |
+| 7 | 「分工条款 vs 达芬奇 / vs 塞尚可写死」 | 逐条对照 `da_vinci.md` §4 P1/§8.2-1/-2 与 `cezanne.md` §4 P1/P3/P4 + `conflicts.md` C-02/C-05/C-10 已落盘文本：判据全部有对应参数与原文 | **CONFIRMED**：写入 §3.1（两条写死条款，各 4 判据 + 组合注记） |
+
+### C. 机械验证
+
+**检查器**：eval/Python 内联（读取档案 / 语料 / 图库 / 私有层；不留盘）+ `_extract.py` 抽取函数直测。原样输出（预跑，自审落盘前）：
+
+```
+=== piero_della_francesca.md 结构检查（区间口径）===
+总行数: 414 | 字节: 80473
+节命中: 20 / 20 | 缺失: 无
+URL 总数: 41 | 去重: 30
+「达·芬奇」×3 | 「塞尚」×13 | 「写死」×8 | 「未找到（已查」×3 | 「sfumato」×9 | 「色彩调制」×3
+§11.1 中文字数: 2206
+§11.2 年表行数: 46
+§11.3 来源行: 11
+§12 作品条数: 10
+
+=== 抽取契约（_extract.py 直用）===
+arch_4: OK, 1236 chars | head: | # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%） | 默认建议 |
+arch_81: OK, 1978 chars | head: **正向段（可直接粘贴）**
+arch_82: OK, 1358 chars | head: 1. **轴线与网格规则**：画面含 **≥1** 条贯穿性垂直主轴（贯穿 ≥80% 帧高）…
+VERDICT: PARSE OK
+
+=== 语料 ===
+corpus 条数: 24 (≥15)
+
+=== 图库（sha256 前 16）===
+baptism_of_christ_ng665.jpg                       623 KB 0a2eafd44b2ad3ed
+diptych_federico_battista.jpg                     695 KB 662f66e578b26e2a
+diptych_reverse_triumphs.jpg                      724 KB 588e9eea404d531f
+flagellation_urbino.jpg                           307 KB 09d30b548671be76
+legend_true_cross_battle_heraclius.jpg            287 KB 43a174e85080b3d5
+legend_true_cross_dream_of_constantine.jpg        341 KB 1c244449609d3ef9
+legend_true_cross_finding_and_recognition.jpg     280 KB 439c71c73616dbe5
+legend_true_cross_queen_of_sheba.jpg              275 KB 1a3aa7ae942eb860
+madonna_del_parto.jpg                             198 KB d78f2e2efe57ce9f
+madonna_di_senigallia.jpg                         687 KB 6d3bf39d42b99eeb
+montefeltro_altarpiece_brera.jpg                  288 KB 163c790cb2b69027
+nativity_ng908.jpg                                736 KB b39319bedb479136
+polyptych_of_the_misericordia.jpg                 209 KB 8cfc4773579bed45
+portrait_sigismondo_malatesta.jpg                 171 KB 6b5b3575349bf149
+resurrection_sansepolcro.jpg                      272 KB 88595d42340aadbc
+saint_jerome_penitent_berlin.jpg                  447 KB 610886966737cc67
+saint_michael_ng769.jpg                           224 KB 270f990f18f80ecf
+total: 17 张 / 6771 KB | MANIFEST: True（17/17 sha256 匹配）
+
+=== 私有层 ===
+papers: piero_de_prospectiva_pingendi_1899_ocr.txt / pacioli_de_divina_proportione_1509_ocr.txt
+hi-res: baptism_3840.jpg | INVENTORY_piero_della_francesca.md: True
+
+=== 回归 ===
+python knowledge/domains/painters/modules/_extract.py --check
+checks=60 ok=60 fail=0   # 20 卡 × §8.1/§8.2/§4 逐字比对（piero 卡待 wave18 收口扩 ARTISTS）
+```
+
+- **复跑（本节落盘后，终稿状态）**：`piero_della_francesca.md` 终稿 **500 行 / 88360 字节**；节命中 **21/21**（含「## 自审四段」）；抽取契约 arch_4=1236 / arch_81=1978 / arch_82=1358 chars — PARSE OK；语料 24 条；图库 17 张 + MANIFEST；私有层 2+1+1 件。与预跑一致（区间口径；行数/字节为含本节终稿快照）。
+- **git**：本工四处产物均为**纯新增**（dossier / corpus / 17 图 + MANIFEST；私有层不入 git）；主脑已随 wave18 partial 提交（`8d070d0` 含本工文件；`git diff HEAD` 对本工路径为空）。
+
+### D. 小结（≤14 行）
+
+- **已确立**：v2 全节（§0–§12 + 本节）；§4/§8.1/§8.2 与 v1 抽取契约同构（`_extract.py` 直测通过）；分工条款在 §3.1 写死——**vs 达·芬奇（清晰几何 vs sfumato，4 判据）** + **vs 塞尚（数学空间 vs 色彩调制，4 判据）** + vs 米开朗基罗/系统其余模块禁令。
+- **已确立（四处落盘）**：① `dossiers/piero_della_francesca.md`（含自审）；② `_corpus/piero_della_francesca.md`（24 条：self-written 9 + inscription 2 + document 4 + contemporary record 1 + reported speech 5 + 研究 3）；③ `_images/piero_della_francesca/`（17 张 PD/CC + MANIFEST）；④ `_private/INVENTORY_piero_della_francesca.md`（+ 论著全文 2 件 + 3840px 研究副本）。
+- **被推翻**：2 条（「遗腹子」旧说；「拉丁文写成」）→ 已改写；**被削弱**：失明说、Pacioli 指控、黄金分割、罗马召见人——均已改「两说/存疑」并留档。
+- **未知**：出生年精确值、失明程度、论著现代校勘本、修复报告——待补（§10 全列）。
+- **下一步**：与 da_vinci / cezanne 模块跑 70/30 组合对照（判据 = §8.2 自查表 1/2/3/8）；模块卡提取（`_extract.py` ARTISTS 扩 `piero_della_francesca`）待 wave18 收口；高清研究副本补采（Commons 限流解除后）。
+- **我仍赌错的是什么**：§4 六参数与 §8.2 八条阈值均为 `[归纳]`、**未实测**（分母=假想参考帧）；《De prospectiva》引文为 1899 版 OCR 归一文本（现代校勘本未读）；Pacioli 引文经意维基转引（原书页码未回查）。

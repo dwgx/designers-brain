@@ -15,7 +15,7 @@
 
 - **生卒 / 国别**：1593-07-08 生于罗马（受洗于 San Lorenzo in Lucina 教堂；Archivio di Stato 的出生记录另记 1590——两说并存，通行取 1593）`[史料]`（[R1][R11]）；卒于**1654 年 1 月之后**——最后存世记录为 **1654 年 8 月在那不勒斯缴税**（新发现文件），一说死于 1656 年那不勒斯瘟疫（[推测]）；葬于那不勒斯 San Giovanni Battista dei Fiorentini 教堂，墓碑刻「**Heic Artemisia**」，墓址后随教堂改建佚失。`[史料]`（[R12][R13]）
 - **主要流派**：**巴洛克 / 卡拉瓦乔主义（Caravaggisti）**——其父 Orazio Gentileschi 与卡拉瓦乔同代且深受其影响；真蒂莱斯基被公认为「**唯一重要的卡拉瓦乔女性追随者**」（Garrard 语），但她把「硬光戏剧」推向**叙事心理**一档（见 §3.1）。`[研究]`（[R12][R15]）
-- **主要媒介**：**布面油画**（全部存世作品）；另有**书信**（职业与私人书写，独立史料价值）。`[史料]`
+- **主要媒介**：**布面油画**（存世作品绝大多数为布面；另有少量其他底材的存疑/合作件）；另有**书信**（职业与私人书写，独立史料价值）。`[史料]`
 - **一句话能力定位**：**戏剧叙事的心理现场**——给系统补上「**把事件画成心理现场**」的能力：**行动中的身体**（合力、做功、接触点）、**有动机的光**（光沿动作链分配）、**复合情绪的面孔**（决心+厌恶、恐惧+专注）、**暴力物证**（血弧、尸首、凶器）与**自我表演**（自画像谱系）。**缺口归属**：`roster.md` §2.7「意大利」行（能力定位原文：「戏剧叙事的心理现场——暴力与女性的目光」）；写死分工见上。**能力标签**（写档案用同一套词）：`叙事心理` · `行动中的身体` · `合力构图` · `叙事光` · `暴力物证` · `复合情绪` · `自画像表演`
 - **关键作品 5 件（带馆藏与 URL）**：
   1. *Judith Slaying Holofernes*（朱迪斯斩首荷罗孚尼，那不勒斯版）c. 1612–13，Museo e Real Bosco di Capodimonte, Naples（158.8×125.5 cm；Q378）— https://capodimonte.cultura.gov.it/litalia-chiamo-capodimonte-oggi-racconta-giuditta-decapita-oloferne-di-artemisia-gentileschi/
@@ -228,7 +228,7 @@ HDR gloss, motion blur, speed lines, sequence panels, comic strip, text, waterma
 | R15 | en.wikipedia — 单作品条目（Naples/Uffizi/Detroit Judith；Susanna 1610；Self-Portrait；Allegory of Inclination；works list） | https://en.wikipedia.org/wiki/Judith_Slaying_Holofernes_(Artemisia_Gentileschi,_Naples) 等 | ✅ 直读（raw） |
 | R16 | Duke University Libraries — 1630-08-31 致 dal Pozzo 信（Baskin 藏品） | https://exhibits.library.duke.edu/exhibits/show/baskin/item/3979 | ✅ 直读 |
 | R17 | Francesco Solinas —《Sono Artemisia e ardo d'amore》，《Il Sole 24 Ore》2011-09-18（Maringhi 信件发现） | http://www.ilsole24ore.com/art/cultura/2011-09-17/sono-artemisia-ardo-amore-143920.shtml | ✅ 直读 |
-| R18 | Janson《History of Art》5th ed.（1995）p. 627 — 致 Ruffo 信英译节录（本机课程 PDF 副本） | `_private/papers/artemisia/janson1995_letter_ruffo.pdf`（本机） | ✅ 本机（公网原链已佚） |
+| R18 | Janson《History of Art》5th ed.（1995）p. 627 — 致 Ruffo 信英译节录（课程阅读材料；公网原链已佚，本机存研究副本） | 底本：Janson 1995, p. 627 | ✅ 本机 PDF 研究副本（私层，不公开引用路径） |
 | R19 | Artnet News —《Art Bites: Gentileschi and Galileo Were Pen Pals》（2024） | https://news.artnet.com/art-world/art-bites-gentileschi-galileo-2458092 | ✅ 浏览器直读 |
 | R20 | Topper & Gillis —《Trajectories of Blood: Artemisia Gentileschi and Galileo's Parabolic Path》，*Woman's Art Journal* 17:1（1996），pp. 10–13 | https://www.jstor.org/stable/1358592（索引） | ⚠️ 全文未直读（经 R19 转述） |
 | R21 | Eva Menzio（a cura di）《Artemisia Gentileschi: Lettere precedute da Atti di un processo di stupro》（Abscondita, 2004）——Barthes 引文转引载体 | 纸本（无公开电子版） | ⚠️ 未直读（经 R6 转引） |
@@ -261,7 +261,7 @@ HDR gloss, motion blur, speed lines, sequence panels, comic strip, text, waterma
 
 ## 11. 生平与年代轴（详细）
 
-> wave18 规格 v2 增项：叙述（约 2500 字）+ 年份表（45 行）+ 来源（12 条）。来源编号沿用 §9 的 [R1]–[R24]；证据级随句标注。**生平主干 = NGL/Treves 2020 图录时间线（[R11]）＋ 意/英维基交叉（[R12][R13][R14]）**。
+> wave18 规格 v2 增项：叙述（约 2500 字）+ 年份表（47 行）+ 来源（12 条）。来源编号沿用 §9 的 [R1]–[R25]；证据级随句标注。**生平主干 = NGL/Treves 2020 图录时间线（[R11]）＋ 意/英维基交叉（[R12][R13][R14]）**。
 
 ### 11.1 生平叙述
 
@@ -406,4 +406,112 @@ HDR gloss, motion blur, speed lines, sequence panels, comic strip, text, waterma
 
 > 组合练习建议（与系统联动）：第 2/3/5 件练「动作极值→余波→烛光」三段递进（同一母题三档）；第 4/9 件练「后怕与传导」（暴力离开画面）；第 6/7/8 件练「自画像三谱系」（受难者→表演者→职业化身）；第 1/10 件练「视角翻转」（受害者视角 / 仰视视角）。各条均可与邻近模块做 A/B 对照：**vs 卡拉瓦乔**（判据：画内光源计数 / 光斑—动作绑定）、**vs 米开朗基罗**（判据：身体理想度 / 暴力物证新鲜度）——对照轴 = §3.1 分工判据。
 
-<!-- CHUNK5 -->
+## 自审四段（LOOP 协议 §3.4）
+
+### A. 早产出
+
+- **图库先行**：开工初期先完成 16 张 Commons 采集（imageinfo 逐张核验许可/尺寸）→ 缩放/重编码（长边 ≤1800px、q88 progressive）→ 落盘 `_images/artemisia_gentileschi/` → 16 格 contact sheet 目检（16/16 无错件）——先让「可核验物」上盘，再展开研究。
+- **档案分 5 段落盘**（头+§0–§3 → §4–§7 → §8–§10 → §11–§12 → 本自审），每段都是可读的完整节；语料（29 条）与图库 MANIFEST、私有层清单单独成件；**无仅存于对话的结论**。
+- **中间产物**（Commons imageinfo JSON、NGL/GAC/RCT 文本抽取、检索记录、contact sheet、quote-check 输出、下载结果）在 `_scratch/artemisia/`；私有研究副本在 `_private/`（不公开）。
+
+### B. 反驳（挑最强结论逐条试推翻）
+
+| # | 待推翻的结论 | 我跑过的检验 | 判定 |
+|---|---|---|---|
+| B1 | 「vs 卡拉瓦乔四判据可判读、可写死」 | 反例搜寻：卡版《朱迪斯》（约 1599）有罕见的厌恶表情（心理单点）；阿版底特律《朱迪斯与女仆》有画内烛光（最「卡式」的一张）——逐条套四判据 | **WEAKENED → 已就地补注**（§3.1 边界注：判定须 ≥2 轴联合成立，尤其②③两轴；单看表情轴或光源轴不足以区分） |
+| B2 | 「Abra 入帐是 Artemisia 的发明（改写经文）」 | 双源核对：Capodimonte/Terzaghi「L'aiuto dell'ancella Abra è un'invenzione di Artemisia」× Barthes「nella versione biblica, la serva aspetta fuori」 | **CONFIRMED（转录层双源）** |
+| B3 | 「生卒 1593–1654+」 | 三方比对：NGL「1654 or later」× GAC「1654 年 8 月缴税」× Uffizi/RCT 仍写「1652/53」 | **CONFIRMED（口径并存已记录）**：取「1654+」，旧口径并列于 §10-4 |
+| B4 | 「引文逐字可信（原刊级）」 | 25 条抽查 vs 本机源文件（NGL/意维基/庭审页/Capodimonte/GAC/RCT/Sole24Ore/Duke/Janson PDF）：归一化后 **25/25 命中**；两处词形修正（「del'oratore」×2；Barthes 引文补「afferma Barthes」插句）已回改 | **WEAKENED（降级为「转录层逐字」）**：原刊（Garrard 1989 / Menzio 2004 / Solinas 2011 / 庭审原卷）未回查——§10-1/§10-2 已记录 |
+| B5 | 「图库 16 张全 PD、无版权未清素材」 | Commons imageinfo 逐张（Public domain 16/16）+ contact sheet 目检 16/16 + 关键鉴别（乌菲齐版 vs 那不勒斯版；NGL 圣卡特琳娜版） | **CONFIRMED** |
+| B6 | 「四处落盘、各件在位」 | 文件级核对：dossier / corpus（29 条）/ images+MANIFEST（16 张）/ private INVENTORY（4 高清 + 1 论文副本 + 5 待补）——全部存在 | **CONFIRMED** |
+
+### C. 机械验证
+
+**检查器**（eval 内联，不留盘）：结构检查 + 抽取契约直测 + 引文抽查 + 图库 sha256 + 模块库回归。原样输出：
+
+```
+=== artemisia_gentileschi.md 结构检查（终稿前快照 2026-10-16）===
+节命中: 20 / 20 | 缺失: []
+§1 指纹行数: 10 | §2 规则条数: 10 | §4 参数个数: 6 | §5 条数: 10
+§7 条数: 11 | §8.2 规则条数: 7 | §11.2 年表行数: 47 | §12 作品条数: 10
+§11.1 叙述中文字数: 2028
+分工条款: 卡拉瓦乔×36 · 米开朗基罗×9 · 写死×7
+总行数: 409 | 字节: 73814
+语料条目: 29 | 图库: 16 jpg + MANIFEST: True
+私有层: INVENTORY_artemisia_gentileschi.md: True | hi-res: 4 件 | papers: 1 件
+
+=== 抽取契约（§4/§8.1/§8.2 直测，仿 _extract.py 口径）===
+arch_4:  OK, 1178 chars | head: | # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%）…
+arch_81: OK, 1992 chars | head: **正向段（可直接粘贴）**
+arch_82: OK, 1096 chars | head: 1. **叙事光源规则**：全帧可见光源计数 ∈ {0, ≥1}…
+正向段含 narrative: True | 负向段含 --no: True
+
+=== 引文抽查（25 条 vs 本机源文件，归一化后逐字命中）===
+HIT | ngl_own_words.txt | I have told the truth and I always will
+HIT | ngl_own_words.txt | This is the ring that you give me
+HIT | ngl_own_words.txt | you will find the spirit of Caesar in the soul of a woman
+HIT | ngl_own_words.txt | mio carisimo core
+HIT | wiki_it_artemisia.wiki | Serrò la camera a chiave…
+HIT | wiki_it_artemisia.wiki | Questa femina, come è piaciuto a Dio…
+HIT | wiki_it_artemisia.wiki | L'unica donna in Italia che abbia mai saputo…
+HIT | wiki_it_artemisia.wiki | Heic Artemisia
+HIT | wiki_it_processo.wiki | una figliola del'oratore è stata forzatamente sverginata…
+HIT | wiki_it_processo.wiki | Datemi la mano che vi prometto di sposarvi…
+HIT | wiki_it_processo.wiki | Che Signora Artemitia mia…
+HIT | wiki_it_processo.wiki | trovo che lei è sverginata…
+HIT | capodimonte_judith.txt | mette non poco terrore
+HIT | capodimonte_judith.txt | L'aiuto dell'ancella Abra è un'invenzione di Artemisia
+HIT | wiki_it_giuditta_firenze.wiki | Il primo colpo di genio – afferma Barthes -…
+HIT | naos.txt | Farò vedere a Vostra Signoria Illustrissima quello che sa fare una donna
+HIT | dagospia.txt | Ritroverà l'animo di Cesare nell'anima di una donna
+HIT | gac_timeline.txt | dying from pain
+HIT | ngl_selfportrait_catherine.txt | resilience and quiet determination
+HIT | ngl_selfportrait_catherine.txt | a conscious act of self-promotion
+HIT | dia_judith.txt | in its naturalism and clear sympathy
+HIT | sole24ore.txt | Arcinfamissima
+HIT | ngl_artist.txt | still living in Naples in August 1654
+HIT | rct_selfportrait.txt | I have painted my portrait with the utmost care
+HIT | duke_exhibit.txt | my portrait, which you once requested
+--- 25/25 ---
+
+=== 模块库回归（python knowledge/domains/painters/modules/_extract.py --check）===
+[20 卡逐行 OK（略）] → checks=60 ok=60 fail=0
+
+=== 图库（16 张，sha256 前 16）===
+allegory_of_inclination.jpg                       330 KB  4e6916b0a21881b5
+annunciation_capodimonte.jpg                      405 KB  7a99134a242fe8bf
+corisca_and_the_satyr.jpg                         437 KB  e6336d168ea50cc7
+danae.jpg                                         180 KB  8514bc718cfeecda
+esther_before_ahasuerus.jpg                       646 KB  c6927b93669ba755
+jael_and_sisera.jpg                               189 KB  074e3b80efe776cd
+judith_and_her_maidservant_detroit.jpg            341 KB  2e62d4e0dd090289
+judith_and_her_maidservant_pitti.jpg              601 KB  738445b692238ede
+judith_beheading_holofernes_uffizi.jpg            521 KB  c47dab8083a2802f
+judith_slaying_holofernes_naples.jpg              239 KB  fb13c0bb6132ccbb
+mary_magdalene_pitti.jpg                          441 KB  2a63ba0592fada50
+self_portrait_as_a_lute_player.jpg                904 KB  12d27e0b007c095a
+self_portrait_as_saint_catherine.jpg              906 KB  4cb76974340b8420
+self_portrait_as_the_allegory_of_painting.jpg     499 KB  2a21a353a34394b7
+susanna_and_the_elders_1610.jpg                   560 KB  ca021430a1b03c91
+venus_and_cupid.jpg                               417 KB  9e9714dd5972d780
+```
+
+- 另：语料 29 条（≥15 ✅）；`_images/artemisia_gentileschi/MANIFEST.md` 存在（逐张明细）；私有层 `INVENTORY_artemisia_gentileschi.md` + 4 高清 + 1 论文副本在位。
+- **复跑（本节落盘后，终稿状态）**：
+
+```
+[1] artemisia_gentileschi.md: 517 行 / 83,051 字节 | 节命中: 25 / 25（含自审四段 A–D）
+[2] corpus: 29 条 (≥15) | [3] images: 16 张 + MANIFEST.md | [4] private: INVENTORY + 高清 4 + 论文 1
+抽取契约: arch_4=1178 / arch_81=1992 / arch_82=1096 chars — OK
+_extract.py --check: checks=60 ok=60 fail=0 | 引文复抽（归一化）: 25/25
+git: 本人四路径纯新增（dossier / corpus / 图库 17 件 / 私层 2 目录）；未触碰共享索引 / 模块卡 / GOALS
+```
+
+### D. 小结（≤14 行）
+
+- **已确立**：v2 全节（§0–§12 + 自审四段）；抽取契约同构（§4/§8.1/§8.2 直测 OK）；**分工条款写死**（vs 卡拉瓦乔＝光开关/物理 vs 叙事心理/身体——四判据 + 边界注；vs 米开朗基罗＝理想 vs 真实暴力——四判据；另附 vs 伦勃朗二级注）。
+- **已确立（四处落盘）**：① `dossiers/artemisia_gentileschi.md`（517 行）；② `_corpus/artemisia_gentileschi.md`（29 条）；③ `_images/artemisia_gentileschi/`（16 张 PD + MANIFEST）；④ `_private/INVENTORY_artemisia_gentileschi.md`（+ 4 高清 + 1 论文副本 + 5 待补）。
+- **被削弱**：B1（卡拉瓦乔判据边界 → 补「≥2 轴联合」注）；B4（引文降级为「转录层逐字」）。
+- **被推翻**：无。
+- **未知**：书信/庭审原刊回查（§10-1/§10-2）；Galileo 信原文；Ruffo 名句词形异文裁定；年份并存口径（那不勒斯版 1612–13/1617 等）；量化阈值未实测。
+- **下一步（建议）**：① 主脑验收复跑检查器 + 抽查 5 条引文；② 波次收口时把 `artemisia_gentileschi` 加入 `_extract.py` ARTISTS 生成模块卡；③ 组合实验（E 系列）用 §8.1 跑「事件极值 / 余波 / 烛光」三题材对照，按 §8.2 七条自查；④ 与卡拉瓦乔模块做「画内光源计数 / 光斑—动作绑定」联测（分工轴判据实测）。

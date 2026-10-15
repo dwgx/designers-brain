@@ -176,12 +176,13 @@
 - 类型：[contemporary record]（检查记录）
 - 中文意译：我断定她已破贞，因为贞膜已破——而且是在一段时间以前、不是新近的事。
 
-### 23. Cassiano dal Pozzo 圈子的佐证（1630 年代，转述）
-> （转述）…by the grace of God and the Most Holy Virgin, they [clients] come to a woman with this kind of talent…
+### 23. 戏谑「墓志铭」（1653，《Il Cimiterio》）
+> Co'l dipinger la faccia a questo e a quello / Nel mondo m'acquistai merto infinito / Nel l'intagliar le corna a mio marito / Lasciai il pennello, e presi lo scalpello. / Gentil'esca de cori a chi vedermi / Poteva sempre fui nel cieco Mondo; / Hor, che tra questi marmi mi nascondo, / Sono fatta Gentil'esca de vermi.
 
-- 来源：见 #13（书信本身的转述被馆方引述）；另见 RCT 官网：1630 年信「I have painted my portrait with the utmost care」。
-- 类型：[self-written]/[转引]
-- 中文意译：（略，见 #13）。
+- 来源：Giovan Francesco Loredano / Pietro Michiele,《Il Cimiterio: Epitafi giocosi》（Venice, 1653）；转引自 it.wikipedia「Artemisia Gentileschi」（引 Renato Lefevre,《Pittori, architetti, scultori, laziali nel tempo》1989, p. 191）。
+- 类型：[later reception]（17 世纪戏谑「身后」短诗——曾长期误导学界以为她 1653 年去世；见档案 §11.2）
+- 中文意译：给这个那个画脸，我在世上挣下无穷功名；给我丈夫刻上犄角，我放下画笔、拿起刻刀。只要看得见我，我就一直是人心的诱饵；如今我藏进这些大理石之间，成了虫子的诱饵。
+- 注：NGL/Treves 2020 指出该集出版于 1653 年、其中两首关于她的「身后」短诗是旧误传的来源。
 
 ## 五、后世接受（1916–2020，[later reception]）
 
@@ -233,5 +234,5 @@
 1. **意文原信逐字回查程度**：Maringhi 信件（#6–8）与 Ruffo 信件（#11–15）均**未回查 Solinas 2011 / Garrard 1989 原书**——#6/#8/#11/#12/#14 为馆方/报刊英译或转录；#13 为 Janson 选本英译。Ruffo 名句 #12 存在词形异文（「animo di Cesare nell'anima di una donna」vs「spirito di Cesare…」），已按来源分层记录（已查: archive.org 借阅本全文接口、Google Books API 429、Commons 无信函扫描）。
 2. **庭审记录**：#1/#4/#5/#16/#17/#20/#21/#22 为 it.wikipedia 转录（其底本为 Garrard 1989 / Menzio 2004 / Christiansen-Mann 2001）；#2/#3 为 NGL 英译。**罗马国家档案馆原卷未直读**。
 3. **Galileo 信**（#10）：仅得转述（Artnet/Garrard 附录提及），意文原文未回查。
-4. **数量**：29 条（≥15 ✅）；类型分布：[self-spoken] 5 / [self-written] 9（含转引 2） / [contemporary record] 7 / [later reception] 6 / [reported speech] 1 + 2 转述。
+4. **数量**：29 条（≥15 ✅）；类型分布：[self-spoken] 5 / [self-written] 9（含转述 1） / [reported speech] 1 / [contemporary record] 7 / [later reception] 7。
 5. **私料**：`_private/INVENTORY_artemisia_gentileschi.md` 另记（研究件副本与高清研究图；公开仓不引用私有路径）。
