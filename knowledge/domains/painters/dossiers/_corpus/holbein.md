@@ -121,7 +121,7 @@
 - 来源：Chamberlain 1913, Vol. 2（`chamberlain2_raw.txt:3825–3828`；布尔邦《Nugae》中题「无与伦比的画家」荷尔拜因的警句诗）。
 - 类型：[contemporary record]
 - 中文意译：当汉斯的神思把我的面容绘上画板、博学之手挥洒之际，我也用一首诗把他画了下来：为我写照的汉斯，比阿佩莱斯更伟大。
-- 注：**OCR 文本**——'Dam' 疑为 'Dum'、'præcipitante' 原文作 'præcipitante'（OCR 'prsecipitante'）；未回校原刊（已查: 本卷本段）。
+- 注：**OCR 文本**——'Dam' 疑为 'Dum'；'præcipitante' 系 OCR 'prsecipitante' 的规范化拼写；未回校原刊（已查: 本卷本段）。
 
 ### 14. 约翰·利兰题怀亚特像拉丁诗（1542）
 > Holbenus nitida pingendi Maximus arte
