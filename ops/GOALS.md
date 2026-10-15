@@ -88,15 +88,15 @@
 | A-92 | done | wave20·夏尔丹：560 行 v2 档案（§11 2113 字 + 47 行 + 12 来源；§12 10 件）+ 语料 28 条（Cochin/Diderot 闭环）+ 图库 17 张全 PD/CC0（卢浮宫 11）+ 私有 12 件；分工 vs 维米尔/塞尚写死（各 5 判据）；引文 37/37 | `knowledge/domains/painters/dossiers/chardin.md` | ArtistChardin（wave20） |
 | A-93 | done | wave20·马奈：542 行 v2 档案（§11 2028 字 + 40 行 + 27 来源；§12 10 件）+ 语料 26 条 + 图库 14 张全 PD/CC0 + 私有 3 部原典 PDF；分工 vs 萨金特（逐条对齐）/马蒂斯（唯一正本）写死；amend 事故已复原（7e57f66 无损） | `knowledge/domains/painters/dossiers/manet.md` | ArtistManet（wave20） |
 | A-94 | running | wave20·索罗拉（Sorolla）v2（强阳光） | `knowledge/domains/painters/dossiers/sorolla.md` | ArtistSorolla（wave20） |
-| A-95 | running | wave20·佐恩（Zorn）v2（有限色板） | `knowledge/domains/painters/dossiers/zorn.md` | ArtistZorn（wave20） |
+| A-95 | done | wave20·佐恩：532 行 v2 档案（§11 2127 字 + 47 行 + 12 来源；§12 10 件）+ 语料 32 条 + 图库 19 张全 PD/CC0 + 私有 27 件；分工 vs 萨金特（同名对齐，回改待收口）/德加写死 + vs 索罗拉互查；自测 PASS | `knowledge/domains/painters/dossiers/zorn.md` | ArtistZorn（wave20） |
 | A-96 | done | wave20·苏丹·穆罕默德：457 行 v2 档案（§11 2031 字 + 23 行 + 12 来源；§12 10 件）+ 语料 24 条 + 图库 16 张全 PD/CC0 + 私有 13 件；分工 vs 贝赫扎德（三轴复读对齐）/克里姆特写死；引文 26/26；AKM NC 图未采用（改 PD 版） | `knowledge/domains/painters/dossiers/sultan_mohammed.md` | ArtistSultanMohammed（wave20） |
-| A-97 | running | wave21·徐悲鸿（Xu Beihong）v2（中西融合；图保守入 `_private/`） | `knowledge/domains/painters/dossiers/xu_beihong.md` | ArtistXuBeihong（wave21） |
-| A-98 | running | wave21·李可染（Li Keran）v2（逆光山水；图入 `_private/`） | `knowledge/domains/painters/dossiers/li_keran.md` | ArtistLiKeran（wave21） |
+| A-97 | done | wave21·徐悲鸿：526 行 v2 档案（§11 2181 字 + 50 行 + 16 来源；§12 10 件）+ 语料 37 条 + 74 张图**全在 `_private/`**（公开侧零图，逐张核查依据留档）；分工 vs 达芬奇/吴冠中/李可染（互锁）/林风眠写死；抽取直测 OK | `knowledge/domains/painters/dossiers/xu_beihong.md` | ArtistXuBeihong（wave21） |
+| A-98 | done | wave21·李可染：583 行 v2 档案（§11 3279 字 + 56 行 + 14 来源；§12 10 件）+ 语料 46 条 + 19 张图**全在 `_private/`**（公开侧零图）+ 3 scout 素材归档；分工 vs 黄公望/范宽/莫奈/透纳写死 + 徐悲鸿互锁；自测 PASS | `knowledge/domains/painters/dossiers/li_keran.md` | ArtistLiKeran（wave21） |
 | A-99 | done | wave21·谢尔吉尔：514 行 v2 档案（§11 2009 字 + 37 行 + 14 来源；§12 10 件）+ 语料 32 条 + 图库 28 张（PD-US-unpublished 逐张理据）+ 私有 11 件（URAA 存疑）；分工 vs 高更/卡罗写死 + 与拉维·瓦尔马对齐；版权核正：印度 life+60 → PD 2002（推翻旧记） | `knowledge/domains/painters/dossiers/sher_gil.md` | ArtistSherGil（wave21） |
 | A-100 | running | wave21·塔西拉（Tarsila）v2（热带现代主义；图入 `_private/`） | `knowledge/domains/painters/dossiers/tarsila.md` | ArtistTarsila（wave21） |
 | A-101 | running | wave21·陈洪绶（Chen Hongshou）v2（变形人物/版画） | `knowledge/domains/painters/dossiers/chen_hongshou.md` | ArtistChenHongshou（wave21） |
 | A-102 | running | wave21·徐渭（Xu Wei）v2（泼墨大写意） | `knowledge/domains/painters/dossiers/xu_wei.md` | ArtistXuWei（wave21） |
-| A-103 | running | wave21·荷加斯（Hogarth）v2（道德叙事组画） | `knowledge/domains/painters/dossiers/hogarth.md` | ArtistHogarth（wave21） |
+| A-103 | done | wave21·荷加斯：513 行 v2 档案（§11 2078 字 + 32 行 + 24 来源；§12 9 件）+ 语料 29 条（《美的分析》底本）+ 图库 20 张全 PD/CC0 + 私有 15 件；分工 vs 戈雅（唯一正本）/洛克威尔（逐条对齐+细化判据供回改）写死 + Lane B 接口；1 条 OVERTURNED（交叉排线） | `knowledge/domains/painters/dossiers/hogarth.md` | ArtistHogarth（wave21） |
 | A-104 | running | wave21·米尔·赛义德·阿里（Mir Sayyid Ali）v2（莫卧儿叙事） | `knowledge/domains/painters/dossiers/mir_sayyid_ali.md` | ArtistMirSayyidAli（wave21） |
 | A-105 | done | wave21·德·基里科：525 行 v2 档案（§11 2117 字 + 37 行；§12 10 件）+ 语料 32 条 + 25 张图**全在 `_private/`**（公开侧零图）+ 联系表核验；分工 vs 霍珀五轴写死（对齐完成）/达利预写；1 条 OVERTURNED（「希腊→古典雕像」本人否认） | `knowledge/domains/painters/dossiers/de_chirico.md` | ArtistDeChirico（wave21） |
 | A-106 | done | wave21·洛克威尔：509 行 v2 档案（§11 2083 字 + 44 行 + 24 来源；§12 10 件）+ 语料 34 条 + 29 张图**全在 `_private/`**（公开侧零图）；分工 vs 荷加斯写死（同批互查规程留档）+ Lane B 接口；1 条 OVERTURNED | `knowledge/domains/painters/dossiers/rockwell.md` | ArtistRockwell（wave21） |
