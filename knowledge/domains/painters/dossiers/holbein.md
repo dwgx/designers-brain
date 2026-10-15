@@ -275,7 +275,7 @@ cartoon, anime, 3D render, HDR gloss
 
 ## 11. 生平与年代轴（详细）
 
-> wave19 规格 v2 增项：叙述（2157 字）+ 年份表（47 行）+ 来源（14 条）。来源编号沿用 §9 的 [R1]–[R18]；证据级随句标注。**生平细节以英文馆方口径（[R15]）与德文口径（[R16]）交叉，早期文献以 [R13] 为准。**
+> wave19 规格 v2 增项：叙述（2170 字）+ 年份表（47 行）+ 来源（14 条）。来源编号沿用 §9 的 [R1]–[R18]；证据级随句标注。**生平细节以英文馆方口径（[R15]）与德文口径（[R16]）交叉，早期文献以 [R13] 为准。**
 
 ### 11.1 生平叙述
 
@@ -293,7 +293,7 @@ cartoon, anime, 3D render, HDR gloss
 
 **七、婚姻外交与晚年（1538–1543）。** 1538 年受命为亨利选后写照：3 月赴布鲁塞尔写生**丹麦的克里斯蒂娜**（1538-03-12 13:00–16:00，三小时；§7-2）——她后来婉拒婚事（「If I had two heads, I would happily put one at the disposal of the King of England」）；同年赴法国为 Louise of Guise 与 Anna of Lorraine 写照（两幅均佚）；顺访巴塞尔受款待并获年金，回程把儿子 Philipp 送往巴黎学金匠。1539 年赴克莱沃为**安妮**与阿玛莉亚写照（沃顿：「expressed their images very lively」）——1540 年 1 月 6 日亨利与安妮成婚、数月后离异；克伦威尔因此倒台（1540 年 7 月被处死），荷尔拜因保位但失去大靠山——他靠 Anthony Denny 等新贵继续获得委托（曾向 Denny 借款）；商人像的委托也延续到晚年。晚期以私人委托与**微型画**为主（Brandon 兄弟、Jane Small 等；存世确真微型画约 12 件）；1542/43 年作自画像（Uffizi，自题 Basel 市民）；1543 年作理发师-外科医生行会群像（或他人续成）。1543 年 10 月 7 日立遗嘱（语料 #1）——自称「国王陛下的仆人」；**10 月 7 日至 11 月 29 日之间卒**（传统记瘟疫——van Mander「1554/56 岁」为误、现代研究对瘟疫说亦有保留；葬处不明——或为 St Katherine Cree / St Andrew Undershaft）。`[史料]`（[R13][R15][R16]）
 
-**八、身后（1543–）。** 葬处无考；友人 Amerbach 父子收藏其作品——**Amerbach 柜** 1661 年由巴塞尔市与大学购入，构成巴塞尔诸馆基础（今 Kunstmuseum Basel 为世界最大荷尔拜因收藏）。白厅壁画靠摹本存续（van Leemput 1667 为查理二世摹本；Eworth 1560s 摹本）；Eworth、Bettes、Hilliard 承其技法/方法（Hilliard：「Holbein's manner have I ever imitated, and hold it for the best」）；Arundel 伯爵收藏使 van Dyck、Rubens 认识他；18 世纪 Walpole 的 Holbein Chamber（Strawberry Hill）、约 1780 起的重新评估把他送入经典；19 世纪传记学（Woltmann、Chamberlain、Hervey——1890s 考定《大使们》人物）；**1867 年陀思妥耶夫斯基在巴塞尔「僵立」于《墓中基督》前**（语料 #25）——《白痴》留痕；North 称他为「都铎史的摄影师」——今天多数都铎人物「长什么样」都由他的画定义；Waterhouse 评其肖像在「可靠与简洁、对性格的穿透、风格的丰富与纯净之结合」上至今无人超越；20 世纪以来（Ganz、Bätschmann & Griener、Foister、Buck）研究持续；2021–22 巴塞尔双纪念展（Dead Christ 500 年 + 陀氏 200 年诞辰）、2024 年 NGL 新目录（Foister《German Paintings before 1800》）为最新刻度。他生前只被称为「国王的画师」，身后从 18 世纪末重新评估起，才逐步被追认为欧洲肖像史的关键人物。`[研究]`（[R15][R18][R5]）
+**八、身后（1543–）。** 葬处无考；友人 Amerbach 父子收藏其作品——**Amerbach 柜** 1661 年由巴塞尔市与大学购入，构成巴塞尔诸馆基础（今 Kunstmuseum Basel 为世界最大荷尔拜因收藏）。白厅壁画靠摹本存续（van Leemput 1667 为查理二世摹本；Eworth 1560s 摹本）；Eworth、Bettes、Hilliard 承其技法/方法（Hilliard：「Holbein's manner have I ever imitated, and hold it for the best」）；Arundel 伯爵收藏使 van Dyck、Rubens 认识他；18 世纪 Walpole 的 Holbein Chamber（Strawberry Hill）、约 1780 起的重新评估把他送入经典；19 世纪传记学（Woltmann、Chamberlain、Hervey——1890s 考定《大使们》人物）；**1867 年陀思妥耶夫斯基在巴塞尔「僵立」于《墓中基督》前**（语料 #25）——《白痴》留痕；North 称他为「都铎史的摄影师」——今天多数都铎人物「长什么样」都由他的画定义；Waterhouse 评其肖像在「可靠与简洁、对性格的穿透、风格的丰富与纯净之结合」上至今无人超越；20 世纪以来（Ganz、Bätschmann & Griener、Foister、Buck）研究持续；2021–22 巴塞尔双纪念展（Dead Christ 500 年 + 陀氏 200 年诞辰）、2024 年 NGL 新目录（Foister《German Paintings before 1800》）为最新刻度。他生前以「国王的画师」立身（同代人称他「我们时代的阿佩莱斯」），身后从 18 世纪末重新评估起，才逐步被追认为欧洲肖像史的关键人物。`[研究]`（[R15][R18][R5]）
 
 ### 11.2 年份表（47 行）
 
@@ -448,9 +448,9 @@ cartoon, anime, 3D render, HDR gloss
 === holbein.md 结构检查（终稿快照 2026-10-16）===
 节命中: 14 / 14 | 缺失: []
 §1 指纹行数: 10 | §2 规则条数: 10 | §3 原则条数: 8 | §4 参数个数: 6 | §5 条数: 10
-§7 条数: 12 | §8.2 规则条数: 8 | §11.1 叙述中文字数: 2157 | §11.2 年表行数: 47 | §11.3 来源条数: 14 | §12 作品条数: 10
+§7 条数: 12 | §8.2 规则条数: 8 | §11.1 叙述中文字数: 2170 | §11.2 年表行数: 47 | §11.3 来源条数: 14 | §12 作品条数: 10
 分工条款: 丢勒×24 · 伦勃朗×20 · 写死×9
-总行数: 460 | 字节: 77040
+总行数: 504 | 字节: 80148
 
 === 抽取契约（§4/§8.1/§8.2 直测，仿 _extract.py 口径）===
 arch_4:  OK, 954 chars | head: | # | 参数 | 弱（20–30%）…
@@ -490,7 +490,7 @@ MANIFEST.md: True
 ```
 
 - 另：语料 26 条（≥15 ✅）；`_images/holbein/MANIFEST.md` 存在（逐张明细含 sha256）；私有层三件在位。
-- **复跑（本节落盘后，终稿状态）**：`holbein.md` 460 行 / 77,040 字节；抽取契约 arch_4=954 / arch_81=2061 / arch_82=925 chars — OK；引文复抽 18/18 HIT；回归 `_extract.py --check` = 126/126、skill selfcheck PASS。
+- **复跑（本节落盘后，终稿状态）**：`holbein.md` 504 行 / 80,148 字节；抽取契约 arch_4=954 / arch_81=2061 / arch_82=925 chars — OK；引文复抽 18/18 HIT；回归 `_extract.py --check` = 126/126、skill selfcheck PASS。
 
 ### D. 小结（≤14 行）
 
