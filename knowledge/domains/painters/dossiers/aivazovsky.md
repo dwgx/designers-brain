@@ -4,7 +4,7 @@
 > 模板：`templates/artist_module.md`；v2 增项 **§11 / §12 置于 §10 与自审四段之间**（v1 抽取契约 §4/§8.1/§8.2 不受影响）。
 > 证据分级：`[自述]`（本人写下/说出，带出处）· `[史料]`（当时记录/档案/馆藏信息）· `[研究]`（艺术史家/博物馆分析）· `[归纳]`（本项目从作品与资料归纳的操作规则，不冒充艺术家内心）· `[推测]`（低置信）。
 > 正文中文；引文保留俄文原文（旧正字法异体按底本照录）；prompt 用英文。
-> **来源口径（本档案指定源）**：**俄罗斯博物馆**（2026 特展「Айвазовский」＋VRM 藏品条目；含 2026 年《九级浪》修复报道）· **特列季亚科夫画廊**（藏品页《Радуга》《Черное море》＋《Третьяковская галерея》杂志 2017 年特辑六篇）· **费奥多西亚画廊 ФКГА**（历史/传记页＋馆藏数据）。图库 13 张全部为 PD（卒于 1900 年；`_images/aivazovsky/MANIFEST.md` 逐张核验）。
+> **来源口径（本档案指定源）**：**俄罗斯博物馆**（2026 特展「Айвазовский」＋VRM 藏品条目；含 2026 年《九级浪》修复报道）· **特列季亚科夫画廊**（藏品页《Радуга》《Черное море》＋《Третьяковская галерея》杂志 2017 年特辑六篇）· **费奥多西亚画廊 ФКГА**（历史/传记页＋馆藏数据）。图库 14 张全部为 PD（卒于 1900 年；`_images/aivazovsky/MANIFEST.md` 逐张核验）。
 > **分工口径（写死，按 wave19 brief + `roster.md` §2.9/§3）**：**vs 透纳＝大气事件 vs 水体本身**（透纳把「天气事件」当主角、边缘溶解；本档案把**水体本身**当主角——透明浪体、可读的浪解剖）；**vs 北斋＝浪的两种媒介：线/剪影 vs 透明介质**（北斋的浪＝线族与剪影图形；本档案的浪＝光可穿过的透明体积）。细则与可判读判据见 §3.1；组合实验可按判据推翻 `[归纳]` 部分，但两条主分工轴不得混用。
 > **能力定位**：`海与浪` · `月光海`——给系统补「水本身」（open water）的完整能力：**浪体透明（transparent wave body）→ 月光路径（лунная дорожка）→ 风暴能量档 → 极低地平线的天海二分 → 人造物剪影**。标签：`透明浪体`·`月光路径`·`风暴三档（штиль/зыбь/буря）`·`低地平线`·`火水对撞色温`·`船只剪影`·`记忆合成地理`。
 > **本档案的特殊性（写在前面的口径）**：艾瓦佐夫斯基**没有画论专著**；亲笔文字 = **书信＋文书＋遗嘱**，核心方法论自述均为**同时代人的笔录/转述**（`[reported speech]`，转引链见 `_corpus/aivazovsky.md`）。凡涉及「他内心如何」的表述，一律按**操作规则**处理（项目宪章：创作原则 = 从作品与资料归纳的可执行规则）。
@@ -26,7 +26,7 @@
   3. **《拉杜加（虹）》（Радуга，1873；布面油画 105×136；特列季亚科夫 Инв.801；初名《黑海上的日出》）**。https://my.tretyakov.ru/app/masterpiece/8397
   4. **《在浪中》（Среди волн，1898；费奥多西亚画廊）**——晚年顶峰；不离开费奥多西亚、遗赠本市。
   5. **《浪》（Волна，1889；俄博）**——俄博 2026 特展「杰作」六件之一。
-- **语料/图库**：`_corpus/aivazovsky.md`（34 条：自述/书信文书/同时代批评/研究，逐条注明转引链）；`_images/aivazovsky/`（13 张全 PD；MANIFEST 逐张核验）；私有研究件见 `_private/INVENTORY_aivazovsky.md`。
+- **语料/图库**：`_corpus/aivazovsky.md`（34 条：自述/书信文书/同时代批评/研究，逐条注明转引链）；`_images/aivazovsky/`（14 张全 PD；MANIFEST 逐张核验）；私有研究件见 `_private/INVENTORY_aivazovsky.md`。
 
 ---
 
@@ -238,7 +238,7 @@ no HDR, no photographic realism, no watermark, no lettering overlays
 | R13 | ru.wikipedia —《Айвазовский, Иван Константинович》（生平/家庭/创作/展览/纪念；引 Карпова 2016、Барсамов、Саргсян 等） | https://ru.wikipedia.org/wiki/Айвазовский,_Иван_Константинович | ✅ 直读（raw 全文） |
 | R14 | en.wikipedia —《Ivan Aivazovsky》（Life/Art/Style/Exhibitions/Influence/Recognition；引 Newmarch、Bolton、Leek、Bowlt 等） | https://en.wikipedia.org/wiki/Ivan_Aivazovsky | ✅ 直读（raw 全文） |
 | R15 | Wikiquote（en/ru）— 检索「Aivazovsky/Айвазовский」 | https://en.wikiquote.org · https://ru.wikiquote.org | ⚠️ **无条目（404）**——已查，留档 wq_en/wq_ru |
-| R16 | Wikimedia Commons — 本档案图库 13 张文件页 + `imageinfo` 逐张核验（LicenseShortName=Public domain） | `_images/aivazovsky/MANIFEST.md`（逐张列 URL） | ✅ API 直连（带节流） |
+| R16 | Wikimedia Commons — 本档案图库 14 张文件页 + `imageinfo` 逐张核验（LicenseShortName=Public domain） | `_images/aivazovsky/MANIFEST.md`（逐张列 URL） | ✅ API 直连（带节流） |
 
 **交叉核对（≥2 条关键事实，双源）**
 
@@ -364,7 +364,7 @@ no HDR, no photographic realism, no watermark, no lettering overlays
 9. [R13] ru.wikipedia——生平全弧、家庭、展览、纪念（引 Карпова/Барсамов/Саргсян）✅
 10. [R14] en.wikipedia——风格谱系、影响、接受（引 Newmarch/Bolton/Leek/Bowlt）✅
 11. [R15] Wikiquote 无条目（负结果留档）⚠️
-12. [R16] Commons 图库核验（13 张 PD）✅
+12. [R16] Commons 图库核验（14 张 PD）✅
 
 ---
 
@@ -431,7 +431,7 @@ no HDR, no photographic realism, no watermark, no lettering overlays
 ### A. 早产出
 
 - **scratch 先行核用**：wave19 前次中断遗留的 **58 件** scratch（`_scratch/aivazovsky/fetches/`）在写作前**逐件核验**（内容标记 26 组、编码、与 RESUME 声明一致性；4 处异常已处置：2 张 Wikimedia 错误页=Wikiquote 负结果留档、1 张空文件 tret_ru.html、1 份含 JS 杂质的 tret_blacksea.txt 取正文前 61 行）——**未核不得引用**。
-- **图库先行**：13 张下载（Commons，逐张 `imageinfo` 核验 PD）→ 缩放/重编码（长边 ≤1800px、q88 progressive）→ 落盘 `_images/aivazovsky/` → **13 格 contact sheet 目检**（13/13 无错件；`wave_1889` 另与俄博 VRM 参考图比对同一构图）——先让「可核验物」上盘，再展开写作。
+- **图库先行**：14 张下载（Commons，逐张 `imageinfo` 核验 PD；13 张先行、第 14 张《那不勒斯湾月夜》受 IP 限流阻滞后补入）→ 缩放/重编码（长边 ≤1800px、q88 progressive）→ 落盘 `_images/aivazovsky/` → **14 格 contact sheet 目检**（14/14 无错件；`wave_1889` 另与俄博 VRM 参考图比对同一构图）——先让「可核验物」上盘，再展开写作。
 - 档案分 **7 段落盘**（头+§0–§1 → §2–§3.1 → §4–§5 → §6–§7 → §8 → §9–§10 → §11–§12 → 本自审），每段都是可读的完整节；语料（34 条）与图库 MANIFEST、私有层清单单独成件；**无仅存于对话的结论**。
 - 中间产物（34 组抓取文本、Commons JSON、contact sheet、检查脚本输出、下载 state）在 `_scratch/aivazovsky/`；私有研究副本在 `_private/`（不公开）。
 
@@ -446,7 +446,7 @@ no HDR, no photographic realism, no watermark, no lettering overlays
 | B5 | 「《在浪中》『10 天画成』可写入叙事」 | 全源检索：仅普及二手站（muzei-mira 等）有「10 дней」说；[R12][R13] 与馆方文本均无 | **WEAKENED → 不入正文**：§10-4 留档「未找到馆方/一手出处」 |
 | B6 | 「生日 17 (29) июля 为唯一定论」 | [R1][R8][R13]「29」× [R12]「30」对照 | **CONFIRMED（口径并存已记录）**：§10-1 两记（29 主记、30 存疑） |
 | B7 | 「§4/§8.1/§8.2 与 _extract.py 抽取契约同构」 | 仿谓词直测：arch_4=1174c / arch_81=1635c / arch_82=1236c；正向段含 `Aivazovsky-style`、负向段含 `--no` | **CONFIRMED**（见 §C） |
-| B8 | 「图库 13 张全 PD、无错件」 | Commons `imageinfo` 13/13 `LicenseShortName=Public domain` + contact sheet 目检 13/13 + 尺寸全 ≤1800px | **CONFIRMED** |
+| B8 | 「图库 14 张全 PD、无错件」 | Commons `imageinfo` 14/14 `LicenseShortName=Public domain` + contact sheet 目检 14/14 + 尺寸全 ≤1800px | **CONFIRMED** |
 
 ### C. 机械验证
 
@@ -459,7 +459,7 @@ no HDR, no photographic realism, no watermark, no lettering overlays
 §7 条数: 10 | §8.2 规则条数: 8 | §11.1 叙述 CJK 字数: 2200（≥2000 ✅）
 §11.2 年表行数: 55 | §11.3 来源条数: 12 | §12 作品条数: 10
 分工条款: 写死×8 · vs 透纳×6 · vs 北斋×6
-总行数: 540 | 字节: 90,129
+总行数: 542 | 字节: 90,335
 
 === 抽取契约（§4/§8.1/§8.2 直测，仿 _extract.py 谓词）===
 arch_4:  OK, 1174 chars
@@ -487,9 +487,10 @@ HIT | feo_ayvazovsky.txt | воду здесь никто так хорошо н
 
 === 语料/图库/私有层 ===
 语料条目: 34（≥15 ✅；self-written 16 / reported speech 2 / contemporary record 15 / research 1）| 字节: 37,195
-图库: 13 张 jpg（≥6 ✅）+ MANIFEST.md | 尺寸全 ≤1800px | sha256 抽检（前 16 位）：
+图库: 14 张 jpg（≥6 ✅）+ MANIFEST.md | 尺寸全 ≤1800px | sha256 抽检（前 16 位）：
   ninth_wave_1850.jpg 4e3acdf582d1b344 | among_the_waves_1898.jpg 9833ebbcf49ed92c
   wave_1889.jpg 5f56d3aac535007a | black_sea_1881.jpg 5a69704a5362ef40
+  neapolitan_bay_moonlit.jpg b3c2308dd341fff8
 私有层: INVENTORY_aivazovsky.md + images_hi_res/aivazovsky 5 件（4 高清 + 1 俄博参考图）
 
 === 回归 ===
@@ -521,9 +522,10 @@ HIT | tret_rainbow.txt | Восход солнца на Черном море（
 
 ```
 $ git ls-files | grep -i aivazovsky | wc -l
-15   # dossier + corpus + 13 张图（主脑并发 sweep 已扫入 HEAD；MANIFEST.md 为 sweep 后新增，待下次扫入）
-$ git diff HEAD --stat -- <我的写路径>
-（空 = dossier/corpus/图库与 HEAD 一致）
+17   # dossier + corpus + 14 张图 + MANIFEST（主脑并发 sweep 已扫入 HEAD；本轮末批修正待下次扫入）
+$ git status --porcelain -uall | grep -i aivazovsky
+ M knowledge/domains/painters/dossiers/aivazovsky.md
+ M knowledge/domains/painters/dossiers/_images/aivazovsky/MANIFEST.md
 $ git check-ignore -v _private/INVENTORY_aivazovsky.md knowledge/domains/painters/_scratch/aivazovsky/RESUME.md
 .gitignore:32:_private/	_private/INVENTORY_aivazovsky.md
 .gitignore:21:knowledge/domains/painters/_scratch/	…/_scratch/aivazovsky/RESUME.md   # 私有层与 scratch 双保险忽略生效
@@ -532,7 +534,7 @@ $ git check-ignore -v _private/INVENTORY_aivazovsky.md knowledge/domains/painter
 ### D. 小结（≤14 行）
 
 - **已确立**：v2 全节（§0–§12 + 自审四段）；抽取契约同构（§4/§8.1/§8.2 直测 OK）；**分工条款写死**（vs 透纳＝大气事件 vs 水体本身；vs 北斋＝浪：线/剪影 vs 透明介质；各带可判读判据＋边界注）；能力定位「海与浪 / 月光海」成立（透明浪体＋月光路径＋风暴三档＋低地平线＋剪影五步）。
-- **已确立（四处落盘）**：① `dossiers/aivazovsky.md`（540 行 / 90,129 字节）；② `_corpus/aivazovsky.md`（34 条）；③ `_images/aivazovsky/`（13 张 PD + MANIFEST）；④ `_private/INVENTORY_aivazovsky.md`（+ 4 高清 + 1 参考图）。
+- **已确立（四处落盘）**：① `dossiers/aivazovsky.md`（542 行 / 90,335 字节）；② `_corpus/aivazovsky.md`（34 条）；③ `_images/aivazovsky/`（14 张 PD + MANIFEST）；④ `_private/INVENTORY_aivazovsky.md`（+ 4 高清 + 1 参考图）。
 - **被削弱**：B1（58 件含 4 处异常，已处置）；B5（「10 天画成」仅二手，不入正文）。
 - **被推翻**：B2（《在浪中》图为 58×96 版本）；B3（《古尔祖夫之夜》为 1891 版本）——均就地修正。
 - **未知**：生日 29/30、个展 55/125、画作数分母、俄博收藏数 54/68、美国行 1892/1898、ФКГА 416/417——全部口径并存留档（§10）。

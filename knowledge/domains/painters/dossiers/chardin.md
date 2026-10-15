@@ -433,3 +433,127 @@ decorative gold leaf, narrative drama, allegorical props, motion blur, speed lin
 > **组合练习建议（与系统联动）**：第 1/2/3 件练「材质清单 + 反光网络」（早期静物三连）；第 4/6/9 件练「悬浮时间」（吹泡→搭牌→喘息）；第 5/7/8 件练「门洞与互动」（人物档三连）；第 10 件练「晚期密度」。各条均可与邻近模块做 A/B 对照——对照轴 = §3.1 分工判据：**vs 维米尔**（高光形态 / 表面 / 阴影色相）、**vs 塞尚**（笔触系统 / 形体轮廓 / 完成度）。另：粉彩自画像（1771/1775）与《Le Gobelet d'argent》建议作第 11/12 件扩展练习（粉彩的平行笔触 / 银器的宽软高光）。
 
 ---
+
+## 自审四段（LOOP 协议 §3.4）
+
+### A. 早产出
+
+- **图库先行**：开工初期先完成 17 张采集（Met CC0 直取 ×3 + Commons PD ×14；imageinfo 逐张核验许可/尺寸）→ 缩放/重编码（长边 ≤1800px、q90 progressive；wsrv 放大档回缩）→ 落盘 `_images/chardin/` → 17 格 contact sheet 目检（17/17 与标题相符；`house_of_cards_ngl` 另与 NGL IIIF 参考图逐件复核一致）——先让「可核验物」上盘，再展开研究。
+- **档案分 6 段落盘**（头+§0–§2 → §3–§5 → §6–§8 → §9–§10 → §11–§12 → 本自审），每段都是可读的完整节；语料（28 条）、图库 MANIFEST、私有层清单单独成件；**无仅存于对话的结论**。
+- **中间产物**（Louvre JSON 转储 30+ 件、Commons API 输出、下载/限流日志、contact sheet、quote-check 输出、NGL/Met 页面文本抽取）在 `_scratch/chardin/`；私有研究副本在 `_private/`（不公开）。
+
+### B. 反驳（挑最强结论逐条试推翻）
+
+| # | 待推翻的结论 | 我跑过的检验 | 判定 |
+|---|---|---|---|
+| B1 | 「vs 维米尔四判据可判读、可写死」 | 反例搜寻：夏《La Fontaine》是最「荷兰」的一张（门洞第二空间）；维米尔的静物性局部（面包/铜壶点彩）——逐条套五判据 | **WEAKENED → 已就地补注**（§3.1 边界注：判定不看「有没有门」，看 ≥2 轴联合成立，尤②③⑤） |
+| B2 | 「vs 塞尚判据可判读」 | 反例：塞尚早期暗调静物最接近夏档；「并置」一词两用（夏=混合前的质感并置，塞=结构单元）——逐条套五判据 | **WEAKENED → 已就地补注**（§3.1：看①–⑤ ≥2 轴，尤②④⑤；形体处理按 N4 不可拆） |
+| B3 | 「名讳应为 Jean Siméon（非 Jean-Baptiste-Siméon）」 | 三方比对：pastellists（1780-03-04 公证更正文书）× fr.wikipedia（文书转录，AN MC/LVI/248）× en.wikipedia（notarial mistake 注） | **CONFIRMED**（本档案全篇取 Jean Siméon，旧写法并列注记） |
+| B4 | 「sentiment 句可信」 | 双源转录核对：rivagedeboheme.fr（Cochin 致 Haillet 信全文）× Jeffares p.434 同记；拼写照录（reconnoissoit） | **CONFIRMED（转录层）**：原档未回查——§10-1 已记录；与 Malraux 异文并列（§5-4） |
+| B5 | 「图库 17 张全 PD/CC0、无版权未清素材」 | Commons imageinfo 逐张（PD/PD-Art 14/14）+ Met CC0（3/3）+ contact sheet 目检 17/17 + NGL IIIF 参考复核 | **CONFIRMED** |
+| B6 | 「儿子卒年取 1772」 | 三说核对：NGL 2018（威尼斯溺水、「四十岁」）× enwiki（1772）× frwiki（1767）/ Wikidata（1768） | **WEAKENED（口径并存）**：取 1772（与「四十岁」自洽），标 `[推测]` 级裁定——§10-2 |
+
+### C. 机械验证
+
+**检查器**（eval 内联，不留盘）：结构检查 + 抽取契约直测 + 引文抽查 + 图库 sha256 + 模块库回归。原样输出：
+
+```
+=== chardin.md 结构检查（终稿快照 2026-10-16）===
+节命中: 22 / 22（+自审四段，共 23） | 缺失: []
+§1 指纹行数: 10 | §2 规则条数: 11
+§4 参数个数: 6 | §5 条数: 6
+§7 条数: 11 | §8.2 规则条数: 8
+§11.1 叙述中文字数: 2113
+§11.2 年表行数: 43 | §11.3 来源条数: 12
+§12 作品条数: 10
+分工条款: 维米尔×35 · 塞尚×21 · 写死×6
+总行数: 436 | 字节: 79119
+
+=== 抽取契约（§4/§8.1/§8.2 直测，仿 _extract.py 口径）===
+arch_4:  OK, 1113 chars | head: | # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%） | 默认建议 |
+arch_81: OK, 1746 chars | head: **正向段（可直接粘贴）**
+arch_82: OK, 1149 chars | head: 1. **触感表面规则**：全帧「可辨笔触纹理」面积占比 **30–80%**…
+正向段含 Jean Siméon: True | 负向段含 --no: True
+
+=== 引文抽查（37 条 vs 本机源文件，归一化后逐字命中）===
+HIT | sentiment | on se sert des couleurs… mais on peint avec le sentiment
+HIT | dialogue | mais qui vous a dit qu'on peignît avec les couleurs
+HIT | letter2 | les études longues et opiniâtres qu'exige la nature…
+HIT | letter3 | mes infirmités m'ont empêché de continuer à peindre à l'huile
+HIT | malraux-q | on fait de la peinture avec des sentiments, non avec des couleurs
+HIT | matisse-q | je mets de la couleur jusqu'à ce que ce soit ressemblant
+HIT | lebas | le bas exchanged the jacket for the painting
+HIT | pv1728 | peintre dans le talent des animaux et des fruits
+HIT | aved | aussi facile à faire qu'un cervelas
+HIT | lafont | certains moments dans les actions de la vie nullement intéressants
+HIT | raynal | mosaïque de pièces de rapport
+HIT | diderot1 | c'est la substance même des objets
+HIT | diderot2 | approchez-vous, tout se brouille
+HIT | magician | the great magician
+HIT | eloge1 | son premier maître fut la nature
+HIT | eloge2 | premier dans un genre inférieur
+HIT | grosier | tous les cabinets distingués de l'europe ont voulu avoir un chardin
+HIT | journalparis | ce vieillard octogénaire
+HIT | lepicie | aimable enfant que le plaisir décide
+HIT | goncourt1 | un travail systématique de reflets
+HIT | goncourt2 | the life of inanimate objects
+HIT | proust1 | he found it beautiful to paint because… to look at
+HIT | proust2 | chardin enters like light
+HIT | proust3 | a pear is as living as a woman
+HIT | denis | renouvelée peut être de chardin
+HIT | faure | comme un bon menuisier
+HIT | malraux2 | la pourvoyeuse est un braque génial
+HIT | demoris | saisis dans un temps mort
+HIT | rosenberg | aux reflets, aux transparences, au « fondu »
+HIT | met-rough | never disguise the rough texture of paint
+HIT | met-touchstone | touchstone for nineteenth-century realist painters
+HIT | ngl-focus | keeping objects slightly out of focus
+HIT | ngl-beauty | the extraordinary beauty with which he endowed ordinary objects
+HIT | ngl-lenoir | jean-alexandre le noir
+HIT | ngl-aved | as easy as painting cakes and sausages
+HIT | met-noprep | he did not make preparatory studies for his canvases
+HIT | met-dragged | dragged roughly over the canvas
+--- 37/37 ---
+
+=== 模块库回归（python knowledge/domains/painters/modules/_extract.py --check）===
+[42 卡逐行 OK（略）] → checks=126 ok=126 fail=0
+
+=== 图库（17 张，sha256 前 16）===
+autoportrait_besicles_1771.jpg               697 KB  b464bf3f8893b258
+benedicite_louvre.jpg                        488 KB  2261d33aa1db1ec3
+cat_surveying_fish_met.jpg                   509 KB  690570b71ca7f88d
+house_of_cards_ngl.jpg                       146 KB  0a3f04fad07776cd
+la_brioche_louvre.jpg                        849 KB  e3521f855f112449
+la_fontaine_de_cuivre_louvre.jpg             584 KB  f6ab1587420fd28f
+la_pourvoyeuse_louvre.jpg                    530 KB  1080c4d150fc7247
+la_raie_louvre.jpg                           779 KB  44641fb4ad9efb67
+le_bocal_dolives_louvre.jpg                  787 KB  3b689bdb638bfbdc
+le_buffet_louvre.jpg                         569 KB  93ec017662f40474
+le_gobelet_dargent_louvre.jpg                361 KB  cc4c0c32ae6e3b6e
+lenfant_au_toton_louvre.jpg                  838 KB  85b28b7c3f2d6a7d
+panier_de_fraises_1761.jpg                   924 KB  9a1b4a5b1ff77b9e
+soap_bubbles_met.jpg                         640 KB  cfc552a1a236bb62
+the_silver_tureen_met.jpg                    412 KB  328f9341f81ecde4
+water_cistern_ngl.jpg                         79 KB  409ada8ca539950a
+young_schoolmistress_ngl.jpg                 763 KB  26c8c6265ed5b4cc
+```
+
+- 另：语料 28 条（≥15 ✅）；`_images/chardin/MANIFEST.md` 存在（逐张明细）；私有层 `INVENTORY_chardin.md` + 高清 10 + 研究 PDF 2 在位。
+- **复跑（本节落盘后，终稿状态）**：
+
+```
+[1] chardin.md: 全节 §0–§12 + 自审四段 A–D | 节命中 23/23
+[2] corpus: 28 条 (≥15) | [3] images: 17 张 + MANIFEST.md | [4] private: INVENTORY + hi-res 10 + books 2
+抽取契约: arch_4=1113 / arch_81=1746 / arch_82=1149 chars — OK
+_extract.py --check: checks=126 ok=126 fail=0 | 引文复抽（归一化）: 37/37
+git: 本人四路径纯新增（dossier / corpus / 图库 18 件 / 私层 2 目录）；未触碰共享索引 / 模块卡 / GOALS
+```
+
+### D. 小结（≤14 行）
+
+- **已确立**：v2 全节（§0–§12 + 自审四段）；抽取契约同构（§4/§8.1/§8.2 直测 OK）；**分工条款写死**（vs 维米尔＝光学室内 vs 触觉静物——五判据 + 边界注；vs 塞尚＝静物：结构 vs 质感——五判据 + 边界注；另附系统其余模块禁令）。
+- **已确立（四处落盘）**：① `dossiers/chardin.md`（436 行）；② `_corpus/chardin.md`（28 条）；③ `_images/chardin/`（17 张 PD/CC0 + MANIFEST）；④ `_private/INVENTORY_chardin.md`（+ 高清 10 + 研究 PDF 2 + 待补 3）。
+- **被削弱**：B1/B2（两条分工判据边界 → 补「≥2 轴联合」注）；B6（儿子卒年 → 三说并存，取 1772 标 [推测]）。
+- **被推翻**：无。
+- **未知**：原话原档回查（§10-1）；「三画并置」单源（§10-3）；Met 旧文下线（§10-4）；Fragonard 细节（§10-5）；高清待补 3 件（§10-6）；量化阈值未实测（§10-7）。
+- **下一步（建议）**：① 主脑验收复跑检查器 + 抽查 5 条引文；② 波次收口时把 `chardin` 加入 `_extract.py` ARTISTS 生成模块卡；③ 组合实验（E 系列）用 §8.1 跑「触感密度 / 反光网络 / 光质」三档对照，按 §8.2 八条自查；④ 与维米尔/塞尚模块做「高光形态 / 表面 / 完成度」联测（分工轴判据实测）。

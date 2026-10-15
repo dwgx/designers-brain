@@ -28,5 +28,5 @@
 2. **处理口径**：原图/缩略下载后统一缩至长边 ≤1800px（LANCZOS，JPEG quality 90）；`sha256` 为落盘后文件哈希（前 16 位）。复核：`python` 重算哈希 + `PIL` 读尺寸（与上表一致）。
 3. **下载通道**：Wikimedia 上传域对匿名批量请求 429 限流（2026-10-16 实测；`upload.wikimedia.org` 与 `thumb.wikimedia.org` 均限）——改走 `commons.wikimedia.org/wiki/Special:FilePath/<file>?width=…` 逐张限速取回；Met 用 `images.metmuseum.org` 原图直链（CC0）。
 4. **《容膝斋图》底本**：Commons 文件为台北故宫藏件之 PD 摄影（1788×3674 原尺寸，公开侧缩至 876×1800）；馆方网页图（digitalarchive.npm.gov.tw）受会话保护，未另存（见 `_private/INVENTORY_ni_zan.md`）。
-5. **未入库清单**（仅列作品，不缩制）：《狮子林图》卷（超长 50460×2160，公开侧暂不缩制）、《竹枝图》卷、《古木幽篁图》《林亭远岫图》《竹石乔柯图》（超大图，留待主脑批量索引时评估）、《水竹居图》（下载受限流影响，二次补取中）。
+5. **未入库清单**（仅列作品，不缩制）：《狮子林图》卷（超长 50460×2160，公开侧暂不缩制）、《竹枝图》卷、《古木幽篁图》《林亭远岫图》《竹石乔柯图》（超大图，留待主脑批量索引时评估）、《水竹居图》（Wikimedia 429 限流，两次补取未成——已查；留待主脑批量索引时补）。
 6. **采集人**：ArtistNiZan（wave20）；本目录归该画家工人独占（dossier / corpus / images 三处之一）。
