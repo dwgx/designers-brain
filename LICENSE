@@ -394,22 +394,3 @@ public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
 
-
-=======================================================================
-
-Designers_Brain scope notes
-----------------------------
-
-Documentation and distilled knowledge content in this repository — including
-`docs/`, `knowledge/`, and the documentation portions of `skills/` — are
-licensed under the Creative Commons Attribution 4.0 International License
-(CC BY 4.0), as reproduced above.
-
-- Code (scripts, skill implementation, tooling) is licensed under the MIT
-  License — see `LICENSE-CODE`.
-- Quoted third-party material remains under its original terms; quotes are
-  included for research and commentary with citations. See `NOTICE.md`.
-- Museum/collection images are public-domain or openly licensed; per-image
-  attribution is recorded in `knowledge/INDEX.md` and image manifests.
-
-Canonical license page: https://creativecommons.org/licenses/by/4.0/
