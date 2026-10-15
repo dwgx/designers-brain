@@ -1,10 +1,10 @@
 # 代码动画风格卡模板 v0.3（并入 vsc 判例机制与 2 帧号验收链）
 
 > 目标：每张卡 = 一段可直接投给 agent 的提示词，四段同构、可逐帧验收。
-> 参考解剖：`research/agent-art/cards/structure.md`；原文：`research/origin_cards/提示词全文.md`。
-> v0.3 来源（2026-10-15）：`research/agent-art/cards/video_shotcraft_handbook.md`（B-16；vsc 仓 Apache-2.0，本模板转述其机制与参数结论、未复制文件）——§2.6（判例三要素 / 编号只追加 / 违反须记录 / `编号 ✓` 验收输出）、§3.4（2 个验收帧号 + 静帧肉眼验收 + `out/qa/` 归档）、§3.5（干净上下文终检 → review_rubric v0.2）、§5.1 #1/#2/#4/#6（逐条映射见该手册 §5.1 表）。
-> v0.2 来源（保留）：`research/agent-art/cards/mg-styles-15_compare.md`（B-10，15/15 同源）+ `research/agent-art/html/workflow.md`（B-02）+ 仓库 `Vincentwei1021/mg-styles-15`（MIT，Copyright (c) 2026 Vincentwei1021）的 `template.md` / `prompts/*.md` / `harness/render.mjs`（raw 直读）。
-> 配套件：确定性契约 `templates/determinism_contract.md`；评审表 `research/agent-art/cards/review_rubric.md` v0.2（含「干净上下文终检」协议）。
+> 参考解剖：`knowledge/domains/motion-graphics/cards/structure.md`；原文：`knowledge/domains/motion-graphics/origin/提示词全文.md`。
+> v0.3 来源（2026-10-15）：`knowledge/domains/motion-graphics/cards/video_shotcraft_handbook.md`（B-16；vsc 仓 Apache-2.0，本模板转述其机制与参数结论、未复制文件）——§2.6（判例三要素 / 编号只追加 / 违反须记录 / `编号 ✓` 验收输出）、§3.4（2 个验收帧号 + 静帧肉眼验收 + `out/qa/` 归档）、§3.5（干净上下文终检 → review_rubric v0.2）、§5.1 #1/#2/#4/#6（逐条映射见该手册 §5.1 表）。
+> v0.2 来源（保留）：`knowledge/domains/motion-graphics/cards/mg-styles-15_compare.md`（B-10，15/15 同源）+ `knowledge/agent-art/html/workflow.md`（B-02）+ 仓库 `Vincentwei1021/mg-styles-15`（MIT，Copyright (c) 2026 Vincentwei1021）的 `template.md` / `prompts/*.md` / `harness/render.mjs`（raw 直读）。
+> 配套件：确定性契约 `templates/determinism_contract.md`；评审表 `knowledge/cross/review_rubric.md` v0.2（含「干净上下文终检」协议）。
 > v0.3 变更：①「反约束段」升级为判例式规则格式（规则 + 用户原话判例 + 自检方式；编号只追加；违反须记录；验收输出 `编号 ✓/✗`）；② 输出规格块并入「2 个验收帧号」；③ 确定性条款明确「两跑一致 = 逐帧 SHA256 全等（乱序重渲）」；④ 新增「卡 frontmatter（机读层）」与「参考实现指针」；⑤ 新增「品牌→动效参数两轴推导」（6 预设）；⑥ 评审步骤接「干净上下文终检」。四段结构（任务头/画风/内容/别做成）不动。
 
 ## 卡结构（顺序固定）
@@ -45,7 +45,7 @@
 自检：把每个镜头当第一次看——哪里没看清？交互段落自己能不能跟着操作一遍？
 ```
 
-本项目判例回填来源：实验返工记录（`research/experiments/*/checks.md`）、评审记录（`review_rubric.md` 流程）、Owner 反馈——回填时写明日期与帧号。
+本项目判例回填来源：实验返工记录（`experiments/*/checks.md`）、评审记录（`review_rubric.md` 流程）、Owner 反馈——回填时写明日期与帧号。
 
 ## 卡 frontmatter（机读层）与「参考实现」指针（v0.3 新增）
 
@@ -69,7 +69,7 @@ name: <卡名 = 文件名 = 落盘 id>
 
 **参考实现指针**：
 
-- 卡跑通后，正文末尾补「参考实现」段：指向实现目录（源码 + 成片 + 自查报告），如 `research/experiments/anim_test_01/`。
+- 卡跑通后，正文末尾补「参考实现」段：指向实现目录（源码 + 成片 + 自查报告），如 `experiments/anim_test_01/`。
 - 实现是**参数真相源**：补间数值、缓动、物理常数以实现为准；卡文本给语义、手法本体与调校结论（「已知坑」）。
 - 跑通前写「参考实现：暂无（首支成片跑通后回填）」；实现改了而卡没跟上（或反之）= 漂移，必须同步。
 
@@ -139,7 +139,7 @@ ffmpeg (or a Blender script that renders a PNG sequence).
 
 ## 评审步骤（v0.2 新增）
 
-> 来源：仓库 `rubric.md` 两段式（「制作 → 独立评审 → 按评审修改 → 再评审」）；改编版评审表 → `research/agent-art/cards/review_rubric.md`。
+> 来源：仓库 `rubric.md` 两段式（「制作 → 独立评审 → 按评审修改 → 再评审」）；改编版评审表 → `knowledge/cross/review_rubric.md`。
 
 1. **独立评审**：成片后另开一个 AI 会话，给它成片路径 + 本卡提示词，按 `review_rubric.md` 打分（7 维 1-10，目标 ≥9，Do not inflate）并出 5-10 条带时码的修复清单；
 2. **修改轮**：把评审贴回制作会话 → 先存版本 N → 逐条落实（可用更好的做法替换，须说明理由）→ 重渲复核 → 报告落实/跳过清单；
@@ -148,7 +148,7 @@ ffmpeg (or a Blender script that renders a PNG sequence).
 
 ## 「先出 6 关键帧」的落地方式（v0.2 新增，--stills 式）
 
-> 来源：仓库 `harness/render.mjs` CLI（`--stills 0.5,2,4.25` → `out/stills/`）+ `research/agent-art/html/workflow.md` §4。
+> 来源：仓库 `harness/render.mjs` CLI（`--stills 0.5,2,4.25` → `out/stills/`）+ `knowledge/agent-art/html/workflow.md` §4。
 
 - 锚点帧（10 s / 30fps）：`0 / 45 / 90 / 150 / 225 / 285`（= 0 / 1.5 / 3 / 5 / 7.5 / 9.5 s）；**最后一帧必须含收尾文案**（一帧可核对的验收锚点）。
 - 只实现 seek() 的 6 个关键状态（不做补间）→ 渲 6 帧 → 拼 3×2 contact sheet 交人看 → **通过后才做全片**；不过就改 seek() 重渲，不许改截图糊弄。
@@ -183,9 +183,9 @@ ffmpeg (or a Blender script that renders a PNG sequence).
 - 反约束与画风段按判例式格式写（`F#` / `S#` 编号只追加；有判例即回填）；跑通后补「参考实现」指针。
 - 内容段结尾文案 = 验收锚点（一帧能核对的东西）。
 - 渲染器二选一：3D/物理/材质 → Blender；2D/排版/WebGL 特效 → 网页逐帧。
-- 新卡落盘路径：`research/agent-art/cards/cards/<id>.md`（本模板复制后填写；带 frontmatter 机读层）。
+- 新卡落盘路径：`knowledge/domains/motion-graphics/cards/cards/<id>.md`（本模板复制后填写；带 frontmatter 机读层）。
 
-## 组合卡注记（v0.2 追加 · 与第二个模块组合时用；来源：B-12 `research/agent-art/conflicts.md` §3）
+## 组合卡注记（v0.2 追加 · 与第二个模块组合时用；来源：B-12 `knowledge/cross/conflicts.md` §3）
 
 > 状态：`[归纳]`，待 A-12 组合实验验证（可被推翻）。单独用本卡时以下不适用；完整 N1–N9 与 18 条冲突明细见 `conflicts.md`。
 > 触发条件：本卡 × 画家模块（§8.2）/ 本卡 × 另一张卡，组合使用时。
@@ -193,4 +193,4 @@ ffmpeg (or a Blender script that renders a PNG sequence).
 - **N1 反约束一致性检查**：反约束段每一条，必须与画风段的某条正向规则**不矛盾**；组合时**重算反约束段**——凡与新模块正向规则冲突的默认禁令，删除或改写，不许两条并存。自查加一项：逐条反约束 × 逐条画风规则（`F#` × `S#`），标 `一致/冲突`。
 - **N3 轴所有权表**：组合卡必须附 `轴名 | 持有模块 | 对方在该轴上的规则处置（删除/降档/分区）`；① 每轴只有一个持有者；② 辅模块在冲突轴上的 §8.2 规则**整条移除**（§8.2 是判分规则，不是强度旋钮）；③ 未列入表的轴默认无冲突。
 - **N6 色数计数口径**：色数上限只约束**平涂色块层**；金属/金箔/高光材质层单列，不计入色数，但面积 ≤5% 画面、且必须在卡内声明。
-- 其余六条（N2 适用域 / N4 可拆不可拆判别 / N5 改写句式模板 / N7 高光分类口径 / N8 运动预算字段 / N9 组合卡验收口径）→ `conflicts.md` §3（N1–N9 正本）；其中 **N4/N9 已被主脑并入 `research/experiments/design.md` §5b** 作为组合实验判分口径（2026-10-15）。
+- 其余六条（N2 适用域 / N4 可拆不可拆判别 / N5 改写句式模板 / N7 高光分类口径 / N8 运动预算字段 / N9 组合卡验收口径）→ `conflicts.md` §3（N1–N9 正本）；其中 **N4/N9 已被主脑并入 `experiments/design.md` §5b** 作为组合实验判分口径（2026-10-15）。

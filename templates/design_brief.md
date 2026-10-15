@@ -1,8 +1,8 @@
 # Design Brief — gate 文件模板
 
 > 用途：设计 / 替换任务的「批准前落盘」gate 文件（skill：Designers_Brain 设计顾问）。
-> 使用：复制到任务目录（如 `research/experiments/<E-id>/design-brief.md`），**批准前**填好；「文件不在 = 环节没做」。
-> 出处：`research/skill/skill_ecosystem.md` §4.5-2 / §5.3；`research/skill/skill_spec.md` §2.4。
+> 使用：复制到任务目录（如 `experiments/<E-id>/design-brief.md`），**批准前**填好；「文件不在 = 环节没做」。
+> 出处：`docs/skill/skill_ecosystem.md` §4.5-2 / §5.3；`docs/skill/skill_spec.md` §2.4。
 > 纪律：没问到的 = 假设（内容 + 默认 + 错了的代价），不许静默；「用户选择原话」逐字引用，不转述。
 
 ## 1. 意图（要什么）

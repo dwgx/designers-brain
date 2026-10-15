@@ -1,7 +1,7 @@
 # 确定性渲染契约 v0.1（可直接粘进提示词）
 
 > 版本 v0.1（2026-10-15）｜归属 GOALS B-11（StyleCardTemplates）
-> 来源：`research/agent-art/cards/mg-styles-15_compare.md` §3.1–3.2（B-10）+ `research/agent-art/html/workflow.md` §1–2、§5（B-02）+ 仓库 `Vincentwei1021/mg-styles-15` raw 直读（`harness/render.mjs`、`prompts/01-flat-vector.md`、`template.md`，2026-10-15）。
+> 来源：`knowledge/domains/motion-graphics/cards/mg-styles-15_compare.md` §3.1–3.2（B-10）+ `knowledge/agent-art/html/workflow.md` §1–2、§5（B-02）+ 仓库 `Vincentwei1021/mg-styles-15` raw 直读（`harness/render.mjs`、`prompts/01-flat-vector.md`、`template.md`，2026-10-15）。
 > 许可：条款提炼自 mg-styles-15（MIT，Copyright (c) 2026 Vincentwei1021）；引用/再分发保留此署名。
 > 用法：新建风格卡时把 §1 条款块整段粘进提示词（任务头/Rules 段）；捕获与合成命令取 §2；完成后按 §3 自查。
 
@@ -136,7 +136,7 @@ Method: text
 
 ## 附录 · 自审（LOOP 协议四段，覆盖 B-11 三件产物）
 
-**A · 早产出**：三件按序落盘——`templates/style_card.md`（v0.2 修订）→ 本契约 → `research/agent-art/cards/review_rubric.md`；每件先落骨架（版本/来源行 + 条款或表格），后补命令与验证。
+**A · 早产出**：三件按序落盘——`templates/style_card.md`（v0.2 修订）→ 本契约 → `knowledge/cross/review_rubric.md`；每件先落骨架（版本/来源行 + 条款或表格），后补命令与验证。
 
 **B · 反驳**（4 条，命令与输出见 C）：
 1. 「workflow §4 的 contact sheet 命令（`-i key/k%04d.png`）可直接用」→ 本机造 3 张非连续关键帧（k0000/k0045/k0090）实跑 → `nb_read_frames=1`，拼出 1 格图 → **OVERTURNED**（style_card v0.2「6 关键帧落地」节已写替代法）。

@@ -10,7 +10,7 @@ description: >
 
 # Designers_Brain 设计顾问
 
-> v0.2（2026-10-15；v0.1 初稿 + R1 并入 SkillEcosystem）｜落位：`D:/Project/Designers_Brain/skills/designers-brain/SKILL.md`｜规格：`D:/Project/Designers_Brain/research/skill/skill_spec.md`
+> v0.2（2026-10-15；v0.1 初稿 + R1 并入 SkillEcosystem）｜落位：`D:/Project/Designers_Brain/skills/designers-brain/SKILL.md`｜规格：`D:/Project/Designers_Brain/docs/skill/skill_spec.md`
 > 仓库根：`D:/Project/Designers_Brain`（下称 REPO）。本 skill 不复制内容，只做路由与协议；一切细节读 REPO 原文件。
 
 把 REPO 既有资产（11 画家模块卡 / 15 MG 卡 / 冲突清单 / 确定性契约）转成可执行的设计推荐：**先问 → 再选 → 后出稿**。
@@ -48,14 +48,14 @@ description: >
 
 **视觉决策（关键专条）**：风格 / 画面类选择不许让用户「只看文字」定——给 2–3 个看得见的候选（E 系列出图 / HTML 渲染 / 参考帧；候选数默认 2–3、成本敏感可压到 2）；成本敏感先文字方向卡（各 3–4 行）；**展示后停、等选择**；拒答不枯等（assumption 补齐，继续到可展示再停）。
 
-（本节完整问法与视觉协议出处：`REPO/research/skill/skill_spec.md` §2；生态调研：`REPO/research/skill/skill_ecosystem.md` §4。）
+（本节完整问法与视觉协议出处：`REPO/docs/skill/skill_spec.md` §2；生态调研：`REPO/docs/skill/skill_ecosystem.md` §4。）
 
 ## 怎么选
 
-1. **域过滤**（读 `REPO/research/prompts/artist_modules/README.md` 的 11 卡能力定位；15 卡读 `REPO/research/origin_cards/提示词全文.md`）：
+1. **域过滤**（读 `REPO/knowledge/domains/painters/modules/README.md` 的 11 卡能力定位；15 卡读 `REPO/knowledge/domains/motion-graphics/origin/提示词全文.md`）：
    - 情绪张力 → 梵高；宁静光感 → 莫奈 / 维米尔；戏剧冲突 → 卡拉瓦乔；力量 / 人体 → 米开朗基罗；解构 → 毕加索；结构 → 塞尚；色彩海报 → 马蒂斯；东方线韵 → 北斋；版画工艺 → 丢勒。
    - 科技感 → MG 07 / 03；数据科普 → 14 / 13；复古 → 04 / 15；极简 → 06 / 13；手工温情 → 12 / 10；像素 → 11。
-2. **组合预检**（≥2 模块时必做，正本 `REPO/research/agent-art/conflicts.md`）：查 §1 总表（C-01–C-18）→ §4 near-miss 显式取值 → N1 反约束重算 → N3 轴所有权表 → N4 可拆 / 不可拆 → N9 验收口径（N1–N9 全文见 conflicts.md §3；其余：N2 适用域 / N5 改写句式 / N6 色数口径 / N7 高光口径 / N8 运动预算）。冲突轴只保留持有者一行；不许双标准；辅模块冲突条整条移除（不降档）。
+2. **组合预检**（≥2 模块时必做，正本 `REPO/knowledge/cross/conflicts.md`）：查 §1 总表（C-01–C-18）→ §4 near-miss 显式取值 → N1 反约束重算 → N3 轴所有权表 → N4 可拆 / 不可拆 → N9 验收口径（N1–N9 全文见 conflicts.md §3；其余：N2 适用域 / N5 改写句式 / N6 色数口径 / N7 高光口径 / N8 运动预算）。冲突轴只保留持有者一行；不许双标准；辅模块冲突条整条移除（不降档）。
 3. **强度**：§4 档位起步（只调 §4；§8.2 不调档）；跨场景用 §8.1b 纯风格段。强度扫描（E3）未做 → 定量承诺标 [UNVERIFIED]。
 4. **输出推荐单**（模板）：
 
@@ -79,23 +79,23 @@ description: >
 
 **三种输出形态（各形态必带字段）**：
 
-1. **图像 prompt**：主题句 + 风格段（§8.1 或 §8.1b 逐字）+ 强度档 + 融合句（70/30 时）+ 分区句（可拆冲突时）+ 负向段（留档；通道无负向、不发送）+ 通道口径（裸模型名 `grok-imagine-image-2.0`、尺寸实回 768×1152）。留档契约：req / resp + sha256；可追溯不承诺可复现。通道细节：`REPO/research/agent-art/cards/image_channel.md`。
+1. **图像 prompt**：主题句 + 风格段（§8.1 或 §8.1b 逐字）+ 强度档 + 融合句（70/30 时）+ 分区句（可拆冲突时）+ 负向段（留档；通道无负向、不发送）+ 通道口径（裸模型名 `grok-imagine-image-2.0`、尺寸实回 768×1152）。留档契约：req / resp + sha256；可追溯不承诺可复现。通道细节：`REPO/knowledge/cross/image_channel.md`。
 2. **网页动画 brief**：任务头（10 秒 / 1920×1080 / 30 帧 / 网页逐帧 / 音效代码合成 / 先 6 关键帧）+ 画风段 S# + 内容段 + 反约束段 F#（判例式）+ 输出规格块（exactly 10.000 s / 300 帧 / −14 LUFS ±1 / ≤−1 dBTP）+ 确定性条款 + 6 关键帧（0/45/90/150/225/285，末帧含收尾文案）+ 2 个验收帧号 + 交付清单。契约要点：C1–C8 + C10 + **①b 乱序重渲**（逐帧 SHA256 全等）。模板：`REPO/templates/style_card.md`、`REPO/templates/determinism_contract.md`。
-3. **Blender brief**：任务头（Blender Python 搭场景）+ 画风段（材质 / 光照 / 物理）+ 内容段 + 反约束段 + C9 条款（`blender -b --factory-startup -P`、显式 `--range`、物理预计算、PNG 序列）+ C10 + 输出规格 + 自查（P1 口径：EEVEE 像素差 ≤0.05%、max 5/255，非位级）。管线细节：`REPO/research/agent-art/blender/workflow.md`。
+3. **Blender brief**：任务头（Blender Python 搭场景）+ 画风段（材质 / 光照 / 物理）+ 内容段 + 反约束段 + C9 条款（`blender -b --factory-startup -P`、显式 `--range`、物理预计算、PNG 序列）+ C10 + 输出规格 + 自查（P1 口径：EEVEE 像素差 ≤0.05%、max 5/255，非位级）。管线细节：`REPO/knowledge/agent-art/blender/workflow.md`。
 
-**出稿后**：按 `REPO/research/agent-art/cards/review_rubric.md` 走独立评审（目标 ≥9，Do not inflate）；先机械后人工。
+**出稿后**：按 `REPO/knowledge/cross/review_rubric.md` 走独立评审（目标 ≥9，Do not inflate）；先机械后人工。
 
 ## 文件地图（读哪里）
 
 | 要什么 | 读 |
 |---|---|
-| 11 卡索引 + 组合速查 | `REPO/research/prompts/artist_modules/README.md` |
-| 15 卡全文 + 结构 | `REPO/research/origin_cards/提示词全文.md`、`REPO/research/agent-art/cards/structure.md` |
-| 冲突清单 + N1–N9 | `REPO/research/agent-art/conflicts.md` |
-| 卡模板 / 契约 / 迁移 | `REPO/templates/style_card.md`、`REPO/templates/determinism_contract.md`、`REPO/research/agent-art/transfer_guide.md` |
-| 管线（网页 / Blender） | `REPO/research/agent-art/html/workflow.md`、`REPO/research/agent-art/blender/workflow.md` |
-| 证据与缺口 | `REPO/research/experiments/design.md` |
-| 本 skill 规格 | `REPO/research/skill/skill_spec.md` |
+| 11 卡索引 + 组合速查 | `REPO/knowledge/domains/painters/modules/README.md` |
+| 15 卡全文 + 结构 | `REPO/knowledge/domains/motion-graphics/origin/提示词全文.md`、`REPO/knowledge/domains/motion-graphics/cards/structure.md` |
+| 冲突清单 + N1–N9 | `REPO/knowledge/cross/conflicts.md` |
+| 卡模板 / 契约 / 迁移 | `REPO/templates/style_card.md`、`REPO/templates/determinism_contract.md`、`REPO/knowledge/cross/transfer_guide.md` |
+| 管线（网页 / Blender） | `REPO/knowledge/agent-art/html/workflow.md`、`REPO/knowledge/agent-art/blender/workflow.md` |
+| 证据与缺口 | `REPO/experiments/design.md` |
+| 本 skill 规格 | `REPO/docs/skill/skill_spec.md` |
 
 （以上经由本包 `references/` 的 9 个指针文件路由，指针清单见规格 §5.2；新域（非画家）插拔按规格 §5.3 契约登记 `domains.yaml`——两者均已落位。）
 

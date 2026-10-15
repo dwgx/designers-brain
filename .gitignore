@@ -1,15 +1,15 @@
-# === Designers_Brain .gitignore (v1, 2026-10-15) ===
+# === Designers_Brain .gitignore (v2, post-restructure 2026-10-15) ===
 
 # --- Third-party media (not redistributed in this repo) ---
-research/source_video/**/*.mkv
-research/source_video/**/*.mp4
-research/source_video/**/*.webm
-research/source_video/**/*.png
-research/source_video/**/*.jpg
-research/source_video/**/*.jpeg
-research/experiments/*/ref/**/*.mp4
-research/experiments/*/ref/**/*.webm
-research/experiments/*/ref/**/*.mkv
+knowledge/domains/motion-graphics/sources/**/*.mkv
+knowledge/domains/motion-graphics/sources/**/*.mp4
+knowledge/domains/motion-graphics/sources/**/*.webm
+knowledge/domains/motion-graphics/sources/**/*.png
+knowledge/domains/motion-graphics/sources/**/*.jpg
+knowledge/domains/motion-graphics/sources/**/*.jpeg
+experiments/*/ref/**/*.mp4
+experiments/*/ref/**/*.webm
+experiments/*/ref/**/*.mkv
 
 # --- Heavy generated artifacts ---
 **/frames/
@@ -18,7 +18,7 @@ research/experiments/*/ref/**/*.mkv
 *.npz
 
 # --- Scratch ---
-_tmp_picasso/
+knowledge/domains/painters/_scratch/
 
 # --- Junctions (local skill activation) ---
 .agents/skills/
