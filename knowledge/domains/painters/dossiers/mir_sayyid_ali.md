@@ -428,7 +428,7 @@ large empty unpatterned voids, watermark, 3D render, anime, cartoon, modern clot
 === B) 抽取契约（复刻 modules/_extract.py 谓词）===
 arch_4:  OK, 1052 chars | head: | # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%） | 默认建议 |
 arch_81: OK, 1486 chars | head: **正向段（可直接粘贴）**
-arch_82: OK, 864 chars | head: 1. **事件动势群像规则**：画面含 ≥1 事件进行时（战斗/夜袭/救援/追逐）且人物 ≥8（群像档）；全静场判失败（弱档除外）。自查：事件计数 + 人体框计
+arch_82: OK, 863 chars | head: 1. **事件动势群像规则**：画面含 ≥1 事件进行时（战斗/夜袭/救援/追逐）且人物 ≥8（群像档）；全静场判失败（弱档除外）。自查：事件计数 + 人体框计
 正向段含 'Mir Sayyid Ali-style': True | 负向段含 '--no': True
 
 === C) 引文抽查（vs 本地源文件，逐字/轻校命中）===
@@ -480,7 +480,7 @@ PASS-CHECK-DONE
 - 复核修正 3 处（引文校勘记录）：OCR 行尾连字符「nat-uralistic」「dis-tinctive」「supervi-sion」按印刷原貌归并；「earlierto」「morethan」空格轻校；「HumayCinshahi」→「Humayunshahi」轻校（详见 `_corpus/mir_sayyid_ali.md` 校勘口径）。
 
 - 另：16 张图 sha256[:16] 全表 —— `nighttime_in_a_city 1d3a0be7` / `nomadic_encampment bdbef869` / `school_scene_freer d3b04914` / `majnun_layla_bl 61ca9aca` / `self_portrait_lacma 7ffc7cba` / `bahram_gur_met e9ce6428` / `elijah_bm 314714df` / `prince_page_bm a78eb862` / `emissaries_mak d2e4f2d6` / `feridun_mak 9cb9e6b7` / `seated_youth_freer 78c11d33` / `mahiya_zambur_harvard cb4bd240` / `met_hamzanama_night_attack 047f2e85` / `met_hamzanama_mihrdukht 2eef9749` / `met_hamzanama_spy_zambur 0ea17444` / `met_hamzanama_supplicant c4334152`；`_corpus/mir_sayyid_ali.md` 28 条（≥15 ✅）；`_images/mir_sayyid_ali/MANIFEST.md` 存在（16 张 + 逐张明细 + 归属口径）；私有层 `_private/INVENTORY_mir_sayyid_ali.md` + 39 件在位（研究副本 31 + 高清图 8）。
-- **复跑（本节落盘后，终稿状态；最终一次全跑）**：节命中 14/14 · §11.1=2085 字 · arch_4=1052 / arch_81=1486 / arch_82=864 chars · 引文 34/34 HIT（0 MISS）· 语料 28 · 图 16+MANIFEST · 私有层 INVENTORY 在位（39 件）—— 全项通过。
+- **复跑（本节落盘后，终稿状态；最终一次全跑）**：节命中 14/14 · §11.1=2085 字 · arch_4=1052 / arch_81=1486 / arch_82=863 chars · 引文 34/34 HIT（0 MISS）· 语料 28 · 图 16+MANIFEST · 私有层 INVENTORY 在位（39 件）—— 全项通过。
 
 ### D. 小结（≤14 行）
 
