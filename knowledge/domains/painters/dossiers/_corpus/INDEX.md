@@ -6,7 +6,8 @@
 > **wave14 加固**（2026-10-15）：8 位核心语料扩容（126→200；+74）；caravaggio / vermeer / durer 语料补建（22 / 22 / 27 条）。
 > **wave16 收口合并**（2026-10-16，IndexMerge / A-51）：并入 wave12/13 新档 7 文件（turner / rembrandt / goya / hopper / bada_shanren / qi_baishi / ito_jakuchu，154 条）→ **合计 20 文件 455 条**（20 位画家）。
 > **wave15/17 并入**（2026-10-16，IndexMerge2）：并入 wave15×8 + wave17×7 共 15 文件（mucha / munch / kandinsky / velazquez / bosch / huang_gongwang / kahlo / behzad / friedrich / repin / ravi_varma / degas / gauguin / van_eyck / kngwarreye，389 条）→ **合计 35 文件 844 条**（35 位画家）。
-> 底本：Trattato 全 8 部、Rime/Varchi/Condivi、vangoghletters 13 封原文信、Perry 1927、Geffroy 1922、Clemenceau 1928、Gasquet/Bernard、Wikiquote fr/en/ja 转录；**wave15/17 批摘**：eMunch（munch）·《论艺术中的精神》德/英双底本 +《点线面》（kandinsky）· Noa Noa / Avant et Après（gauguin）· ru.wikisource（repin）· Pacheco / Palomino（velazquez）·《辍耕录》维基文库（huang_gongwang）· Mucha Foundation（mucha）；各文件底本另见文件头。
+> **wave18/19/20 并入**（2026-10-16，IndexMerge3）：并入 wave18×7 + wave19×10 + wave20×10 共 27 文件（hiroshige / sargent / piero_della_francesca / artemisia_gentileschi / namatjira / el_salahi / wu_guanzhong / fan_kuan / sesshu / constable / poussin / bruegel / el_greco / holbein / aivazovsky / okeeffe / rivera / zhao_mengfu / ni_zan / qiu_ying / ogata_korin / blake / chardin / manet / sorolla / zorn / sultan_mohammed，769 条）→ **合计 62 文件 1613 条**（62 位画家）。
+> 底本：Trattato 全 8 部、Rime/Varchi/Condivi、vangoghletters 13 封原文信、Perry 1927、Geffroy 1922、Clemenceau 1928、Gasquet/Bernard、Wikiquote fr/en/ja 转录；**wave15/17 批摘**：eMunch（munch）·《论艺术中的精神》德/英双底本 +《点线面》（kandinsky）· Noa Noa / Avant et Après（gauguin）· ru.wikisource（repin）· Pacheco / Palomino（velazquez）·《辍耕录》维基文库（huang_gongwang）· Mucha Foundation（mucha）；**wave18/19/20 批摘**：Charteris 1927（sargent）·《De prospectiva pingendi》（piero）· 庭审记录/书信（artemisia）·《宋朝名画评》四库本（fan_kuan）· Jouanny 1911（poussin）· Erdman 1988（blake）· Jansson 2022（zorn）；各文件底本另见文件头。
 > 标注计数为**出现次数**（含正文提及），非条目数；条目数 = `grep -c '^### '`。
 
 | 文件 | 条目 | self-written | reported speech | contemporary record | 备注 |
@@ -46,6 +47,33 @@
 | gauguin.md | 33 | 25 | 6 | 6 | Noa Noa 法文版 + Avant et Après + 书信集（法/英双底本）；保留时代语境条目（单列） |
 | van_eyck.md | 20 | 0 | 4 | 6 | 题刻为「自述」核心（[inscription] 13 条另列）；Facio / 丢勒日记 / Vasari 记述；无书信/笔记存世 |
 | kngwarreye.md | 18 | 0 | 4 | 0 | 口述艺术家：全为 Anmatyerre 语口述英译（[self-spoken] 11 条另列）；原住民伦理约束（仪式内容不收） |
+| hiroshige.md | 24 | 4 | 0 | 5 | 旅日記/题记/辞世句逐字；早期研究（1900s–1930s）与接受史记录分层收录；馆方/学术转引逐条标注 |
+| sargent.md | 30 | 10 | 14 | 7 | Charteris 1927 全文 OCR；书信/致辞/课堂记录分层；[research] 3 条另列 |
+| piero_della_francesca.md | 24 | 11 | 7 | 3 | 《De prospectiva pingendi》中古意大利语原文逐字；[inscription] 4 条另列；Vasari 旧说 2 条已订正 |
+| artemisia_gentileschi.md | 29 | 13 | 3 | 10 | 庭审证词/书信逐字（[self-spoken] 8 条另列）；1653 戏谑墓志铭误传源头已辨；[later reception] 10 条另列 |
+| namatjira.md | 22 | 0 | 5 | 4 | 口述记录分层（转写者随条标注）；[self-spoken] 12 条另列；原住民伦理约束（限制性内容不收） |
+| el_salahi.md | 44 | 0 | 1 | 0 | 访谈/笔记/回忆录（[self-spoken] 38 条另列）；全为已刊记录转引，逐条标注 |
+| wu_guanzhong.md | 40 | 24 | 6 | 0 | 文论/自传/题句/书信 + 受访口述（[self-spoken] 6 条另列）；转引逐条标注 |
+| fan_kuan.md | 26 | 0 | 0 | 15 | 无文字传世——「自述」经宋人转述；《宋朝名画评》四库本全文；[later reception] 8 条另列 |
+| sesshu.md | 17 | 8 | 0 | 10 | 自序/款记/书状 + 同代题赞纪行；[later record] 3 条另列（江户期画史与传说） |
+| constable.md | 36 | 24 | 5 | 4 | 书信/讲稿/展签 + 作品背面题记（[inscription] 9 条另列）；[later reception] 4 条另列 |
+| poussin.md | 24 | 16 | 5 | 9 | 书信/笔记逐字（Jouanny 1911 页码级）；转记逐条标注 |
+| bruegel.md | 28 | 2 | 1 | 5 | 同时代记录（1567–1598）+ van Mander 1604 早期传记 + 馆方文本；学术转引逐条标注 |
+| el_greco.md | 30 | 10 | 3 | 14 | 批注/书信/题记/遗嘱 + 转记（经文学化者标注）；[later reception] 7 条另列 |
+| holbein.md | 26 | 12 | 6 | 11 | 签名/题铭/遗嘱（画进作品的文字与法律文书）；van Mander 订正已入；引文 18/18 |
+| aivazovsky.md | 34 | 19 | 6 | 17 | 书信/文书/题写 + 同时代记录（1836–1904）；[research] 3 条另列；2 条 OVERTURNED 版本修正 |
+| okeeffe.md | 35 | 26 | 2 | 4 | 书信/自传/展览声明 + 口述（[self-spoken] 9 条另列）；[later reception] 7 条另列；引文 42/42 |
+| rivera.md | 23 | 5 | 12 | 3 | 声明/书信/写作 + 受访（[self-spoken] 7 条另列）；镜像 vs 卡罗互查 |
+| zhao_mengfu.md | 24 | 13 | 2 | 8 | 题跋/款识/书论/诗（含「用笔千古不易」第七跋自纠）；[later reception] 7 条另列 |
+| ni_zan.md | 35 | 20 | 1 | 9 | 画论/题识/题跋/诗曲；[later reception] 9 条另列；bada 互查留档 |
+| qiu_ying.md | 24 | 0 | 0 | 0 | 标注为中文类目（同代记述/史料/研究/转引）——三列英文口径计 0；转引件逐条标注 |
+| ogata_korin.md | 24 | 6 | 2 | 4 | 款印/文书/遗言 + 家人/同代记录；[later reception] 16 条另列（含馆方研究） |
+| blake.md | 28 | 30 | 7 | 4 | 书信/自印书籍诗文/笔记/版画铭文（Erdman 1988 逐字）；3 条 OVERTURNED 已订正 |
+| chardin.md | 28 | 3 | 5 | 11 | 书信 + 转记（Cochin/Diderot 闭环）；[research] 12 条另列；引文 37/37 |
+| manet.md | 26 | 11 | 11 | 7 | 书信/图录序/笔记 + 转记；[research] 1 条另列；vs 萨金特逐条对齐 |
+| sorolla.md | 31 | 7 | 15 | 9 | 书信/笔记 + 转记（1909 两卷本 OCR 行号级）；[research] 6 条另列 |
+| zorn.md | 33 | 9 | 5 | 10 | 自传笔记/书信/题记 + 转记（Jansson 2022 全文直读升级）；[research] 15 条另列 |
+| sultan_mohammed.md | 24 | 1 | 0 | 4 | 题记/签名（[inscription] 3 条另列）+ 同时代/早期记录（[later record] 6 条另列）；归属分级纪律 |
 
 缺口与验证声明见各文件末节（「缺口与待验证」）。
-**未纳入（在产）**：wave18 七位（hiroshige / sargent / piero_della_francesca / artemisia_gentileschi / namatjira / el_salahi / wu_guanzhong）语料随各自收口另并（磁盘残留文件见核验脚本「未纳入」输出行）。
+**未纳入（在产）**：wave21 十位（xu_beihong / li_keran / sher_gil / tarsila / chen_hongshou / xu_wei / hogarth / mir_sayyid_ali / de_chirico / rockwell）——已收口者照实并入（私有层例外节；主表随下轮；xu_wei 已落盘）；磁盘残留文件见核验脚本「未纳入」输出行。
