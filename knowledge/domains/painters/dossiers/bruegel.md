@@ -427,12 +427,12 @@ _extract.py --check: checks=126 ok=126 fail=0（42 卡回归，零破坏）
 git: 本人三路径纯新增（dossier / corpus / images）；未触碰共享索引 / 模块卡 / GOALS
 ```
 
-- 另：语料 28 条（≥15 ✅；[contemporary record] 4 / [early biography] 11 / [museum text] 11 / [early research] 1 / [scholarly] 1）；`_images/bruegel/MANIFEST.md` 存在（逐张明细）；私有层 `INVENTORY_bruegel.md` + 研究件 25 件在位。
+- 另：语料 28 条（≥15 ✅；[contemporary record] 4 / [early biography] 11 / [museum text] 11 / [early research] 1 / [scholarly] 1）；`_images/bruegel/MANIFEST.md` 存在（逐张明细）；私有层 `INVENTORY_bruegel.md` + 研究件 27 件在位。
 
 ### D. 小结（≤14 行）
 
 - **已确立**：v2 全节（§0–§12 + 自审四段）；抽取契约同构（§4/§8.1/§8.2 直测 OK）；**分工条款写死**（vs 北斋 / vs 米开朗基罗 两主条 + vs 博斯 镜像条，各带 4 判据与边界注）。
-- **已确立（四处落盘）**：① `dossiers/bruegel.md`（440 行 / 72 KB）；② `_corpus/bruegel.md`（28 条）；③ `_images/bruegel/`（20 张 PD + MANIFEST）；④ `_private/INVENTORY_bruegel.md`（+ 研究件 25 件）。
+- **已确立（四处落盘）**：① `dossiers/bruegel.md`（440 行 / 72 KB）；② `_corpus/bruegel.md`（28 条）；③ `_images/bruegel/`（20 张 PD + MANIFEST）；④ `_private/INVENTORY_bruegel.md`（+ 研究件 27 件）。
 - **被削弱**：B1（北斋静景/勃鲁盖尔版画 → 边界注 + 限定绘画）；B2（晚期大人物 → ≥2 轴边界注）。
 - **被推翻**：无。
 - **未知**：Ortelius / Lampsonius 拉丁原文（转引链已注）；Met 官网直读（429）；van Mander 1604 原印本；量化阈值未实测（§4/§8.2）。
