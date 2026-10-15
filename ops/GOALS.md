@@ -91,15 +91,15 @@
 | A-95 | running | wave20·佐恩（Zorn）v2（有限色板） | `knowledge/domains/painters/dossiers/zorn.md` | ArtistZorn（wave20） |
 | A-96 | running | wave20·苏丹·穆罕默德（Sultan Muhammad）v2（萨法维细密画） | `knowledge/domains/painters/dossiers/sultan_mohammed.md` | ArtistSultanMohammed（wave20） |
 | A-77 | running | wave19·范宽（Fan Kuan）v2（巨碑式山水/雨点皴） | `knowledge/domains/painters/dossiers/fan_kuan.md` | ArtistFanKuan（wave19） |
-| A-78 | running | wave19·雪舟（Sesshū）v2（日本水墨） | `knowledge/domains/painters/dossiers/sesshu.md` | ArtistSesshu（wave19） |
+| A-78 | done | wave19·雪舟（重派·续写）：511 行 v2 档案（§11 2035 字 + 43 行 + 18 来源；§12 10 件）+ 语料 17 条（复核合格，26/26 HIT）+ 图库 18 张全 PD + MANIFEST + 私有 6 件；分工 vs 八大山人/徐渭/北斋写死；1 条 OVERTURNED（「首个日本水墨模块」） | `knowledge/domains/painters/dossiers/sesshu.md` | ArtistSesshu-2（wave19） |
 | A-79 | running | wave19·康斯泰勃尔（Constable）v2（云的研究） | `knowledge/domains/painters/dossiers/constable.md` | ArtistConstable（wave19） |
-| A-80 | running | wave19·普桑（Poussin）v2（古典构图） | `knowledge/domains/painters/dossiers/poussin.md` | ArtistPoussin（wave19） |
+| A-80 | done | wave19·普桑（重派）：505 行 v2 档案（§11 2019 字 + 43 行；§12 10 件）+ 语料 24 条（Jouanny 1911 页码级）+ 图库 13 张全 PD/CC0 + 私有 7 件；分工 vs 达芬奇/米开朗基罗/弗里德里希写死（镜像互认）；scratch 核验 17/20 可用 | `knowledge/domains/painters/dossiers/poussin.md` | ArtistPoussin-2（wave19） |
 | A-81 | running | wave19·勃鲁盖尔（Bruegel）v2（全景叙事/季节组画） | `knowledge/domains/painters/dossiers/bruegel.md` | ArtistBruegel（wave19） |
 | A-82 | running | wave19·埃尔·格列柯（El Greco）v2（变形精神张力） | `knowledge/domains/painters/dossiers/el_greco.md` | ArtistElGreco（wave19） |
 | A-83 | running | wave19·荷尔拜因（Holbein）v2（肖像精准） | `knowledge/domains/painters/dossiers/holbein.md` | ArtistHolbein（wave19） |
 | A-84 | running | wave19·艾瓦佐夫斯基（Aivazovsky）v2（海与浪） | `knowledge/domains/painters/dossiers/aivazovsky.md` | ArtistAivazovsky（wave19） |
 | A-85 | running | wave19·欧姬芙（O'Keeffe）v2（版权图入 `_private/`） | `knowledge/domains/painters/dossiers/okeeffe.md` | ArtistOkeeffe（wave19） |
-| A-86 | running | wave19·里维拉（Rivera）v2（壁画；版权图入 `_private/`） | `knowledge/domains/painters/dossiers/rivera.md` | ArtistRivera（wave19） |
+| A-86 | done | wave19·里维拉（重派）：533 行 v2 档案（§11 2109 字 + 43 行 + 12 来源；§12 10 件）+ 语料 23 条 + 14 张图**全在 `_private/`**（公开侧零图）；分工 vs 米开朗基罗/戈雅写死 + 镜像 vs 卡罗互查；scratch 先核再用（OK=64） | `knowledge/domains/painters/dossiers/rivera.md` | ArtistRivera-2（wave19） |
 | A-42 | done | wave15·慕夏：510 行 v2 档案（§11 2020 字 + 47 行 + 来源 ≥10；§12 10 件）+ 语料 25 条 + 图库 12 张（11 PD + 1 CC BY-SA 已署名）+ 私有 8 件；分工 vs 克里姆特写死（平面印刷档 × 材质工艺档）；引文 15/15 | `knowledge/domains/painters/dossiers/mucha.md` | ArtistMucha（wave15） |
 | A-43 | done | wave15·蒙克：493 行 v2 档案（§11 2043 字 + 38 行 + 11 来源；§12 10 件）+ 语料 29 条（挪威语原文）+ 图库 13 张 + 私有论文 3 件；分工 vs 梵高写死（4 判据）；抽取直测 OK | `knowledge/domains/painters/dossiers/munch.md` | ArtistMunch（wave15） |
 | A-44 | done | wave15·康定斯基：531 行 v2 档案（§11 2094 字 + 43 行 + 16 来源；§12 9 件）+ 语料 29 条（德文 6 条逐字核过）+ 图库 11 张（剔除 1 误认件）+ 私有 4 组；分工 vs 毕加索写死（解构↔抽象 4 判据） | `knowledge/domains/painters/dossiers/kandinsky.md` | ArtistKandinsky（wave15） |
