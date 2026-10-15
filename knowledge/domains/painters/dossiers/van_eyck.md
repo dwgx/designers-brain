@@ -1,0 +1,267 @@
+# 扬·凡·艾克档案 — Jan van Eyck（约 1390–1441，尼德兰 / 勃艮第宫廷）
+
+> wave17 · **规格 v2**（`knowledge/domains/painters/program/README.md` §1：v1 基础 + §11 生平与年代轴（详细）+ §12 临摹/学习清单）。写手：**ArtistVanEyck**（wave17，GOALS A-57）｜日期：2026-10-16
+> 模板：`templates/artist_module.md`；v2 增项 **§11 / §12 置于 §10 与自审四段之间**（v1 抽取契约 §4/§8.1/§8.2 不受影响）。
+> 证据分级：`[自述]`（本人书写/题刻，带出处）· `[史料]`（当时记录/档案/馆藏信息）· `[研究]`（艺术史家/博物馆分析）· `[归纳]`（本项目从作品与资料归纳的操作规则，不冒充艺术家内心）· `[推测]`（低置信）
+> 正文中文；引用保留原文（拉丁文/中古荷兰语/希腊字母按馆方转录；德文、英文引文照录）；prompt 用英文。
+> **本档案的特殊性（写在前面的口径）**：凡·艾克**没有留下画论**——他的"文字"几乎全部是**画上题刻与署名**（ALS ICH CAN 的诸变体、"fuit hic"、各作品框上的拉丁/荷兰语铭文），外加宫廷档案与同时代/后世记述（[R13][R14][R12]）。因此本档案 `[自述]` 一律 = **题刻/署名级**证据，不作画论引申；技法证据主要来自**作品本身 + 馆方技术研究**（伦敦国家美术馆红外反射分析 [R1][R2][R3]；KIK-IRPA 根特祭坛修复 [R11][R10]）。凡引用"他如何想"，一律降级为操作规则处理（项目宪章）。
+
+---
+
+## 0. 元信息
+
+- **生卒 / 国别**：约 1390 年（一说 1380）生于马斯河畔的马塞克（Maaseik，今比利时林堡省；"van Eyck"即得名于此）；1441-07-09 卒于布鲁日。尼德兰（勃艮第治下）`[史料]`（[R4]：出生日期与地点均无档案；马塞克为 16 世纪晚期传统记载 + 其预备素描上的马斯兰方言旁证）
+- **主要身份**：宫廷画家与侍从（valet de chambre）——1422–24 年效力荷兰伯爵约翰三世（巴伐利亚的约翰，驻海牙）；1425 年起效力勃艮第公爵**菲利普三世（好人菲利普）**，先驻里尔、后迁布鲁日，兼作外交使节 `[史料]`（[R4]）
+- **主要流派 / 媒介**：早期尼德兰绘画（Early Netherlandish）奠基者之一；**橡木板油画**（油性媒介的定型时刻）为主，另有素描（银笔画）、手抄本细密画（《都灵-米兰时祷书》"手 G"，归属存争议 [R26]）`[史料]`（[R4]）
+- **一句话能力定位**：**油的微细节——镜面反射 ＋ 材质百科**。给系统补「**物证级写实**」这一档：把油画从"颜料层"推到"证据层"——每粒念珠有独立高光、镜中有可读的第二个空间、十种以上材质各有专属的反射形态；同时示范**透明罩染 + 湿盖湿**的油性媒介整套工艺（油性媒介在他手里定型）。
+  **缺口归属**：`expansion.md` **G2「室内自然光 + 材质表面」的第二轴**——维米尔已占"室内光"侧（见 §3.1 写死分工），凡·艾克补的是**材质/反射的微观真相与油性媒介工艺**；与 **G5**（画面级明暗手段）对读：油彩面（凡）vs 排线（丢勒）。`roster.md` §2.5 已列（wave15 · P1，执行时顺延入 wave17）。
+  **能力标签**（写档案用同一套词）：`物证级微细节` · `镜面反射（镜中空间）` · `材质百科` · `透明罩染/湿盖湿` · `定向光物理链` · `题刻与署名系统`
+- **关键作品 5 件（带馆藏与 URL）**：
+  1. 《根特祭坛画》（Ghent Altarpiece / Adoration of the Mystic Lamb，1432 祝圣），圣巴夫大教堂（根特）— https://www.sintbaafskathedraal.be/en/history/the-ghent-altarpiece/ ；数字研究：https://closertovaneyck.kikirpa.be/ （[R10][R11]）
+  2. 《阿尔诺菲尼夫妇像》（Arnolfini Portrait，1434），伦敦国家美术馆 NG186 — https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait （[R1]）
+  3. 《红头巾男子像（自画像?）》（Portrait of a Man，1433），伦敦国家美术馆 NG222 — https://www.nationalgallery.org.uk/paintings/jan-van-eyck-portrait-of-a-man-self-portrait （[R2]）
+  4. 《圣多纳提安与圣乔治间的凡德帕勒圣母》（Virgin and Child with Canon van der Paele，1434–36），格罗宁格博物馆（布鲁日）— 见 [R16]
+  5. 《洛林大臣的圣母》（Madonna of Chancellor Rolin，约 1435），卢浮宫 — 见 [R25]
+- **语料 / 图库**：`_corpus/van_eyck.md`（20 条：题刻/署名 11 条 + 档案与同时代/后世记述 9 条）；`_images/van_eyck/`（17 张，全 PD/CC0，见 MANIFEST.md）。
+
+---
+
+## 1. 视觉指纹（10 条）
+
+| # | 特征 | 可观察量 | 证据级 |
+|---|---|---|---|
+| 1 | **物证级微细节**：细节不是"多"，而是**经得起放大**——橙子在抛光木面上的倒影、墙上念珠的**影与反光并存**、每粒珠子顶部一个独立高光点；馆方研究甚至推测他用过放大镜处理念珠高光 | 1:1 放大后前景任意 300×300px 区域仍可读出 ≥10 个独立小物/高光事件；同一物件同时出现投影与倒影 | `[研究]`（[R1]："astonishing level of detail"、"the oranges reflect in the polished wood"、"the beads … cast both shadows and reflections on the wall"；放大镜句 [R6] 标 "has been suggested"） |
+| 2 | **镜面反射与"镜中空间"**：凸面镜不是装饰——它把**画外空间**装进画面：阿尔诺菲尼镜中有房间全景 + 门口两个小人影（其一举手，或为画家本人）；凡德帕勒的圣乔治头盔里映出圣母与圣子、盾牌上还映着画架前的画家自己；1460 年前 Facio 已记"镜中万物如真镜" | 画面 ≥1 个反射面（凸面镜/金属/水面），其内部**含可读的第二空间**（房间结构 + ≥1 人影），非纯高光；反射内容与主空间几何自洽 | `[研究]`（[R6]："expansion of the picture space with the use of a mirror"；[R16] 头盔反射与自画像；[R13] 1456 年拉丁原文："nihil prope admirabilius … quam speculum … tanquam in vero speculo"） |
+| 3 | **材质百科**：同一画面堆叠 8–12 类材质，且各有专属光学行为——丝绒的宽漫反射、织锦的逐线可辨、貂皮/松鼠皮的碎边无高光、黄铜枝形吊灯的锐点高光、玻璃的透射+反射双区、抛光木的镜像倒影、东方地毯的绒面、金属甲的镜面（[R16]："threads of … cope and mitre"、"weave of the oriental carpet"） | 单帧可辨材质类别 ≥6；每类材质的高光形态不重复（宽/锐/无/双区/镜面）；织物纹理在 1:1 裁片中可数线 | `[研究]`（[R1][R16][R5]） |
+| 4 | **单一定向光 + 完整物理链**：光几乎总从画面**左上方/左侧窗**来；投影短、方向一致；反射、阴影、透射同链——根特祭坛画外框的阴影甚至由**画框自身的线脚**投出（光源在画面之外）；Borchert：阴影"告诉我们主光源位于画面之外" | 全帧投影方向平行（±10°）；≥1 处物体同时呈现投影与反射；窗口/烛光不作为第二主光 | `[研究]`（[R5]："primary light source is located beyond the picture itself"（Borchert）；[R5][R7]：画框线脚投影；[R15]：德累斯顿三联光自左来） |
+| 5 | **透明罩染的宝石色**：颜色不是"涂"上去的——多层薄罩染（glazes）叠出可透视的深度；红/绿/蓝三原色系各得其所（阿尔诺菲尼的红床、绿裙、蓝内衣）；表面平滑、几乎不见笔触 | 色块内部明度过渡连续、无笔触颗粒；深色区不脏（罩染特征）；全帧饱和中位适中、局部高饱和集中于织物与宝石 | `[研究]`（[R6]："several layers of thin translucent glazes … intensity of both tone and colour"；[R4]："layers of thin translucent glazes that gave his paintings a rich depth of color and tone"） |
+| 6 | **题刻与署名系统**：他是 15 世纪唯一在画板上署名的尼德兰画家；格言 **ALS ICH CAN**（"以我所能"，双关其姓）以哥特体/希腊字母（ALC IXH XAN）出现在 ≥10 件作品上；铭文拟物——像刻进石头、铸在铜框、绣在衣缘；"说话"的署名（"Jan van Eyck 在此 1434"） | 画面/边框含 ≥1 处铭文；铭文与支撑材质**视觉融合**（石纹/铜色/织物上）；署名含格言变体者 ≥1 处 | `[研究]`（[R4]：唯一签名者、ALS ICH CAN、希腊字母、"fuit hic"；[R1][R2][R3]：各框铭文） |
+| 7 | **写实与象征的缝合**：每个物件**双读**——既是可触摸的实物，又是意义元件（狗=忠诚、橙=伊甸/富、烛=神在、镜=神之眼/纯洁）；Harbison 称这种"写实与象征的融合"是早期佛兰德斯艺术"最重要的方面" | 画面含 ≥3 个"实物兼符号"元素；元素先作为实物成立（有投影/材质/功能），其象征义不依赖文字说明 | `[研究]`（[R4] Harbison；[R6] Panofsky"disguised symbolism"及其批评谱系） |
+| 8 | **空间嵌套**：室内→窗→街景/花园→远景；或主空间→镜中空间。根特祭坛画开屏是"上层各自独立、下层五联一幅连续全景"的双层体制；Gombrich：阿尔诺菲尼"一个真实世界的角落被固定在画板上……艺术家第一次成为真正意义上的完美目击者" | 画面 ≥2 层可读空间；每层有独立信息（室内陈设/窗外街景/镜中房间）；层与层之间以窗、镜、门洞等物理开口连接 | `[研究]`（[R6] Gombrich；[R5]：下层连续全景"unified mise en scène"；[R1]：窗外的樱桃树与街景） |
+| 9 | **微观自然与空气透视**：根特祭坛画草地可辨认植物 75–81 种（[R5] 记 Segal 1984 数 81 种；2018 修复后清点 75 种，48 种可定种）；远景群山是**艺术史上已知最早的空气透视**之一；细节密度随距离递减 | 前景植物可定种（≥5 种）；远景对比/饱和度下降；纵深越远笔触越概括 | `[研究]`（[R5]："first known example in art of aerial perspective"、植物计数；[R7]：Schopenhauer 1822 已辨药草；[R21]：圣芭芭拉"细节粒度随视线后退递减"） |
+| 10 | **手势与凝视系统**：手是第二张脸——举起的手（宣誓/问候）、交握的手、持物之手（卷轴/戒指/书本）、护持之手（圣乔治扶帽致敬）；视线成对交互，只有 1 人直视画外（阿尔诺菲尼的男主人、德·莱乌、红头巾男子） | 手势可命名（宣誓/呈递/持物/致敬）；直视画外者 ≤1；其余视线成对或内视 | `[研究]`（[R4]："Hands play a special significance"；[R1]：举手问候；[R19]：直视+持戒） |
+
+> **与近邻的指纹级区分（一句话版，细则见 §3.1 分工条款）**：与**维米尔**——凡的细节是**累积式**（每粒毛/每根线都要到位）还是维的**选择式**（用色调代替细节、主动省略）？凡的反射**含内容**（镜中空间）还是维的高光**只作材质暗示**（pointillés 光点）？与**丢勒**——细节落在**油彩面**（透明层/反光）还是**版画线**（排线密度）？与**达·芬奇**——明暗靠**镜面反射与硬边物证**还是**无轮廓线的烟状过渡**？
+
+---
+
+## 2. 技法规则（10 条）
+
+1. **油性媒介系统（"定型"而非"发明"）**：凡·艾克不是油画发明人——油性媒介此前已用于绘画（Vasari 1550 年"发明"说为转记，见 §5 注）；他的贡献是**把这套媒介做到稳定可控**：亚麻油/核桃油熬制清漆式的载色体系 + 多层透明罩染，颜色获得"无需上光即有光泽"的深度与牢固度。`[史料]`（[R12] Vasari 原叙述）+ `[研究]`（[R4]："this claim is now considered an oversimplification"）。
+2. **罩染 + 湿盖湿（alla prima）并用**：油画干燥慢的特点被他用尽——既做多层薄罩染（透出底层、叠出宝石色），又在局部湿盖湿一次完成微妙的光影过渡；馆方明言这两种方法都在阿尔诺菲尼里出现。`[研究]`（[R6]："took advantage of the longer drying time … wet-in-wet … alla prima"）。
+3. **实际笔法：快、小、非常自由**：与"精雕细刻"的印象相反，阿尔诺菲尼"画得惊人地快而自由"——笔尖弹跳着点小色点、用**手指和笔杆**辅助、狗的腿影旁留有他的**拇指印**、床挂的刷毛是**刮**出来的；红头巾男子的胡茬是深棕点先、浅白点后、下巴处掺一点蓝的"点彩"。`[研究]`（[R1][R2]）。
+4. **分段式起稿（underdrawing in stages）**：红外反射显示阿尔诺菲尼的底稿**分两阶段**——先勾人物、主要家具与房间结构，画到后期才补上狗、吊灯、椅子、念珠、木屐等"如今最著名的物件"；人脸与身体在过程中被改（男主人脸放大→改小并理想化、女主人原本仰头）。`[研究]`（[R1]；[R2]：NG222 底稿极少、边画边改；[R4]：阿尔贝加蒂预备素描上的马斯兰方言笔记）。
+5. **光的物理链（投影/反射/透射同链）**：单一定向光下，所有物件的投影方向一致；反光面（抛光木、金属、玻璃、水）同时承担**反射内容**与**高光**；根特祭坛画外框线脚的投影只可能来自**画面之外**的光源——布光以"真实房间"为模型。`[研究]`（[R1][R5][R7]）。
+6. **镜面几何的自觉**：阿尔诺菲尼的凸面镜按球面镜规律表现房间扭曲，"除窗框最左段、桌近缘与裙摆下缘外均正确"；且镜子的**尺寸大于当时工艺可制的真实凸镜**——为了画面效果而越界（同类的越界还有：吊灯塞不进的空间、没有壁炉的房间）。`[研究]`（[R6]："except …"；[R1]："impossibly large"）。
+7. **细节密度随深度递减**：圣芭芭拉"细节粒度随视线向背景后退而递减"——塔顶工匠比地面工匠概括、远景只剩素描线条；根特祭坛画同样前密后疏。这是**注意力经济**：把分辨率花在观看者会看的地方。`[研究]`（[R21][R5]）。
+8. **铭文与框架的工序**：他连**画框一起设计**——单人头像的框画成仿石，签名与铭文画成"刻"进石头的效果；NG222 的框侧面与画板取自同一块木头、上下沿另配并打圆钉；德累斯顿三联的框上铭文分两层（外层铸铜感、内层镌刻感）。`[研究]`（[R2][R15][R21]）。
+9. **颜料并不神秘，功夫在手法**：馆方对阿尔诺菲尼的结论是"颜料并无特别之处——这种真实感靠的是凡·艾克的技艺，而不是任何技术革新"；部分颜色随年代改变（NG222 背景原为蓝色、后被覆盖为黑；胡普朗德原为紫褐色）。`[研究]`（[R1][R2]）。
+10. **工作坊与协作体系**：他有助手与工坊（海牙时期已有 1–2 名助手）；身后未完成的作品由工坊成员按底稿补完（如《十字架受难/最后的审判》双联上部）；寡妇/弟弟 Lambert 接手工坊事务；小型便携三联（德累斯顿档）说明他也服务"旅行祭坛"需求。`[史料]`（[R4][R15]）。
+
+---
+
+## 3. 创作原则（8 条 + 分工条款）
+
+1. **"以我所能"（Als ich can）——署名是质量声明**：题刻以谦辞面貌出现（"如我所能"），实际是**把名字押在作品上**的质量担保——他是 15 世纪唯一系统性署名的尼德兰画家；更进一步时写"**Jan van Eyck 在此**"（fuit hic）——以**见证人**身份签名。`[自述]`（[R1][R2][R4]；格言双关：ich/Eyck + "but not as I would" [R2]）。
+2. **目击者优先（在场即证据）**：房间、物件、光与签名共同构成"我在场"的证据链——"Jan van Eyck 在此 1434"把签名变成现场记录；Gombrich 称他"第一次成为真正意义上的完美目击者"。`[研究]`（[R6]）。
+3. **忠实观察 > 古典理想化**：根特祭坛画被定为"宁取对自然的忠实观察、不要古典理想化"的北方路线（与同期意大利文艺复兴对照）；圣方济各的岩石与圣痕、德·莱乌的胡茬、凡德帕勒的病容（浮肿手指、暴起的颞动脉）都不美化。`[研究]`（[R5][R16][R19][R23]）。
+4. **但"忠实"不等于照相**：为效果可以改——人脸比例被理想化、鼻子角度被扭转以强化识别、头身比被拉大、吊灯与镜子尺寸越界（塞不进/造不出）；馆方原话："创造完美可信的**假象**，但为审美目的做过改动"。`[研究]`（[R1][R2][R4]）。
+5. **一切细节双读（写实 × 象征）**：物件先作为**实物**成立（有投影、材质、功能），再作为**符号**生效（狗=忠诚、橙=伊甸、烛=神在、镜=神之眼）；象征义从不以文字说明出戏——Panofsky 名之"伪装象征"。`[研究]`（[R4][R6]）。
+6. **光是一切的统一者**：一个光源统摄人物、织物、金属、玻璃、水——材质差异=**同一光在不同表面上的行为差异**；布光遵循"真实房间"模型（连画框线脚的投影都按画面外光源算）。`[研究]`（[R1][R5][R7]）。
+7. **让物说话（铭文在对象之声里）**：铭文多以**被画对象的口吻**书写——肖像说"我"（德·莱乌"凡·艾克画了我"）、捐献者说"我请人制作"、圣徒的祷文环绕自身；Borchert：画面"看上去在说话"。`[研究]`（[R4][R19]）。
+8. **神圣与世俗同室**：圣母显现在捐献者的**当代房间/教堂**里（可触摸的家具、地毯、窗与远景）；把"天堂"翻译成"此时此地的房间"，日常物即圣物（《卢卡圣母》把圣母安置在小礼拜堂式日常空间）。`[研究]`（[R4][R16][R20]）。
+
+### 3.1 分工条款（写死；来源：`roster.md` §1/§2.5/§3 + wave17 brief；`[归纳]`，可被组合实验推翻）
+
+- **vs 维米尔（本档案第一写死条款——"技术型写实 vs 室内光材质"，roster §1/§3 写死项）**：两位都"极真"，但**真在哪一层**不同，分两档、不得混用：
+  - **凡·艾克＝"物证档（累积）"**：真实来自**细节的累积与反射的内容**——每粒念珠独立高光、镜中有可读的第二空间、材质百科；细节是**全画面承诺**（1:1 放大仍有信息）；光有完整物理链（投影 + 反射 + 透射）。
+  - **维米尔＝"光学档（选择）"**：真实来自**色调与轮廓 + 光的行为**——细节**主动省略**（`vermeer.md` §3-1："accuracy of tone and contour, rather than the methodic accumulation of descriptive elements"；§3-8 明言与显微镜式细描划清界限）；高光是**点状暗示**（pointillés，1–3mm 圆点，`vermeer.md` §4 P3）；暗部平坦无细节（`vermeer.md` §4 P2）。
+  - **判据（可判读，写进自查表）**：① **细节经济**：凡=累积（1:1 裁片信息量高、织纹可数线）vs 维=选择（墙面大块无变化、挂钩级细节不画——`vermeer.md` §4 P5）。② **反射类型**：凡=**有内容的镜面**（凸镜/盔甲/水面含第二空间或人影）vs 维=**无内容的高光点**（pointillés 只暗示材质、不反射空间）。③ **光源处理**：凡=定向光 + 投影/反射/透射三链齐全 vs 维=左窗高调光 + 暗部压平（`vermeer.md` §4 P1/P2，无反射链）。④ **表面**：凡=罩染后仍可读微观结构（逐线/逐粒）vs 维=釉层压平（"levigated effect"，织纹几乎不可见——`vermeer.md` §4 P6）。
+  - **组合纪律**：两模块同用时必须**选一个主导轴**（建议 70/30 起）——凡·艾克的累积细节会淹没维米尔的选择性；维米尔的压平表面会吃掉凡·艾克的微观反射。
+- **vs 丢勒（写死；roster §2.5）**：细节的两条介质路线——凡=**油彩面**（透明罩染、镜面反射、材质的光学行为）；丢=**版画线**（排线密度=明度、实心填充 ≤5%、线端收锋）。**判据**：载体（油画表面 vs 线密度）；"灰"从哪来（罩染层叠 vs 排线交叉）。`[归纳]`
+- **vs 达·芬奇（系统内既有对照）**：细节的两种用途——达=**氛围统一**（无轮廓线、烟状过渡、细节溶解进空气）；凡=**物证呈现**（镜面反射、硬边高光、逐件可考、细节对抗空气）。组合冲突轴 = 边缘（sfumato 宽过渡带 vs 镜面高光锐点）。`[归纳]`（参照 `da_vinci.md` §1/§2）。
+- **与系统其余模块**：不得复制邻近模块独有机制——不借卡拉瓦乔的"画外单光源 + 近黑背景 + 亮部只落脸/手"（凡的光**照亮整间房**且反射链完整）；不借伦勃朗的"连续衰减照单脸"；不借马蒂斯的平涂；不借北斋的线骨架。组合时按 `knowledge/cross/conflicts.md` 预检（重点：C-01 硬阴影、C-05 笔触、C-11 高光计数、C-12 色相预算）。
+
+---
+
+## 4. 控制参数（6 个，各三档）
+
+| # | 参数 | 弱（20–30%） | 中（50–60%） | 强（80–95%） | 默认建议 |
+|---|---|---|---|---|---|
+| P1 | **微细节密度**（Micro-detail Density）`[归纳]` | 主要形体清晰、材质概括（工坊/远景档） | 织物与金属纹理可辨、高光成组（肖像档） | 逐粒高光、逐线织纹、1:1 放大仍有信息（阿尔诺菲尼/凡德帕勒档） | **70%** |
+| P2 | **反射与镜面**（Reflection & Mirror）`[归纳]` | 哑光无镜面（纸本/素描档） | 金属与玻璃的离散点状高光（肖像档） | **含内容**的镜面反射（凸镜/盔甲/水面）+ 材质互反（阿尔诺菲尼/凡德帕勒档） | **60%** |
+| P3 | **材质多样性**（Material Inventory）`[归纳]` | ≤3 类材质 | 5–7 类（织物/毛皮/金属/木/石） | 10+ 类（+玻璃/水/地毯/珐琅），每类专属高光形态 | **65%** |
+| P4 | **光链完整度**（Light-Chain Coherence）`[归纳]` | 平光/漫射（底稿档） | 定向光 + 一致投影 | 定向光 + 投影 + 反射 + 透射 + 画面外光源证据（框影）（根特档） | **70%** |
+| P5 | **题刻与框架**（Inscription & Frame）`[归纳]` | 无铭文 | 署名 + 日期（拟物：刻石/铸铜感） | 多语种铭文系统 + 框画成石/铜/织 + 铭文与图像互注（根特/德累斯顿档） | **中（署名+日期）** |
+| P6 | **体制与画幅**（工作流参数）`[归纳]` | 单幅肖像/半身（20–35cm 级） | 私人小三联/双联（便携祭坛，30–35cm 级） | 公共多联祭坛（≥12 面板、开闭双面体制，3.75×5.2m 级） | **1**（单幅起步） |
+
+> **用法**：P1/P4 定"是不是凡·艾克"（微细节 + 光链；两条同时 ≥ 中档才成立）；P2/P3 定"物证强度"（肖像档→物证档的滑轨）；P5 定铭文档；P6 是组稿参数（单幅 vs 多联，不进画面重叠计算，按 `expansion.md` §4.3 规则 5 归「工作流参数」栏）。
+> **越界警报（与 §3.1 对齐，组合实验按此判分）**：① 细节转为**选择性省略**、表面压平、高光只作点状暗示 → 越界**维米尔**；② "灰"改由排线承担、实心填充为主 → 越界**丢勒**；③ 出现画外单光源 + 近黑背景 + 亮部只落脸/手 → 越界**卡拉瓦乔**；④ 无轮廓线烟状过渡、细节溶解进雾 → 越界**达·芬奇**。
+
+---
+
+## 5. 自述与原话（10 条；完整语料 20 条见 `_corpus/van_eyck.md`）
+
+> 口径：凡·艾克**没有书信/笔记/画论存世**——他的"原话"= **画上题刻与署名**（本人书写级证据），外加档案与后人记述（后者入语料 #12–#20，不入本节）。以下 10 条全部为 `[自述-题刻]`（逐字转录按馆方/学术底本；希腊字母转写用拉丁字母近似）。
+
+1. **格言 ALS ICH CAN（"以我所能"）** — 出现于 ≥10 件作品（根特祭坛画、NG222、德累斯顿三联、玛格丽特像等），有时用希腊字母转写 **ALC IXH XAN**。NG 释义："as I[ich/Eyck] can — but not as I would"（以我[ich/Eyck]所能——虽非我所愿）。出处：[R2][R4]。
+2. **《红头巾男子像》框铭（1433）** — 原文：`JOH[ANN]ES DE EYCK ME FECIT AN[N]O M° CCCC° 33° 21 OCTOBRIS`（下框）+ `Als Ich Can`（上框，希腊字母）。中译：扬·凡·艾克于 1433 年 10 月 21 日制作了我。出处：[R2]。注：签名行线画歪又重画、10 月一词挤在行尾——"大师级的画家、非大师级的排版"（馆方原话）。
+3. **《阿尔诺菲尼夫妇像》题刻（1434）** — 原文：`Johannes de eyck fuit hic 1434`。中译：扬·凡·艾克 1434 年在此。出处：[R1]。注：写在镜子上方的墙上，像当时墙上的格言字——**以见证人身份签名**。
+4. **《Léal Souvenir》题刻（1432）** — 原文：`Actu[m] an[n]o d[omi]ni 1432 10 die octobris a ioh[anne] de Eyck`（下）+ `LEAL SOVVENIR`（大写字，似刻入石）+ `TUM OTHEOS`（希腊字母，写拉丁语，"然后神"）。出处：[R3]。注：签名措辞"reminiscent of the wording of a legal document"（法律文书式）。
+5. **根特祭坛画框铭四行诗（1432；作者归属有争议）** — 原文：`PICTOR HUBERTUS EEYCK. MAIOR QUO NEMO REPERTUS / INCEPIT. PONDUS. QUE JOHANNES ARTE SECUNDUS / (FRATER) PERFECIT. JUDOCI VIJD PRECE FRETUS / VERSV SEXTA MAI. VOS COLLOCAT ACTA TVERI`。末行大写字母为**计时铭（chronogram）**= 1432。中译（[R10] 官方英译转中）："Hubert van Eyck，有史以来最伟大的画家，开始了这项工作；他的弟弟 Jan，在绘画上位居第二，应 Joos Vijd 的请求完成了这项艰巨的任务。他于 1432 年 5 月 6 日把这项工作托付给你们照管。欣赏他们完成的成果。" 出处：[R9][R10][R7]。注：铭文真伪与 Hubert 参与度见 §10。
+6. **《玛格丽特像》框铭（1439）** — 原文（转写）：`CO[N]IV[N]X M[EV]S IOH[ANN]ES ME C[OM]PLEVIT AN[N]O 1439° 17° IVNIJ / ETAS MEA TRIGINTA TRIV[M] AN[N]ORV[M] / ALC IXH XAN`。中译："我的丈夫约翰内斯于 1439 年 6 月 17 日完成了我，时年三十三。以我所能。" 出处：[R18]。注：**以画中人口吻**署名。
+7. **《凡德帕勒圣母》框铭（1434/1436）** — 英译转引："Joris van der Paele, canon of this church, had this work made by painter Jan van Eyck. And he founded two chaplaincies here in the choir of the Lord. 1434. He only completed it in 1436, however." 出处：[R16]。性质：[史料-题刻]（**捐献者口吻**；两个年份并存=抱负日期与实到日期）。
+8. **《扬·德·莱乌像》框铭（1436）** — 原文：`IAN DE {LEEUW} OP SANT ORSELEN DACH / DAT CLAER EERST MET OGHEN SACH, 1401 / GHECONTERFEIT NV HEEFT MI IAN / VAN EYCK WEL BLIICT WANNEERT BEGA(N) 1436`（"Leeuw"以**金色狮子图形**代字；含三处计时铭）。中译："扬·德·莱乌，在圣乌尔苏拉节（10 月 21 日）第一次睁开双眼，1401 年。现在扬·凡·艾克画了我——你能看出他何时开始。1436。" 出处：[R19]。注：**以肖像之口**说话（Borchert："画面在说话"）。
+9. **《德累斯顿三联画》框铭（1437）** — 原文：`IOHANNIS DE EYCK ME FECIT ET C[OM]PLEVIT ANNO D[OMINI] MCCCCXXXVII. ALC IXH XAN`。中译："扬·凡·艾克制作并完成了我在主历 1437 年。以我所能。" 出处：[R15]。注：唯一带格言的**宗教**作品；1959 年才发现（藏于框层下）。
+10. **《圣芭芭拉》框铭（1437）** — 原文：`.IOH[ANN]ES DE EYCK ME FECIT. 1437.`。中译："扬·凡·艾克制作了我，1437。" 出处：[R21]。注：若作品被视为"未完成的完成品"，"制作"或仅指设计完成——学界存疑（[R21]）。
+
+> 外部见证（**非自述**，全文见语料 #12–#20）：**Facio 1456**（"当代画家第一人"、镜面绝技 [R13]）；**丢勒 1521-04-10 日记**（见下）；**Vasari 1550**（"发明油画"叙述 [R12]）。
+> 丢勒日记原文（[R14]，1521-04-10 于根特）："Darnach sah ich des Johannes Tafel; das ist eine überköstliche, hochverständige Malerei und insbesondere die Eva, Maria und Gott Vater sind sehr gut."（中译：随后我看了约翰的祭坛画；那是极其珍贵、高度智慧的绘画，尤其是夏娃、玛利亚和圣父画得非常好。）——[史料-转记]（80 年后的观画记录）。
+
+---
+
+## 6. 临摹与影响链
+
+- **他学过谁**：① **国际哥特式**——早期《都灵-米兰时祷书》"手 G"（若归属成立）的人物类型仍是哥特式（[R4][R26]）；② **拜占庭/意大利 12–13 世纪圣母类型**（Cimabue/Giotto 传统的纪念性圣母——[R4]）；③ 与意大利同时代的关系有争议：《根特祭坛画》上帝的前缩透视是否受 Donatello/Masaccio 影响——Nash 认为他"完全有能力独立做到"，是"共同兴趣而非影响案例"（[R5]）；④ 师承大概率在兄长 Hubert 处（无档案）（[R4]）。
+- **谁学过他**：**罗希尔·范德魏登**（德累斯顿三联的尺度违和法进入《七圣事祭坛》）、**彼得鲁斯·克里斯图斯**（临摹《艾克塞特圣母》等）、**汉斯·梅姆林**——[R4]："His style was widely adopted, most notably by Van der Weyden, Petrus Christus and Hans Memling."；**意大利方向**：Vasari 叙述 Antonello da Messina 习得油法并传入威尼斯（[R12]，转记级）；**西班牙**：阿尔诺菲尼 16 世纪入西班牙王室收藏，委拉斯开兹可能见过并影响《宫娥》（[R6]）；**19 世纪**：前拉斐尔派（NG 2017 特展 "Reflections: Van Eyck and the Pre-Raphaelites"，[R1]）。
+- **关键事件链（作品命运）**：根特祭坛画被 [R5] 描述为"13 起犯罪、7 次失窃"的受害者——拿破仑劫掠（1794→1815 归还）、1821 侧板售予普鲁士（1920 依凡尔赛条约归还）、1934《正义的审判者》失窃**至今未归**（现展品为 1945 年 Jef Van der Veken 摹本）、二战被掳至 Altaussee 盐矿→1945 由 Monuments Men 追回；2012–2026 KIK-IRPA 分三期修复（[R5][R7][R10]）。阿尔诺菲尼：1516 年入玛格丽特·德·奥地利藏品→西班牙王室→1842 年 600 几尼购藏（NG 首件尼德兰绘画）（[R1][R6]）。
+- **一句话总结（提示词模块的"来历"注脚）**：这条链给系统两个可用件——① **工艺谱系**："油性媒介定型"（透明罩染 + 湿盖湿 + 物证级细节）从凡·艾克经范德魏登/克里斯图斯/梅姆林一路下传；② **接受史锚点**：Vasari 的"发明"神话（虽被现代研究修正）说明他的技术声望在 400 年里被当作"油画真实感"的起点——本模块正是这条起点的操作化。
+
+---
+
+## 7. 深度分析（9 条，馆方/学者，逐条带 URL）
+
+1. **Gombrich 论《阿尔诺菲尼》**（转引自 [R6]）："In its own way it was as new and revolutionary as Donatello's or Masaccio's work in Italy. A simple corner of the real world had suddenly been fixed on to a panel as if by magic … For the first time in history the artist became the perfect eye-witness in the truest sense of the term." — 要点：把"目击者"确立为艺术家的新身份（本档案 §3-2 的来源）。URL：https://en.wikipedia.org/wiki/Arnolfini_Portrait
+2. **Panofsky 的"伪装象征"与婚姻证书说（1934）及其批评谱系**（[R6]）：Panofsky 读签名+镜中见证人为婚姻法律记录的组成；后续：Bedaux 1986（象征不可证）、Hall（订婚说）、Carroll（授权文书说）、Koster 2003（**纪念像**说——女主人或已故，男主人一侧蜡烛在燃、女主人一侧烛已熄）；NG 目录 Campbell 1998 反调："no need to find a special meaning"。要点：**一件作品=90 年方法论辩论**——象征解读的边界本身是本模块的"读图纪律"。URL：https://en.wikipedia.org/wiki/Arnolfini_Portrait
+3. **Harbison：写实与象征的缝合**（[R4][R6]）：称两者的融合是早期佛兰德斯艺术"最重要的方面"（"the most important aspect of early Flemish art"）；象征的安放是"制造精神启示体验的蓄意策略"。要点：符号必须先在**物理上**成立（有投影/材质/功能）——这是本档案 §1-7 与 §3-5 的学术底本。URL：https://en.wikipedia.org/wiki/Jan_van_Eyck
+4. **Borchert：光的在场**（[R5]）：根特祭坛画人物"投下短促的斜影——不仅强化空间在场感，还告诉我们主光源位于画面之外"；外板《天使报喜》的阴影"暗示它们来自容纳画作的礼拜堂内的日光"。要点：光被设计为**房间物理的一部分**（含画框线脚投影 [R5][R7]）——本档案 §1-4/§2-5 的底本。URL：https://en.wikipedia.org/wiki/Ghent_Altarpiece
+5. **NG 技术分析（《阿尔诺菲尼》）**（[R1]）：底稿分阶段（先人物/家具/结构，后期才加狗/吊灯/椅子/念珠/木屐）；脸与身体被大改（男主人脸先大后小、被理想化）；"画得惊人地快而自由"——笔尖弹跳点色、手指与笔杆辅助、狗腿影旁有**拇指印**、床挂刷毛是刮出来的；"颜料无特别之处——这种真实感靠的是技艺而非任何技术革新"。要点：**物证级细节 = 快速 + 精准 + 体系化**，不是精雕细刻。URL：https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait
+6. **KIK-IRPA 根特祭坛修复（2012–2026）**（[R5][R7][R10]）：外板 70% 曾于 16 世纪被重绘；剥离后《神秘羔羊》原貌露出（"人形脸"、正视观者）；框铭被确认为**原框首层**书写（反驳 1950/1979 X 光"后加"说，但仍存争议）；2016 完成外板、2020 完成下层五联（2020"凡·艾克年"回归圣巴夫）、第三期 2023–2026 进行中。要点：**我们对凡·艾克的"看见"仍在被修复改写**——凡引用"原貌"须带修复日期。URL：https://closertovaneyck.kikirpa.be/ ；https://www.sintbaafskathedraal.be/en/history/the-ghent-altarpiece/
+7. **Facio《名人传》1456（最早的批评文字）**（[R13] 拉丁原文）："Joannes Gallicus nostri saeculi Pictorum princeps judicatus est, litterarum nonnihil doctus Geometriae praesertim … putaturque ob eam rem multa de colorum proprietatibus invenisse"（他被判为当代画家第一人；通文墨、尤精几何；据 Pliny 等古作者研读，于色彩性质多所发现）；对《浴女》（Woman Bathing）的记述："nihil prope admirabilius … quam speculum in eadem tabula depictum, in quo quaecumque inibi descripta sunt, tanquam in vero speculo prospicias"（几乎没有比画中那面镜子更令人惊叹的——其中所绘万物，如在一面真镜中）。要点：**镜面=同时代已被识别为他的签名绝技**；"通几何/读 Pliny"是最早的"学者型画家"评价。URL：https://archive.org/details/bub_gb_rpY9QQKnTVUC
+8. **空气透视与植物学（"科学式观察"）**（[R5][R7]）：远景群山为艺术史已知**最早的空气透视**之一；植物 75–81 种（Segal 1984 数 81；2018 修复后清点 75 种、48 种可定种）；1822 年 Johanna Schopenhauer 已开始辨认药草。要点：风景也是**可查证的标本册**——"物证档"向自然的延伸。URL：https://en.wikipedia.org/wiki/Ghent_Altarpiece
+9. **"发明油画"神话的构成**（[R12][R4]）：Vasari 1550/1568 叙述"Giovanni da Bruggia"以炼金式实验熬制亚麻油/核桃油清漆、发现油性载色剂→传给 Ruggieri→Antonello 传入意大利；现代研究判定"发明说"为**过度简化**（油性媒介早已存在，他是定型者）。要点：**接受史本身即证据**——说明其技术声望的起点；本模块写作须区分"神话"与"工艺"。URL：https://en.wikisource.org/wiki/Lives_of_the_Most_Excellent_Painters,_Sculptors,_and_Architects/Antonello_of_Messina
+
+---
+
+## 8. 提示词模块
+
+### 8.1 图像生成模块（英文 prompt + 中文说明）
+
+**正向段（可直接粘贴）**
+```
+Van Eyck-style oil panel — evidence-grade micro-realism in oil on oak:
+one room under a single directional daylight from a window on the left; short, consistent shadows;
+every material rendered at forensic fidelity — silk velvet, brocade threads countable,
+sable fur with broken edges and no sheen, brass chandelier catching sharp point highlights,
+polished wood reflecting the oranges on the sill, amber prayer beads casting BOTH a shadow and a
+reflection on the plaster wall; a convex mirror on the back wall holding a readable second space:
+the room, the couple seen from behind, the door, two tiny figures entering;
+faces modelled wet-in-wet over thin translucent glazes — jewel-deep colour, no visible brushwork,
+stubble built from tiny dabs (darker first, lighter after, a touch of blue at the chin);
+objects carry a double reading (real thing first, symbol second): one lit candle, a lap dog,
+oranges, discarded clogs, the mirror itself; an inscription painted as if chiselled into stone or
+cast in bronze on the frame — a motto, a name, a date ("ALS ICH CAN", "fuit hic");
+palette: crimson, emerald, ultramarine, gold, lead white, warm grey; matte-versus-gloss contrast
+per material; still, silent, courtly; faithful observation, proportions quietly adjusted, no idealisation
+[drawing variant] silverpoint and brush on a chalk ground: fine hatching, detail density receding with
+distance, tower architecture minutely described, sky barely sketched
+```
+**负向约束（`--no` 风格）**
+```
+--no impasto or visible brushwork, no palette-knife texture, no sfumato haze swallowing detail,
+no single-point hard cast shadows, no multiple light sources, no near-black tenebrist background,
+no flat poster colours, no neon saturation, no impressionist dabs covering the canvas,
+no smiling camera-ready faces, no anachronistic objects, no lens flare or bokeh,
+no cartoon, anime, 3D render, photographic HDR
+```
+**中文使用说明**
+- 三档先跑：P1 微细节 70% + P4 光链 70% + P3 材质 65% 是「是不是凡·艾克」的起步；物证档（阿尔诺菲尼/凡德帕勒级）把 P1/P2 升到 80–95%；素描/素描感档（圣芭芭拉级）把 P1 降到 20–30% 并切到 [drawing variant]。
+- 生成后自查三件事：① **1:1 放大是否仍有信息**（织物可数线、高光成点、非"远看像近看空"）？② **反射是否含内容**（镜/盔甲/水面里有可读空间或人影，而非纯亮斑）？③ **光是否单链**（全帧投影方向一致；至少一处物件影与反光并存）？
+- 组合注意（预检写死）：与**维米尔**模块组合时，冲突轴 = **细节经济**（累积 vs 选择）与**反射类型**（含内容的镜 vs 点状暗示）——必须选一个主导（建议 70/30 起）；与**达·芬奇**组合时，冲突轴 = **边缘/表面**（sfumato 烟状过渡 vs 镜面锐点高光；C-05 同侧"无笔触"但表面机制相反）；与**卡拉瓦乔**组合时，冲突轴 = **光源数与背景**（凡：窗光照满整间房 + 完整反射链 vs 卡：画外单光 + 近黑背景）；与 Lane B 组合时，「硬阴影」禁令（C-01）**不封堵**凡·艾克的窗光（他需要的是"**柔投影 + 锐高光**"的组合）——若模板严格字面读，按 N1 改写句式；高光计数按 N7 分类口径（凡的高光**服务镜面几何**，与卡拉瓦乔的主光斑计数不同类）。
+
+### 8.2 代码艺术模块（8 条可判定规则，逐帧可查）
+
+1. **微细节密度规则**：长边 1800px 帧中，随机 3 个 300×300px 前景裁片，每片可辨识独立小物/高光事件 **≥8**；织物区一条 100px 横切线上可数纹理线 **≥6**。自查：裁片目检 + 边缘密度图 + 线频率谱。（依据：[R1] "astonishing level of detail"；[R16] 织线可辨）
+2. **镜面内容规则**：**≥1** 个反射面（凸镜/金属/水面），其内部区域（面积 ≥0.5% 帧）含可读结构——**≥2** 条直线元素（房间线脚/窗框）+ **≥1** 个小人影（高度 ≤5% 帧高）。自查：反射区域分割 + 直线检测（Hough）+ 小尺度人形检测。（依据：[R6] 镜中两人影；[R16] 盔甲中的圣母与画家）
+3. **点状高光规则**：金属/玻璃/宝石上的高光为离散点（单点面积 ≤0.05% 帧面积，数量 ≥15），且每个高光点位于**入射角一致**的几何位置（同一光源方向）——与维米尔 pointillés 的区分：凡的高光**服务镜面几何**、维的服务材质暗示（按 N7 分类口径统计）。自查：高光连通域 + 光源方向拟合。（依据：[R1] 念珠逐粒高光）
+4. **光链一致规则**：全帧主投影方向夹角 **≤10°**；**≥1** 物件同时呈现投影与镜像反射；无第二主光源（窗外的烛光等亮度 ≤ 主窗光斑峰值 30%——烛是符号不是光源）。自查：投影方向直方图 + 影/反光共存计数。（依据：[R5] 画面外光源；[R1] 念珠影+反光）
+5. **材质高光形态规则**：**≥5** 类材质各有专属高光形态——织物=宽漫反射（高光区面积 ≥2%、边缘软）、金属=锐点（σ ≤2px）、毛皮=无高光（V>0.9 区域 ≤0.1%）、玻璃=透射+反射双区、木/石=哑光+纹理。自查：材质分类 + 高光形态统计。（依据：[R1][R16]）
+6. **铭文拟物规则**：**≥1** 处铭文（署名/日期/格言）以拟物方式呈现——文字区与支撑材质视觉融合（刻石/铸铜/织物），字体 ∈ {哥特体, 罗马大写, 希腊字母转写}；文字基线贴合支撑面透视。自查：文字检测 + 文字区与材质边界融合检查。（依据：[R2] 刻石感签名；[R15] 双层铜框铭文）
+7. **深度嵌套规则**：**≥2** 层可读空间（室内→窗→远景；或主空间→镜中空间）；每层独立信息（远景层含 ≥1 建筑轮廓 + 天空带）；层间以物理开口连接（窗/镜/门）。自查：层次分割 + 每层信息量下限。（依据：[R1] 窗外樱桃树；[R6] 镜中空间）
+8. **静止与在场规则**：全画面无运动模糊（模糊核 ≤1px）；直视画外者 **≤1**；手势可命名率 ≥1（宣誓/呈递/持物/致敬）；无戏剧性动作姿态。自查：光流=0（视频帧）+ 视线检测 + 姿态分类。（依据：[R4] 手部意义；[R1] 举手问候）
+
+> 以上阈值为本项目 `[归纳]`，**未对原作做像素测量**（分母＝假想参考帧）；2–4 条与 §3.1 分工判据同轴，组合实验时以本节自查表为准。
+
+### 8.3 野外样本（可选）
+
+- **检索结果**：对本地语料 `knowledge/domains/motion-graphics/origin/`（15 卡素材）、`knowledge/agent-art/`、`knowledge/cross/conflicts.md` 全文 grep `eyck|van eyck|arnolfini|凡·艾克` → **零命中**——未找到以凡·艾克命名的野外样本卡（与戈雅/卡拉瓦乔/蒙克同况）。
+- **但与 Lane B 的机制关系（可操作，三条）**：
+  1. **高光计数口径（C-11/N7）**：凡·艾克的高光是"离散小点 × 数量多"（念珠/吊灯/宝石级），若与卡拉瓦乔模块（主光斑连通域 ∈[2,5]）同帧，必须按 N7 的**分类口径**统计（主光斑 / 点状高光分开计数），否则互相误判。`[史料]`（本机 `conflicts.md` C-11/N7 原文，行号已核）。
+  2. **「硬阴影」反约束（C-01/N1）**：凡·艾克的窗光需要"**柔投影 + 锐高光**"——模板的「别做成：硬阴影」字面禁令**不封堵**其投影（柔），但会误伤其**锐点高光**；组合时按 N1 改写句式（显式声明"高光锐、阴影柔"）。`[史料]`（`conflicts.md` C-01 原文）。
+  3. **正协同（凡·艾克独有）**：他全部作品 PD（1441 年卒，无版权风险），且**题刻系统**（署名/格言/年份）天然适配 10 秒分镜的"结尾落地文案"槽位——与戈雅版画题刻同理，是 Lane B 的**合法素材源 + 文案范式**。`[归纳]`。
+
+---
+
+## 9. 参考资料（编号 ↔ 正文标注）
+
+| # | 来源 | URL | 本机可达性（2026-10-16） |
+|---|---|---|---|
+| R1 | National Gallery London —《The Arnolfini Portrait》(NG186) 作品页（含 In-depth 技术分析） | https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait | ✅ 直读 |
+| R2 | National Gallery London —《Portrait of a Man (Self Portrait?)》(NG222) 作品页 | https://www.nationalgallery.org.uk/paintings/jan-van-eyck-portrait-of-a-man-self-portrait | ✅ 直读 |
+| R3 | National Gallery London —《Portrait of a Man ('Léal Souvenir')》(NG290) 作品页 | https://www.nationalgallery.org.uk/paintings/jan-van-eyck-portrait-of-a-man-leal-souvenir | ✅ 直读 |
+| R4 | Wikipedia (en) — Jan van Eyck（生平/签名/铭文/影响；三手，交叉用） | https://en.wikipedia.org/wiki/Jan_van_Eyck | ✅ 直读（API） |
+| R5 | Wikipedia (en) — Ghent Altarpiece（结构/风格/修复史；三手，交叉用） | https://en.wikipedia.org/wiki/Ghent_Altarpiece | ✅ 直读（API） |
+| R6 | Wikipedia (en) — Arnolfini Portrait（象征辩论/镜面/材质；三手，交叉用） | https://en.wikipedia.org/wiki/Arnolfini_Portrait | ✅ 直读（API） |
+| R7 | Wikipedia (de) — Genter Altar（铭文/修复/历史细节；三手，交叉用） | https://de.wikipedia.org/wiki/Genter_Altar | ✅ 直读（API） |
+| R8 | Wikipedia (nl) — Het Lam Gods (gebroeders Van Eyck)（四行诗译文/结构） | https://nl.wikipedia.org/wiki/Het_Lam_Gods_(gebroeders_Van_Eyck) | ✅ 直读（API） |
+| R9 | Wikipedia (de) — Hubert van Eyck（**四行诗逐字转录** + 真伪辩论）；en 版对照 | https://de.wikipedia.org/wiki/Hubert_van_Eyck | ✅ 直读（API） |
+| R10 | Sint-Baafskathedraal（圣巴夫大教堂）— The Ghent Altarpiece 历史页（官方四行诗英译） | https://www.sintbaafskathedraal.be/en/history/the-ghent-altarpiece/ | ✅ 直读（curl） |
+| R11 | Closer to Van Eyck（KIK-IRPA）— 根特祭坛画与凡·艾克作品的超高分辨率研究平台（VERONA 项目） | https://closertovaneyck.kikirpa.be/ | ◐ 入口页直读；数据层为 JS 应用（本机未直读其图层） |
+| R12 | Vasari《Lives of the Most Excellent Painters…》（Foster 译本）— "Antonello of Messina"（"发明油画"叙述全文） | https://en.wikisource.org/wiki/Lives_of_the_Most_Excellent_Painters,_Sculptors,_and_Architects/Antonello_of_Messina | ✅ 直读 |
+| R13 | Bartolomeo Facio《De viris illustribus》（Mehus 编 1745 版**拉丁原文全文**）— "Joannes Gallicus"章 | https://archive.org/details/bub_gb_rpY9QQKnTVUC | ✅ 直读（archive.org 全文） |
+| R14 | Albrecht Dürer《Tagebuch der Reise in die Niederlande》（"Dürer's Briefe, Tagebücher und Reime" 版**德文原文全文**）— 1521-04-10 根特条 | https://archive.org/details/drersbriefetage00drgoog | ✅ 直读（archive.org 全文） |
+| R15 | Wikipedia (en) — Dresden Triptych（框铭/结构/光） | https://en.wikipedia.org/wiki/Dresden_Triptych | ✅ 直读（API） |
+| R16 | Wikipedia (en) — Virgin and Child with Canon van der Paele（框铭/材质/病容/盔甲反射） | https://en.wikipedia.org/wiki/Virgin_and_Child_with_Canon_van_der_Paele | ✅ 直读（API） |
+| R17 | Wikipedia (en) — Madonna in the Church（尺度=教会化身/铭文） | https://en.wikipedia.org/wiki/Madonna_in_the_Church | ✅ 直读（API） |
+| R18 | Wikipedia (en) — Portrait of Margaret van Eyck（框铭/修复史） | https://en.wikipedia.org/wiki/Portrait_of_Margaret_van_Eyck | ✅ 直读（API） |
+| R19 | Wikipedia (en) — Portrait of Jan de Leeuw（框铭/计时铭/"说话"论） | https://en.wikipedia.org/wiki/Portrait_of_Jan_de_Leeuw | ✅ 直读（API） |
+| R20 | Wikipedia (en) — Lucca Madonna（象征/宝座/日常空间） | https://en.wikipedia.org/wiki/Lucca_Madonna | ✅ 直读（API） |
+| R21 | Wikipedia (en) — Saint Barbara (van Eyck)（素描属性/细节递减/框铭） | https://en.wikipedia.org/wiki/Saint_Barbara_(van_Eyck) | ✅ 直读（API） |
+| R22 | Wikipedia (en) — Annunciation (van Eyck, Washington)（光柱/透视） | https://en.wikipedia.org/wiki/Annunciation_(van_Eyck,_Washington) | ✅ 直读（API） |
+| R23 | Wikipedia (en) — Saint Francis Receiving the Stigmata (van Eyck)（两版归属辩论/岩石） | https://en.wikipedia.org/wiki/Saint_Francis_Receiving_the_Stigmata_(van_Eyck) | ✅ 直读（API） |
+| R24 | Wikipedia (en) — Crucifixion and Last Judgement diptych（工坊补完/结构） | https://en.wikipedia.org/wiki/Crucifixion_and_Last_Judgement_diptych | ✅ 直读（API） |
+| R25 | Wikipedia (en) — Madonna of Chancellor Rolin（双光/远景） | https://en.wikipedia.org/wiki/Madonna_of_Chancellor_Rolin | ✅ 直读（API） |
+| R26 | Wikipedia (en) — Turin–Milan Hours（"手 G"归属） | https://en.wikipedia.org/wiki/Turin%E2%80%93Milan_Hours | ✅ 直读（API） |
+| R27 | Wikipedia (en) — The Three Marys at the Tomb (Hubert van Eyck?)（工作室/归属） | https://en.wikipedia.org/wiki/The_Three_Marys_at_the_Tomb_(Hubert_van_Eyck%3F) | ✅ 直读（API） |
+| R28 | Wikimedia Commons — 17 个文件页（许可/尺寸逐张核验；清单见 `_images/van_eyck/MANIFEST.md`） | 见 MANIFEST「总表」列 | ✅ imageinfo 逐张核验 |
+
+**交叉核对（关键事实，双源及以上）**
+
+1. **生卒/宫廷履历（1390 前后–1441-07-09；1425 起效力菲利普）**：[R4] × [R10]（大教堂官方史）× [R7] → **CONFIRMED**（出生年份口径 1380/1390 两存，已并列）。
+2. **根特祭坛画铭文与 1432-05-06**：[R9]（逐字转录）× [R10]（官方英译）× [R7]（德译 + 计时铭说明）→ **CONFIRMED**（铭文真伪辩论另记，见 §10）。
+3. **阿尔诺菲尼技术细节（底稿分阶段/后期加物/拇指印/快速笔法）**：[R1]（NG 官方）× [R6]（Wikipedia 技术段）→ **CONFIRMED**。
+4. **丢勒 1521-04-10 观画记录**：[R14]（德文原文逐字）× [R7]（引用一致）→ **CONFIRMED（逐字）**。
+5. **Facio 1456 评价与镜面记述**：[R13]（拉丁原文逐字）× [R4]（"named 'the leading painter'"）→ **CONFIRMED（逐字）**。
+6. **"发明油画"为转记级神话**：[R12]（Vasari 原文）× [R4]（"oversimplification"）→ **CONFIRMED**。
+
+---
+
+## 10. 缺口与待验证
+
+1. **出生年份/地点无档案**：c.1390 与 c.1380 两说并存；马塞克为 16 世纪晚期传统记载 + 方言旁证（[R4]）。未找到（已查: [R4] 全文、[R7]）更早一手记录。
+2. **Hubert 存在性与根特祭坛分工**：铭文真伪有辩论——16 世纪根特地方爱国主义伪造说（Büttner）vs 2012– 修复研究"原框首层书写"说；Herzner 1995 认为 Hubert 贫困而终、无一件确证作品、兄弟关系可疑（[R9][R7]）；[R5]："no convincing separation has been established"。本档案按"两说并存"处理。
+3. **墓志铭原文未回查**：圣多纳提安教堂 1799 年拆毁、墓石已失，转录本未直读。未找到（已查: [R4]、[R9]、en.wikipedia 检索 "Spirantes formas" / "eximia clarus virtute" 零命中）。
+4. **Cyriacus of Ancona 1449 记述未回查原文**：[R4] 仅称其"提及凡·艾克为重要画家"，无引文；未找到（已查: [R4]、en.wikipedia "Ciriaco de' Pizzicolli" 页无相关段）。
+5. **油性媒介配方细节未回查**（亚麻油/核桃油/干燥剂/树脂比例）：Vasari 叙述为转记级（[R12]）；KIK-IRPA/NG 技术论文全文未直读（[R11] 数据层为 JS 应用；NG 技术报告仅摘要页）。待补：KIK-IRPA 出版物与 Campbell 1998 目录全文。
+6. **定量阈值为 `[归纳]`、未实测**：§4 六参数与 §8.2 八条规则阈值均未对原作做像素测量（分母＝假想参考帧）；组合实验可按 §8.2 自查表回改。
+7. **已失原作仅存摹本**：《浴女》（Facio 记镜面名作）与《伊莎贝拉肖像》原物无存（[R4][R13]）——本档案只引记述，不建图像条目。
+8. **《都灵-米兰时祷书》"手 G"归属为假说**（1901 起通行；Kren 指出其年代早于任何确证的艾克式板画——[R4][R26]）。
+9. **《圣方济各接受圣痕》两版（费城/都灵）归属辩论**：[R23]；图库采用费城版（Commons 标 "Attributed to"）。
+10. **图库以标准缩略尺寸落盘**（长边 ≤1800；Commons 对原图下载限流 429）；原生大图待限流解除后补采（见 `_images/van_eyck/MANIFEST.md`「缺口」）。
+11. **未逐页直读的页面**：NG 目录条目（Campbell 1998 全文）、Groeningemuseum / Städel / NGA / KHM 藏品页、KIK-IRPA 修复报告——引用均经 [R1]–[R3] 摘要页与 Wikipedia 转引，标 `[UNVERIFIED]` 待补。
+
+<!-- SEGMENT-6 -->
+
+
+
+
