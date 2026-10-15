@@ -4,7 +4,7 @@
 > 类型标注：`[self-written]` 本人书写（自传笔记/书信/题记）· `[reported speech]` 他人转记（对话/回忆/轶事）· `[contemporary record]` 同时代记录与评述（1906–1909）· `[research]` 后出研究/馆方分析。
 > 底本：**Karl Asplund《Anders Zorn: His Life and Work》（The Studio, 1921）全文 OCR**（Internet Archive `anderszornhislif0000karl`；行号为本机 OCR 文本行号，可复核）＋ **1906 Durand-Ruel 展览目录**（Henry Marcel 撰导论；archive.org `expositionanders00zorn`）＋ **BnF《Zorn: Exposition de son œuvre gravé》（1952）**（archive.org `bnf-bpt6k6457980v`；含 Gerda Boëthius 撰条目）＋ **Birge Harrison《Landscape Painting》（1909）**（archive.org `landscapepaintin00harr`）＋ 佐恩博物馆（zorn.se）作品页所引自传笔记。
 > **口径（重要）**：佐恩**无理论著作、无宣言**；亲笔文字以**《自传笔记》（Självbiografiska anteckningar）**、书信与题记为主，存世分散。凡转引条目均注明转引链；英/法/瑞典语原文可得处保留原文；**「自传笔记」条目凡本机未见原书者，均标注「英译转引，原文未核」**——不得当作逐字原文使用。
-> **核验记录（2026-10-16）**：Asplund 条目（#4–#7、#17、#24–#27）已在本机 OCR 全文逐条定位（行号标注）；Harrison 条目（#12）已在本机 OCR 全文定位（行 3552–3563）；Durand-Ruel 条目（#13–#15）已在 1906 目录文本定位；BnF 条目（#16、#18–#19、#28–#31）已在 1952 目录文本定位。佐恩博物馆条目（#1–#3、#21–#23）为官网直读（2026-10-16）。
+> **核验记录（2026-10-16）**：Asplund 条目（#4–#7、#17、#24–#27）已在本机 OCR 全文逐条定位（行号标注）；Harrison 条目（#12）已在本机 OCR 全文定位（行 3552–3563）；Durand-Ruel 条目（#13–#15）已在 1906 目录文本定位；BnF 条目（#16、#18–#19、#28–#31）已在 1952 目录文本定位；Jansson 条目（#32–#33）已同日补取全文（497 页）后直读定位——「转引」标注撤销。佐恩博物馆条目（#1–#3、#21–#23）为官网直读（2026-10-16）。
 > 引用格式建议：`Zorn, Självbiografiska anteckningar（转引 佐恩博物馆，2026-10-16 读取）`；`Asplund 1921（行 N；经本机 OCR 核）`。
 
 ---
@@ -242,14 +242,23 @@
 - 类型：[research]
 - 中文意译：他的平行排线——上墨的垄沟，被留白的「间垄」隔开，让纸白参与振动——给他带来更尖锐的震颤。明度诞生于排线的靠近或疏远；而形体，仅由排线的中断来创造——再没有任何线条去勾轮廓。
 
-### 32. Jansson 2022：四色是肖像纪律（转引）
-> "There exists a popular perception that the artist favored a restricted palette consisting of only four colors – lead white, yellow ochre, vermillion, and ivory black," write Jansson, "sometimes referred to as the Zorn palette." … "more recent analyses of his materials have shown that his palette also included a handful of modern synthetic pigments."
+### 32. Jansson 2022：调色板教导——「可追溯到画家本人」（全文直读）
+> Commenting on the artist's recommended use of colours, Zorn's former pupil at Konstnärsförbundet's art school, Bertha Wilhelmson, stated that the artist instructed the use of only five colours: black, white, light ochre, dark ochre and vermilion. Wilhelmson further notes that any colder bluish or grey tones were to be mixed using black and white, and also that Zorn despised the use of cobalt blue.
 
-- 来源：Emma Jansson,《Making in Context: Reconsidering Anders Zorn's Oil Painting Practice》（2022，斯德哥尔摩大学博士论文；DiVA `diva2:1649331`）；本机经 Christopher Volpe 书评（Streamline Publishing）与 methods.art 两处独立转引。
-- 类型：[research]（**转引**；论文全文 PDF 本机下载两次均被服务器截断，见档案 §10）
-- 中文意译：詹森写道：「流行看法认为这位艺术家偏爱只用四种颜色的限制性调色板——铅白、黄赭、朱红、象牙黑，有时被称作『佐恩调色板』。」……「但对其材料的最新分析显示，他的调色板还包括若干种现代合成颜料。」
+- 来源：Emma Jansson,《Making in Context: Reconsidering Anders Zorn's Oil Painting Practice》（2022，斯德哥尔摩大学博士论文，497 页；DiVA `diva2:1649331`）；**全文 PDF 已于 2026-10-16 补取并直读**（私有层 `_private/books/zorn/jansson2022_thesis.pdf`）。
+- 类型：[research]（**直读核验**——原「转引」标注撤销）
+- 中文意译：（詹森写道）谈到这位艺术家被推荐的用色，佐恩在艺术家协会（Konstnärsförbundet）美术学校的前学生 Bertha Wilhelmson 陈述道：他教导只用五种颜色——黑、白、浅赭、深赭、朱红。Wilhelmson 并指出：一切偏冷的蓝调或灰调都要用黑与白调出；且佐恩鄙视使用钴蓝。
+- 注：同书指出「佐恩调色板」这一限制性选择**可追溯到画家本人**（can in turn be traced back to the painter himself）；1896《自画像与模特》是他对这一限制色域的自我宣示（advocate）。
+
+### 33. Jansson 2022：「不应被视为仅限四色」（全文直读）
+> …the palette should not be regarded as consisting of the limited array that is often suggested through the so-called Zorn palette (ivory black, lead white, vermilion and yellow ochre). For while this four-colour selection might relate to contemporary accounts and also later art historical interpretations, it is also important to recognise that there are often discrepancies between artists' utterances and their practices in reality. Such is the case with Zorn's use of colours, exemplified for example by the artist's purchase and use of cobalt blue, despite his professed disdain for this particular pigment.
+
+- 来源：同上（Jansson 2022，全文直读）。
+- 类型：[research]（**直读核验**）
+- 中文意译：……不应把（佐恩的）调色板视为「佐恩调色板」通常暗示的那份受限清单（象牙黑、铅白、朱红、黄赭）。这一四色组合或与同时代记述及后世艺术史解释相关，但也须承认：艺术家的言说与其实际做法之间常有出入——佐恩对颜色的使用即是一例：他既公开表示鄙视钴蓝，却又购买并使用钴蓝。
+- 注：同书核出的遗留管装颜料清单（12 种）为——黄赭、镉黄、朱红（或作 carmine/Chinese）、茜草红、钴蓝、群青、翡翠绿、Paolo Veronese 绿、铬绿、象牙黑、锌白、铅白；并记这批颜料在萨金特遗留调色板上同样检出（对读 §3.1）。
 
 ---
 
-**统计**：共 **32 条**：自传笔记/亲笔 **11 条**（#1–#11；其中 #8–#11 为英译转引）· 同时代记录 **9 条**（#12–#20）· 馆方与研究 **12 条**（#21–#32）。Asplund 1921 条目 **9 条**经本机 OCR 行号定位（#4–#7、#17、#24–#27）；Durand-Ruel 1906 条目 3 条（#13–#15）；BnF 1952 条目 **7 条**（#16、#18–#19、#28–#31）；Harrison 1909 条目 1 条（#12）；佐恩博物馆直读 6 条（#1–#3、#21–#23）。
+**统计**：共 **33 条**：自传笔记/亲笔 **11 条**（#1–#11；其中 #8–#11 为英译转引）· 同时代记录 **9 条**（#12–#20）· 馆方与研究 **13 条**（#21–#33）。Asplund 1921 条目 **9 条**经本机 OCR 行号定位（#4–#7、#17、#24–#27）；Durand-Ruel 1906 条目 3 条（#13–#15）；BnF 1952 条目 **7 条**（#16、#18–#19、#28–#31）；Harrison 1909 条目 1 条（#12）；Jansson 2022 条目 **2 条**（#32–#33）全文直读（2026-10-16 补取全文）；佐恩博物馆直读 6 条（#1–#3、#21–#23）。
 **未收条目说明**：「painting portraits of the dead」（学画时期为死者画像谋生）一说仅见 zorninamerica.com 单源，暂不采信为逐字材料（见档案 §10-6）；Asplund 记其逝世月「September」与官方 8 月 22 日不合，按笔误处理（见 §10-5）。

@@ -23,7 +23,7 @@
   3. *Sommarnöje*（夏趣）1886，私人收藏（2010 年 2600 万 SEK 成交，瑞典画作拍卖纪录）— enwiki 条目 https://en.wikipedia.org/wiki/Sommarn%C3%B6je
   4. *Självporträtt med modell*（自画像与模特）1896，Nationalmuseum（含四色调色板画面证据）— Commons https://commons.wikimedia.org/wiki/File:Sj%C3%A4lvportr%C3%A4tt_av_Anders_Zorn_1896.jpg
   5. *Mona*（母亲像）蚀刻 1911（Asplund 152；Met 384580 / Cleveland 1942.770）— https://www.metmuseum.org/art/collection/search/384580
-- **语料/图库**：`_corpus/zorn.md`（32 条：自传笔记/同时代记录/馆方研究）；`_images/zorn/`（19 张：Commons PD 12 + Met CC0 6 + Cleveland CC0 1）；私有层 `_private/INVENTORY_zorn.md`（Asplund 1921 / 1906 目录 / BnF 1952 等书 6 件 + 高清 16 件）。
+- **语料/图库**：`_corpus/zorn.md`（33 条：自传笔记/同时代记录/馆方研究）；`_images/zorn/`（19 张：Commons PD 12 + Met CC0 6 + Cleveland CC0 1）；私有层 `_private/INVENTORY_zorn.md`（Asplund 1921 / 1906 目录 / BnF 1952 / Jansson 2022 全文等书 9 种（12 件）+ 高清 16 件）。
 
 ---
 
@@ -54,7 +54,7 @@
 4. **白保留到最后**：铅白只用于最终的小而厚的高光（瞳孔、鼻头、领边、首饰）；中调阶段过早加白会「粉化」，不可逆。`[研究]`（[R16] Jansson，转引）
 5. **纯油画颜料、不加媒介**：直接以管装颜料作画，不用调色油/松节油稀释、不罩染；与萨金特/索罗拉的「无媒介直接画法」同代纪律。`[研究]`（[R16] methods.art，转引；与 [R8]「zébrures」互证）
 6. **站着画、退后看**：立姿作画、在画与模特之间来回走；木调色板斜靠窗光以消除眩光。`[研究]`（[R16] Jansson/methods.art，转引）
-7. **颜料清单与四色例外**：同代记录只列四色（朱红/黄赭/黑/白，[R11]）；1896《自画像与模特》画面上的调色板可见「白、棕、黑 + 一点茜草红」（[R9] Asplund 观察）；技术分析（XRF/截面 + 遗留管装颜料）另检出锌白、铬绿、钴蓝、群青、镉黄等现代颜料——**「四色是肖像纪律，不是全部家当」**。`[史料]`+`[研究]`（[R9][R16]；例外清单见 §10-1）
+7. **颜料清单与四色例外**：同代记录只列四色（朱红/黄赭/黑/白，[R11]）；1896《自画像与模特》画面上的调色板可见「白、棕、黑 + 一点茜草红」（[R9] Asplund 观察）；技术分析（XRF/截面 + 遗留管装颜料 12 种清单）另检出锌白、铬绿、钴蓝、群青、镉黄等现代颜料——**「四色是肖像纪律，不是全部家当」**；其学生 Wilhelmson 记其教学口径为**五色**（黑/白/浅赭/深赭/朱红，冷色由黑+白调出）且他「鄙视钴蓝」却仍购用钴蓝（言与行的出入——Jansson 2022 全文直读，语料 #32–#33）。`[史料]`+`[研究]`（[R9][R16]；例外清单见 §10-1）
 8. **水彩工作法**：先铺柔和薄调；**待干后**以数笔快速、转折的深色笔触收束——「靠这个公式产生惊人的真实感」（Asplund 语）；纸白承担最亮部。`[史料]`（[R9] Asplund 行 1193–1197）
 9. **蚀刻：单一针法纪律**：纯线蚀刻 + 手工刮版调子（让油墨在暗部散开成浅影）；咬版后偶以刻刀（burin）收尾；**鄙视飞尘等「技术花招」**，滚点（roulette）罕用；仅 1898 年三件（《早餐》与两版《笑模》）在 Tallberg 工作室试过软底。`[史料]`（[R9] Asplund 行 3679–3695）
 10. **蚀刻：平行线骤雨**：以平行的排线「垄沟」构筑形体——明度来自线距的远近、形体来自线的中断；「近看乱麻、远看成形」。1889 年自刻像起定型，1889–1893 年确立毕生风格。`[史料]`（[R10] BnF 1952；[R9] Asplund 行 3288–3320）
@@ -113,9 +113,9 @@
 
 ---
 
-## 5. 自述与原话（10 条；完整语料 32 条见 `_corpus/zorn.md`）
+## 5. 自述与原话（10 条；完整语料 33 条见 `_corpus/zorn.md`）
 
-> 口径：佐恩**无理论著作**；以下全部为自传笔记、题记或转记（载体逐条标注）。不得把其中任何一条当作「他内心状态」的证据——一律按「他写下/说出的操作陈述」使用。凡「英译转引、原文未核」者已标注。
+> 口径：佐恩**无理论著作**；以下全部为自传笔记、题记或转记（载体逐条标注）。《自传笔记》写于 1907–1914（记至 1911），身后由 Brummer 编（1982）、Sandström 更新（2002）——本机未获原书，凡引用处保留转引链。不得把其中任何一条当作「他内心状态」的证据——一律按「他写下/说出的操作陈述」使用。凡「英译转引、原文未核」者已标注。
 
 1. **《午夜》主题句（自传笔记）**
    原文：`En ljus, kall, nordisk sommarnatt.`
@@ -274,7 +274,7 @@ digital smoothness, photo-bash, 3D render, cartoon, text
 | R13 | Cleveland Museum of Art — Open Access API（Zorn 54 件，全 CC0） | https://openaccess-api.clevelandart.org/api/artworks/?q=Zorn | ✅ curl 直连 |
 | R14 | sv.wikipedia —《Anders Zorn》（生平细节：卒因/荣誉/雕塑） | https://sv.wikipedia.org/wiki/Anders_Zorn | ✅ raw 直读 |
 | R15 | Hagans,《Zorn in America》网站（美国委托与总统肖像） | https://www.zorninamerica.com/introduction.html | ✅ 直读 |
-| R16 | Emma Jansson,《Making in Context: Reconsidering Anders Zorn's Oil Painting Practice》（斯德哥尔摩大学，2022；DiVA）+ 二手转引（methods.art / Streamline 书评） | https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1649331 | ◐ **PDF 下载两次均被服务器截断**（32MB 处断流，见 §10-7）；引用经两处独立二手转引 |
+| R16 | Emma Jansson,《Making in Context: Reconsidering Anders Zorn's Oil Painting Practice》（斯德哥尔摩大学博士论文，2022，497 页；DiVA） | https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1649331 | ✅ 全文 PDF + 文本已取得（126 MB，2026-10-16；私有层）；核心引文直读核验（语料 #32–#33） |
 | R17 | Wikimedia Commons — 图库 12 张文件页（逐张 imageinfo 核验许可/尺寸） | 逐张见 `_images/zorn/MANIFEST.md` | ✅ API 直连（**上传域限流 429**，经 wsrv.nl 镜像绕行，记录见 MANIFEST） |
 | R18 | en.wikipedia —《Anders Zorn》《Sommarnöje》（拍卖纪录等） | https://en.wikipedia.org/wiki/Anders_Zorn | ✅ raw 直读 |
 
@@ -284,16 +284,16 @@ digital smoothness, photo-bash, 3D render, cartoon, text
 
 ## 10. 缺口与待验证
 
-1. **四色调色板的「例外」口径**：Jansson 2022 技术分析检出锌白、铬绿、钴蓝、群像、镉黄、翡翠绿等（转引 [R16]）；佐恩工作室遗留「十七管钴蓝」（同上）。处置：本档案判读口径维持 **≤4 主色**（与 `sargent.md` §3.1 判据①一致）；例外作为「P1 中档」的依据写入 §4。
+1. **四色调色板的「例外」口径**：Jansson 2022 技术分析检出锌白、铬绿、钴蓝、群青、镉黄、翡翠绿等（[R16]）；佐恩工作室遗留「十七管钴蓝」（同上）。处置：本档案判读口径维持 **≤4 主色**（与 `sargent.md` §3.1 判据①一致）；例外作为「P1 中档」的依据写入 §4。（2026-10-16 补取 Jansson 全文后：Wilhelmson 五色教导、管装清单 12 种、「不应视为仅限四色」结论均已直读核验——语料 #32–#33。）
 2. **蚀刻张数三口径**：288（[R10] BnF 1952）/ 289（[R9] Asplund 图目终号 #289《Against the Current》1919；svwiki 同）/ 290（[R1] 佐恩博物馆）。处置：正文用「288–290（三口径）」并脚注；**未找到**三口径差的具体来源说明（已查: [R9] 图目逐号、[R10] 导论、[R1][R2]）。
 3. **婚礼日期两口径**：10 月 16 日（[R9] Asplund「married on October 16th」；[R14] svwiki）vs 10 月 18 日（[R4] 佐恩博物馆 Emma 页「den 18 oktober gifte de sig borgerligt i Stockholms rådhus」）。处置：并记（§11.2 行注）；**未找到**登记档案原件（已查: 已读全部馆方页与 svwiki 注）。
 4. **卒因细节**：svwiki 记「njurbäckeninflammation（肾盂炎）→ 脓毒症、腹壁感染，兼肺气肿」；Asplund 记「危险的（腹部）手术未能挽救」且误记「That September saw the end」（实为 8 月 22 日）。处置：正文以 8 月 22 日为准，卒因双记（§11.1 末段）；**一手医学记录未核**。
 5. **出生「牛棚」说**：Asplund 记其母「在 Gruddgården 的牛棚里分娩」；Hagans 网站作「born in a cowshed」；而 svwiki/馆方仅记「生于 Gruddgården」。处置：正文从简（生于 Gruddgården 农舍），牛棚细节存目。
 6. **「学画时期为死者画像谋生」**：仅见 [R15] 单源（「began his career by painting portraits of the dead to make ends meet」）。处置：不采信为逐字材料，存目待核（已查: [R9] 全文 grep `dead/deceased/funeral` 仅见其母浮雕段，无此说）。
-7. **Jansson 2022 全文 PDF 未取全**：DiVA 服务器（chunked、无 Range）两次下载分别断于 2.6MB / 32MB（本机 2026-10-16）。处置：引用一律标注「转引」（[R16] 经 methods.art 与 Streamline 两处独立转引互证）；PDF 残件存私有层。
+7. **Jansson 2022 全文 PDF（已解决）**：DiVA 服务器（chunked、无 Range）多次下载截断（2.6–50MB 间多个截点）；**2026-10-16 末次重试成功：126,169,445 B / 497 页全文**，已入私有层（`jansson2022_thesis.pdf` / `.txt`）。处置：核心引文（Wilhelmson 调色板教导、管装颜料 12 种清单、「不应视为仅限四色」）已直读核验，语料 #32–#33 原「转引」标注撤销。
 8. **Nationalmuseum 对象页不可直读**：`collection.nationalmuseum.se` 为 Next.js 应用（objectId 页直读仅得空壳；旧 eMuseumPlus 链接重定向至该应用）。处置：NM 作品信息经 Commons 文件页（eMuseumPlus objectId 附注）、[R9][R10] 与馆方展页交叉；**未找到**该应用的公开 JSON API（已查: 页面 JS chunk 探针）。
 9. **奥赛页 403**：《Un pêcheur》（RF 830）专页对 curl 返回 403。处置：《渔夫》信息经 [R9]（专章）、[R10]（「l'Etat acheta la toile pour le Musée du Luxembourg」）与 Commons 副本（Musée d'Orsay 来源注）交叉；**未找到**其开放高清图（已查: Orsay 页 / Commons 检索）。
-10. **「佐恩四色」名称本身**：后世教学命名（Watts Atelier 等）；**未找到佐恩本人逐字说出「四色」的陈述**（已查: [R9] 全文 grep `four colors` 零命中、[R8] 全文、zorn.se 已读页）——证据链 = 1909 同代记录（[R11]）+ 1896 自画像画面（[R9]）+ 2022 技术研究（[R16]）。本档案如实标注，不给他发明语录。
+10. **「佐恩四色」名称本身**：后世教学命名（Watts Atelier 等）；**未找到佐恩本人逐字说出「四色」的陈述**（已查: [R9] 全文 grep `four colors` 零命中、[R8] 全文、zorn.se 已读页）——证据链 = 1909 同代记录（[R11]）+ 1896 自画像画面（[R9]）+ 2022 技术研究（[R16]；2026-10-16 补取全文后再补：其学生 Wilhelmson 记其教学口径为**五色**——黑/白/浅赭/深赭/朱红，为现存最接近「本人口径」的转记，语料 #32）。本档案如实标注，不给他发明语录。
 11. **图像许可复核**：19 张全部 PD/CC0（Commons 12 张 PD + Met 6 张 CC0 + Cleveland 1 张 CC0）；**佐恩博物馆官网图未采用**（未查到明确开放许可，按从严处理；已查: zorn.se pressfoton 页）。
 
 ---
@@ -477,10 +477,10 @@ vs 萨金特/vs 德加 两条款: True
 §11.2 年份表行数: 47 (期望 ≥15; 标题声称 47)
 §9 参考来源条数: 18
 §12 件数（标题）: 10 / 实计条目: 10
-语料条目数: 32 (期望 ≥15)
+语料条目数: 33 (期望 ≥15)
 图库张数: 19 (期望 ≥6)
 图库合计: 11.1 MB
-档案: 532 行 / 80246 bytes
+档案: 532 行 / 81201 bytes
 PASS-CHECK-DONE
 ```
 
@@ -503,11 +503,11 @@ RESULT: PASS  (checked=53 fail=0 planned=1 · junctions=4/4 · domains=ok · har
 **③ 计数（wc / grep / ls）**
 ```
 $ wc -l zorn.md _corpus/zorn.md
-  533 zorn.md
-  255 _corpus/zorn.md
-$ grep -c '^### ' _corpus/zorn.md     → 32
+  532 zorn.md
+  264 _corpus/zorn.md
+$ grep -c '^### ' _corpus/zorn.md     → 33
 $ ls _images/zorn/*.jpg | wc -l       → 19（+ MANIFEST.md）
-$ ls _private/images_hi_res/zorn/     → 16 件高清（+ _private/books/zorn/ 11 件）
+$ ls _private/images_hi_res/zorn/     → 16 件高清（+ _private/books/zorn/ 12 件）
 ```
 
 **④ git 增量（纯新增验证）**
@@ -522,11 +522,11 @@ $ git diff --stat -- knowledge/domains/painters/dossiers/ | tail -2
 
 ### D. 小结（≤14 行）
 
-- **已确立（四处落盘）**：① 本档案（v2 全规格 §0–§12 + 自审）；② `_corpus/zorn.md`（32 条：自传笔记 11 / 同时代记录 9 / 馆方研究 12）；③ `_images/zorn/`（19 张全 PD/CC0 + MANIFEST）；④ `_private/INVENTORY_zorn.md`（+ 书 11 件 + 高清 16 件）。
+- **已确立（四处落盘）**：① 本档案（v2 全规格 §0–§12 + 自审）；② `_corpus/zorn.md`（33 条：自传笔记 11 / 同时代记录 9 / 馆方研究 13）；③ `_images/zorn/`（19 张全 PD/CC0 + MANIFEST）；④ `_private/INVENTORY_zorn.md`（+ 书 12 件 + 高清 16 件）。
 - **已确立（分工写死）**：vs 萨金特（色板宽度/炫技位置/题材/光四轴——与 `sargent.md` §3.1 预写对齐）；vs 德加（目标/技法纯度/产量流通/题材四轴——「蚀刻：不同目标」）；vs 索罗拉（互引，与 ArtistSorolla 互查同口径）；各附可判读判据与 70/30 组合纪律（N3 轴所有权）。
-- **已确立（规格计数）**：§11.1 叙述 ≥2000 CJK｜§11.2 年份表 47 行（≥15）｜§11.3 来源 12（≥10）｜§12 10 件（5–10）｜语料 32（≥15）｜图库 19（≥6）。
+- **已确立（规格计数）**：§11.1 叙述 ≥2000 CJK｜§11.2 年份表 47 行（≥15）｜§11.3 来源 12（≥10）｜§12 10 件（5–10）｜语料 33（≥15）｜图库 19（≥6）。
 - **已确立（契约直测）**：§4/§8.1/§8.2 全文可抽取，neg-seg True；回归 `_extract.py --check` 126/126；skill `_selfcheck` PASS。
-- **被削弱（已就地标注）**：蚀刻张数 288/289/290 三口径；婚礼 10-16/10-18 双口径；卒因双记；Jansson 转引（PDF 截断）；NM 对象页 JS 受限；「牛棚出生」「为死者画像」存目不采信。
-- **未知**：四色例外的逐件清单（Jansson 全文未取全）；蚀刻三口径差的来源；佐恩本人「四色」逐字陈述（已查零命中——如实标注）。
+- **被削弱（已就地标注）**：蚀刻张数 288/289/290 三口径；婚礼 10-16/10-18 双口径；卒因双记；NM 对象页 JS 受限；「牛棚出生」「为死者画像」存目不采信。
+- **未知**：四色例外的逐件归属（全文已取，逐件清单待整理）；蚀刻三口径差的来源；佐恩本人「四色」逐字陈述（已查零命中；学生 Wilhelmson 五色转记已补——语料 #32）。
 - **下一步**：① 主脑验收后并入共享索引（语料 INDEX / 图库 manifest / `_index.md` 由主脑合并）；② 模块卡提取时把 zorn 加入 `_extract.py` ARTISTS（波次收口后）；③ 组合预检实验：与萨金特/索罗拉做 70/30 对照（按 §3.1 判据）、与德加做「蚀刻」对读。
 - **我仍赌错的是什么**：§4 六参数与 §8.2 八条规则的数值档位是按同代记录与目测归纳的**未实测参数**；「288–290 图」与「47 行」等计数以本机脚本（`check_zorn.py`）为准——如验收脚本口径不同，以验收方输出为准并回改。
