@@ -75,3 +75,5 @@
 - 统一：LANCZOS 缩放至长边 ≤1800px；JPEG quality 88 progressive；无裁切、无加水印（`wisteria` 由 PNG 转 JPG）。
 - 私有侧：保持原始下载分辨率（1920–2825px），不做压缩，用于内部研究。
 - 采集脚本与原始件留档：`knowledge/domains/painters/_scratch/qi_baishi/`（gitignored）。
+
+> 主脑从严处置（2026-10-15）：4 件带 `{{Not-PD-US-URAA}}` 注记图（ink_shrimp / pine_eagle_and_couplet_1946 / daiyu_buries_flowers_1950 / leaves_and_insects）已移入 `_private/images_hi_res/qi_baishi/`；公开侧不再分发（公开侧现 11 张 + 本表）。

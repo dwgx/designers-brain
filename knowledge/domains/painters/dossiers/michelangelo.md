@@ -212,8 +212,8 @@ brush texture, --no modern clothing, --no symmetric frontal standing pose
 
 1. **Britannica 传记页 403**（https://www.britannica.com/biography/Michelangelo 无法访问）；训练史部分因此主要依赖 en.wikipedia（汇总源，[14][15]）与 Condivi 原版页面 [6] 的存在性核对——**Condivi 正文的训练章节未逐字直读**（读到的为家世段），相关条目均标 `[研究·百科]`。
 2. **佛罗伦萨学院美术馆官网证书错误**（galleriaaccademiafirenze.it 无法验证证书），《大卫》的官方藏品页未读；尺寸等细节未写死。
-3. **Fattucci 书信未找到**：米开朗基罗 1523/24 年致 Giovan Francesco Fattucci、自述"被教皇逼着画天顶"的那封信，在 it.wikisource API 检索仅 1 条无关命中；未取到可引文本（已试：Wikisource API 全文检索、已知 URL 直读 404）。
-4. **书信全集未读**：本档案的"自述"以诗与 Varchi 信为主；Condivi/Vasari 转引条目保留英文（未核意文原句）。
+3. **Fattucci 书信未找到**：米开朗基罗 1523/24 年致 Giovan Francesco Fattucci、自述"被教皇逼着画天顶"的那封信，在 it.wikisource API 检索仅 1 条无关命中；未取到可引文本（已试：Wikisource API 全文检索、已知 URL 直读 404）。**（wave14 更新：已找到——Milanesi 1875 版信 CCCLXXXIII–CCCLXXXIV；Gutenberg #46599 转录可读；见 §11.3 S3 与 `_corpus` 条目 18–19。）**
+4. **书信全集未读**：本档案的"自述"以诗与 Varchi 信为主；Condivi/Vasari 转引条目保留英文（未核意文原句）。**（wave14 更新：已读 Milanesi 1875 版书信转录 7 封；现代校勘本复核仍待。）**
 5. **web_search 全 provider 限流**（2026-10-15）：8.3 野外 AI prompt 样本未收集。
 6. **"non-finito" 美学归属存疑**：未找到他把"未完成"当自觉主张的可靠自述；本档案按"历史状态"处理（§1.10、§10.6）。
 
@@ -314,7 +314,7 @@ brush texture, --no modern clothing, --no symmetric frontal standing pose
 | S13 | en.wikipedia《Michelangelo》（基础年表/卒葬交叉核对） | https://en.wikipedia.org/wiki/Michelangelo |
 | S14 | en.wikipedia《Pope Julius II》（1513-02-21 卒） | https://en.wikipedia.org/wiki/Pope_Julius_II |
 
-> 读取状态（2026-10-15）：S1/S2 全文（校勘本/1568 本）；S3–S5（Gutenberg 转录全文，含合同附录；IA 扫描同源）；S6–S8、S12（直读）；S9–S11、S13–S14（API 提取直读）。引文逐字核对记录见本档案「自审 C」（wave14）。
+> 读取状态（2026-10-15）：S1/S2 全文（校勘本/1568 本）；S3–S5（Gutenberg 转录全文，含合同附录；IA 扫描同源）；S6–S8、S12（直读）；S9–S11、S13–S14（API 提取直读）。引注形如「S3-XI」「S3-CDXXXV」＝该版所收合同/书信编号。引文逐字核对记录见 wave14 加固回执（原样输出存档）。
 
 ### 11.11 存异与注记（wave14）
 
@@ -324,6 +324,8 @@ brush texture, --no modern clothing, --no symmetric frontal standing pose
 4. **卒日表述**：Vasari 作「佛罗伦萨历 1563 年 2 月 17 日夜」（罗马历 1564）；通行作 1564-02-18——历法/时刻换算差异，本表用通行口径（[S2][S13]）。
 5. **1516 年合同日期**：卷首作「7 月 8 日」；拉丁正文作「7 月 4 日」——并存待考（[S3]）。
 6. **本节范围**：只补生平与年代轴；不重复 §6 影响链、§7 作品分析；「躺画天顶」等已推翻项见既有自审（B-4）。
+
+---
 
 ## 12. 临摹/学习清单
 
@@ -369,6 +371,8 @@ brush texture, --no modern clothing, --no symmetric frontal standing pose
 - **看什么**：几乎「融化」的形体；母子垂直叠合的新构图（弃金字塔）；反复改刻的层痕。
 - **学什么**：晚期「减法到底」；形式随精神收缩；未完成作为过程档案。
 - **怎么练**：① 用 3 张照片对比早期《圣殇》与晚期的「轮廓紧密度」（外接框／面积比）；② 「再刻一次」练习：先画完整构图，再用白粉覆盖、只留核心两体，体验「删到只剩垂直关系」；③ 写 100 字：为何说它是「未完成的完成」。
+
+---
 
 ## 自审（四段）
 

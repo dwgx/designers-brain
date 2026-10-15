@@ -281,6 +281,150 @@ fog, haze, mirror, chandelier, candles visible in frame, halo disc, crowd
 
 ---
 
+## 11. 生平与年代轴（详细）
+
+> wave14 加固增项（规格：`knowledge/domains/painters/program/README.md` §1）。任务重点三线：**① 档案文献（Mancini、Baglione 同时代记述、罗马档案诉讼记录）；② 1606 命案与逃亡（那不勒斯/马耳他/西西里/波尔托埃尔科莱）；③ 近年档案发现**。来源编号 `S1–S19` 为本节独立编号（§9 的 R 编号不动）；引文保留原文；证据分级沿用全文口径。
+> **口径注（任务提示「2007 年书信」）**：经多通道检索，2007 年（2 月 14 日）的档案发现为**受洗记录**（非书信）；「书信」线的近年发现/再发现为——Wignacourt 1607-12-29（一对）与 1608-02-07、Pourbus 1607-09-25、Masetti 1607-05-26、de Rosis 1610-06-18（2022 年公布）、Gentile 1610–11 五封（1991 年刊布、2023–25 再检讨）。**未找到**（已查: DDG / Bing / Google Scholar / JSTOR / HathiTrust / Sogou / Baidu / AboutArt / Storia dell'Arte 等）字面意义的「2007 年发现的书信」；来源清单见 11.3。
+
+### 11.1 叙述
+
+**（1）米兰：出生、家庭与学徒（1571–1592）。** 米开朗基罗·梅里西 1571 年 9 月 29 日生于米兰，次日（9 月 30 日）在圣斯德望堂（Santo Stefano in Brolo）受洗。受洗记录原文：「Adi 30 ditto [Setembre 1571] fu Bap[tiza]to Michel Angelo f[iliol]o de D[omino] Firmo Merixio et D[omina] Lucia de Aratoribus / compar D[omino] Fran[cesc]o Sessa」；这条记录 2007 年 2 月 14 日由退休会计师维托里奥·皮拉米（Vittorio Pirami）在米兰教区档案馆偶然发现，为「生于米兰、而非卡拉瓦乔镇」的现代共识提供了直接证据 `[史料]`（S4、S5）。父亲费尔莫·梅里西（Fermo Merisi）是卡拉瓦乔侯爵家的管家兼建筑装饰师（"household administrator and architect-decorator to the marquess of Caravaggio"），母亲露琪亚·阿拉托里（Lucia Aratori）；两家均原籍卡拉瓦乔镇 `[史料]`（S1、S2）。1577 年为避瘟疫全家离米兰返乡，父亲途中染疫去世，祖父贝尔纳迪诺与叔父彼得罗相继去世 `[史料]`（S2）。1584 年 4 月 6 日，母亲代签学徒合同，13 岁的米开朗基罗进入米兰画家西蒙内·彼得扎诺（Simone Peterzano）画室四年，学费「四十余枚金盾」；彼得扎诺自称提香的学生（自画像题记可证），属伦巴第晚期风格主义一路 `[史料]`（S2）。母亲去世年份两说并存：Mancini 记为 1591 年 11 月 29 日（意维基采纳；遗产分割文献存世，画家约 1592 年年中离伦巴第），另有 1584 年说（英维基所据 Lambert 等）——本档案并记不裁 `[史料]`（S2、S1）。近年（2018/2022）Renato Di Tomasi 的档案研究证实：1591–92 年间画家继承约 1700 里拉帝国币遗产，并披露其与继兄、神父 Ludovico Merisi 的遗产冲突——「青年赤贫」的旧图景因此动摇 `[研究]`（S13）。
+
+**（2）「消失的四年」与初到罗马（1592–1600）。** 1592 年 7 月 1 日是他最后一次在伦巴第被记录；此后至 1596 年间的行踪即所谓「消失的四年」。早期传记（Celio 1614、Mancini、Bellori）都说他在米兰犯下杀人案后逃亡（先威尼斯后罗马）；但档案复查（Berra 等）查无实据。2011 年罗马国家档案馆的新发现把他在罗马的最早记录定在 1596 年四旬斋（画家 Lorenzo Carli 画室一带；理发师 Pietropaolo Pellegrino 的证词），推翻旧说 1592；Di Tomasi 则主张抵罗马时间为 1594 年末–1595 年初 `[史料]/[研究]`（S2、S6、S13、S14）。初到罗马时「赤裸而极其贫困」（"naked and extremely needy… without fixed address and without provision… short of money"，三本源流一致）`[史料]`（S1）；先寄居有「Insalata 主教」绰号的 Pandolfo Pucci 家，后入 Cavalier d'Arpino（Giuseppe Cesari）工坊画花卉果实 `[史料]`（S1、S6）。约 1597 年（住院出院后，经画家朋友 Costantino Spata 引介）结识红衣主教弗朗切斯科·马里亚·德尔·蒙特（Francesco Maria del Monte）：主教购藏《老千》（I bari）等画，画家进入其府邸，人生转折由此完成 `[史料]`（S2）。1599–1600 年，孔塔雷利礼拜堂（Contarelli，圣路易吉·德·弗朗切西教堂）两幅马太像完成——「一年之内完成两件作品，成功就此打开」；随后瑟拉西礼拜堂（Cerasi）委托接踵而至 `[史料]`（S2、S13）。
+
+**（3）罗马档案里的诉讼记录（1598–1606）。** 罗马国家档案馆（Archivio di Stato di Roma）的警察记录、法庭文书与公证档案构成他罗马生活最硬的一手材料。BBC 2011 年整理的核心时间线：1598-05-04 深夜无证携剑被捕（Piazza Navona 附近）；1600-11-19 凌晨用棍打人、以剑划破斗篷被诉；1601-10-02 被控与友人持剑袭击；1604-04-24 洋蓟事件（侍者 Pietro Antonio de Fosaccia 报案原文见 §5-4）；1604-10-19 向警察掷石被捕；1605-05-28 无证携剑与匕首被捕；1605-07-29 公证人 Mariano Pasqualone 指控其背后袭击（因模特「Lena」Maddalena Antognetti；他为此避走热那亚约三周）；1606-05-28 命案 `[史料]`（S3、S2）。1603 年另有诽谤案：画家 Giovanni Baglione 控告卡拉瓦乔、Orazio Gentileschi 与 Onorio Longhi 以诗诽谤；庭审证词里留下他关于绘画的唯一一句传世之语（§5-1）；他被判有罪、短暂关押 Tor di Nona 后经法国大使干预获释 `[史料]`（S3）。1605 年秋（10 月，一说 11 月）的受伤供词同样出自这些卷宗——面对刑事公证人他声称：「Io me so' ferito da me con la mia spada che so' cascato per queste strade et non so dove se sia suto, né c'è stato nesuno」（我是自己拿剑伤的自己；我在这些街上摔倒，不知在哪儿，也没有人在场）`[史料]`（S6、S2）。
+
+**（4）1606 年命案与逃亡：罗马 → 科隆纳领地 → 那不勒斯。** 1606 年 5 月 28 日（星期日），坎波·马齐奥，紧邻 Scrofa 街：一场 pallacorda（早期网球）比赛的争执后爆发械斗，双方各四人——卡拉瓦乔方：Onorio Longhi、博洛尼亚上尉 Petronio Troppa 及一名未识别者；对方：Ranuccio Tomassoni 及其兄弟 Giovanni Francesco、姻亲 Ignazio 与 Federico Iugoli `[研究]`（S10）。卡拉瓦乔一记刺击致对手股动脉出血（对手已倒地），Ranuccio 旋即死亡；Giovanni Francesco 击中米开朗基罗头部并重伤 Troppa（后者被押入 Tor di Nona）。动机旧说纷纭：赌债、比赛争议（Baglione 记「一个判罚」）、与 Fillide Melandroni／Lavinia Iugoli 的情感纠纷，乃至政治背景（Tomassoni 家亲西班牙，米开朗基罗受亲法派保护）`[研究]`（S2、S10）。他当夜被抬入科隆纳宫，随后藏身科隆纳家族领地——Zagarolo、Palestrina、Paliano——受保护人 Costanza Sforza Colonna 照应；罗马法庭随后缺席宣判「bando capitale」（首都放逐令；未必等于死刑，可能仅约五年驱逐——Renzi 判断大概率属后者）`[研究]`（S10）。1606 年 6 月 28 日已「contumace」（缺席在逃）；1607 年 5 月 26 日摩德纳公爵代理 Fabio Masetti 信云：（款项）「…per un homicidio comesso dal detto [Caravaggio], per il quale è stato bandito, ma perché il detto homicidio fu casuale e restò anch'egli malamente ferito, si tratta della sua remissione et si spera la g[razia]」——案发约一年后双方已在谋求和解与赦免 `[史料]`（S9）。
+
+**（5）那不勒斯 → 马耳他（1606–1608）。** 1606 年秋抵那不勒斯（受科隆纳家保护）：接下 Pio Monte della Misericordia《七件善事》（1607 年完成）与《玫瑰经圣母》等；1606 年 Banco di Sant'Eligio 的「copiapolizze」还记录了他为克罗地亚商人 Nicola Radulovich 所作祭坛画的付款条目（画本身「无人见过」，或未完成）`[史料]`（S15、S2）。1607 年 7 月渡海赴马耳他——由 Costanza 之子、骑士团舰队将领 Fabrizio Sforza Colonna 安排；目标是以骑士身份取得对教皇判决的免疫力 `[史料]/[研究]`（S1、S17）。马耳他国家图书馆（瓦莱塔）的 Wignacourt 大团长通信近年被系统整理（Macioce）：**1607 年 12 月 29 日**大团长致驻罗马教廷两位大使（Fornellini、Bosio）的一对信件，请求准许「不经常规资格证明」授予这位候选人骑士服——信中为一位「virtuosissimo」的无名人物求情，并请求「non li hobsti l'aver in rissa commesso un homicidio」（愿其「斗殴中杀人」一事不妨碍授予）；**1608 年 2 月 7 日**再致教皇请求特别豁免 `[史料]`（S17、S10）。1608 年 7 月 14 日获授「恩典骑士」（Cavaliere di Grazia Magistrale），期间完成《施洗者圣约翰被斩首》（唯一署名作品）等 `[史料]`（S17）。但 1608 年 8 月底被捕入狱（据 Sciberras 档案研究：与一名高等骑士冲突，房门被砸、骑士重伤），关押于 Birgu 圣安杰洛堡；1608 年 10 月 6 日越狱（或得科隆纳家之助）逃往西西里；同年 12 月被缺席褫夺骑士服（敕书用语「putridum et foetidum membrum」——「腐臭之肢」，属标准套语且可逆）`[史料]/[研究]`（S2、S10）。
+
+**（6）西西里 → 再返那不勒斯（1608–1609）。** 西西里近一年：叙拉古（老友 Mario Minniti 接待；《圣露西亚下葬》）、墨西拿（《拉撒路复活》《牧人来拜》）、巴勒莫（《圣方济各与圣劳伦斯的圣诞》——近年研究（Cuppone）提出它或为 1600 年罗马为商人 Fabio Nuti 所作后寄往巴勒莫；1969 年被盗至今失踪）`[史料]/[研究]`（S2、S14）。1609 年夏末返那不勒斯，再受科隆纳家庇护；1609 年 10 月（大概率）在 Cerriglio 酒馆外遭数名男子袭击、面部毁伤，「死亡」消息开始流传（Avvisi 有「重伤未死」与「已死」两说）`[史料]/[研究]`（S2、S10）。
+
+**（7）1610：最后旅程、死亡与身后。** 1610 年为 Marcantonio Doria 画《圣乌尔苏拉殉道》（被视为最后作品）；罗马方面 Scipione Borghese 正为其争取保罗五世的赦免（赦免是否实际签发寄达，无确证 `[史料]`S2）；他携三幅画（两幅《圣约翰》与一幅《抹大拉》，后为「赎金」）乘快帆（felucca）北上，途中在 Palo di Ladispoli 被拦、短暂拘押，船却带其行李继续北行；他随后（据 Gentile 信）「per terra e forse a piedi si ridusse fino a Port'Hercole」（或经陆路、可能步行抵达波尔托埃尔科莱）`[史料]`（S9、S11）。1610 年 7 月 18 日死于波尔托埃尔科莱；7 月 28 日罗马匿名 avviso 已报死讯、7 月 31 日续报「死于热病」；**7 月 29 日**驻那不勒斯教廷大使 Deodato Gentile 致 Scipione Borghese 的信写道：「Ritrovo che il povero Caravaggio non è morto in Procida, ma a Porthercole, perché essendo capitato con la felluca in quale andava a Palo, ivi da quel Capitano fu carcerato e la felluca in quel romore tiratasi in alto mare se ne ritornò a Napoli」（我查明可怜的卡拉瓦乔并非死于普罗奇达，而是波尔托埃尔科莱：他随快帆行至 Palo，被那里的船长拘押，船在混乱中驶回那不勒斯）——死讯最早的官方通信之一（Pacelli 1991 年刊布；2023–25 年 Carla Rossi 与 Francesca Curti 等就其细节展开新一轮论战）`[史料]`（S11、S12）。葬于波尔托埃尔科莱圣塞巴斯蒂亚诺墓地；1956 年修路时遗骨迁入现公墓（Sant'Erasmo 一带）；2010 年（2008 年起）跨学科研究宣称以高置信度识别其遗骨（DNA/碳十四/骨骼分析），并先后提出铅中毒（2010）、金黄色葡萄球菌败血症（2018）等死因假说——与「热病」「他杀」诸说并存，本档案不采信任一版本 `[研究]`（S1、S2）。友人 Marzio Milesi 墓志铭称其「活了三十六年九个月零二十天」，誉其「在绘画上不逊于任何画家，而堪比自然本身」（§5-6）`[史料]`（S1）。
+
+**（8）身后与「近年档案发现」清单。** 身后：17 世纪起名声渐被遮蔽，20 世纪经 Roberto Longhi 一脉重估（1920 年代起）、1951 年米兰王宫大展，至 21 世纪成为「超级明星」 `[研究]`（S1）。**近年档案发现（本节重点，按时间）**：① **2007-02-14** 受洗记录（Pirami；米兰教区档案馆；确认米兰出生）`[史料]`（S4、S5）；② **2010–2011** 罗马国家档案馆修复与展览「Caravaggio a Roma. Una vita dal vero」——7 名青年研究者翻检 60 余公里档案、修复 30 余卷：新见 1597 年司法文书、1604 年租赁合同（Prudenzia Bruni）、1618 年 Faustina Juvarra 遗嘱、1605 年受伤供词等；展览宣称「颠覆性新见、重写传记」（BBC 同期报道警察卷宗）`[史料]`（S6、S7、S8、S3）；③ **2012** 博尔盖塞美术馆分析发现《捧果篮的男孩》画布底层草图（§2-2、§9 交叉核对 1）`[研究]`（R9）；④ **2014–2019** 图卢兹《朱迪斯》再现与 Louis Finson 文献（含 1607 年书信与 1617 年遗嘱；归属仍存争议）`[研究]`（S18）；⑤ **2018–2024** Di Tomasi 系列：遗产文件（2018）、Orsini 基金新见 1610-06-18 Marcello de Rosis 致 Virginio Orsini 书信（2022）、米兰「狱案」再考（2024）`[史料]/[研究]`（S13）；⑥ **2021–2022** Giulia Cocconi 发现 Tomassoni 家两份委托书（1609-11-20、1610-03-15；和平协议「Instrumentum pacis」）`[史料]`（S9）；⑦ **2021** 马德里《Ecce Homo》再归属（普拉多/文化部出口禁令）`[研究]`（S1）；⑧ **2023** Macioce《Documenti, fonti e inventari》第 3 版（+106 份文件）与 Zuccari 等《Cantiere Caravaggio》`[研究]`（S14、S16）；⑨ **2023–2025** 1610 年 Gentile 书信、Margotti 7 月 24 日信与「Procida 误传」的再检讨（Rossi/Curti 论战）`[研究]`（S11、S12）；⑩（备查）**2014** Vinceti 公布的 1610 年那不勒斯副王（Pedro Fernández de Castro）致 Stato dei Presidi 长官信（转述死讯并追索三幅画；主张性材料，标 `[推测]` 级备查）`[史料]/[推测]`（S19）。另：Celio《Vite》（1614）手稿「近年由 Riccardo Gandolfi 发现」，为早期传记增一新源 `[研究]`（S14）。
+
+### 11.2 年份表（≥15 行）
+
+| 年份 | 事件 | 证据级（来源） |
+|---|---|---|
+| 1571 | 9 月 29 日生于米兰；9 月 30 日在 Santo Stefano in Brolo 受洗（记录 2007 年发现） | `[史料]` S4/S5 |
+| 1577 | 避疫返乡，父亲 Fermo 去世（祖父、叔父相继去世） | `[史料]` S2 |
+| 1584 | 4 月 6 日与 Simone Peterzano 签四年学徒合同（母亲代签，四十余金盾） | `[史料]` S2 |
+| 1591/1592 | 母亲去世（1591-11-29 说 / 1584 说并存）；约 1592 年中离伦巴第 | `[史料]` S2/S1 |
+| 1592 | 7 月 1 日最后一次伦巴第记录；「消失的四年」开始 | `[史料]` S14 |
+| 1592–1595/96 | 空白期（米兰狱案说 vs 威尼斯说；Di Tomasi：约 1594 末–1595 初抵罗马） | `[研究]` S13/S2 |
+| 1596 | 罗马最早记录（四旬斋；Lorenzo Carli 画室；旧说 1592） | `[史料]` S6/S14 |
+| 1597 | 结识德尔·蒙特主教并入其府邸；约此前后住院（Spata 引介）；7 月司法文书（新见） | `[史料]` S2/S14 |
+| 1599–1600 | 孔塔雷利礼拜堂两作（1599 签约、1600 揭幕）；成名 | `[史料]` S2/S13 |
+| 1600-11-19 | 被诉打人、剑划斗篷（档案） | `[史料]` S3 |
+| 1601 | 瑟拉西礼拜堂两作；《以马忤斯的晚餐》 | `[史料]` S1 |
+| 1603 | Baglione 诽谤案：作证、被判有罪、短暂关押后获释 | `[史料]` S3 |
+| 1604-04-24 | 洋蓟事件（侍者报案） | `[史料]` S3 |
+| 1605-07-29 | Pasqualone 袭击案；避走热那亚约三周 | `[史料]` S2/S3 |
+| 1605 秋 | 受伤供词（「自己刺伤自己」）；房租纠纷与掷石（Prudenzia Bruni） | `[史料]` S6/S2 |
+| 1606-05-28 | 杀 Ranuccio Tomassoni；当夜入科隆纳宫；藏身 Zagarolo/Palestrina/Paliano | `[史料]/[研究]` S10 |
+| 1606-06-28 | 缺席（contumace）；其后 bando capitale | `[史料]` S9/S10 |
+| 1606 秋 | 抵那不勒斯；受 Costanza Colonna 保护 | `[史料]` S2/S15 |
+| 1606–1607 | 《七件善事》《玫瑰经圣母》；Radulovich 付款条目（1606 copiapolizze） | `[史料]` S15 |
+| 1607-05-26 | Masetti 书信（「si spera la grazia」） | `[史料]` S9 |
+| 1607-07 | 渡海抵马耳他 | `[史料]` S1/S17 |
+| 1607-09-25 | Pourbus 致曼图亚公爵信（Finson 持有「Oloferno」与《玫瑰经圣母》） | `[史料]` S18 |
+| 1607-12-29 | Wignacourt 致罗马两大使信（一对；「non li hobsti…」） | `[史料]` S17/S10 |
+| 1608-02-07 | Wignacourt 致教皇信（特别豁免） | `[史料]` S17 |
+| 1608-07-14 | 授予「恩典骑士」；《斩首》（唯一签名作） | `[史料]` S17 |
+| 1608-08 末 | 与高等骑士冲突被捕，关押 Birgu 圣安杰洛堡 | `[史料]/[研究]` S2/S10 |
+| 1608-10-06 | 越狱，逃往西西里 | `[史料]` S10 |
+| 1608-12 | 缺席褫夺骑士服（「putridum et foetidum membrum」） | `[史料]` S10 |
+| 1608–1609 | 西西里：叙拉古/墨西拿/巴勒莫；《圣露西亚下葬》《拉撒路复活》《牧人来拜》《圣诞》 | `[史料]` S2 |
+| 1609-08/09 | 返那不勒斯 | `[史料]` S2 |
+| 1609-10 | Cerriglio 遇袭毁容；死讯流传 | `[史料]` S2/S10 |
+| 1610 | 《圣乌尔苏拉殉道》（最后作品）；6 月 18 日 de Rosis 致 Orsini 书信 | `[史料]/[研究]` S13 |
+| 1610-07 | 快帆北上；Palo 被拦；抵波尔托埃尔科莱 | `[史料]` S9/S11 |
+| 1610-07-18 | 卒于波尔托埃尔科莱 | `[史料]` S1 |
+| 1610-07-28/31 | avviso 报死讯（31 日续报「热病」）；Gentile 致 Borghese 信（「非死于普罗奇达」） | `[史料]` S11/S12 |
+| 1610 | Milesi 墓志铭；葬圣塞巴斯蒂亚诺墓地 | `[史料]` S1 |
+| 1920s–1951 | Longhi 重估；1951 米兰大展 | `[研究]` S1 |
+| 2007-02-14 | 受洗记录发现（Pirami） | `[史料]` S4/S5 |
+| 2010–2011 | 罗马国档馆修复/展览；BBC 警察卷宗报道 | `[史料]` S3/S6/S7/S8 |
+| 2012 | 博尔盖塞：《捧果篮的男孩》底层草图发现 | `[研究]` R9 |
+| 2014–2019 | 图卢兹《朱迪斯》；Finson 文献 | `[研究]` S18 |
+| 2018–2024 | Di Tomasi 系列；Cocconi 委托书；Ecce Homo 再归属 | `[史料]/[研究]` S13/S9/S1 |
+| 2023 | Macioce 第 3 版（+106 文件）；《Cantiere Caravaggio》 | `[研究]` S14/S16 |
+| 2025 | Gentile 信再检讨（Rossi/Curti）；「Caravaggio 2025」大展 | `[研究]` S11/S12 |
+
+### 11.3 本节来源（S 编号，19 条）
+
+1. **S1** — Wikipedia (EN), "Caravaggio" — https://en.wikipedia.org/wiki/Caravaggio（三手；年表/死亡/身后交叉核对）
+2. **S2** — Wikipedia (IT), "Caravaggio" — https://it.wikipedia.org/wiki/Caravaggio（三手；家庭/学徒合同/马耳他/死亡辩论）
+3. **S3** — BBC News (David Willey), "Caravaggio's crimes exposed in Rome's police files", 2011-02-18 — https://www.bbc.com/news/world-europe-12497978（罗马国档馆警察卷宗时间线；侍者报案英译；「医院病床」说）
+4. **S4** — il Giornale (Maria Sorbi), "Il ragioniere della Standa che ha scoperto la verità sulla nascita di Caravaggio", 2018-02-28 — https://www.ilgiornale.it/news/ragioniere-standa-che-ha-scoperto-verit-sulla-nascita-1498933.html（2007-02-14 发现经过）
+5. **S5** — Chiesa di Milano, "Caravaggio? E' nato a Milano. Un anno fa la scoperta all'Archivio Diocesano" — https://www.chiesadimilano.it/senza-categoria/caravaggio-e-nato-a-milano-un-anno-fa-la-scoperta-allarchivio-diocesano-33577.html
+6. **S6** — Corriere della Sera (Lauretta Colonnelli), "Caravaggio, non solo quadri, ma documenti e manoscritti", 2011-02-10 — https://roma.corriere.it/notizie/arte_e_cultura/11_febbraio_10/mostra-passi-caravaggio-181438253952.shtml（展览与 7 名研究者名单；1605 供词引文）
+7. **S7** — Archivio di Stato di Roma, "Caravaggio a Roma. Una vita dal vero"（2011 展览页）— https://archiviodistatoroma.cultura.gov.it/2011/02/11/caravaggio-a-roma-una-vita-dal-vero/
+8. **S8** — Blitz Quotidiano, "Caravaggio, restaurati i documenti che chiariscono il suo arrivo a Roma", 2010-09-27 — https://archivio.blitzquotidiano.it/arte/caravaggio-documenti-restaurati-564084/
+9. **S9** — Francesca Curti, "«Misesi in una feluca con alcune poche robe»: l'ultimo viaggio di Caravaggio", Storia dell'Arte in tempo reale, 2023-11-03 — https://www.storiadellarterivista.it/blog/2023/11/03/misesi-in-una-feluca-con-alcune-poche-robe-lultimo-viaggio-di-caravaggio/（Gentile 五封信；Cocconi 委托书；Masetti 1607-05-26 引文）
+10. **S10** — Claudia Renzi, "«…non li hobsti l'aver in rissa commesso un homicidio». Caravaggio: dalla corruzione delle fonti alla leggenda del pittore maledetto", AboutArtOnline — https://www.aboutartonline.com/non-li-hobsti-laver-in-rissa-commesso-un-homicidio-caravaggio-dalla-corruzione-delle-fonti-alla-leggenda-del-pittore-maledetto/（1606 命案细节；Wignacourt 1607-12 信引文；越狱日期；Celio/Bellori 引文）
+11. **S11** — News-Art, "Gli ultimi giorni di vita di Caravaggio", 2025-11-21 — https://news-art.it/news/gli-ultimi-giorni-di-vita-di-caravaggio.htm（Carla Rossi 两文转载；Gentile 信「per terra e forse a piedi」）
+12. **S12** — AboutArtOnline, "«E' una questione di metodo». Precisazioni e chiarimenti di Francesca Curti sugli ultimi giorni di Caravaggio", 2025-08-24 — https://www.aboutartonline.com/e-una-questione-di-metodo-precisazioni-e-chiarimenti-di-francesca-curti-sugli-ultimi-giorni-di-caravaggio/
+13. **S13** — News-Art, "Studi Archivistici su Caravaggio: Nuove Prospettive sulla Giovinezza e le vicende Milanesi" — https://news-art.it/news/studi-archivistici-su-caravaggio--nuove-prospettive-sulla-giovinezza-e-le-vicende-milanesi.htm（Di Tomasi 2018/2022/2024；1700 里拉遗产；de Rosis 书信）
+14. **S14** — Rossella Vodret, "Caravaggio: la nuova edizione del monumentale volume di Stefania Macioce", Storia dell'Arte in tempo reale, 2023-10-21 — https://www.storiadellarterivista.it/blog/2023/10/21/recensione-del-volume-di-stefania-macioce-michelangelo-merisi-da-caravaggio-documenti-fonti-e-inventari/（第 3 版；1597 文书；Celio Vite 由 Gandolfi 发现）
+15. **S15** — il Cartastorie（Banco di Napoli 历史档案馆博物馆）, "Caravaggio" — https://www.ilcartastorie.it/caravaggio/（1606 copiapolizze；Radulovich 条目）
+16. **S16** — Avvenire (Maurizio Cecchetti), "Le verità ritrovate su Caravaggio", 2023-09-01 — https://www.avvenire.it/agora/cultura/le-verita-ritrovate-su-caravaggio_69272
+17. **S17** — "Caravaggio a Malta e i suoi referenti: notizie d'archivio"（Macioce 文摘要页，Storia dell'Arte in tempo reale）— https://www.storiadellarterivista.it/caravaggio-a-malta-e-i-suoi-referenti-notizie-darchivio/（Wignacourt 1607-12-29 / 1608-02-07 书信；1608-07-14 授勋）
+18. **S18** — Wikipedia (IT), "Giuditta che decapita Oloferne (Finson)" — https://it.wikipedia.org/wiki/Giuditta_che_decapita_Oloferne_(Finson)（Pourbus 1607-09-25 书信）
+19. **S19** — ToscanaLibri, "Mistero sulla morte di Caravaggio, ritrovata lettera di un viceré che rafforza l'ipotesi sul decesso a Porto Ercole", 2014-06-17 — https://www.toscanalibri.it/notizia/mistero-sulla-morte-di-caravaggio-ritrovata-lettera-di-un-vicere-che-rafforza-l-ipotesi-sul-decesso-a-porto-ercole_6844/（副王信；Vinceti 主张，备查）
+
+## 12. 临摹/学习清单
+
+> wave14 加固增项（规格 §1）：9 件代表作，各写「看什么 / 学什么 / 怎么练（可执行练习）」。练习默认以纸笔/数字笔临摹或重演执行；涉及生成工具处沿用 §8.1 提示词与 §8.2 自查规则；作品图源见 `_images/caravaggio/` 与 §9。
+> 建议顺序：12.1 → 12.3 → 12.2 → 12.4 → 12.7 → 12.6 → 12.8 → 12.5 → 12.9（由单光源静物，到叙事装置，到巨幅黑暗，到晚期极简）。
+
+### 12.1 《捧果篮的男孩》Boy with a Basket of Fruit（c.1595，Galleria Borghese，inv. 136）
+- **看什么**：早期「从自然写生」的极限样本——2012 年分析发现的画布底层草图（§2-2）；静物精度与人物同等；单光源下叶片投影、果皮高光、篮条编织密度。
+- **学什么**：让「静物」当主角的构图（主体偏右下、深底、贴平面雏形）；同光源下「物—人」一致性（高光方向与阴影色温）。
+- **怎么练**：① 摆一组真实水果 + 单一硬光（无补光）拍照；② 先只画水果与篮（明暗两大区起手，禁细化）；③ 加一只手入画；④ 用 §8.2-4 自查「高光连通域 ≤5 且落脸/手/道具」，用 §8.2-2 查背景最亮 ≤ 全帧 10%。
+
+### 12.2 《圣马太蒙召》The Calling of Saint Matthew（1599–1600，San Luigi dei Francesi，Contarelli 礼拜堂）
+- **看什么**：一束光「选中」一个人的叙事机制；基督的手与马太的手（与米开朗基罗《创造亚当》的互文）；五个税吏的视线链；当代服装 + 税吏房间（§1-7）。
+- **学什么**：用光当叙事主语（光只落在被召唤者）；手势向量指向叙事对象；群体中「一瞬」的冻结。
+- **怎么练**：① 写一张「光选人」分镜：标出谁被照亮、谁留在暗里、光源画外位置；② 画 5 人视线链与手势向量图（检查箭头是否汇聚）；③ 临摹为明暗大块（只画 3 个亮块），再逐步加深；④ 自查：高光只落脸/手/道具（§8.2-4）。
+
+### 12.3 《以马忤斯的晚餐》The Supper at Emmaus（1601，National Gallery London，NG172）
+- **看什么**：abbozzo 笔绘底稿与 incisions 刻线（§2-1/2/3）；两条厚涂斜笔的定位法；「认出的一瞬」——前伸的手、桌上静物（面包/水果/酒杯）、墙上「反向光环」阴影（§1-1）。
+- **学什么**：决定性瞬间的构图（动作极值 + 手势延长线）；直接画法流程（深色笔线定形 → 刻线 → 铺色 → 亮部厚涂）。
+- **怎么练**：① 不打草稿纸，直接在画布/厚纸上以深棕色笔线定形（限 30 分钟）；② 用笔杆尾端刻出两个人物位置线；③ 复现「手—面包—酒杯」的三角；④ 自查：中间调压缩（§8.2-3）与暗部保细节（§8.2-7）。
+
+### 12.4 《基督下葬》The Entombment（1603–04，Musei Vaticani，Pinacoteca Sala XII）
+- **看什么**：五人群像的「贴平面」压缩（§1-4）；四只手臂的合力方向（把视线推向画外墓穴）；尼哥底母用米开朗基罗的脸（§6.1）；大块明暗的简洁。
+- **学什么**：群像压缩术（主人物包围盒 ≥80%、边缘裁切）；手势向量的合力与画外指向。
+- **怎么练**：① 用箭头图标注所有手势/视线向量，检查是否汇聚到画外一点；② 只画五人的明暗大块（忽略细节），再做「谁被裁切」检查；③ 复现石材与布褶两种质感的两级对比。
+
+### 12.5 《圣母之死》Death of the Virgin（1601–03，Louvre；1606 年被拒收撤下）
+- **看什么**：被拒收的「失礼」细节——垂落的手、肿胀的躯体、极简的圣光；Mancini 1606-10-14 信与 Rubens 接手（§6.2、§11）。
+- **学什么**：把宗教图像「去象征化」；悲剧性由物理细节（脚、腹、手）承担。
+- **怎么练**：① 对照 §11 引文逐条找出「被指摘」的细节；② 做「删掉所有光环/象征物」的改写练习：只留人体与布；③ 用单光源重摆「垂手」姿态并写生。
+
+### 12.6 《大卫手提歌利亚的头》David with the Head of Goliath（1606–07 或 1609–10，Galleria Borghese，inv. 455）
+- **看什么**：晚期色域收窄与宽笔触（§1-9、§2-8）；巨人头 = 自画像（§6.2）；剑刃铭文 "H.AS O S"；光的双重心（持头的手 vs 垂下的头）。
+- **学什么**：把自传性放进道具（头、剑铭）；晚期「少色阶、多黑」的收窄法。
+- **怎么练**：① 临摹头部「半光半暗」处理（限三色：赭/黑/白）；② 做「只照亮两个物件」（手 + 头）的缩略图 6 张；③ 自查：色相数与高光数量（§4-P5 强档）。
+
+### 12.7 《施洗者圣约翰被斩首》The Beheading of Saint John the Baptist（1608，St John's Co-Cathedral, Valletta）
+- **看什么**：370 × 520 cm 巨幅里的「黑暗主导」；血泊中的签名（唯一）；冷漠的旁观者与空荡牢房——神圣处决被画成监狱谋杀。
+- **学什么**：大面积黑暗 + 单一动作的巨幅控制；把「签名」当构图元素。
+- **怎么练**：① 用「暗面 ≥60%」约束做同构草图（人物贴左、大墙留黑）；② 复现血泊签名位置（画面下部中线）；③ 检查：可见光源数 = 0、光斑落点 = 三个关键人物部位。
+
+### 12.8 《七件善事》The Seven Works of Mercy（1606–07，Pio Monte della Misericordia, Napoli）
+- **看什么**：七件事在一格街巷夜景里叠合；从高处垂下的光柱同时点亮两组善行；人群密度与「手」的可辨识性。
+- **学什么**：多叙事合并（七个动作 → 一个画面）；垂直光柱的分配；密度下的可读性。
+- **怎么练**：① 把七个动作写成七行分镜，再压进一格构图（限 10 人内）；② 标出每件善事对应的「手」；③ 自查：每件善事至少一只可辨的手 + 光斑覆盖。
+
+### 12.9 《圣乌尔苏拉殉道》The Martyrdom of Saint Ursula（1610，Gallerie d'Italia, Napoli）
+- **看什么**：最后作品；光只照亮三人（乌尔苏拉、箭、刽子手半身）；「瞬间之后」的沉默；晚期的极简。
+- **学什么**：把「死亡瞬间」压缩到三人 + 一束光；晚期的克制。
+- **怎么练**：① 临摹三人组的光斑分布图（标出 3 个高光连通域）；② 用「只 3 个高光」的约束做一张新构图练习。
+
 ## 自审四段
 
 ### A. 早产出

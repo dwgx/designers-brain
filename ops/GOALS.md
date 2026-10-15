@@ -38,21 +38,21 @@
 | A-24 | done | wave13·修拉：443 行 v2 档案（§11 生平 + §12 临摹清单）+ 语料 19 条 + 图库 10 张 + 私有层（Met 1991 目录 PDF + OCR）；分工 vs 莫奈写死；抽取实测 PASS | `knowledge/domains/painters/dossiers/seurat.md` | ArtistSeurat（wave13） |
 | A-25 | done | wave13·霍珀：460 行 v2 档案（§11 生平 + §12 临摹清单）+ 语料 25 条 + **图库 9 张全在 `_private/`**（公开侧零图，权利行逐张）；分工 vs 维米尔写死；抽取实测 PASS | `knowledge/domains/painters/dossiers/hopper.md` | ArtistHopper（wave13） |
 | A-26 | done | wave13·八大山人：370 行 v2 档案（§11 生平 + §12 临摹清单）+ 语料 22 条 + 图库 9 张（全 PD/CC0）+ 私有补遗 5 条；分工 vs 北斋写死；抽取预演 PARSE OK | `knowledge/domains/painters/dossiers/bada_shanren.md` | ArtistBadaShanren（wave13） |
-| A-27 | running | wave13·齐白石 v2（vs 马蒂斯/八大分工；版权图审慎） | `knowledge/domains/painters/dossiers/qi_baishi.md` | ArtistQiBaishi（wave13） |
+| A-27 | done | wave13·齐白石：412 行 v2 档案（§11 生平 + §12 临摹 9 件）+ 语料 25 条 + 图库 11 张公开（4 件 URAA 从严移入 `_private/`）+ 私有 2 件；分工 vs 马蒂斯/八大写死（3 互斥轴）；引文抽查 5/5 | `knowledge/domains/painters/dossiers/qi_baishi.md` | ArtistQiBaishi（wave13） |
 | A-28 | done | wave13·伊藤若冲：447 行 v2 档案（§11 生平 + §12 临摹 9 件）+ 语料 24 条 + 图库 18 张（ColBase/Commons/Met）+ 私有补遗；分工 vs 北斋/克里姆特写死；自检全过 | `knowledge/domains/painters/dossiers/ito_jakuchu.md` | ArtistItoJakuchu（wave13） |
 | A-29 | done | 名册：**59 位**候选（15 文化区；49 新增）+ wave 批次建议（8/7/7）；验收：349 行 + 机械检查全 PASS（候选 59 / §1=10 / §2=49 / 交集 ∅） | `knowledge/domains/painters/program/roster.md` | RosterBuilder（wave13） |
 | A-30 | open | 学习产物：每大师「学习路径卡」+ 总学习路线（Owner 已批；roster 后启动） | `knowledge/domains/painters/program/learning/` | 主脑 |
 | A-31 | done | 加固·达芬奇：§11（2688 字 + 39 行年表 + 27 来源）+ §12（9 件）；语料 16→22 条；验收：`_extract.py --check` 33/33 + URL 抽检 12/12 | `knowledge/domains/painters/dossiers/da_vinci.md` | BioDaVinci（wave14） |
-| A-32 | running | 加固·米开朗基罗：§11 + §12 | `knowledge/domains/painters/dossiers/michelangelo.md` | BioMichelangelo（wave14） |
+| A-32 | done | 加固·米开朗基罗：§11（2816 字 + 35 行年表 + 14 来源）+ §12（8 件）；语料 +7 → 22 条；§10/语料缺口注 3 处已更新（Fattucci 信已找到）；「1509 揭幕」旧说 OVERTURNED；验收：`_extract.py --check` 33/33 + 引文 7/7 | `knowledge/domains/painters/dossiers/michelangelo.md` | BioMichelangelo（wave14） |
 | A-33 | done | 加固·梵高：§11（2561 字 + 24 行年表 + 18 来源；16 条引文 byte-exact 核验）+ §12（10 件）；语料 20→36 条；「903 封」旧 [UNVERIFIED] 收口；验收：`_extract` 33/33 + skill selfcheck PASS | `knowledge/domains/painters/dossiers/van_gogh.md` | BioVanGogh（wave14） |
 | A-34 | done | 加固·莫奈：§11（2108 字 + 42 行年表 + 14 新来源）+ §12（9 件）；语料 17→29 条；验收：`_extract.py --check` 33/33 + 序号连续 | `knowledge/domains/painters/dossiers/monet.md` | BioMonet（wave14） |
-| A-35 | running | 加固·毕加索：§11 + §12 | `knowledge/domains/painters/dossiers/picasso.md` | BioPicasso（wave14） |
+| A-35 | done | 加固·毕加索：§11（2169 字 + 51 行年表 + 19 来源 + 引语分级注）+ §12（10 件）；语料 16→24 条（含 Gilot 降级警示）；验收：check_w14.py ALL PASS + 引文 7/7（工自提交 e62e2ee） | `knowledge/domains/painters/dossiers/picasso.md` | BioPicasso（wave14） |
 | A-36 | done | 加固·塞尚：§11（2297 字 + 31 行年表 + 16 来源；「绝交信」旧说 OVERTURNED）+ §12（9 件）；语料 17→24 条；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/cezanne.md` | BioCezanne（wave14） |
 | A-37 | done | 加固·马蒂斯：§11（2643 字 + 54 行年表 + 17 来源）+ §12（10 件）；语料 13→24 条；验收：`_extract.py --check` 33/33 + 引文抽查 5/5 | `knowledge/domains/painters/dossiers/matisse.md` | BioMatisse（wave14） |
 | A-38 | done | 加固·北斋：§11（2080 字 + 34 行年表 + 16 来源）+ §12（10 件）；语料 +7 → 19 条；验收：`_extract.py --check` 33/33 + git diff 仅 2 文件 | `knowledge/domains/painters/dossiers/hokusai.md` | BioHokusai（wave14） |
-| A-39 | running | 加固·卡拉瓦乔：§11 + §12 | `knowledge/domains/painters/dossiers/caravaggio.md` | BioCaravaggio（wave14） |
+| A-39 | done | 加固·卡拉瓦乔：§11（2444 字 + 44 行年表 + 19 来源；「2007 年书信」误传已核正）+ §12（9 件）；语料新建 22 条；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/caravaggio.md` | BioCaravaggio（wave14） |
 | A-40 | done | 加固·维米尔：§11（2578 字 + 39 行年表 + 14 来源 + 未找到 7 条）+ §12（10 件）；语料新建 22 条；验收：`_extract.py --check` 33/33 + git diff 纯插入 0 删除 | `knowledge/domains/painters/dossiers/vermeer.md` | BioVermeer（wave14） |
-| A-41 | running | 加固·丢勒：§11 + §12 | `knowledge/domains/painters/dossiers/durer.md` | BioDurer（wave14） |
+| A-41 | done | 加固·丢勒：§11（2426 字 + 25 行年表 + 12 来源）+ §12（10 件）；语料新建 27 条（德文原文+英译+中译）；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/durer.md` | BioDurer（wave14） |
 | A-42 | running | wave15·慕夏（Mucha）v2 全规格 | `knowledge/domains/painters/dossiers/mucha.md` | ArtistMucha（wave15） |
 | A-43 | running | wave15·蒙克（Munch）v2 | `knowledge/domains/painters/dossiers/munch.md` | ArtistMunch（wave15） |
 | A-44 | running | wave15·康定斯基（Kandinsky）v2 | `knowledge/domains/painters/dossiers/kandinsky.md` | ArtistKandinsky（wave15） |

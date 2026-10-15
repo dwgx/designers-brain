@@ -129,7 +129,67 @@
 
 ## 缺口与待验证
 
-- 米氏本人的书信仅收致 Varchi 一封（该文本在缓存内可全文核对）；《Le lettere》其余书信未逐一核对原文，故未收。
+- 米氏本人的书信仅收致 Varchi 一封（该文本在缓存内可全文核对）；《Le lettere》其余书信未逐一核对原文，故未收。**（wave14 更新：已收 7 封——条目 16–22，Milanesi 1875 版转录；其余仍待。）**
 - 色彩与光一节偏薄（3 条）：米氏本人论色彩的成文材料极少，这是史实而非遗漏；已查 Condivi《Vita》全文（it.wikisource 校勘本）、Rime 5/46/151/152/247/285、致 Varchi 书信。
 - 「Flemish painting」（Hollanda 对话录，1548）等转述材料因本轮无法核到原文/可靠版本，未收。
 - 诗作年代依通行编年，个别系年存在异说。
+
+## 生平补遗（wave14）
+
+> wave14 加固新增（2026-10-15）：7 条书信原话（编号续前，16–22），均逐字自 Milanesi 编《Le lettere di Michelangelo Buonarroti…》（1875）Gutenberg 转录核对；与 §11 生平轴配套。
+
+### 16. 画天顶的难处：「这不是我的行当」（1509-01-27 致父信）
+> Io ancora sono in fantasia grande, perchè è già uno anno che io non ò avuto un grosso da questo Papa, e none chiego, perchè el lavoro mio non va inanzi i' modo che a me ne paia meritare. E questa è la dificultà del lavoro, e ancora el non esser mia professione. E pur perdo el tempo mio sanza frutto. Idio m'aiuti.
+
+- 来源：米开朗琪罗致父 Lodovico 的信（罗马，1509-01-27），信 X；Milanesi 编《Le lettere di Michelangelo Buonarroti》1875；https://www.gutenberg.org/ebooks/46599
+- 类型：[self-written]
+- 中文意译：我至今还悬着心：已有一年没从这位教皇手里拿到一分钱，我也不去要——因为我的活儿进展不到我自以为配得上的程度。这活儿的难处就在这里，还在于它不是我本行。我白白耗掉时间。上帝帮我。
+- 注：Milanesi 注 [20]：指西斯廷天顶壁画；写于 1508-05-10 开工后约八个月。
+
+### 17. 天顶改案：「因为他们本来就是穷人」（1524-01 致 Fattucci 信，追述）
+> E 'l disegno primo di detta opera furono dodici Apostoli nelle lunette, e 'l resto un certo partimento ripieno d'adornamenti, come si usa. Dipoi cominciata detta opera, mi parve riuscissi cosa povera, e dissi al Papa, come facendovi gli Apostoli soli mi parea che riuscissi cosa povera. Mi domandò perchè: io gli dissi, perchè furon poveri anche loro. Allora mi dètte nuova commessione ch'io facessi ciò ch'io volevo...
+
+- 来源：致 Giovan Francesco Fattucci 的信（佛罗伦萨，1524-01），信 CCCLXXXIII；同上（Gutenberg #46599）
+- 类型：[self-written]
+- 中文意译：……这作品最初的设计是半月楣里十二使徒，其余填装饰分区，如常例。开工后我觉得它太「穷气」，就对教皇说：只放使徒恐怕寒酸。他问为什么；我说：因为他们本来就是穷人。于是他重新授权：照我想做的做……
+- 注：同信还记「去讨钱被逐出内室」（fui cacciato di camera）与「我被迫颈挂绳套去向他求恕」（mi fu forza andare là con la coreggia al collo a chiedergli perdonanza）——1506 年逃亡事件与博洛尼亚请罪的本人版叙述。
+
+### 18. 铸像两次也要成：「铸到它成的那天」（1524-01 致 Fattucci 信，追述博洛尼亚）
+> gli dissi che e' non era mia arte el gittar di bronzo, e che io credevo con mille ducati d'oro gittarla, ma che non sapevo se mi riuscirebbe. E lui mi disse: «Gitteremla tante volte che la riesca, e daremti tanti danari quanti bisognierà.»
+
+- 来源：同上（信 CCCLXXXIV，与 CCCLXXXIII 同月）；同上（Gutenberg #46599）
+- 类型：[self-written]
+- 中文意译：……我对他说：铸铜不是我的本行；我估计一千金币能铸成，但成不成我没把握。他说：「那就铸到它成的那天；需要多少钱，给你多少钱。」
+- 注：结果「铸了两次」；两年净剩 4 个半杜卡特（另稿自述）——「越干越穷」的自嘲。
+
+### 19. 「我已画完那礼拜堂」（1512-10 致父信）
+> Io ò finita la capella che io dipignievo: el Papa resta assai ben sodisfatto: e l'altre cose non mi riescono a me come stimavo: incolpone e' tempi che sono molto contrari all'arte nostra. Io non verrò costà questo Ogni Santi...
+
+- 来源：致父 Lodovico 的信（罗马，1512-10），信 XV；同上（Gutenberg #46599）
+- 类型：[self-written]
+- 中文意译：我已画完那礼拜堂；教皇相当满意。别的事情却不照我估想的来——要怪时运，对我们的艺术很不友好。今年万圣节我不回你那边了……
+- 注：Milanesi 旧定此信为 1509-10；按现代编年（1512-10-31 揭幕）与信文内容，本档采用 1512-10（it.wikipedia《Volta della Cappella Sistina》同引）。
+
+### 20. 「画是用脑子画的」（1542-10 致某主教信）
+> Io rispondo, che si dipinge col ciervello et non con le mani; et chi non può avere il ciervello seco, si vitupera: però fin che la cosa mia non si acconcia, non fo cosa buona.
+
+- 来源：致「Monsignore」的信（罗马，1542-10），信 CDXXXV；同上（Gutenberg #46599）
+- 类型：[self-written]
+- 中文意译：我回答说：画画是用脑子画的，不是用手画的；脑子不在场的人只会丢丑。所以，我的事没理顺之前，我画不出好东西。
+- 注：写于陵墓纠纷与《最后的审判》完工后的夹缝期（同年 8 月 20 日刚签陵墓最终协议）。
+
+### 21. 「我把整个青春丢给了这座墓」（1542-10，同信）
+> Io mi truovo aver perduta tutta la mia giovineza, legato a questa sepultura, con la difesa quant'ò potuto con papa Leone e Clemente; et la troppa fede non voluta conosciere m'à rovinato.
+
+- 来源：同上（信 CDXXXV）；同上（Gutenberg #46599）
+- 类型：[self-written]
+- 中文意译：我发现自己把整个青春都丢给了这座墓——对利奥、对克雷芒，我尽力替它辩护；而「过分忠诚」不被认账，反把我毁了。
+- 注：此即「tragedia della sepoltura（陵墓的悲剧）」的本人版本；Condivi《Vita》同用「Tragedia」一词。
+
+### 22. 仆人 Urbino 之死：「他生前养我活，死时教我死」（1556-02-23 致 Vasari 信）
+> Voi sapete come Urbino è morto: di che m'è stato grandissima grazia di Dio, ma con grave mio danno e infinito dolore. La grazia è stata, che dove in vita mi teneva vivo, morendo m'à insegnato morire, non con dispiacere, ma con desidéro della morte.
+
+- 来源：致 Giorgio Vasari 的信（罗马，1556-02-23），信 CDLXXVII；同上（Gutenberg #46599）
+- 类型：[self-written]
+- 中文意译：你知道 Urbino 去世了：这对我是上帝极大的恩典，也是我沉重的损失与无尽的悲痛。恩典在于：他生前养我活着，死时教会我死——不是带着不愿，而是带着对死的向往。
+- 注：Urbino（Francesco d'Amadore）卒于 1555-12-03（Milanesi 注 [469]）；另见同日哀报信 CCLXXXIV：「我倒宁愿与他同死」（mi sare' stato più dolce il morir con esso seco）。
