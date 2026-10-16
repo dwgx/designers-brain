@@ -37,7 +37,7 @@
 | 站稳波·W1 | SubagentCatalog / HandoffDigest / EndgameReconcile / GarbageAudit / FOuterRecon / StoreInventory / HtmlExportId / AbsorbCheck / SessionCondense / RosterCrosscheck + Archivist | 考古深挖（子代理目录 / 蒸馏 / 对账 / 审计 / 勘察 / 盘点 / 鉴定 / 吸收 / 浓缩 / 核对）+ F: 归档执行 | partial：5 报告落盘（02/04/06/07/09）；5 工 **killed**（provider 503 波）；Archivist 90% 中断 |
 | 站稳波·W1-R2 | SubagentCatalog2 / EndgameReconcile2 / FOuterRecon2 / AbsorbCheck2 / RosterCrosscheck2 + ArchivistFinish + CleanerProject | 重派 5 工 + 归档补完（补拷/比对/SHA/MANIFEST/收据）+ 项目垃圾隔离 | done：报告 03/05/08/10 + 子代理目录探针（`_sc2_listing.json`）；补拷 165/FAILED=0 → 2,545 文件（收据 §A）；louvre 移除 + quarantine 落盘 |
 | 收口二工（wave21） | IndexMerge4 / ModuleCards72 | 索引四轮（wave21 并入）+ 模块卡 62→72 | done：verify **PASS 282/0**（72 位 / 1934 条 / 公开 723 + 私有 676）· checks=216 · count=72；commits `61c94cb` / `bae29c6` |
-| wave22 | ArtistLinFengmian / ArtistUtamaro / ArtistLam / ArtistEnwonwu | roster 余位 4 位 v2（林风眠 / 喜多川歌麿 / 林飞龙 / 恩沃恩乌） | running（2026-10-16 派出；结局待收口波记） |
+| wave22 | ArtistLinFengmian / ArtistUtamaro / ArtistLam / ArtistEnwonwu（重启后 lin/utamaro 由 `-2` 续跑） | roster 余位 4 位 v2（林风眠 / 喜多川歌麿 / 林飞龙 / 恩沃恩乌） | done：4/4（lam/enwonwu/lin 全私有；utamaro 全公开 PD；验收全过；重启零丢失） |
 
 **本波报告（01–10）↔ 工**：01 SubagentCatalog2（探针占位）· 02 HandoffDigest · 03 EndgameReconcile2 · 04 GarbageAudit · 05 FOuterRecon2 · 06 StoreInventory · 07 HtmlExportId · 08 AbsorbCheck2 · 09 SessionCondense · 10 RosterCrosscheck2。
 
