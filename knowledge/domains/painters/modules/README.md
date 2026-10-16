@@ -1,10 +1,10 @@
 # 画家模块库 · artist_modules
 
-> **A-19 · A-50** ｜ 72 张可组合模块卡：从 72 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
+> **A-19 · A-50** ｜ 76 张可组合模块卡：从 76 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
 > 口径：**只搬运与浓缩，不改档案**；卡内 §8.1 英文正向/负向、§8.2 代码艺术规则、§4 控制参数均为**原样转录（含 `[归纳]` 等标注）**。
 > 组合与冲突处置**以 `knowledge/cross/conflicts.md` 为正本**（18 条 C 冲突 + N1–N9 组合规则 + 8 对 near-miss）。
 
-## 模块清单（72 张）
+## 模块清单（76 张）
 
 | 卡 | 画家 | 能力定位 | 相关冲突（conflicts.md） |
 |---|---|---|---|
@@ -80,8 +80,12 @@
 | [mir_sayyid_ali.md](mir_sayyid_ali.md) | 米尔·赛义德·阿里 | 大幅手抄本 / 微书细节 / 事件动势群像 | 分工 vs 贝赫扎德 / 苏丹·穆罕默德 / 北斋 · C-07 · C-15 · C-16 · C-17 |
 | [de_chirico.md](de_chirico.md) | 德·基里科 | 形而上空间 / 超长投影 / 无人广场 | 分工 vs 霍珀 / 达利（预写） · C-01 · C-12 · C-17 |
 | [rockwell.md](rockwell.md) | 洛克威尔 | 单帧故事 / 导演式调度 / 镜头感构图 | 分工 vs 荷加斯 / 戈雅 · C-01 · C-08 · C-09 · C-17 |
+| [lin_fengmian.md](lin_fengmian.md) | 林风眠 | 方纸布阵 / 墨彩调合＋涂白 / 民间瓷绘色 | 分工 vs 吴冠中 / 马蒂斯 / 徐悲鸿 · C-01 · C-05 · C-06 · C-12 · C-17 · C-18 |
+| [kitagawa_utamaro.md](kitagawa_utamaro.md) | 喜多川歌麿 | 大首绘特写 / 毛描き细线 / 定格美（云母空摺） | 分工 vs 北斋 / 德加 · C-05 · C-12 · C-17 |
+| [lam.md](lam.md) | 林飞龙 | 混种合体 / 满幅丛林 / 仪式符号（去殖民） | 分工 vs 毕加索 / 博斯 · C-01 · C-05 · C-06 · C-12 · C-17 · C-18 |
+| [enwonwu.md](enwonwu.md) | 本·恩沃恩乌 | 雕塑性肖像 / 民族象征 / 暖土色域＋点状高饱和 | 分工 vs 萨金特 / 谢尔吉尔 · C-01 · C-05 · C-12 |
 
-> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。wave15/17/18 新 22 卡（慕夏—吴冠中）、wave19/20 新 20 卡（范宽—苏丹·穆罕默德）与 wave21 新 10 卡（徐悲鸿—洛克威尔）的分工条款出自各档案 §3.1；C 条与 near-miss 预检以 `conflicts.md` 为正本。
+> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。wave15/17/18 新 22 卡（慕夏—吴冠中）、wave19/20 新 20 卡（范宽—苏丹·穆罕默德）、wave21 新 10 卡（徐悲鸿—洛克威尔）与 wave22 新 4 卡（林风眠—恩沃恩乌）的分工条款出自各档案 §3.1；C 条与 near-miss 预检以 `conflicts.md` 为正本。
 
 ## 组合规则速查
 
@@ -126,8 +130,8 @@
 ## 维护 / 复跑
 
 - 卡片由 `_extract.py` 生成（只读档案、只写本目录）：
-  - `python _extract.py --write` 重建 72 张卡；
-  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=216 ok=216 fail=0`）；
+  - `python _extract.py --write` 重建 76 张卡；
+  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=228 ok=228 fail=0`）；
   - `python _extract.py --diff <id> [--sec 81|82|4] [--full]` 查看单卡比对详情（含 sha256 与原样全文）。
 - §8.1b 为 E-02 派生补充（非档案内容；E-03 起可含 v2 修订与「v1 审计存档」子节，如 michelangelo）：`--check` 在 §8.1b 处截断后比对 §8.1（不参与逐字校验）；`--write` 重建时原样保留卡内现有 §8.1b 节。
 - 档案更新 → 重跑 `--write` + `--check`；`conflicts.md` 更新（C 条被推翻 / 新增）→ 同步各卡「冲突注记」。
