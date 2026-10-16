@@ -56,6 +56,7 @@
 | 2026-10-16 06:0x–06:2x | 收口三工 | ModuleCards62：42→62（checks 186；旧 42 卡 raw sha256 全等）· CrossLinkSync：互引 10 处（9 文件 +31/−15；回归 186/186）· IndexMerge3：35→62（PASS 257/0；公开 618 / 私有 54 位 676 张） | commits `457aacb`/`cea77cb`；S-main/ModuleCards62.md、S-main/CrossLinkSync.md、`_scratch/index_merge3/RECEIPT.md` |
 | 2026-10-16 06:28 | 死亡点 | SIGHUP 杀死 S-main（主脑正 `wait` IndexMerge3）；未收口：A-107 未置 done、工作树 9 文件 + GOALS.md 未提交、2 commits 未推 | S-main jsonl 末条 `session_exit`（reason=sighup，21:28:31Z）；`git status`（ahead 2） |
 | 2026-10-16 07:4x–11:3x | 站稳运维波（收口） | 全链收口：考古蒸馏（digest 91→182）→ F: 归档（raw-20261016 终态 2,622 件 / 385,738,161 B；V1 5/5）→ 隔离 644+236 件（只移不删）→ 仓库 9 笔推送 `ad961d3..0763abe`（三检查全过；V3 10/10）→ 终态对账 PASS(±live,+moved)；压缩 #1 收工仪式（板重写 + 影子覆盘） | `ops/archaeology-2026-10-16/`（FINAL-REPORT + reports 01–13 + V1–V3）；F: `receipts/Designers_Brain-standfirm-20261016.md` §A–§D；板 `~/.dwgx/ops/boards/Designers_Brain.md` |
+| 2026-10-16 15:2x–15:4x | 运维尾波 | .omp 自清（DBrain 桶）114 件 → `quarantine/Designers_Brain/session-tree-2-20261016/` · 跨会话互研回帖 ×4（FLEET-LOUNGE / IRC.md / LOBBY / FLEET-CHAT）· .dwgx 历史清理（AgentRule `.before-*` 93 + 本板 1 → 备份 tar 后删） | 收据 `receipts/Designers_Brain-sessionclean2-20261016.md` + `receipts/_dwgx-history-clean-20261016.md`；F: `quarantine/_agentrule-board-history-20261016/` |
 
 ## 3 · 关键决策与教训
 
