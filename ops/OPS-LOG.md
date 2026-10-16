@@ -146,3 +146,10 @@
   4. **收口**：死亡点 sweep（crosslink 10 处 + A-102/A-107/A-108/A-109）`91194d2`；E 系校验器漂移修复（3 断言 + 2 文本；4/4 复跑 PASS）`4bdccbb`；louvre WAF 页清除 `19773a3`；本波记录提交（见 git log）。**三检查后推送 origin/main。**
 - **事故/教训**：① provider 503 波（08:2x–10:0x）杀死 5 工（transcript 失）→ `-2` 后缀重派 + 写盘纪律；② scout 子代理写项目树受限（`write` 拒；bash 重定向可行）；③ 校验器硬编码数字随卡数增长必破（`ok=33`→动态解析 ≥33 保底）；④ E2 verify 曾 EXIT=1 = 期望值漂移非回归（修复后全绿）。
 - 家族侧：`receipts/Designers_Brain-standfirm-20261016.md`（§A 复制 / §B 隔离 / §C f-outer / §D 汇总）；`digests/Designers_Brain/`；`f-outer/Designers_Brain/README.md`（0 件）；`_meta/lane-Designers_Brain.md`。
+
+## 18. 本机重启中断（2026-10-16 19:3x）—— wave22 两工重派
+
+- **事件**：Owner 误重启本机；wave22 在跑的 2 工（ArtistLinFengmian / ArtistUtamaro）进程中断；另 2 工（lam / enwonwu）已完成入库（`b44d02d` / `6ad81b8`），无损。
+- **审计**：盘上产物完好——lin：`_private/images_hi_res/lin_fengmian/` 31 图 + MANIFEST + INVENTORY + `_scratch/lin_fengmian/RESUME.md`（详尽）+ 355 件中间件；utamaro：`_images/kitagawa_utamaro/` 12 图（postprocess/sha256 表在位）+ 93 件中间件（无 RESUME）。两工均未写 dossier/corpus。
+- **处置**：按「先核后续」纪律 `-2` 后缀重派（ArtistLinFengmian-2 / ArtistUtamaro-2，链接原单 A-112/A-113）；不重下已落盘素材。
+- **教训**：写盘纪律生效（RESUME + 逐段落盘 = 零重做成本）；重派用 `-2` 惯例；wave22 收口波前补「重启中断」标注。
