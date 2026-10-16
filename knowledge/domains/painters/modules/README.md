@@ -1,10 +1,10 @@
 # 画家模块库 · artist_modules
 
-> **A-19 · A-50** ｜ 62 张可组合模块卡：从 62 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
+> **A-19 · A-50** ｜ 72 张可组合模块卡：从 72 份画家档案（`knowledge/domains/painters/dossiers/*.md`）的 §8 提示词模块抽取/整理。
 > 口径：**只搬运与浓缩，不改档案**；卡内 §8.1 英文正向/负向、§8.2 代码艺术规则、§4 控制参数均为**原样转录（含 `[归纳]` 等标注）**。
 > 组合与冲突处置**以 `knowledge/cross/conflicts.md` 为正本**（18 条 C 冲突 + N1–N9 组合规则 + 8 对 near-miss）。
 
-## 模块清单（62 张）
+## 模块清单（72 张）
 
 | 卡 | 画家 | 能力定位 | 相关冲突（conflicts.md） |
 |---|---|---|---|
@@ -70,8 +70,18 @@
 | [sorolla.md](sorolla.md) | 索罗拉 | 强阳光 / 正午高照度 / 白上加白 | 分工 vs 莫奈 / 佐恩 · C-05 · C-09 · C-12 |
 | [zorn.md](zorn.md) | 佐恩 | 有限色板 / 佐恩四色 / 水彩与蚀刻精准 | 分工 vs 萨金特 / 德加 / 索罗拉 · C-03 · C-04 · C-05 · C-08 · C-09 · C-12 |
 | [sultan_mohammed.md](sultan_mohammed.md) | 苏丹·穆罕默德 | 萨法维细密画 / 色彩奢华 / 动势 | 分工 vs 贝赫扎德 / 克里姆特 · C-07 · C-15 · C-16 · C-17 |
+| [xu_beihong.md](xu_beihong.md) | 徐悲鸿 | 写实融合 / 奔马结构-笔墨 / 明暗交界线 | 分工 vs 达·芬奇 / 吴冠中 / 李可染 / 林风眠 · C-05 · C-12 · C-17 |
+| [li_keran.md](li_keran.md) | 李可染 | 逆光山水 / 积墨亮口 / 黑满重亮 | 分工 vs 黄公望 / 范宽 / 莫奈 / 透纳 · C-05 · C-12 · C-17 |
+| [sher_gil.md](sher_gil.md) | 阿姆里塔·谢尔吉尔 | 本地凝视 / 饱和暖色域 / 平面化简形 | 分工 vs 高更 / 卡罗 / 拉维·瓦尔马 · C-05 · C-12 · C-16 |
+| [tarsila.md](tarsila.md) | 塔西拉·多·阿马拉尔 | 热带色板 / 几何化简形 / 梦境民族图像 | 分工 vs 马蒂斯 / 毕加索 · C-01 · C-05 · C-06 · C-14 · C-18 |
+| [chen_hongshou.md](chen_hongshou.md) | 陈洪绶 | 古拙变形人物 / 方折瘦硬线 / 版画插图 | 分工 vs 毕加索 / 丢勒 / 赵孟頫 |
+| [xu_wei.md](xu_wei.md) | 徐渭 | 泼墨大写意 / 狂草笔线 / 偶发墨点 | 分工 vs 八大山人 / 齐白石 / 雪舟 · C-07 · C-12 · C-17 |
+| [hogarth.md](hogarth.md) | 荷加斯 | 多帧道德叙事 / 剧场调度 / 题刻装置 | 分工 vs 戈雅 / 洛克威尔 · C-01 · C-07 · C-08 · C-16 · C-17 |
+| [mir_sayyid_ali.md](mir_sayyid_ali.md) | 米尔·赛义德·阿里 | 大幅手抄本 / 微书细节 / 事件动势群像 | 分工 vs 贝赫扎德 / 苏丹·穆罕默德 / 北斋 · C-07 · C-15 · C-16 · C-17 |
+| [de_chirico.md](de_chirico.md) | 德·基里科 | 形而上空间 / 超长投影 / 无人广场 | 分工 vs 霍珀 / 达利（预写） · C-01 · C-12 · C-17 |
+| [rockwell.md](rockwell.md) | 洛克威尔 | 单帧故事 / 导演式调度 / 镜头感构图 | 分工 vs 荷加斯 / 戈雅 · C-01 · C-08 · C-09 · C-17 |
 
-> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。wave15/17/18 新 22 卡（慕夏—吴冠中）与 wave19/20 新 20 卡（范宽—苏丹·穆罕默德）的分工条款出自各档案 §3.1；C 条与 near-miss 预检以 `conflicts.md` 为正本。
+> 来源档案与卡同名（`knowledge/domains/painters/dossiers/<id>.md`，唯一正本）；每张卡的「冲突注记」列有其 C 条、分工条款与 near-miss 明细。wave15/17/18 新 22 卡（慕夏—吴冠中）、wave19/20 新 20 卡（范宽—苏丹·穆罕默德）与 wave21 新 10 卡（徐悲鸿—洛克威尔）的分工条款出自各档案 §3.1；C 条与 near-miss 预检以 `conflicts.md` 为正本。
 
 ## 组合规则速查
 
@@ -116,8 +126,8 @@
 ## 维护 / 复跑
 
 - 卡片由 `_extract.py` 生成（只读档案、只写本目录）：
-  - `python _extract.py --write` 重建 62 张卡；
-  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=186 ok=186 fail=0`）；
+  - `python _extract.py --write` 重建 72 张卡；
+  - `python _extract.py --check` **逐字校验**全部卡片 §8.1 / §8.2 / §4 与档案一致（期望 `checks=216 ok=216 fail=0`）；
   - `python _extract.py --diff <id> [--sec 81|82|4] [--full]` 查看单卡比对详情（含 sha256 与原样全文）。
 - §8.1b 为 E-02 派生补充（非档案内容；E-03 起可含 v2 修订与「v1 审计存档」子节，如 michelangelo）：`--check` 在 §8.1b 处截断后比对 §8.1（不参与逐字校验）；`--write` 重建时原样保留卡内现有 §8.1b 节。
 - 档案更新 → 重跑 `--write` + `--check`；`conflicts.md` 更新（C 条被推翻 / 新增）→ 同步各卡「冲突注记」。
