@@ -155,7 +155,7 @@ def main():
     L.append("- `sheet_<cell>.png` ×12 · `sheet_all.png`（12 行总表）· `prompts.json` · `run_log.jsonl` · `sha256_manifest.txt`")
     L.append("- 脚本：`_extract_prompts.py` → `_gen.py`（重试 ≤2、间隔 0.8s）→ `_sheets.py` → `_report.py` → `_verify.py`（验收）")
     L.append("- 复现：`python _extract_prompts.py && python _gen.py batch && python _sheets.py && python _report.py && python _verify.py`")
-    L.append("- 模块卡校验：`python knowledge/domains/painters/modules/_extract.py --check` → `checks=33 ok=33 fail=0`（2026-10-15 复核）")
+    L.append("- 模块卡校验：`python knowledge/domains/painters/modules/_extract.py --check` → `checks=186 ok=186 fail=0`（2026-10-16 复核；11 卡时代为 33）")
     L.append("")
     L.append("## 5. 机械核验（2026-10-15）")
     L.append("")

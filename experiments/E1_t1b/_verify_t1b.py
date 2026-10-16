@@ -8,7 +8,7 @@
   ④ 全部图片可打开、均为 JPEG、sha256 全部唯一
   ⑤ req/resp 原样 JSON 各 21 份（每格 3 组）
   ⑥ 模块卡 §8.1b：7 卡「纯风格段」+ 4 卡「场景可迁移性注记」
-  ⑦ 模块卡逐字校验：python _extract.py --check → ok=33 fail=0
+  ⑦ 模块卡逐字校验：python _extract.py --check → fail=0 且 ok=checks（保底 ≥33）
 输出逐项 PASS/FAIL 与汇总；退出码 0=全部通过。
 """
 import glob
@@ -151,8 +151,11 @@ def main():
     try:
         r = subprocess.run([sys.executable, "_extract.py", "--check"], cwd=MODULES_DIR,
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
-        ok7 = ("fail=0" in r.stdout) and ("ok=33" in r.stdout)
-        print("⑦ 模块卡逐字校验: %s" % ("ok=33 fail=0" if ok7 else "FAIL\n" + r.stdout[-400:]))
+        import re as _re
+        # 动态解析（卡数 11→20→42→62 增长不再破；保底 ≥33 = 原始验收下限）
+        _m = _re.search(r"checks=(\d+) ok=(\d+) fail=(\d+)", r.stdout)
+        ok7 = bool(_m) and _m.group(3) == "0" and _m.group(1) == _m.group(2) and int(_m.group(2)) >= 33
+        print("⑦ 模块卡逐字校验: %s" % (("checks=%s ok=%s fail=0（≥33 保底）" % (_m.group(1), _m.group(2))) if ok7 else "FAIL\n" + r.stdout[-400:]))
         if not ok7:
             problems.append("模块卡逐字校验失败")
     except Exception as exc:
@@ -163,7 +166,7 @@ def main():
     if problems:
         print("VERIFY FAIL:", problems)
         sys.exit(1)
-    print("VERIFY PASS — 21/21 张 + 诊断表(12) + 同格对照(7) + §8.1b(7+4) + 逐字校验(33/33) 全部就位。")
+    print("VERIFY PASS — 21/21 张 + 诊断表(12) + 同格对照(7) + §8.1b(7+4) + 逐字校验(全过，≥33 保底) 全部就位。")
 
 
 if __name__ == "__main__":

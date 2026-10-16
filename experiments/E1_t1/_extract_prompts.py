@@ -6,7 +6,7 @@
   prompt = THEME + " " + §8.1 正向段（逐行解包为单行，内容逐字不变）
   负向段：不随请求发送（grok-imagine 通道无负向参数）——记录在 prompts.json / RESULTS.md 备查。
 
-校验依据：模块卡经 `python _extract.py --check` 逐字比对（checks=33 ok=33 fail=0）。
+校验依据：模块卡经 `python _extract.py --check` 逐字比对（fail=0 且 ok=checks；11 卡时代 33，当前 186）。
 """
 import json
 import os

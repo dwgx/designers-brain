@@ -8,7 +8,7 @@
   ④ sheet_all_e2.png + 3 张 sheet_<cell>.png
   ⑤ prompts_e2.json 与模块卡重抽逐段一致（sha256 复核）
   ⑥ combo_records.json：3 格 × {n1, n4, n9} 记录
-  ⑦ 模块卡逐字校验回归：python _extract.py --check → ok=33 fail=0
+  ⑦ 模块卡逐字校验回归：python _extract.py --check → fail=0 且 ok=checks（保底 ≥33）
 输出逐项 PASS/FAIL 与汇总；退出码 0=全部通过。
 """
 import glob
@@ -164,8 +164,11 @@ def main():
     try:
         r = subprocess.run([sys.executable, "_extract.py", "--check"], cwd=MODULES_DIR,
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
-        ok7 = ("fail=0" in r.stdout) and ("ok=33" in r.stdout)
-        print("⑦ 模块卡逐字校验: %s" % ("ok=33 fail=0" if ok7 else "FAIL\n" + r.stdout[-400:]))
+        import re as _re
+        # 动态解析（卡数 11→20→42→62 增长不再破；保底 ≥33 = 原始验收下限）
+        _m = _re.search(r"checks=(\d+) ok=(\d+) fail=(\d+)", r.stdout)
+        ok7 = bool(_m) and _m.group(3) == "0" and _m.group(1) == _m.group(2) and int(_m.group(2)) >= 33
+        print("⑦ 模块卡逐字校验: %s" % (("checks=%s ok=%s fail=0（≥33 保底）" % (_m.group(1), _m.group(2))) if ok7 else "FAIL\n" + r.stdout[-400:]))
         if not ok7:
             problems.append("模块卡逐字校验失败")
     except Exception as exc:
@@ -176,7 +179,7 @@ def main():
     if problems:
         print("VERIFY FAIL:", problems)
         sys.exit(1)
-    print("VERIFY PASS — 9/9 张 + RESULTS_E2.md（N1/N4/N9/双标准） + sheet_all_e2 + 3 格 sheet + 重抽复核 + 逐字校验(33/33) 全部就位。")
+    print("VERIFY PASS — 9/9 张 + RESULTS_E2.md（N1/N4/N9/双标准） + sheet_all_e2 + 3 格 sheet + 重抽复核 + 逐字校验(全过，≥33 保底) 全部就位。")
 
 
 if __name__ == "__main__":
