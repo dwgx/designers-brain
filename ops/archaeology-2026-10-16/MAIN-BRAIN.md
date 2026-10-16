@@ -56,3 +56,9 @@
 - 结构/README：SKIAPI 会话设计（07:47–07:49）。
 - 观察窗口：`F:/backup_famlti_family/receipts/`、`_meta/`、`C:/Users/dwgx1/.dwgx/ops/research-2026-10-16-standfirm/`（协调者工具/报告位）。
 - 本会话只在 `sessions/Designers_Brain/`、`receipts/Designers_Brain*`、`digests/Designers_Brain/`、`quarantine/Designers_Brain/`、`f-outer/`（DBrain 相关件）写；其余不碰。
+
+## 7 · 收口补记（11:20 JST）
+
+- 提交 `ba5a3a7`（V3 报告入仓）推送完成；终态 `HEAD == origin/main`，三检查 + V3 10/10 全过。
+- 最终快照：robocopy 两轮追平 + compare `PASS(±live,+moved)`（非 live 0；隔离搬动 236=白名单；live 1 可追平）；**补件 14 件**入档（sha 14/14）；`_compare-allowlist-quarantine.txt` + 工具补丁落盘。
+- 终报：`FINAL-REPORT.md`（本目录）；家族收据 §D 已补。本波收工。
