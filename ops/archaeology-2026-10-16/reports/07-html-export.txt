@@ -1,0 +1,38 @@
+# 07-html-export — 纯文本 extract（会话导出解析）
+# 源文件 : D:/Project/Designers_Brain/omp-session-2026-10-15T22-30-09-428Z_01a141af-e714-737a-9b83-95a0938474e5.html
+# 文件属性: 614,860 B · 3,148 行 · mtime 2026-10-16 07:38:19.298 +0900 (=2026-10-15T22:38:19Z) · git: untracked
+# 解析路径: <script id="session-data" type="application/json"> → base64 → UTF-8 JSON（顶层键: header / entries / leafId / systemPrompt / tools）
+# 交叉核对: 主会话 python 解码（bytes=47,397；keys 一致）＋ 浏览器 atob 解码 ＋ 文件直读复核 entry id
+# 生成: HtmlExportId（Wave1 · 07）· 2026-10-16 08:1x JST
+
+===== [1] HEADER =====
+{"type":"session","version":3,"id":"01a141af-e714-737a-9b83-95a0938474e5","timestamp":"2026-10-15T22:30:09.428Z","cwd":"D:\\Project\\Designers_Brain"}
+
+===== [2] ENTRIES —— 共 2 条；消息 0 条 =====
+[1] {"type":"model_change","id":"e2d0453d","parentId":null,"timestamp":"2026-10-15T22:30:09.675Z","runtime":{"version":"18.11.1"},"model":"buddyfarm/deepseek-v4.1-flash","resolvedModelIsFallback":false}
+[2] {"type":"thinking_level_change","id":"59b16d5d","parentId":"e2d0453d","timestamp":"2026-10-15T22:30:09.675Z","runtime":{"version":"18.11.1"},"thinkingLevel":"max","configured":null}
+（无任何 user / assistant / tool 消息；会话树共 2 节点）
+
+===== [3] leafId =====
+"59b16d5d"（= entry 2 的 id；树尖）
+
+===== [4] systemPrompt（导出侧附加：导出时 live agent state，非会话内容）=====
+存在。标准 omp 系统提示词；开头：
+  "RFC 2119 keywords: MUST, REQUIRED, SHOULD, RECOMMENDED, MAY, OPTIONAL. `NEVER` = `MUST NOT`; `AVOID` = `SHOULD NOT`. XML tags inject system content; …"
+含：§ Role / # Engineering / # Personality / # Tone / # Reasoning Format / # Escalation / § Runtime（# Skills & Rules、硬地板、Internal URLs、# Tool Inventory）/ # Tool Policy / <project-context>（win32 10.0.26300 / x64 / buddyfarm/deepseek-v4.1-flash；本机 AGENTS.md 与 D:\Project\Designers_Brain\AGENTS.md 全文）/ <critical> / # MCP Tool Routes（chrome-devtools 设备清单）
+（完整文本未复制进本 extract；如需全文，可在原 HTML 的 session-data 中解码获得）
+
+===== [5] tools（导出侧附加）=====
+存在（live 工具描述快照）。数组头部已直接核对：read, bash, edit, ask, …；共 12 项，与系统提示词 "# Tool Inventory" 一致：
+read / bash / edit / ask / eval / glob / grep / task / wait / todo / web_search / write
+
+===== [6] 页面渲染元数据（导出页信息栏）=====
+Session: 01a141af-e714-737a-9b83-95a0938474e5 · DATE: 10/16/2026, 7:30:09 AM · MESSAGES: 0 · TOOL CALLS: 0 · TOKENS: 0 · COST: $0.000 · rows: 1/2
+
+===== [7] 会话内容（对话正文）=====
+（空）—— 无首条用户消息、无末条消息；本 extract 的 [1]–[5] 即该导出的全部可提取数据。
+
+===== [8] 结论速记 =====
+- 空会话自导出：启动 0.25s 后停滞，从未收到任何输入（0 消息）。
+- 未持久化：sessions 库无对应 jsonl；本 HTML 为唯一完整快照（另：breadcrumb wt-d5322475 + history.db 一行 /export）。
+- /export 由该会话自身于 2026-10-15T22:38:19Z 执行（cwd=项目根 → 默认文件名落在项目根）。

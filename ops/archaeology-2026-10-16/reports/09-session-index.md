@@ -1,0 +1,648 @@
+# 09 · S-main 会话索引（机械产物 · 供考古检索）
+
+- 源 jsonl：`…/2026-10-15T06-29-46-426Z_01a13e40-a53a-7169-8317-62a0dc18de57.jsonl` — 2676 行 / 10,873,588 B（未改动）
+- 浓缩件：`09-session-condensed.txt` — **1663 行** / 627,126 B（session_dump.py --max 300；行数>0 ✓ 含 SESSION 行 ✓）
+- 各节条数：§1 文件写入 **89** 路径（329 调用 = w102/e227）· §2 派发 **145** 条（+1 截断注）· §3 提交 **46** 行 · §4 判定 **261**（PASS 60 · FAIL 28 · CONFIRMED 57 · OVERTURNED 50 · VERIFIED 6 · checks= 60）· §5 关键转折 **65** 条
+- 索引总行数：**648** 行（≤2000 ✓）· 生成：2026-10-16 · SessionCondense（DBrain 站稳 Wave1 · 09 号）
+- 抽验：§6 随机 3 条回原 jsonl —— 全部命中 ✓（seed 见 §6）；时间戳=UTC（JST=UTC+9）；`L####`=jsonl 行号（1-based）
+- 注：部分行含源内 mojibake（原样保留）；§4 的 PASS/checks= 超 60 已均布抽样；构建脚本：`scratch-sessioncondense/build_index.py`（可重跑）
+
+## §1 文件写入索引（全部 write/edit 调用 → 路径去重+计数）
+- 计 **89** 条路径 / **329** 次调用（write 102 · edit 227）；排序=调用数降序；`w`=write 次数 `e`=edit 次数；`L####`=原 jsonl 首次出现行号
+- 注：含 `write agent://<Name>`（对子代理发消息）等非磁盘路径，原样保留
+- W01  w0 e103  L1289  D:/Project/Designers_Brain/ops/GOALS.md
+- W02  w3 e49  L0099  D:/Project/Designers_Brain/GOALS.md
+- W03  w14 e0  L0955  C:/Users/dwgx1/.dwgx/ops/boards/Designers_Brain.md
+- W04  w0 e14  L1289  D:/Project/Designers_Brain/ops/OPS-LOG.md
+- W05  w2 e8  L0537  D:/Project/Designers_Brain/OPS-LOG.md
+- W06  w1 e9  L0116  D:/Project/Designers_Brain/research/images_index.md
+- W07  w1 e4  L1477  D:/Project/Designers_Brain/knowledge/domains/painters/program/README.md
+- W08  w1 e3  L0130  C:/Users/dwgx1/AppData/Local/Temp/cross-dispatch/db-c1/brief.md
+- W09  w2 e2  L0099  D:/Project/Designers_Brain/AGENTS.md
+- W10  w1 e2  L0130  C:/Users/dwgx1/AppData/Local/Temp/cross-dispatch/db-c2/brief.md
+- W11  w1 e2  L0537  C:/Users/dwgx1/AppData/Local/Temp/cross-dispatch/db-c2b/brief.md
+- W12  w1 e2  L0130  C:/Users/dwgx1/AppData/Local/Temp/cross-dispatch/db-c3/brief.md
+- W13  w1 e2  L1265  D:/Project/Designers_Brain/README.md
+- W14  w1 e2  L1242  D:/Project/Designers_Brain/docs/ARCHITECTURE.md
+- W15  w0 e3  L1368  D:/Project/Designers_Brain/docs/i18n/ja/ARCHITECTURE.md
+- W16  w0 e3  L1191  D:/Project/Designers_Brain/docs/skill/_selfcheck.py
+- W17  w1 e2  L0252  D:/Project/Designers_Brain/research/experiments/design.md
+- W18  w0 e3  L0979  D:/Project/Designers_Brain/research/skill/skill_spec.md
+- W19  w3 e0  L0247  agent://all
+- W20  w1 e1  L0537  C:/Users/dwgx1/AppData/Local/Temp/cross-dispatch/db-c2c/brief.md
+- W21  w2 e0  L1110  D:/Project/Designers_Brain/.gitignore
+- W22  w1 e1  L1270  D:/Project/Designers_Brain/CONTRIBUTING.md
+- W23  w1 e1  L1247  D:/Project/Designers_Brain/docs/PROTOCOLS.md
+- W24  w1 e1  L1270  D:/Project/Designers_Brain/docs/ROADMAP.md
+- W25  w1 e1  L1253  D:/Project/Designers_Brain/docs/WORKFLOW.md
+- W26  w2 e0  L0116  D:/Project/Designers_Brain/research/artists/_index.md
+- W27  w1 e1  L1031  D:/Project/Designers_Brain/research/skill/test_report.md
+- W28  w0 e2  L1036  D:/Project/Designers_Brain/skills/designers-brain/SKILL.md
+- W29  w2 e0  L0378  agent://ArtistPicassoCezanne
+- W30  w2 e0  L1502  agent://ArtistQiBaishi
+- W31  w2 e0  L0378  agent://ArtistVanGoghMonet
+- W32  w2 e0  L0623  agent://StyleCardTemplates
+- W33  w1 e0  L2283  C:/Users/dwgx1/.dwgx/ops/detail-2026-10-16-designers-brain.md
+- W34  w1 e0  L1110  D:/Project/Designers_Brain/.gitattributes
+- W35  w1 e0  L1256  D:/Project/Designers_Brain/CLAUDE.md
+- W36  w1 e0  L1318  D:/Project/Designers_Brain/CODE_OF_CONDUCT.md
+- W37  w1 e0  L1256  D:/Project/Designers_Brain/LICENSE
+- W38  w0 e1  L1318  D:/Project/Designers_Brain/LICENSE-CODE
+- W39  w1 e0  L1256  D:/Project/Designers_Brain/LICENSE-CONTENT.md
+- W40  w1 e0  L1265  D:/Project/Designers_Brain/NOTICE.md
+- W41  w1 e0  L0099  D:/Project/Designers_Brain/PROJECT.md
+- W42  w1 e0  L1318  D:/Project/Designers_Brain/SECURITY.md
+- W43  w1 e0  L0099  D:/Project/Designers_Brain/WORKFLOW.md
+- W44  w1 e0  L1477  D:/Project/Designers_Brain/_private/README.md
+- W45  w1 e0  L1147  D:/Project/Designers_Brain/docs/MIGRATION.md
+- W46  w1 e0  L1318  D:/Project/Designers_Brain/docs/README.md
+- W47  w0 e1  L1368  D:/Project/Designers_Brain/docs/i18n/ja/PROTOCOLS.md
+- W48  w0 e1  L1368  D:/Project/Designers_Brain/docs/i18n/ja/ROADMAP.md
+- W49  w0 e1  L1191  D:/Project/Designers_Brain/knowledge/domains/painters/modules/_extract.py
+- W50  w1 e0  L0116  D:/Project/Designers_Brain/research/agent-art/cards/structure.md
+- W51  w0 e1  L0623  D:/Project/Designers_Brain/research/agent-art/conflicts.md
+- W52  w1 e0  L0698  D:/Project/Designers_Brain/research/artists/_corpus/INDEX.md
+- W53  w0 e1  L1124  D:/Project/Designers_Brain/research/artists/picasso.md
+- W54  w1 e0  L0919  D:/Project/Designers_Brain/research/origin_cards/README.md
+- W55  w1 e0  L0116  D:/Project/Designers_Brain/templates/artist_module.md
+- W56  w1 e0  L0116  D:/Project/Designers_Brain/templates/loop_goal.md
+- W57  w1 e0  L0116  D:/Project/Designers_Brain/templates/style_card.md
+- W58  w1 e0  L1457  D:/Project/Designers_Brain_private/INVENTORY.md
+- W59  w1 e0  L1457  D:/Project/Designers_Brain_private/README.md
+- W60  w1 e0  L0492  agent://AnimTest01
+- W61  w1 e0  L1797  agent://ArtistHuangGongwang
+- W62  w1 e0  L1623  agent://ArtistItoJakuchu
+- W63  w1 e0  L1803  agent://ArtistKahlo
+- W64  w1 e0  L1803  agent://ArtistMucha
+- W65  w1 e0  L1502  agent://ArtistRembrandt
+- W66  w1 e0  L2569  agent://ArtistSorolla
+- W67  w1 e0  L1502  agent://ArtistTurner
+- W68  w1 e0  L2569  agent://ArtistZorn
+- W69  w1 e0  L1803  agent://BioCaravaggio
+- W70  w1 e0  L1623  agent://BioCezanne
+- W71  w1 e0  L1623  agent://BioDaVinci
+- W72  w1 e0  L1623  agent://BioDurer
+- W73  w1 e0  L1623  agent://BioHokusai
+- W74  w1 e0  L1623  agent://BioMatisse
+- W75  w1 e0  L1623  agent://BioMichelangelo
+- W76  w1 e0  L1623  agent://BioMonet
+- W77  w1 e0  L1803  agent://BioPicasso
+- W78  w1 e0  L1614  agent://BioVanGogh
+- W79  w1 e0  L1623  agent://BioVermeer
+- W80  w1 e0  L0252  agent://BlenderScript
+- W81  w1 e0  L2648  agent://CrossLinkSync
+- W82  w1 e0  L0707  agent://HtmlFrameRender
+- W83  w1 e0  L1335  agent://I18nJA
+- W84  w1 e0  L1335  agent://I18nZH
+- W85  w1 e0  L2260  agent://ModuleCards42
+- W86  w1 e0  L0707  agent://PipelineHandbook
+- W87  w1 e0  L1242  agent://RepoStandards
+- W88  w1 e0  L1502  agent://RosterBuilder
+- W89  w1 e0  L0262  xd://mcp__chrome_devtools_list_pages
+
+## §2 派发索引（全部 task 工单 → 代理名 + brief 首 80 字）
+- 计 **145** 条工单（37 次可解析 task 调用）；`L####`=调用所在 jsonl 行；同名多次=重派/多波次（以时间区分）
+- D001  L0157  10-15T07:06Z  ArtistRenaissance [researcher] :: # Target 产出两份艺术家档案（按 templates/artist_module.md 全节填满，正文中文）： - D:/Project/Designe
+- D002  L0157  10-15T07:06Z  ArtistVanGoghMonet [researcher] :: # Target 产出两份艺术家档案（按 templates/artist_module.md 全节填满，正文中文）： - D:/Project/Designe
+- D003  L0157  10-15T07:06Z  ArtistPicassoCezanne [researcher] :: # Target 产出两份艺术家档案（按 templates/artist_module.md 全节填满，正文中文）： - D:/Project/Designe
+- D004  L0157  10-15T07:06Z  ArtistMatisseHokusai [researcher] :: # Target 产出两份艺术家档案（按 templates/artist_module.md 全节填满，正文中文）： - D:/Project/Designe
+- D005  L0157  10-15T07:06Z  ArtistExpansion [researcher] :: # Target 产出 D:/Project/Designers_Brain/research/artists/expansion.md（扩展候选分析，正文中文
+- D006  L0157  10-15T07:06Z  HtmlFrameRender [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/html/workflow.md + source
+- D007  L0157  10-15T07:06Z  BlenderScript [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/blender/workflow.md + sou
+- D008  L0157  10-15T07:06Z  PromptCorpusHunt [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/prompts/corpus.md + patte
+- D009  L0350  10-15T07:32Z  MgStyles15Compare [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/cards/mg-styles-15_compar
+- D010  L0350  10-15T07:32Z  DossierReview [researcher] :: # Target D:/Project/Designers_Brain/research/artists/_review.md # Change 独立复核两份*
+- D011  L0350  10-15T07:32Z  ArtistCaravaggio [researcher] :: # Target D:/Project/Designers_Brain/research/artists/caravaggio.md（按 templates/a
+- D012  L0350  10-15T07:32Z  ArtistVermeer [researcher] :: # Target D:/Project/Designers_Brain/research/artists/vermeer.md（按 templates/arti
+- D013  L0350  10-15T07:32Z  ArtistDurer [researcher] :: # Target D:/Project/Designers_Brain/research/artists/durer.md（按 templates/artist
+- D014  L0400  10-15T07:51Z  StyleCardTemplates [researcher] :: # Target - 更新 D:/Project/Designers_Brain/templates/style_card.md（v0.2） - 新建 D:/P
+- D015  L0400  10-15T07:51Z  PipelineHandbook [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/cards/mg-styles-15_handbo
+- D016  L0400  10-15T07:51Z  ConflictsList [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/conflicts.md # Change 扫描并
+- D017  L0400  10-15T07:51Z  ArtistCrosscheck [researcher] :: # Target D:/Project/Designers_Brain/research/artists/_crosscheck.md # Change 对 1
+- D018  L0400  10-15T07:51Z  AnimTest01 [coder] :: # Target D:/Project/Designers_Brain/research/experiments/anim_test_01/（只在这个目录里写）
+- D019  L0560  10-15T08:23Z  VideoShotcraft [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/cards/video_shotcraft.md 
+- D020  L0560  10-15T08:23Z  AuthorTutorial [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/cards/author_tutorial.md 
+- D021  L0560  10-15T08:23Z  ImageLibrary [researcher] :: # Target D:/Project/Designers_Brain/research/artists/_images/（图片 + manifest.md） 
+- D022  L0745  10-15T08:56Z  TransferGuide [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/transfer_guide.md # Chang
+- D023  L0745  10-15T08:56Z  VideoShotcraftDeep [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/cards/video_shotcraft_han
+- D024  L0745  10-15T08:56Z  AnimTest02 [coder] :: # Target D:/Project/Designers_Brain/research/experiments/anim_test_02/（只写这个目录；可读
+- D025  L0745  10-15T08:56Z  AnnotationSweep [researcher] :: # Target 按 `research/artists/_crosscheck.md` 的「标注问题」节（7 条 + 5 例口径不一致）修正 11 份档案的标
+- D026  L0784  10-15T09:29Z  TemplatesV03 [researcher] :: # Target - 更新 D:/Project/Designers_Brain/templates/style_card.md（v0.3） - 更新 D:/P
+- D027  L0784  10-15T09:29Z  AnimTest03Blender [coder] :: # Target D:/Project/Designers_Brain/research/experiments/anim_test_03_blender/（只
+- D028  L0784  10-15T09:29Z  ModuleLibrary [researcher] :: # Target D:/Project/Designers_Brain/research/prompts/artist_modules/（新目录）+ READM
+- D029  L0784  10-15T09:29Z  RefsMapping [researcher] :: # Target D:/Project/Designers_Brain/research/source_video/refs/README.md + 补帧 # 
+- D030  L0784  10-15T09:29Z  ImageChannelProbe [researcher] :: # Target D:/Project/Designers_Brain/research/agent-art/cards/image_channel.md # 
+- D031  L0822  10-15T09:51Z  ESeriesT1 [coder] :: # Target D:/Project/Designers_Brain/research/experiments/E1_t1/（新目录） # Change E 
+- D032  L0836  10-15T10:19Z  EStyleSep [researcher] :: # Target - 更新 research/prompts/artist_modules/<id>.md（新增 §8.1b「纯风格段（场景可迁移）」；§8.1
+- D033  L0864  10-15T10:47Z  MichelangeloV2 [researcher] :: # Target - research/prompts/artist_modules/michelangelo.md（§8.1b 修订 v2；v1 原样保留可审
+- D034  L0864  10-15T10:47Z  ComboTest [coder] :: # Target research/experiments/E2_t1/（新目录） # Change E2 首批组合实验（design.md §2 的 E2/E
+- D035  L0933  10-15T11:45Z  SkillEcosystem [researcher] :: # Target - research/skill/skill_ecosystem.md（新，允许建目录） - research/skill/refs/（少量关
+- D036  L0933  10-15T11:45Z  SkillSpec [researcher] :: # Target - research/skill/skill_spec.md（新，v0.1 规格） - research/skill/draft/SKILL.
+- D037  L0989  10-15T12:08Z  SkillBuild [coder] :: # Target - `skills/designers-brain/`（新：SKILL.md + references/×9 + agents/openai.
+- D038  L1012  10-15T12:18Z  BlindRED [task] :: # Target - research/skill/tests/red_transcript.md（新，含目录先建） # Change 你在扮演一个普通的 AI
+- D039  L1012  10-15T12:18Z  BlindGREEN [task] :: # Target - research/skill/tests/green_transcript.md（新，含目录先建） # Change 你是一个被加载了 D
+- D040  L1050  10-15T12:33Z  ConsultWalkthrough [coder] :: # Target - `research/skill/walkthrough_01/`（新目录）：`dialogue.md`（双面全文）+ `prompts.j
+- D041  L1050  10-15T12:33Z  AutoTriggerProbe [task] :: # Target - `research/skill/tests/autotrigger_probe.md`（新文件） # Change 第一步：先看一眼你自己
+- D042  L1137  10-15T13:13Z  RepoStandards [researcher] :: # Target - `research/repo_standards.md`（新；迁移后会被移到 docs/notes/） # Change 研究并给出可直接
+- D043  L1275  10-15T13:21Z  I18nZH [researcher] :: # Target - README.zh-CN.md（根） - docs/i18n/zh-CN/ARCHITECTURE.md · WORKFLOW.md · 
+- D044  L1275  10-15T13:21Z  I18nJA [researcher] :: # Target - README.ja.md（根） - docs/i18n/ja/ARCHITECTURE.md · WORKFLOW.md · PROTOC
+- D045  L1354  10-15T13:39Z  AuditZH [verifier] :: # Target - docs/notes/i18n-audit-zh.md（新；只写这一份） # Change 对照审计 5 对文件（EN ↔ zh-CN）：
+- D046  L1354  10-15T13:39Z  AuditJA [verifier] :: # Target - docs/notes/i18n-audit-ja.md（新；これのみ書く） # Change 5 対のファイルを対照監査（EN ↔ ja）
+- D047  L1465  10-15T14:06Z  ArtistTurner [researcher] :: # 对象 **透纳 J.M.W. Turner（1775–1851，英国）**——id `turner`。 能力定位：**天气是主角**——事件级动势、边缘溶解
+- D048  L1465  10-15T14:06Z  ArtistRembrandt [researcher] :: # 对象 **伦勃朗 Rembrandt van Rijn（1606–1669，荷兰）**——id `rembrandt`。 能力定位：**光的心理化**——光
+- D049  L1465  10-15T14:06Z  ArtistKlimt [researcher] :: # 对象 **克里姆特 Gustav Klimt（1862–1918，奥地利）**——id `klimt`。 能力定位：**装饰性平面 + 金箔工艺 + 图案化
+- D050  L1482  10-15T14:09Z  ArtistGoya [researcher] :: # 对象 **戈雅 Francisco Goya（1746–1828，西班牙）**——id `goya`。 能力定位：**纪实叙事 + 黑色/怪诞 + 版画系统
+- D051  L1482  10-15T14:09Z  ArtistSeurat [researcher] :: # 对象 **修拉 Georges Seurat（1859–1891，法国）**——id `seurat`。 能力定位：**色彩科学化点彩**（色光混合/对比理
+- D052  L1482  10-15T14:09Z  ArtistHopper [researcher] :: # 对象 **爱德华·霍珀 Edward Hopper（1882–1967，美国）**——id `hopper`。 能力定位：**20 世纪城市光与孤独**——
+- D053  L1482  10-15T14:09Z  ArtistBadaShanren [researcher] :: # 对象 **八大山人 Bada Shanren（1626–1705，中国·明遗民）**——id `bada_shanren`。 能力定位：**水墨极简 + 留
+- D054  L1482  10-15T14:09Z  ArtistQiBaishi [researcher] :: # 对象 **齐白石 Qi Baishi（1864–1957，中国）**——id `qi_baishi`。 能力定位：**红花墨叶写意 + 工写结合**（粗笔花
+- D055  L1482  10-15T14:09Z  ArtistItoJakuchu [researcher] :: # 对象 **伊藤若冲 Itō Jakuchū（1716–1800，日本·江户）**——id `ito_jakuchu`。 能力定位：**色彩浓密花鸟 + 技法
+- D056  L1482  10-15T14:09Z  RosterBuilder [researcher] :: # Target - `knowledge/domains/painters/program/roster.md`（新；只写这一份） # Change 编制「各
+- D057  L1529  10-15T14:28Z  BioDaVinci [researcher] :: # 对象 **达·芬奇**——id `da_vinci`。 重点：Vasari 传记、笔记本（Codices）、佛罗伦萨/米兰/法国时期档案、近年学术（Kemp
+- D058  L1529  10-15T14:28Z  BioMichelangelo [researcher] :: # 对象 **米开朗基罗**——id `michelangelo`。 重点：Condivi 与 Vasari 传记、书信集（Carteggio）、诗歌、梵蒂冈/
+- D059  L1529  10-15T14:28Z  BioVanGogh [researcher] :: # 对象 **梵高**——id `van_gogh`。 重点：书信全集（vangoghletters.org，已有 126 条语料基础）、提奥书信、生平年表（家
+- D060  L1529  10-15T14:28Z  BioMonet [researcher] :: # 对象 **莫奈**——id `monet`。 重点：Wildenstein 目录与研究、吉维尼档案、书信（与爱丽丝/友人的信）、橘园系列年代；印象派展览（1
+- D061  L1529  10-15T14:28Z  BioPicasso [researcher] :: # 对象 **毕加索**——id `picasso`。 重点：Richardson《A Life》三卷、Penrose、Françoise Gilot 回忆（引
+- D062  L1529  10-15T14:28Z  BioCezanne [researcher] :: # 对象 **塞尚**——id `cezanne`。 重点：与左拉书信（Rewald 版）、艾克斯晚年档案、圣维克多山年代、1907 回顾展与身后影响链。 # 
+- D063  L1529  10-15T14:28Z  BioMatisse [researcher] :: # 对象 **马蒂斯**——id `matisse`。 重点：Spurling《The Unknown Matisse》《Matisse the Master》
+- D064  L1529  10-15T14:28Z  BioHokusai [researcher] :: # 对象 **葛饰北斋**——id `hokusai`。 重点：日文文献（写乐/北斋研究、饭岛虚心《葛饰北斋传》为同时代一手）、浮世绘出版史、富岳三十六景年代、
+- D065  L1529  10-15T14:28Z  BioCaravaggio [researcher] :: # 对象 **卡拉瓦乔**——id `caravaggio`。 重点：档案文献（Mancini、Baglione 同时代记述、罗马档案中的诉讼记录）、1606 
+- D066  L1529  10-15T14:28Z  BioVermeer [researcher] :: # 对象 **维米尔**——id `vermeer`。 重点：Montias《Vermeer and His Milieu》（德尔夫特档案考证）、圣路加行会、家
+- D067  L1529  10-15T14:28Z  BioDurer [researcher] :: # 对象 **丢勒**——id `durer`。 重点：家族纪事（Family Chronicle）、1520–21 尼德兰旅行日记、与皮克海默等通信、纽伦堡档
+- D068  L1647  10-15T14:44Z  ArtistMucha [researcher] :: # 对象 **阿尔丰斯·慕夏 Alphonse Mucha（1860–1939，捷克）**——id `mucha`。 定位：新艺术运动装饰/海报/曲线系统；分工
+- D069  L1647  10-15T14:44Z  ArtistMunch [researcher] :: # 对象 **爱德华·蒙克 Edvard Munch（1863–1944，挪威）**——id `munch`。 定位：表现主义心理风景/尖叫序列/生命饰带；分工
+- D070  L1647  10-15T14:44Z  ArtistKandinsky [researcher] :: # 对象 **瓦西里·康定斯基 Wassily Kandinsky（1866–1944，俄/德/法）**——id `kandinsky`。 定位：抽象/色彩的音
+- D071  L1647  10-15T14:44Z  ArtistVelazquez [researcher] :: # 对象 **委拉斯开兹 Diego Velázquez（1599–1660，西班牙）**——id `velazquez`。 定位：宫廷肖像/大气透视/直接画法
+- D072  L1647  10-15T14:44Z  ArtistBosch [researcher] :: # 对象 **博斯 Hieronymus Bosch（c.1450–1516，尼德兰）**——id `bosch`。 定位：怪诞想象/象征密度/全景叙事；分工按
+- D073  L1647  10-15T14:44Z  ArtistHuangGongwang [researcher] :: # 对象 **黄公望（1269–1354，中国·元）**——id `huang_gongwang`。 定位：山水笔墨/富春山居图/披麻皴与长卷空间；分工按 ro
+- D074  L1647  10-15T14:44Z  ArtistKahlo [researcher] :: # 对象 **弗里达·卡罗 Frida Kahlo（1907–1954，墨西哥）**——id `kahlo`。 定位：自传性图像/民间色彩/象征身体；分工按 r
+- D075  L1647  10-15T14:44Z  ArtistBehzad [researcher] :: # 对象 **贝赫扎德 Kamāl ud-Dīn Behzād（c.1450–c.1535，波斯/帖木儿）**——id `behzad`。 定位：波斯细密画/构
+- D076  L1835  10-15T15:08Z  ModuleCards20 [coder] :: # 对象 把模块卡从 11 张扩到 20 张（9 位新画家：turner / rembrandt / klimt / goya / seurat / hoppe
+- D077  L1835  10-15T15:08Z  IndexMerge [coder] :: # 对象 合并三份共享索引（语料 INDEX / 图片 manifest / 档案 _index）+ 自洽核验。 # 步骤 1) 统计各画家 _corpus 条
+- D078  L1844  10-15T15:08Z  ArtistFriedrich [researcher] :: # 对象 **卡斯帕·大卫·弗里德里希 Caspar David Friedrich（1774–1840，德国）**——id `friedrich`。 定位：浪
+- D079  L1844  10-15T15:08Z  ArtistRepin [researcher] :: # 对象 **伊利亚·列宾 Ilya Repin（1844–1930，俄罗斯）**——id `repin`。 定位：俄罗斯现实主义/叙事画/肖像心理；系统首个俄
+- D080  L1844  10-15T15:08Z  ArtistRaviVarma [researcher] :: # 对象 **拉维·瓦尔马 Raja Ravi Varma（1848–1906，印度）**——id `ravi_varma`。 定位：印度神话油画/东西融合/大
+- D081  L1844  10-15T15:08Z  ArtistDegas [researcher] :: # 对象 **埃德加·德加 Edgar Degas（1834–1917，法国）**——id `degas`。 定位：芭蕾序列/粉彩技法/抓拍式构图与背面视角；分
+- D082  L1844  10-15T15:08Z  ArtistGauguin [researcher] :: # 对象 **保罗·高更 Paul Gauguin（1848–1903，法国）**——id `gauguin`。 定位：平面色块/综合主义/原始主义与象征；分工
+- D083  L1844  10-15T15:08Z  ArtistVanEyck [researcher] :: # 对象 **扬·凡·艾克 Jan van Eyck（c.1390–1441，尼德兰）**——id `van_eyck`。 定位：油画技法革命/镜面细节/微观写
+- D084  L1844  10-15T15:08Z  ArtistKngwarreye [researcher] :: # 对象 **艾米丽·卡梅·恩格瓦雷 Emily Kame Kngwarreye（1910–1996，澳大利亚·原住民）**——id `kngwarreye`。
+- D085  L1997  10-15T15:43Z  HardTurner [researcher] :: # Target knowledge/domains/painters/dossiers/turner.md — 唯一写路径。现为 §0–§10 + 自审四段（
+- D086  L1997  10-15T15:43Z  HardRembrandt [researcher] :: # Target knowledge/domains/painters/dossiers/rembrandt.md — 唯一写路径。现为 §0–§10 + 自审
+- D087  L1997  10-15T15:43Z  HardKlimt [researcher] :: # Target knowledge/domains/painters/dossiers/klimt.md — 唯一写路径。现为 §0–§10 + 自审四段（无
+- D088  L1997  10-15T15:43Z  HardGoya [researcher] :: # Target knowledge/domains/painters/dossiers/goya.md — 唯一写路径。已有 ## 11.（子节仍叫 ### 
+- D089  L1997  10-15T15:43Z  HardSeurat [researcher] :: # Target knowledge/domains/painters/dossiers/seurat.md — 唯一写路径。已有 ## 11.（叙述 ~700
+- D090  L1997  10-15T15:43Z  HardHopper [researcher] :: # Target knowledge/domains/painters/dossiers/hopper.md — 唯一写路径。已有 ## 11.（叙述 ~500
+- D091  L1997  10-15T15:43Z  HardBada [researcher] :: # Target knowledge/domains/painters/dossiers/bada_shanren.md — 唯一写路径。已有 ## 11.（叙
+- D092  L1997  10-15T15:43Z  HardQi [researcher] :: # Target knowledge/domains/painters/dossiers/qi_baishi.md — 唯一写路径。已有 ## 11.（叙述 ~
+- D093  L1997  10-15T15:43Z  HardIto [researcher] :: # Target knowledge/domains/painters/dossiers/ito_jakuchu.md — 唯一写路径。已有 ## 11.（叙述
+- D094  L2068  10-15T15:52Z  ArtistHiroshige [researcher] :: # Target 歌川广重 hiroshige（1797–1858，日本·浮世绘）。写路径：dossiers/hiroshige.md 等四处。 # Chang
+- D095  L2068  10-15T15:52Z  ArtistSargent [researcher] :: # Target 约翰·辛格·萨金特 sargent（1856–1925，美/英）。写路径：dossiers/sargent.md 等四处。 # Change 
+- D096  L2068  10-15T15:52Z  ArtistPiero [researcher] :: # Target 皮耶罗·德拉·弗朗切斯卡 piero_della_francesca（约 1415–1492，意大利）。写路径：dossiers/piero_
+- D097  L2068  10-15T15:52Z  ArtistArtemisia [researcher] :: # Target 阿尔泰米西娅·真蒂莱斯基 artemisia_gentileschi（1593–1654+，意大利）。写路径：dossiers/artemis
+- D098  L2068  10-15T15:52Z  ArtistNamatjira [researcher] :: # Target 阿尔伯特·纳马吉拉 namatjira（1902–1959，澳大利亚原住民）。写路径：dossiers/namatjira.md 等四处。 #
+- D099  L2068  10-15T15:52Z  ArtistElSalahi [researcher] :: # Target 易卜拉欣·萨拉希 el_salahi（1930– ，苏丹/英国，在世）。写路径：dossiers/el_salahi.md 等四处。 # Ch
+- D100  L2068  10-15T15:52Z  ArtistWuGuanzhong [researcher] :: # Target 吴冠中 wu_guanzhong（1919–2010，中国）。写路径：dossiers/wu_guanzhong.md 等四处。 # Chan
+- D101  L2144  10-15T16:11Z  IndexMerge2 [coder] :: # Target 三份共享索引文件（见 Contract 唯一写路径）。 # Change 按上一轮（`_scratch/index_merge/reconci
+- D102  L2224  10-15T16:52Z  ModuleCards42 [coder] :: # Target 见 Contract 写路径。 # Change 1. `_extract.py`：ARTISTS +22 条；3 处计数文案 20→42。 
+- D103  L2232  10-15T16:53Z  ArtistFanKuan [researcher] :: # Target 范宽 fan_kuan（约 950–1030，中国·北宋）。写路径：dossiers/fan_kuan.md 等四处。 # Change v2
+- D104  L2232  10-15T16:53Z  ArtistSesshu [researcher] :: # Target 雪舟 sesshu（1420–1506，日本·室町）。写路径：dossiers/sesshu.md 等四处。 # Change v2 全规格；
+- D105  L2232  10-15T16:53Z  ArtistConstable [researcher] :: # Target 康斯泰勃尔 constable（1776–1837，英国）。写路径：dossiers/constable.md 等四处。 # Change v
+- D106  L2232  10-15T16:53Z  ArtistPoussin [researcher] :: # Target 普桑 poussin（1594–1665，法国）。写路径：dossiers/poussin.md 等四处。 # Change v2 全规格；分
+- D107  L2232  10-15T16:53Z  ArtistBruegel [researcher] :: # Target 老勃鲁盖尔 bruegel（约 1525–1569）。写路径：dossiers/bruegel.md 等四处。 # Change v2 全规格
+- D108  L2232  10-15T16:53Z  ArtistElGreco [researcher] :: # Target 埃尔·格列柯 el_greco（1541–1614）。写路径：dossiers/el_greco.md 等四处。 # Change v2 全规
+- D109  L2232  10-15T16:53Z  ArtistHolbein [researcher] :: # Target 荷尔拜因 holbein（约 1497–1543）。写路径：dossiers/holbein.md 等四处。 # Change v2 全规格；
+- D110  L2232  10-15T16:53Z  ArtistAivazovsky [researcher] :: # Target 艾瓦佐夫斯基 aivazovsky（1817–1900）。写路径：dossiers/aivazovsky.md 等四处。 # Change v
+- D111  L2232  10-15T16:53Z  ArtistOkeeffe [researcher] :: # Target 欧姬芙 okeeffe（1887–1986，美国）。写路径：dossiers/okeeffe.md 等四处。 # Change v2 全规格；
+- D112  L2232  10-15T16:53Z  ArtistRivera [researcher] :: # Target 迭戈·里维拉 rivera（1886–1957，墨西哥）。写路径：dossiers/rivera.md 等四处。 # Change v2 全规
+- D113  L2305  10-15T18:19Z  ArtistFanKuan [researcher] :: # Target 范宽 fan_kuan（约 950–1030，中国·北宋）。写路径：dossiers/fan_kuan.md 等四处。 # Change v2
+- D114  L2305  10-15T18:19Z  ArtistSesshu [researcher] :: # Target 雪舟 sesshu（1420–1506，日本·室町）。写路径：dossiers/sesshu.md 等四处。 # Change v2 全规格；
+- D115  L2305  10-15T18:19Z  ArtistConstable [researcher] :: # Target 康斯泰勃尔 constable（1776–1837，英国）。写路径：dossiers/constable.md 等四处。 # Change v
+- D116  L2305  10-15T18:19Z  ArtistPoussin [researcher] :: # Target 普桑 poussin（1594–1665，法国）。写路径：dossiers/poussin.md 等四处。 # Change v2 全规格；分
+- D117  L2305  10-15T18:19Z  ArtistBruegel [researcher] :: # Target 老勃鲁盖尔 bruegel（约 1525–1569）。写路径：dossiers/bruegel.md 等四处。 # Change v2 全规格
+- D118  L2305  10-15T18:19Z  ArtistElGreco [researcher] :: # Target 埃尔·格列柯 el_greco（1541–1614）。写路径：dossiers/el_greco.md 等四处。 # Change v2 全规
+- D119  L2305  10-15T18:19Z  ArtistHolbein [researcher] :: # Target 荷尔拜因 holbein（约 1497–1543）。写路径：dossiers/holbein.md 等四处。 # Change v2 全规格；
+- D120  L2305  10-15T18:19Z  ArtistAivazovsky [researcher] :: # Target 艾瓦佐夫斯基 aivazovsky（1817–1900）。写路径：dossiers/aivazovsky.md 等四处。 # Change v
+- D121  L2305  10-15T18:19Z  ArtistOkeeffe [researcher] :: # Target 欧姬芙 okeeffe（1887–1986，美国）。写路径：dossiers/okeeffe.md 等四处。 # Change v2 全规格；
+- D122  L2305  10-15T18:19Z  ArtistRivera [researcher] :: # Target 迭戈·里维拉 rivera（1886–1957，墨西哥）。写路径：dossiers/rivera.md 等四处。 # Change v2 全规
+- D123  L2308  10-15T18:19Z  ArtistZhaoMengfu [researcher] :: # Target 赵孟頫 zhao_mengfu（1254–1322，中国·元）。写路径：dossiers/zhao_mengfu.md 等四处。 # Chan
+- D124  L2308  10-15T18:19Z  ArtistNiZan [researcher] :: # Target 倪瓒 ni_zan（1301–1374，中国·元）。写路径：dossiers/ni_zan.md 等四处。 # Change v2 全规格；分
+- D125  L2308  10-15T18:19Z  ArtistQiuYing [researcher] :: # Target 仇英 qiu_ying（约 1494–1552，中国·明）。写路径：dossiers/qiu_ying.md 等四处。 # Change v2
+- D126  L2308  10-15T18:19Z  ArtistOgataKorin [researcher] :: # Target 尾形光琳 ogata_korin（1658–1716，日本·琳派）。写路径：dossiers/ogata_korin.md 等四处。 # Ch
+- D127  L2308  10-15T18:19Z  ArtistBlake [researcher] :: # Target 布莱克 blake（1757–1827，英国）。写路径：dossiers/blake.md 等四处。 # Change v2 全规格；分工写死
+- D128  L2308  10-15T18:19Z  ArtistChardin [researcher] :: # Target 夏尔丹 chardin（1699–1779，法国）。写路径：dossiers/chardin.md 等四处。 # Change v2 全规格；
+- D129  L2308  10-15T18:19Z  ArtistManet [researcher] :: # Target 马奈 manet（1832–1883，法国）。写路径：dossiers/manet.md 等四处。 # Change v2 全规格；分工写死：
+- D130  L2308  10-15T18:19Z  ArtistSorolla [researcher] :: # Target 索罗拉 sorolla（1863–1923，西班牙）。写路径：dossiers/sorolla.md 等四处。 # Change v2 全规格
+- D131  L2308  10-15T18:19Z  ArtistZorn [researcher] :: # Target 佐恩 zorn（1860–1920，瑞典）。写路径：dossiers/zorn.md 等四处。 # Change v2 全规格；分工写死：vs
+- D132  L2308  10-15T18:19Z  ArtistSultanMohammed [researcher] :: # Target 苏丹·穆罕默德 sultan_mohammed（16 世纪，大不里士）。写路径：dossiers/sultan_mohammed.md 等四处
+- D133  L2517  10-15T19:56Z  ArtistXuBeihong [researcher] :: # Target 徐悲鸿 xu_beihong（1895–1953，中国）。写路径：dossiers/xu_beihong.md 等四处。 # Change v
+- D134  L2517  10-15T19:56Z  ArtistLiKeran [researcher] :: # Target 李可染 li_keran（1907–1989，中国）。写路径：dossiers/li_keran.md 等四处。 # Change v2 全规
+- D135  L2517  10-15T19:56Z  ArtistSherGil [researcher] :: # Target 阿姆里塔·谢尔吉尔 sher_gil（1913–1941，匈-印）。写路径：dossiers/sher_gil.md 等四处。 # Chang
+- D136  L2517  10-15T19:56Z  ArtistTarsila [researcher] :: # Target 塔西拉·多·阿马拉尔 tarsila（1886–1973，巴西）。写路径：dossiers/tarsila.md 等四处。 # Change 
+- D137  L2517  10-15T19:56Z  ArtistChenHongshou [researcher] :: # Target 陈洪绶 chen_hongshou（1598–1652，中国·明）。写路径：dossiers/chen_hongshou.md 等四处。 # 
+- D138  L2517  10-15T19:56Z  ArtistXuWei [researcher] :: # Target 徐渭 xu_wei（1521–1593，中国·明）。写路径：dossiers/xu_wei.md 等四处。 # Change v2 全规格；分
+- D139  L2517  10-15T19:56Z  ArtistHogarth [researcher] :: # Target 荷加斯 hogarth（1697–1764，英国）。写路径：dossiers/hogarth.md 等四处。 # Change v2 全规格；
+- D140  L2517  10-15T19:56Z  ArtistMirSayyidAli [researcher] :: # Target 米尔·赛义德·阿里 mir_sayyid_ali（16 世纪，莫卧儿）。写路径：dossiers/mir_sayyid_ali.md 等四处。
+- D141  L2517  10-15T19:56Z  ArtistDeChirico [researcher] :: # Target 德·基里科 de_chirico（1888–1978，意大利）。写路径：dossiers/de_chirico.md 等四处。 # Chang
+- D142  L2517  10-15T19:56Z  ArtistRockwell [researcher] :: # Target 诺曼·洛克威尔 rockwell（1894–1978，美国）。写路径：dossiers/rockwell.md 等四处。 # Change v
+- D143  L2632  10-15T20:55Z  IndexMerge3 [coder] :: # Target 三份共享索引：`dossiers/_corpus/INDEX.md`、`dossiers/_images/manifest.md`、`doss
+- D144  L2632  10-15T20:55Z  ModuleCards62 [coder] :: # Target `knowledge/domains/painters/modules/`（`_extract.py` + 卡 + README）+ `ski
+- D145  L2632  10-15T20:55Z  CrossLinkSync [researcher] :: # Target 以下 8 处小修（唯一写路径＝这些文件；每处只动指定条款，先读对侧卡取其口径，再写镜像/收口文字）： 1. `durer.md` §3.1：补
+- ※ 另 1 次 task 调用记录截断（L1992，10-15T15:43Z；rawJson 被截 ~4900 字符，不可完整还原）：主题「画家蒸馏 v2 加固 pass 2 — §11/§12 补齐」，对应工单 D085–D093（HardTurner…HardIto）
+
+## §3 提交索引（git commit / git push 行）
+- 计 **46** 行（[cmd] 41 · [out] 5）；[cmd]=bash 调用行（从首个 `git commit`/`git push` 起截取 ≤230 字），[out]=工具输出行；均含字面 `git commit`/`git push`
+- C01  [out] L0045  10-15T07:00Z :: | `git commit` / `push` / 建分支 | 工人做，或父代在工人收工后做 |
+- C02  [cmd] L1130  10-15T13:12Z :: git commit -q -m "chore: initial snapshot (pre-restructure)" && git log --oneline | head -2 && echo "== repo size ==" && git count-objects -vH | grep -E "count:|size-pack|size:" && echo "== top dirs by file count ==" && git ls-fil…
+- C03  [cmd] L1206  10-15T13:16Z :: git commit -q -m "refactor: restructure to knowledge/experiments/docs/ops layout; rewrite path references" && git log --oneline | head -3 && git show --stat HEAD | tail -4
+- C04  [cmd] L1282  10-15T13:21Z :: git commit -q -m "docs: English core docs, licenses, agent entry (README/ARCHITECTURE/WORKFLOW/PROTOCOLS/ROADMAP/CONTRIBUTING/AGENTS/NOTICE)" && git log --oneline | head -3
+- C05  [cmd] L1342  10-15T13:25Z :: git commit -q -m "docs: license arrangement (CC BY 4.0 content / MIT code), docs index, security & conduct, agent commands; add repo-standards research" && git log --oneline | head -4 && echo "== final size ==" && git count-object…
+- C06  [cmd] L1390  10-15T13:53Z :: git commit -q -m "docs: zh-CN & ja localizations with independent audits; editorial fixes; doc language switchers" && git log --oneline | head -6
+- C07  [cmd] L1408  10-15T13:54Z :: git commit -q -m "docs: fix relative citation links in dossiers and card (absolute URLs)" && git log --oneline | head -2
+- C08  [cmd] L1420  10-15T13:55Z :: git commit -q -m "docs: LICENSE layout — legal text first (license detection), scope notes appended" && git log --oneline | head -2 && git diff HEAD~1 --stat | tail -2
+- C09  [cmd] L1423  10-15T13:55Z :: git push origin main 2>&1 | tail -3 && sleep 25 && echo "== license detect (after push) ==" && gh api repos/dwgx/designers-brain --jq '.license.spdx_id, .license.name' 2>&1
+- C10  [cmd] L1426  10-15T13:56Z :: git commit -q -m "docs: LICENSE — pure CC BY 4.0 legal text (scope notes live in README/LICENSE-CODE/NOTICE)" && git push origin main 2>&1 | tail -2 && sleep 30 && gh api repos/dwgx/designers-brain --jq '.license.spdx_id' 2>&1; ec…
+- C11  [cmd] L1436  10-15T13:57Z :: git commit -q -m "ops: publish records (GOALS lane R closed; OPS-LOG §15)" && git push origin main 2>&1 | tail -2 && echo "== remote final ==" && git ls-remote origin | head -2 && gh api repos/dwgx/designers-brain --jq '.license.s…
+- C12  [cmd] L1490  10-15T14:09Z :: git commit -q -m "feat: painter program (spec v2, waves 12-13 launched); private layer _private/ with double ignore guards" && echo "== three checks ==" && git status --short | wc -l && git log --oneline | head -2 && git diff HEAD…
+- C13  [cmd] L1739  10-15T14:52Z :: git commit -q -m "feat: painter program checkpoint — wave12/13 artists + wave14 bio retrofits (8/11) + roster 59 + wave15 launched" && git log --oneline | head -2 && echo "== three checks ==" && git status --short | wc -l && git d…
+- C14  [cmd] L1835  10-15T15:08Z :: git commit -q -m "feat: wave14 bio retrofits complete (11/11) + wave13 closeout fixes (qi URAA, bada-qi crossref, michelangelo gaps)" && git log --oneline | head -2 && git diff HEAD~1 --stat | tail -2 && git push origin main 2>&1 …
+- C15  [cmd] L1917  10-15T15:31Z :: git commit -q -m "feat: wave15 artists (mucha/munch/kandinsky/velazquez/bosch/kahlo/behzad) + GOALS closeouts" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1 && echo "== inflight check ==" && ls knowledge/do…
+- C16  [cmd] L1936  10-15T15:32Z :: git commit -q -m "feat: module cards 11->20 (checks=60); sync skill refs & description to 20 painters" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C17  [cmd] L1963  10-15T15:37Z :: git commit -q -m "feat: huang_gongwang wave13 tail complete (v2 spec) + GOALS closeouts A-47/A-50/A-54" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C18  [cmd] L1974  10-15T15:42Z :: git commit -q -m "feat: wave16 closeout - index merge (3 tables @20 artists) + GOALS A-51" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C19  [cmd] L2000  10-15T15:43Z :: git commit -q -m "ops: launch wave16p2 hardening (9 dossiers) - GOALS A-59..A-67" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C20  [cmd] L2021  10-15T15:47Z :: git commit -q -m "feat: wave17 friedrich + kngwarreye complete; GOALS closeouts A-52/A-58" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C21  [cmd] L2057  10-15T15:51Z :: git commit -q -m "feat: wave17 complete (7 artists: friedrich/repin/ravi_varma/degas/gauguin/van_eyck/kngwarreye) + GOALS closeouts" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1 && echo "== roster head =="…
+- C22  [cmd] L2071  10-15T15:52Z :: git commit -q -m "ops: launch wave18 (7 artists: hiroshige/sargent/piero/artemisia/namatjira/el_salahi/wu_guanzhong)" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C23  [cmd] L2122  10-15T16:09Z :: git commit -q -m "feat: wave16p2 hardening progress (turner/klimt/seurat/hopper/qi_baishi/ito_jakuchu) + GOALS closeouts" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C24  [cmd] L2149  10-15T16:11Z :: git commit -q -m "feat: wave16p2 hardening COMPLETE (9/9 dossiers) + GOALS closeouts A-59..A-67" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C25  [cmd] L2186  10-15T16:29Z :: git commit -q -m "feat: index merge round 2 (35 artists; wave15/17 + pass2 recompute) + wave18 partial (hiroshige/el_salahi/wu_guanzhong) + GOALS A-68/A-73/A-74/A-75" && git log --oneline | head -1 && git push origin main 2>&1 | t…
+- C26  [cmd] L2224  10-15T16:52Z :: git commit -q -m "feat: wave18 COMPLETE (7 artists) + GOALS closeouts A-68..A-74" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C27  [cmd] L2237  10-15T16:53Z :: git commit -q -m "ops: launch wave19 (10 artists: fan_kuan/sesshu/constable/poussin/bruegel/el_greco/holbein/aivazovsky/okeeffe/rivera) + ModuleCards42" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1
+- C28  [cmd] L2257  10-15T16:59Z :: git commit -q -m "chore: pre-reboot sweep - module cards 42 generated (checks=126) + wave19 scratch + ops notes" && git log --oneline | head -1 && git push origin main 2>&1 | tail -1 && git status --porcelain | wc -l
+- C29  [cmd] L2299  10-15T18:19Z :: git commit -q -m "feat: module cards 42 COMPLETE (d4272ef) + wave19 partial residuals (sesshu corpus/images, constable images)" && git log --oneline -1 && git push origin main 2>&1 | tail -1 && git status --porcelain | wc -l
+- C30  [cmd] L2316  10-15T18:20Z :: git commit -q -m "ops: post-reboot recovery - A-76 closeout, wave19 redispatch, wave20 launch (A-87..A-96)" && git log --oneline -1 && git push origin main 2>&1 | tail -1 && git status --porcelain | wc -l
+- C31  [cmd] L2343  10-15T18:47Z :: git commit -q -m "feat: wave19 redispatch progress (sesshu/rivera/poussin) + GOALS closeouts" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C32  [cmd] L2369  10-15T18:49Z :: git commit -q -m "feat: wave19/20 progress (constable/ogata_korin/okeeffe) + GOALS closeouts" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C33  [out] L2372  10-15T18:49Z :: hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+- C34  [cmd] L2382  10-15T18:50Z :: git commit -q -m "wip: sweep before merge (wave19/20 in-flight state)" && git merge origin/main -m "merge: reconcile worker-push divergence (remote 4af3f70)" 2>&1 | tail -5; echo "== merge result =="; git log --oneline -1; git sta…
+- C35  [cmd] L2388  10-15T18:50Z :: git commit -q -m "merge: reconcile worker-push divergence (keep newer local state for 5 conflicted files)" && git log --oneline -1 && git push origin main 2>&1 | tail -1 && git rev-list --left-right --count main...origin/main
+- C36  [out] L2419  10-15T18:51Z :: Acknowledged — I have not pushed (no `git push` was ever run; all my git operations were read-only checks). Let me commit my write paths as permitted, then report to Main:My files were already swept into a commit by the main brain…
+- C37  [cmd] L2420  10-15T18:51Z :: git commit -q -m "ops: log push-divergence merge resolution (cab2234)" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C38  [out] L2424  10-15T18:52Z :: 1. **未自行 push** ✅：本工全程只做本地 commit（`264a521` 主体 23 件 + `11e80f7` 计数修正 1 件），从未执行 `git push`；核对 `git branch -r --contains` 确认这两个提交是被**主脑 sweep 推送**的（已见于 `origin/main`，含在 `5396e11` 批次前后）。
+- C39  [cmd] L2446  10-15T18:53Z :: git commit -q -m "feat: wave19/20 progress (bruegel/blake/sultan_mohammed) + GOALS closeouts" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C40  [cmd] L2472  10-15T18:57Z :: git commit -q -m "feat: wave19 COMPLETE (10/10 re-dispatched) - fan_kuan/el_greco/aivazovsky + GOALS closeouts" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C41  [out] L2476  10-15T18:57Z :: - **事故（已修复）**：收尾时 `git commit --amend` 误把并行工人 ni_zan 的提交 `7e57f66` 收编了我的 4 行同步改动（且带入其一个暂存文件）。已 `reset --soft` 复原其原始提交 `7e57f66`（哈希恢复、内容未损），我的同步另立独立提交 `b496c51`（仅 manet.md 2+/2-）；ni_zan 的 `_images/ni_zan/MANIFEST.md` 改动已还原为其提交前状态（w…
+- C42  [cmd] L2522  10-15T19:56Z :: git commit -q -m "ops: launch wave21 (10 artists: xu_beihong/li_keran/sher_gil/tarsila/chen_hongshou/xu_wei/hogarth/mir_sayyid_ali/de_chirico/rockwell) + wave20 closeouts" && git log --oneline -1 && git push origin main 2>&1 | tai…
+- C43  [cmd] L2548  10-15T20:26Z :: git commit -q -m "feat: wave20/21 progress (rockwell/sher_gil/de_chirico) + GOALS closeouts" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C44  [cmd] L2593  10-15T20:36Z :: git commit -q -m "feat: wave20/21 progress (zorn/li_keran/hogarth) + GOALS closeouts" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C45  [cmd] L2637  10-15T20:55Z :: git commit -q -m "feat: wave20 COMPLETE + wave21 progress; launch closeout trio (index3/cards62/crosslink)" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+- C46  [cmd] L2655  10-15T20:59Z :: git commit -q -m "feat: wave21 COMPLETE (10/10) + GOALS closeouts" && git log --oneline -1 && git push origin main 2>&1 | tail -1
+
+## §4 判定索引（工具输出行；去重保留首现；超 60 者均布抽样含首尾）
+### PASS（60/189）
+- P01  L0091  10-15T07:02Z :: `origin/fix/gate-skip-blindspot`, zero business-code changes, gate `PASS exit=0`.**
+- P02  L0832  10-15T10:18Z :: VERIFY PASS — 36/36 张 + RESULTS.md + sheet_all.png + 12 张格 sheet 全部就位。
+- P03  L0879  10-15T11:01Z :: VERIFY PASS — 3/3 张 + req/resp + 三版对照图 + §8.1b v2（卡内/快照/回填）+ 逐字校验(33/33) 全部就位。
+- P04  L1011  10-15T12:18Z :: - `_selfcheck.py` → **RESULT: PASS**（checked=54 fail=0 · **junctions=4/4** · **domains=ok** · 落位版 frontmatter 与父目录同名 OK）
+- P05  L1076  10-15T13:06Z :: [PASS] compare-page
+- P06  L1084  10-15T13:06Z :: 92:- **S-03 建包**：`skills/designers-brain/` 落地（SKILL.md 106 行 + references×9 + domains.yaml + agents/openai.yaml + 打包件×3 + `templates/design_brief.md`）；激活 junction ×4（仓库内 + `~/.agents` + `~/.claude` + …
+- P07  L1202  10-15T13:16Z :: RESULT: PASS  (checked=53 fail=0 planned=1 · junctions=4/4 · domains=ok · harness_fail=0)
+- P08  L1347  10-15T13:37Z :: docs/i18n/zh-CN/ARCHITECTURE.md: blocks[2]PASS · headings[13]PASS · codespans[44]PASS · link-diff EN-only=[] ZH-only=['../../ARCHITECTURE.md', '../ja/ARCHITECTURE.md']
+- P09  L1347  10-15T13:37Z :: docs/i18n/zh-CN/ROADMAP.md: blocks[0]PASS · headings[7]PASS · codespans[10]PASS · link-diff EN-only=[] ZH-only=['../../ROADMAP.md', '../ja/ROADMAP.md']
+- P10  L1353  10-15T13:38Z :: README.ja.md                     blocks=True spans=True headings=True disclaimer=True baseline=True -> PASS
+- P11  L1353  10-15T13:38Z :: docs/i18n/ja/PROTOCOLS.md        blocks=True spans=True headings=True disclaimer=True baseline=True -> PASS
+- P12  L1361  10-15T13:50Z :: - **结论：PASS-with-notes**（3 项次要/轻微备注，不阻塞发布；另附 2 条不构成问题的知悉项 R-1/R-2）。
+- P13  L1367  10-15T13:53Z :: docs/i18n/ja/ROADMAP.md:12:- **スキル**：`designers-brain` v0.2——ビルド・アクティベート済み（ジャンクション + パッケージング）、RED-GREEN ブラインドテスト PASS、フルウォークスルー（カフェのアイデンティティ、3 案）をゲートファイル + 独立レビュー付きで実施。
+- P14  L1380  10-15T13:53Z :: 12:- **スキル**：`designers-brain` v0.2——ビルド・アクティベート済み（ディレクトリ結合のジャンクション + パッケージング）、RED-GREEN ブラインドテスト PASS、フルウォークスルー（カフェのアイデンティティ、3 案）をゲートファイル + 独立レビュー付きで実施。
+- P15  L1539  10-15T14:28Z :: 43:| A-29 | done | 名册：**59 位**候选（15 文化区；49 新增）+ wave 批次建议（8/7/7）；验收：349 行 + 机械检查全 PASS（候选 59 / §1=10 / §2=49 / 交集 ∅） | `knowledge/domains/painters/program/roster.md` | RosterBuilder（wave13） |
+- P16  L1591  10-15T14:37Z :: 38:| A-24 | done | wave13·修拉：443 行 v2 档案（§11 生平 + §12 临摹清单）+ 语料 19 条 + 图库 10 张 + 私有层（Met 1991 目录 PDF + OCR）；分工 vs 莫奈写死；抽取实测 PASS | `knowledge/domains/painters/dossiers/seurat.md` | ArtistSeurat（wave13…
+- P17  L1733  10-15T14:52Z :: python docs/skill/_selfcheck.py → RESULT: PASS (checked=53 fail=0 · junctions=4/4 · domains=ok)
+- P18  L1816  10-15T15:03Z :: [PASS] §11 narrative ≥2000 字 (got 2169)
+- P19  L1816  10-15T15:03Z :: [PASS] §12 works 5–10 (got 10)；§12.1–12.10 看什么/学什么/怎么练 全在
+- P20  L1821  10-15T15:03Z :: 49:| A-35 | done | 加固·毕加索：§11（2169 字 + 51 行年表 + 19 来源 + 引语分级注）+ §12（10 件）；语料 16→24 条（含 Gilot 降级警示）；验收：check_w14.py ALL PASS + 引文 7/7（工自提交 e62e2ee） | `knowledge/domains/painters/dossiers/picasso.md` | …
+- P21  L1893  10-15T15:23Z :: - **v2 规格齐全**：§11.1 生平叙述 **2,005 字**（出生→逝世→身后全链，含引文）；§11.2 年份表 **30 行**；§11.3 来源 **16 条**；§12 临摹清单 **10 件**（各含看什么/学什么/怎么练）；§4/§8.1/§8.2 抽取契约模拟 PASS（1101c / 1675c / 786c）。
+- P22  L1945  10-15T15:35Z :: PASS-CHECK-DONE
+- P23  L1968  10-15T15:42Z :: [PASS] INDEX 无重复行
+- P24  L1968  10-15T15:42Z :: [PASS] INDEX 行 van_gogh.md 数字一致 — 索引 36/38/1/1 vs 磁盘 36/38/1/1
+- P25  L1968  10-15T15:42Z :: [PASS] INDEX 行 cezanne.md 数字一致 — 索引 24/11/12/5 vs 磁盘 24/11/12/5
+- P26  L1968  10-15T15:42Z :: [PASS] INDEX 行 seurat.md 数字一致 — 索引 19/14/4/4 vs 磁盘 19/14/4/4
+- P27  L1968  10-15T15:42Z :: [PASS] INDEX 行 durer.md 数字一致 — 索引 27/22/1/7 vs 磁盘 27/22/1/7
+- P28  L1968  10-15T15:42Z :: [PASS] INDEX 行 goya.md 数字一致 — 索引 22/19/4/3 vs 磁盘 22/19/4/3
+- P29  L1968  10-15T15:42Z :: [PASS] INDEX 行 qi_baishi.md 数字一致 — 索引 25/22/3/3 vs 磁盘 25/22/3/3
+- P30  L1968  10-15T15:42Z :: [PASS] INDEX 头部合计（条目数） — 头部 455 vs 行合计 455
+- P31  L1968  10-15T15:42Z :: [PASS] manifest caravaggio 行数 == 磁盘张数 — 3 vs 3
+- P32  L1968  10-15T15:42Z :: [PASS] manifest durer 行数 == 磁盘张数 — 3 vs 3
+- P33  L1968  10-15T15:42Z :: [PASS] manifest ito_jakuchu 行数 == 磁盘张数 — 18 vs 18
+- P34  L1968  10-15T15:42Z :: [PASS] manifest michelangelo 行数 == 磁盘张数 — 3 vs 3
+- P35  L1968  10-15T15:42Z :: [PASS] manifest qi_baishi 行数 == 磁盘张数 — 11 vs 11
+- P36  L1968  10-15T15:42Z :: [PASS] manifest van_gogh 行数 == 磁盘张数 — 3 vs 3
+- P37  L1968  10-15T15:42Z :: [PASS] 私有层例外 seurat（公开/私有）一致 — 表 10/10 vs 磁盘 10/10
+- P38  L1968  10-15T15:42Z :: [PASS] 私有层例外 goya（公开/私有）一致 — 表 9/2 vs 磁盘 9/2
+- P39  L1968  10-15T15:42Z :: [PASS] 头部「私有层例外 32 张」一致 — 实测私有 32
+- P40  L1968  10-15T15:42Z :: [PASS] _index 行 da_vinci 数字一致 — 索引 424 行/43 URL vs 磁盘 424/43
+- P41  L1968  10-15T15:42Z :: [PASS] _index 行 monet 数字一致 — 索引 471 行/34 URL vs 磁盘 471/34
+- P42  L2035  10-15T15:48Z :: **结论：验收四项（四处落盘 / v2 规格齐全 / 分工条款写明 / 自审四段）逐条达成；机械验证 PASS（原样输出见下）。**
+- P43  L2143  10-15T16:11Z :: §11.3 sources: 28  (need >=10)  -> PASS
+- P44  L2180  10-15T16:29Z :: [PASS] INDEX 行数 == 35 — 35
+- P45  L2180  10-15T16:29Z :: [PASS] INDEX 行 munch.md 数字一致 — 索引 29/27/1/4 vs 磁盘 29/27/1/4
+- P46  L2180  10-15T16:29Z :: [PASS] INDEX 行 bosch.md 数字一致 — 索引 26/0/1/15 vs 磁盘 26/0/1/15
+- P47  L2180  10-15T16:29Z :: [PASS] INDEX 行 friedrich.md 数字一致 — 索引 31/21/5/10 vs 磁盘 31/21/5/10
+- P48  L2180  10-15T16:29Z :: [PASS] INDEX 行 degas.md 数字一致 — 索引 36/5/26/7 vs 磁盘 36/5/26/7
+- P49  L2180  10-15T16:29Z :: [PASS] INDEX 行 kngwarreye.md 数字一致 — 索引 18/0/4/0 vs 磁盘 18/0/4/0
+- P50  L2180  10-15T16:29Z :: [PASS] INDEX 未纳入（在产）注明
+- P51  L2180  10-15T16:29Z :: [PASS] manifest degas 行数 == 磁盘张数 — 13 vs 13
+- P52  L2180  10-15T16:29Z :: [PASS] manifest kandinsky 行数 == 磁盘张数 — 11 vs 11
+- P53  L2304  10-15T18:19Z :: 82:| A-76 | done | 模块卡 20→**42 张**：22 位入 ARTISTS + 生成 + README/SKILL/domains.yaml 同步；验收：`--check` **126/126** · skill `_selfcheck` PASS · 旧 20 卡零改动（sha256 全等）· `--write` 幂等 | `knowledge/domains/painte…
+- P54  L2347  10-15T18:48Z :: skill: python docs/skill/_selfcheck.py → RESULT: PASS (junctions=4/4, domains=ok)
+- P55  L2398  10-15T18:50Z :: 自测：结构 14/14 · 抽取契约 arch_4/81/82 OK · 引文 18/18 · `_extract.py --check` 126/126 · skill selfcheck PASS。scratch 41 件已先核再用（31 用 / 10 无效已弃并留档）。
+- P56  L2450  10-15T18:55Z :: skill _selfcheck → RESULT: PASS (checked=53 · junctions=4/4)
+- P57  L2476  10-15T18:57Z :: RESULT: PASS (checked=53 fail=0 · junctions=4/4 · domains=ok)
+- P58  L2581  10-15T20:33Z :: 91:| A-95 | done | wave20·佐恩：532 行 v2 档案（§11 2127 字 + 47 行 + 12 来源；§12 10 件）+ 语料 32 条 + 图库 19 张全 PD/CC0 + 私有 27 件；分工 vs 萨金特（同名对齐，回改待收口）/德加写死 + vs 索罗拉互查；自测 PASS | `knowledge/domains/painters/dossiers/z…
+- P59  L2621  10-15T20:54Z :: **自测（原样）**：`check_zorn.py` PASS（§4=1118/§8.1=2668/§8.2=1090，neg-seg True）· `_extract.py --check` **126/126** · skill `_selfcheck` PASS。
+- P60  L2664  10-15T21:10Z :: 104:| A-108 | done | 模块卡 42→**62 张**（wave19/20 共 20 位入 ARTISTS + 生成 + README/SKILL/domains.yaml 同步）；验收：`--check` **186/186** · selfcheck PASS（count=62）· 旧 42 卡零改动（raw sha256 全等）· `--write` 三跑幂等 | `kno…
+### FAIL（28/28）
+- FL01  L0079  10-15T07:02Z :: FAIL --help
+- FL02  L1169  10-15T13:15Z :: FAIL [painter] count=11 actual=0（knowledge/domains/painters/modules/*.md − README.md）
+- FL03  L1169  10-15T13:15Z :: FAIL [mg-motion] count=15 actual=0（knowledge/domains/motion-graphics/origin/ 01–15 号卡截图）
+- FL04  L1169  10-15T13:15Z :: RESULT: FAIL  (checked=20 fail=11 planned=0 · junctions=4/4 · domains=FAIL · harness_fail=0)
+- FL05  L1172  10-15T13:15Z :: FAIL skill/_selfcheck.py  [not found]  ← ['docs/skill/skill_spec.md', 'skills/designers-brain/domains.yaml']
+- FL06  L1172  10-15T13:15Z :: FAIL skill/designers-brain/  [not found]  ← ['docs/skill/skill_spec.md']
+- FL07  L1172  10-15T13:15Z :: FAIL skill/draft/SKILL.md  [not found]  ← ['docs/skill/skill_spec.md']
+- FL08  L1172  10-15T13:15Z :: FAIL skill/refs/design-packs/huashu-design_consultant_excerpts.md  [not found]  ← ['docs/skill/skill_spec.md', 'skills/designers-brain/references/direction-protocol.md']
+- FL09  L1172  10-15T13:15Z :: FAIL skill/refs/spec/  [not found]  ← ['docs/skill/skill_spec.md']
+- FL10  L1172  10-15T13:15Z :: FAIL skill/refs/spec/claude-code_plugin_manifest_excerpt.md  [not found]  ← ['docs/skill/skill_spec.md']
+- FL11  L1172  10-15T13:15Z :: FAIL skill/refs/spec/codex_plugin_manifest_spec.md  [not found]  ← ['docs/skill/skill_spec.md']
+- FL12  L1172  10-15T13:15Z :: FAIL skill/refs/superpowers/brainstorming_SKILL.md  [not found]  ← ['docs/skill/skill_spec.md']
+- FL13  L1172  10-15T13:15Z :: FAIL skill/refs/superpowers/manifest_samples.md  [not found]  ← ['docs/skill/skill_spec.md']
+- FL14  L1172  10-15T13:15Z :: FAIL skill/skill_ecosystem.md  [not found]  ← ['docs/skill/skill_spec.md', 'docs/skill/draft/SKILL.md', 'skills/designers-brain/SKILL.md', 'templates/design_brief.md', 'skills/designers-brain/referenc…
+- FL15  L1172  10-15T13:15Z :: FAIL skill/skill_spec.md  [not found]  ← ['docs/skill/skill_spec.md', 'docs/skill/draft/SKILL.md', 'skills/designers-brain/SKILL.md', 'skills/designers-brain/domains.yaml', 'templates/design_brief.md'…
+- FL16  L1177  10-15T13:15Z :: return [("FAIL", "无 frontmatter 块")]
+- FL17  L1177  10-15T13:15Z :: return [("FAIL", f"YAML 解析失败: {e}")]
+- FL18  L1177  10-15T13:15Z :: out.append(("OK" if (ok_len and ok_re and ok_edge) else "FAIL",
+- FL19  L1177  10-15T13:15Z :: out.append(("OK" if same else "FAIL",
+- FL20  L1177  10-15T13:15Z :: out.append(("FAIL", "name 缺失或非字符串"))
+- FL21  L1177  10-15T13:15Z :: out.append(("OK" if len(desc) <= 1024 else "FAIL", f"description 长度={len(desc)} (≤1024)"))
+- FL22  L1177  10-15T13:15Z :: out.append(("FAIL", "description 缺失或非字符串"))
+- FL23  L1177  10-15T13:15Z :: rows.append((j, "FAIL", "不存在（未激活）"))
+- FL24  L1177  10-15T13:15Z :: rows.append((j, "ok" if (same and skill_md) else "FAIL", detail))
+- FL25  L1177  10-15T13:15Z :: return [("domains.yaml", "FAIL", "文件不存在")], False
+- FL26  L1177  10-15T13:15Z :: return [("domains.yaml", "FAIL", f"YAML 解析失败: {e}")], False
+- FL27  L2180  10-15T16:29Z :: IndexMerge2 完成：三表（`_corpus/INDEX.md` / `_images/manifest.md` / `_index.md`）已并入 wave15×8 + wave17×7 并全量重算 35 行，核验脚本 **PASS 140 / FAIL 0（退出码 0）**，输出原样附下。
+- FL28  L2185  10-15T16:29Z :: 81:| A-75 | done | 索引合并二轮：三表并入 wave15/17（35 位/844 条；manifest 公开 273 张 + 私有例外 126 张；_index 35 行含 pass2 九行重算）；核验 **PASS 140 / FAIL 0**；两处口径决定留档（mucha 12/5、kandinsky 私有 11） | `knowledge/domains/painters/…
+### CONFIRMED（57/57）
+- CF01  L0045  10-15T07:00Z :: 7. **同产物多路复核 + per-item 判决**（高风险产物）：派 2+ 路独立复核（不同工人或不同模型族），每条结论给 `CONFIRMED / WEAKENED / OVERTURNED` 判决；验收与实现分离（Any2API 的 workflow.md 第 9 条；HWK 六路复核先例）。
+- CF02  L0068  10-15T07:02Z :: | B 反驳 | 挑 3-5 条最强结论，逐条**试着推翻**；每条标 `CONFIRMED` / `WEAKENED` / `OVERTURNED` + 你跑过的那条命令 | 被 `OVERTURNED` 的结论已从产物里删掉或改写 |
+- CF03  L0068  10-15T07:02Z :: B 反驳：挑 3-5 条最强结论逐条试推翻，标 CONFIRMED/WEAKENED/OVERTURNED + 你跑的命令；被推翻的从产物里删掉。
+- CF04  L0325  10-15T07:21Z :: - 自审 B 段对 5 条最强结论逐条试推翻：2 条降级（浮世绘三件临摹仅二手→已标注；「信 777=MoMA 星月夜」断言剔除入缺口），3 条 CONFIRMED。
+- CF05  L0391  10-15T07:50Z :: 20:| A-11 | done | 独立复核（31 条抽检全 CONFIRMED；4 处标注级修正已派回原作者） | `research/artists/_review.md` | DossierReview（wave2） |
+- CF06  L0419  10-15T07:52Z :: 240:16 条抽检（9 条 Barr 目录逐页引文、4 条馆藏数字与引文、3 条博物馆研究）全部 CONFIRMED。**所有 [自述] 引文与页码在 Barr 1939 目录 PDF 中逐字命中**（含档案自纠的 1923/1935 归属问题——该自纠我复核为真）；AIC/MoMA 馆藏号、尺寸、引文逐字命中；MoMA 实时页（2026-10-15）确认「1257 件在线藏品」与「2024 展…
+- CF07  L0419  10-15T07:52Z :: 429:→ **CONFIRMED**（引语在 Tate 页逐字；档案已注明「Tate Etc 引」——建议删「晚年」二字，Tate 原文未言时间，见问题 4）
+- CF08  L0419  10-15T07:52Z :: 458:3. 「§7-6 的 1257 与快照 1,269 矛盾」——先怀疑档案引错。读 2026-10-15 实时艺术家页得 "1257 works online"，与档案一致 → 快照数字是历史值，**CONFIRMED（档案正确；该数字随时间变动，建议带日期）**。
+- CF09  L0428  10-15T07:52Z :: 20:| A-11 | done | 独立复核（31 条抽检全 CONFIRMED；4 处标注级修正已派回） | `research/artists/_review.md` | DossierReview（wave2） |
+- CF10  L0521  10-15T07:58Z :: **自审四段**在 `templates/determinism_contract.md` 附录（含 4 条反驳 CONFIRMED/OVERTURNED、原样机械验证输出、≤14 行小结）；pixelmatch/odiff/motion.py 未装未跑，已标 [UNVERIFIED]。
+- CF11  L0639  10-15T08:29Z :: **验证**：2 条 URL（landing page + `.claude-plugin/plugin.json`）用 read 验证，原样输出已粘入文件 §6-C；反驳节 5 条全部 CONFIRMED（含命令）。
+- CF12  L0762  10-15T09:05Z :: - **B 反驳**：①「补标后与 _crosscheck 推定计数一致」→ **CONFIRMED**（da_vinci §1 逐条重数 = 研究 8/史料 1/自述锚点 1）。②「5 例统一后库内已无同源异级」→ **WEAKENED**：清单外仍有同类残留（picasso §1-8、hokusai §2-4 等），已按范围声明记录在案。③「picasso 注文计数 14/3/7」→ **CO…
+- CF13  L0885  10-15T11:06Z :: **目检要点**：e2a 融合成立（梵高厚涂/星体光环 × 莫奈高调浅色系）；e2b 暗调 tenebrist、软边+雾化（两语言均在场，C-01/02/03 初判 CONFIRMED）；e2c 分区方向一致（近景无雾、远景收拢）。
+- CF14  L1062  10-15T12:42Z :: 4. **自审四段**：A 早产出（v1 先落盘再补 C）→ B 反驳（4 条：3 CONFIRMED / 1 WEAKENED）→ C 机械验证（检查器原样输出：sections 7/7、skill-bullets=15、kw-hits=[]，已粘入）→ D 小结（≤14 行）。
+- CF15  L1142  10-15T13:13Z :: | 2026-10-15 下午 | A·wave1–2 | 11 份画家档案（252–382 行/份）+ `expansion.md`（18 缺口）+ 独立复核 31/31 CONFIRMED（4 处修正双闭环） | `research/artists/*.md`、`_review.md`；GOALS A-01..A-17 |
+- CF16  L1252  10-15T13:20Z :: 4. 自审四段：**A 早产出**（先落盘再继续）→ **B 反驳**（挑 3–5 条最强结论逐条试推翻，标 `CONFIRMED/WEAKENED/OVERTURNED` + 跑过的命令；被推翻的从产物里删）→ **C 机械验证**（指名一个检查器，原样粘输出）→ **D ≤14 行小结**（已确立/被推翻/未知/下一步）。
+- CF17  L1347  10-15T13:37Z :: 6. WORKFLOW §3-4（`CONFIRMED/WEAKENED/OVERTURNED`、3–5、≤14 原样）✓
+- CF18  L1353  10-15T13:38Z :: ### B 反論（最強主張 5 件への反証試行 — 全 CONFIRMED、OVERTURNED 0）
+- CF19  L1353  10-15T13:38Z :: |コードブロックはバイト一致|フェンス抽出→完全比較（README 3 / ARCH 2 / 他 0）|**CONFIRMED**（差分 0）|
+- CF20  L1353  10-15T13:38Z :: |識別子ゼロ翻訳|インラインコード全 149 個のマルチセット比較（19/52/30/37/11）|**CONFIRMED**（差分 0）|
+- CF21  L1353  10-15T13:38Z :: |見出し構造保持|見出しレベル列比較（15/13/8/12/7）|**CONFIRMED**（全一致）|
+- CF22  L1353  10-15T13:38Z :: |リンク原文まま|リンクターゲット集合差分 → 差分はスイッチャー分のみ|**CONFIRMED**|
+- CF23  L1353  10-15T13:38Z :: |用語表適用|18 用語の grep＋等級注釈/初出グロス確認|**CONFIRMED**|
+- CF24  L1353  10-15T13:38Z :: - 反証試行 5 件 → 全 CONFIRMED（覆りなし）。
+- CF25  L1353  10-15T13:38Z :: 5. **WORKFLOW §3-4** — `tag `CONFIRMED/WEAKENED/OVERTURNED` + the command run` → `…タグ + 実行したコマンドを記録`（`≤14 行のサマリ` も保持）✓
+- CF26  L1515  10-15T14:26Z :: - **交叉核对 5 组**：购藏/命名链、《死与生》金奖与金底改灰、拉文纳冲击等，均双源以上 CONFIRMED（口径差异并列标注）。
+- CF27  L1544  10-15T14:33Z :: - **自审四段**：✅ A（分段落盘记录，含中断恢复）+ B（6 条反驳：1 CONFIRMED 口径级 / 2 WEAKENED 收窄 / 1 单源标注 / 1 CONFIRMED / 1 WEAKENED 并列）+ C（read 原样输出 ×5 + 结构检查 + 目检）+ D（≤14 行）。
+- CF28  L1605  10-15T14:38Z :: - **B 反驳**：6 条逐条试推翻——「三导师」与「理性沉睡题解」降级为**转记级**（OVERTURNED/WEAKENED）；「战祸 82 帧」改**80/82/85 口径并存**；「黑画无争议」**留档辩论**；分工轴判据（提灯 vs 画外光源）经双方已落盘文本复核 **CONFIRMED**。
+- CF29  L1682  10-15T14:47Z :: - **B 反驳**（5 条最强结论试推翻）：①「行会费余额 1665 年」→ 页面笔误，采 **1656-07**（[R43]+Montias 口径）；②「请愿书 1677 年」→ [R47] 作 **1676-04-30**、与 Montias「数月后」一致，采 1676-04-30；③「画室＝顶层后间」→ 清单条目与 Erfgoed Delft 作「前间」，两说并列、以清单为准；④「改宗有据…
+- CF30  L1725  10-15T14:51Z :: - **B 反驳**：① 1906-03 相识 → 三源时点不一（1905 秋/1906-03）→ WEAKENED（已两存）；② "Humbert 差点掀翻共和国"（Spurling 最大断言，有书评质疑）→ 未采信、未写入 → 规避；③ 奠基日 11 vs 12 → WEAKENED（两存）；④ Sœur J-M 入会 1944 vs 1946 → 按官方纪年 1944-09（初愿 1946-…
+- CF31  L1733  10-15T14:52Z :: - B 反驳：①「903 封」旧 [UNVERIFIED] → About 页原文「the 903 surviving letters」核实 → **CONFIRMED**（§10 该条可收口；本档未动既有节）；② 16 条引文逐条对照原文页 → **全部 CONFIRMED**（byte-exact，含编辑符号如 `tra[va]iller`）；③ 提奥统计 651/820、存信 39 封 → …
+- CF32  L1761  10-15T14:53Z :: B 反驳：①1509 房价 275 → Conway 双源 CONFIRMED；②1515-09-06 因斯布鲁克 → 双源 CONFIRMED；③教父 Koberger → 印本命中 CONFIRMED；④《四使徒》付款 100+12+2 vs Conway 100+10+2 → WEAKENED（两说并存入 §11.4 注 7）；⑤1512 防翻刻 Freibrief → 未采用（§11.4 …
+- CF33  L1776  10-15T14:56Z :: - **B 反驳**：①「天顶 1508–1512、前半 1510-08 完成」→ **CONFIRMED**（梵蒂冈官方页 × de Grassis 日记转引 × 自述信）；② Milanesi 旧编年「信 XV＝1509-10、『万圣节 1509 揭幕』」→ **OVERTURNED**（按现代编年与信文内容＝1512-10；已在正文与语料条目 19 注记说明，未采旧说）；③「1505 年议价…
+- CF34  L1816  10-15T15:03Z :: - B3「1916 年《阿维尼翁少女》首展」：原仅 MoMA 单源 → 馆方年表同述，升双源。CONFIRMED。
+- CF35  L1816  10-15T15:03Z :: - B5「生卒日级」：§10-7 缺口 → MPR 年表 10-25/04-08 回填。CONFIRMED（馆方）。
+- CF36  L1825  10-15T15:05Z :: - **B 反驳**：①「2007 年书信」→ 多通道检索无此条目 → 双轨覆盖 + 口径注（如实落档）；②「Wignacourt 1607-12-29 信=近年新发现」→ 核 IRIS：Macioce 文刊于 Storia dell'Arte 81 (1994) → 措辞改「近年被系统整理/再检讨」（WEAKENED→修正）；③「母亲卒年」→ 1584 vs 1591-11-29 两说并存并记（…
+- CF37  L1853  10-15T15:14Z :: **④ 自审四段（A/B/C/D）**：早产出（图库先行、7 次落盘）；反驳 7 条（1 条口径改写 OVERTURNED、3 条 WEAKENED 降级、3 条 CONFIRMED，含联网复核命令）；机械验证（引文抽查 10/10 TRUE、13 张 sha256 全表）；小结 ≤14 行。
+- CF38  L1893  10-15T15:23Z :: - **自审四段**：A 早产出（分段落盘纪律+偏差记录）；B 反驳 5 条（2 处收窄/待验，其余 CONFIRMED）；C 机械验证（检查器原样输出 + 复核跑：缺失节 0/22、图库 12 张全 ≤1800px、sha256 全列）；D 小结 12 行。
+- CF39  L1945  10-15T15:35Z :: - **B 反驳（6 条）**：CONFIRMED 3（Press 1894-07-12 首发《Birth of Shakuntala》；《Shakuntala 回眸》藏 Sree Chitra；2026 年 $17.9M/₹167.2 crore 拍卖纪录）；**WEAKENED 3**（芝加哥「两枚奖章+证书」vs 维基「三枚金奖」；自画像两说；1895 信收信人两说）——均已在 §10 标注…
+- CF40  L2007  10-15T15:47Z :: - **自审四段**（档案文末）：B 段 5 项判决——版权口径 CONFIRMED（life+70→2066）；Wikipedia「1993 入选威尼斯」**WEAKENED 不采用**（展年 1997 三源一致）；"约 3,000 幅"确认（估计值口径）；卒日 09-02/09-03 变体保留；"点内套点"确认为机制。C 段 6 项机械输出（见上）。D 段 ≤14 行小结。
+- CF41  L2015  10-15T15:47Z :: - **B 反驳**：6 条过检——2 条 WEAKENED（透纳边界→已补注；Rückenfigur 非必须有人→弱档已内建）、1 条降级（引文＝「载体级逐字」，原刊页码缺口已按纪律记录）、3 条 CONFIRMED；**无被推翻**。
+- CF42  L2035  10-15T15:48Z :: 全文在档案末（`## 自审四段`）：**A** 骨架先落盘→逐节充实（24.4 KB 骨架起步）；**B** 反驳 6 条最强结论（1882 缺席·三源 CONFIRMED；Moore/Vollard 引文·原书级 CONFIRMED；vs 莫奈/修拉接口复读对齐；图库 13/13 双检；抽取契约直测）——无 OVERTURNED，3 项削弱已就地标注；**C** 机械验证原样粘贴（上）；**D*…
+- CF43  L2043  10-15T15:49Z :: - CONFIRMED ×2（图库全 PD；身份议题按来源并列不判定）
+- CF44  L2329  10-15T18:44Z :: - **B 反驳**：6 条中最强结论逐一试推翻——B1（米开朗基罗分工遇 Chapingo/疫苗面板混合案例 → 补「≥3 条同档+两主轴」边界注）、B2（DIA PD 口径 → 维持宁严勿松）、B3（象征面板 → 豁免注）、B4（引文降级「载体级逐字」）；B5/B6 CONFIRMED。
+- CF45  L2337  10-15T18:47Z :: - **自审四段**（档案末节）：A 早产出（先核 20 件 → 图库先行 → 分 7 段落盘）；B 反驳 6 条（B1/B2/B5 WEAKENED 已就地修正，B3/B4 CONFIRMED，B6 修正）；C 机械验证（上文原样输出 + 复跑）；D 小结（未知项：Observations 归属裁断、纸本回查、阈值未实测）。
+- CF46  L2363  10-15T18:49Z :: - **B 反驳**：6 条强结论逐条试推翻——2 条削弱（马蒂斯/莫奈判据补「≥2 轴联合」边界注）、1 条降级（JITP 系列顺序不可证，降为「回忆＋描述」）、3 条 CONFIRMED（零图、引文、对侧互洽）。
+- CF47  L2450  10-15T18:55Z :: - **B 反驳**：7 条试推翻——「无画论」降级为「文字极少但全为操作陈述」；病因说（散光）**OVERTURNED 不采用**（§10-7 留档）；其余 CONFIRMED 或两存留档。
+- CF48  L2466  10-15T18:57Z :: - **B 反驳**：B2/B3 两条**被推翻并就地修正**（《在浪中》图为 58×96 版本；《古尔祖夫之夜》为 1891 版本）；B1/B5 被削弱已处置（scratch 4 处异常；「10 天画成」仅二手不入正文）；B4/B6/B7/B8 CONFIRMED。
+- CF49  L2552  10-15T20:29Z :: - **B 反驳 5 条**：公开侧零图 CONFIRMED；四路径对齐 CONFIRMED（李侧互锁已落盘）；奔马三件套专属 CONFIRMED；《悲鸿自述》句 **WEAKENED**（全文未获→转引）；震旦/复旦 **变体保留**。
+- CF50  L2613  10-15T20:45Z :: - **B 反驳**：B1/B2 两条分工判据经反例检验 → 补「≥2 轴联合」边界注；B3–B6 CONFIRMED；
+- CF51  L2647  10-15T20:58Z :: - **反驳**：6 条受检——「吾书第一」CONFIRMED（异文并存）；薛蕙/薛应旂、白鹿表年份、杂花图尺寸 3 条 WEAKENED 两说留档；「大环」款 UNRESOLVED；「不求形似求生韵」降级为转录。
+- CF52  L2659  10-15T21:09Z :: 1. **「旧 42 卡零改动」** → 反驳：会不会被 EOL 归一掩盖？→ 用 **raw sha256（不归一）** 对照改动前快照：42/42 全等；且 commit 文件清单不含任何旧卡。**CONFIRMED**。
+- CF53  L2659  10-15T21:09Z :: 2. **「checks=186 全过」** → 反驳：会不会空提取也过？→ 各段非空且实质（§8.2 最小 541c、§8.1 最小 1290c）；`--check` 为 archive↔card 全串比对；另抽 `--diff` 两卡（新/旧各一）sha256 相等。**CONFIRMED**。
+- CF54  L2659  10-15T21:09Z :: 3. **「幂等」** → 反驳：二跑相同是否足够？→ 三跑全等（run1=run2=run3，62/62 raw sha256）；旧 42 卡自基线至终态字节不动。**CONFIRMED**。
+- CF55  L2659  10-15T21:09Z :: 4. **「README 62 行」** → 反驳：字面 62 行还是 62 行索引？→ 索引表 62 行（`grep -c "^| \["` = 62）；文件本身 123 行（含说明段）——按「62-row index」口径执行（与 mc42 先例 commit 用语「README 42-row index」同口径），标题/计数/维护口径同步 62/186。**CONFIRMED（口径记录）**…
+- CF56  L2659  10-15T21:09Z :: 5. **「20 条＝§1 浓缩 5 条 + §3.1 注记」** → 反驳：抽查同构性 → 5 条/卡 × 20；每卡 3–4 条冲突注记，逐条可回指 §3.1（vs 对 / 组合预检 / C 条）；格式与 wave15/17/18 先例同构。**CONFIRMED**。
+- CF57  L2659  10-15T21:09Z :: 6. **「(future) 标记」** → 反驳：徐渭/陈洪绶该不该算 present？→ 徐渭（A-102 在产、无卡）、陈洪绶（档案在、无卡）→ 保留 `（future）`/「预写」标记。**CONFIRMED**。
+### OVERTURNED（50/50）
+- OV01  L0045  10-15T07:00Z :: 7. **同产物多路复核 + per-item 判决**（高风险产物）：派 2+ 路独立复核（不同工人或不同模型族），每条结论给 `CONFIRMED / WEAKENED / OVERTURNED` 判决；验收与实现分离（Any2API 的 workflow.md 第 9 条；HWK 六路复核先例）。
+- OV02  L0068  10-15T07:02Z :: | B 反驳 | 挑 3-5 条最强结论，逐条**试着推翻**；每条标 `CONFIRMED` / `WEAKENED` / `OVERTURNED` + 你跑过的那条命令 | 被 `OVERTURNED` 的结论已从产物里删掉或改写 |
+- OV03  L0068  10-15T07:02Z :: `WEAKENED` = 保留但收窄或加注；`OVERTURNED` = 删掉或重写。文件里不留被推翻的结论。
+- OV04  L0068  10-15T07:02Z :: B 反驳：挑 3-5 条最强结论逐条试推翻，标 CONFIRMED/WEAKENED/OVERTURNED + 你跑的命令；被推翻的从产物里删掉。
+- OV05  L0330  10-15T07:21Z :: 3. **实际修正**（自审 B 段）：逐页核对 Barr 目录 PDF 后发现「A picture is not thought out and settled beforehand」实属 1935 年 Zervos 谈话而非坊间流传的 1923 年声明（OVERTURNED，已改并加注）；「receptacle for emotions」的 Brassaï 归属存疑（改挂 Zervos）；AI…
+- OV06  L0367  10-15T07:48Z :: **修正了任务书两条口径（均 OVERTURNED，已写入 §10）**：①「Rijksmuseum 2018 Hirox」实为 **Mauritshuis** "Girl in the Spotlight" 项目（Hirox RH-2000，9100 张 Z-stack，约 100 亿像素；Rijksmuseum 是 2023 年 28 幅回顾展，约 650,000 人）；②**未找到「1669…
+- OV07  L0419  10-15T07:52Z :: 240:16 条抽检（9 条 Barr 目录逐页引文、4 条馆藏数字与引文、3 条博物馆研究）全部 CONFIRMED。**所有 [自述] 引文与页码在 Barr 1939 目录 PDF 中逐字命中**（含档案自纠的 1923/1935 归属问题——该自纠我复核为真）；AIC/MoMA 馆藏号、尺寸、引文逐字命中；MoMA 实时页（2026-10-15）确认「1257 件在线藏品」与「2024 展…
+- OV08  L0521  10-15T07:58Z :: **自审四段**在 `templates/determinism_contract.md` 附录（含 4 条反驳 CONFIRMED/OVERTURNED、原样机械验证输出、≤14 行小结）；pixelmatch/odiff/motion.py 未装未跑，已标 [UNVERIFIED]。
+- OV09  L0675  10-15T08:38Z :: `grep -oE "t[0-9]{4}" author_tutorial.md` 得 51 个唯一帧号，逐一检查对应帧文件**零 MISSING**；白卡像素占比扫描与抽读吻合，定出 13 段章节边界；「本地工具·无损压缩」等 2 条低分辨率误读已 OVERTURNED 并从正文删除。
+- OV10  L0981  10-15T12:07Z :: - 完成时把状态改 `done` + 一行「验收：<跑过的命令/文件>」。被推翻的结论从产物删掉，并在本条写「OVERTURNED: …」。
+- OV11  L1252  10-15T13:20Z :: 4. 自审四段：**A 早产出**（先落盘再继续）→ **B 反驳**（挑 3–5 条最强结论逐条试推翻，标 `CONFIRMED/WEAKENED/OVERTURNED` + 跑过的命令；被推翻的从产物里删）→ **C 机械验证**（指名一个检查器，原样粘输出）→ **D ≤14 行小结**（已确立/被推翻/未知/下一步）。
+- OV12  L1347  10-15T13:37Z :: 6. WORKFLOW §3-4（`CONFIRMED/WEAKENED/OVERTURNED`、3–5、≤14 原样）✓
+- OV13  L1353  10-15T13:38Z :: ### B 反論（最強主張 5 件への反証試行 — 全 CONFIRMED、OVERTURNED 0）
+- OV14  L1353  10-15T13:38Z :: 5. **WORKFLOW §3-4** — `tag `CONFIRMED/WEAKENED/OVERTURNED` + the command run` → `…タグ + 実行したコマンドを記録`（`≤14 行のサマリ` も保持）✓
+- OV15  L1515  10-15T14:26Z :: - **自审四段完成** ✅ — A 早产出 / B 反驳（6 条，含 1 条 OVERTURNED）/ C 机械验证（7 组原样输出）/ D 小结（≤14 行）。
+- OV16  L1605  10-15T14:38Z :: - **B 反驳**：6 条逐条试推翻——「三导师」与「理性沉睡题解」降级为**转记级**（OVERTURNED/WEAKENED）；「战祸 82 帧」改**80/82/85 口径并存**；「黑画无争议」**留档辩论**；分工轴判据（提灯 vs 画外光源）经双方已落盘文本复核 **CONFIRMED**。
+- OV17  L1697  10-15T14:48Z :: - B 反驳：①「1886-04-04 信=绝交信」→ **OVERTURNED**（1887-11-28 信 + 手稿「impression≠impulsion」校订；已按新说改写并注明 Rewald 旧读）；②「1887 信日期=9 月 28 日」→ 依 Mitterand 考订改为 **11 月 28 日**（《土地》11-15 出版；S1/S2 两页互证）；③「22/23 日死期矛盾」→ …
+- OV18  L1702  10-15T14:48Z :: 50:| A-36 | done | 加固·塞尚：§11（2297 字 + 31 行年表 + 16 来源；「绝交信」旧说 OVERTURNED）+ §12（9 件）；语料 17→24 条；验收：`_extract.py --check` 33/33 | `knowledge/domains/painters/dossiers/cezanne.md` | BioCezanne（wave14） |
+- OV19  L1776  10-15T14:56Z :: - **B 反驳**：①「天顶 1508–1512、前半 1510-08 完成」→ **CONFIRMED**（梵蒂冈官方页 × de Grassis 日记转引 × 自述信）；② Milanesi 旧编年「信 XV＝1509-10、『万圣节 1509 揭幕』」→ **OVERTURNED**（按现代编年与信文内容＝1512-10；已在正文与语料条目 19 注记说明，未采旧说）；③「1505 年议价…
+- OV20  L1793  10-15T14:57Z :: 46:| A-32 | done | 加固·米开朗基罗：§11（2816 字 + 35 行年表 + 14 来源）+ §12（8 件）；语料 +7 → 22 条；§10/语料缺口注 3 处已更新（Fattucci 信已找到）；「1509 揭幕」旧说 OVERTURNED；验收：`_extract.py --check` 33/33 + 引文 7/7 | `knowledge/domains/pain…
+- OV21  L1833  10-15T15:05Z :: 131:- **wave14 加固完成（2026-10-16 凌晨）**：11/11 全部收口（§11 生平 2080–2816 字 + §12 临摹清单 8–10 件；语料合计 +7~+16 条/人）；期间经历 3 轮 provider 流中断，全部以「resume 同会话 + 每 10–15 分钟写盘」恢复，**零规格降级**。附带产出：3 条旧说被 OVERTURNED（塞尚「绝交信」/ 米…
+- OV22  L1853  10-15T15:14Z :: **④ 自审四段（A/B/C/D）**：早产出（图库先行、7 次落盘）；反驳 7 条（1 条口径改写 OVERTURNED、3 条 WEAKENED 降级、3 条 CONFIRMED，含联网复核命令）；机械验证（引文抽查 10/10 TRUE、13 张 sha256 全表）；小结 ≤14 行。
+- OV23  L1909  10-15T15:30Z :: **验收证据：** 抽取契约直测 PASS（§4=1034 / §8.1=1484 / §8.2=977 chars，8/8 规则，`--no` 在位）；四来源齐（Lenbachhaus/Guggenheim API/Pompidou/Commons）；自审四段含 B1–B6 反驳（2 WEAKENED 已修、1 OVERTURNED 已换源）。
+- OV24  L2029  10-15T15:47Z :: 63:| A-57 | done | wave17·凡·艾克：483 行 v2 档案（§11 2020 字 + 37 行 + 12 来源；§12 10 件）+ 语料 20 条（题刻逐字转录）+ 图库 17 张 PD/CC0 + 私有 8 件；分工 vs 维米尔第一条款写死（4 判据对齐 vermeer.md）；1 条 OVERTURNED（「发明油画」→「定型者」） | `knowledge/do…
+- OV25  L2035  10-15T15:48Z :: 全文在档案末（`## 自审四段`）：**A** 骨架先落盘→逐节充实（24.4 KB 骨架起步）；**B** 反驳 6 条最强结论（1882 缺席·三源 CONFIRMED；Moore/Vollard 引文·原书级 CONFIRMED；vs 莫奈/修拉接口复读对齐；图库 13/13 双检；抽取契约直测）——无 OVERTURNED，3 项削弱已就地标注；**C** 机械验证原样粘贴（上）；**D*…
+- OV26  L2043  10-15T15:49Z :: - **OVERTURNED ×1**：「Судья теперь мужик」信日期「8 июня 1872」系转录讹误 → 双源核正为 **3 июня 1872**（1947 版 + 特列季亚科夫专文）
+- OV27  L2048  10-15T15:49Z :: 59:| A-53 | done | wave17·列宾：500 行 v2 档案（§11 ~2400 字 + 56 行 + 来源 ≥10；§12 9 件）+ 语料 23 条 + 图库 10 张全 PD + 私有 3+3 件（Стасов 通信集 OCR）；分工 vs 戈雅/米开朗基罗/伦勃朗写死；1 条 OVERTURNED（信日期讹误核正） | `knowledge/domains/painte…
+- OV28  L2051  10-15T15:51Z :: **自审四段**：B 段抓出并改正 1 处 **OVERTURNED**——「艺术是抽象」信日期 1885 → **1888-08-14**（三源复核：1946 书信集排位 + fr.wikipedia + RACAR 论文）；C 段含全部机械验证原始输出（结构 10/10/8/6/10/10/8、年表 35、URL 40/28、图库 20 张 sha256）。
+- OV29  L2056  10-15T15:51Z :: 62:| A-56 | done | wave17·高更：504 行 v2 档案（§11 2020 字 + 35 行 + 16 来源；§12 10 件）+ 语料 33 条（Noa Noa 法文版底本）+ 图库 20 张全 PD + 私有论文 2 件；分工 vs 马蒂斯/修拉/梵高写死（各判据 + 70/30）；1 条 OVERTURNED（信日期 1885→1888） | `knowledge/d…
+- OV30  L2202  10-15T16:36Z :: - **反驳记录（自审 B）**：2 条 OVERTURNED（Vasari「遗腹子」旧说——档案证父亲活跃至 1464；「拉丁文写成」——正文实为中古意大利语）；4 条 WEAKENED（失明说/Pacioli 指控/黄金分割说/罗马召见人）。
+- OV31  L2207  10-15T16:36Z :: 76:| A-70 | done | wave18·皮耶罗：500 行 v2 档案（§11 2206 字 + 46 行 + 11 来源；§12 10 件）+ 语料 24 条（《De prospectiva pingendi》中古意大利语原文）+ 图库 17 张（14 PD + 3 CC BY-SA）+ 私有 3 件；分工 vs 达芬奇/塞尚写死；2 条 OVERTURNED（Vasari 旧说） …
+- OV32  L2321  10-15T18:40Z :: 已完整写入档案文末（§自审四段）——含 8 条反驳判定（1 条 OVERTURNED：「首个水墨模块」→ 修正为「首个日本水墨模块」；4 条 WEAKENED 已就地修正；3 条并存记录）。
+- OV33  L2326  10-15T18:40Z :: 94:| A-78 | done | wave19·雪舟（重派·续写）：511 行 v2 档案（§11 2035 字 + 43 行 + 18 来源；§12 10 件）+ 语料 17 条（复核合格，26/26 HIT）+ 图库 18 张全 PD + MANIFEST + 私有 6 件；分工 vs 八大山人/徐渭/北斋写死；1 条 OVERTURNED（「首个日本水墨模块」） | `knowledge…
+- OV34  L2387  10-15T18:50Z :: | A-78 | done | wave19·雪舟（重派·续写）：511 行 v2 档案（§11 2035 字 + 43 行 + 18 来源；§12 10 件）+ 语料 17 条（复核合格，26/26 HIT）+ 图库 18 张全 PD + MANIFEST + 私有 6 件；分工 vs 八大山人/徐渭/北斋写死；1 条 OVERTURNED（「首个日本水墨模块」） | `knowledge/do…
+- OV35  L2432  10-15T18:53Z :: - **B 反驳**：3 处 **OVERTURNED 已改正**——①「Messengers 信=1803」→ 三源复核改 **1802-01-10**；② MHH 图「扉页」→ 放大目检改 **Plate 5**；③ Europe 扉页馆藏「BM」→ 文件页核对改 **YCBA**。2 处 WEAKENED（1787/88 两说并记；Songs 销量为转引）。
+- OV36  L2437  10-15T18:53Z :: 87:| A-91 | done | wave20·布莱克：476 行 v2 档案（§11 2147 字 + 32 行 + 12 来源；§12 10 件）+ 语料 28 条（Erdman 1988 逐字）+ 图库 18 张（17 PD + 1 CC0）+ 私有 5 组；分工 vs 蒙克/丢勒写死；3 条 OVERTURNED（信日期/Plate 5/YCBA） | `knowledge/domai…
+- OV37  L2450  10-15T18:55Z :: - **B 反驳**：7 条试推翻——「无画论」降级为「文字极少但全为操作陈述」；病因说（散光）**OVERTURNED 不采用**（§10-7 留档）；其余 CONFIRMED 或两存留档。
+- OV38  L2455  10-15T18:55Z :: 98:| A-82 | done | wave19·埃尔·格列柯（重派）：497 行 v2 档案（§11 2044 字 + 36 行 + 14 来源；§12 10 件）+ 语料 30 条 + 图库 17 张全 PD/CC0 + 私有 5 件；分工 vs 蒙克/毕加索写死（与 munch.md 对称互锁）；1 条 OVERTURNED（散光说不采用）；引文 17/17 | `knowledge/do…
+- OV39  L2458  10-15T18:56Z :: ①「雨点皴」为明代著录始见（北宋只称「枪笔」，刘芳如）→ OVERTURNED；② 王翬件 Commons 源链接 ID 误（5099=仿李成，改核 5100=法范寬）→ 已替换；③「如行夜山」诸宋元文献全文 0 命中 → 弃用。
+- OV40  L2463  10-15T18:56Z :: 93:| A-77 | done | wave19·范宽（重派）：426 行 v2 档案（§11 2119 字 + 26 行 + 14 来源；§12 8 件）+ 语料 26 条（含《宋朝名画评》四库本全文）+ 图库 8 张（PD/CC0/NPM 开放）+ 私有 10 件；分工 vs 黄公望（与 huang_gongwang.md 对称）/北斋/塞尚写死；1 条 OVERTURNED（「雨点皴」明始…
+- OV41  L2471  10-15T18:57Z :: 100:| A-84 | done | wave19·艾瓦佐夫斯基（重派）：542 行 v2 档案（§11 2200 字 + 55 行 + 12 来源；§12 10 件）+ 语料 34 条 + 图库 14 张全 PD + 私有 5 件；分工 vs 透纳/北斋写死；2 条 OVERTURNED（版本修正）；引文 23/23；scratch 58 件核验 | `knowledge/domains/pa…
+- OV42  L2519  10-15T19:56Z :: 103:| A-77 | done | wave19·范宽（重派）：426 行 v2 档案（§11 2119 字 + 26 行 + 14 来源；§12 8 件）+ 语料 26 条（含《宋朝名画评》四库本全文）+ 图库 8 张（PD/CC0/NPM 开放）+ 私有 10 件；分工 vs 黄公望（与 huang_gongwang.md 对称）/北斋/塞尚写死；1 条 OVERTURNED（「雨点皴」明…
+- OV43  L2519  10-15T19:56Z :: 104:| A-78 | done | wave19·雪舟（重派·续写）：511 行 v2 档案（§11 2035 字 + 43 行 + 18 来源；§12 10 件）+ 语料 17 条（复核合格，26/26 HIT）+ 图库 18 张全 PD + MANIFEST + 私有 6 件；分工 vs 八大山人/徐渭/北斋写死；1 条 OVERTURNED（「首个日本水墨模块」） | `knowledg…
+- OV44  L2531  10-15T20:18Z :: 102:| A-106 | done | wave21·洛克威尔：509 行 v2 档案（§11 2083 字 + 44 行 + 24 来源；§12 10 件）+ 语料 34 条 + 29 张图**全在 `_private/`**（公开侧零图）；分工 vs 荷加斯写死（同批互查规程留档）+ Lane B 接口；1 条 OVERTURNED | `knowledge/domains/painters…
+- OV45  L2542  10-15T20:26Z :: **自审四段摘要**（全文见档案文末）——**A. 早产出**：基金会全文直读 → 图库先行（25 张含联系表核验）→ 两段写盘；检索受限即时切换路径。**B. 反驳**：5 条试推翻——「超现实主义先驱」WEAKENED（决裂史+本人拒绝）；「孤独读法」WEAKENED（「幸福病」自述）；「影向全局一致」WEAKENED（Tate 证词）；**「希腊→古典雕像」OVERTURNED**（本人否认…
+- OV46  L2547  10-15T20:26Z :: 101:| A-105 | done | wave21·德·基里科：525 行 v2 档案（§11 2117 字 + 37 行；§12 10 件）+ 语料 32 条 + 25 张图**全在 `_private/`**（公开侧零图）+ 联系表核验；分工 vs 霍珀五轴写死（对齐完成）/达利预写；1 条 OVERTURNED（「希腊→古典雕像」本人否认） | `knowledge/domains/pa…
+- OV47  L2560  10-15T20:32Z :: - **OVERTURNED ×1**：「荷加斯版画无交叉排线」假设被推翻 → 改为「交叉排线允许（与戈雅正好相反）」；**WEAKENED**：Alan Parker 语降级转记、「1734/1732-34」「2 月 1 日」两处口径并存留档。
+- OV48  L2565  10-15T20:32Z :: 99:| A-103 | done | wave21·荷加斯：513 行 v2 档案（§11 2078 字 + 32 行 + 24 来源；§12 9 件）+ 语料 29 条（《美的分析》底本）+ 图库 20 张全 PD/CC0 + 私有 15 件；分工 vs 戈雅（唯一正本）/洛克威尔（逐条对齐+细化判据供回改）写死 + Lane B 接口；1 条 OVERTURNED（交叉排线） | `know…
+- OV49  L2634  10-15T20:55Z :: 106:| A-77 | done | wave19·范宽（重派）：426 行 v2 档案（§11 2119 字 + 26 行 + 14 来源；§12 8 件）+ 语料 26 条（含《宋朝名画评》四库本全文）+ 图库 8 张（PD/CC0/NPM 开放）+ 私有 10 件；分工 vs 黄公望（与 huang_gongwang.md 对称）/北斋/塞尚写死；1 条 OVERTURNED（「雨点皴」明…
+- OV50  L2634  10-15T20:55Z :: 107:| A-78 | done | wave19·雪舟（重派·续写）：511 行 v2 档案（§11 2035 字 + 43 行 + 18 来源；§12 10 件）+ 语料 17 条（复核合格，26/26 HIT）+ 图库 18 张全 PD + MANIFEST + 私有 6 件；分工 vs 八大山人/徐渭/北斋写死；1 条 OVERTURNED（「首个日本水墨模块」） | `knowledg…
+### VERIFIED（6/6）
+- VF01  L0172  10-15T07:07Z :: 9:- evidence.md  (findings, every claim with a URL; VERIFIED vs INFERENCE separated)
+- VF02  L0273  10-15T07:13Z :: - gallery 条目 16（要求 ≥10）；条目内 URL 行 27；证据卷含 30+ 带 URL 断言，分 VERIFIED/INFERENCE 两区。
+- VF03  L0279  10-15T07:13Z :: 证据分级：`[史料]`＝公开一手来源（带 URL）；`[归纳]`＝我们跨来源总结；`[推测]`＝推断，未验证。每条 VERIFIED 项都带 URL；INFERENCE 集中放 §5。
+- VF04  L0279  10-15T07:13Z :: ## 1. 模型与平台公开事实（VERIFIED，[史料]）
+- VF05  L0279  10-15T07:13Z :: ## 2. 「代码生成动画」生态（VERIFIED，[史料]；星标 2026-10-15）
+- VF06  L0279  10-15T07:13Z :: ## 3. 提示词体系与工作流（VERIFIED，[史料]）
+### checks=（60/62）
+- CK01  L0797  10-15T09:39Z :: checks=33 ok=33 fail=0   # 11 卡 × §8.1/§8.2/§4 逐字比对
+- CK02  L0862  10-15T10:47Z :: 30:| E-02 | done | 题材偏置诊断（12 格 → 7 格偏置）+ §8.1b 纯风格段拆分（7 卡 + 4 卡注记）+ E1b 重跑 21/21 张；同格对照：6/7 解除或基本解除、1 部分解除（michelangelo）；验收：`python _verify_t1b.py` → VERIFY PASS；`python _extract.py --check` → checks=…
+- CK03  L0885  10-15T11:06Z :: **回归**：模块卡逐字校验 `checks=33 ok=33 fail=0`；GOALS/机器板未动（按 ops 纪律，完成情况以本回执为准）。
+- CK04  L0978  10-15T12:07Z :: - **既有校验器复用**：模块卡逐字校验 `python research/prompts/artist_modules/_extract.py --check`（期望 `checks=33 ok=33 fail=0`）；冲突清单被推翻时的「三处同步」（conflicts.md 正本 / style_card / design.md）纪律照旧。
+- CK05  L1011  10-15T12:18Z :: - `_extract.py --check` → **checks=33 ok=33 fail=0**
+- CK06  L1071  10-15T13:06Z :: **Evidence（原样）**：机械验证 `RESULT: checks=64 ok=64 fail=0`（段逐字⊂卡原文、prompt 重组、req/resp 一致性、尺寸/sha256；`verify_output.txt` 全文留档）。组合预检全链留痕：C 表无本对命中 → N4 不可拆 → N3 轴移除（莫奈笔触条）→ N1 重算（`smooth blending` 移除）→ near-…
+- CK07  L1076  10-15T13:06Z :: RESULT: checks=64 ok=64 fail=0
+- CK08  L1176  10-15T13:15Z :: print("checks=%d ok=%d fail=%d   # 11 卡 × §8.1/§8.2/§4 逐字比对" % (total, ok, total - ok))
+- CK09  L1307  10-15T13:24Z :: 14. **校验命令可见化**：README + AGENTS.md 里列全可跑命令（这是本仓最硬的资产：`checks=33 ok=33`、`VERIFY PASS`、乱序重渲）；「能跑的检查」比「说过的标准」更能约束外部贡献者与 agent。（对标：openai-cookbook AGENTS.md 的 Commands 节、genai 的 Setup Commands）
+- CK10  L1667  10-15T14:46Z :: ③ 机械：顺序 11<12<自审 OK；`_extract.py --check` → checks=33 ok=33 fail=0；语料序号 1..29 连续。
+- CK11  L1682  10-15T14:47Z :: python knowledge/domains/painters/modules/_extract.py --check → checks=33 ok=33 fail=0
+- CK12  L1697  10-15T14:48Z :: … checks=33 ok=33 fail=0   # 11 卡 × §8.1/§8.2/§4 逐字比对
+- CK13  L1717  10-15T14:50Z :: ③ 机械：`_extract.py --check` = checks=33 ok=33 fail=0；12 条 URL 抽检全 200；git diff 仅上述两个归属路径（+225/−1）。
+- CK14  L1725  10-15T14:51Z :: - `python knowledge/domains/painters/modules/_extract.py --check` → `checks=33 ok=33 fail=0`
+- CK15  L1733  10-15T14:52Z :: python modules/_extract.py --check → checks=33 ok=33 fail=0
+- CK16  L1776  10-15T14:56Z :: _extract.py --check → checks=33 ok=33 fail=0   # 11 卡 × §8.1/§8.2/§4 逐字比对
+- CK17  L1825  10-15T15:05Z :: checks=33 ok=33 fail=0        (_extract.py --check 回归全绿)
+- CK18  L1929  10-15T15:32Z :: |`knowledge/domains/painters/modules/README.md`|20 卡索引：表 +9 行、标题「20 张」、维护口径 `checks=60`、注记补「分工条款」|
+- CK19  L1929  10-15T15:32Z :: checks=60 ok=60 fail=0   # 20 卡 × §8.1/§8.2/§4 逐字比对
+- CK20  L1942  10-15T15:32Z :: 5c52d97 feat: module cards 11->20 (checks=60); sync skill refs & description to 20 painters
+- CK21  L1945  10-15T15:35Z :: 回归（未受本档影响）：`python knowledge/domains/painters/modules/_extract.py --check` → **checks=60 ok=60 fail=0**（20 卡）；`python docs/skill/_selfcheck.py` → **PASS**（junctions=4/4 · domains=ok）。
+- CK22  L2007  10-15T15:47Z :: [回归]     _extract.py --check → checks=60 ok=60 fail=0
+- CK23  L2100  10-15T16:02Z :: checks=60 ok=60 fail=0   # 20 卡 × §8.1/§8.2/§4 逐字比对（seurat §8.1 ok 1453c · §8.2 ok 721c · §4 ok 768c）
+- CK24  L2108  10-15T16:03Z :: → checks=60 ok=60 fail=0
+- CK25  L2156  10-15T16:25Z :: 回归：python …/_extract.py --check → checks=60 ok=60 fail=0
+- CK26  L2164  10-15T16:26Z :: 回归: checks=60 ok=60 fail=0   # python knowledge/domains/painters/modules/_extract.py --check
+- CK27  L2172  10-15T16:26Z :: ⑦ 回归: python knowledge/domains/painters/modules/_extract.py --check → checks=60 ok=60 fail=0
+- CK28  L2191  10-15T16:36Z :: - 回归：`_extract.py --check → checks=60 ok=60 fail=0`
+- CK29  L2210  10-15T16:38Z :: 回归：python knowledge/domains/painters/modules/_extract.py --check → checks=60 ok=60 fail=0
+- CK30  L2251  10-15T16:59Z :: checks=126 ok=126 fail=0   # 42 卡 × §8.1/§8.2/§4 逐字比对
+- CK31  L2259  10-15T16:59Z :: f890667 chore: pre-reboot sweep - module cards 42 generated (checks=126) + wave19 scratch + ops notes
+- CK32  L2298  10-15T18:18Z :: d4272ef feat: module cards 42 COMPLETE (README 42-row index + skill count sync: domains 42 / checks=126)
+- CK33  L2321  10-15T18:40Z :: 回归: checks=126 ok=126 fail=0   # 42 卡 × §8.1/§8.2/§4 逐字比对
+- CK34  L2329  10-15T18:44Z :: [7] 回归: python …/modules/_extract.py --check → checks=126 ok=126 fail=0
+- CK35  L2337  10-15T18:47Z :: checks=126 ok=126 fail=0
+- CK36  L2347  10-15T18:48Z :: 回归: python modules/_extract.py --check → checks=126 ok=126 fail=0
+- CK37  L2355  10-15T18:48Z :: $ python modules/_extract.py --check → checks=126 ok=126 fail=0
+- CK38  L2363  10-15T18:49Z :: checks=126 ok=126 fail=0        # 回归未受影响（未触碰 _extract.py）
+- CK39  L2450  10-15T18:55Z :: 回归: _extract.py --check → checks=126 ok=126 fail=0
+- CK40  L2458  10-15T18:56Z :: _extract.py --check → checks=126 ok=126 fail=0
+- CK41  L2466  10-15T18:57Z :: [8] python knowledge/domains/painters/modules/_extract.py --check → checks=126 ok=126 fail=0
+- CK42  L2484  10-15T18:59Z :: 引文抽查 37/37（归一化逐字）| 模块库回归 checks=126 ok=126 fail=0
+- CK43  L2492  10-15T19:00Z :: STATUS: DONE — 仇英档案（A-89）四处落盘全交（commit `57cba1d`，未 push）；核盘复核 `checks=126 ok=126`；收工仪式已执行：项目板已重写 · 影子覆盘已追加 §6 · 白话报告见下。
+- CK44  L2495  10-15T19:00Z :: - **刚刚发生**：qiu_ying（A-89）车道收口——dossier 476 行（§11.1=2057 CJK、自审 §C 七块真实输出、§4/§8.1/§8.2 抽取直测通过）、语料 24 条、图库 17 张、私有 INVENTORY（23 高清 + 4 PDF）；commit `57cba1d`（未 push，主脑 sweep）。核盘复核：`_extract.py --check` →…
+- CK45  L2500  10-15T19:05Z :: 回归: checks=126 ok=126 fail=0
+- CK46  L2552  10-15T20:29Z :: 回归: _extract --check → checks=126 ok=126 fail=0 ｜ skill _selfcheck → RESULT: PASS
+- CK47  L2560  10-15T20:32Z :: [6] regression: _extract --check → checks=126 ok=126 fail=0
+- CK48  L2597  10-15T20:38Z :: _extract.py --check → checks=126 ok=126 fail=0（无回归）
+- CK49  L2605  10-15T20:43Z :: _extract.py --check → checks=126 ok=126 fail=0（回归）
+- CK50  L2613  10-15T20:45Z :: _extract.py --check: checks=126 ok=126 fail=0
+- CK51  L2626  10-15T20:54Z :: 验收：抽取契约直测 §8.1=1290c / §8.2=678c / §4=1044c；回归 `_extract.py --check` → **checks=126 ok=126 fail=0**；commit 2e004ab + ab7c16f（本地，未推——按纪律等你 sweep）。
+- CK52  L2644  10-15T20:56Z :: - 回归：`_extract.py --check` → **checks=126 ok=126 fail=0**
+- CK53  L2647  10-15T20:58Z :: 回归: checks=126 ok=126 fail=0（42 卡；xu_wei 待收口扩表）
+- CK54  L2659  10-15T21:09Z :: > 产物③：`knowledge/domains/painters/modules/README.md` —— 62 行索引表 + 标题 62 张/62 份 + 维护口径 checks=186 + wave19/20 注记。
+- CK55  L2659  10-15T21:09Z :: > 产物④：`skills/designers-brain/domains.yaml`（count=62 / sources 62 份）＋ `SKILL.md`（description 62 位 + 20 新名；正文 5 处）＋ `references/painter-modules.md`（62 卡 / 62 id / checks=186）。
+- CK56  L2659  10-15T21:09Z :: |①|`--check`|checks=186 ok=186 fail=0|`checks=186 ok=186 fail=0   # 62 卡 × §8.1/§8.2/§4 逐字比对`|✅|
+- CK57  L2659  10-15T21:09Z :: checks=186 ok=186 fail=0   # 62 卡 × §8.1/§8.2/§4 逐字比对
+- CK58  L2659  10-15T21:09Z :: 457aacb feat: module cards 62 COMPLETE (A-108: ARTISTS 42→62 wave19/20 +20; README 62-row index; domains count=62; checks=186)
+- CK59  L2659  10-15T21:09Z :: 2. **「checks=186 全过」** → 反驳：会不会空提取也过？→ 各段非空且实质（§8.2 最小 541c、§8.1 最小 1290c）；`--check` 为 archive↔card 全串比对；另抽 `--diff` 两卡（新/旧各一）sha256 相等。**CONFIRMED**。
+- CK60  L2667  10-15T21:15Z :: - **`_extract.py --check` → `checks=186 ok=186 fail=0`**（62 卡 × §8.1/§8.2/§4 逐字比对）——**为最终态，非中间态**：ModuleCards62 已收口（A-108 已 done），126→186 扩表已完成。
+
+## §5 关键转折（assistant 文本含「完成|收口|崩溃|失败」的行；≤80）
+- 计 **65** 行（时间序；行截 ≤200 字）
+- T01  L0211  10-15T07:10Z :: bg_1（codex）121 秒即失败（exit 1，无回条）。读回执定位，同时继续查本机线索。
+- T02  L0268  10-15T07:13Z :: bg_3（Opus 5.5 证据链）完成，但回条是 stdout_fallback——先核回执与产物。
+- T03  L0280  10-15T07:13Z :: C3 质量超预期（lemo-opuscar 的 STYLE.md/DIRECTOR.md 体系、确定性渲染契约——正好是我们要蒸馏的东西）。收口工单，继续等其余结果。
+- T04  L0290  10-15T07:13Z :: C3 工单已正确收口（重试被 append-only 规则正确拒绝）。继续等。
+- T05  L0293  10-15T07:16Z :: ArtistExpansion 完成（649 行，含 18 条能力缺口 + 10 位推荐）。核产物。
+- T06  L0301  10-15T07:17Z :: HtmlFrameRender 完成（409 行 + 34 URL）。核产物。
+- T07  L0350  10-15T07:32Z :: C1b 收口完成。全部 8 份核心档案 + 4 条 Lane B 线 + 2/3 跨家工人已交付。现在开 wave2（5 个工人：mg-styles-15 对照 / 独立复核 / 卡拉瓦乔 / 维米尔 / 丢勒），并刷新 GOALS。
+- T08  L0383  10-15T07:49Z :: - 通道：web_search 全天限流（全员已切 read/curl/浏览器/GitHub API，交付未受影响）；**codex 后端 401 断供**（同一活已由 omp 完成；想恢复 codex 车道需修它的鉴权）。
+- T09  L0400  10-15T07:51Z :: **mg-styles-15 = 15/15 同源确认**——你的 15 卡是该 MIT 仓库（866★）的中文压缩改写，仓库带整条管线（确定性契约/headless Chrome→ffmpeg/评审 rubric/音频库）。这是本轮最大发现。收口 B-10，开 wave3（5 个工人，含第一个端到端动画实验）。
+- T10  L0443  10-15T07:52Z :: 1. 卡拉瓦乔 / 维米尔 / 丢勒档案交付（359 / 382 / 349 行，均带自审四段）；独立复核 31/31 CONFIRMED、修正项闭环中（梵高已收口，毕加索在收）。
+- T11  L0443  10-15T07:52Z :: 3. 跨家 claude 语料工人仍在飞（书信/自述 ≥10 条/人），回来我收口。
+- T12  L0455  10-15T07:54Z :: Bilibili 那条是**作者的教程片**（出镜讲解：两智能体分工 / 只换内容不动骨架 / 二次开发）——另有价值；15 卡展示片本体应该是 YouTube 那条，补下载。毕加索修正也已收口。
+- T13  L0583  10-15T08:23Z :: 两个语料派发 1.9 秒即失败——读回执定位。
+- T14  L0589  10-15T08:24Z :: ConflictsList 交付（18 条冲突 + N1–N9 组合规则）。语料派发失败原因：omp 模型目录里 `buddyfarm/deepseek-v4.1-flash` 找不到了——查当前有效模型。
+- T15  L0618  10-15T08:25Z :: **bg_2 是什么问题**：不是断供——claude 工人在 1 小时里**只在抓料、没写交付**（它的临时目录里留下 42 份预抓源文本：Leonardo 全 8 卷、rime、Gasquet、Perry、Wikiquote JSON…），到 3600s 被超时杀掉，stdout 零字节、无 session id。判断：claude `-p` 模式长任务卡死或极慢。**处置**：① 42 份源…
+- T16  L0618  10-15T08:25Z :: **刚收口（wave3 除动画外全完）**
+- T17  L0666  10-15T08:37Z :: da_vinci.md 其实已完成（16 条，格式合法）——worker 崩在它之后。改 brief 注明并 **resume 同一会话** 补剩下三份。
+- T18  L0689  10-15T08:52Z :: 像素片验收通过（300 帧 / 渔民+钓线+大鱼，全规格达标）。Corpus A 的 resume 也回来了——收口。
+- T19  L0698  10-15T08:53Z :: 全绿。收口记录 + 回填实测坑 + 汇总。
+- T20  L0716  10-15T08:53Z :: 3. 语料线收口：8 位画家 **126 条带出处原话**（达芬奇 16 / 米开朗基罗 15 / 梵高 20 / 莫奈 17 / 毕加索 16 / 塞尚 17 / 马蒂斯 13 / 北斋 12）+ INDEX.md。处置记录：claude 超时 → 拆 2 工换 omp；omp 崩溃 → **resume 同会话**补完（没重开空白工人）。
+- T21  L0730  10-15T08:55Z :: 图库入库完成（33 张 / 20.9MB / 全开放许可）。收口 wave4，开 wave5（迁移指南 / 第二支片 / vsc 深拆 / 标注清扫）。
+- T22  L0812  10-15T09:43Z :: D-03 收口（47 件产物齐）。等最后两件（Blender 测试 + 图像通道调研）。
+- T23  L0827  10-15T09:51Z :: 5. **参考帧映射完成**：15 支官方片 ↔ 15 卡映射表 + 30 张补帧（`refs/README.md`）。
+- T24  L0827  10-15T09:51Z :: 6. **Blender 端到端 #3 在渲染中**（3D 质感卡 300 帧）——最后一条未验管线，回来我收口。
+- T25  L0841  10-15T10:19Z :: 5. Blender 端到端 #3 仍在渲染（最后一条未验管线，回来收口）。
+- T26  L0874  10-15T10:48Z :: **③ 方法沉淀（OPS-LOG 10 条）**：确定性契约 C1–C10+①b（乱序重渲）；「风格段与题材段必须分离」（E-02 首条实验教训）；两类长任务死亡的处置（claude 超时 → 换通道拆小；omp 崩溃 → resume 同会话）。
+- T27  L0874  10-15T10:48Z :: **④ 规模**：8 波 / 34 个工人（in-session 31 + 跨家 6 单，另含 6 次回填/修正再跑）；board 6 单：4 ok、2 failed（codex 401 / claude 超时）均按规程重派收口；无未收口工单。
+- T28  L0900  10-15T11:06Z :: **收尾两件也完成了——今天全部收口，零在飞。**
+- T29  L0900  10-15T11:06Z :: 3. **总账**：8 波 / 34 工人 / 跨家 6 单（2 failed 均已重派收口）/ 无未收口工单；`GOALS.md` = 全部 40+ 条目与验收行；`OPS-LOG.md` = 通道 / 事故 / 纪律 10+ 条。
+- T30  L0945  10-15T11:45Z :: **可行，且我们其实已完成 80% 的构件**——缺的只是「打包 + 交互协议」这一层，wave9 已开跑。三件事汇报：
+- T31  L0945  10-15T11:45Z :: 6. **确定性收口**——Blender P1→P0（采样种子）、音频卡点缺口（test_02 只做到能合成）。
+- T32  L0955  10-15T11:46Z :: 板已读；与盘对账发现一处分歧：板称「GOALS.md B-19 仍标 running（第 52 行）」，**盘上第 54 行 B-19 已是 done**（主脑早已收口，板是旧快照）——以盘为准，分歧记入新板。
+- T33  L0958  10-15T11:46Z :: **一句话复述**：原请求 = 运维 `Designers_Brain`（画家蒸馏 + 设计顾问）并把它做成 skill 式引用启用（agent 按 Owner 语义主动询问怎么设计/怎么替换，参照 superpowers）；仍开放 = skill 构建与实测（SkillEcosystem / SkillSpec 两工在跑）+ 6 项研究清单（人评标尺、强度轴、新卡生成器、顾问协议盲测、域扩展、确…
+- T34  L1009  10-15T12:08Z :: 账目已清（C 线全收口：DB-* 零未收口）。等 SkillBuild 建包。
+- T35  L1110  10-15T13:11Z :: Recon 完成：gh 已登录 `dwgx`（可直发）；体量 1.4G（大头 = 帧序列 657M + 第三方视频 225M + node_modules 86M）。先建 git + 快照，再做结构迁移。
+- T36  L1493  10-15T14:10Z :: - wave13 已开跑（7 工）：戈雅 / 修拉 / 霍珀 / **八大山人** / **齐白石** / **伊藤若冲** + 名册编制工——完成后大师总数 **20 位**，横跨中/日/欧/美。
+- T37  L1493  10-15T14:10Z :: **④ 运维分明**：计划层落在 `knowledge/domains/painters/program/`（规格 v2 / 波次 / 验收管线：机械 → 独立评审 → 主脑收口），一切照 `PROTOCOLS.md` 走；已推 GitHub（`297a3d1`）。
+- T38  L1493  10-15T14:10Z :: 下一批结果落地我继续收口；有想点的艺术家、或新的资源（书/图/视频），随时丢给我。
+- T39  L1502  10-15T14:21Z :: 后端探针 OK（瞬时流中断，非通道死）。4 个失败工里 2 个零产出、2 个有零散落盘——按「resume 同会话」规程续跑：
+- T40  L1533  10-15T14:28Z :: 名册交付了（59 位候选 / 15 个文化区 / wave 批次建议）。核验 + 收口：
+- T41  L1542  10-15T14:28Z :: 收口完成（名册 done；批次编号顺延规则已记）。19 工在跑，等交付：
+- T42  L1654  10-15T14:45Z :: 3. **在飞总计 21 工**；已完成并收口 7 位（克里姆特 / 伦勃朗 / 透纳 / 八大山人 / 修拉 / 霍珀 / 戈雅）+ 59 位总名册。
+- T43  L1654  10-15T14:45Z :: 4. 处置机制已记 OPS-LOG：探针 → resume 同会话 → 小段写盘；验收管线照常（机械 → 独立评审 → 主脑收口）。
+- T44  L1739  10-15T14:52Z :: 8/11 加固完成，做个检查点提交 + 推送：
+- T45  L1826  10-15T15:05Z :: wave14 加固 **11/11 全部完成**。核验 + 收口 + 检查点提交：
+- T46  L1851  10-15T15:09Z :: **进度（凌晨班）：wave14 加固 11/11 全部收口。** 汇报：
+- T47  L1851  10-15T15:09Z :: 4. **在飞 17 工**：wave15 八位（慕夏/蒙克/康定斯基/委拉斯开兹/博斯/黄公望/卡罗/贝赫扎德）+ 收口 2 工（模块卡 **11→20 张**、三索引对账）+ wave17 七位（弗里德里希/列宾/拉维·瓦尔马/德加/高更/凡·艾克/恩格瓦雷——俄/印/澳原住民首开）。
+- T48  L1943  10-15T15:32Z :: 顺报里程碑：**模块卡 11→20 张完成**（`checks=60 ok=60`、skill 自检 PASS、旧 11 卡零改动、幂等）；wave15 已收口 7 位（慕夏/蒙克/康定斯基/委拉斯开兹/博斯/卡罗/贝赫扎德）；在飞：黄公望续跑 + 索引对账 + wave17 七位（弗里德里希/列宾/拉维·瓦尔马/德加/高更/凡·艾克/恩格瓦雷）。
+- T49  L1977  10-15T15:42Z :: wave16 双工收口。趁 wave17 在飞，先测 wave12/13 九位的 §11 现状，准备启动加固 pass 2：
+- T50  L1989  10-15T15:43Z :: wave16 双收口完成。现在启动 **加固 pass 2**（9 工）。先看 GOALS 尾部行号：
+- T51  L2057  10-15T15:51Z :: **wave17 七位全收口。** 提交 + 规划下一步：
+- T52  L2065  10-15T15:52Z :: wave17 全收口 + 已推。现在按 roster 启动 **wave18**（7 位：广重·萨金特·皮耶罗·阿尔泰米西娅·纳马吉拉·萨拉希·吴冠中）：
+- T53  L2144  10-15T16:11Z :: pass2 九位全收口。收 A-60 + 启动索引二轮合并（wave15/17 并入）：
+- T54  L2224  10-15T16:52Z :: wave18 七位全收口。提交 + 启动模块卡 20→42：
+- T55  L2265  10-15T16:59Z :: 3. **恢复入口已写好**：机器板 + `ops/OPS-LOG.md` §16 含完整「重启后恢复规程」——读板 → 查 scratch 残留 → ModuleCards42 小活收尾 → wave19 十位重新派发 → 收口照常。
+- T56  L2288  10-15T17:01Z :: 4. **建议开新会话**（压缩已 2 次）。两个选项：① **推荐**——等这 11 工送达收口（约 20–40 分钟）再换会话，零损失；② 立即换/重启——本会话工可能被杀，新会话按 detail 文件重派 wave19（brief 要点已写全）。
+- T57  L2299  10-15T18:19Z :: 重启后盘点：wave19 十工已亡（scratch 有部分残留），ModuleCards42 已完成待推。先推 + 收口 A-76：
+- T58  L2308  10-15T18:19Z :: wave19 重派完成（-2 后缀）。再发 wave20 新批：
+- T59  L2319  10-15T18:20Z :: 恢复完成，流水线已满速重启：
+- T60  L2319  10-15T18:20Z :: 1. **收口**：ModuleCards42 完成——模块卡 **42 张**（`checks=126/126`、selfcheck PASS、旧卡零改动），已推 `9b49748`；A-76 收口。
+- T61  L2401  10-15T18:50Z :: （三份回执均为已收口工的确认——A-83/A-79/A-85 已 closed，无需动作。）继续等 13 工：
+- T62  L2405  10-15T18:51Z :: （四份均为已收口工的纪律确认，无动作。）继续等 13 工：
+- T63  L2472  10-15T18:57Z :: **wave19 十位全收口**（重派后 10/10）。提交 + 继续收 wave20 余下 7 工：
+- T64  L2632  10-15T20:55Z :: **wave20 十位全收口。** 派收口三工（索引三轮 / 模块卡 42→62 / 交叉互引同步）：
+- T65  L2655  10-15T20:59Z :: **wave21 十位全收口。** 提交 + 等收口三工：
+
+## §6 抽验记录（Acceptance · 随机 3 条索引项回原 jsonl 验证存在）
+- 抽样池 = 索引全部条目 **606** 条；seed=`438115`；`random.Random(seed).sample(pool, 3)`。
+- 方法：重扫原 jsonl 单遍（只读）→ ①路径=核对 write/edit 调用次数与首现行；②工单=核对 name+agent+brief 前缀；③行=原文包含（首个命中行号）。
+- **#1** `[P02]` §4 PASS 行
+  - 命中：原文 **2** 处（首现 L0832）→ ✓ 存在
+  - 行：`VERIFY PASS — 36/36 张 + RESULTS.md + sheet_all.png + 12 张格 sheet 全部就位。`
+- **#2** `[W07]` §1 路径 `D:/Project/Designers_Brain/knowledge/domains/painters/program/README.md`（索引记 w1 e4）
+  - 命中：write/edit 调用 **5** 次（首现 L1477，10-15T14:09Z）；原文含该路径的行 **15** 行（首行 L1477）→ ✓ 存在
+- **#3** `[W51]` §1 路径 `D:/Project/Designers_Brain/research/agent-art/conflicts.md`（索引记 w0 e1）
+  - 命中：write/edit 调用 **1** 次（首现 L0623，10-15T08:27Z）；原文含该路径的行 **7** 行（首行 L0400）→ ✓ 存在
+- **结果：3/3 全部命中 ✓**

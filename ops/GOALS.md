@@ -41,7 +41,7 @@
 | A-27 | done | wave13·齐白石：412 行 v2 档案（§11 生平 + §12 临摹 9 件）+ 语料 25 条 + 图库 11 张公开（4 件 URAA 从严移入 `_private/`）+ 私有 2 件；分工 vs 马蒂斯/八大写死（3 互斥轴）；引文抽查 5/5 | `knowledge/domains/painters/dossiers/qi_baishi.md` | ArtistQiBaishi（wave13） |
 | A-28 | done | wave13·伊藤若冲：447 行 v2 档案（§11 生平 + §12 临摹 9 件）+ 语料 24 条 + 图库 18 张（ColBase/Commons/Met）+ 私有补遗；分工 vs 北斋/克里姆特写死；自检全过 | `knowledge/domains/painters/dossiers/ito_jakuchu.md` | ArtistItoJakuchu（wave13） |
 | A-29 | done | 名册：**59 位**候选（15 文化区；49 新增）+ wave 批次建议（8/7/7）；验收：349 行 + 机械检查全 PASS（候选 59 / §1=10 / §2=49 / 交集 ∅） | `knowledge/domains/painters/program/roster.md` | RosterBuilder（wave13） |
-| A-30 | open | 学习产物：每大师「学习路径卡」+ 总学习路线（Owner 已批；roster 后启动） | `knowledge/domains/painters/program/learning/` | 主脑 |
+| A-30 | open | 学习产物：每大师「学习路径卡」+ 总学习路线（Owner 已批；roster 后启动）；排期：下批收口窗口执行（2026-10-16 站稳波建议） | `knowledge/domains/painters/program/learning/` | 主脑 |
 | A-31 | done | 加固·达芬奇：§11（2688 字 + 39 行年表 + 27 来源）+ §12（9 件）；语料 16→22 条；验收：`_extract.py --check` 33/33 + URL 抽检 12/12 | `knowledge/domains/painters/dossiers/da_vinci.md` | BioDaVinci（wave14） |
 | A-32 | done | 加固·米开朗基罗：§11（2816 字 + 35 行年表 + 14 来源）+ §12（8 件）；语料 +7 → 22 条；§10/语料缺口注 3 处已更新（Fattucci 信已找到）；「1509 揭幕」旧说 OVERTURNED；验收：`_extract.py --check` 33/33 + 引文 7/7 | `knowledge/domains/painters/dossiers/michelangelo.md` | BioMichelangelo（wave14） |
 | A-33 | done | 加固·梵高：§11（2561 字 + 24 行年表 + 18 来源；16 条引文 byte-exact 核验）+ §12（10 件）；语料 20→36 条；「903 封」旧 [UNVERIFIED] 收口；验收：`_extract` 33/33 + skill selfcheck PASS | `knowledge/domains/painters/dossiers/van_gogh.md` | BioVanGogh（wave14） |
@@ -181,6 +181,18 @@
 | R-02 | done | 英文主文档 11 件（README/ARCHITECTURE/WORKFLOW/PROTOCOLS/ROADMAP/CONTRIBUTING/AGENTS/CLAUDE/NOTICE/LICENSE×2） | 根目录 + `docs/` | 主脑 |
 | R-03 | done | i18n：zh-CN + ja（README + 四文档）落盘 + 独立审计（PASS-with-notes；问题 3+5 条全部修正） | `docs/i18n/` + `README.<lang>.md` | I18nZH / I18nJA + AuditZH/JA |
 | R-04 | done | **GitHub public 发布**：https://github.com/dwgx/designers-brain（main @ ae0680b；1008 文件 / 369 MiB；许可检测 CC-BY-4.0 + MIT；topics ×7）；验收：远端 README 抓取 + gh api 元数据 + git ls-remote | github.com/dwgx/designers-brain | 主脑 |
+
+## Lane ST — 站稳运维（2026-10-16）
+
+> 波记录：`ops/archaeology-2026-10-16/`（MAIN-BRAIN.md + reports 01–10）· 交接：`~/.dwgx/ops/detail-2026-10-16-designers-brain-standfirm.md`
+
+| ID | 状态 | 目标 | 产出路径 | 归属 |
+|---|---|---|---|---|
+| ST-01 | done | 会话深度考古 + 蒸馏补齐（waves11–21 + 〔更正〕C1–C5；91→184 行；浓缩件/索引/子代理目录） | `ops/session-digest.md` + `ops/archaeology-2026-10-16/reports/` | 主脑（站稳波） |
+| ST-02 | done | 会话全量归档 → 家族根：6 slugs / 2,545 文件 / 369,307,549 B；非 live 差异 0；MANIFEST + SHA256SUMS + 收据 | `F:/backup_famlti_family/sessions/Designers_Brain/` | ArchivistFinish（站稳波） |
+| ST-03 | done | 垃圾隔离（只移不删）：项目树 71 件 + `_scratch` 9 目录 + 会话树零字节/备份日志 | `F:/backup_famlti_family/quarantine/Designers_Brain/` | CleanerProject / CleanerSession（站稳波） |
+| ST-04 | done | 仓库收口：死亡点 sweep `91194d2` + 校验器同步 `4bdccbb` + louvre `19773a3` + 本波记录提交；三检查后推送 | git `main` | 主脑（站稳波） |
+| ST-05 | done | 交接与家族回报：五件 detail + 机器板 + digests 副本 + receipts + 终报 | `~/.dwgx/ops/detail-2026-10-16-designers-brain-standfirm.md` 等 | 主脑（站稳波） |
 
 ## 环境实测（2026-10-15，供后续引用）
 

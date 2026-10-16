@@ -135,3 +135,14 @@
 - **重启前收拾（2026-10-16，Owner 令）**：全部落盘产物已 sweep 提交并推送（本批 commit 见下）。**重启将杀死在飞子代理**——在飞 11 工：ModuleCards42（进度：`--check` 已 126/126、22 张新卡已落盘、`_extract.py` 已扩；**剩余 = README 42 行索引 + domains.yaml count 42 + SKILL/references 文案 + 收尾回执**）+ wave19×10（fan_kuan/sesshu/constable/poussin/bruegel/el_greco/holbein/aivazovsky/okeeffe/rivera；盘上零 dossier，研究期中断，scratch 可能有部分素材）。**重启后恢复规程**：① 读板 + GOALS（A-76、A-77..A-86 为 running）→ ② `ls knowledge/domains/painters/_scratch/` 核对各工 scratch 残留 → ③ ModuleCards42 残余小活用 1 个 coder 收尾（brief 三件套）→ ④ wave19 十位以原 brief 重新派发（brief 模板与 wave18 同构，见 GOALS 行备注；可先查 scratch 复用已抓素材）→ ⑤ 收完照常：核产物 → 改 GOALS → 提交推送 → 索引三轮。
 - **重启恢复 + 双波并发（2026-10-16 晨，compaction#2 后）**：宿主重启核实——**wave19×10 被杀**（scratch 残留 3–68 件/工可复用；sesshu 的 `_corpus`+`_images`、constable 的 `_images` 部分产物已提交 `9b49748`）；**ModuleCards42 已完成**（`d4272ef`，随 sweep `9b49748` 推；卡 42 张、`--check` 126/126、selfcheck PASS、旧 20 卡零改动、幂等；A-76 收口）。恢复动作：**wave19 十位重派**（`-2` 后缀新单，链接原单，brief 要求先核 scratch 复用）+ **wave20 开跑**（赵孟頫/倪瓒/仇英/尾形光琳/布莱克/夏尔丹/马奈/索罗拉/佐恩/苏丹·穆罕默德；A-87..A-96）。在飞 **20 工**。
 - **推送分叉处置（2026-10-16 晨）**：发现远端分叉（远端独有 `4af3f70`＝早前快照；本地已在其上继续演化）——worker 侧 scoped commit 与主脑 sweep 交错所致。处置：sweep → `git merge`（5 文件冲突均取本地较新态）→ 推 `cab2234`（0/0 同步）；向全员广播「勿自行 push，主脑统一 sweep；commit 自己写路径可以」。wave19/20 收口推进中（已收：sesshu/rivera/poussin/constable/okeeffe/holbein/ogata_korin）。
+
+## 17. 站稳脚跟运维波（2026-10-16）—— 会话考古 / 家族归档 / 收口
+
+- **fleet 同题波**：Owner 同一「站稳脚跟」提示词发给 ~10 个项目会话（07:30–07:44 起跑）；家族备份根 `F:/backup_famlti_family` 建立（SKIAPI 会话设计结构 + README + `_meta/CLAIMS.md` 认领制；协调者 = Any2API 会话，共享区 sessions-archive/sessions-aux/tarballs/孤儿桶归其与他会话）。
+- **本波（DBrain 线，会话 `01a141b9`，07:41 起）**：
+  1. **考古/蒸馏**：S-main（06-29-46）终态盘点（145 jsonl + 157 md + 2,114 log + 12 handoff；06:28 SIGHUP 死亡）→ 12 handoff 全读 + 25 报告选读 → `session-digest.md` 补齐 waves11–21 + 〔更正〕C1–C5（91→184 行）；机械件 = 浓缩 1,663 行 + 索引 648 行（抽验 3/3）。
+  2. **归档**：6 slugs → `F:/backup_famlti_family/sessions/Designers_Brain/raw-20261016/`（2,545 文件 / 369,307,549 B；compare 非 live 差异 0；sha 143 条 141 一致 + 2 live；MANIFEST + SHA256SUMS + 收据）；e714 空槽位 HTML → `aux/`（唯一痕迹留档）。
+  3. **清理**：项目树 71 件 + `_scratch/` 9 目录 → `quarantine/Designers_Brain/`（只移不删）；会话树零字节/备份日志清理另见收据。
+  4. **收口**：死亡点 sweep（crosslink 10 处 + A-102/A-107/A-108/A-109）`91194d2`；E 系校验器漂移修复（3 断言 + 2 文本；4/4 复跑 PASS）`4bdccbb`；louvre WAF 页清除 `19773a3`；本波记录提交（见 git log）。**三检查后推送 origin/main。**
+- **事故/教训**：① provider 503 波（08:2x–10:0x）杀死 5 工（transcript 失）→ `-2` 后缀重派 + 写盘纪律；② scout 子代理写项目树受限（`write` 拒；bash 重定向可行）；③ 校验器硬编码数字随卡数增长必破（`ok=33`→动态解析 ≥33 保底）；④ E2 verify 曾 EXIT=1 = 期望值漂移非回归（修复后全绿）。
+- 家族侧：`receipts/Designers_Brain-standfirm-20261016.md`（§A 复制 / §B 隔离 / §C f-outer / §D 汇总）；`digests/Designers_Brain/`；`f-outer/Designers_Brain/README.md`（0 件）；`_meta/lane-Designers_Brain.md`。
