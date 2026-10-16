@@ -16,8 +16,8 @@ Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
 
 収録内容：
 
-- **画家ドシエ（資料ファイル）11 件**（ダ・ヴィンチ、ミケランジェロ、ファン・ゴッホ、モネ、ピカソ、セザンヌ、マティス、北斎、カラヴァッジョ、フェルメール、デューラー）——各約 300 行のエビデンス、出典付き引用 126 件、パブリックドメイン作品 33 点。
-- **合成可能なモジュールカード 11 枚** + **モーショングラフィックスのスタイルカード 15 枚**（10 秒アニメーションの骨格）。
+- **画家ドシエ（資料ファイル）62 件**（ダ・ヴィンチ、ミケランジェロ、ファン・ゴッホ、モネ、ピカソ、セザンヌ、マティス、北斎、カラヴァッジョ、フェルメール、デューラー）——各約 300〜600 行のエビデンス、出典付き引用 1613 件、パブリックドメイン作品 618 点。
+- **合成可能なモジュールカード 62 枚** + **モーショングラフィックスのスタイルカード 15 枚**（10 秒アニメーションの骨格）。
 - **モジュール横断ルール**：コンフリクト項目 18 件（C-01–C-18）+ コンポジション（組み合わせ）ルール N1–N9。
 - **スキル**（`skills/designers-brain/`）——ask-first（まず問いを立てる）コンサルタントプロトコルを実装。
 - **機械チェック付きの実験**：スタイル転写マトリクス（E シリーズ）と 3 本のエンドツーエンド・アニメーションパイプライン（Web ×2、Blender ×1）。
@@ -45,7 +45,7 @@ New-Item -ItemType Junction -Path "$HOME\.claude\skills\designers-brain" `
 ### 3. 実験を再現する
 
 ```bash
-# module-card verbatim check (33 checks)
+# module-card verbatim check (186 checks)
 python knowledge/domains/painters/modules/_extract.py --check
 
 # image experiment verification (example: composition batch)

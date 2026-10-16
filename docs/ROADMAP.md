@@ -4,7 +4,7 @@ English · [中文](i18n/zh-CN/ROADMAP.md) · [日本語](i18n/ja/ROADMAP.md)
 
 ## Where we are — PRE milestone (2026-10)
 
-- **Domain #1 — painters**: 11 dossiers (~300 lines each) + 126 sourced quotes + 33 PD artworks + 11 composable module cards (33/33 verbatim checks).
+- **Domain #1 — painters**: 62 dossiers (~300–600 lines each) + 1613 sourced quotes + 618 PD artworks + 62 composable module cards (186/186 verbatim checks).
 - **Domain #2 — motion graphics**: 15 style cards distilled from `mg-styles-15` (MIT) + origin transcript + reference pipelines (HTML / Blender).
 - **Skill**: `designers-brain` v0.2 — built, activated (junctions + packaging), RED-GREEN blind test PASS, full walkthrough (café identity, 3 directions) with gate file and independent review.
 - **Experiments**: style-separation 7/7 resolved (`E1_t1b/c`), composition batch 9/9 (`E2_t1`), three end-to-end animation pipelines verified (web ×2, Blender ×1).

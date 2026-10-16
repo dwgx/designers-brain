@@ -34,7 +34,7 @@ designers-brain/
 ├── knowledge/                                    — the distilled product
 │   ├── INDEX.md                                  — full source/image index
 │   ├── domains/
-│   │   ├── painters/       (dossiers/ + modules/) — domain #1: 11 painters
+│   │   ├── painters/       (dossiers/ + modules/) — domain #1: 62 painters
 │   │   └── motion-graphics/ (cards/ + origin/ + sources/) — domain #2: 15 MG style cards
 │   ├── cross/                                    — cross-domain rules: conflicts, transfer guide, review rubric, image channel
 │   └── agent-art/                                — how agents make art with code: HTML/Blender pipelines, prompt corpus, evidence
@@ -52,11 +52,11 @@ designers-brain/
 sources ──▶ dossiers ──▶ modules / cards ──▶ skill (pointers only)
 (quotes,     (full evidence    (operational,      (routing + protocols,
  images,      per artist,       composable)        never copies content)
- literature)  ~300 lines each)
+ literature)  ~300–600 lines each)
 ```
 
-- **ドシエ（資料ファイル）**（`knowledge/domains/painters/dossiers/`）——画家ごとのエビデンスファイル：視覚的フィンガープリント、技法ルール、制作原則、制御パラメータ、出典付き引用、画像マニフェスト。画家 11 名、各約 250〜380 行。
-- **モジュール**（`.../modules/`）——画家ごとの*モジュールカード*：画像プロンプトのセグメント（§8.1 / §8.1b スタイル専用）、コードアートのルール（§8.2）、制御パラメータ（§4）、コンフリクトの注記。カードはドシエから機械的に抽出されます（`_extract.py`、逐語チェック 33 件）。
+- **ドシエ（資料ファイル）**（`knowledge/domains/painters/dossiers/`）——画家ごとのエビデンスファイル：視覚的フィンガープリント、技法ルール、制作原則、制御パラメータ、出典付き引用、画像マニフェスト。画家 62 名、各約 300〜600 行。
+- **モジュール**（`.../modules/`）——画家ごとの*モジュールカード*：画像プロンプトのセグメント（§8.1 / §8.1b スタイル専用）、コードアートのルール（§8.2）、制御パラメータ（§4）、コンフリクトの注記。カードはドシエから機械的に抽出されます（`_extract.py`、逐語チェック 186 件）。
 - **横断ルール**（`knowledge/cross/`）——モジュール間のコンフリクト（C-01–C-18）、コンポジション（組み合わせ）ルール（N1–N9）、モデル転移ガイド、レビュールーブリック、画像チャネルのドキュメント。
 - **スキル**（`skills/designers-brain/`）——ポインタによって上記へルーティングします。コンテンツを複製しないため、ナレッジの更新にスキルの編集は不要です。
 
@@ -72,7 +72,7 @@ sources ──▶ dossiers ──▶ modules / cards ──▶ skill (pointers o
 6. エビデンス（実験）または `[UNVERIFIED]` ステータス。
 7. レジストリエントリ + セルフチェックのカバレッジ。
 
-アクティブなドメイン：`painter`（モジュール 11 件）、`mg-motion`（スタイルカード 15 枚）。新しいドメイン（写真、タイポグラフィなど）は、同じ契約を満たすことで組み込めます。
+アクティブなドメイン：`painter`（モジュール 62 件）、`mg-motion`（スタイルカード 15 枚）。新しいドメイン（写真、タイポグラフィなど）は、同じ契約を満たすことで組み込めます。
 
 ### 3.3 エビデンス等級
 

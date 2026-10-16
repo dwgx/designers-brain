@@ -34,7 +34,7 @@ designers-brain/
 ├── knowledge/                                    — the distilled product
 │   ├── INDEX.md                                  — full source/image index
 │   ├── domains/
-│   │   ├── painters/       (dossiers/ + modules/) — domain #1: 11 painters
+│   │   ├── painters/       (dossiers/ + modules/) — domain #1: 62 painters
 │   │   └── motion-graphics/ (cards/ + origin/ + sources/) — domain #2: 15 MG style cards
 │   ├── cross/                                    — cross-domain rules: conflicts, transfer guide, review rubric, image channel
 │   └── agent-art/                                — how agents make art with code: HTML/Blender pipelines, prompt corpus, evidence
@@ -52,11 +52,11 @@ designers-brain/
 sources ──▶ dossiers ──▶ modules / cards ──▶ skill (pointers only)
 (quotes,     (full evidence    (operational,      (routing + protocols,
  images,      per artist,       composable)        never copies content)
- literature)  ~300 lines each)
+ literature)  ~300–600 lines each)
 ```
 
-- **档案**（`knowledge/domains/painters/dossiers/`）——每位艺术家的证据文件：视觉指纹、技法规则、工作原则、控制参数、带出处的引文、图像清单。11 位画家，每份约 250–380 行。
-- **模块**（`.../modules/`）——每位艺术家的*模块卡*：图像提示词片段（§8.1 / §8.1b 纯风格段）、代码艺术规则（§8.2）、控制参数（§4）、冲突注记。模块卡由档案机械抽取（`_extract.py`，33 项逐字校验）。
+- **档案**（`knowledge/domains/painters/dossiers/`）——每位艺术家的证据文件：视觉指纹、技法规则、工作原则、控制参数、带出处的引文、图像清单。62 位画家，每份约 300–600 行。
+- **模块**（`.../modules/`）——每位艺术家的*模块卡*：图像提示词片段（§8.1 / §8.1b 纯风格段）、代码艺术规则（§8.2）、控制参数（§4）、冲突注记。模块卡由档案机械抽取（`_extract.py`，186 项逐字校验）。
 - **跨域规则**（`knowledge/cross/`）——模块间冲突（C-01–C-18）、组合规则（N1–N9）、模型迁移指南、评审标准、图像通道文档。
 - **skill**（`skills/designers-brain/`）——以指针方式路由到上述内容；不含重复内容，因此知识更新无需改动 skill。
 
@@ -72,7 +72,7 @@ sources ──▶ dossiers ──▶ modules / cards ──▶ skill (pointers o
 6. 证据（实验）或 `[UNVERIFIED]` 状态；
 7. 注册项 + 自检覆盖。
 
-已激活领域：`painter`（11 个模块）、`mg-motion`（15 张风格卡）。新领域（摄影、字体排印……）满足同一契约即可接入。
+已激活领域：`painter`（62 个模块）、`mg-motion`（15 张风格卡）。新领域（摄影、字体排印……）满足同一契约即可接入。
 
 ### 3.3 证据分级
 

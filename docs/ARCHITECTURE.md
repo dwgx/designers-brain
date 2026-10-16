@@ -31,7 +31,7 @@ designers-brain/
 ├── knowledge/                                    — the distilled product
 │   ├── INDEX.md                                  — full source/image index
 │   ├── domains/
-│   │   ├── painters/       (dossiers/ + modules/) — domain #1: 11 painters
+│   │   ├── painters/       (dossiers/ + modules/) — domain #1: 62 painters
 │   │   └── motion-graphics/ (cards/ + origin/ + sources/) — domain #2: 15 MG style cards
 │   ├── cross/                                    — cross-domain rules: conflicts, transfer guide, review rubric, image channel
 │   └── agent-art/                                — how agents make art with code: HTML/Blender pipelines, prompt corpus, evidence
@@ -49,11 +49,11 @@ designers-brain/
 sources ──▶ dossiers ──▶ modules / cards ──▶ skill (pointers only)
 (quotes,     (full evidence    (operational,      (routing + protocols,
  images,      per artist,       composable)        never copies content)
- literature)  ~300 lines each)
+ literature)  ~300–600 lines each)
 ```
 
-- **Dossiers** (`knowledge/domains/painters/dossiers/`) — per-artist evidence files: visual fingerprint, technique rules, working principles, control parameters, quotes with citations, image manifest. 11 painters, each ~250–380 lines.
-- **Modules** (`.../modules/`) — per-artist *module cards*: image prompt segment (§8.1 / §8.1b style-only), code-art rules (§8.2), control parameters (§4), conflict notes. Cards are mechanically extracted from dossiers (`_extract.py`, 33 verbatim checks).
+- **Dossiers** (`knowledge/domains/painters/dossiers/`) — per-artist evidence files: visual fingerprint, technique rules, working principles, control parameters, quotes with citations, image manifest. 62 painters, each ~300–600 lines.
+- **Modules** (`.../modules/`) — per-artist *module cards*: image prompt segment (§8.1 / §8.1b style-only), code-art rules (§8.2), control parameters (§4), conflict notes. Cards are mechanically extracted from dossiers (`_extract.py`, 186 verbatim checks).
 - **Cross rules** (`knowledge/cross/`) — conflicts between modules (C-01–C-18), composition rules (N1–N9), the model transfer guide, review rubric, and image-channel documentation.
 - **Skill** (`skills/designers-brain/`) — routes to the above by pointer; contains no duplicated content, so knowledge updates never need skill edits.
 
@@ -69,11 +69,20 @@ Domains are registered in `skills/designers-brain/domains.yaml`. A domain may be
 6. evidence (experiments) or `[UNVERIFIED]` status;
 7. a registry entry + self-check coverage.
 
-Active domains: `painter` (11 modules), `mg-motion` (15 style cards). New domains (photography, typography, …) plug in by meeting the same contract.
+Active domains: `painter` (62 modules), `mg-motion` (15 style cards). New domains (photography, typography, …) plug in by meeting the same contract.
 
 ### 3.3 Evidence grades
 
 `[自述]` self-account (must carry a source) · `[史料]` historical record · `[研究]` research literature · `[归纳]` our induction · `[推测]` speculation. Unverified capabilities are marked `[UNVERIFIED]` and never promised as delivered.
+
+### 3.4 The `_private/` private-layer contract
+
+`_private/` is the in-repo private research layer: copyrighted or otherwise unpublishable material (books, papers, hi-res images, videos) kept for depth. It is protected by a **double ignore guard** (`.gitignore` + `.git/info/exclude`) and never committed — `git status` must never show it.
+
+- **Inventory format.** Every item is registered before it lands: `ID | title | artist/topic | source (URL/book) | acquired date | license or note | file path` — per-artist fragments (`_private/INVENTORY_<artist>.md`) merged into `_private/INVENTORY.md` by a single writer.
+- **Public side carries zero copyrighted images.** Public artifacts (`knowledge/`, `docs/`) list works + collection links only; public text cites the normal source (book/page/URL), never the private path.
+- **Indigenous ethics guardrails.** For Indigenous artists (e.g., Kngwarreye, Namatjira): only published/collection texts; sacred or restricted content is neither read into nor reused; quotes note transcription/translation; module cards carry the cultural guardrail (no imitation passed off as authentic, no implied community affiliation).
+- **Copyright-expiry warnings.** Flag works nearing public-domain entry — e.g., Namatjira 2029 (AU life+70), Hopper 1967+70 — and keep the conservative default: uncleared until checked item-by-item.
 
 ## 4. The skill
 

@@ -16,8 +16,8 @@ Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
 
 内容一览：
 
-- **11 份画家档案**（达·芬奇、米开朗基罗、梵高、莫奈、毕加索、塞尚、马蒂斯、葛饰北斋、卡拉瓦乔、维米尔、丢勒）——每份约 300 行证据、126 条带来源引文、33 件公有领域作品。
-- **11 张可组合模块卡** + **15 张动态图形风格卡**（10 秒动画骨架）。
+- **62 份画家档案**（达·芬奇、米开朗基罗、梵高、莫奈、毕加索、塞尚、马蒂斯、葛饰北斋、卡拉瓦乔、维米尔、丢勒）——每份约 300–600 行证据、1613 条带来源引文、618 件公有领域作品。
+- **62 张可组合模块卡** + **15 张动态图形风格卡**（10 秒动画骨架）。
 - **跨模块规则**：18 条冲突条目（C-01–C-18）+ 组合规则 N1–N9。
 - **一个 skill**（`skills/designers-brain/`），实现「先问再设计」的顾问协议。
 - **带机械检查的实验**：风格迁移矩阵（E 系列）与三条端到端动画管线（网页 ×2、Blender ×1）。
@@ -45,7 +45,7 @@ New-Item -ItemType Junction -Path "$HOME\.claude\skills\designers-brain" `
 ### 3. 复现一个实验
 
 ```bash
-# module-card verbatim check (33 checks)
+# module-card verbatim check (186 checks)
 python knowledge/domains/painters/modules/_extract.py --check
 
 # image experiment verification (example: composition batch)

@@ -13,8 +13,8 @@ Give this repository to an AI agent and it becomes a design consultant: it asks 
 
 Inside:
 
-- **11 painter dossiers** (da Vinci, Michelangelo, Van Gogh, Monet, Picasso, Cézanne, Matisse, Hokusai, Caravaggio, Vermeer, Dürer) — ~300 lines of evidence each, 126 sourced quotes, 33 public-domain artworks.
-- **11 composable module cards** + **15 motion-graphics style cards** (10-second animation skeletons).
+- **62 painter dossiers** (da Vinci, Michelangelo, Van Gogh, Monet, Picasso, Cézanne, Matisse, Hokusai, Caravaggio, Vermeer, Dürer) — ~300–600 lines of evidence each, 1613 sourced quotes, 618 public-domain artworks.
+- **62 composable module cards** + **15 motion-graphics style cards** (10-second animation skeletons).
 - **Cross-module rules**: 18 conflict entries (C-01–C-18) + composition rules N1–N9.
 - **A skill** (`skills/designers-brain/`) implementing the ask-first consultant protocol.
 - **Experiments with mechanical checks**: style-transfer matrices (E-series) and three end-to-end animation pipelines (web ×2, Blender ×1).
@@ -42,7 +42,7 @@ Then just ask for design work: *"Help me pick a style and produce a poster for �
 ### 3. Reproduce an experiment
 
 ```bash
-# module-card verbatim check (33 checks)
+# module-card verbatim check (186 checks)
 python knowledge/domains/painters/modules/_extract.py --check
 
 # image experiment verification (example: composition batch)

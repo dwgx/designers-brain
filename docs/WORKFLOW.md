@@ -15,10 +15,10 @@ English · [中文](i18n/zh-CN/WORKFLOW.md) · [日本語](i18n/ja/WORKFLOW.md)
 
 | Lane | Content | State |
 |---|---|---|
-| **A — Painter distillation** | 11 painter dossiers + quote corpus (126 sourced quotes) + image library + 11 composable module cards | Core done; second-batch candidates queued |
+| **A — Painter distillation** | 62 painter dossiers + quote corpus (1613 sourced quotes) + image library + 62 composable module cards | Core done; second-batch candidates queued |
 | **B — Agent code-art** | 15-card anatomy (MG styles), HTML/Blender pipelines, prompt corpus, GitHub/Opus-5.5 evidence | Done |
 | **C — Cross-harness dispatch** | Slicing + bookkeeping + receipt reconciliation for external workers | All entries closed |
-| **D — Web / browser** | Sources, image library (33 PD works), reference-frame mapping, video archive | Done |
+| **D — Web / browser** | Sources, image library (618 PD works), reference-frame mapping, video archive | Done |
 | **S — Skill** | `skills/designers-brain/` package: ecosystem study → spec → build → blind test → walkthrough | Done (PRE milestone) |
 | **E — Experiments** (cross-lane) | Image experiments (E1/E2 series) + end-to-end animation tests (web ×2, Blender ×1) | Batch 1 done; E3/E4 queued |
 

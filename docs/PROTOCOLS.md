@@ -58,7 +58,7 @@ English · [中文](i18n/zh-CN/PROTOCOLS.md) · [日本語](i18n/ja/PROTOCOLS.md
 
 ## 8. Git & release protocol
 
-- Commit messages: English, imperative, no AI attribution. `commit` is free; **push requires the three checks** pasted in the reply: (1) working tree clean, (2) local log matches intent, (3) diff stat has no unrelated files.
+- Commit messages: English, imperative, no AI attribution. `commit` is free; **push requires the three checks** pasted in the reply: (1) **path-level clean** — `git status --porcelain <your write paths>` is empty, and the full-tree `git status --porcelain` contains only other writers' *declared* paths, each listed item-by-item in the reply (a whole-tree "clean" check never holds under parallel work — this path-level rule is the fix adopted after the ModuleCards42 push refusal); (2) local log matches intent, (3) diff stat has no unrelated files.
 - Never commit: secrets, credentials, third-party media (see `.gitignore`), or machine-specific caches. Run the secret scan before publishing.
 - Layout changes are recorded in `docs/MIGRATION.md` (old → new path table) — history is preserved via `git mv`.
 
@@ -77,3 +77,12 @@ English · [中文](i18n/zh-CN/PROTOCOLS.md) · [日本語](i18n/ja/PROTOCOLS.md
 - No credentials in the repo, ever. Tokens found in captured material are redacted before publication.
 - Private infrastructure is described generically in public docs; probe evidence stays local-only when it embeds private endpoints.
 - Museum images: only public-domain / openly licensed sources; attribution recorded in `knowledge/INDEX.md` and image manifests.
+
+## 12. Provider-flap working method
+
+When the model provider is unstable (streams ending mid-answer, batch failures), long-running work follows this method:
+
+- **Write to disk every 10–15 minutes** — small increments; progress must never live only in context.
+- **Probe, then resume the same session** — zero-output runs restart from the top; partial runs continue from the breakpoint. Never restart from a blank state without checking what landed.
+- **Keep a four-part `RESUME.md` per in-flight work item** — completed steps / fetched-material inventory + URLs / next steps / verified conclusions; the write-path contract goes in the header (template: `templates/resume.md`). Resumed workers read it first; material that already landed is never re-fetched.
+- **Trade rounds for completeness; never trade spec quality for completion** — keep concurrency and backfill with new batches instead of lowering standards.

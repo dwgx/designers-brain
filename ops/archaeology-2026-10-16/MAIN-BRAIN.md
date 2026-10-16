@@ -41,6 +41,7 @@
 - 10:3x **归档验收证据在盘**：compare 非 live 差异 0（2,546↔2,545 文件，8 处 live 差预期）；sha 交叉 141/143 一致（2 live）；SHA256SUMS 143 行。CleanerProject 进行中（louvre 已 `git rm`；quarantine 落盘）。
 - 10:4x **ArchivistFinish 完成**：补拷 165 / FAILED=0；目标 2,545 文件 / 369,307,549 B；抽样 3/3 三侧一致；MANIFEST + 收据 §A + MOVES 行落盘。
 - 10:4x **ctx 40% 收尾窗口**：五件交接落盘 `~/.dwgx/ops/detail-2026-10-16-designers-brain-standfirm.md`；此后减少大读取、优先落盘。
+- 10:5x–11:0x **收口批**：提交 `9a25f35`（考古记录 27 文件 +5237/−8）· `19773a3`（louvre）；CleanerProject 完成（644 件/81,168,694 B 全量 sha 相等）· CleanerSession 完成（236 件/1,615,100 B sha 18/18）· CountsFix 完成（6 文件 18 处）· DocsAbsorb 完成（PROTOCOLS/ARCHITECTURE/WAVES/resume +41/−3）；独立验证 V1（归档）**PASS 5/5**、V2（蒸馏）**PASS 7/8+1W**；收据 §B/§C + CLAIMS 收口行 + digests 落位（3 文件）+ RETRO §7 + MOVES 行落盘。CountsFix2 补派（ARCHITECTURE/WORKFLOW 8 处）。
 
 ## 5 · 决策（自裁，带回退；Owner 一句话可推翻）
 
