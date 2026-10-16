@@ -258,7 +258,7 @@ photographic realism, botanical illustration detail, jungle undergrowth realism,
 6. **转录层引语**：Tate/官网所引部分原话（"As I work, I do everything intuitively"、"my grief deprived me…"、"the paradise that foreigners seek…"）为馆方转录层；原始访谈/文章未逐条回查（已查: Tate 页、Fouchet 英译转引链、官网）。
 7. **未采用引语一条**：Ocula 转录稿中有 "I am not interested in painting for painting's sake"——原始文件未命中（已查: MoMA 两版新闻稿 PDF、官网、JSA）；**未采用**。
 8. **晚年细节**：1975 年约 300 件陶艺批次与 1976《El nuevo Nuevo Mundo de Lam》——仅见手册/官网转述，未逐件核。
-9. **图库权利状态**：16 张**全部未清**（私有层唯一存放；公开侧零图）——权利主体 © SDO Estate of Wifredo Lam / ADAGP / ARS 及各摄影者；Tate 三张为站方最大缩略规格（420px）；文献 5 件在 `_private/papers/lam/`。
+9. **图库权利状态**：16 张**全部未清**（私有层唯一存放；公开侧零图）——权利主体 © SDO Estate of Wifredo Lam / ADAGP / ARS 及各摄影者；Tate 三张为站方最大缩略规格（420px）；文献 6 件在 `_private/papers/lam/`。
 10. **量化阈值为归纳、未实测**：§4 六参数与 §8.2 八条阈值均未对原作做像素测量（分母＝假想参考帧）；组合实验可按 §8.2 自查表回改。
 11. **未找到（已查: …）**：《La silla》馆方页；哈瓦那 MNBA 馆方页（域名解析失败）；Met《Eternal Present》记录 API 未发布（829459）；《Campeón》1926 高清；JSA 官网稳定入口（jsa.asu.edu 无响应——本机存 PDF 为准）。
 
@@ -475,7 +475,7 @@ git: 本人路径仅 dossier / corpus 两文件新增（私层 / scratch 不进 
 ### D. 小结（≤14 行）
 
 - **已确立**：v2 全节（§0–§12 + 自审四段）；抽取契约同构（§4/§8.1/§8.2 直测 OK）；**分工条款写死**（vs 毕加索＝立体主义：欧洲 vs 加勒比神话——四判据 + 边界注；vs 博斯＝混种生物：道德 vs 仪式——四判据 + 边界注；另附与系统其余模块的组合注记）。
-- **已确立（四处落盘）**：① `dossiers/lam.md`；② `_corpus/lam.md`（24 条编号）；③ `_private/images_hi_res/lam/`（16 张 + MANIFEST；另 papers 5 件）；④ `_private/INVENTORY_lam.md`（25 条登记）。
+- **已确立（四处落盘）**：① `dossiers/lam.md`；② `_corpus/lam.md`（24 条编号）；③ `_private/images_hi_res/lam/`（16 张 + MANIFEST；另 papers 6 件）；④ `_private/INVENTORY_lam.md`（25 条登记）。
 - **已确立（版权口径）**：全部图像入 `_private/`、**公开侧零图**（扫描 + git status 双验）。
 - **被削弱**：B1（毕加索判据 → 补「≥2 轴联合」注）；B2（博斯判据 → 补「职能才是判据」注）。
 - **被推翻**：B3——简报「MALBA《丛林》在藏」→ 实为 MoMA 藏《丛林》、MALBA 藏《La mañana verde》/《Omi Obini》（§10-1 留档）。
