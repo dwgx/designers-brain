@@ -7,7 +7,8 @@
 > **wave16 收口合并**（2026-10-16，IndexMerge / A-51）：并入 wave12/13 新档 7 文件（turner / rembrandt / goya / hopper / bada_shanren / qi_baishi / ito_jakuchu，154 条）→ **合计 20 文件 455 条**（20 位画家）。
 > **wave15/17 并入**（2026-10-16，IndexMerge2）：并入 wave15×8 + wave17×7 共 15 文件（mucha / munch / kandinsky / velazquez / bosch / huang_gongwang / kahlo / behzad / friedrich / repin / ravi_varma / degas / gauguin / van_eyck / kngwarreye，389 条）→ **合计 35 文件 844 条**（35 位画家）。
 > **wave18/19/20 并入**（2026-10-16，IndexMerge3）：并入 wave18×7 + wave19×10 + wave20×10 共 27 文件（hiroshige / sargent / piero_della_francesca / artemisia_gentileschi / namatjira / el_salahi / wu_guanzhong / fan_kuan / sesshu / constable / poussin / bruegel / el_greco / holbein / aivazovsky / okeeffe / rivera / zhao_mengfu / ni_zan / qiu_ying / ogata_korin / blake / chardin / manet / sorolla / zorn / sultan_mohammed，769 条）→ **合计 62 文件 1613 条**（62 位画家）。
-> 底本：Trattato 全 8 部、Rime/Varchi/Condivi、vangoghletters 13 封原文信、Perry 1927、Geffroy 1922、Clemenceau 1928、Gasquet/Bernard、Wikiquote fr/en/ja 转录；**wave15/17 批摘**：eMunch（munch）·《论艺术中的精神》德/英双底本 +《点线面》（kandinsky）· Noa Noa / Avant et Après（gauguin）· ru.wikisource（repin）· Pacheco / Palomino（velazquez）·《辍耕录》维基文库（huang_gongwang）· Mucha Foundation（mucha）；**wave18/19/20 批摘**：Charteris 1927（sargent）·《De prospectiva pingendi》（piero）· 庭审记录/书信（artemisia）·《宋朝名画评》四库本（fan_kuan）· Jouanny 1911（poussin）· Erdman 1988（blake）· Jansson 2022（zorn）；各文件底本另见文件头。
+> **wave21 并入**（2026-10-16，IndexMerge4）：并入 wave21×10 共 10 文件（xu_beihong / li_keran / sher_gil / tarsila / chen_hongshou / xu_wei / hogarth / mir_sayyid_ali / de_chirico / rockwell，321 条）→ **合计 72 文件 1934 条**（72 位画家）。
+> 底本：Trattato 全 8 部、Rime/Varchi/Condivi、vangoghletters 13 封原文信、Perry 1927、Geffroy 1922、Clemenceau 1928、Gasquet/Bernard、Wikiquote fr/en/ja 转录；**wave15/17 批摘**：eMunch（munch）·《论艺术中的精神》德/英双底本 +《点线面》（kandinsky）· Noa Noa / Avant et Après（gauguin）· ru.wikisource（repin）· Pacheco / Palomino（velazquez）·《辍耕录》维基文库（huang_gongwang）· Mucha Foundation（mucha）；**wave18/19/20 批摘**：Charteris 1927（sargent）·《De prospectiva pingendi》（piero）· 庭审记录/书信（artemisia）·《宋朝名画评》四库本（fan_kuan）· Jouanny 1911（poussin）· Erdman 1988（blake）· Jansson 2022（zorn）；**wave21 批摘**：讲演辞/年谱（xu_beihong）· 基金会语录（li_keran）· 书信转引级（sher_gil）· 信影印（tarsila）·《陈老莲别传》（chen_hongshou）· 馆藏题跋（xu_wei）·《美的分析》（hogarth）· Seyller/Welch OCR（mir_sayyid_ali）· 基金会 Scritti（de_chirico）· New Yorker 1945（rockwell）；各文件底本另见文件头。
 > 标注计数为**出现次数**（含正文提及），非条目数；条目数 = `grep -c '^### '`。
 
 | 文件 | 条目 | self-written | reported speech | contemporary record | 备注 |
@@ -74,6 +75,16 @@
 | sorolla.md | 31 | 7 | 15 | 9 | 书信/笔记 + 转记（1909 两卷本 OCR 行号级）；[research] 6 条另列 |
 | zorn.md | 33 | 9 | 5 | 10 | 自传笔记/书信/题记 + 转记（Jansson 2022 全文直读升级）；[research] 15 条另列 |
 | sultan_mohammed.md | 24 | 1 | 0 | 4 | 题记/签名（[inscription] 3 条另列）+ 同时代/早期记录（[later record] 6 条另列）；归属分级纪律 |
+| xu_beihong.md | 37 | 29 | 2 | 5 | 讲演辞（1926《申报》）/文论/题句/书信 + 年谱辑录；转引逐条标注（一手底本未逐件核） |
+| li_keran.md | 46 | 15 | 11 | 0 | 李可染艺术基金会语录（官方发布）逐字 + 年表/藏品页；记录稿与转述稿分级标注 |
+| sher_gil.md | 32 | 32 | 3 | 3 | 书信/短文——全部转引级（标准版书信集未直读，逐条注转引链）；拼写原样+[sic] 标注 |
+| tarsila.md | 28 | 10 | 2 | 5 | 1923 信影印（拍卖图录）/专栏/受访 + 馆方页；书刊转引给页码；译文版本注明 |
+| chen_hongshou.md | 26 | 15 | 2 | 7 | 《陈老莲别传》《陶庵梦忆》直读 + 画论/题识；[later reception] 7 条另列；校勘记已出 |
+| xu_wei.md | 29 | 25 | 1 | 3 | 题画诗/题跋/表/铭（故宫/上博/台北故宫直读）；[later reception] 5 条另列 |
+| hogarth.md | 29 | 26 | 3 | 4 | 《美的分析》（Gutenberg #51459）+ 自传笔记/Remarks（1833 排印）+ 广告公告；转记逐条标注 |
+| mir_sayyid_ali.md | 28 | 0 | 0 | 9 | 无自述传世——题记/签名（[inscription] 7 条另列）+ 记录/研究；OCR 轻校已声明 |
+| de_chirico.md | 32 | 19 | 0 | 0 | 基金会官网 Scritti/访谈全文 + Gartz 书信英译 + 自传/小说/诗；转引链逐条标注 |
+| rockwell.md | 34 | 7 | 7 | 0 | 自传转录层 + New Yorker 1945 直读 + SEP/NRM 档案；原书页码未逐页回查（已声明） |
 
 缺口与验证声明见各文件末节（「缺口与待验证」）。
-**未纳入（在产）**：wave21 十位（xu_beihong / li_keran / sher_gil / tarsila / chen_hongshou / xu_wei / hogarth / mir_sayyid_ali / de_chirico / rockwell）——已收口者照实并入（私有层例外节；主表随下轮；xu_wei 已落盘）；磁盘残留文件见核验脚本「未纳入」输出行。
+**未纳入（在产）**：无（wave21 十位已随 IndexMerge4 并入，2026-10-16）。

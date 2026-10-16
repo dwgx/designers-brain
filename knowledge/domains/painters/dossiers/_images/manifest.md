@@ -6,7 +6,8 @@
 > **wave16 收口合并**（2026-10-16，IndexMerge / A-51）：并入 wave12/13 新档 6 位 58 张（turner 5 / rembrandt 6 / goya 9 / bada_shanren 9 / qi_baishi 11 / ito_jakuchu 18）＋ hopper 私有层例外（公开 0 / 私有 9）→ **现共 20 位画家 / 公开 104 张**（另有私有层例外 32 张——公开/私有分开记，见「私有层例外」节）。
 > **wave15/17 并入**（2026-10-16，IndexMerge2）：并入 wave15×8 + wave17×7 共 15 位——新公开 169 张（mucha 12 / munch 13 / kandinsky 11 / velazquez 12 / bosch 10 / huang_gongwang 10 / behzad 12 / friedrich 12 / repin 10 / ravi_varma 17 / degas 13 / gauguin 20 / van_eyck 17；kahlo / kngwarreye 公开 0——全私有）＋ 私有层例外同步（+12 位 94 张）→ **现共 35 位画家 / 公开 273 张**（另有私有层例外 126 张——公开/私有分开记，见「私有层例外」节）。
 > **wave18/19/20 并入**（2026-10-16，IndexMerge3）：并入 wave18×7 + wave19×10 + wave20×10 共 27 位——新公开 345 张（hiroshige 18 / sargent 14 / piero 17 / artemisia 16 / fan_kuan 8 / sesshu 18 / constable 17 / poussin 13 / bruegel 20 / el_greco 17 / holbein 13 / aivazovsky 14 / zhao_mengfu 14 / ni_zan 13 / qiu_ying 17 / ogata_korin 19 / blake 18 / chardin 17 / manet 14 / sorolla 13 / zorn 19 / sultan_mohammed 16；namatjira / el_salahi / wu_guanzhong / okeeffe / rivera 公开 0——全私有）＋ 私有层例外同步（+36 位 550 张 → 54 位 676 张）→ **现共 62 位画家 / 公开 618 张**（另有私有层例外 676 张——公开/私有分开记，见「私有层例外」节）。
-> 单张长边 ≤1800px（满足「单张 ≤2000px 宽」）；公开侧总量约 155.3 MB（wave4 首轮目标 ≤100MB 为 11 位 ×3 张时口径；后续波次按各批 v2 规格「≥6 张/位、长边 ≤1800px」累计扩容）。
+> **wave21 并入**（2026-10-16，IndexMerge4）：并入 wave21×10 共 10 位——新公开 105 张（sher_gil 28 / chen_hongshou 18 / xu_wei 23 / hogarth 20 / mir_sayyid_ali 16；xu_beihong / li_keran / tarsila / de_chirico / rockwell 公开 0——全私有）→ **现共 72 位画家 / 公开 723 张**（另有私有层例外 676 张——公开/私有分开记，见「私有层例外」节）。
+> 单张长边 ≤1800px（满足「单张 ≤2000px 宽」）；公开侧总量约 405.5 MB（wave4 首轮目标 ≤100MB 为 11 位 ×3 张时口径；后续波次按各批 v2 规格「≥6 张/位、长边 ≤1800px」累计扩容）。
 > 许可：全部为公有领域（PD）或开放许可（CC0 / CC BY-SA / CC BY / ColBase 规约）；CC 类署名逐张记录。
 > 目录结构：`_images/<artist>/<slug>.jpg`；本文件为唯一 manifest。
 
@@ -633,6 +634,112 @@
 | `sultan_mohammed/tahmuras_divs_met.jpg` | 《塔赫穆拉斯降魔》f.23v | Sultan Muhammad | c. 1525 | 大都会艺术博物馆 1970.301.3 | https://commons.wikimedia.org/wiki/File:%22Tahmuras_Defeats_the_Divs%22%2C_Folio_23v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107119.jpg | CC0 |
 | `sultan_mohammed/zahhak_fate_met.jpg` | 《扎哈克听闻命运》f.29v | Sultan Muhammad | c. 1524 | 大都会艺术博物馆 1970.301.4 | https://commons.wikimedia.org/wiki/File:%22Zahhak_is_Told_His_Fate%22%2C_Folio_29v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107120.jpg | CC0 |
 | `sultan_mohammed/zal_magi_met.jpg` | 《扎尔问卜》f.73v | Sultan Muhammad | c. 1530–35 | 大都会艺术博物馆 1970.301.8 | https://commons.wikimedia.org/wiki/File:%22Zal_Consults_the_Magi%22%2C_Folio_73v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107124.jpg | CC0 |
+
+| `sher_gil/ancient_story_teller_1940.jpg` | The Ancient Story Teller（2023 年 $7.4M 纪录） | Amrita Sher-Gil | 1940 | NGMA（Acc. 977） | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Ancient_Story_Teller_1940_Saraya.jpg | PD-US-unpublished ✓ |
+| `sher_gil/bride_1940.jpg` | Bride | Amrita Sher-Gil | 1940 | NGMA（Acc. 114） | https://commons.wikimedia.org/wiki/File:Bride_1940.jpg | PD-US-unpublished ✓ |
+| `sher_gil/dressing_the_bride_1937.jpg` | Dressing the Bride | Amrita Sher-Gil | 1937 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Dressing_the_Bride_1937_Simla.jpg | PD-US-unpublished ✓ |
+| `sher_gil/elephant_promenade_1940.jpg` | Elephant Promenade | Amrita Sher-Gil | 1940 | NGMA（Acc. 105） | https://commons.wikimedia.org/wiki/File:Elephant_promenade_1940.jpg | PD-US-unpublished ✓ |
+| `sher_gil/fruit_vendors_1937.jpg` | Fruit Vendors | Amrita Sher-Gil | 1937 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Fruit_Vendors_1937.jpg | PD-US-unpublished ✓ |
+| `sher_gil/group_of_three_girls_1935.jpg` | Group of Three Girls（1937 孟买美协金奖） | Amrita Sher-Gil | 1935 | NGMA（Acc. 982） | https://commons.wikimedia.org/wiki/File:Group_of_Three_Girls_1935.jpg | PD-US-unpublished ✓（※同作另有 GAP 版文件带 URAA 标记——冲突留档，档案 §10-1） |
+| `sher_gil/haldi_grinders_1940.jpg` | Haldi Grinders | Amrita Sher-Gil | 1940 | NGMA（Acc. 128） | https://commons.wikimedia.org/wiki/File:Haldi_Grinders_1940.jpg | PD-US-unpublished ✓ |
+| `sher_gil/hill_scene_1938.jpg` | Hill Scene | Amrita Sher-Gil | 1938 | NGMA | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Hill_Scene_1938_Simla.jpg | PD-US-unpublished ✓ |
+| `sher_gil/in_the_ladies_enclosure_1938.jpg` | In the Ladies' Enclosure | Amrita Sher-Gil | 1938 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:In_the_Ladies_Enclosure_1938.jpg | PD-US-unpublished ✓（底本小：438×297 原尺寸保留） |
+| `sher_gil/klarra_szepessy_1932.jpg` | Klarra Szepessy（表亲肖像） | Amrita Sher-Gil | 1932 | NGMA（GAP 底本） | https://commons.wikimedia.org/wiki/File:Amrita_Sger-Gil_Klarra_Szepessy.jpg | PD-US-unpublished ✓（底本 1704px，输出 1800px 轻度放大） |
+| `sher_gil/little_girl_in_blue_1934.jpg` | The Little Girl in Blue（Babit 肖像；2018 拍出 ₹18.69 crore） | Amrita Sher-Gil | 1934 | 私人收藏 | https://commons.wikimedia.org/wiki/File:The_Little_Girl_in_Blue_by_Amrita_Sher-Gil.jpg | PD-US-unpublished ✓ |
+| `sher_gil/marie_louise_chassany_1932.jpg` | Marie-Louise Chassany（友人肖像） | Amrita Sher-Gil | 1932 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Marie-Louise_Chassany_1932.jpg | PD-US-unpublished ✓ |
+| `sher_gil/mother_india_1935.jpg` | Mother India（原题 Beggar Woman） | Amrita Sher-Gil | 1935 | NGMA（ngma-01134） | https://commons.wikimedia.org/wiki/File:Mother_India_1935.jpg | PD-US-unpublished ✓ |
+| `sher_gil/red_verandah_1938.jpg` | Red Verandah | Amrita Sher-Gil | 1938 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Red_Verandah_1938_Simla.jpg | PD-US-unpublished ✓ |
+| `sher_gil/resting_1939.jpg` | Resting（村妇休憩） | Amrita Sher-Gil | 1939 | NGMA（GAC 记录） | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Resting_1939_Saraya.jpg | PD-US-unpublished ✓ |
+| `sher_gil/self_portrait_with_long_hair_1934.jpg` | Self-portrait with Long hair (2) | Amrita Sher-Gil | 1934 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Self-portrait_with_Long_hair_(2 | PD-US-unpublished ✓ |
+| `sher_gil/self_portrait_with_red_background_c1930.jpg` | Self-portrait with Red Background（自画像·红背景） | Amrita Sher-Gil | c.1930 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Self-portrait_with_Red_Background_c._1930.jpg | PD-US-unpublished ✓ |
+| `sher_gil/self_portrait_with_smile_c1932.jpg` | Self-portrait with Smile（自画像·微笑） | Amrita Sher-Gil | c.1932 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Self-portrait_with_Smile_c._1932.jpg | PD-US-unpublished ✓ |
+| `sher_gil/siesta_1937.jpg` | Siesta（后经本人修改） | Amrita Sher-Gil | 1937 | NGMA（Acc. 102） | https://commons.wikimedia.org/wiki/File:Siesta_1937.jpg | PD-US-unpublished ✓ |
+| `sher_gil/spanish_girl_1933.jpg` | Spanish Girl | Amrita Sher-Gil | 1933 | NGMA | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Spanish_Girl_1933_Paris.jpg | PD-US-unpublished ✓ |
+| `sher_gil/the_swing_1940.jpg` | The Swing | Amrita Sher-Gil | 1940 | NGMA（Acc. 117） | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_The_Swing_1940_Saraya.jpg | PD-US-unpublished ✓ |
+| `sher_gil/two_medicants_1937.jpg` | Two Medicants | Amrita Sher-Gil | 1937 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Two_Medicants_1937.jpg | PD-US-unpublished ✓（底本 1507px，输出 1800px 轻度放大） |
+| `sher_gil/two_women_1935.jpg` | Two Women | Amrita Sher-Gil | 1935 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Two_Women_1935.jpg | PD-US-unpublished ✓ |
+| `sher_gil/village_girls_saraya_1941.jpg` | Village Girls | Amrita Sher-Gil | 1941 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Village_Girls_Saraya_1941.jpg | PD-US-unpublished ✓ |
+| `sher_gil/village_scene_1938.jpg` | Village Scene（2006 年 ₹6.9 crore 纪录） | Amrita Sher-Gil | 1938 | NGMA | https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Village_Scene_1938_Simla.jpg | PD-US-unpublished ✓ |
+| `sher_gil/winter_1939.jpg` | Winter（匈牙利冬景） | Amrita Sher-Gil | 1939 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Winter_1939.jpg | PD-US-unpublished ✓ |
+| `sher_gil/woman_on_charpoy_1940.jpg` | Woman on Charpoy | Amrita Sher-Gil | 1940 | NGMA（Acc. 129） | https://commons.wikimedia.org/wiki/File:Woman_on_Charpoy_1940.jpg | PD-US-unpublished ✓ |
+| `sher_gil/women_on_the_beach_1937.jpg` | Women on the Beach | Amrita Sher-Gil | 1937 | 底本：Tulika 2010 | https://commons.wikimedia.org/wiki/File:Women_on_the_Beach_1937.jpg | PD-US-unpublished ✓ |
+| `chen_hongshou/bogu_yezi_a.jpg` | 博古叶子·「五十萬貫」牌 | Chen Hongshou | 1651 | 影印本；Commons 图版 | https://commons.wikimedia.org/wiki/File:博古葉子五十萬貫.jpg | Public domain |
+| `chen_hongshou/bogu_yezi_b.jpg` | 博古叶子·「八百子」牌（陈平「宰天下」典） | Chen Hongshou | 1651 | 影印本；Commons 图版 | https://commons.wikimedia.org/wiki/File:博古葉子八百子.jpg | Public domain |
+| `chen_hongshou/canzhi_tu.jpg` | 餐芝图（轴） | Chen Hongshou | 明 | 天津博物馆 | https://commons.wikimedia.org/wiki/File:明_陳洪綬_餐芝圖_絹.jpg | Public domain |
+| `chen_hongshou/hehua_yuanyang.jpg` | 荷花鸳鸯图（轴） | Chen Hongshou | 明（中年） | 北京故宫博物院（新00146789） | https://commons.wikimedia.org/wiki/File:陳洪綬荷花鴛鴦圖.jpg | Public domain |
+| `chen_hongshou/jiaolin_zhuojiu.jpg` | 蕉林酌酒图（轴） | Chen Hongshou | 明 | 天津博物馆 | https://commons.wikimedia.org/wiki/File:蕉林酌酒圖軸.jpg | Public domain |
+| `chen_hongshou/qiaosong_xianshou.jpg` | 乔松仙寿图（轴） | Chen Hongshou | 明 | 台北故宫博物院 | https://commons.wikimedia.org/wiki/File:明陳洪綬喬松仙壽圖_軸.jpg | CC0（台北故宫开放数据） |
+| `chen_hongshou/quyuan_xingyin.jpg` | 屈子行吟图（《九歌图》之一） | Chen Hongshou | 1616 绘（后附刻本） | 版画（来钦之《楚辞述注》系统）；Commons 图版 | https://commons.wikimedia.org/wiki/File:Qu_Yuan_Sang_while_Walking.jpg | Public domain |
+| `chen_hongshou/shengan_zanhua.jpg` | 升庵簪花图（轴） | Chen Hongshou | 明 | 北京故宫博物院（新00146790） | https://commons.wikimedia.org/wiki/File:升庵簪花图.jpg | Public domain |
+| `chen_hongshou/shuihu_likui.jpg` | 水浒叶子·李逵（「九十萬貫」牌） | Chen Hongshou | 同上 | 同上 | https://commons.wikimedia.org/wiki/File:LiKui.gif | Public domain |
+| `chen_hongshou/shuihu_songjiang.jpg` | 水浒叶子·宋江（「萬萬貫」牌） | Chen Hongshou | 明末清初刻本 | 四川省图书馆藏（李一氓旧藏）；Commons 图版 | https://commons.wikimedia.org/wiki/File:SongJiang.jpg | Public domain |
+| `chen_hongshou/shuihu_wusong.jpg` | 水浒叶子·武松（「八萬貫」牌） | Chen Hongshou | 同上 | 同上 | https://commons.wikimedia.org/wiki/File:Wusong.png | Public domain |
+| `chen_hongshou/tanmei_tu.jpg` | 探梅图（轴） | Chen Hongshou | 明 | 上海博物馆（庄长江、庄良友 2001 年捐赠） | https://commons.wikimedia.org/wiki/File:陈洪绶_探梅图轴.jpg | Public domain |
+| `chen_hongshou/tao_yuanming_full.jpg` | 陶渊明故事图（卷，全段） | Chen Hongshou | 1650 | 檀香山艺术博物馆（Honolulu Museum of Art） | https://commons.wikimedia.org/wiki/File:'Scenes_from_the_Life_of_Tao_Yuanming',_by_Chen_Hongshou,_complete.jpg | Public domain |
+| `chen_hongshou/tasting_tea.jpg` | 品茶图（轴，又名停琴啜茗图） | Chen Hongshou | 明 | （Google Art Project 图源；馆藏口径见备注） | https://commons.wikimedia.org/wiki/File:Chen_Hongshou_-_Tasting_tea_-_Google_Art_Project.jpg | Public domain |
+| `chen_hongshou/xieyi_xunlong.jpg` | 斜倚薰笼图（轴） | Chen Hongshou | 明 | 上海博物馆 | https://commons.wikimedia.org/wiki/File:陈洪绶_斜倚薰笼图轴.jpg | Public domain |
+| `chen_hongshou/xixiang_kujian.jpg` | 西厢记·「窥简」（第三本曲意图） | Chen Hongshou | 1639 | 同上（国家图书馆藏本；WDL 图版） | https://commons.wikimedia.org/wiki/File:Northern_Western_Wing_1_11.png | Public domain |
+| `chen_hongshou/xixiang_yingying.jpg` | 西厢记·「双文小像」（莺莺像） | Chen Hongshou | 1639 | 《张深之正北西厢秘本》（浙江省博物馆本系；WDL 图版） | https://commons.wikimedia.org/wiki/File:Zhang_Shengzhi_Xiansheng_Zhengbei_Xixiang_Miben.jpg | Public domain |
+| `chen_hongshou/xuanwen_jun.jpg` | 宣文君授经图（轴） | Chen Hongshou | 1638 | 克利夫兰艺术博物馆（1961.89） | https://commons.wikimedia.org/wiki/File:Lady_Xuanwen_Jun_Giving_Instructions_Cleveland.jpg | Public domain（CMA Open Access） |
+| `xu_wei/bamboo_rock_peony_axis.jpg` | 《竹石牡丹图》轴 | Xu Wei | 明（无年款） | 上海博物馆 | https://commons.wikimedia.org/wiki/File:徐渭_竹石牡丹图轴.jpg | Public domain（PD-art-100） |
+| `xu_wei/banana_rock_peony_axis.jpg` | 《蕉石牡丹图》轴（牡丹蕉石图） | Xu Wei | 明（无年款） | 上海博物馆 | https://commons.wikimedia.org/wiki/File:徐渭_蕉石牡丹图轴.jpg | Public domain（PD-art-100） |
+| `xu_wei/cursive_seven_lyric_axis.jpg` | 《草书七律诗》轴 | Xu Wei | 明（无年款） | 故宫博物院 | https://commons.wikimedia.org/wiki/File:徐渭草书七律轴.png | Public domain（PD-Art / PD-old-100） |
+| `xu_wei/donkey_poem_axis.jpg` | 《驴背吟诗图》轴 | Xu Wei | 明（无年款） | 故宫博物院 | https://commons.wikimedia.org/wiki/File:徐渭驴背吟诗图轴.png | Public domain（PD-scan / PD-old-100） |
+| `xu_wei/fish_crab_tianjin.jpg` | 《鱼蟹图》（28×79cm） | Xu Wei | 明（无年款） | 天津博物馆 | https://commons.wikimedia.org/wiki/File:徐渭-魚蟹圖.jpg | Public domain（PD-art） |
+| `xu_wei/flowers_bamboo_npm.jpg` | 《花竹》轴（337.6×103.5cm） | Xu Wei | 明（无年款） | 台北故宫博物院 | https://commons.wikimedia.org/wiki/File:徐渭-花竹.jpg | Public domain（PD-art） |
+| `xu_wei/four_seasons_strip.jpg` | 《四时花卉图》卷（全卷缩略条） | Xu Wei | 明（无年款） | 故宫博物院（新00150618） | https://commons.wikimedia.org/wiki/File:徐渭四时花卉图卷.png | Public domain（PD-scan / PD-old-100） |
+| `xu_wei/huahui_scroll_shanghai_strip.jpg` | 《花卉图卷》（全卷缩略条；16 段、水墨为主淡彩为辅） | Xu Wei | 明（无年款） | 上海博物馆 | https://commons.wikimedia.org/wiki/File:徐渭_花卉图卷.jpg | Public domain（PD-old；Commons featured） |
+| `xu_wei/huangjia_axis.jpg` | 《黄甲图》轴 | Xu Wei | 明（无年款） | 故宫博物院（新00146668） | https://commons.wikimedia.org/wiki/File:徐渭黄甲图轴.png | Public domain（PD-scan / PD-old-100） |
+| `xu_wei/ink_flowers_nine_strip.jpg` | 《墨花九段图》卷（全卷缩略条） | Xu Wei | 明（无年款） | 故宫博物院（新00135353） | https://commons.wikimedia.org/wiki/File:徐渭墨花九段图卷.png | Public domain（PD-scan / PD-old-100） |
+| `xu_wei/ink_grapes_axis.jpg` | 《水墨葡萄图》轴 | Xu Wei | 明（无年款） | 故宫博物院（新00052537） | https://commons.wikimedia.org/wiki/File:徐渭水墨葡萄图轴.png | Public domain（PD-scan / PD-old-100） |
+| `xu_wei/ink_peony_axis.jpg` | 《水墨牡丹图》轴 | Xu Wei | 明（无年款） | 故宫博物院（新00199409） | https://commons.wikimedia.org/wiki/File:徐渭水墨牡丹图轴.jpg | Public domain（PD-Art / PD-old-100） |
+| `xu_wei/letters_album.jpg` | 《杂记书札合册》（册页） | Xu Wei | 明（无年款） | 故宫博物院 | https://commons.wikimedia.org/wiki/File:徐渭杂记书札合册.png | Public domain（PD-Art / PD-old-100） |
+| `xu_wei/may_lotus_axis.jpg` | 《五月莲花图》轴 | Xu Wei | 明（无年款） | 上海博物馆 | https://commons.wikimedia.org/wiki/File:徐渭_五月莲花图轴.jpg | Public domain（PD-art-100） |
+| `xu_wei/plum_banana_axis.jpg` | 《梅花蕉叶图》轴 | Xu Wei | 明（无年款） | 故宫博物院 | https://commons.wikimedia.org/wiki/File:徐渭梅花蕉叶图轴.png | Public domain（PD-Art / PD-old-100） |
+| `xu_wei/pomegranate_npm.jpg` | 《榴实图》轴（91.4×26.6cm） | Xu Wei | 明（无年款） | 台北故宫博物院 | https://commons.wikimedia.org/wiki/File:徐渭-榴實圖.jpg | Public domain（PD-art） |
+| `xu_wei/pomo_twelve_strip.jpg` | 《泼墨十二种》卷（全卷缩略条） | Xu Wei | 明（无年款） | 故宫博物院（新00146671） | https://commons.wikimedia.org/wiki/File:徐渭泼墨十二种卷.png | Public domain（PD-Art / PD-old-100） |
+| `xu_wei/portrait_shanghai.jpg` | 《明人画徐渭小像》（佚名；设色，156×43cm） | Xu Wei | 明 | 上海博物馆（王一平 1998 年捐赠） | https://commons.wikimedia.org/wiki/File:佚名_明人画徐渭小像.jpg | Public domain（PD-art / PD-old） |
+| `xu_wei/sixteen_flowers_philadelphia.jpg` | 《十六花卉》卷（Sixteen Flowers） | Xu Wei | 16 世纪 | 费城艺术博物馆（Google Art Project） | https://commons.wikimedia.org/wiki/File:Xu_Wei,_Chinese_-_Sixteen_Flowers_-_Google_Art_Project.jpg | Public domain（PD-old / GAP） |
+| `xu_wei/zahua_scroll_colophon.jpg` | 《杂花图》卷·卷尾款识段（「天池山人徐渭戏抹」，展拍） | Xu Wei | 明（无年款） | 南京博物院 | https://commons.wikimedia.org/wiki/File:杂花图05325.jpg | **CC BY-SA 4.0**（摄影：Augustohai，2017） |
+| `xu_wei/zahua_scroll_leaves.jpg` | 《杂花图》卷·泼墨叶段（展拍） | Xu Wei | 明（无年款） | 南京博物院 | https://commons.wikimedia.org/wiki/File:杂花图05313.jpg | **CC BY-SA 4.0**（摄影：Augustohai，2017） |
+| `xu_wei/zahua_scroll_peony.jpg` | 《杂花图》卷·牡丹段（展拍） | Xu Wei | 明（无年款） | 南京博物院 | https://commons.wikimedia.org/wiki/File:杂花图05305.jpg | **CC BY-SA 4.0**（摄影：Augustohai，2017） |
+| `xu_wei/zahua_scroll_pomegranate.jpg` | 《杂花图》卷·石榴段（展拍） | Xu Wei | 明（无年款） | 南京博物院 | https://commons.wikimedia.org/wiki/File:杂花图05318.jpg | **CC BY-SA 4.0**（摄影：Augustohai，2017） |
+| `hogarth/a_harlots_progress_plate_1.jpg` | A Harlot's Progress, Plate 1（浪女历程·一，印本） | William Hogarth | 1732 | The Met（399540） | https://www.metmuseum.org/art/collection/search/399540 | CC0（Met Open Access） |
+| `hogarth/analysis_of_beauty_plate_1.jpg` | The Analysis of Beauty, Plate 1（《美的分析》图版一） | William Hogarth | 1753 | The Met（404837） | https://www.metmuseum.org/art/collection/search/404837 | CC0（Met Open Access） |
+| `hogarth/beer_street.jpg` | Beer Street（啤酒街，印本） | William Hogarth | 1751 | The Met（399846） | https://www.metmuseum.org/art/collection/search/399846 | CC0（Met Open Access） |
+| `hogarth/four_stages_of_cruelty_1.jpg` | The First Stage of Cruelty（残忍四阶段·一，印本） | William Hogarth | 1751 | The Met（Commons 捐赠件 DP835381） | https://commons.wikimedia.org/wiki/File:The_First_Stage_of_Cruelty_(The_Four_Stages_of_Cruelty)_MET_DP835381.jpg | CC0 |
+| `hogarth/four_stages_of_cruelty_4.jpg` | The Reward of Cruelty（残忍四阶段·四，印本） | William Hogarth | 1751 | The Met（Commons 捐赠件 DP835382） | https://commons.wikimedia.org/wiki/File:The_Reward_of_Cruelty_(The_Four_Stages_of_Cruelty)_MET_DP835382.jpg | CC0 |
+| `hogarth/gin_lane.jpg` | Gin Lane（琴酒巷，印本） | William Hogarth | 1751 | The Met（399847） | https://www.metmuseum.org/art/collection/search/399847 | CC0（Met Open Access） |
+| `hogarth/industry_and_idleness_plate_1.jpg` | Industry and Idleness, Plate 1（勤奋与懒散·一，印本） | William Hogarth | 1747 | Cleveland Museum of Art（1967.118） | https://www.clevelandart.org/art/1967.118 | CC0 |
+| `hogarth/marriage_a_la_mode_1_the_marriage_settlement.jpg` | Marriage A-la-Mode 1: The Marriage Settlement（油画） | William Hogarth | c. 1743 | The National Gallery, London（NG113） | https://commons.wikimedia.org/wiki/File:Marriage_A-la-Mode_1,_The_Marriage_Settlement_-_William_Hogarth.jpg | Public domain |
+| `hogarth/marriage_a_la_mode_6_the_ladys_death.jpg` | Marriage A-la-Mode 6: The Lady's Death（油画） | William Hogarth | c. 1743 | The National Gallery, London（NG118） | https://commons.wikimedia.org/wiki/File:Marriage_A-la-Mode_6,_The_Lady%27s_Death_-_William_Hogarth.jpg | Public domain |
+| `hogarth/rakes_progress_1_the_heir.jpg` | A Rake's Progress I: The Heir（浪子历程·继承人，油画） | William Hogarth | 1734 | Sir John Soane's Museum（P40） | https://commons.wikimedia.org/wiki/File:William_Hogarth_021.jpg | Public domain（Yorck Project 扫描） |
+| `hogarth/rakes_progress_3_the_tavern_scene.jpg` | A Rake's Progress III: The Tavern Scene（酒馆场景，油画） | William Hogarth | 1734 | Sir John Soane's Museum（P42） | https://commons.wikimedia.org/wiki/File:William_Hogarth_-_A_Rake%27s_Progress_-_Tavern_Scene.jpg | Public domain |
+| `hogarth/rakes_progress_8_the_madhouse.jpg` | A Rake's Progress VIII: The Madhouse（疯人院，油画） | William Hogarth | 1734 | Sir John Soane's Museum（P47） | https://commons.wikimedia.org/wiki/File:William_Hogarth_019.jpg | Public domain（Yorck Project 扫描） |
+| `hogarth/rakes_progress_print_1.jpg` | A Rake's Progress, Plate 1（印本） | William Hogarth | 1735 | The Met（39.92.1 / 399563） | https://www.metmuseum.org/art/collection/search/399563 | CC0（Met Open Access） |
+| `hogarth/rakes_progress_print_6.jpg` | A Rake's Progress, Plate 6（印本） | William Hogarth | 1735 | The Met（399569） | https://www.metmuseum.org/art/collection/search/399569 | CC0（Met Open Access） |
+| `hogarth/rakes_progress_print_8.jpg` | A Rake's Progress, Plate 8（印本） | William Hogarth | 1735（1763 重印） | The Met（399561） | https://www.metmuseum.org/art/collection/search/399561 | CC0（Met Open Access） |
+| `hogarth/self_portrait_with_palette.jpg` | Self-Portrait（自画像，油画；调色板上绘「美的线」） | William Hogarth | c. 1735 | Yale Center for British Art | https://commons.wikimedia.org/wiki/File:William_Hogarth_-_Self-Portrait_-_Google_Art_Project.jpg | Public domain（Google Art Project） |
+| `hogarth/south_sea_scheme.jpg` | The South Sea Scheme（南海泡沫，印本） | William Hogarth | c. 1721（1724 刊） | The Met（396205） | https://www.metmuseum.org/art/collection/search/396205 | CC0（Met Open Access） |
+| `hogarth/the_gate_of_calais.jpg` | O the Roast Beef of Old England（'The Gate of Calais'）（油画） | William Hogarth | 1748 | Tate（N01464） | https://commons.wikimedia.org/wiki/File:William_Hogarth_-_O_the_Roast_Beef_of_Old_England_(%27The_Gate_of_Calais%27)_-_Google_Art_Project.jpg | Public domain（Google Art Project） |
+| `hogarth/the_painter_and_his_pug.jpg` | The Painter and his Pug（画家与他的哈巴狗，油画） | William Hogarth | 1745 | Tate（N00112） | https://commons.wikimedia.org/wiki/File:The_Painter_and_His_Pug_by_William_Hogarth.jpg | Public domain |
+| `hogarth/the_shrimp_girl.jpg` | The Shrimp Girl（卖虾女，油画） | William Hogarth | c. 1740–45 | The National Gallery, London（NG1162） | https://commons.wikimedia.org/wiki/File:William_Hogarth_-_The_Shrimp_Girl.jpg | Public domain |
+| `mir_sayyid_ali/bahram_gur_met.jpg` | 《巴赫拉姆·古尔一箭穿双驴》（《塔赫玛斯普列王纪》f.568r） | Mir Sayyid Ali | 约 1530–35 | 大都会艺术博物馆 1970.301.62 | https://www.metmuseum.org/art/collection/search/452171 | CC0（Open Access） |
+| `mir_sayyid_ali/elijah_bm.jpg` | 《伊利亚救努尔·阿德-达赫尔》（《哈姆扎纳马》散页） | Mir Sayyid Ali | 1564–79 | 大英博物馆 1925,0929,0.1 | https://www.britishmuseum.org/collection/object/W_1925-0929-0-1 | Public domain（PD-Art） |
+| `mir_sayyid_ali/emissaries_mak.jpg` | 《使者来报》（《哈姆扎纳马》卷一–五） | Mir Sayyid Ali | 约 1557–72 | MAK 维也纳（应用艺术博物馆）BI 8770-2 | https://sammlung.mak.at/sammlung_online?id=collect-194074 | Public domain（PD-Art） |
+| `mir_sayyid_ali/feridun_mak.jpg` | 《费里敦归信》（《哈姆扎纳马》卷一–五） | Mir Sayyid Ali | 约 1557–72 | MAK 维也纳 | https://commons.wikimedia.org/wiki/File:Feridun_Shah,_the_king_of_Greece,_converts_to_islam_and_marries_his_daughter_to_Hamza._From_the_Hamzanama.jpg | Public domain（PD-Art） |
+| `mir_sayyid_ali/mahiya_zambur_harvard.jpg` | 《玛希亚释放藏布尔…》（《哈姆扎纳马》散页） | Mir Sayyid Ali | 约 1570 | 哈佛艺术博物馆 1941.292 verso | https://commons.wikimedia.org/wiki/File:Mahiya_frees_Zambur,_Beheads_his_sleeping_guards,_and_suspends_Gharrad_in_his_stead_Hamzanama,_Harvard_Art_Museum,_Cambridge.jpg | Public domain（PD-Art） |
+| `mir_sayyid_ali/majnun_layla_bl.jpg` | 《老妇牵玛杰农至莱拉营帐》（《五卷诗》f.157v） | Mir Sayyid Ali | 1539–43 | 大英图书馆 Or. 2265 | https://commons.wikimedia.org/wiki/File:Dil%C9%99n%C3%A7i_qar%C4%B1n%C4%B1n_M%C9%99cnunu_Leylini_qap%C4%B1s%C4%B1na_aparmas%C4%B1.JPG | Public domain |
+| `mir_sayyid_ali/met_hamzanama_mihrdukht.jpg` | 《米赫杜赫特射环》（《哈姆扎纳马》） | Mir Sayyid Ali | 约 1570 | 大都会艺术博物馆 2022.170 | https://www.metmuseum.org/art/collection/search/825583 | CC0 |
+| `mir_sayyid_ali/met_hamzanama_night_attack.jpg` | 《阿萨德·伊本·卡里巴夜袭马利克·伊拉吉营地》（《哈姆扎纳马》） | Mir Sayyid Ali | 约 1564–69 | 大都会艺术博物馆 18.44.1 | https://www.metmuseum.org/art/collection/search/447050 | CC0 |
+| `mir_sayyid_ali/met_hamzanama_spy_zambur.jpg` | 《间谍藏布尔携玛希亚入塔瓦里格城》（《哈姆扎纳马》） | Mir Sayyid Ali | 约 1570 | 大都会艺术博物馆 23.264.1 | https://www.metmuseum.org/art/collection/search/447743 | CC0 |
+| `mir_sayyid_ali/met_hamzanama_supplicant.jpg` | 《印度庙前的祈愿者》（《哈姆扎纳马》） | Mir Sayyid Ali | 约 1570 | 大都会艺术博物馆 2022.172 | https://www.metmuseum.org/art/collection/search/825585 | CC0 |
+| `mir_sayyid_ali/nighttime_in_a_city.jpg` | 《城中夜》（Nighttime in a City，可能为插图抄本散页） | Mir Sayyid Ali | 约 1540 | 哈佛艺术博物馆（Arthur M. Sackler Museum）1958.76 | https://harvardartmuseums.org/collections/object/303390 | Public domain（PD-Art） |
+| `mir_sayyid_ali/nomadic_encampment.jpg` | 《游牧营地》（Nomadic Encampment；与《城中夜》为对页双作） | Mir Sayyid Ali | 约 1540 | 哈佛艺术博物馆 1958.75 | https://commons.wikimedia.org/wiki/File:Mir_Sayyid_Ali_1540.jpg | Public domain（PD-Art） |
+| `mir_sayyid_ali/prince_page_bm.jpg` | 《王子与侍从》（A Prince and Page） | Mir Sayyid Ali | 约 1540–50 | 大英博物馆 1930,1112,0.1 | https://www.britishmuseum.org/collection/object/W_1930-1112-0-1 | Public domain（PD-Art） |
+| `mir_sayyid_ali/school_scene_freer.jpg` | 《学堂场景》（A School Scene） | Mir Sayyid Ali | 约 1540 | 弗里尔美术馆（NMAA）S1986.221 | https://asia.si.edu/object/S1986.221/ | Public domain（PD-Art） |
+| `mir_sayyid_ali/seated_youth_freer.jpg` | 《坐着的少年，手持一册（safina）》（Seated youth holding an album） | Mir Sayyid Ali | 约 1540 | 弗里尔美术馆 S1986.291 | https://asia.si.edu/object/S1986.291/ | Public domain（PD-Art） |
+| `mir_sayyid_ali/self_portrait_lacma.jpg` | 《自画像（少年书吏）》（Young Scribe, Page from an Album） | Mir Sayyid Ali | 1555–56 | 洛杉矶郡艺术博物馆 M.90.141.1 | https://collections.lacma.org/node/224717 | Public domain（PD-Art） |
 
 ## 逐张明细（尺寸 / 体积 / 备注）
 
@@ -2660,6 +2767,331 @@
   - 来源: https://commons.wikimedia.org/wiki/File:%22Zal_Consults_the_Magi%22%2C_Folio_73v_from_the_Shahnama_%28Book_of_Kings%29_of_Shah_Tahmasp_MET_DP107124.jpg；License: CC0
   - 落盘: 1209×1800px，1003 KB
 
+### sher_gil — 谢尔吉尔（28 张；wave21 并入）
+- **ancient_story_teller_1940.jpg** — The Ancient Story Teller（2023 年 $7.4M 纪录），Amrita Sher-Gil，1940，NGMA（Acc. 977）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Ancient_Story_Teller_1940_Saraya.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2221px，1047 KB
+- **bride_1940.jpg** — Bride，Amrita Sher-Gil，1940，NGMA（Acc. 114）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Bride_1940.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2499px，1114 KB
+- **dressing_the_bride_1937.jpg** — Dressing the Bride，Amrita Sher-Gil，1937，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Dressing_the_Bride_1937_Simla.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2502px，898 KB
+- **elephant_promenade_1940.jpg** — Elephant Promenade，Amrita Sher-Gil，1940，NGMA（Acc. 105）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Elephant_promenade_1940.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2477px，1295 KB
+- **fruit_vendors_1937.jpg** — Fruit Vendors，Amrita Sher-Gil，1937，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Fruit_Vendors_1937.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2567px，1179 KB
+- **group_of_three_girls_1935.jpg** — Group of Three Girls（1937 孟买美协金奖），Amrita Sher-Gil，1935，NGMA（Acc. 982）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Group_of_Three_Girls_1935.jpg；License: PD-US-unpublished ✓（※同作另有 GAP 版文件带 URAA 标记——冲突留档，档案 §10-1）
+  - 落盘: 1800×2498px，974 KB
+- **haldi_grinders_1940.jpg** — Haldi Grinders，Amrita Sher-Gil，1940，NGMA（Acc. 128）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Haldi_Grinders_1940.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2442px，1053 KB
+- **hill_scene_1938.jpg** — Hill Scene，Amrita Sher-Gil，1938，NGMA。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Hill_Scene_1938_Simla.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2389px，1119 KB
+- **in_the_ladies_enclosure_1938.jpg** — In the Ladies' Enclosure，Amrita Sher-Gil，1938，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:In_the_Ladies_Enclosure_1938.jpg；License: PD-US-unpublished ✓（底本小：438×297 原尺寸保留）
+  - 落盘: 438×297px，36 KB
+- **klarra_szepessy_1932.jpg** — Klarra Szepessy（表亲肖像），Amrita Sher-Gil，1932，NGMA（GAP 底本）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sger-Gil_Klarra_Szepessy.jpg；License: PD-US-unpublished ✓（底本 1704px，输出 1800px 轻度放大）
+  - 落盘: 1800×2837px，1021 KB
+- **little_girl_in_blue_1934.jpg** — The Little Girl in Blue（Babit 肖像；2018 拍出 ₹18.69 crore），Amrita Sher-Gil，1934，私人收藏。
+  - 来源: https://commons.wikimedia.org/wiki/File:The_Little_Girl_in_Blue_by_Amrita_Sher-Gil.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2522px，1147 KB
+- **marie_louise_chassany_1932.jpg** — Marie-Louise Chassany（友人肖像），Amrita Sher-Gil，1932，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Marie-Louise_Chassany_1932.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2609px，709 KB
+- **mother_india_1935.jpg** — Mother India（原题 Beggar Woman），Amrita Sher-Gil，1935，NGMA（ngma-01134）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Mother_India_1935.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2248px，912 KB
+- **red_verandah_1938.jpg** — Red Verandah，Amrita Sher-Gil，1938，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Red_Verandah_1938_Simla.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×3575px，1522 KB
+- **resting_1939.jpg** — Resting（村妇休憩），Amrita Sher-Gil，1939，NGMA（GAC 记录）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Resting_1939_Saraya.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2088px，1023 KB
+- **self_portrait_with_long_hair_1934.jpg** — Self-portrait with Long hair (2)，Amrita Sher-Gil，1934，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Self-portrait_with_Long_hair_(2；License: PD-US-unpublished ✓
+  - 落盘: 1800×2254px，1296 KB
+- **self_portrait_with_red_background_c1930.jpg** — Self-portrait with Red Background（自画像·红背景），Amrita Sher-Gil，c.1930，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Self-portrait_with_Red_Background_c._1930.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2467px，729 KB
+- **self_portrait_with_smile_c1932.jpg** — Self-portrait with Smile（自画像·微笑），Amrita Sher-Gil，c.1932，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Self-portrait_with_Smile_c._1932.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2494px，767 KB
+- **siesta_1937.jpg** — Siesta（后经本人修改），Amrita Sher-Gil，1937，NGMA（Acc. 102）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Siesta_1937.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×1218px，617 KB
+- **spanish_girl_1933.jpg** — Spanish Girl，Amrita Sher-Gil，1933，NGMA。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Spanish_Girl_1933_Paris.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2887px，927 KB
+- **the_swing_1940.jpg** — The Swing，Amrita Sher-Gil，1940，NGMA（Acc. 117）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_The_Swing_1940_Saraya.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2417px，1054 KB
+- **two_medicants_1937.jpg** — Two Medicants，Amrita Sher-Gil，1937，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Two_Medicants_1937.jpg；License: PD-US-unpublished ✓（底本 1507px，输出 1800px 轻度放大）
+  - 落盘: 1800×2382px，723 KB
+- **two_women_1935.jpg** — Two Women，Amrita Sher-Gil，1935，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Two_Women_1935.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2460px，1120 KB
+- **village_girls_saraya_1941.jpg** — Village Girls，Amrita Sher-Gil，1941，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Village_Girls_Saraya_1941.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2125px，884 KB
+- **village_scene_1938.jpg** — Village Scene（2006 年 ₹6.9 crore 纪录），Amrita Sher-Gil，1938，NGMA。
+  - 来源: https://commons.wikimedia.org/wiki/File:Amrita_Sher-Gil_Village_Scene_1938_Simla.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×1345px，760 KB
+- **winter_1939.jpg** — Winter（匈牙利冬景），Amrita Sher-Gil，1939，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Winter_1939.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×1254px，449 KB
+- **woman_on_charpoy_1940.jpg** — Woman on Charpoy，Amrita Sher-Gil，1940，NGMA（Acc. 129）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Woman_on_Charpoy_1940.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×1521px，725 KB
+- **women_on_the_beach_1937.jpg** — Women on the Beach，Amrita Sher-Gil，1937，底本：Tulika 2010。
+  - 来源: https://commons.wikimedia.org/wiki/File:Women_on_the_Beach_1937.jpg；License: PD-US-unpublished ✓
+  - 落盘: 1800×2442px，1058 KB
+
+### chen_hongshou — 陈洪绶（18 张；wave21 并入）
+- **bogu_yezi_a.jpg** — 博古叶子·「五十萬貫」牌，Chen Hongshou，1651，影印本；Commons 图版。
+  - 来源: https://commons.wikimedia.org/wiki/File:博古葉子五十萬貫.jpg；License: Public domain
+  - 落盘: 688×997px，85 KB
+- **bogu_yezi_b.jpg** — 博古叶子·「八百子」牌（陈平「宰天下」典），Chen Hongshou，1651，影印本；Commons 图版。
+  - 来源: https://commons.wikimedia.org/wiki/File:博古葉子八百子.jpg；License: Public domain
+  - 落盘: 688×997px，101 KB
+- **canzhi_tu.jpg** — 餐芝图（轴），Chen Hongshou，明，天津博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:明_陳洪綬_餐芝圖_絹.jpg；License: Public domain
+  - 落盘: 752×1800px，238 KB
+- **hehua_yuanyang.jpg** — 荷花鸳鸯图（轴），Chen Hongshou，明（中年），北京故宫博物院（新00146789）。
+  - 来源: https://commons.wikimedia.org/wiki/File:陳洪綬荷花鴛鴦圖.jpg；License: Public domain
+  - 落盘: 962×1800px，293 KB
+- **jiaolin_zhuojiu.jpg** — 蕉林酌酒图（轴），Chen Hongshou，明，天津博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:蕉林酌酒圖軸.jpg；License: Public domain
+  - 落盘: 1187×1800px，371 KB
+- **qiaosong_xianshou.jpg** — 乔松仙寿图（轴），Chen Hongshou，明，台北故宫博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:明陳洪綬喬松仙壽圖_軸.jpg；License: CC0（台北故宫开放数据）
+  - 落盘: 1061×1414px，303 KB
+- **quyuan_xingyin.jpg** — 屈子行吟图（《九歌图》之一），Chen Hongshou，1616 绘（后附刻本），版画（来钦之《楚辞述注》系统）；Commons 图版。
+  - 来源: https://commons.wikimedia.org/wiki/File:Qu_Yuan_Sang_while_Walking.jpg；License: Public domain
+  - 落盘: 406×603px，62 KB
+- **shengan_zanhua.jpg** — 升庵簪花图（轴），Chen Hongshou，明，北京故宫博物院（新00146790）。
+  - 来源: https://commons.wikimedia.org/wiki/File:升庵簪花图.jpg；License: Public domain
+  - 落盘: 815×1800px，244 KB
+- **shuihu_likui.jpg** — 水浒叶子·李逵（「九十萬貫」牌），Chen Hongshou，同上，同上。
+  - 来源: https://commons.wikimedia.org/wiki/File:LiKui.gif；License: Public domain
+  - 落盘: 384×722px，75 KB
+- **shuihu_songjiang.jpg** — 水浒叶子·宋江（「萬萬貫」牌），Chen Hongshou，明末清初刻本，四川省图书馆藏（李一氓旧藏）；Commons 图版。
+  - 来源: https://commons.wikimedia.org/wiki/File:SongJiang.jpg；License: Public domain
+  - 落盘: 384×715px，71 KB
+- **shuihu_wusong.jpg** — 水浒叶子·武松（「八萬貫」牌），Chen Hongshou，同上，同上。
+  - 来源: https://commons.wikimedia.org/wiki/File:Wusong.png；License: Public domain
+  - 落盘: 372×689px，60 KB
+- **tanmei_tu.jpg** — 探梅图（轴），Chen Hongshou，明，上海博物馆（庄长江、庄良友 2001 年捐赠）。
+  - 来源: https://commons.wikimedia.org/wiki/File:陈洪绶_探梅图轴.jpg；License: Public domain
+  - 落盘: 670×1800px，276 KB
+- **tao_yuanming_full.jpg** — 陶渊明故事图（卷，全段），Chen Hongshou，1650，檀香山艺术博物馆（Honolulu Museum of Art）。
+  - 来源: https://commons.wikimedia.org/wiki/File:'Scenes_from_the_Life_of_Tao_Yuanming',_by_Chen_Hongshou,_complete.jpg；License: Public domain
+  - 落盘: 1800×550px，194 KB
+- **tasting_tea.jpg** — 品茶图（轴，又名停琴啜茗图），Chen Hongshou，明，（Google Art Project 图源；馆藏口径见备注）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Chen_Hongshou_-_Tasting_tea_-_Google_Art_Project.jpg；License: Public domain
+  - 落盘: 995×1800px，336 KB
+- **xieyi_xunlong.jpg** — 斜倚薰笼图（轴），Chen Hongshou，明，上海博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:陈洪绶_斜倚薰笼图轴.jpg；License: Public domain
+  - 落盘: 649×1799px，297 KB
+- **xixiang_kujian.jpg** — 西厢记·「窥简」（第三本曲意图），Chen Hongshou，1639，同上（国家图书馆藏本；WDL 图版）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Northern_Western_Wing_1_11.png；License: Public domain
+  - 落盘: 1036×1799px，450 KB
+- **xixiang_yingying.jpg** — 西厢记·「双文小像」（莺莺像），Chen Hongshou，1639，《张深之正北西厢秘本》（浙江省博物馆本系；WDL 图版）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Zhang_Shengzhi_Xiansheng_Zhengbei_Xixiang_Miben.jpg；License: Public domain
+  - 落盘: 1197×1800px，543 KB
+- **xuanwen_jun.jpg** — 宣文君授经图（轴），Chen Hongshou，1638，克利夫兰艺术博物馆（1961.89）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Lady_Xuanwen_Jun_Giving_Instructions_Cleveland.jpg；License: Public domain（CMA Open Access）
+  - 落盘: 1389×1800px，674 KB
+
+### xu_wei — 徐渭（23 张；wave21 并入）
+- **bamboo_rock_peony_axis.jpg** — 《竹石牡丹图》轴，Xu Wei，明（无年款），上海博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭_竹石牡丹图轴.jpg；License: Public domain（PD-art-100）
+  - 落盘: 483×1800px，267 KB
+- **banana_rock_peony_axis.jpg** — 《蕉石牡丹图》轴（牡丹蕉石图），Xu Wei，明（无年款），上海博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭_蕉石牡丹图轴.jpg；License: Public domain（PD-art-100）
+  - 落盘: 876×1800px，343 KB
+- **cursive_seven_lyric_axis.jpg** — 《草书七律诗》轴，Xu Wei，明（无年款），故宫博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭草书七律轴.png；License: Public domain（PD-Art / PD-old-100）
+  - 落盘: 560×1800px，231 KB
+- **donkey_poem_axis.jpg** — 《驴背吟诗图》轴，Xu Wei，明（无年款），故宫博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭驴背吟诗图轴.png；License: Public domain（PD-scan / PD-old-100）
+  - 落盘: 512×1800px，133 KB
+- **fish_crab_tianjin.jpg** — 《鱼蟹图》（28×79cm），Xu Wei，明（无年款），天津博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭-魚蟹圖.jpg；License: Public domain（PD-art）
+  - 落盘: 1280×464px，171 KB
+- **flowers_bamboo_npm.jpg** — 《花竹》轴（337.6×103.5cm），Xu Wei，明（无年款），台北故宫博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭-花竹.jpg；License: Public domain（PD-art）
+  - 落盘: 553×1800px，490 KB
+- **four_seasons_strip.jpg** — 《四时花卉图》卷（全卷缩略条），Xu Wei，明（无年款），故宫博物院（新00150618）。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭四时花卉图卷.png；License: Public domain（PD-scan / PD-old-100）
+  - 落盘: 1800×47px，33 KB
+- **huahui_scroll_shanghai_strip.jpg** — 《花卉图卷》（全卷缩略条；16 段、水墨为主淡彩为辅），Xu Wei，明（无年款），上海博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭_花卉图卷.jpg；License: Public domain（PD-old；Commons featured）
+  - 落盘: 1800×118px，76 KB
+- **huangjia_axis.jpg** — 《黄甲图》轴，Xu Wei，明（无年款），故宫博物院（新00146668）。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭黄甲图轴.png；License: Public domain（PD-scan / PD-old-100）
+  - 落盘: 588×1800px，178 KB
+- **ink_flowers_nine_strip.jpg** — 《墨花九段图》卷（全卷缩略条），Xu Wei，明（无年款），故宫博物院（新00135353）。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭墨花九段图卷.png；License: Public domain（PD-scan / PD-old-100）
+  - 落盘: 1800×136px，78 KB
+- **ink_grapes_axis.jpg** — 《水墨葡萄图》轴，Xu Wei，明（无年款），故宫博物院（新00052537）。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭水墨葡萄图轴.png；License: Public domain（PD-scan / PD-old-100）
+  - 落盘: 710×1800px，206 KB
+- **ink_peony_axis.jpg** — 《水墨牡丹图》轴，Xu Wei，明（无年款），故宫博物院（新00199409）。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭水墨牡丹图轴.jpg；License: Public domain（PD-Art / PD-old-100）
+  - 落盘: 592×1800px，262 KB
+- **letters_album.jpg** — 《杂记书札合册》（册页），Xu Wei，明（无年款），故宫博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭杂记书札合册.png；License: Public domain（PD-Art / PD-old-100）
+  - 落盘: 1280×1146px，365 KB
+- **may_lotus_axis.jpg** — 《五月莲花图》轴，Xu Wei，明（无年款），上海博物馆。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭_五月莲花图轴.jpg；License: Public domain（PD-art-100）
+  - 落盘: 734×1800px，359 KB
+- **plum_banana_axis.jpg** — 《梅花蕉叶图》轴，Xu Wei，明（无年款），故宫博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭梅花蕉叶图轴.png；License: Public domain（PD-Art / PD-old-100）
+  - 落盘: 497×1800px，165 KB
+- **pomegranate_npm.jpg** — 《榴实图》轴（91.4×26.6cm），Xu Wei，明（无年款），台北故宫博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭-榴實圖.jpg；License: Public domain（PD-art）
+  - 落盘: 524×1800px，249 KB
+- **pomo_twelve_strip.jpg** — 《泼墨十二种》卷（全卷缩略条），Xu Wei，明（无年款），故宫博物院（新00146671）。
+  - 来源: https://commons.wikimedia.org/wiki/File:徐渭泼墨十二种卷.png；License: Public domain（PD-Art / PD-old-100）
+  - 落盘: 1800×80px，38 KB
+- **portrait_shanghai.jpg** — 《明人画徐渭小像》（佚名；设色，156×43cm），Xu Wei，明，上海博物馆（王一平 1998 年捐赠）。
+  - 来源: https://commons.wikimedia.org/wiki/File:佚名_明人画徐渭小像.jpg；License: Public domain（PD-art / PD-old）
+  - 落盘: 555×1800px，358 KB
+- **sixteen_flowers_philadelphia.jpg** — 《十六花卉》卷（Sixteen Flowers），Xu Wei，16 世纪，费城艺术博物馆（Google Art Project）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Xu_Wei,_Chinese_-_Sixteen_Flowers_-_Google_Art_Project.jpg；License: Public domain（PD-old / GAP）
+  - 落盘: 562×1800px，378 KB
+- **zahua_scroll_colophon.jpg** — 《杂花图》卷·卷尾款识段（「天池山人徐渭戏抹」，展拍），Xu Wei，明（无年款），南京博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:杂花图05325.jpg；License: **CC BY-SA 4.0**（摄影：Augustohai，2017）
+  - 落盘: 1800×1201px，593 KB
+- **zahua_scroll_leaves.jpg** — 《杂花图》卷·泼墨叶段（展拍），Xu Wei，明（无年款），南京博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:杂花图05313.jpg；License: **CC BY-SA 4.0**（摄影：Augustohai，2017）
+  - 落盘: 1800×1201px，474 KB
+- **zahua_scroll_peony.jpg** — 《杂花图》卷·牡丹段（展拍），Xu Wei，明（无年款），南京博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:杂花图05305.jpg；License: **CC BY-SA 4.0**（摄影：Augustohai，2017）
+  - 落盘: 1800×1177px，464 KB
+- **zahua_scroll_pomegranate.jpg** — 《杂花图》卷·石榴段（展拍），Xu Wei，明（无年款），南京博物院。
+  - 来源: https://commons.wikimedia.org/wiki/File:杂花图05318.jpg；License: **CC BY-SA 4.0**（摄影：Augustohai，2017）
+  - 落盘: 1800×1201px，382 KB
+
+### hogarth — 荷加斯（20 张；wave21 并入）
+- **a_harlots_progress_plate_1.jpg** — A Harlot's Progress, Plate 1（浪女历程·一，印本），William Hogarth，1732，The Met（399540）。
+  - 来源: https://www.metmuseum.org/art/collection/search/399540；License: CC0（Met Open Access）
+  - 落盘: 1800×1476px，1017 KB
+- **analysis_of_beauty_plate_1.jpg** — The Analysis of Beauty, Plate 1（《美的分析》图版一），William Hogarth，1753，The Met（404837）。
+  - 来源: https://www.metmuseum.org/art/collection/search/404837；License: CC0（Met Open Access）
+  - 落盘: 1800×1404px，971 KB
+- **beer_street.jpg** — Beer Street（啤酒街，印本），William Hogarth，1751，The Met（399846）。
+  - 来源: https://www.metmuseum.org/art/collection/search/399846；License: CC0（Met Open Access）
+  - 落盘: 1512×1800px，1197 KB
+- **four_stages_of_cruelty_1.jpg** — The First Stage of Cruelty（残忍四阶段·一，印本），William Hogarth，1751，The Met（Commons 捐赠件 DP835381）。
+  - 来源: https://commons.wikimedia.org/wiki/File:The_First_Stage_of_Cruelty_(The_Four_Stages_of_Cruelty)_MET_DP835381.jpg；License: CC0
+  - 落盘: 1514×1800px，1336 KB
+- **four_stages_of_cruelty_4.jpg** — The Reward of Cruelty（残忍四阶段·四，印本），William Hogarth，1751，The Met（Commons 捐赠件 DP835382）。
+  - 来源: https://commons.wikimedia.org/wiki/File:The_Reward_of_Cruelty_(The_Four_Stages_of_Cruelty)_MET_DP835382.jpg；License: CC0
+  - 落盘: 1510×1800px，1333 KB
+- **gin_lane.jpg** — Gin Lane（琴酒巷，印本），William Hogarth，1751，The Met（399847）。
+  - 来源: https://www.metmuseum.org/art/collection/search/399847；License: CC0（Met Open Access）
+  - 落盘: 1498×1800px，1220 KB
+- **industry_and_idleness_plate_1.jpg** — Industry and Idleness, Plate 1（勤奋与懒散·一，印本），William Hogarth，1747，Cleveland Museum of Art（1967.118）。
+  - 来源: https://www.clevelandart.org/art/1967.118；License: CC0
+  - 落盘: 1800×1394px，904 KB
+- **marriage_a_la_mode_1_the_marriage_settlement.jpg** — Marriage A-la-Mode 1: The Marriage Settlement（油画），William Hogarth，c. 1743，The National Gallery, London（NG113）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Marriage_A-la-Mode_1,_The_Marriage_Settlement_-_William_Hogarth.jpg；License: Public domain
+  - 落盘: 1800×1369px，535 KB
+- **marriage_a_la_mode_6_the_ladys_death.jpg** — Marriage A-la-Mode 6: The Lady's Death（油画），William Hogarth，c. 1743，The National Gallery, London（NG118）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Marriage_A-la-Mode_6,_The_Lady%27s_Death_-_William_Hogarth.jpg；License: Public domain
+  - 落盘: 1800×1368px，514 KB
+- **rakes_progress_1_the_heir.jpg** — A Rake's Progress I: The Heir（浪子历程·继承人，油画），William Hogarth，1734，Sir John Soane's Museum（P40）。
+  - 来源: https://commons.wikimedia.org/wiki/File:William_Hogarth_021.jpg；License: Public domain（Yorck Project 扫描）
+  - 落盘: 1800×1488px，408 KB
+- **rakes_progress_3_the_tavern_scene.jpg** — A Rake's Progress III: The Tavern Scene（酒馆场景，油画），William Hogarth，1734，Sir John Soane's Museum（P42）。
+  - 来源: https://commons.wikimedia.org/wiki/File:William_Hogarth_-_A_Rake%27s_Progress_-_Tavern_Scene.jpg；License: Public domain
+  - 落盘: 1800×1498px，594 KB
+- **rakes_progress_8_the_madhouse.jpg** — A Rake's Progress VIII: The Madhouse（疯人院，油画），William Hogarth，1734，Sir John Soane's Museum（P47）。
+  - 来源: https://commons.wikimedia.org/wiki/File:William_Hogarth_019.jpg；License: Public domain（Yorck Project 扫描）
+  - 落盘: 1800×1479px，381 KB
+- **rakes_progress_print_1.jpg** — A Rake's Progress, Plate 1（印本），William Hogarth，1735，The Met（39.92.1 / 399563）。
+  - 来源: https://www.metmuseum.org/art/collection/search/399563；License: CC0（Met Open Access）
+  - 落盘: 1800×1566px，1132 KB
+- **rakes_progress_print_6.jpg** — A Rake's Progress, Plate 6（印本），William Hogarth，1735，The Met（399569）。
+  - 来源: https://www.metmuseum.org/art/collection/search/399569；License: CC0（Met Open Access）
+  - 落盘: 1800×1570px，1121 KB
+- **rakes_progress_print_8.jpg** — A Rake's Progress, Plate 8（印本），William Hogarth，1735（1763 重印），The Met（399561）。
+  - 来源: https://www.metmuseum.org/art/collection/search/399561；License: CC0（Met Open Access）
+  - 落盘: 1800×1550px，1121 KB
+- **self_portrait_with_palette.jpg** — Self-Portrait（自画像，油画；调色板上绘「美的线」），William Hogarth，c. 1735，Yale Center for British Art。
+  - 来源: https://commons.wikimedia.org/wiki/File:William_Hogarth_-_Self-Portrait_-_Google_Art_Project.jpg；License: Public domain（Google Art Project）
+  - 落盘: 1676×1800px，693 KB
+- **south_sea_scheme.jpg** — The South Sea Scheme（南海泡沫，印本），William Hogarth，c. 1721（1724 刊），The Met（396205）。
+  - 来源: https://www.metmuseum.org/art/collection/search/396205；License: CC0（Met Open Access）
+  - 落盘: 1800×1437px，1102 KB
+- **the_gate_of_calais.jpg** — O the Roast Beef of Old England（'The Gate of Calais'）（油画），William Hogarth，1748，Tate（N01464）。
+  - 来源: https://commons.wikimedia.org/wiki/File:William_Hogarth_-_O_the_Roast_Beef_of_Old_England_(%27The_Gate_of_Calais%27)_-_Google_Art_Project.jpg；License: Public domain（Google Art Project）
+  - 落盘: 1800×1502px，655 KB
+- **the_painter_and_his_pug.jpg** — The Painter and his Pug（画家与他的哈巴狗，油画），William Hogarth，1745，Tate（N00112）。
+  - 来源: https://commons.wikimedia.org/wiki/File:The_Painter_and_His_Pug_by_William_Hogarth.jpg；License: Public domain
+  - 落盘: 1177×1536px，236 KB
+- **the_shrimp_girl.jpg** — The Shrimp Girl（卖虾女，油画），William Hogarth，c. 1740–45，The National Gallery, London（NG1162）。
+  - 来源: https://commons.wikimedia.org/wiki/File:William_Hogarth_-_The_Shrimp_Girl.jpg；License: Public domain
+  - 落盘: 1482×1800px，505 KB
+
+### mir_sayyid_ali — 米尔·赛义德·阿里（16 张；wave21 并入）
+- **bahram_gur_met.jpg** — 《巴赫拉姆·古尔一箭穿双驴》（《塔赫玛斯普列王纪》f.568r），Mir Sayyid Ali，约 1530–35，大都会艺术博物馆 1970.301.62。
+  - 来源: https://www.metmuseum.org/art/collection/search/452171；License: CC0（Open Access）
+  - 落盘: 1206×1800px，1004 KB
+- **elijah_bm.jpg** — 《伊利亚救努尔·阿德-达赫尔》（《哈姆扎纳马》散页），Mir Sayyid Ali，1564–79，大英博物馆 1925,0929,0.1。
+  - 来源: https://www.britishmuseum.org/collection/object/W_1925-0929-0-1；License: Public domain（PD-Art）
+  - 落盘: 1280×1682px，1023 KB
+- **emissaries_mak.jpg** — 《使者来报》（《哈姆扎纳马》卷一–五），Mir Sayyid Ali，约 1557–72，MAK 维也纳（应用艺术博物馆）BI 8770-2。
+  - 来源: https://sammlung.mak.at/sammlung_online?id=collect-194074；License: Public domain（PD-Art）
+  - 落盘: 1280×1762px，992 KB
+- **feridun_mak.jpg** — 《费里敦归信》（《哈姆扎纳马》卷一–五），Mir Sayyid Ali，约 1557–72，MAK 维也纳。
+  - 来源: https://commons.wikimedia.org/wiki/File:Feridun_Shah,_the_king_of_Greece,_converts_to_islam_and_marries_his_daughter_to_Hamza._From_the_Hamzanama.jpg；License: Public domain（PD-Art）
+  - 落盘: 1280×1608px，973 KB
+- **mahiya_zambur_harvard.jpg** — 《玛希亚释放藏布尔…》（《哈姆扎纳马》散页），Mir Sayyid Ali，约 1570，哈佛艺术博物馆 1941.292 verso。
+  - 来源: https://commons.wikimedia.org/wiki/File:Mahiya_frees_Zambur,_Beheads_his_sleeping_guards,_and_suspends_Gharrad_in_his_stead_Hamzanama,_Harvard_Art_Museum,_Cambridge.jpg；License: Public domain（PD-Art）
+  - 落盘: 1448×1800px，793 KB
+- **majnun_layla_bl.jpg** — 《老妇牵玛杰农至莱拉营帐》（《五卷诗》f.157v），Mir Sayyid Ali，1539–43，大英图书馆 Or. 2265。
+  - 来源: https://commons.wikimedia.org/wiki/File:Dil%C9%99n%C3%A7i_qar%C4%B1n%C4%B1n_M%C9%99cnunu_Leylini_qap%C4%B1s%C4%B1na_aparmas%C4%B1.JPG；License: Public domain
+  - 落盘: 1069×1800px，693 KB
+- **met_hamzanama_mihrdukht.jpg** — 《米赫杜赫特射环》（《哈姆扎纳马》），Mir Sayyid Ali，约 1570，大都会艺术博物馆 2022.170。
+  - 来源: https://www.metmuseum.org/art/collection/search/825583；License: CC0
+  - 落盘: 1414×1800px，754 KB
+- **met_hamzanama_night_attack.jpg** — 《阿萨德·伊本·卡里巴夜袭马利克·伊拉吉营地》（《哈姆扎纳马》），Mir Sayyid Ali，约 1564–69，大都会艺术博物馆 18.44.1。
+  - 来源: https://www.metmuseum.org/art/collection/search/447050；License: CC0
+  - 落盘: 900×1172px，289 KB
+- **met_hamzanama_spy_zambur.jpg** — 《间谍藏布尔携玛希亚入塔瓦里格城》（《哈姆扎纳马》），Mir Sayyid Ali，约 1570，大都会艺术博物馆 23.264.1。
+  - 来源: https://www.metmuseum.org/art/collection/search/447743；License: CC0
+  - 落盘: 1457×1800px，853 KB
+- **met_hamzanama_supplicant.jpg** — 《印度庙前的祈愿者》（《哈姆扎纳马》），Mir Sayyid Ali，约 1570，大都会艺术博物馆 2022.172。
+  - 来源: https://www.metmuseum.org/art/collection/search/825585；License: CC0
+  - 落盘: 1381×1800px，631 KB
+- **nighttime_in_a_city.jpg** — 《城中夜》（Nighttime in a City，可能为插图抄本散页），Mir Sayyid Ali，约 1540，哈佛艺术博物馆（Arthur M. Sackler Museum）1958.76。
+  - 来源: https://harvardartmuseums.org/collections/object/303390；License: Public domain（PD-Art）
+  - 落盘: 1280×1787px，1119 KB
+- **nomadic_encampment.jpg** — 《游牧营地》（Nomadic Encampment；与《城中夜》为对页双作），Mir Sayyid Ali，约 1540，哈佛艺术博物馆 1958.75。
+  - 来源: https://commons.wikimedia.org/wiki/File:Mir_Sayyid_Ali_1540.jpg；License: Public domain（PD-Art）
+  - 落盘: 1280×1790px，879 KB
+- **prince_page_bm.jpg** — 《王子与侍从》（A Prince and Page），Mir Sayyid Ali，约 1540–50，大英博物馆 1930,1112,0.1。
+  - 来源: https://www.britishmuseum.org/collection/object/W_1930-1112-0-1；License: Public domain（PD-Art）
+  - 落盘: 1274×1800px，840 KB
+- **school_scene_freer.jpg** — 《学堂场景》（A School Scene），Mir Sayyid Ali，约 1540，弗里尔美术馆（NMAA）S1986.221。
+  - 来源: https://asia.si.edu/object/S1986.221/；License: Public domain（PD-Art）
+  - 落盘: 1175×1800px，762 KB
+- **seated_youth_freer.jpg** — 《坐着的少年，手持一册（safina）》（Seated youth holding an album），Mir Sayyid Ali，约 1540，弗里尔美术馆 S1986.291。
+  - 来源: https://asia.si.edu/object/S1986.291/；License: Public domain（PD-Art）
+  - 落盘: 1280×1733px，665 KB
+- **self_portrait_lacma.jpg** — 《自画像（少年书吏）》（Young Scribe, Page from an Album），Mir Sayyid Ali，1555–56，洛杉矶郡艺术博物馆 M.90.141.1。
+  - 来源: https://collections.lacma.org/node/224717；License: Public domain（PD-Art）
+  - 落盘: 1200×1800px，914 KB
+
 ## 来源与许可口径
 
 - **Met Open Access（15 张）**：仅取 `isPublicDomain=true` 且 `primaryImage` 非空的对象；图像 = CC0 1.0。来源 URL 为 metmuseum.org 对象页（直链 images.metmuseum.org/...）。
@@ -2671,11 +3103,12 @@
 - **wave16 收口（turner / rembrandt / goya / bada_shanren / qi_baishi / ito_jakuchu，共 58 张）**：Wikimedia Commons 39（PD / CC0 / CC BY 3.0，逐张 `imageinfo` 核验）＋ Met Open Access 9（CC0）＋ Cleveland 1（CC0）＋ ColBase 9（日本国立文化財機構规约——须标注出典：「出典：ColBase」）。CC 类署名逐张记录（norham = 摄影 Sailko，CC BY 3.0；qi 摄影 2 件 CC BY-SA 4.0 / 1 件 CC BY 2.0）。**hopper 例外**：公开 0 / 私有 9（见「私有层例外」节）。
 - **wave15/17 并入（15 位新档，169 张；其中 13 位有公开图）**：来源通道 = Wikimedia Commons 158 张 ＋ 馆方直取 11 张（Lenbachhaus 2 / Met 8 / Cleveland 1；NGA、台北故宫、KMSKA 件经 Commons 转载）。许可分布：**PD 149 · CC0 17 · CC BY-SA 3.0/4.0 3**——CC 类署名逐张记录（le_pater = 翻拍 SiefkinDR，CC BY-SA 4.0；《蓝骑士》年鉴封面 = 摄影 Goesseln，CC BY-SA 3.0；德加《梳头》 = NGL 照片，CC BY-SA 4.0）。**kahlo / kngwarreye 公开 0**（全私有，见「私有层例外」节）。
 - **wave18/19/20 并入（22 位新档有公开图，345 张）**：来源通道 = Wikimedia Commons ＋ 馆方直取（Met / NPM 开放资料 / AIC / 京博等）；许可以 PD 为主，CC0 / CC BY 4.0（NPM 开放资料）/ CC BY-SA 类署名逐张记录；**namatjira / el_salahi / wu_guanzhong / okeeffe / rivera 公开 0**（全私有，见「私有层例外」节）。
+- **wave21 并入（5 位新档有公开图，105 张）**：来源通道 = Wikimedia Commons（逐件文件页核验；sher_gil 件按 PD-US-unpublished 理据逐张核）＋ 馆方直取（Met / 哈佛 / 大英 / MAK 维也纳 / LACMA / 弗里尔等）；许可以 PD / CC0 / PD-Art 为主，CC BY-SA 类署名逐张记录；**xu_beihong / li_keran / tarsila / de_chirico / rockwell 公开 0**（全私有，见「私有层例外」节）。
 - 统一后处理：LANCZOS 缩放至长边 ≤1800px，JPEG quality 88 progressive；无裁切、无加水印。
 
 ## 私有层例外（公开 / 私有分开记）
 
-> 口径：公开侧（本 manifest）只收 PD/开放许可图；「版权未清 / 研究副本 / 待核」材料存仓内私有层（`_private/`，永不提交、不公开分发）。以下为已收口画家中涉及私有层者（54 位 = 62 位收口范围 + wave21 已收口 10 位照实并入；私有张数 = 顶层图像文件数——按文件内容识别图像，含 `.hires`/`.raw` 等非常规扩展名；QA 产物（`_` 前缀 / 联系表）不计；明细以各自私有层登记为准）：
+> 口径：公开侧（本 manifest）只收 PD/开放许可图；「版权未清 / 研究副本 / 待核」材料存仓内私有层（`_private/`，永不提交、不公开分发）。以下为已收口画家中涉及私有层者（54 位 = 72 位收口范围中有私有件者；私有张数 = 顶层图像文件数——按文件内容识别图像，含 `.hires`/`.raw` 等非常规扩展名；QA 产物（`_` 前缀 / 联系表）不计；明细以各自私有层登记为准）：
 
 | 画家 | 公开 | 私有 | 说明 |
 |---|---|---|---|
@@ -2748,7 +3181,8 @@
 7. **wave16 收口批次补记（2026-10-16，IndexMerge / A-51）**：turner / rembrandt 两库无画家侧 MANIFEST，本表行目由主脑按档案 §9 [R22] 记录 + Commons 文件页逐张复核（含像素比对）后补全；goya / bada_shanren / qi_baishi / ito_jakuchu 由各画家侧 MANIFEST 合并；hopper 公开 0 张（全私有，见「私有层例外」节）。
 8. **wave15/17 并入批次补记（2026-10-16，IndexMerge2）**：15 位新档（wave15×8 + wave17×7）169 张公开图并入本表（13 位有公开图；kahlo / kngwarreye 全私有，仅见「私有层例外」节）；行目按各画家侧 MANIFEST 合并、逐张与磁盘核对（行数 = 磁盘实际）。私有层例外同步 +12 位 94 张（合计 18 位 126 张）。kandinsky 私有 11 件为 `.hires` 扩展名（JPEG 内容），按「顶层图像文件（内容识别）」口径计入。
 9. **wave18/19/20 并入批次补记（2026-10-16，IndexMerge3）**：27 位新档 345 张公开图并入本表（22 位有公开图；namatjira / el_salahi / wu_guanzhong / okeeffe / rivera 公开 0，仅见「私有层例外」节）；行目按各画家侧 MANIFEST 合并、逐张与磁盘核对（行数 = 磁盘实际）。私有层例外同步 +36 位 550 张（合计 54 位 676 张；含 wave21 已收口 10 位照实并入）。
-10. **未纳入（在产）**：wave21 十位（xu_beihong / li_keran / sher_gil / tarsila / chen_hongshou / xu_wei / hogarth / mir_sayyid_ali / de_chirico / rockwell）——已收口者照实并入（私有层例外节；主表随下轮；xu_wei 已落盘）；磁盘残留目录见核验脚本「未纳入」输出行。
+10. **wave21 并入批次补记（2026-10-16，IndexMerge4）**：10 位新档 105 张公开图并入本表（5 位有公开图：sher_gil 28 / chen_hongshou 18 / xu_wei 23 / hogarth 20 / mir_sayyid_ali 16；xu_beihong / li_keran / tarsila / de_chirico / rockwell 公开 0，仅见「私有层例外」节）；行目按各画家侧 MANIFEST 合并、逐张与磁盘核对（行数 = 磁盘实际）。
+11. **未纳入（在产）**：无（wave21 十位已随 IndexMerge4 并入，2026-10-16）。
 
 ---
 
