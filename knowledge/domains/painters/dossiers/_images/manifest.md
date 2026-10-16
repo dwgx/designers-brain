@@ -7,7 +7,8 @@
 > **wave15/17 并入**（2026-10-16，IndexMerge2）：并入 wave15×8 + wave17×7 共 15 位——新公开 169 张（mucha 12 / munch 13 / kandinsky 11 / velazquez 12 / bosch 10 / huang_gongwang 10 / behzad 12 / friedrich 12 / repin 10 / ravi_varma 17 / degas 13 / gauguin 20 / van_eyck 17；kahlo / kngwarreye 公开 0——全私有）＋ 私有层例外同步（+12 位 94 张）→ **现共 35 位画家 / 公开 273 张**（另有私有层例外 126 张——公开/私有分开记，见「私有层例外」节）。
 > **wave18/19/20 并入**（2026-10-16，IndexMerge3）：并入 wave18×7 + wave19×10 + wave20×10 共 27 位——新公开 345 张（hiroshige 18 / sargent 14 / piero 17 / artemisia 16 / fan_kuan 8 / sesshu 18 / constable 17 / poussin 13 / bruegel 20 / el_greco 17 / holbein 13 / aivazovsky 14 / zhao_mengfu 14 / ni_zan 13 / qiu_ying 17 / ogata_korin 19 / blake 18 / chardin 17 / manet 14 / sorolla 13 / zorn 19 / sultan_mohammed 16；namatjira / el_salahi / wu_guanzhong / okeeffe / rivera 公开 0——全私有）＋ 私有层例外同步（+36 位 550 张 → 54 位 676 张）→ **现共 62 位画家 / 公开 618 张**（另有私有层例外 676 张——公开/私有分开记，见「私有层例外」节）。
 > **wave21 并入**（2026-10-16，IndexMerge4）：并入 wave21×10 共 10 位——新公开 105 张（sher_gil 28 / chen_hongshou 18 / xu_wei 23 / hogarth 20 / mir_sayyid_ali 16；xu_beihong / li_keran / tarsila / de_chirico / rockwell 公开 0——全私有）→ **现共 72 位画家 / 公开 723 张**（另有私有层例外 676 张——公开/私有分开记，见「私有层例外」节）。
-> 单张长边 ≤1800px（满足「单张 ≤2000px 宽」）；公开侧总量约 405.5 MB（wave4 首轮目标 ≤100MB 为 11 位 ×3 张时口径；后续波次按各批 v2 规格「≥6 张/位、长边 ≤1800px」累计扩容）。
+> **wave22 并入**（2026-10-16，IndexMerge5）：并入 wave22×4 共 4 位——新公开 12 张（kitagawa_utamaro 12；lin_fengmian / lam / enwonwu 公开 0——全私有）＋ 私有层例外同步（+3 位 68 张 → 57 位 744 张）→ **现共 76 位画家 / 公开 735 张**（另有私有层例外 744 张——公开/私有分开记，见「私有层例外」节）。
+> 单张长边 ≤1800px（满足「单张 ≤2000px 宽」）；公开侧总量约 410.2 MB（wave4 首轮目标 ≤100MB 为 11 位 ×3 张时口径；后续波次按各批 v2 规格「≥6 张/位、长边 ≤1800px」累计扩容）。
 > 许可：全部为公有领域（PD）或开放许可（CC0 / CC BY-SA / CC BY / ColBase 规约）；CC 类署名逐张记录。
 > 目录结构：`_images/<artist>/<slug>.jpg`；本文件为唯一 manifest。
 
@@ -740,6 +741,19 @@
 | `mir_sayyid_ali/school_scene_freer.jpg` | 《学堂场景》（A School Scene） | Mir Sayyid Ali | 约 1540 | 弗里尔美术馆（NMAA）S1986.221 | https://asia.si.edu/object/S1986.221/ | Public domain（PD-Art） |
 | `mir_sayyid_ali/seated_youth_freer.jpg` | 《坐着的少年，手持一册（safina）》（Seated youth holding an album） | Mir Sayyid Ali | 约 1540 | 弗里尔美术馆 S1986.291 | https://asia.si.edu/object/S1986.291/ | Public domain（PD-Art） |
 | `mir_sayyid_ali/self_portrait_lacma.jpg` | 《自画像（少年书吏）》（Young Scribe, Page from an Album） | Mir Sayyid Ali | 1555–56 | 洛杉矶郡艺术博物馆 M.90.141.1 | https://collections.lacma.org/node/224717 | Public domain（PD-Art） |
+
+| `kitagawa_utamaro/ehon_mushi_erami_met.jpg` | 画本虫撰「馬追虫」（絵頁＋狂歌頁の見開き） | Kitagawa Utamaro | 原刊 1788；本版 possibly 1823 | The Met（57569, JIB44a） | https://www.metmuseum.org/art/collection/search/57569 | Public domain（Met OA, CC0） |
+| `kitagawa_utamaro/fujin_sogaku_juttai_uwaki.jpg` | 婦人相学十躰「浮気之相」（重要文化財） | Kitagawa Utamaro | 江戸・18世紀（c.1792–93） | 東京国立博物館 | https://colbase.nich.go.jp/collection_items/tnm/A-10569-542 | ColBase 利用規約（出典：ColBase） |
+| `kitagawa_utamaro/hari_shigoto_bm.jpg` | 針仕事（三枚続の左図） | Kitagawa Utamaro | c.1794–95 | 大英博物馆（BM） | https://commons.wikimedia.org/wiki/File:Utamaro_(c._1794–95)_Hari-shigoto_(left_of_3,_BM).jpg | Public domain |
+| `kitagawa_utamaro/monoomoi_koi_mfa.jpg` | 歌撰恋之部「物思恋」 | Kitagawa Utamaro | c.1793–94 | MFA Boston（21.6415） | https://commons.wikimedia.org/wiki/File:Utamaro_(1793–94)_Kasen_Koi_no_Bu_-_Mono-omoi_Koi_(MFA).jpg | Public domain |
+| `kitagawa_utamaro/musume_hidokei_uma.jpg` | 娘日時計「午ノ刻」（重要文化財） | Kitagawa Utamaro | 江戸・18世紀（c.1794） | 東京国立博物館 | https://colbase.nich.go.jp/collection_items/tnm/A-10569-519 | ColBase 利用規約（出典：ColBase） |
+| `kitagawa_utamaro/relaxing_after_bath_met.jpg` | 湯上り（Woman Relaxing after Her Bath） | Kitagawa Utamaro | 1790s | The Met（36623, JP144） | https://www.metmuseum.org/art/collection/search/36623 | Public domain（Met OA, CC0） |
+| `kitagawa_utamaro/sugatami_shichinin_kesho_mfa.jpg` | 姿見七人化粧（伝・難波屋おきた） | Kitagawa Utamaro | c.1792–93 | MFA Boston（21.6398） | https://commons.wikimedia.org/wiki/File:Utamaro_(c._1792–93)_Sugatami_Shichinin_Keshō_(MFA).jpg | Public domain |
+| `kitagawa_utamaro/takashima_ohisa_fan.jpg` | 団扇を持つ高島おひさ | Kitagawa Utamaro | 江戸・18世紀 | 東京国立博物館 | https://colbase.nich.go.jp/collection_items/tnm/A-10569-547 | ColBase 利用規約（出典：ColBase） |
+| `kitagawa_utamaro/toji_san_bijin_mfa.jpg` | 当時三美人 | Kitagawa Utamaro | c.1793 | MFA Boston（21.6382） | https://commons.wikimedia.org/wiki/File:Utamaro_(1793)_Three_Beauties_of_the_Present_Time,_MFAB_21.6382.jpg | Public domain |
+| `kitagawa_utamaro/toji_zensei_bijin_takigawa.jpg` | 当時全盛美人揃「瀧川」 | Kitagawa Utamaro | 寛政6年（1794） | 東京国立博物館 | https://colbase.nich.go.jp/collection_items/tnm/A-10569-512 | ColBase 利用規約（出典：ColBase） |
+| `kitagawa_utamaro/u_no_koku_bm.jpg` | 青楼十二時続「卯の刻」 | Kitagawa Utamaro | c.1795 | 大英博物馆（1954,0410,0.13） | https://commons.wikimedia.org/wiki/File:U_no_koku_(Hour_of_the_Hare)_(BM_1954,0410,0.13).jpg | Public domain |
+| `kitagawa_utamaro/yamauba_kintaro_kurieda.jpg` | 山姥と金太郎「栗枝持」 | Kitagawa Utamaro | 江戸・19世紀 | 東京国立博物館 | https://colbase.nich.go.jp/collection_items/tnm/A-10569-536 | ColBase 利用規約（出典：ColBase） |
 
 ## 逐张明细（尺寸 / 体积 / 备注）
 
@@ -3092,6 +3106,44 @@
   - 来源: https://collections.lacma.org/node/224717；License: Public domain（PD-Art）
   - 落盘: 1200×1800px，914 KB
 
+### kitagawa_utamaro — 喜多川歌麿（12 张；wave22 并入）
+- **ehon_mushi_erami_met.jpg** — 画本虫撰「馬追虫」（絵頁＋狂歌頁の見開き），Kitagawa Utamaro，原刊 1788；本版 possibly 1823，The Met（57569, JIB44a）。
+  - 来源: https://www.metmuseum.org/art/collection/search/57569；License: Public domain（Met OA, CC0）
+  - 落盘: 1800×1380px，419 KB
+- **fujin_sogaku_juttai_uwaki.jpg** — 婦人相学十躰「浮気之相」（重要文化財），Kitagawa Utamaro，江戸・18世紀（c.1792–93），東京国立博物館。
+  - 来源: https://colbase.nich.go.jp/collection_items/tnm/A-10569-542；License: ColBase 利用規約（出典：ColBase）
+  - 落盘: 1170×1800px，438 KB
+- **hari_shigoto_bm.jpg** — 針仕事（三枚続の左図），Kitagawa Utamaro，c.1794–95，大英博物馆（BM）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Utamaro_(c._1794–95)_Hari-shigoto_(left_of_3,_BM).jpg；License: Public domain
+  - 落盘: 1174×1800px，611 KB
+- **monoomoi_koi_mfa.jpg** — 歌撰恋之部「物思恋」，Kitagawa Utamaro，c.1793–94，MFA Boston（21.6415）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Utamaro_(1793–94)_Kasen_Koi_no_Bu_-_Mono-omoi_Koi_(MFA).jpg；License: Public domain
+  - 落盘: 1097×1600px，318 KB
+- **musume_hidokei_uma.jpg** — 娘日時計「午ノ刻」（重要文化財），Kitagawa Utamaro，江戸・18世紀（c.1794），東京国立博物館。
+  - 来源: https://colbase.nich.go.jp/collection_items/tnm/A-10569-519；License: ColBase 利用規約（出典：ColBase）
+  - 落盘: 1223×1800px，467 KB
+- **relaxing_after_bath_met.jpg** — 湯上り（Woman Relaxing after Her Bath），Kitagawa Utamaro，1790s，The Met（36623, JP144）。
+  - 来源: https://www.metmuseum.org/art/collection/search/36623；License: Public domain（Met OA, CC0）
+  - 落盘: 1175×1800px，421 KB
+- **sugatami_shichinin_kesho_mfa.jpg** — 姿見七人化粧（伝・難波屋おきた），Kitagawa Utamaro，c.1792–93，MFA Boston（21.6398）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Utamaro_(c._1792–93)_Sugatami_Shichinin_Keshō_(MFA).jpg；License: Public domain
+  - 落盘: 1068×1600px，262 KB
+- **takashima_ohisa_fan.jpg** — 団扇を持つ高島おひさ，Kitagawa Utamaro，江戸・18世紀，東京国立博物館。
+  - 来源: https://colbase.nich.go.jp/collection_items/tnm/A-10569-547；License: ColBase 利用規約（出典：ColBase）
+  - 落盘: 1245×1800px，482 KB
+- **toji_san_bijin_mfa.jpg** — 当時三美人，Kitagawa Utamaro，c.1793，MFA Boston（21.6382）。
+  - 来源: https://commons.wikimedia.org/wiki/File:Utamaro_(1793)_Three_Beauties_of_the_Present_Time,_MFAB_21.6382.jpg；License: Public domain
+  - 落盘: 960×1410px，299 KB
+- **toji_zensei_bijin_takigawa.jpg** — 当時全盛美人揃「瀧川」，Kitagawa Utamaro，寛政6年（1794），東京国立博物館。
+  - 来源: https://colbase.nich.go.jp/collection_items/tnm/A-10569-512；License: ColBase 利用規約（出典：ColBase）
+  - 落盘: 1191×1800px，503 KB
+- **u_no_koku_bm.jpg** — 青楼十二時続「卯の刻」，Kitagawa Utamaro，c.1795，大英博物馆（1954,0410,0.13）。
+  - 来源: https://commons.wikimedia.org/wiki/File:U_no_koku_(Hour_of_the_Hare)_(BM_1954,0410,0.13).jpg；License: Public domain
+  - 落盘: 1153×1600px，263 KB
+- **yamauba_kintaro_kurieda.jpg** — 山姥と金太郎「栗枝持」，Kitagawa Utamaro，江戸・19世紀，東京国立博物館。
+  - 来源: https://colbase.nich.go.jp/collection_items/tnm/A-10569-536；License: ColBase 利用規約（出典：ColBase）
+  - 落盘: 826×1800px，394 KB
+
 ## 来源与许可口径
 
 - **Met Open Access（15 张）**：仅取 `isPublicDomain=true` 且 `primaryImage` 非空的对象；图像 = CC0 1.0。来源 URL 为 metmuseum.org 对象页（直链 images.metmuseum.org/...）。
@@ -3104,11 +3156,12 @@
 - **wave15/17 并入（15 位新档，169 张；其中 13 位有公开图）**：来源通道 = Wikimedia Commons 158 张 ＋ 馆方直取 11 张（Lenbachhaus 2 / Met 8 / Cleveland 1；NGA、台北故宫、KMSKA 件经 Commons 转载）。许可分布：**PD 149 · CC0 17 · CC BY-SA 3.0/4.0 3**——CC 类署名逐张记录（le_pater = 翻拍 SiefkinDR，CC BY-SA 4.0；《蓝骑士》年鉴封面 = 摄影 Goesseln，CC BY-SA 3.0；德加《梳头》 = NGL 照片，CC BY-SA 4.0）。**kahlo / kngwarreye 公开 0**（全私有，见「私有层例外」节）。
 - **wave18/19/20 并入（22 位新档有公开图，345 张）**：来源通道 = Wikimedia Commons ＋ 馆方直取（Met / NPM 开放资料 / AIC / 京博等）；许可以 PD 为主，CC0 / CC BY 4.0（NPM 开放资料）/ CC BY-SA 类署名逐张记录；**namatjira / el_salahi / wu_guanzhong / okeeffe / rivera 公开 0**（全私有，见「私有层例外」节）。
 - **wave21 并入（5 位新档有公开图，105 张）**：来源通道 = Wikimedia Commons（逐件文件页核验；sher_gil 件按 PD-US-unpublished 理据逐张核）＋ 馆方直取（Met / 哈佛 / 大英 / MAK 维也纳 / LACMA / 弗里尔等）；许可以 PD / CC0 / PD-Art 为主，CC BY-SA 类署名逐张记录；**xu_beihong / li_keran / tarsila / de_chirico / rockwell 公开 0**（全私有，见「私有层例外」节）。
+- **wave22 并入（1 位新档有公开图，12 张）**：来源通道 = ColBase（東京国立博物館 5 张；规约利用＋出典标注）＋ Met Open Access 2（CC0）＋ Commons（MFA 3 / BM 2；PD）；**lin_fengmian / lam / enwonwu 公开 0**（全私有，见「私有层例外」节）。
 - 统一后处理：LANCZOS 缩放至长边 ≤1800px，JPEG quality 88 progressive；无裁切、无加水印。
 
 ## 私有层例外（公开 / 私有分开记）
 
-> 口径：公开侧（本 manifest）只收 PD/开放许可图；「版权未清 / 研究副本 / 待核」材料存仓内私有层（`_private/`，永不提交、不公开分发）。以下为已收口画家中涉及私有层者（54 位 = 72 位收口范围中有私有件者；私有张数 = 顶层图像文件数——按文件内容识别图像，含 `.hires`/`.raw` 等非常规扩展名；QA 产物（`_` 前缀 / 联系表）不计；明细以各自私有层登记为准）：
+> 口径：公开侧（本 manifest）只收 PD/开放许可图；「版权未清 / 研究副本 / 待核」材料存仓内私有层（`_private/`，永不提交、不公开分发）。以下为已收口画家中涉及私有层者（57 位 = 76 位收口范围中有私有件者；私有张数 = 顶层图像文件数——按文件内容识别图像，含 `.hires`/`.raw` 等非常规扩展名；QA 产物（`_` 前缀 / 联系表）不计；明细以各自私有层登记为准）：
 
 | 画家 | 公开 | 私有 | 说明 |
 |---|---|---|---|
@@ -3167,8 +3220,11 @@
 | mir_sayyid_ali | 16 | 8 | 高清研究副本 8 件（公开侧已存 ≤1800px 版） |
 | de_chirico | 0 | 25 | **全部版权未清**——公开侧 0 张；25 张（MoMA/Pompidou/Tate 研究件；联系表核验） |
 | rockwell | 0 | 29 | **全部版权未清**——公开侧 0 张；29 张（研究件） |
+| lin_fengmian | 0 | 31 | **全部版权未清**（1991 卒；中国 life+50 → 2041 前受保护）——公开侧 0 张；31 张（HKMA 场刊裁切/媒体图等研究件） |
+| lam | 0 | 16 | **全部版权未清**（© SDO Estate / ADAGP / ARS）——公开侧 0 张；16 张（作品图 8 + 照片/展厅图 6 + 同框图 2） |
+| enwonwu | 0 | 21 | **全部版权未清**（1994 卒；尼日利亚/英国 life+70 → 2064 前受保护）——公开侧 0 张；21 件（Tate Papers/基金会/拍卖图等研究件） |
 
-> 合计：私有层例外 **676 张**（54 位；含 hopper 9、kahlo 13、kngwarreye 14、namatjira 31、el_salahi 22、wu_guanzhong 25、okeeffe 16、rivera 14、xu_beihong 74、tarsila 56 等全私有）。私有层材料仅本机研究/临摹参考，公开仓不引用其路径；引用作品只给正常出处（馆藏页 / 文件页 URL）。
+> 合计：私有层例外 **744 张**（57 位；含 hopper 9、kahlo 13、kngwarreye 14、namatjira 31、el_salahi 22、wu_guanzhong 25、okeeffe 16、rivera 14、xu_beihong 74、tarsila 56、lin_fengmian 31、lam 16、enwonwu 21 等全私有）。私有层材料仅本机研究/临摹参考，公开仓不引用其路径；引用作品只给正常出处（馆藏页 / 文件页 URL）。
 
 ## 缺口与备注（不硬凑）
 
@@ -3182,7 +3238,8 @@
 8. **wave15/17 并入批次补记（2026-10-16，IndexMerge2）**：15 位新档（wave15×8 + wave17×7）169 张公开图并入本表（13 位有公开图；kahlo / kngwarreye 全私有，仅见「私有层例外」节）；行目按各画家侧 MANIFEST 合并、逐张与磁盘核对（行数 = 磁盘实际）。私有层例外同步 +12 位 94 张（合计 18 位 126 张）。kandinsky 私有 11 件为 `.hires` 扩展名（JPEG 内容），按「顶层图像文件（内容识别）」口径计入。
 9. **wave18/19/20 并入批次补记（2026-10-16，IndexMerge3）**：27 位新档 345 张公开图并入本表（22 位有公开图；namatjira / el_salahi / wu_guanzhong / okeeffe / rivera 公开 0，仅见「私有层例外」节）；行目按各画家侧 MANIFEST 合并、逐张与磁盘核对（行数 = 磁盘实际）。私有层例外同步 +36 位 550 张（合计 54 位 676 张；含 wave21 已收口 10 位照实并入）。
 10. **wave21 并入批次补记（2026-10-16，IndexMerge4）**：10 位新档 105 张公开图并入本表（5 位有公开图：sher_gil 28 / chen_hongshou 18 / xu_wei 23 / hogarth 20 / mir_sayyid_ali 16；xu_beihong / li_keran / tarsila / de_chirico / rockwell 公开 0，仅见「私有层例外」节）；行目按各画家侧 MANIFEST 合并、逐张与磁盘核对（行数 = 磁盘实际）。
-11. **未纳入（在产）**：无（wave21 十位已随 IndexMerge4 并入，2026-10-16）。
+11. **wave22 并入批次补记（2026-10-16，IndexMerge5）**：4 位新档 12 张公开图并入本表（1 位有公开图：kitagawa_utamaro 12；lin_fengmian / lam / enwonwu 公开 0，仅见「私有层例外」节）；行目按各画家侧 MANIFEST 合并、逐张与磁盘核对（行数 = 磁盘实际）。
+12. **未纳入（在产）**：无（wave22 四位已随 IndexMerge5 并入，2026-10-16）。
 
 ---
 
