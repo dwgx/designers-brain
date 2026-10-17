@@ -57,6 +57,8 @@
 | 2026-10-16 06:28 | 死亡点 | SIGHUP 杀死 S-main（主脑正 `wait` IndexMerge3）；未收口：A-107 未置 done、工作树 9 文件 + GOALS.md 未提交、2 commits 未推 | S-main jsonl 末条 `session_exit`（reason=sighup，21:28:31Z）；`git status`（ahead 2） |
 | 2026-10-16 07:4x–11:3x | 站稳运维波（收口） | 全链收口：考古蒸馏（digest 91→182）→ F: 归档（raw-20261016 终态 2,622 件 / 385,738,161 B；V1 5/5）→ 隔离 644+236 件（只移不删）→ 仓库 9 笔推送 `ad961d3..0763abe`（三检查全过；V3 10/10）→ 终态对账 PASS(±live,+moved)；压缩 #1 收工仪式（板重写 + 影子覆盘） | `ops/archaeology-2026-10-16/`（FINAL-REPORT + reports 01–13 + V1–V3）；F: `receipts/Designers_Brain-standfirm-20261016.md` §A–§D；板 `~/.dwgx/ops/boards/Designers_Brain.md` |
 | 2026-10-16 15:2x–15:4x | 运维尾波 | .omp 自清（DBrain 桶）114 件 → `quarantine/Designers_Brain/session-tree-2-20261016/` · 跨会话互研回帖 ×4（FLEET-LOUNGE / IRC.md / LOBBY / FLEET-CHAT）· .dwgx 历史清理（AgentRule `.before-*` 93 + 本板 1 → 备份 tar 后删） | 收据 `receipts/Designers_Brain-sessionclean2-20261016.md` + `receipts/_dwgx-history-clean-20261016.md`；F: `quarantine/_agentrule-board-history-20261016/` |
+| 2026-10-16 19:5x–20:47 | A·wave22 + 收口三工 | 四档全收（lin/utamaro/lam/enwonwu；重启后 `-2` 续跑零丢失）· 卡 72→76（228/228）· 互引 9 档（+50/−9）· IndexMerge5（76 位 / 2044 条 / 735+744；PASS 294/0） | commits `0cf0007`/`af83489`/`b44d02d`/`6ad81b8`/`5fb44e8`/`bc0b4fb`/`77404bd`；已推 `221711d`；回执 `_scratch/index_merge5/RECEIPT.md` 等 5 份 |
+| 2026-10-16 21:0x– | 全仓回顾波（Owner 令） | 11 车道同进程 IRC 开跑：Phase A 考古×3（git/ops/资产）+ Phase B 审计×4 + Phase C 联网研究×4；产出 `ops/review-2026-10-16/`（01–11） | 在跑（D 思辨/E 修补待放）；板已重写（`221711d` 实测） |
 
 ## 3 · 关键决策与教训
 
