@@ -425,7 +425,7 @@ checks=126 ok=126 fail=0   # 42 卡 × §8.1/§8.2/§4 逐字比对（xu_wei 未
 ```
 ① dossiers/xu_wei.md                    364 行 / 50.9 KB（v2 全节 + 自审四段）
 ② dossiers/_corpus/xu_wei.md            29 条 / 19.3 KB
-③ dossiers/_images/xu_wei/              23 张 + MANIFEST.md（22 张 PD + 4 张 CC BY-SA 中的 4 张，总 ≈6.4 MB）
+③ dossiers/_images/xu_wei/              23 张 + MANIFEST.md（19 张 PD + 4 张 CC BY-SA = 23 张【更正 2026-11-16 · F14：原「22 张 PD + 4 张 CC BY-SA 中的 4 张」计数口径错误，实测以 MANIFEST 逐行 License 列为准】，总 ≈6.4 MB）
 ④ _private/INVENTORY_xu_wei.md          + 馆方网页图 6 件（仅内部研究）
 ```
 

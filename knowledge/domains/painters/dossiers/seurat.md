@@ -76,6 +76,7 @@
 - **不可混同「印象派笔触」**：修拉的表面不是印象派的松散逗号笔触，是预先设计的点/短线系统。NGL：'Although Seurat was often drawn to similar subjects and sites as the Impressionists… his treatment was radically different… executed in the studio… meticulously planned.'；Met：'renounced the random spontaneity of Impressionism in favor of a measured painting technique grounded in science and the study of optics.'
 - **重叠区与处置（供组合预检）**：两者共享「现代生活题材 + 补色理论」。预期轴表：**表面/笔触轴**——莫奈=逗号笔触（长 4–12 px、覆盖 90–100%）vs 修拉=点阵（点径 2–5 px、覆盖 ≥85%）：同轴不可叠加，二选一或分区；**深度/色轴**——莫奈=大气包络（远景对比 ≤60%）vs 修拉=系统性补色对 + 对比/晕：取值口径不同，组合时写死取值。最终以 `conflicts.md` 为准。
 - 历史注脚（不改口径）：修拉自承「曾被莫奈与毕沙罗的**直觉**击中」（Fénéon 信）——**方法上是两条路线**：一条靠直觉与速度，一条靠系统与多阶段。
+- 【单侧登记 2026-11-16 · coordinator ruling F21】上格「重叠区与处置」的 修拉×莫奈 分工/轴表为**修拉侧单侧登记·莫奈侧未确认**：`monet.md` 现无「vs 修拉」镜像条款（grep 实测 0 命中，2026-11-16）；不虚构莫奈侧确认，待 monet 侧修订时补录镜像后升双侧。`[归纳]`，可被组合实验推翻。
 
 ---
 
@@ -156,6 +157,7 @@
 - **M.-E. Chevreul**（同时对比/补色法则）、**Ogden Rood《Modern Chromatics》**（1881 年购入，次日读毕；促其弃土色系）、**David Sutter**（1880 年 L'Art 文；Brest 服役期间阅读）、**Charles Henry**（1880 年代讲座与《Cercle chromatique》；线条情绪论——但 Met 目录考证：其线条观实经 Blanc/Humbert，Henry 的作用被夸大）[自述+研究]。
 - **Puvis de Chavannes**（壁画尺度/浅色/几何构图；曾求教）、**Piero della Francesca**（形体/浅肤色，NGL 观点）、**Ingres 传统**（经 Lehmann 画室；素描训练）、**Corot**（调子观念）、**Couture**（色相微妙论）[研究: NGL/Met 目录/The Art Story]。
 - **早年临摹**：Holbein、Poussin、Raphael（1874 起）[研究: The Art Story]。
+  - 【单侧注记 2026-11-16 · coordinator ruling F21】上格「早年临摹：Holbein、Poussin、Raphael」中的 **Poussin 镜像未找到**：`poussin.md` 无对修拉的对应记载（单侧标注；不向 `poussin.md`/`da_vinci.md`/`michelangelo.md`/`conflicts.md` 回填，0 行保持诚实）。Holbein/Raphael 侧未核查、维持原文。
 
 **谁学过他（输出方向）**
 - **Paul Signac**：被其点彩「决定性征服」；继承「分割主义」旗帜，著《D'Eugène Delacroix au néo-impressionnisme》（1899）——把修拉的方法论推向国际 [研究: Met essay/目录]。

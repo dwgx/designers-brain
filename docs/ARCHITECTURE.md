@@ -108,7 +108,7 @@ This repo is **operated by AI agents**; the ops layer is first-class:
 - `ops/GOALS.md` — single source of truth for work state (every item: status / goal / artifact path / owner + acceptance line).
 - `ops/OPS-LOG.md` — append-only: channel status, incidents, lessons, authorization records.
 - **The LOOP**: take goal → deep research → land artifacts (evidence-graded) → self-review → main-brain acceptance → queue new leads. Detailed in `docs/WORKFLOW.md`; hard rules in `docs/PROTOCOLS.md`.
-- Machine-level dispatch boards live outside the repo (`~/.dwgx/ops/boards/`) — a board is a snapshot, never a source of truth.
+- Machine-level dispatch boards live outside the repo (an external, owner-local ops workspace; the convention historically used `~/.dwgx/ops/boards/`) — a board is a snapshot, never a source of truth. *(2026-11-16 G7-S3: home-relative locator generalized to a portable description; the concrete location is deployment-specific and is not part of the public contract.)*
 
 ## 7. Docs & i18n
 

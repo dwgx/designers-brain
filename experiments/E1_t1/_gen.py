@@ -26,7 +26,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CELLS_DIR = os.path.join(HERE, "cells")
 PILOT_DIR = os.path.join(HERE, "_pilot")
 
-ENDPOINT = "http://192.168.11.4:3000/v1/images/generations"
+ENDPOINT = os.environ.get("IMAGE_GEN_ENDPOINT", "")  # 2026-11-16 G7-S4 sanitize：原稿写死私网 endpoint（git 历史保留原值）；现要求经环境变量显式配置，未配置则启动即报错
 MODEL = "grok-imagine-image-2.0"
 SIZE = "1024x1536"
 N_PER_CELL = 3
@@ -39,16 +39,14 @@ _OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
 
 def load_key():
-    key = (os.environ.get("BUDDYFARM_API_KEY") or "").strip()
+    # 2026-11-16 G7-S4 sanitize：原稿在环境变量缺失时回退读取特定用户的凭据文件（绝对路径，git 历史保留原值）——已移除；
+    # 现仅接受环境变量 IMAGE_GEN_API_KEY（API key 属运行时秘密，不入库）。
+    key = (os.environ.get("IMAGE_GEN_API_KEY") or "").strip()
     if key:
         return key
-    env_path = r"C:\Users\dwgx1\.omp\agent\.env"
-    with open(env_path, encoding="utf-8") as fh:
-        for line in fh:
-            line = line.strip()
-            if line.startswith("BUDDYFARM_API_KEY="):
-                return line.split("=", 1)[1].strip()
-    raise SystemExit("FATAL: BUDDYFARM_API_KEY not found")
+    raise SystemExit(
+        "FATAL: IMAGE_GEN_API_KEY not set (IMAGE_GEN_ENDPOINT must also be set explicitly); "
+        "no credential-file fallback (removed 2026-11-16, G7-S4)")
 
 
 def post_json(body_str, key):

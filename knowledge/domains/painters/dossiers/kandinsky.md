@@ -147,7 +147,7 @@
 7. **「蓝越深，越召唤人走向无限」（1912）**
    原文（德）："Je tiefer das Blau wird, desto mehr ruft es den Menschen in das Unendliche, weckt in ihm die Sehnsucht nach Reinem und schließlich Übersinnlichem."
    中译：蓝色越深，就越把人唤向无限，在他心中唤醒对纯净、乃至超感官之物的渴望。
-   出处：[R6]（逐字核过）；英译对照 [R5]。
+   出处：[R6]（逐字核过）；英译对照 [R5]——【更正注记 2026-11-16 · coordinator ruling F17】[R5]（PG #5321）内**未找到该英译逐字锚点**（实际蓝段措辞不同；Sadleir 题名页 vs Sadler 元数据拼写两存），EN 句降标为 **reported/译文**（未找到逐字原文锚点，已查 PG#5321），不重锚到其他段落；德文原句 PG #46203 逐字核过不受影响。
    性质：`[自述]`。
 8. **「圆是最大对立的综合」（c. 1926，致 Grohmann）**
    原文（英译）："The circle is the synthesis of the greatest oppositions. It combines the concentric and the eccentric in a single form, and in balance. Of the three primary forms (triangle, square, circle), it points most clearly to the fourth dimension."

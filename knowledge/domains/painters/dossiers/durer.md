@@ -202,6 +202,11 @@ hourglass, bell, magic square) when the theme is allegorical
 - 强度旋钮：P1 排线密度（默认 70%，拉满 90% 得「大师版画」级暗部；降到 30% 得素描感）；P3 轮廓硬度（默认 85%；降档可对接达芬奇的柔和明暗轴）；P4 细节密度（自然研究 90%、叙事 55%）。
 - 退化处理：模型给出「照片感」→ 追加 `engraving lines only, no photographic texture`；给出「数码灰渐变」→ 追加 `no grey fill, tone built from line density only`；给出「软边油画」→ 追加 `hard engraved contour, no soft edges`；给出「等宽线稿」→ 追加 `lines swell and taper, varied line weight`。
 - **与北斋模块的分工（必读）**：`hokusai.md` §8.1 的 `--no hatching/crosshatching` 是其模块的生成护栏；本模块**正相反**——排线是主机制。两模块可同屏组合（丢勒出排线明暗的体块与背景，北斋出等宽线剪影的主体），但**不可互换主风格**；混用时必须指定「谁管形状、谁管密度」，否则两条线语言互相取消。`[研究]`（`expansion.md` §1.6 / §4.3）
+> 【裁决注记 2026-11-16 · coordinator ruling F05-A（prohibition wins）· PROVISIONAL】
+> 原文（保留，不删除）：上段「两模块可同屏组合…混用时必须指定『谁管形状、谁管密度』」（`[研究]`）。
+> 状态：该段为 C-07 落地前的旧 prose，已被 `knowledge/cross/conflicts.md` C-07 取代——C-07 判 硬·二选一（两模块表面着色系统互斥，同帧组合被禁止；拼接式组合被明确禁止）。`expansion.md` §1.6/§4.3 的「同屏分工」读法为历史 authority，已被 C-07/N3 supersede；其引用保留仅作历史出处。
+> 依据：staging/MAIN-RULINGS/20261116-integration-ab-rulings.md（sha256 da27e0728c5f933d…）F05 行 + conflicts.md C-07/§5-D L417 根因④；图像通道 DOWN，E2d 渲染不存在，禁令维持。
+> 口径/等级：原文 `[研究]` 等级原样保留；无新增实测证据，无 claim 升级。
 
 ### 8.2 代码艺术模块（8 条可判定规则，逐帧可自查）
 

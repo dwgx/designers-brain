@@ -13,7 +13,7 @@ Give this repository to an AI agent and it becomes a design consultant: it asks 
 
 Inside:
 
-- **76 painter dossiers** (da Vinci, Michelangelo, Van Gogh, Monet, Picasso, Cézanne, Matisse, Hokusai, Caravaggio, Vermeer, Dürer, …) — ~300–600 lines of evidence each, 2044 sourced quotes, 735 sourced artworks: **697 public-domain/CC0 images + 38 openly licensed images that carry per-image attribution requirements** (see [NOTICE.md](NOTICE.md)). *(PRE-milestone counts, kept for the record: 62 dossiers / 1613 quotes / 618 images — the image total was previously described as uniformly public-domain, which is not accurate for 38 of the 735.)*
+- **76 painter dossiers** (da Vinci, Michelangelo, Van Gogh, Monet, Picasso, Cézanne, Matisse, Hokusai, Caravaggio, Vermeer, Dürer, …) — ~300–600 lines of evidence each, 2044 sourced quotes, 739 sourced artworks: **701 public-domain/CC0 images + 38 openly licensed images that carry per-image attribution requirements** (see [NOTICE.md](NOTICE.md)). *(PRE-milestone counts, kept for the record: 62 dossiers / 1613 quotes / 618 images — the image total was previously described as uniformly public-domain, which is not accurate for 38 of the 739.)*
 - **76 composable module cards** + **15 motion-graphics style cards** (10-second animation skeletons). *(PRE: 62 cards.)*
 - **Cross-module rules**: 18 conflict entries (C-01–C-18) + composition rules N1–N9.
 - **A skill** (`skills/designers-brain/`) implementing the ask-first consultant protocol.
@@ -82,4 +82,4 @@ templates/    module / style-card / determinism / design-brief templates
 
 Content & docs: [CC BY 4.0](LICENSE). Code: [MIT](LICENSE-CODE). Third-party: see [NOTICE.md](NOTICE.md).
 
-Image licensing is **not** uniform: of the 735 sourced artworks, 697 are public-domain or CC0, and 38 are openly licensed (CC BY 3.0/4.0, CC BY-SA 3.0/4.0, ColBase terms, NPM open data) and **must keep their per-image credit lines** when redistributed. Categories and attribution requirements: [NOTICE.md](NOTICE.md#images-not-pdcc0-38).
+Image licensing is **not** uniform: of the 739 sourced artworks, 701 are public-domain or CC0, and 38 are openly licensed (CC BY 3.0/4.0, CC BY-SA 3.0/4.0, ColBase terms, NPM open data) and **must keep their per-image credit lines** when redistributed. Categories and attribution requirements: [NOTICE.md](NOTICE.md#images-not-pdcc0-38).

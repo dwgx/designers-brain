@@ -86,7 +86,7 @@ photographic detail, crisp vector edges, studio lighting, neon saturation,
 组合前先读 `knowledge/cross/conflicts.md` 对应条目（处置口径以该文件为准；通用规则见其 §3 N1–N9）：
 
 - **C-05**（× 达·芬奇；本卡 §8.2-1）：笔触可见度（90–100% 覆盖 vs 只有渐变）
-- **C-06**（× 马蒂斯；本卡 §8.2-3，同侧旁证组）：饱和度（每块 ≥70% vs 全帧 ≤35%）
+- **C-06**（× 马蒂斯；本卡 §8.2-3，同侧旁证组）：饱和度（每块 ≥70% vs 全帧均值型上限组：本卡 ≤0.65 / 达·芬奇 HSV ≤0.35 / 毕加索 HSL ≤0.35 / 米开朗基罗 ≤0.5——分述阈值不混同；2026-11-16 F04-D4 色空间标注）
 - **C-10**（× 塞尚；本卡 §4 P3 + §8.2-4）：深度衰减（大气包络 vs 反大气透视）
 - **C-14**（× Lane B 06/07/13 卡反约束；本卡 §8.2-4）：渐变（禁令 vs 雾色渐变）
 - **near-miss（conflicts.md §4 表）**：#4（饱和度上限组 → 取 ≤0.35）
@@ -94,5 +94,5 @@ photographic detail, crisp vector edges, studio lighting, neon saturation,
 ## 来源
 
 - 档案（唯一正本）：`knowledge/domains/painters/dossiers/monet.md` —— 本卡抽取自其 §1（浓缩 5 条）、§8.1、§8.2、§4
-- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 8 对）
+- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 11 对；#9–11 为 2026-10-16 补，2026-11-16 F01 计数更正）
 - 模块库说明：`knowledge/domains/painters/modules/README.md`

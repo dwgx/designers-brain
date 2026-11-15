@@ -68,7 +68,7 @@ cluttered micro-detail, symmetrical centred layout, crosshatching
 
 组合前先读 `knowledge/cross/conflicts.md` 对应条目（处置口径以该文件为准；通用规则见其 §3 N1–N9）：
 
-- **C-06**（× 毕加索 / 达·芬奇 / 莫奈；本卡 §4 P1 + §8.2-1）：饱和度（每块 ≥70% vs 全帧 ≤35%）
+- **C-06**（× 毕加索 / 达·芬奇 / 莫奈 / 米开朗基罗；本卡 §4 P1 + §8.2-1）：饱和度（每块 ≥70% vs 全帧均值 ≤35%）
 - **C-15**（× Lane B 色数上限（克里姆特类缺口）；本卡 §4 P4 边界注 + §8.2-8）：色数计数口径（≤3 色 vs 金属/金箔层）
 - **C-16**（× Lane B 02 卡反约束；本卡 §8.2-1/-2）：反约束适用域（「没有高光的平涂」误伤平涂系）
 - **C-17**（× 米开朗基罗；本卡 §8.2-5）：负空间（≥20% vs ≤15%）
@@ -77,5 +77,5 @@ cluttered micro-detail, symmetrical centred layout, crosshatching
 ## 来源
 
 - 档案（唯一正本）：`knowledge/domains/painters/dossiers/matisse.md` —— 本卡抽取自其 §1（浓缩 5 条）、§8.1、§8.2、§4
-- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 8 对）
+- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 11 对；#9–11 为 2026-10-16 补，2026-11-16 F01 计数更正）
 - 模块库说明：`knowledge/domains/painters/modules/README.md`

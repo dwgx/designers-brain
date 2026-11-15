@@ -103,5 +103,5 @@ field, text, watermark
 ## 来源
 
 - 档案（唯一正本）：`knowledge/domains/painters/dossiers/turner.md` —— 本卡抽取自其 §1（浓缩 5 条）、§8.1、§8.2、§4
-- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 8 对）
+- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 11 对；#9–11 为 2026-10-16 补，2026-11-16 F01 计数更正）
 - 模块库说明：`knowledge/domains/painters/modules/README.md`

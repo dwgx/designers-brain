@@ -4,7 +4,7 @@ English · [中文](i18n/zh-CN/ROADMAP.md) · [日本語](i18n/ja/ROADMAP.md)
 
 ## Where we are — PRE milestone (2026-10)
 
-- **Domain #1 — painters**: 62 dossiers (~300–600 lines each) + 1613 sourced quotes + 618 PD artworks + 62 composable module cards (186/186 verbatim checks).
+- **Domain #1 — painters**: 76 dossiers (~300–600 lines each) + 2044 sourced quotes + 739 sourced artworks (**701 public-domain/CC0 + 38 openly licensed, attribution per image** — see [`NOTICE.md`](../NOTICE.md#images-not-pdcc0-38)) + 76 composable module cards (228/228 verbatim checks). *(PRE-milestone figures kept for the record: 62 dossiers / 1613 quotes / 618 images — the 618 were previously described as all PD, which is wrong for 38 of them / 62 cards / 186 checks.)*【测量对齐注记 2026-11-16 · H4CandidatePrep】本行沿用 source@f008952 既定文案，其 735/697 为 wave23 补足 4 张（klimt ×3、turner ×1）落地前的快照漂移；候选树实测 images=739 / PD+CC0=701 / open=38（tools/check_library_counts.py），按 Main S16 ruling 对齐为 739/701；checker 常量未改。
 - **Domain #2 — motion graphics**: 15 style cards distilled from `mg-styles-15` (MIT) + origin transcript + reference pipelines (HTML / Blender).
 - **Skill**: `designers-brain` v0.2 — built, activated (junctions + packaging), RED-GREEN blind test PASS, full walkthrough (café identity, 3 directions) with gate file and independent review.
 - **Experiments**: style-separation 7/7 resolved (`E1_t1b/c`), composition batch 9/9 (`E2_t1`), three end-to-end animation pipelines verified (web ×2, Blender ×1).
