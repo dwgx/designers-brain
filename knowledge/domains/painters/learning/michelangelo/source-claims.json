@@ -1,0 +1,381 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-michelangelo",
+  "source_receipt_sha256": "3a6ec80aa0a7653b1caf249d0f63d5966d91a278b18b70c0b9f2124d9f2036a2",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "CLM-INP-01",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "fulltext sha256 = 9b50095e…a3d3ab1a2044",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "9b50095e54c09d8acdde0e237ab6e92df159a62512061bddbd50a3d3ab1a2044",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "fulltext sha256 = 45ee9cef…f6e8eca83a",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "fulltext sha256 = 9a8888a5…1761bd8fee",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "9a8888a58a68966a3ccfb115078bb7abc3dbc4133e488105f0fe0e1761bd8fee",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "fulltext sha256 = 314a24da…aabbef",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-INP-02",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d6ae4b7fbeb246d7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "addba704902df4da8070b7bad0858998b7d5c2d7a12e7c4fb74d1c33450b4ead",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-M1-hard-edge",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L176 §8.2-3 硬边阴影 ≤ 画面短边 0.6%",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L81 §8.2-3（原样）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9b50095e54c09d8acdde0e237ab6e92df159a62512061bddbd50a3d3ab1a2044",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L33 总表 / L71-83 C-02 逐条",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-M2-density",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L177 §8.2-4 主体 ≥55% / 连续空白 ≤15%",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L48 总表 / L272-283 C-17 逐条",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-M3-relief",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L68 §4 浮雕强度 强档 凿出/硬边投影 默认 65%",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L93 §4 原样",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9b50095e54c09d8acdde0e237ab6e92df159a62512061bddbd50a3d3ab1a2044",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L49 总表 / L285-296 C-18 逐条",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-C01",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L32 总表 / L55-69 §2 C-01（覆盖级·解法 半影宽度+显式声明）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1cfa8bb26073b28f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6549beec4bcb2e71fbce4f1f85c0a5ada26d6e8930d64346f073e50940d5204f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-C02",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L33 总表 / L71-83 §2 C-02 / L311-312 N3 轴所有权",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:0c5310402c2a53c8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6549beec4bcb2e71fbce4f1f85c0a5ada26d6e8930d64346f073e50940d5204f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-C17",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L48 总表 / L272-283 §2 C-17（空白 vs 留白 定义对齐）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:37c8963057e670a4",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6549beec4bcb2e71fbce4f1f85c0a5ada26d6e8930d64346f073e50940d5204f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-C18",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L49 总表 / L285-296 §2 C-18（退化级·分对象拆分+主体掩膜+≥70%面积）/ L314-315 N4",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:a3cfd268db52378f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6549beec4bcb2e71fbce4f1f85c0a5ada26d6e8930d64346f073e50940d5204f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-LADDER",
+      "claim_kind": "design_candidate",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L338,343,348,353,368 §12.1/12.2/12.3/12.4/12.7 既有练习骨架",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "01-AUDIT.md",
+          "version": null,
+          "locator": "L273 练习为建议练习、不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-SUGGESTED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md",
+          "version": null,
+          "locator": "L273 §8.1 A-30 验收口径",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md",
+          "version": null,
+          "locator": "L24 落实 A-30；不把草案/模型分算实验通过",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-SELFSTMT",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L9-15 致 Varchi 信 / L17-23 减法 / L25-39 Rime 151·152 / L173-179 信 CDXXXV [self-written]",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9a8888a58a68966a3ccfb115078bb7abc3dbc4133e488105f0fe0e1761bd8fee",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L54-56 §3-2/3、L83-85 §5-2、L43-45 §2-6/7 [自述]",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "00-GOAL.md",
+          "version": null,
+          "locator": "L9 How to Think 必须区分作者可核实自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L32 §1-10 未完成面是历史状态、不等于刻意 non-finito 美学",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-UNV",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:2565a9dca1c7de53",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c3318ce7650e5bd50b9dedb8a53ca085a9b7cb27976efca822531eef4c1210ff",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:c35b006c6db3e724",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "addba704902df4da8070b7bad0858998b7d5c2d7a12e7c4fb74d1c33450b4ead",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM-OVERTURN",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b3c156bb15c0ea9f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6549beec4bcb2e71fbce4f1f85c0a5ada26d6e8930d64346f073e50940d5204f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L281 §11.9 1512-10-31 揭幕（采用年表）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

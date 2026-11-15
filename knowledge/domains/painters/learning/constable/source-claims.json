@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-constable",
+  "source_receipt_sha256": "9280b1ee842650494970c05259edec30c0187f58b49cd8147b76c4ab48d9348b",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LC-INTERLOCK-L8L83",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/friedrich.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L8 顶部口径写死『vs 康斯泰勃尔＝忠实观察 vs 精神化』且『两条主分工轴不得混用』；L83 §3.1 第二条款四判据：① 地点忠实度 ② 象征元素计数 ③ 天空角色 ④ 人物；L86『不借康斯泰勃尔的云写生系统』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a8c7e4b427da4109822efdc60faa8c3320e0edb5558137e90b7daf8d833e9149",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L94 四判据逐条同轴同侧（康=观察侧 / 弗=精神化侧）、L95 互查记录 2026-10-16 一致、L96 边界注『象征由自然物承载』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ea5eb512c68f145f547f0f7326bb77c92c9e13beb66e0faac87b56611d985085",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1f013c25176afdfe",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6e8d6a697a9d678ac32a57990973cfe852b5f65ca5b49a481637a94affb8d9ba",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-SIX-FOOTER-MECHANISM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "Q13 [self-written]：『I do not consider myself at work unless I am before a six-foot canvas』+『I have done a good deal of skying』",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "5bc87388bc3116676ff55e3ca75da6c0b325a1a56347463e351bc06fdac1ba51",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§2-3 L54 等大稿 V&A 987-1900 / 12 组成对 + 第 13 件无对；§1-10 L44 速写与完成作两档；§6.2 L148 写生库→画室建构骨架",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ea5eb512c68f145f547f0f7326bb77c92c9e13beb66e0faac87b56611d985085",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:b169e21496eff152",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5f2c737af701c96fca02b536471cbb02c94e59a05a67cf58ab418e616c1a2777",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-SKYING-CLOUD-STUDY",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§2-2 L53 1821–22 汉普斯特德 skying / 背面题记（Sepr. 5. 1822…）/ Luke Howard 云分类 + Forster 1815 批注；§12-10 L394-397 云研究三张 V&A 590/784/240-1888",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ea5eb512c68f145f547f0f7326bb77c92c9e13beb66e0faac87b56611d985085",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:27499b23bea6ed32",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6e8d6a697a9d678ac32a57990973cfe852b5f65ca5b49a481637a94affb8d9ba",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-CONSTABLES-SNOW",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1-2 L36『康斯泰勃尔之雪』=树叶/树篱细小白色点亮斑（[史料] Westmacott 1823『sleet or snow』/1831『glittering white speckly effects』/Times『whitewash』）；§2-5 L56 tiny dabs of white paint；§8.1 正向段 L182 直接写入 prompt；§8.2-2 L204 可判定面 V≥0.9 / 直径 0.05–0.6% / ≥15",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ea5eb512c68f145f547f0f7326bb77c92c9e13beb66e0faac87b56611d985085",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:11e3758a71c48191",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5f2c737af701c96fca02b536471cbb02c94e59a05a67cf58ab418e616c1a2777",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-RIGHTS-16PD-1CC0",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:a0f159ae12b37e4d",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f9dee457e81973476abfd30f75bf8cd9b179d5b6b4e1a01af7590235e2f76245",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:549b62e059437769",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6e8d6a697a9d678ac32a57990973cfe852b5f65ca5b49a481637a94affb8d9ba",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_images/constable/MANIFEST.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "总表 17 行 + 逐张 sha256(前16) 17 行 + 核验记录节",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4997cccafc332459696c6cf31f82c037aaf5ade04b25ec43dec579bfe7394e00",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-CX1-KNOWN-OPEN",
+      "claim_kind": "model_judgment",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:defca660cdda2846",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5b729263ff4c01387eede2179d1ee227fdae5525784f71ee6d93e55876c1672f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:2c087795ba42c953",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9432541599b1bf926b61913f1eb478a81d84be8054882407d7e32668ff596b4e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-DRIFT-KNOWN-OPEN",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:868fcc0cc18623fa",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6e8d6a697a9d678ac32a57990973cfe852b5f65ca5b49a481637a94affb8d9ba",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:fcb8699f9f3e3f26",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9432541599b1bf926b61913f1eb478a81d84be8054882407d7e32668ff596b4e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-DENOM-13-VS-36",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b401fdc4b1347f8c",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6e8d6a697a9d678ac32a57990973cfe852b5f65ca5b49a481637a94affb8d9ba",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§统计 L277 = 36；类型分布 self-written 22 / inscription 7 / reported 3 / contemporary 2 / later 2",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5bc87388bc3116676ff55e3ca75da6c0b325a1a56347463e351bc06fdac1ba51",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-THRESHOLD-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 末注 L212 / §10-7：全部阈值为 [归纳]，未对原作做像素测量（分母＝假想参考帧）；§4 表头 L103 / card L54 同",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ea5eb512c68f145f547f0f7326bb77c92c9e13beb66e0faac87b56611d985085",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:264548df2e5a5ad9",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5f2c737af701c96fca02b536471cbb02c94e59a05a67cf58ab418e616c1a2777",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-TURNER-MONET-PARTIAL",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:67c79fb65baf4cd7",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6e8d6a697a9d678ac32a57990973cfe852b5f65ca5b49a481637a94affb8d9ba",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-EXTERNAL-ACCEPTED-BASIS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8a8d567cdc8e66dc",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "4f739f5e9455e25f8cbf2b904e4c456ba93783f59ccc6d6019f3b5ac978f838c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:cd3a2975550272c2",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9432541599b1bf926b61913f1eb478a81d84be8054882407d7e32668ff596b4e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-PRACTICE-LADDER",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/constable.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§12 L345-399 临摹/学习清单 10 件 + 末行组合练习分组；本 shard 三阶阶梯（A 看天 / B 六英尺 / C 白点+互锁）为建议练习，效果未经人评",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ea5eb512c68f145f547f0f7326bb77c92c9e13beb66e0faac87b56611d985085",
+          "access_status": "available"
+        },
+        {
+          "source_id": "package/01-AUDIT.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.1 L271-273（练习效果未经人评时明确为建议练习）/ §8.4 L308-310（模型评分不冒充人评）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

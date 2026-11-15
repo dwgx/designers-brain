@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-fan_kuan",
+  "source_receipt_sha256": "fc0ebf2048b7f169b281485525c8ddca33929ad88ab48a1e42bb57e26c695419",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LFK-SELF-0",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "文件头 L4「[self-reported]＝本人之语（经宋人转述——范宽无文字传世）」+ 缺口 L199「不得写作『范宽写道』」；Q1/Q2 为宋/元人转述，结构性 0 条本人文字",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5ef890d9d4ac23a453ff389a9b22ddad1c20fb9f11f0abce6d12b246308db3f6",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:2041c437fa4f174b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "54b9fa21f66191f96be6b84124481374e0f70312175b78f2ce758cf7df465780",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-OVERTURNED-RAINDROP-NAME",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§10-4 L268「雨点皴之名晚出：此名见于明代著录（陈继儒《妮古录》…）；北宋文献称『枪笔』（郭若虚）」；§自审 B-2 L391 [OVERTURNED]；§1-2 L30 按『操作先于名称』改写",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5535fa2a3f92c0980a7fb216122d8db3ec8429caf1b847dc93d17b928c213b26",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:02afdbdf29b6eaa3",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fbb4dce6872f9704354e97b789a03611170441d6744f53ab7cce8cc04d0abf6a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "Q6 L50 郭若虛《圖畫見聞誌》『峯巒渾厚，勢狀雄強，搶（上聲）筆俱均』——北宋操作词，无『雨点』二字",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5ef890d9d4ac23a453ff389a9b22ddad1c20fb9f11f0abce6d12b246308db3f6",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-M1-RAINDROP-MECHANISM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2-1 L202：短笔触（长 ≤ 主山高 2%）覆盖率 ≥60%、方向角标准差 ≥20°、单一方向平行排线 <30%；§2-1 L42 刘芳如『千筆萬筆逐層疊搭…方向不一致而毫不紊亂』；§4 P1 L78–81",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5535fa2a3f92c0980a7fb216122d8db3ec8429caf1b847dc93d17b928c213b26",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L49 §8.2-1 卡侧同值 + L60–63 §4 P1 三档；L40–44 负向禁披麻/等宽线/排线/Seurat 色点",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a8609ed74f5d2f4e26a0aa5b5b70a91666231576a3feced6e9a7257e90de731a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-M2-MONUMENTAL-PEAK",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2-2 L203：最大山体连通域高度 ≥ 画面高 60%、重心偏差 ≤10% 宽、顶部距上缘 ≤5%；§1-1 L29 徐悲鸿『一山頭幾佔全幅面積三分之二』；§4 P2 L83–86 强档『中轴耸立、顶天立地』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5535fa2a3f92c0980a7fb216122d8db3ec8429caf1b847dc93d17b928c213b26",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "Q18 L134–138 赵孟頫『大圖闊幅，山勢逼人』——巨碑式古典表述（观察对象，非阈值来源）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5ef890d9d4ac23a453ff389a9b22ddad1c20fb9f11f0abce6d12b246308db3f6",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-FKB02-OPEN-ITEM",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:42d917f33931aae0",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "29e540a09ba58c9591176373bcbfe60cf882ec1b90cff135c178769d65d935ee",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:2f754470099fe3b8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fbb4dce6872f9704354e97b789a03611170441d6744f53ab7cce8cc04d0abf6a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3 N1/N3/N4/N9 通用规则 + §4 表 L341–357；grep -Ei '范宽|范寬|Fan Kuan|fan_kuan|雨点皴|雨點皴' = 0 命中（无 fan_kuan 专属行可挂）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-NPM-ATTRIBUTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:6186d3b6812a4782",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b6109165719e46c7d804b104203cc3111d37630d3411215ec9e2b942fddaf8c4",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_images/fan_kuan/MANIFEST.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L18 王翬件 NPM IIIF Detail/5100 + 署名要求；L34 许可核查 8 张构成",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fe4579ca182d3d947e2b2f1397bca192c6af1cac602acd3a641096a7313c08df",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-THRESHOLD-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§10-8 L272『§4 参数与 §8.2 规则为 [归纳]，未对原作做像素测量（分母＝参考帧）』；§自审 D L425『按馆藏图目测归纳的未实测参数』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5535fa2a3f92c0980a7fb216122d8db3ec8429caf1b847dc93d17b928c213b26",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:a612dfc34ee79d56",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fbb4dce6872f9704354e97b789a03611170441d6744f53ab7cce8cc04d0abf6a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-CONFLICTS-ZERO-ROWS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b9b84f3fe0e3fc4b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fbb4dce6872f9704354e97b789a03611170441d6744f53ab7cce8cc04d0abf6a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-CE01-INFERENCE",
+      "claim_kind": "hypothesis",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d539c07316a42723",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "030740207e00b640ba43c3278ed5b8f4a4f3b0b18d173b9c93df29abd9c14264",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-PRACTICE-LADDER",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/fan_kuan.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§12 L342–376 学习清单 8 件 + §4/§8.2；三段阶梯『立幅巨碑比例 → 雨点皴密度 → 满皴+浓墨+云雾带联合约束』为建议练习（researcher-constructed），非史实",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5535fa2a3f92c0980a7fb216122d8db3ec8429caf1b847dc93d17b928c213b26",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LFK-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L273：练习效果尚未由人完成或评价时明确为建议练习，不写『已证实学习收益』；§8.4 L308 模型/agent 判断不得冒充人评；本 shard human_review.status=not_applicable",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

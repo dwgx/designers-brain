@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-artemisia_gentileschi",
+  "source_receipt_sha256": "2b2a7822c9c5c5896acc43981caa5d130e6f57ce69388073ffd4fdba74f0a59b",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LM-ARTEMISIA_GENTILESCHI-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "artemisia_gentileschi-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/artemisia_gentileschi.md:sha256 d96a2c6b3c5c48c814c5c352fb14eb3dfda16b8e90ed239cb44879c2e12c61e0",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "d96a2c6b3c5c48c814c5c352fb14eb3dfda16b8e90ed239cb44879c2e12c61e0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "artemisia_gentileschi-card",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/modules/artemisia_gentileschi.md:sha256 477149b4d510979e7f4e8045ec82b1dde4f12b88a9519255624604a8b19ca81a",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "477149b4d510979e7f4e8045ec82b1dde4f12b88a9519255624604a8b19ca81a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "artemisia_gentileschi-corpus",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/_corpus/artemisia_gentileschi.md:sha256 db0dca32cb680780fc16dff787fb2fb39f0b11f89700235cbdae2bc497699291",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "db0dca32cb680780fc16dff787fb2fb39f0b11f89700235cbdae2bc497699291",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ARTEMISIA_GENTILESCHI-ACCEPTED-DEPENDENCY",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:fbd4cb1a4a7365d1",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "d42313ef58fed10abaa85c7f5bf67148918a0b3badd710a401ec175d7fde7772",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ARTEMISIA_GENTILESCHI-S82-RULE-COUNT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "artemisia_gentileschi-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/artemisia_gentileschi.md:§8.2:L190-200 (7 rules, ids §8.2-1..§8.2-7)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d96a2c6b3c5c48c814c5c352fb14eb3dfda16b8e90ed239cb44879c2e12c61e0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ARTEMISIA_GENTILESCHI-CLAIMMAP-ROWS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:e4b89c303679715b",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b6370525e59aca07c56ecc2a7adb5fcd155b2bfd16c60912ea75302bf6c5988f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ARTEMISIA_GENTILESCHI-COUNTERS-VERBATIM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:51edde7c53e52d75",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d137cdf39571a6be8bf6b0ff90be0f486a946e38cbf296964a05a62ac9b7abf3",
+          "access_status": "available"
+        },
+        {
+          "source_id": "artemisia_gentileschi-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/artemisia_gentileschi.md:§8.2:L191..L197",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d96a2c6b3c5c48c814c5c352fb14eb3dfda16b8e90ed239cb44879c2e12c61e0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ARTEMISIA_GENTILESCHI-THRESHOLDS-UNMEASURED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "artemisia_gentileschi-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/artemisia_gentileschi.md:§8.2 尾注 (> 以上阈值为本项目 `[归纳]`，**未对原作做像素测量**（分母＝假想参考帧）；1/2/3/6 条与 §3.1 分工)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d96a2c6b3c5c48c814c5c352fb14eb3dfda16b8e90ed239cb44879c2e12c61e0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ARTEMISIA_GENTILESCHI-NO-VERIFIED-BENEFIT",
+      "claim_kind": "model_judgment",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT-md",
+          "version": "package",
+          "locator": "01-AUDIT.md:273 (练习效果须标建议练习，未由人评价)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        },
+        {
+          "source_id": "internal-evidence:4ea642f440856656",
+          "version": "attempt-1",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

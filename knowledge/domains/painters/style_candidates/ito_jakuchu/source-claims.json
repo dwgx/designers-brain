@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "STYLE-ito_jakuchu",
+  "source_receipt_sha256": "ffc72d4980b804a8bf1feac76b551841b2d605221b5dc506b590150c7874e729",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "STYLE-ito_jakuchu-CARD-NO-81B",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:cb1fa0181d23493a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:ed1476c7a92404bf",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "100e42b43218087bfe1a488c8b7a9c7f08f0637259773ff152afaa0479ea2ebd",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-ito_jakuchu-RULES-MAPPED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/ito_jakuchu.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 L235-242 可判定规则 + §4 L102-132 六参数三档表 → 草案 8 条 R 规则与 C1–C5 耦合",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "0ed28b154198a0668f07a1df4b821909b679da0cc188f7b605133b789b82cac1",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/ito_jakuchu.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "视觉指纹要点 + §8.1/§8.2/§4（原样，无 §8.1b）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "7b07c0cf93d92b7eb2de39ed4f844ecdaefd74af49cb434e874b973eacf228df",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-ito_jakuchu-THRESHOLDS-INDUCTION-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/ito_jakuchu.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 L235-242 注 + §10：全部阈值 [归纳]，未对原作做像素测量（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "0ed28b154198a0668f07a1df4b821909b679da0cc188f7b605133b789b82cac1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-ito_jakuchu-DRAFT-NOT-E4",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "A06：§8.1b 仅 11/76；存在性检查不是 E4 通过检查；缺节有明确 fallback 与未验证状态",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "02-EXECUTION-PLAN.md (execution package)",
+          "version": null,
+          "locator": "Lane C：新增风格段去默认题材泄漏、列正反例和 capability；草案完成/来源支持/E4 实测分别记录",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

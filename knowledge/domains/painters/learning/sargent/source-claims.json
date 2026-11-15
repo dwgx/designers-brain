@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-sargent",
+  "source_receipt_sha256": "613d98ee29846f7c8f7b46672b788bdd74d6f21d801dda5085d0ce5626bbf0a5",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LS-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/sargent.md (全 81 行; §8.1/§8.2/§4 与 dossier 逐字一致); 开工 sha256sum 实测",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "3f9df9adb0610e8c7bdff3f989cd0cb93f99ac4f7f44df9b798058c9a8e2bb62",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/sargent.md (全 551 行; §0-§12 + 自审四段; L94 收口 / L117 冻结区例外 / L124 预写)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "9d03a6f7733f8bed847148927de6c7339fddbdb12fbbe6e7b49c136d8d906272",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/sargent.md (30 条 ### ; #1 L13-17 / #3 L27-33 / #2 L19-25 / #11 L92-97 / #13 L107-113 / #22 L178-183; Charteris 行号)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "32bc85d5ed5f4f19c24e09f5ca60eb2a6452c9d30b5ab4c3d231dee235d90e68",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "conflicts.md L36/L39/L40/L43 (C-05/08/09/12 总表), L109/149/164/203 (详条), L347-357 (near-miss 11 行)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:49fb909138e96f43",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5c1546a208f8ba427568f263131e39a3d933437ca886a326f865f5b6d481ae66",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d61272495b42a1e6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "8be5a3d1393f01a11863353f3e9ca252b02e09e316f22e4a8875f3154d0d3e3b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:a6c1f067a71f16fc",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "b857fc36b091a5be16cabfba75f4ce1fb31a414a1d4115d146a3280a70609cf2",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:9c07da5845e8a87e",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c24c010deb9e78785f1c81854083d07f62b4c8fdffc2238f3fd78c79e5aa167d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-ATTEMPT2-INTEGRITY-REUSE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:e74f69692f36bfd2",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5c1546a208f8ba427568f263131e39a3d933437ca886a326f865f5b6d481ae66",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:577543801258bdde",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6db13f8169ddba47723dee13d0a775fbd3988cb0590f05a5a596113e1ca8ca0c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f15314b830297689",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "871a362108aebd60955d1882ea46b96145b9da708f502ee13fc7a74974e5aa3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:9e738fcdb9e101b5",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "d3c6d367095ffa7ce5c2b03b5f1d6839491f1e48c0c74c673803991a53b69156",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:9a3532d66d2745f1",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "373d337987f7691d987fe16cd2b43747ecfb4dd1db74b228052b2d045a5e841d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-MECHANISM-ANCHORED-WET-ON-CANVAS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/sargent.md L19 (alla prima, one flow, no underdrawing), L32 (--no sfumato), L43/L44 (§8.2-1/-2), L45 (§8.2-3)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3f9df9adb0610e8c7bdff3f989cd0cb93f99ac4f7f44df9b798058c9a8e2bb62",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/sargent.md #1 L13-17 (价值分类法/亮暗最后, Charteris L1693-1702), #3 L27-33 / #4 L35-41 (起形/垂线), #2 L19-25 (站远), #11 L92-97 (翻过来看), #13 L107-113 (社交装置), #22 L178-183 (速度)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "32bc85d5ed5f4f19c24e09f5ca60eb2a6452c9d30b5ab4c3d231dee235d90e68",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:69b0e06e4c78fa2d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "d3c6d367095ffa7ce5c2b03b5f1d6839491f1e48c0c74c673803991a53b69156",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-ZORN-PENDING-NOT-CLOSED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/sargent.md L94 (§3.1 '2026-10-16 收口'), L117 (冻结区例外), L124 (§4 越界佐恩档 预写) — 与 module 状态标记互相矛盾",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "9d03a6f7733f8bed847148927de6c7339fddbdb12fbbe6e7b49c136d8d906272",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/sargent.md L66 ('佐恩档(预写)'), L72/L74 ('(future)... 佐恩档案落地后按 wave 规程回改对齐'), L80 (near-miss 8 对)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "3f9df9adb0610e8c7bdff3f989cd0cb93f99ac4f7f44df9b798058c9a8e2bb62",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/zorn.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/zorn.md L81 ('其预写→对齐回改收口由主脑/萨金特侧按 wave 规程执行, 本档案先行自证一致') 明确外派、未收口",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "6ad27b472e743efbd2e8be2158793bbcec7370ae0831b1575712eb85b0650fca",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f97266f5bf708e1b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "816d346ba8e014fa29637cde92da0b1acb9c9f008f3c55ffdd85c6791741731c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-CHARTERIS-1927-OCR-REUSED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:bd58e1bd068794ae",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "816d346ba8e014fa29637cde92da0b1acb9c9f008f3c55ffdd85c6791741731c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:4a08ecc415e8f9c6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "b857fc36b091a5be16cabfba75f4ce1fb31a414a1d4115d146a3280a70609cf2",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/sargent.md L5/L7/L68-73 (#8 lose a friend 二手转引, Charteris 全文无此句), L246 (类型 9/13/6/2)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "32bc85d5ed5f4f19c24e09f5ca60eb2a6452c9d30b5ab4c3d231dee235d90e68",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-A30-EIGHT-SECTION-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "package/01-AUDIT.md",
+          "version": null,
+          "locator": "01-AUDIT.md L269-273 (§8.1 八节: 前置知识/重点作品及来源/要观察的机制/具体练习/可观察结果/常见失败/下一步/使用边界; L273 建议练习不写已证实学习收益)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:0e1fca1b9988c4c7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6db13f8169ddba47723dee13d0a775fbd3988cb0590f05a5a596113e1ca8ca0c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-HOW-TO-THINK-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:ac378c5d2e000bd2",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "871a362108aebd60955d1882ea46b96145b9da708f502ee13fc7a74974e5aa3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sargent.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/sargent.md L7 / L130 (无理论著作, 凡'他内心如何'降级为可执行操作规则)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "9d03a6f7733f8bed847148927de6c7339fddbdb12fbbe6e7b49c136d8d906272",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-PRACTICE-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:ebe6d66404f5d26c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6db13f8169ddba47723dee13d0a775fbd3988cb0590f05a5a596113e1ca8ca0c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f0ca14484cbbdf1f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5c1546a208f8ba427568f263131e39a3d933437ca886a326f865f5b6d481ae66",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-DRIFT-AND-429-CARRIED",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "conflicts.md §4 L347-357 near-miss 实测 11 编号行 (#9-#11 标 2026-10-16 补) vs modules/sargent.md L80 'near-miss 8 对'",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:62fcc8f40f0552ff",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "816d346ba8e014fa29637cde92da0b1acb9c9f008f3c55ffdd85c6791741731c",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

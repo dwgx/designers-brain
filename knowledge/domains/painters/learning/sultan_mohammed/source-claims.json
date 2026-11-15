@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-sultan_mohammed",
+  "source_receipt_sha256": "baf915476308a6fc73a806de60ad78448522b46310f0bf6ed11276d2ea200510",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEARN-sultan_mohammed-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sultan_mohammed.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1/§3/§4/§8.2/§12（开工 sha256sum 实测）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "f4f49ba32cb5b6cbb3d7b403be06be3d7ba237ec7793df7dd5a23d7a0a331fe8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-sultan_mohammed-AUDIT-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:fab77311d35bc242",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "2bf9d0da1a6a3a0c943e12fa8524583f74defb78bb603cd0120b77f47594f8e2",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-sultan_mohammed-RULE-COUNTER",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sultan_mohammed.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 8 条可判定规则（rule ids 逐条照录），claim 图 §F 计 8 条与头部声明 8 条一致",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f4f49ba32cb5b6cbb3d7b403be06be3d7ba237ec7793df7dd5a23d7a0a331fe8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-sultan_mohammed-QUOTE-DENOM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sultan_mohammed.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "grep -c '^### ' = 24 条引文，抽样 3 条均带出处",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "7efa03eea25f3264edaf950a041639553089a781e1ae582bc2d7cf29ba331aab",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-sultan_mohammed-CLAIM-MAP-TOTAL",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:c8c6179397f0e6f6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "d56fe2d2e8aeeaec224ed829ddf993adaeecb189d434c8955639d0e93b040557",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-sultan_mohammed-THRESH-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sultan_mohammed.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2/§4 阈值 [归纳] 未经渲染实验校准，未做像素测量（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1a9617fc643dfa860981323a8ef825b35da57f51c48bff866cbaa7eba49613bd",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-sultan_mohammed-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 A-30：练习未由人完成/评价时为建议练习，不写『已证实学习收益』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

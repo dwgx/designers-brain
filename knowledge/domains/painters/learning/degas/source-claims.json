@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-degas",
+  "source_receipt_sha256": "a52aa1a43e3381aa792a854d5272450ad5a5bb86339d59655d8964d95a564c0d",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LD-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/degas.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/degas.md (全 84 行; §8.1/§8.2/§4 与 dossier 逐字一致); 开工 sha256sum 实测",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "84f6d39fca7c1d9dfca289ddb90a12f68f6e4602f589876954ffb26adf6e4f0e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/degas.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/degas.md (全 503 行; §0-§12 + 自审四段; L86 70/30 / L110 身份闸 / L111 越界 / L245-252 §8.2 / L101-108 §4)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "8461d94e1739aa73bd9f9b8718e8835360200d4064d677c9e449bdc38fa9f168",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/degas.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/degas.md (36 条 ### ; #1 L12 / #14 L111 / #15 L120 / #16 L129 / #20 L162 / #21 L169 / #35 L276 / #36 L283; 原书补录)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "c4816389d9bd50bd23575c54ded9b3d85e7bc9faf74fab4cc6be7fce6d457b07",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:220cdf2e9df9d53c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "942c7db471e1309bea9c1b446b6f2ab4bee781aed0f54580ceab5779a64a765a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:ff55ad31f479549c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "a69d5af58ed98547d16df12fa6e62a6e802ddee2417b53cdc18c13b566c1a664",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:0e91746c46fd3ee6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6a2e672a89765f1a46b0e2c316d6c5f21017cd55965bd9bc6fc2f5d9c56706a2",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:2a64422f44c14da7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "2df4664892fba58bafc0bd1ec009607ec0aabe9618eaa045b81c7f0792a8f6f8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-A30-EIGHT-SECTION-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "package/01-AUDIT.md",
+          "version": null,
+          "locator": "01-AUDIT.md L269-273 (§8.1 八节: 前置知识/重点作品及来源/要观察的机制/具体练习/可观察结果/常见失败/下一步/使用边界; L273 建议练习不写已证实学习收益)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:995038af335238e0",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5b4c8be45207399de1d12f02796c570eb9db1caa2953884baf63027175dcb2ea",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-EMPHASIS-STAGE-PASTEL-MECHANISM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/degas.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/degas.md L34-38 (§1-1/-2/-4/-5 偏心裁切/俯视地板/人工光/粉彩层叠), L245-252 (§8.2-1/-2/-3/-5/-8), L101-108 (§4 P1/P3/P4), L254 (阈值 [归纳] 未实测), L37/105/111/216 (舞台光/越界/§8.1 正向段)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "8461d94e1739aa73bd9f9b8718e8835360200d4064d677c9e449bdc38fa9f168",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/degas.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/degas.md L9-13 (视觉指纹 5 条), L45-52 (§8.2 原样 8 条), L58-65 (§4 原样 6 参数)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "84f6d39fca7c1d9dfca289ddb90a12f68f6e4602f589876954ffb26adf6e4f0e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:d5b79523d4264e64",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "a8b60367596b4993157337ffd8d15c225413439b31b97372b2797a4c45ac2463",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-8-BOOK-QUOTES-REUSED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:f32e1643fef90c73",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "338a707f8fcd71dbcd3ffedd68de6f68673bd82dd3e4e17766eec17f0e99d161",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1a304857b4ff780a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e87512959aa03f759d6c9c41a961e4f7947e2267cb4d5f0a137ea345fe9ee232",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:d015a8c8c7274390",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "85ab4b4e8a4190a2d9149ecd3e6ba1f2badc9976c1ff77b2dcca7a04cb941ea9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:7acde3b157a834cf",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "4d11ba5acb6680b5b6dcf0bd8e4d0c2a2976714946c7aef9b4c52035fc233412",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:651ca5d5ac59a058",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5b4c8be45207399de1d12f02796c570eb9db1caa2953884baf63027175dcb2ea",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-7030-N3-TENSION-CARRIED",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/degas.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/degas.md L86 (§3.1 组合纪律: 选主导轴 70/30 + 莫奈包络降档 ≤弱档 保留德加轮廓线), L241 (§8.1 组合注意同口径)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "8461d94e1739aa73bd9f9b8718e8835360200d4064d677c9e449bdc38fa9f168",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "conflicts.md L311-312 (N3② 辅模块冲突轴 §8.2 规则整条移除不是调档), L80 (C-02① 整条移除), L93 (C-05② 整条删除), L214 (C-12 降档写进卡), L328 (N9 冲突轴双标准失败形态); grep -cE 'degas|德加' = 0",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1aa4590475533f41",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "df9b81ad6a1ae05dc9bd545d41311427f0138d08aec290b0cd59bba2d395a866",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:d48c06c069498ea4",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6d276d9a5db8973fdb0c79974898e4fbb418ebe30512b79957b614c02c6cad5e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-NG486-CC-BY-SA-PRESERVED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:3dce8f5c771b483f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "d6e469204f29088ba704e43bc850bcec2fa6fe4014de4f9e777078bde09126fb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_images/manifest.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_images/manifest.md:255 (R-IMG-09 rights Combing the Hair NGL NG486 CC BY-SA 4.0); 局部 _images/degas/MANIFEST.md:21,47 (本 manifest 即署名记录/引用需署名)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5698124daf47c989fd26232a686ec54cda2658b623e1a302ddb5806ebf95b470",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:9549cc30b1a8f4cb",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5b4c8be45207399de1d12f02796c570eb9db1caa2953884baf63027175dcb2ea",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-HOW-TO-THINK-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:bace09b87b208aac",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6d276d9a5db8973fdb0c79974898e4fbb418ebe30512b79957b614c02c6cad5e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/degas.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/degas.md L7 (§0 口径: 德加无理论著作, 凡内心如何降级为可执行操作规则), L76 (§3-8 不写理论), L117 (§5 口径: 不得把任一条当内心状态证据)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "8461d94e1739aa73bd9f9b8718e8835360200d4064d677c9e449bdc38fa9f168",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-PRACTICE-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:092fe08246706a84",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5b4c8be45207399de1d12f02796c570eb9db1caa2953884baf63027175dcb2ea",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:cca5c0ded1fa0ee8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "942c7db471e1309bea9c1b446b6f2ab4bee781aed0f54580ceab5779a64a765a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LD-SEVEN-FILE-CONTRACT",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8b41f3108d94f63a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "942c7db471e1309bea9c1b446b6f2ab4bee781aed0f54580ceab5779a64a765a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:a221b53bb7aa5993",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "74e1b309653b8308fc0ed0d8b997803ca0d0c240c7035524c3a9475cf78ca3f0",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

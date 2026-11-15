@@ -7,3 +7,14 @@
 - **上游正本（全量）**：`REPO/knowledge/domains/painters/dossiers/` —— 卡 = 档案 §1 浓缩 + §8.1 / §8.2 / §4 原样。
 - **逐字校验**：`python knowledge/domains/painters/modules/_extract.py --check`（期望 checks=228 ok=228 fail=0）。
 - 读法：选型读索引；出稿读对应单卡；组合 ≥2 卡先读本包 `references/conflicts.md`。
+
+<!-- DB-PUBLIC-KNOWLEDGE:BEGIN -->
+
+## 学习与纯风格候选
+
+- [76学习路径与总路线](../../../knowledge/domains/painters/learning/INDEX.md)
+- [65纯风格候选与反例](../../../knowledge/domains/painters/style_candidates/INDEX.md)
+
+这些入口保留来源与证据边界；accepted执行记录不代表学习收益、E4或输出通道可用。
+
+<!-- DB-PUBLIC-KNOWLEDGE:END -->

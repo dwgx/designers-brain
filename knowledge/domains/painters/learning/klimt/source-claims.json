@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-klimt",
+  "source_receipt_sha256": "a14ecab1c31fc2fd57ba01a3e40d2356b2e35f1a4e0c41d40ed18de6ef862d5e",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEARN-KLIMT-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:5e5261b5d555765c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e9d9881e4ed3952b080715bcf4910ec62aa7dc50a6fb4170d88769aac89c6392",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e7393df40235be72",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "371fda5897764e8991e69d5b5512421a35cd84a977c072c3b3f752cc6f748fa4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:dfb89afd88503761",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "7eaf52e893270d76cef03b5274ad668c179e7858ce94a8c924795d64438b082a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:3da96ed0e0b6c2c8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-GOLD-LEAF-AND-PLANAR-MECHANISMS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/klimt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L237 §8.2-1 金属材质规则; L241 §8.2-5 平面化; L240 §8.2-4 落差; L238 §8.2-2 图案密度带材质硬约束; L83-113 §4 P1-P6",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5f023be5c17193e32c539550ae86836516cbaee053109bb8ac10c4ba112b4175",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/klimt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L45-51 §8.2 原样; L57-86 §4 原样",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "e9abb8274c1f7830b6d709844b54ef92057b6d296041e578936c98986011ed1a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-CONFLICTS-C15-N6-NEARMISS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L46 C-15 总表; L244-256 C-15 块; L323-324 N6; L355 near-miss #9; L356 near-miss #10; L375 self-review C-5; L421 回填 TODO",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:4cf225a5daabb98b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ed37f0eb65680c64d024bc20b20fff87af57eaba81eabfeeb9082be18404bae4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-D25-CORPUS-GAP",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:828fd6635c3841f9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e9d9881e4ed3952b080715bcf4910ec62aa7dc50a6fb4170d88769aac89c6392",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/klimt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L96-103 缺口与待验证; L101 Loos 误挂排除; 11 quote headers L10,18,26,35,43,50,60,68,75,82,89",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "8ce491e92d08cea8de46d283ff6f46c1917055010bc6a1a537f0b51d6658547a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-A30-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "§8.1 A-30: L269-273 八节形状 + 练习须标建议练习、不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:8fd558b7361ff645",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c6d724c42d074e428040007145f079da8ddeb65e893b4541cd6ecb287e3dbbec",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-HT-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:1f288651a7db74be",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "15c4cf564fd82573da6f44716cf2b8472b556c84b371a9f4641804c6802fc5ec",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md (package)",
+          "version": null,
+          "locator": "L9 How to Think 必须区分作者可核实的自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-LOCATOR-DRIFT",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L249 C-15 cites matisse.md L82/L187; L80/L101/L365 'near-miss 8 对'; L385-386 historical correction",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e973fda469f6c692",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-KLIMT-PRACTICE-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "L273 练习效果尚未由人完成或评价时明确为建议练习，不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:8042f2c28a416899",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c6d724c42d074e428040007145f079da8ddeb65e893b4541cd6ecb287e3dbbec",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

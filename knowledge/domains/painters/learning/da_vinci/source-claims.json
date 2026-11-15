@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-da_vinci",
+  "source_receipt_sha256": "4c5f261cbd580e9408d5641aaaec32fd22b956293eaf2606368c4f6e6e42d974",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LRN-01",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/da_vinci.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "fulltext; sha256 measured at start of LEARN run",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "56b02e9b629636529f66524f74c6e46d32f1f8deee8364b5dad151d34f0e634c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e9ad56d62772d5d8",
+          "version": "DB-20261115-baseline",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:44b91d767bb3589e",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "8916dedff53d6b8a0d2d0ce913f3ee692189d47914496fc4530722ad3548f428",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-02",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": "Designers-Brain-Upgrade-20261115",
+          "locator": "§8.1 A-30 L271-273: 八要素; 练习效果未人评时写建议练习, 不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md (execution package)",
+          "version": "Designers-Brain-Upgrade-20261115",
+          "locator": "L9: How to Think 必须区分作者可核实的自述与研究者推断, 不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-03",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/da_vinci.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 L162-168 (七条); L163 过渡带≥1.5%短边, L164 中间调≥55%, L168 Laplacian≤2",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "56b02e9b629636529f66524f74c6e46d32f1f8deee8364b5dad151d34f0e634c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/da_vinci.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 L63-69 (与 dossier 逐字一致)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "34d85edb2ede277906a3e7ff70322ea594b2df7651e5315573f25a67f238e7ab",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-04",
+      "claim_kind": "design_candidate",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/da_vinci.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§12 L327-377 (学习清单 12.1-12.9); §8.2 L162-168 量规",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "56b02e9b629636529f66524f74c6e46d32f1f8deee8364b5dad151d34f0e634c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/da_vinci.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L24-30 (cap.413 明暗交界须柔和), L111-116 (cap.401 置镜自校)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "15f0fd1d593f895e2371a72162398da5c5369b822622cc49f19d2c8ecc1b0765",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-05",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1 L33/34/36/37/45; §2 L71-82(C-02), L84-95(C-03), L109-121(C-05), L123-134(C-06), L229-242(C-14); §3 N1/N3/N4/N5/N9",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e436652fa7845583",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c9e3158cd91f6abfa3e705e162e51193b24993dd833ee90073db9998a7e7c684",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-06",
+      "claim_kind": "model_judgment",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": "Designers-Brain-Upgrade-20261115",
+          "locator": "§8.4 L306-308: 练习效果未人评即建议练习; 模型判断不冒充人评; 本轮 human_review=not_applicable",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-07",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/da_vinci.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L5 口径提醒(归纳不冒充内心), L77 (Melzi 汇编/1651 首印), L424 自审D (ad uso di fumo 可能梅尔齐润色)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "56b02e9b629636529f66524f74c6e46d32f1f8deee8364b5dad151d34f0e634c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:a76ca6a9fbe7da3b",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "8916dedff53d6b8a0d2d0ce913f3ee692189d47914496fc4530722ad3548f428",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-08",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:f318dd3e96c6ebb8",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "13892f54468d53270173448745c916f4c082c6b19b4dca52bb28c445db41e590",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:dcc7a7f2b0b70358",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "8916dedff53d6b8a0d2d0ce913f3ee692189d47914496fc4530722ad3548f428",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRN-09",
+      "claim_kind": "observation",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/da_vinci.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L163 §8.2-2 '画面短边的 1.5%'",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "56b02e9b629636529f66524f74c6e46d32f1f8deee8364b5dad151d34f0e634c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§2 L78 '1920 宽 ≥28.8px vs ≤11.5px' 换算基数与短边口径差异",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

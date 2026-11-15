@@ -1,0 +1,314 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-sorolla",
+  "source_receipt_sha256": "b054f39c0e3b6c424073dc8ca742b44119d13b593b0e9336ddcea6477ea3e6cf",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LS-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:e3447cd8ceb923af",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/sorolla.md (全文件 80 行; §8.1/§8.2/§4 与 dossier 逐字一致)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "c22ecd037836cab3210a21e075de68b44578f0c54d35255f407bbd19b5dac733",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/sorolla.md (全文件 451 行 v2)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "1b619242a735851c1ab4d3b1e359d7d93e4f7f241f6df12310483138e81fac0e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/sorolla.md (全文件 260 行, 31 条 1909 两卷本 OCR 行号级)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "9d3fa7b0fad0403e5cd21bee06a16d47a778d0b2e7df495dd8a998e7bb59c4b0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e14f7c83291f9f03",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "b66d1adceecc396540ab019cefdeff0bbed0ea541ee7f9f111323f4b7986c1f4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:16a206a04748df74",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "42fce86ae5d099a8febc0ed38e400db11afc1a9083465ff894941996ace8b4bf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1b2b8a76ccf4f557",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "0332df0747b3dece1a32cd84ac852c74972242b040a8ef84a8dae116218643b8",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:45745c5bc87eb555",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "2aee90d59f9cad61e7f034e21799939dd5f2a3ec2e0c6b37abc85b85493ecad9",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-1909-OCR-ANCHORS-ACCEPTED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:ed79a8b0b0b7e9e3",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2aee90d59f9cad61e7f034e21799939dd5f2a3ec2e0c6b37abc85b85493ecad9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/sorolla.md:30 (#3 parti pris, Vol.II 1420-1424); :45 (#5 garage, 1677-1681); :22 (#2 transient, 1388-1390); :87 (#11 sunlight, 668-670); :98 (#12 hate darkness, 2405-2410)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9d3fa7b0fad0403e5cd21bee06a16d47a778d0b2e7df495dd8a998e7bb59c4b0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:3d87976fdfae42f1",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9b41604f1338678c90eae941e516bcd15895421d2e37be32d1205255549652e0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "archive.org 1909 Eight Essays Vol.II djvu.txt (external, NOT re-visited this lane)",
+          "version": null,
+          "locator": "AUDIT-sorolla raw/eightessaysonjoa02hisp_djvu.txt; reuse of ACCEPTED external confirmation only; this lane did not fetch",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-BACKLIGHT-WHITE-DRESS-MECHANISM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/sorolla.md:185 (§8.2-1 高调去黑 ≥72%/纯黑≤0.3%/H230-290); :186 (§8.2-2 白区≥3簇/明度范围≤8%); :187 (§8.2-3 顶光短影); :189 (§8.2-5 反光); :33/:41 (§1-1/-9 白上加白/high-key); :362-368 (§12-6/-7 逆光 透光白/反光白 分层)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1b619242a735851c1ab4d3b1e359d7d93e4f7f241f6df12310483138e81fac0e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/sorolla.md:46-52 (§8.2 原样逐字一致); :35-42 (§8.1 正向白上加白 + 负向禁 black/brown shadows); :9-13 (浓缩 5 条)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "c22ecd037836cab3210a21e075de68b44578f0c54d35255f407bbd19b5dac733",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:ff8c047ecae74ce2",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "cd84b4921fded4cc4799f8c160a74399f1b06b1c1ce5e57af8ff883766635f08",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-ZORN-FOUR-AXES-COMPRESSED-MIRROR",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/sorolla.md:86-92 (§3.1 vs 佐恩 四轴: 色板/白色角色/光机制/题材 + 互查记录逐条一致)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1b619242a735851c1ab4d3b1e359d7d93e4f7f241f6df12310483138e81fac0e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/zorn.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/zorn.md:95 (§3.1 vs 索罗拉 四轴同名互引, 色板宽度轴单主 N3)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6ad27b472e743efbd2e8be2158793bbcec7370ae0831b1575712eb85b0650fca",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:7274d333f62b02ca",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2aee90d59f9cad61e7f034e21799939dd5f2a3ec2e0c6b37abc85b85493ecad9",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-A30-EIGHT-SECTION-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "01-AUDIT.md:269-273 §8.1 A-30: 八节形状 + 练习须标建议练习、不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:843623ca56801329",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "40d71e2ea79d57e70f4c5834d71cd76502a1db606b1bd781bc8e17800435cdbe",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-HOW-TO-THINK-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:1f8a50d0e0bb282d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "ce4631290e562154f67a22c95a7d0ff04ba2ccf61226b2311f7ee1e81251bc73",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md (package)",
+          "version": null,
+          "locator": "00-GOAL.md:9 How to Think 必须区分作者可核实的自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-PRACTICE-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "01-AUDIT.md:273 练习效果尚未由人完成或评价时明确为建议练习，不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:c5c5ae3975abdbdd",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "40d71e2ea79d57e70f4c5834d71cd76502a1db606b1bd781bc8e17800435cdbe",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-SCOPE-COUNTEREXAMPLE-NARROWED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/sorolla.md:395 (自审 §B-3 WEAKENED→边界收窄为正午高照度档); :369-372 (§12-8 ¡Triste herencia!)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1b619242a735851c1ab4d3b1e359d7d93e4f7f241f6df12310483138e81fac0e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:55258513b41ab6a6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2aee90d59f9cad61e7f034e21799939dd5f2a3ec2e0c6b37abc85b85493ecad9",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-NEAR-MISS-AND-CONFLICT-DRIFT",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "conflicts.md:341-357 (§4 near-miss 实 11 编号行); :36/:40/:43 (C-05/C-09/C-12 总表); 全文零 sorolla/索罗拉 提及",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/sorolla.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/sorolla.md:79 (near-miss 8 对 口径漂移); :74 (C-05/C-09/C-12 标为组合预检重点)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "c22ecd037836cab3210a21e075de68b44578f0c54d35255f407bbd19b5dac733",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:ef84093482154a4c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a28f54282b34f3ddf8229576bf5ef0da9bb71319fd34de59ad67b81c0014038f",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

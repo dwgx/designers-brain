@@ -1,0 +1,5696 @@
+{
+  "schema_version": "1.0",
+  "task_id": "LEARNING-INDEX",
+  "artifact_class": "public derived navigation",
+  "source": "same SHA-bound 76 LEARN roster as canonical projected bodies",
+  "derivation_rules": {
+    "roster": "same source map; unique 76 LEARN",
+    "relations": "exact source SHA, heading and supporting phrase checks",
+    "status": "source accepted is not public integration acceptance or learning efficacy"
+  },
+  "summary": {
+    "total": 76,
+    "navigation_groups": 4,
+    "explicit_cross_relations": 8
+  },
+  "entries": {
+    "aivazovsky": {
+      "task_id": "LEARN-aivazovsky",
+      "learning_path": "knowledge/domains/painters/learning/aivazovsky/learning_path.md",
+      "source_sha256": "6b3af6468c307e16968aa5f8f557c8eb996beef92fc1459211a6d4d40a5aebfd",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-aivazovsky — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 33,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-33"
+        },
+        {
+          "line": 46,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-46"
+        },
+        {
+          "line": 59,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 67,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-67"
+        },
+        {
+          "line": 73,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 81,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-81"
+        },
+        {
+          "line": 87,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-87"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "artemisia_gentileschi": {
+      "task_id": "LEARN-artemisia_gentileschi",
+      "learning_path": "knowledge/domains/painters/learning/artemisia_gentileschi/learning_path.md",
+      "source_sha256": "50d5858d76f41c9574b80e399d1b887b89bfa6e97404a64081cc0a3743138966",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-artemisia_gentileschi — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 42,
+          "heading": "### 3.2 §8.2 逐条可判定规则（7 条，逐帧可查）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 62,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-62"
+        },
+        {
+          "line": 68,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 76,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 82,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-82"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "bada_shanren": {
+      "task_id": "LEARN-bada_shanren",
+      "learning_path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+      "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-bada_shanren — 学习路径卡（八大山人 / Bada Shanren）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 19,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-19"
+        },
+        {
+          "line": 35,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-35"
+        },
+        {
+          "line": 49,
+          "heading": "## 3. 要观察的机制（把两条主轴变成「看什么」）",
+          "anchor": "db-source-line-49"
+        },
+        {
+          "line": 64,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 68,
+          "heading": "### 阶梯一：计白当黑 / 悬置留白场（empty-field suspension）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 76,
+          "heading": "### 阶梯二：白眼向天造型（white-eye symbol, subject-level）",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 84,
+          "heading": "### 阶梯三：笔墨经济 + 书法性款印 + 组合边界自律",
+          "anchor": "db-source-line-84"
+        },
+        {
+          "line": 93,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-93"
+        },
+        {
+          "line": 105,
+          "heading": "## 6. 常见失败（与 AUDIT `counterexample.md`、conflicts.md 一致）",
+          "anchor": "db-source-line-105"
+        },
+        {
+          "line": 121,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-121"
+        },
+        {
+          "line": 130,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-130"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "behzad": {
+      "task_id": "LEARN-behzad",
+      "learning_path": "knowledge/domains/painters/learning/behzad/learning_path.md",
+      "source_sha256": "24cf3edb5817af9e79834306cfed4153c00fd52384eefe22bb913b3b873568eb",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-behzad — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，11 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 43,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-43"
+        },
+        {
+          "line": 56,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-56"
+        },
+        {
+          "line": 64,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 70,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-70"
+        },
+        {
+          "line": 78,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 84,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-84"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "blake": {
+      "task_id": "LEARN-blake",
+      "learning_path": "knowledge/domains/painters/learning/blake/learning_path.md",
+      "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-blake — 学习路径（A-30 §8.1 形状 / 8 节）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 12,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-12"
+        },
+        {
+          "line": 27,
+          "heading": "## §2 重点作品及来源（引用现有记录，不新增编造）",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 48,
+          "heading": "## §3 要观察的机制（主机制 + 关联机制，全部带定位与等级）",
+          "anchor": "db-source-line-48"
+        },
+        {
+          "line": 64,
+          "heading": "## §4 具体练习（建议练习 · 三段阶梯 ladder，逐级可操作）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 69,
+          "heading": "### 阶梯 1 — 线雕与套色机制（练 M1/M2/M3：浮雕蚀刻图文同版 + 铁丝轮廓 + 手工水彩套色）`建议练习`",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 78,
+          "heading": "### 阶梯 2 — 图文同版与文字板比例（练 M4/M5：L95 的 0% 大彩色版画档 vs L214 的 5–35% 灰区）`建议练习`",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 90,
+          "heading": "### 阶梯 3 — 辐射装置与组合预检（练 M6/M7 + C-rows + 失败条件）`建议练习`",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 103,
+          "heading": "## §5 可观察结果（产物级 / 不是学习成效）",
+          "anchor": "db-source-line-103"
+        },
+        {
+          "line": 115,
+          "heading": "## §6 常见失败（反例，照录现有档案 + 冲突表）",
+          "anchor": "db-source-line-115"
+        },
+        {
+          "line": 127,
+          "heading": "## §7 下一步（接入 A-30 总路线）",
+          "anchor": "db-source-line-127"
+        },
+        {
+          "line": 140,
+          "heading": "## §8 使用边界（硬边界，照录）",
+          "anchor": "db-source-line-140"
+        },
+        {
+          "line": 152,
+          "heading": "## 附：本文件每条断言的定位索引",
+          "anchor": "db-source-line-152"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "bosch": {
+      "task_id": "LEARN-bosch",
+      "learning_path": "knowledge/domains/painters/learning/bosch/learning_path.md",
+      "source_sha256": "5c3a4d1cdad3a32f0aea3840afbed224a00f2e38256269f5805ab2068d7eeec7",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-bosch — 学习路径（A-30 §8.1 形状 / 8 节）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 9,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-9"
+        },
+        {
+          "line": 18,
+          "heading": "## §2 重点作品及来源（引用现有记录，不新增编造）",
+          "anchor": "db-source-line-18"
+        },
+        {
+          "line": 38,
+          "heading": "## §3 要观察的机制（主机制 + 关联机制，全部带定位与等级）",
+          "anchor": "db-source-line-38"
+        },
+        {
+          "line": 56,
+          "heading": "## §4 具体练习（建议练习 · 三段阶梯 ladder，逐级可操作）",
+          "anchor": "db-source-line-56"
+        },
+        {
+          "line": 61,
+          "heading": "### 阶梯 1 — 单帧生物拼装 + 善恶对位（练 M2/M4/M6）`建议练习`",
+          "anchor": "db-source-line-61"
+        },
+        {
+          "line": 67,
+          "heading": "### 阶梯 2 — 三联三幕 + 全景编目（练 M1/M3/M7）`建议练习`",
+          "anchor": "db-source-line-67"
+        },
+        {
+          "line": 73,
+          "heading": "### 阶梯 3 — 身份门 + 分工边界压力测试（练 M8 + 反例）`建议练习`",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 82,
+          "heading": "## §5 可观察结果（产物级 / 不是学习成效）",
+          "anchor": "db-source-line-82"
+        },
+        {
+          "line": 92,
+          "heading": "## §6 常见失败（反例，照录现有档案 + 冲突表）",
+          "anchor": "db-source-line-92"
+        },
+        {
+          "line": 107,
+          "heading": "## §7 下一步（接入 A-30 总路线）",
+          "anchor": "db-source-line-107"
+        },
+        {
+          "line": 118,
+          "heading": "## §8 使用边界（硬边界，照录）",
+          "anchor": "db-source-line-118"
+        },
+        {
+          "line": 130,
+          "heading": "## 附：本文件每条断言的定位索引",
+          "anchor": "db-source-line-130"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "bruegel": {
+      "task_id": "LEARN-bruegel",
+      "learning_path": "knowledge/domains/painters/learning/bruegel/learning_path.md",
+      "source_sha256": "30eaa8f8cca3138a4de5b9ffc2d62f2b1f0efdefec63d88ff4b525db44732c5c",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-bruegel — 学习路径（A-30 §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（5 项）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 28,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新造 URL）",
+          "anchor": "db-source-line-28"
+        },
+        {
+          "line": 46,
+          "heading": "## 3. 要观察的机制（6 条；强调项标 ★）",
+          "anchor": "db-source-line-46"
+        },
+        {
+          "line": 48,
+          "heading": "### ★3.1 全景俯视（bird's-eye panorama）— 身份轴 P1",
+          "anchor": "db-source-line-48"
+        },
+        {
+          "line": 54,
+          "heading": "### ★3.2 农俗场面机制（distributed micro-episodes / crowd-as-encyclopaedia）— 身份轴 P2/P4",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 60,
+          "heading": "### ★3.3 季节基调先行（tonal unity / seasons as structure）",
+          "anchor": "db-source-line-60"
+        },
+        {
+          "line": 65,
+          "heading": "### ★3.4 软光 / 反理想人体 / 满构图（边界机制）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 69,
+          "heading": "### ★3.5 Large Landscapes 反例 —「吸入前」（pre-absorption）必须讲清的一课",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 78,
+          "heading": "### 3.6 史料锚的教学用法（127 摹本 / Kapellekerk）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 85,
+          "heading": "## 4. 具体练习（3 阶梯，均为「建议练习」）",
+          "anchor": "db-source-line-85"
+        },
+        {
+          "line": 89,
+          "heading": "### L1 — 单季全景的「先把视点抬起来」",
+          "anchor": "db-source-line-89"
+        },
+        {
+          "line": 95,
+          "heading": "### L2 — 农俗场面的「人群调度三档」",
+          "anchor": "db-source-line-95"
+        },
+        {
+          "line": 101,
+          "heading": "### L3 — 反例自检：「像不像」≠「是不是」",
+          "anchor": "db-source-line-101"
+        },
+        {
+          "line": 112,
+          "heading": "## 5. 可观察结果（consolidated 判据表）",
+          "anchor": "db-source-line-112"
+        },
+        {
+          "line": 128,
+          "heading": "## 6. 常见失败（含冲突作为失效条件）",
+          "anchor": "db-source-line-128"
+        },
+        {
+          "line": 147,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-147"
+        },
+        {
+          "line": 157,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-157"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "caravaggio": {
+      "task_id": "LEARN-caravaggio",
+      "learning_path": "knowledge/domains/painters/learning/caravaggio/learning_path.md",
+      "source_sha256": "5ce4f726cb7d857bc1c3c10bdd47dafe3f39fb173a8279d4a43a5466ebef38fb",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-caravaggio — 学习路径卡（A-30 · §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 前置知识（先知道什么，再开练）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增考证）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 38,
+          "heading": "## 3. 要观察的机制（练时盯什么）",
+          "anchor": "db-source-line-38"
+        },
+        {
+          "line": 51,
+          "heading": "## 4. 具体练习（可操作 · ≥3 阶梯 · 全为「建议练习」）",
+          "anchor": "db-source-line-51"
+        },
+        {
+          "line": 55,
+          "heading": "### 阶梯 1 — 单光源静物（single-source still-life）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 65,
+          "heading": "### 阶梯 2 — 暗调肖像裁切（tenebrist portrait crop）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 76,
+          "heading": "### 阶梯 3 — 定格动作构图（frozen-action composition）",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 90,
+          "heading": "## 5. 可观察结果（怎么算这一级练到了）",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 105,
+          "heading": "## 6. 常见失败（→ 当作失败条件读，完整版见 mechanism_notes.md）",
+          "anchor": "db-source-line-105"
+        },
+        {
+          "line": 122,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-122"
+        },
+        {
+          "line": 131,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-131"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "cezanne": {
+      "task_id": "LEARN-cezanne",
+      "learning_path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+      "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-cezanne — 学习路径（A-30 / §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 8,
+          "heading": "## 定位别名（本文所有 `文件 : 行号` 均相对 pinned repo 解析）",
+          "anchor": "db-source-line-8"
+        },
+        {
+          "line": 24,
+          "heading": "## 1. 前置知识",
+          "anchor": "db-source-line-24"
+        },
+        {
+          "line": 36,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增）",
+          "anchor": "db-source-line-36"
+        },
+        {
+          "line": 56,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-56"
+        },
+        {
+          "line": 73,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」）",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 77,
+          "heading": "### 基底 A0 · 建设性笔触铺底（每阶开头都做，约 20 分钟）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 83,
+          "heading": "### 阶梯 1 · 暖冷交错编织 pass（warm-cold weaving pass）",
+          "anchor": "db-source-line-83"
+        },
+        {
+          "line": 90,
+          "heading": "### 阶梯 2 · 蓝调轮廓纪律（blue-contour discipline）",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 97,
+          "heading": "### 阶梯 3 · 多点透视空间压缩（multi-point perspective compression）",
+          "anchor": "db-source-line-97"
+        },
+        {
+          "line": 113,
+          "heading": "## 5. 可观察结果（画面自查判据，非学习成效）",
+          "anchor": "db-source-line-113"
+        },
+        {
+          "line": 127,
+          "heading": "## 6. 常见失败",
+          "anchor": "db-source-line-127"
+        },
+        {
+          "line": 144,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-144"
+        },
+        {
+          "line": 153,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-153"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "chardin": {
+      "task_id": "LEARN-chardin",
+      "learning_path": "knowledge/domains/painters/learning/chardin/learning_path.md",
+      "source_sha256": "504f838b4b4be4f3ae5b1e145d9eb05d0fed88fceebd4ecdb9a4f69a591a4bfb",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-chardin — 学习路径卡（Jean Siméon Chardin）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 20,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-20"
+        },
+        {
+          "line": 38,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-38"
+        },
+        {
+          "line": 49,
+          "heading": "### Cochin/Diderot 闭环 — 逐字证据（brief 强调②，本片所有引用的原文）",
+          "anchor": "db-source-line-49"
+        },
+        {
+          "line": 66,
+          "heading": "### 「引文 37/37」分母辨析（brief 强调③，口径诚实）",
+          "anchor": "db-source-line-66"
+        },
+        {
+          "line": 78,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 91,
+          "heading": "## 4. 具体练习（3 阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-91"
+        },
+        {
+          "line": 95,
+          "heading": "### 阶梯一：material layering on a front-edge table（先定材质分工，再放而不混地堆）",
+          "anchor": "db-source-line-95"
+        },
+        {
+          "line": 102,
+          "heading": "### 阶梯二：wrapped diffused light + cross-object reflections（弱光源 + 反光网络）",
+          "anchor": "db-source-line-102"
+        },
+        {
+          "line": 109,
+          "heading": "### 阶梯三：shallow neutral ground + suspended time + boundary discipline",
+          "anchor": "db-source-line-109"
+        },
+        {
+          "line": 118,
+          "heading": "## 5. 可观察结果（每条练习交出什么，不是「学会了」）",
+          "anchor": "db-source-line-118"
+        },
+        {
+          "line": 130,
+          "heading": "## 6. 常见失败（F1–F8，全部 `[归纳]` 设计反例）",
+          "anchor": "db-source-line-130"
+        },
+        {
+          "line": 145,
+          "heading": "## 7. 下一步（A-30 总路线寻址 + 本片 open 的收口路径）",
+          "anchor": "db-source-line-145"
+        },
+        {
+          "line": 155,
+          "heading": "## 8. 使用边界（B1–B8，诚实边界，不冒充完成）",
+          "anchor": "db-source-line-155"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "chen_hongshou": {
+      "task_id": "LEARN-chen_hongshou",
+      "learning_path": "knowledge/domains/painters/learning/chen_hongshou/learning_path.md",
+      "source_sha256": "ab95f83475abd4b6151f4f740b0ed59d892fa8b3d8806b42d73743024cb88f60",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-chen_hongshou — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 42,
+          "heading": "### 3.2 §8.2 逐条可判定规则（7 条，逐帧可查）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 62,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-62"
+        },
+        {
+          "line": 68,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 76,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 82,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-82"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "constable": {
+      "task_id": "LEARN-constable",
+      "learning_path": "knowledge/domains/painters/learning/constable/learning_path.md",
+      "source_sha256": "575d1a0a8a74c14d52d50e1807b5f93a688151bdc081d4ff56620f31f315d4e2",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-constable — 学习路径（A-30 §8.1 / 01-AUDIT.md L269-273 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 13,
+          "heading": "## §1 前置知识（动手前先知道什么）",
+          "anchor": "db-source-line-13"
+        },
+        {
+          "line": 25,
+          "heading": "## §2 重点作品及来源（引用现有记录，不另造出处）",
+          "anchor": "db-source-line-25"
+        },
+        {
+          "line": 48,
+          "heading": "## §3 要观察的机制",
+          "anchor": "db-source-line-48"
+        },
+        {
+          "line": 67,
+          "heading": "## §4 具体练习（三阶梯 + 收口；**全部为建议练习**，效果未经人评）",
+          "anchor": "db-source-line-67"
+        },
+        {
+          "line": 93,
+          "heading": "## §5 可观察结果（练习完成后能看到什么，不是学习成效）",
+          "anchor": "db-source-line-93"
+        },
+        {
+          "line": 103,
+          "heading": "## §6 常见失败（含 AUDIT 已登记的强反例与内容漂移）",
+          "anchor": "db-source-line-103"
+        },
+        {
+          "line": 119,
+          "heading": "## §7 下一步与使用边界",
+          "anchor": "db-source-line-119"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "da_vinci": {
+      "task_id": "LEARN-da_vinci",
+      "learning_path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+      "source_sha256": "bc29d5b91285dcfcdd7e385783f2ad5bb3f9407dbd22e86881dde91e9d47545c",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-da_vinci — 学习路径（A-30 §8.1 shape）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 9,
+          "heading": "## 0. 口径与定位约定",
+          "anchor": "db-source-line-9"
+        },
+        {
+          "line": 23,
+          "heading": "## 1. 前置知识",
+          "anchor": "db-source-line-23"
+        },
+        {
+          "line": 42,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不重新编造生平）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 61,
+          "heading": "## 3. 要观察的机制（与量规一一对应）",
+          "anchor": "db-source-line-61"
+        },
+        {
+          "line": 74,
+          "heading": "## 4. 具体练习（阶梯，≥3；全部「建议练习」）",
+          "anchor": "db-source-line-74"
+        },
+        {
+          "line": 78,
+          "heading": "### 阶梯 1 · 灰阶／明暗梯度研究（tonal gradient studies）— 建议练习",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 84,
+          "heading": "### 阶梯 2 · 空气透视分层（aerial-perspective layering）— 建议练习",
+          "anchor": "db-source-line-84"
+        },
+        {
+          "line": 89,
+          "heading": "### 阶梯 3 · 边缘链纪律 ≤40px 无硬边（edge-chain discipline）— 建议练习",
+          "anchor": "db-source-line-89"
+        },
+        {
+          "line": 97,
+          "heading": "## 5. 可观察结果（机械自查表，非人评）",
+          "anchor": "db-source-line-97"
+        },
+        {
+          "line": 112,
+          "heading": "## 6. 常见失败",
+          "anchor": "db-source-line-112"
+        },
+        {
+          "line": 126,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-126"
+        },
+        {
+          "line": 133,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-133"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "de_chirico": {
+      "task_id": "LEARN-de_chirico",
+      "learning_path": "knowledge/domains/painters/learning/de_chirico/learning_path.md",
+      "source_sha256": "83869560954e8de96e32716f22dca7b989957c9d5136fa438d884e45a0d6c6d0",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-de_chirico — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，12 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 44,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 57,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 65,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 79,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 85,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-85"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "degas": {
+      "task_id": "LEARN-degas",
+      "learning_path": "knowledge/domains/painters/learning/degas/learning_path.md",
+      "source_sha256": "5b4c8be45207399de1d12f02796c570eb9db1caa2953884baf63027175dcb2ea",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-degas — 学习路径卡（Edgar Degas）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 19,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-19"
+        },
+        {
+          "line": 36,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-36"
+        },
+        {
+          "line": 52,
+          "heading": "### 八条原书引文（Moore 1891 + Vollard 1927；作为已接受证据复用，非本轮新抓）",
+          "anchor": "db-source-line-52"
+        },
+        {
+          "line": 69,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 84,
+          "heading": "## 4. 具体练习（三阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-84"
+        },
+        {
+          "line": 88,
+          "heading": "### 阶梯一 · 舞台逆光/俯视取景的「取景器」（主线 A）",
+          "anchor": "db-source-line-88"
+        },
+        {
+          "line": 94,
+          "heading": "### 阶梯二 · 粉彩层积的「描线成面」（主线 B）",
+          "anchor": "db-source-line-94"
+        },
+        {
+          "line": 100,
+          "heading": "### 阶梯三 · 70/30 组合自律 + 序列变体（横切，携带 N3 张力）",
+          "anchor": "db-source-line-100"
+        },
+        {
+          "line": 110,
+          "heading": "## 5. 可观察结果（练习后能看见什么，非学习成效）",
+          "anchor": "db-source-line-110"
+        },
+        {
+          "line": 122,
+          "heading": "## 6. 常见失败（与 §4 越界警报 + AUDIT 反例对齐）",
+          "anchor": "db-source-line-122"
+        },
+        {
+          "line": 134,
+          "heading": "## 7. 下一步（接总路线与后续 lane）",
+          "anchor": "db-source-line-134"
+        },
+        {
+          "line": 144,
+          "heading": "## 8. 使用边界（何时失效 / 不能声称什么）",
+          "anchor": "db-source-line-144"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "durer": {
+      "task_id": "LEARN-durer",
+      "learning_path": "knowledge/domains/painters/learning/durer/learning_path.md",
+      "source_sha256": "4bf49337511fdc2ed74741fe2ae05abdf15f21aa49b22e4b5730f43b93a3658d",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-durer — 学习路径（A-30 §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 13,
+          "heading": "## §0 前置：先分清三层，再开练",
+          "anchor": "db-source-line-13"
+        },
+        {
+          "line": 22,
+          "heading": "### §0.3 known-open：+2 locator drift（必读，避免照抄过期行号）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 39,
+          "heading": "## §1 观察对象（看什么，先于「怎么画」）",
+          "anchor": "db-source-line-39"
+        },
+        {
+          "line": 59,
+          "heading": "## §2 练习阶梯（观察对象 → 创作决策 → 机制 → 参数 → 一次可做的练习 → 反例 → 自检）",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 63,
+          "heading": "### 台阶 1 — 观察日课：先看见「灰是线做的」而不是「灰是涂的」",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 73,
+          "heading": "### 台阶 2 — 排线体系 I：明度→线密度的单调映射",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 83,
+          "heading": "### 台阶 3 — 排线体系 II：方向场 / 收锋 / 缩略图一致性",
+          "anchor": "db-source-line-83"
+        },
+        {
+          "line": 93,
+          "heading": "### 台阶 4 — 比例几何机制（brief 重点 ②）",
+          "anchor": "db-source-line-93"
+        },
+        {
+          "line": 103,
+          "heading": "### 台阶 5 — C-07 组合边界（brief 必携带，正本 L136–L147）",
+          "anchor": "db-source-line-103"
+        },
+        {
+          "line": 116,
+          "heading": "### 台阶 6 — 综合收束与「何时失效」",
+          "anchor": "db-source-line-116"
+        },
+        {
+          "line": 125,
+          "heading": "## §3 与 AUDIT-durer 的对应关系",
+          "anchor": "db-source-line-125"
+        },
+        {
+          "line": 137,
+          "heading": "## §4 未决 / 不宣称",
+          "anchor": "db-source-line-137"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "el_greco": {
+      "task_id": "LEARN-el_greco",
+      "learning_path": "knowledge/domains/painters/learning/el_greco/learning_path.md",
+      "source_sha256": "932caac0e9a1f6bb3f8722df18f1c9a29253228a872cf2abff065647221cd819",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-el_greco — 学习路径卡（El Greco / 埃尔·格列柯）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 22,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 39,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-39"
+        },
+        {
+          "line": 54,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 68,
+          "heading": "## 4. 具体练习（3 阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 72,
+          "heading": "### 阶梯一：grisaille-and-glaze studies（灰调底层 + 罩染）",
+          "anchor": "db-source-line-72"
+        },
+        {
+          "line": 80,
+          "heading": "### 阶梯二：elongation-and-continuity studies（纵向拉伸 / 蛇形 / 连续性）",
+          "anchor": "db-source-line-80"
+        },
+        {
+          "line": 89,
+          "heading": "### 阶梯三：unseen-light / acid-colour / cloud-curtain discipline（自有光 + 酸色 + 云幕 + 组合自律）",
+          "anchor": "db-source-line-89"
+        },
+        {
+          "line": 100,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-100"
+        },
+        {
+          "line": 112,
+          "heading": "## 6. 常见失败（与 AUDIT-el_greco 判定、§3.1 越界警报、conflicts.md 一致）",
+          "anchor": "db-source-line-112"
+        },
+        {
+          "line": 130,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-130"
+        },
+        {
+          "line": 139,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-139"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "el_salahi": {
+      "task_id": "LEARN-el_salahi",
+      "learning_path": "knowledge/domains/painters/learning/el_salahi/learning_path.md",
+      "source_sha256": "fcb1f9aade75f713506d7758c9d3fa92c3af1d98eae83dfd86ba2d191c710133",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-el_salahi — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，12 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 44,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 57,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 65,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 79,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 85,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-85"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "enwonwu": {
+      "task_id": "LEARN-enwonwu",
+      "learning_path": "knowledge/domains/painters/learning/enwonwu/learning_path.md",
+      "source_sha256": "718205f25e97d0bee3b862931b1d4bd626c5d0b0313939c4b56cb51c08111742",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-enwonwu — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 42,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 55,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 63,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 69,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 77,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 83,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-83"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "fan_kuan": {
+      "task_id": "LEARN-fan_kuan",
+      "learning_path": "knowledge/domains/painters/learning/fan_kuan/learning_path.md",
+      "source_sha256": "b7106f5af35fa5745e93fbdd0e02cd89c39714ff795ec542a7bcb0c07f65fbab",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-fan_kuan — 学习路径（A-30 §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 13,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-13"
+        },
+        {
+          "line": 25,
+          "heading": "## §2 重点作品及来源（引用现有记录，不新增编造）",
+          "anchor": "db-source-line-25"
+        },
+        {
+          "line": 44,
+          "heading": "## §3 要观察的机制（两个主机制 + 关联机制，全部带定位与等级）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 62,
+          "heading": "## §4 具体练习（建议练习 · 三段阶梯 ladder，≥3 级，可操作）",
+          "anchor": "db-source-line-62"
+        },
+        {
+          "line": 67,
+          "heading": "### 阶梯 1 — 立幅主峰压迫比例（练 M2「≥60% 高 + 中轴 + 顶天」）",
+          "anchor": "db-source-line-67"
+        },
+        {
+          "line": 75,
+          "heading": "### 阶梯 2 — 雨点皴密度与方向（练 M1「≥60% 覆盖 + 方向离散」）",
+          "anchor": "db-source-line-75"
+        },
+        {
+          "line": 88,
+          "heading": "### 阶梯 3 — 满皴 + 浓墨 + 云雾带联合约束（练 M1/M3/M4 + 反例 FK-CE-01）",
+          "anchor": "db-source-line-88"
+        },
+        {
+          "line": 99,
+          "heading": "## §5 可观察结果（产物级 / 不是学习成效）",
+          "anchor": "db-source-line-99"
+        },
+        {
+          "line": 111,
+          "heading": "## §6 常见失败（反例，照录现有档案 + AUDIT + 冲突表）",
+          "anchor": "db-source-line-111"
+        },
+        {
+          "line": 127,
+          "heading": "## §7 下一步（接入 A-30 总路线）",
+          "anchor": "db-source-line-127"
+        },
+        {
+          "line": 140,
+          "heading": "## §8 使用边界（硬边界，照录）",
+          "anchor": "db-source-line-140"
+        },
+        {
+          "line": 153,
+          "heading": "## 附：本文件每条断言的定位索引",
+          "anchor": "db-source-line-153"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "friedrich": {
+      "task_id": "LEARN-friedrich",
+      "learning_path": "knowledge/domains/painters/learning/friedrich/learning_path.md",
+      "source_sha256": "335aedaf27c10d4aaa9039e144964dd597bb3936c493d02badbd1dd8b0035d9a",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-friedrich — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 42,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 55,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 63,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 69,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 77,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 83,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-83"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "gauguin": {
+      "task_id": "LEARN-gauguin",
+      "learning_path": "knowledge/domains/painters/learning/gauguin/learning_path.md",
+      "source_sha256": "35974f65dcc5036a11d4a5f6426f347fb60e934bc574851e360f57031f8faf4e",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-gauguin — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（已有 §12 的练习入口）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 29,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 31,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 44,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 57,
+          "heading": "## 4. 三个具体 proposed 练习（未执行；效果未评价）",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 59,
+          "heading": "### G-E1 基础：六色平涂草图",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 65,
+          "heading": "### G-E2 进阶：轮廓覆盖率局部 A/B",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "### G-E3 比较：可替换对象与被声明的色彩—主题关系",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 77,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 83,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-83"
+        },
+        {
+          "line": 91,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-91"
+        },
+        {
+          "line": 97,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-97"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "goya": {
+      "task_id": "LEARN-goya",
+      "learning_path": "knowledge/domains/painters/learning/goya/learning_path.md",
+      "source_sha256": "26ae6617bff1cb4a3386548df7ba12c50afb9bd723be276a0a06b20864c0365d",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-goya — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 10,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-10"
+        },
+        {
+          "line": 22,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 36,
+          "heading": "## 2. 重点作品及来源（9 张公开图，权利信息沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-36"
+        },
+        {
+          "line": 56,
+          "heading": "## 3. 要观察的机制（重点：暗色底 + 强光主体，画内光源数实测判据）",
+          "anchor": "db-source-line-56"
+        },
+        {
+          "line": 58,
+          "heading": "### 3.1 核心机制：暗色底 + 强光主体（「证据光」）",
+          "anchor": "db-source-line-58"
+        },
+        {
+          "line": 74,
+          "heading": "### 3.2 其余机制（阶梯二/三）",
+          "anchor": "db-source-line-74"
+        },
+        {
+          "line": 83,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`，沿用 dossier §12）",
+          "anchor": "db-source-line-83"
+        },
+        {
+          "line": 99,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-99"
+        },
+        {
+          "line": 109,
+          "heading": "## 6. 常见失败（F1–F6）",
+          "anchor": "db-source-line-109"
+        },
+        {
+          "line": 120,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-120"
+        },
+        {
+          "line": 136,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-136"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "hiroshige": {
+      "task_id": "LEARN-hiroshige",
+      "learning_path": "knowledge/domains/painters/learning/hiroshige/learning_path.md",
+      "source_sha256": "69648774f687877646c05da59a37e8187229d39c8232c7dae2d07abf110d1741",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-hiroshige · learning_path.md（A-30 §8.1 学习路径）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 前置知识（先读什么，再动手）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 26,
+          "heading": "## 2. 重点作品及来源（Met 12 件 CC0 证据底座 + 临摹清单）",
+          "anchor": "db-source-line-26"
+        },
+        {
+          "line": 30,
+          "heading": "### 2.1 Met 12 件 CC0 证据底座（逐件可核）",
+          "anchor": "db-source-line-30"
+        },
+        {
+          "line": 51,
+          "heading": "### 2.2 临摹清单 10 件（§12，含 6 件非 Met 档）",
+          "anchor": "db-source-line-51"
+        },
+        {
+          "line": 59,
+          "heading": "## 3. 要观察的机制（两条主轴 + 一条静场边界）",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 61,
+          "heading": "### M-1 雨雪风大气瞬间（weather-as-subject）",
+          "anchor": "db-source-line-61"
+        },
+        {
+          "line": 71,
+          "heading": "### M-2 斜视角构图机制（裁剪式取景 / oblique framing）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 78,
+          "heading": "### M-3 渐印 bokashi 与色相（大气引擎，连接两主轴）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 86,
+          "heading": "## 4. 具体练习（三条阶梯，全部 = 建议练习 `[归纳]`）",
+          "anchor": "db-source-line-86"
+        },
+        {
+          "line": 90,
+          "heading": "### 阶梯 1 · 天气线族的可数化（参考练习 + 单点变量 A/B 比较，分栏）",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 94,
+          "heading": "#### 1a · 参考练习（逐件临摹，**旅人数随原作档变化**，不是单点变量实验）",
+          "anchor": "db-source-line-94"
+        },
+        {
+          "line": 101,
+          "heading": "#### 1b · 单点变量天气 A/B 比较（**修正后的输入表**｜仅天气变化，SATISFIABLE）",
+          "anchor": "db-source-line-101"
+        },
+        {
+          "line": 121,
+          "heading": "### 阶梯 2 · 斜视角裁剪 + 三层叠合（构图机制）",
+          "anchor": "db-source-line-121"
+        },
+        {
+          "line": 128,
+          "heading": "### 阶梯 3 · 系列骨架 + 版本变奏 + 边界联合判定（综合）",
+          "anchor": "db-source-line-128"
+        },
+        {
+          "line": 137,
+          "heading": "## 5. 可观察结果（练完能判什么，不写学习收益）",
+          "anchor": "db-source-line-137"
+        },
+        {
+          "line": 150,
+          "heading": "## 6. 常见失败（对照 §4 越界警报 + AUDIT 反例）",
+          "anchor": "db-source-line-150"
+        },
+        {
+          "line": 163,
+          "heading": "## 7. 下一步（本片之后，仍为建议）",
+          "anchor": "db-source-line-163"
+        },
+        {
+          "line": 172,
+          "heading": "## 8. 使用边界（硬边界，不得扩大）",
+          "anchor": "db-source-line-172"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "hogarth": {
+      "task_id": "LEARN-hogarth",
+      "learning_path": "knowledge/domains/painters/learning/hogarth/learning_path.md",
+      "source_sha256": "20087d401c6e68035b5bf998a56e7200b5db9b897b3a1d70728681f1463fa7d1",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-hogarth — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 10,
+          "heading": "## §1 起点：先分清楚「两类知识」",
+          "anchor": "db-source-line-10"
+        },
+        {
+          "line": 21,
+          "heading": "## §2 观察对象（按 §12 现有清单，不重写作品序列）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 36,
+          "heading": "## §3 三个主机制（M0 / M1 / M2）",
+          "anchor": "db-source-line-36"
+        },
+        {
+          "line": 38,
+          "heading": "### M0 — line-of-beauty S 曲线（形式分析工具）`[自述]`",
+          "anchor": "db-source-line-38"
+        },
+        {
+          "line": 45,
+          "heading": "### M1 — 连环画叙事序列机制（progress series）`[自述]` 意图 + `[归纳]` 操作",
+          "anchor": "db-source-line-45"
+        },
+        {
+          "line": 52,
+          "heading": "### M2 — 对位 / 单帧多线索（pair & readable picture）`[史料]` + `[归纳]`",
+          "anchor": "db-source-line-52"
+        },
+        {
+          "line": 60,
+          "heading": "## §4 三段练习阶梯（顺序 = 看线 → 建序列 → 收窄适用域）",
+          "anchor": "db-source-line-60"
+        },
+        {
+          "line": 64,
+          "heading": "### 阶梯 1 — S 曲线：把形式论变成一根可画的线（M0）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 74,
+          "heading": "### 阶梯 2 — 连环画序列：建帧间进度依赖（M1），并套上 CE-1 carve-out",
+          "anchor": "db-source-line-74"
+        },
+        {
+          "line": 85,
+          "heading": "### 阶梯 3 — 对位 + 表面工艺：把 OVERTURNED 当已决事实落地（M2 + resolved fact）",
+          "anchor": "db-source-line-85"
+        },
+        {
+          "line": 98,
+          "heading": "## §5 失败 / 修正（counterexample 三则，全部 `[inference]` 纸面）",
+          "anchor": "db-source-line-98"
+        },
+        {
+          "line": 112,
+          "heading": "## §6 参数总表（§4 六参数，`[归纳]`，练习默认值）",
+          "anchor": "db-source-line-112"
+        },
+        {
+          "line": 127,
+          "heading": "## §7 A-30 总路线：跨艺术家比较分支",
+          "anchor": "db-source-line-127"
+        },
+        {
+          "line": 143,
+          "heading": "## §8 收口声明",
+          "anchor": "db-source-line-143"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "hokusai": {
+      "task_id": "LEARN-hokusai",
+      "learning_path": "knowledge/domains/painters/learning/hokusai/learning_path.md",
+      "source_sha256": "34103216d4e00391034fd7fc3e0035ab3be7b961a0c7e143cf0c3c8d3ff14e15",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-hokusai — 学习路径卡（A-30 · §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 前置知识（先知道什么，再开练）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 24,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增考证）",
+          "anchor": "db-source-line-24"
+        },
+        {
+          "line": 44,
+          "heading": "## 3. 要观察的机制（练时盯什么）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 59,
+          "heading": "## 4. 具体练习（可操作 · ≥3 阶梯 · 全为「建议练习」）",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 63,
+          "heading": "### 阶梯 1 — 三级曲线族单色稿（nested-curve monochrome）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 73,
+          "heading": "### 阶梯 2 — 远近挤压 + 极简留白（scale-compression / negative-space）",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 84,
+          "heading": "### 阶梯 3 — 系列化 + 分工交接（series & hand-off）",
+          "anchor": "db-source-line-84"
+        },
+        {
+          "line": 99,
+          "heading": "## 5. 可观察结果（怎么算这一级练到了）",
+          "anchor": "db-source-line-99"
+        },
+        {
+          "line": 116,
+          "heading": "## 6. 常见失败（→ 当作失败条件读，完整版见 mechanism_notes.md）",
+          "anchor": "db-source-line-116"
+        },
+        {
+          "line": 131,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-131"
+        },
+        {
+          "line": 141,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-141"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "holbein": {
+      "task_id": "LEARN-holbein",
+      "learning_path": "knowledge/domains/painters/learning/holbein/learning_path.md",
+      "source_sha256": "32e9f4f017764bcaeda6c008cd8af008853498ce70c028e0f38a7c0225e11e31",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-holbein — 学习路径（A-30 §8.1 / Lane B 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 24,
+          "heading": "## §2 重点作品及来源（引用现有记录，不新增编造）",
+          "anchor": "db-source-line-24"
+        },
+        {
+          "line": 44,
+          "heading": "## §3 要观察的机制（北方文艺复兴肖像精工 + 织物质感，带定位与等级）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 64,
+          "heading": "## §4 三段练习阶梯（建议练习；顺序 = 观察→决策→机制→参数→一次练习→反例→自检）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 68,
+          "heading": "### 阶梯 1：净面物证 + 织物质感（单人肖像精工的起步档）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 77,
+          "heading": "### 阶梯 2：物证叙事 + 铭文编码（《大使们》档）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 87,
+          "heading": "### 阶梯 3：几何/平面/格式极端 + 收口",
+          "anchor": "db-source-line-87"
+        },
+        {
+          "line": 98,
+          "heading": "## §5 可观察结果（产物级 / 不是学习成效）",
+          "anchor": "db-source-line-98"
+        },
+        {
+          "line": 111,
+          "heading": "## §6 常见失败（反例 / 失败条件，按冲突与现有记录）",
+          "anchor": "db-source-line-111"
+        },
+        {
+          "line": 125,
+          "heading": "## §7 下一步（接入 A-30 总路线，不越界）",
+          "anchor": "db-source-line-125"
+        },
+        {
+          "line": 138,
+          "heading": "## §8 使用边界（硬边界，照录）",
+          "anchor": "db-source-line-138"
+        },
+        {
+          "line": 150,
+          "heading": "## 附：本文件每条断言的定位索引",
+          "anchor": "db-source-line-150"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "hopper": {
+      "task_id": "LEARN-hopper",
+      "learning_path": "knowledge/domains/painters/learning/hopper/learning_path.md",
+      "source_sha256": "dfef14812a74388bed4a5e3c6e4d5b54f891cc6dc76c04c673edd6d5f7f35144",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-hopper — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，12 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 44,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 57,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 65,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 79,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 85,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-85"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "huang_gongwang": {
+      "task_id": "LEARN-huang_gongwang",
+      "learning_path": "knowledge/domains/painters/learning/huang_gongwang/learning_path.md",
+      "source_sha256": "c38f8b5927437750c53747716a5e079a4fe67805cffe3dcd4cf77aea1a9092e1",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-huang_gongwang — 学习路径（A-30 §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 16,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-16"
+        },
+        {
+          "line": 35,
+          "heading": "## §2 重点作品及来源（引用现有记录，不新增编造）",
+          "anchor": "db-source-line-35"
+        },
+        {
+          "line": 56,
+          "heading": "## §3 要观察的机制（南宗山水三条主机制 + 关联机制，全部带定位与等级）",
+          "anchor": "db-source-line-56"
+        },
+        {
+          "line": 73,
+          "heading": "## §4 具体练习（建议练习 · 三段阶梯 ladder，≥3 级，可操作）",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 78,
+          "heading": "### 阶梯 1 — 用笔（练 M1「披麻皴 ≥3 线/组」+ M2「积墨 3–5 层」）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 88,
+          "heading": "### 阶梯 2 — 留白 / 水位（练 M3「纸色主调」+ M4「水面 ≥25%/≥30% 且横向贯穿」+ 平远/阔远）",
+          "anchor": "db-source-line-88"
+        },
+        {
+          "line": 98,
+          "heading": "### 阶梯 3 — 长卷节奏 + 浅绛/点景收尾（练 M6「段落疏密」+ M7「浅绛 ≤20%」+ M5「点苔」+ M8「点景」）",
+          "anchor": "db-source-line-98"
+        },
+        {
+          "line": 110,
+          "heading": "## §5 可观察结果（产物级 / 不是学习成效）",
+          "anchor": "db-source-line-110"
+        },
+        {
+          "line": 122,
+          "heading": "## §6 常见失败（反例，照录现有档案 + AUDIT counterexample + 冲突/漂移）",
+          "anchor": "db-source-line-122"
+        },
+        {
+          "line": 139,
+          "heading": "## §7 下一步（接入 A-30 总路线）",
+          "anchor": "db-source-line-139"
+        },
+        {
+          "line": 153,
+          "heading": "## §8 使用边界（硬边界，照录）",
+          "anchor": "db-source-line-153"
+        },
+        {
+          "line": 167,
+          "heading": "## 附：本文件每条断言的定位索引",
+          "anchor": "db-source-line-167"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "ito_jakuchu": {
+      "task_id": "LEARN-ito_jakuchu",
+      "learning_path": "knowledge/domains/painters/learning/ito_jakuchu/learning_path.md",
+      "source_sha256": "cd45cb6dd9d7a81599e14a2e30c31d28f7bb0152dc1cd102bffe48d8f0b08af8",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-ito_jakuchu — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，11 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 43,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-43"
+        },
+        {
+          "line": 56,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-56"
+        },
+        {
+          "line": 64,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 70,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-70"
+        },
+        {
+          "line": 78,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 84,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-84"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "kahlo": {
+      "task_id": "LEARN-kahlo",
+      "learning_path": "knowledge/domains/painters/learning/kahlo/learning_path.md",
+      "source_sha256": "cbbcfa0469fd17b788f9de3edfd78ea05e220a86b33ad736b4a14e330fe26910",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-kahlo — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 10,
+          "heading": "## §0 前置知识（学之前必须分清的四件事）",
+          "anchor": "db-source-line-10"
+        },
+        {
+          "line": 23,
+          "heading": "## §2 观察对象（照录 §12 现有清单，不重写作品序列）",
+          "anchor": "db-source-line-23"
+        },
+        {
+          "line": 39,
+          "heading": "## §3 三个主机制（M1 / M2 / M3）",
+          "anchor": "db-source-line-39"
+        },
+        {
+          "line": 41,
+          "heading": "### M1 — 自画像符号系统（self-portrait as 生平符码表）`[研究]` 符号 + `[归纳]` 参数",
+          "anchor": "db-source-line-41"
+        },
+        {
+          "line": 50,
+          "heading": "### M2 — 镜像凝视 vs 里维拉分工（mirror / Rivera 互查）`[研究]` + `[归纳]` 写死条款",
+          "anchor": "db-source-line-50"
+        },
+        {
+          "line": 57,
+          "heading": "### M3 — 小画幅 / 亲密观看距离（intimate scale）与其例外档 `[研究]` + `[归纳]`",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 65,
+          "heading": "## §4 三段练习阶梯（顺序 = 建符号词典 → 镜像/分工互查 → 尺度例外与权利边界）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 69,
+          "heading": "### 阶梯 1 — 把「自画像」建成可解码的符号句（M1）",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 79,
+          "heading": "### 阶梯 2 — 正面镜像 + 蒙克/里维拉双轴互查（M2）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 89,
+          "heading": "### 阶梯 3 — Las dos Fridas 173cm 例外档 + images_public=0 / NMWA 权利行边界（M3）",
+          "anchor": "db-source-line-89"
+        },
+        {
+          "line": 102,
+          "heading": "## §5 常见失败 / 修正（counterexample 三则，全部 `[inference]` 纸面）",
+          "anchor": "db-source-line-102"
+        },
+        {
+          "line": 116,
+          "heading": "## §6 参数总表（§4 六参数，`[归纳]`，练习默认值）",
+          "anchor": "db-source-line-116"
+        },
+        {
+          "line": 132,
+          "heading": "## §7 A-30 总路线：跨艺术家比较分支 + 可观察结果 / 下一步 / 使用边界",
+          "anchor": "db-source-line-132"
+        },
+        {
+          "line": 148,
+          "heading": "## §8 收口声明",
+          "anchor": "db-source-line-148"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "kandinsky": {
+      "task_id": "LEARN-kandinsky",
+      "learning_path": "knowledge/domains/painters/learning/kandinsky/learning_path.md",
+      "source_sha256": "a34b62f064dc7a7682f97a03e5b74976b95a893f438a462f766b07ffa5f904b5",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-kandinsky — 学习路径（A-30 / 00-GOAL §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 13,
+          "heading": "## 1. 前置知识（动手前先知道什么）",
+          "anchor": "db-source-line-13"
+        },
+        {
+          "line": 28,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不另造出处）",
+          "anchor": "db-source-line-28"
+        },
+        {
+          "line": 50,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-50"
+        },
+        {
+          "line": 71,
+          "heading": "## 4. 具体练习（可操作；三阶梯 + 一收口，全部为**建议练习**）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 75,
+          "heading": "### 阶梯 A｜色彩-形状对位（form–colour counterpoint，包豪斯档）— 建议练习",
+          "anchor": "db-source-line-75"
+        },
+        {
+          "line": 87,
+          "heading": "### 阶梯 B｜音乐类比 / 声部化构成（visual music）— 建议练习",
+          "anchor": "db-source-line-87"
+        },
+        {
+          "line": 100,
+          "heading": "### 阶梯 C｜抽象构成收口 + B&W 木刻 scope-boundary probe（强调④）— 建议练习",
+          "anchor": "db-source-line-100"
+        },
+        {
+          "line": 112,
+          "heading": "### 收口｜综合自检（一帧跑完 §8.2 八条）— 建议练习",
+          "anchor": "db-source-line-112"
+        },
+        {
+          "line": 118,
+          "heading": "## 5. 可观察结果（自查表，不是学习成效）",
+          "anchor": "db-source-line-118"
+        },
+        {
+          "line": 138,
+          "heading": "## 6. 常见失败（反例，按现有记录）",
+          "anchor": "db-source-line-138"
+        },
+        {
+          "line": 158,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-158"
+        },
+        {
+          "line": 169,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-169"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "kitagawa_utamaro": {
+      "task_id": "LEARN-kitagawa_utamaro",
+      "learning_path": "knowledge/domains/painters/learning/kitagawa_utamaro/learning_path.md",
+      "source_sha256": "388ec2eeacf4618718e787e8f9bda4d34217d9378ab466dda838fc60a1e1ed53",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-kitagawa_utamaro — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 42,
+          "heading": "### 3.2 §8.2 逐条可判定规则（7 条，逐帧可查）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 62,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-62"
+        },
+        {
+          "line": 68,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 76,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 82,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-82"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "klimt": {
+      "task_id": "LEARN-klimt",
+      "learning_path": "knowledge/domains/painters/learning/klimt/learning_path.md",
+      "source_sha256": "c6d724c42d074e428040007145f079da8ddeb65e893b4541cd6ecb287e3dbbec",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-klimt — 学习路径卡（Gustav Klimt 克里姆特）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 21,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 40,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-40"
+        },
+        {
+          "line": 54,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 68,
+          "heading": "## 4. 具体练习（3 阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 72,
+          "heading": "### 阶梯一：metal-leaf layer studies（金箔装饰层 / 材质层）",
+          "anchor": "db-source-line-72"
+        },
+        {
+          "line": 79,
+          "heading": "### 阶梯二：planar segmentation / dual-resolution（平面分割 + 双分辨率）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 86,
+          "heading": "### 阶梯三：division-vs-exclusive-criterion discipline（分工边界 + 组合自律）",
+          "anchor": "db-source-line-86"
+        },
+        {
+          "line": 99,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-99"
+        },
+        {
+          "line": 111,
+          "heading": "## 6. 常见失败（与 AUDIT-klimt 冲突判定、conflicts.md 一致）",
+          "anchor": "db-source-line-111"
+        },
+        {
+          "line": 129,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-129"
+        },
+        {
+          "line": 140,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-140"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "kngwarreye": {
+      "task_id": "LEARN-kngwarreye",
+      "learning_path": "knowledge/domains/painters/learning/kngwarreye/learning_path.md",
+      "source_sha256": "e094f22acd0e8422f8e34abfe8064a3972e49469b26a39d5dc8f6629ec5ccb43",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-kngwarreye — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，12 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 44,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 57,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 65,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 79,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 85,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-85"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "lam": {
+      "task_id": "LEARN-lam",
+      "learning_path": "knowledge/domains/painters/learning/lam/learning_path.md",
+      "source_sha256": "f8d3ddf276f6d0c6fc3f830efe10944b952769ffd48c44b4574d2776c6a93139",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-lam — 学习路径卡（A-30 · §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 12,
+          "heading": "## 1. 前置知识（先知道什么，再开练）",
+          "anchor": "db-source-line-12"
+        },
+        {
+          "line": 23,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增考证）",
+          "anchor": "db-source-line-23"
+        },
+        {
+          "line": 44,
+          "heading": "## 3. 要观察的机制（练时盯什么）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 59,
+          "heading": "## 4. 具体练习（可操作 · 3 阶梯 · 全为「建议练习」）",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 63,
+          "heading": "### 阶梯 1 — 密度场 + 单部件兽形（density field + single-part hybrid）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 73,
+          "heading": "### 阶梯 2 — 生长式三元合体 + 仪式在场（grown hybrid + ritual presence）",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 83,
+          "heading": "### 阶梯 3 — 满幅综合 + 越界警报对照（full composition + boundary A/B）",
+          "anchor": "db-source-line-83"
+        },
+        {
+          "line": 97,
+          "heading": "## 5. 可观察结果（怎么算这一级练到了）",
+          "anchor": "db-source-line-97"
+        },
+        {
+          "line": 113,
+          "heading": "## 6. 常见失败（→ 当作失败条件读，完整版见 mechanism_notes.md）",
+          "anchor": "db-source-line-113"
+        },
+        {
+          "line": 132,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-132"
+        },
+        {
+          "line": 142,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-142"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "li_keran": {
+      "task_id": "LEARN-li_keran",
+      "learning_path": "knowledge/domains/painters/learning/li_keran/learning_path.md",
+      "source_sha256": "94a0e2b2f7f1eae2609d299eb93ce4d670a88bfb0e6cd845c0f847d6266f0ef5",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-li_keran — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，12 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 44,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 57,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 65,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 79,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 85,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-85"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "lin_fengmian": {
+      "task_id": "LEARN-lin_fengmian",
+      "learning_path": "knowledge/domains/painters/learning/lin_fengmian/learning_path.md",
+      "source_sha256": "0955f706f0b88b3cf1e6f17009d781256cfb05f55205b1925fc119e4c116fd6b",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-lin_fengmian — 学习路径（A-30 §8.1 八节形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 19,
+          "heading": "## §2 重点作品及来源（沿用现有记录，不新增编造）",
+          "anchor": "db-source-line-19"
+        },
+        {
+          "line": 32,
+          "heading": "## §3 要观察的机制（带定位与等级）",
+          "anchor": "db-source-line-32"
+        },
+        {
+          "line": 49,
+          "heading": "## §4 具体练习（三阶梯；全为 `[归纳]` 建议练习）",
+          "anchor": "db-source-line-49"
+        },
+        {
+          "line": 72,
+          "heading": "## §5 可观察结果（练习做成什么样算「这一轮走完」）",
+          "anchor": "db-source-line-72"
+        },
+        {
+          "line": 82,
+          "heading": "## §6 常见失败（含已知漂移/异说，登记不修）",
+          "anchor": "db-source-line-82"
+        },
+        {
+          "line": 93,
+          "heading": "## §7 下一步（沿 A-30 总路线，全部标注未决状态）",
+          "anchor": "db-source-line-93"
+        },
+        {
+          "line": 100,
+          "heading": "## §8 使用边界（诚实声明）",
+          "anchor": "db-source-line-100"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "manet": {
+      "task_id": "LEARN-manet",
+      "learning_path": "knowledge/domains/painters/learning/manet/learning_path.md",
+      "source_sha256": "3ca113c8ab177a4aab4dc374784dfa90d0f5d375debee626d3d5829b3d96dad7",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-manet — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 42,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 55,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 63,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 69,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 77,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 83,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-83"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "matisse": {
+      "task_id": "LEARN-matisse",
+      "learning_path": "knowledge/domains/painters/learning/matisse/learning_path.md",
+      "source_sha256": "0090dfcb6bb057c79fdf54c584e14bb2eb0b21d1913382ac9a15fd64f0db988f",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-matisse — 学习路径（A-30 / 00-GOAL §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 12,
+          "heading": "## 1. 前置知识（动手前先知道什么）",
+          "anchor": "db-source-line-12"
+        },
+        {
+          "line": 24,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不另造出处）",
+          "anchor": "db-source-line-24"
+        },
+        {
+          "line": 47,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-47"
+        },
+        {
+          "line": 68,
+          "heading": "## 4. 具体练习（可操作；三阶梯 + 一收口，全部为**建议练习**）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 72,
+          "heading": "### 阶梯 A｜平涂剪纸基础研究（flat-color paper-cut studies）— 建议练习",
+          "anchor": "db-source-line-72"
+        },
+        {
+          "line": 85,
+          "heading": "### 阶梯 B｜装饰密度旋钮（decorative-density dial / P4）— 建议练习",
+          "anchor": "db-source-line-85"
+        },
+        {
+          "line": 99,
+          "heading": "### 阶梯 C｜人物/纹样承载面选择（figure/ornament carrier selection，克里姆特接口）— 建议练习",
+          "anchor": "db-source-line-99"
+        },
+        {
+          "line": 113,
+          "heading": "### 收口｜综合自检（一帧跑完 §8.2 八条）— 建议练习",
+          "anchor": "db-source-line-113"
+        },
+        {
+          "line": 119,
+          "heading": "## 5. 可观察结果（自查表，不是学习成效）",
+          "anchor": "db-source-line-119"
+        },
+        {
+          "line": 139,
+          "heading": "## 6. 常见失败（反例，按冲突行与现有记录）",
+          "anchor": "db-source-line-139"
+        },
+        {
+          "line": 159,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-159"
+        },
+        {
+          "line": 169,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-169"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "michelangelo": {
+      "task_id": "LEARN-michelangelo",
+      "learning_path": "knowledge/domains/painters/learning/michelangelo/learning_path.md",
+      "source_sha256": "9d8160d322c8177fef74e983edde0c373c41992ec87d5371071cd75a687d683e",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# learning_path — LEARN-michelangelo（A-30 单画家学习路径）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 12,
+          "heading": "## 1. 前置知识",
+          "anchor": "db-source-line-12"
+        },
+        {
+          "line": 27,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不重造生平）",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 46,
+          "heading": "## 3. 要观察的机制（本轮点名为核心）",
+          "anchor": "db-source-line-46"
+        },
+        {
+          "line": 63,
+          "heading": "## 4. 具体练习（建议练习 · 三级阶梯）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 67,
+          "heading": "### 阶梯 1 — 凿边人体研究（chiseled-edge figure studies）｜主攻 M1 + M3",
+          "anchor": "db-source-line-67"
+        },
+        {
+          "line": 76,
+          "heading": "### 阶梯 2 — 满构图掩膜（crowded-composition masking）｜主攻 M2",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 86,
+          "heading": "### 阶梯 3 — 形体塑造 vs 平涂背景分区（form-casting vs flat-background split，C-18 partition）｜主攻 M3 + 四条冲突的落地",
+          "anchor": "db-source-line-86"
+        },
+        {
+          "line": 99,
+          "heading": "## 5. 可观察结果",
+          "anchor": "db-source-line-99"
+        },
+        {
+          "line": 116,
+          "heading": "## 6. 常见失败（反例）",
+          "anchor": "db-source-line-116"
+        },
+        {
+          "line": 131,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-131"
+        },
+        {
+          "line": 140,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-140"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "mir_sayyid_ali": {
+      "task_id": "LEARN-mir_sayyid_ali",
+      "learning_path": "knowledge/domains/painters/learning/mir_sayyid_ali/learning_path.md",
+      "source_sha256": "96afcd6ebc19bfc61a0f1da89264dcd5e8e85cba892e98969a5acbd7e09547e1",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-mir_sayyid_ali — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 33,
+          "heading": "### 3.1 视觉指纹（§1，11 条）",
+          "anchor": "db-source-line-33"
+        },
+        {
+          "line": 47,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-47"
+        },
+        {
+          "line": 60,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-60"
+        },
+        {
+          "line": 68,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 74,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-74"
+        },
+        {
+          "line": 82,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-82"
+        },
+        {
+          "line": 88,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-88"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "monet": {
+      "task_id": "LEARN-monet",
+      "learning_path": "knowledge/domains/painters/learning/monet/learning_path.md",
+      "source_sha256": "8bd67ff86e2b91ceca7561c35c767087c9215c33b69bf75ab63980f102855450",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-monet — 学习路径卡（Claude Monet）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 17,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-17"
+        },
+        {
+          "line": 32,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-32"
+        },
+        {
+          "line": 47,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-47"
+        },
+        {
+          "line": 60,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-60"
+        },
+        {
+          "line": 64,
+          "heading": "### 阶梯一：comma-stroke field studies（短逗号笔触场写生）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 71,
+          "heading": "### 阶梯二：atmospheric envelope gradients（大气包络梯度）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 78,
+          "heading": "### 阶梯三：hue-collapse discipline（色相收拢 / 饱和度自律）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 89,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-89"
+        },
+        {
+          "line": 101,
+          "heading": "## 6. 常见失败（与 AUDIT-monet §3 冲突判定、conflicts.md 一致）",
+          "anchor": "db-source-line-101"
+        },
+        {
+          "line": 117,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-117"
+        },
+        {
+          "line": 126,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-126"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "mucha": {
+      "task_id": "LEARN-mucha",
+      "learning_path": "knowledge/domains/painters/learning/mucha/learning_path.md",
+      "source_sha256": "b3080e7d44d7201e504d82eacafb86b61cfb1778b8baf7df73fd1e2ad969b11c",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-mucha — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，10 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 42,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 55,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 63,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 69,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 77,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 83,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-83"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "munch": {
+      "task_id": "LEARN-munch",
+      "learning_path": "knowledge/domains/painters/learning/munch/learning_path.md",
+      "source_sha256": "155dc1815b37e20d0ef3c4d1903145997f4a6c845385af7fef32f48b54193908",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-munch — 学习路径（A-30 §8.1 八节形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 前置知识（先知道什么，才不会把练习做歪）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 26,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-26"
+        },
+        {
+          "line": 41,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」；M1/M2 = 表现主义双主线）",
+          "anchor": "db-source-line-41"
+        },
+        {
+          "line": 61,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-61"
+        },
+        {
+          "line": 65,
+          "heading": "### 阶梯一：symbolic-colour zones（色彩情绪化 / 分区符号色）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 72,
+          "heading": "### 阶梯二：wave-line rhythm without motion（曲线韵律 / 冻结的声波）",
+          "anchor": "db-source-line-72"
+        },
+        {
+          "line": 80,
+          "heading": "### 阶梯三：one grammar, two poles + interlock discipline（语法两极 / el_greco 对称互锁）",
+          "anchor": "db-source-line-80"
+        },
+        {
+          "line": 90,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 102,
+          "heading": "## 6. 常见失败（与 §3.1 分工判定、AUDIT-munch §3/§8 一致）",
+          "anchor": "db-source-line-102"
+        },
+        {
+          "line": 118,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-118"
+        },
+        {
+          "line": 127,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-127"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "namatjira": {
+      "task_id": "LEARN-namatjira",
+      "learning_path": "knowledge/domains/painters/learning/namatjira/learning_path.md",
+      "source_sha256": "28346fa29b5b127aad38b3acd60136ab127160410902681959ef0a2fa92cd021",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-namatjira — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 三阶梯总览（基础 → 进阶 → 比较；含可替换分支）",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 14,
+          "heading": "## 1. 前置知识（读什么，分级）",
+          "anchor": "db-source-line-14"
+        },
+        {
+          "line": 21,
+          "heading": "## 2. 重点作品及来源（沿用 AUDIT 逐行记录）",
+          "anchor": "db-source-line-21"
+        },
+        {
+          "line": 27,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-27"
+        },
+        {
+          "line": 29,
+          "heading": "### 3.1 视觉指纹（§1，12 条）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 44,
+          "heading": "### 3.2 §8.2 逐条可判定规则（8 条，逐帧可查）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 57,
+          "heading": "## 4. 具体练习（3 阶梯，全部建议练习 `[归纳]`）",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 65,
+          "heading": "## 5. 可观察结果（自查项，非「已证实学习收益」）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "## 6. 常见失败（F1–F5）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 79,
+          "heading": "## 7. 下一步（可替换分支 + 跨艺术家比较）",
+          "anchor": "db-source-line-79"
+        },
+        {
+          "line": 85,
+          "heading": "## 8. 使用边界（诚实边界，不冒充完成）",
+          "anchor": "db-source-line-85"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "ni_zan": {
+      "task_id": "LEARN-ni_zan",
+      "learning_path": "knowledge/domains/painters/learning/ni_zan/learning_path.md",
+      "source_sha256": "bdb84d963ae6db0558a2016448e3ca9c0c68a7fe76e5e931a859dac00464a46c",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-ni_zan — learning_path（学习路径 / 倪瓒）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/35 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 7 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "ogata_korin": {
+      "task_id": "LEARN-ogata_korin",
+      "learning_path": "knowledge/domains/painters/learning/ogata_korin/learning_path.md",
+      "source_sha256": "70447e9fcb0a527310b3ba41041b6e203d04e16ae6e77eab6ea6792ce2729439",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-ogata_korin — learning_path（学习路径 / 尾形光琳）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/24 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，7 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 10 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "okeeffe": {
+      "task_id": "LEARN-okeeffe",
+      "learning_path": "knowledge/domains/painters/learning/okeeffe/learning_path.md",
+      "source_sha256": "c0b0fdbd30cee59db62a38f0b01096d6f5da242dcec3bbc2279cc39658517cd6",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-okeeffe — learning_path（学习路径 / 欧姬芙）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/35 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 7 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "picasso": {
+      "task_id": "LEARN-picasso",
+      "learning_path": "knowledge/domains/painters/learning/picasso/learning_path.md",
+      "source_sha256": "949cea4d0458bc0e281199caac7573112bd46d5bac5be7a0835abc824239bbda",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-picasso · learning_path.md（A-30 学习路径）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 前置知识（先具备什么，才练得动）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 29,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新编生平）",
+          "anchor": "db-source-line-29"
+        },
+        {
+          "line": 45,
+          "heading": "## 3. 要观察的机制（看什么，怎么识别）",
+          "anchor": "db-source-line-45"
+        },
+        {
+          "line": 60,
+          "heading": "## 4. 具体练习（建议练习 · 阶梯 ≥3 级）",
+          "anchor": "db-source-line-60"
+        },
+        {
+          "line": 65,
+          "heading": "### 练习 1（第 1 阶）· 单色族色盘研究 —— 把「色相≤5 / 明度级≥6 / 饱和度≤35%」练成手感 `[建议练习]`",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 76,
+          "heading": "### 练习 2（第 2 阶）· 平涂面片拼装（ΔE 纪律）—— 把「ΔE≤6 占比≥85% / 平面化」练成可判分动作 `[建议练习]`",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 89,
+          "heading": "### 练习 3（第 3 阶）· 主体/背景分区（C-18）—— 把「退化冲突」用分区掩膜落地 `[建议练习]`",
+          "anchor": "db-source-line-89"
+        },
+        {
+          "line": 102,
+          "heading": "## 5. 可观察结果（按 §8.2 可自测的产出特征，**非学习成效**）",
+          "anchor": "db-source-line-102"
+        },
+        {
+          "line": 115,
+          "heading": "## 6. 常见失败（强反例，按冲突与退化口径）",
+          "anchor": "db-source-line-115"
+        },
+        {
+          "line": 130,
+          "heading": "## 7. 下一步（学完本路径往哪走）",
+          "anchor": "db-source-line-130"
+        },
+        {
+          "line": 142,
+          "heading": "## 8. 使用边界（边界与诚实声明）",
+          "anchor": "db-source-line-142"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "piero_della_francesca": {
+      "task_id": "LEARN-piero_della_francesca",
+      "learning_path": "knowledge/domains/painters/learning/piero_della_francesca/learning_path.md",
+      "source_sha256": "78f7217348b31b29145579f6ee5ee354648b5c633dbf6b7de621d5c238507b6a",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-piero_della_francesca — learning_path（学习路径 / 皮耶罗·德拉·弗朗切斯卡）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/24 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（抽样 6/8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 43,
+          "heading": "## 4. 三个可执行的 proposed 练习（未执行，非实测收益）",
+          "anchor": "db-source-line-43"
+        },
+        {
+          "line": 45,
+          "heading": "### P-E1 基础：先搭透视，再放形体",
+          "anchor": "db-source-line-45"
+        },
+        {
+          "line": 52,
+          "heading": "### P-E2 分支：夜景单一画内光源",
+          "anchor": "db-source-line-52"
+        },
+        {
+          "line": 58,
+          "heading": "### P-E3 进阶：有影与有意省影的表达比较",
+          "anchor": "db-source-line-58"
+        },
+        {
+          "line": 66,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-66"
+        },
+        {
+          "line": 77,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-77"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "poussin": {
+      "task_id": "LEARN-poussin",
+      "learning_path": "knowledge/domains/painters/learning/poussin/learning_path.md",
+      "source_sha256": "257953250f14aa6f8f8398b9f77a788e0ea0c2a30245daa0a98f2834ebd2b12b",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-poussin — learning_path（学习路径 / 普桑）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/24 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "qi_baishi": {
+      "task_id": "LEARN-qi_baishi",
+      "learning_path": "knowledge/domains/painters/learning/qi_baishi/learning_path.md",
+      "source_sha256": "4b309f8975e540283bfd247a5b63646eddaf51206c2bb6bf3aac7162f0c4817a",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-qi_baishi — 学习路径卡（齐白石 / Qi Baishi）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 23,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-23"
+        },
+        {
+          "line": 39,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-39"
+        },
+        {
+          "line": 55,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 71,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 75,
+          "heading": "### 阶梯一：shrimp-and-crab ink studies（虾蟹写意笔墨 / 透明感与减笔）",
+          "anchor": "db-source-line-75"
+        },
+        {
+          "line": 82,
+          "heading": "### 阶梯二：red-ink binding + gongbi/xieyi register（红墨绑定 + 工写双分辨率）",
+          "anchor": "db-source-line-82"
+        },
+        {
+          "line": 90,
+          "heading": "### 阶梯三：void / jinshi / boundary discipline（留白金石 + 权利与组合边界自律）",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 100,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-100"
+        },
+        {
+          "line": 112,
+          "heading": "## 6. 常见失败（与 AUDIT §7 反例、§8 漂移登记、rights 口径一致）",
+          "anchor": "db-source-line-112"
+        },
+        {
+          "line": 131,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-131"
+        },
+        {
+          "line": 140,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-140"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "qiu_ying": {
+      "task_id": "LEARN-qiu_ying",
+      "learning_path": "knowledge/domains/painters/learning/qiu_ying/learning_path.md",
+      "source_sha256": "d558d02861d63815732fea4f5e8a6e413497ea4afac6fde3cd2a22df07c4a53d",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-qiu_ying — learning_path（学习路径 / 仇英）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/24 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，9 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "ravi_varma": {
+      "task_id": "LEARN-ravi_varma",
+      "learning_path": "knowledge/domains/painters/learning/ravi_varma/learning_path.md",
+      "source_sha256": "f60449dab4bde92354a3df50350ba06ff50670e0994865e088b9fda8cdaf2699",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-ravi_varma — 学习路径（A-30 §8.1 / Lane B 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 30,
+          "heading": "## §2 重点作品及来源（沿用现有记录，不新增编造）",
+          "anchor": "db-source-line-30"
+        },
+        {
+          "line": 54,
+          "heading": "## §3 要观察的机制（带定位与等级）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 73,
+          "heading": "## §4 具体练习（三段阶梯，建议练习；顺序 = 观察→决策→机制→参数→一次练习→反例→自检）",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 77,
+          "heading": "### 阶梯 1：西法转译——浅舞台与柔光（先立「识读/礼拜」的光与空间）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 86,
+          "heading": "### 阶梯 2：神话题材的达显化——法器清单 + 双层动作 + 织物珠宝",
+          "anchor": "db-source-line-86"
+        },
+        {
+          "line": 95,
+          "heading": "### 阶梯 3：oleograph 传播 axis——为「被复制」而设计（收口阶梯）",
+          "anchor": "db-source-line-95"
+        },
+        {
+          "line": 106,
+          "heading": "## §5 可观察结果（练习做成什么样算「这一轮走完」）",
+          "anchor": "db-source-line-106"
+        },
+        {
+          "line": 117,
+          "heading": "## §6 常见失败（含已知漂移/异说，登记不修）",
+          "anchor": "db-source-line-117"
+        },
+        {
+          "line": 135,
+          "heading": "## §7 下一步（沿 A-30 总路线，全部标注未决状态）",
+          "anchor": "db-source-line-135"
+        },
+        {
+          "line": 145,
+          "heading": "## §8 使用边界（诚实声明）",
+          "anchor": "db-source-line-145"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "rembrandt": {
+      "task_id": "LEARN-rembrandt",
+      "learning_path": "knowledge/domains/painters/learning/rembrandt/learning_path.md",
+      "source_sha256": "3842c95f1286e7f18dbceb1c3b7867f9a6189b0ce9b942b74a985b4753e250a8",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-rembrandt — 学习路径（A-30 §8.1 / Lane B 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 24,
+          "heading": "## §2 重点作品及来源（引用现有记录，不新增编造）",
+          "anchor": "db-source-line-24"
+        },
+        {
+          "line": 44,
+          "heading": "## §3 要观察的机制（光暗分区 + 群像叙事，带定位与等级）",
+          "anchor": "db-source-line-44"
+        },
+        {
+          "line": 59,
+          "heading": "## §4 三段练习阶梯（建议练习，顺序 = 观察→决策→机制→参数→一次练习→反例→自检）",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 63,
+          "heading": "### 阶梯 1：光暗分区（单人 / 自画像式变奏）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 72,
+          "heading": "### 阶梯 2：群像叙事（「正在做事」）",
+          "anchor": "db-source-line-72"
+        },
+        {
+          "line": 82,
+          "heading": "### 阶梯 3：材质与版画（光的另一载体）+ 收口",
+          "anchor": "db-source-line-82"
+        },
+        {
+          "line": 92,
+          "heading": "## §5 跨艺术家比较 / 组合分支（供 A-30 总路线寻址）",
+          "anchor": "db-source-line-92"
+        },
+        {
+          "line": 103,
+          "heading": "## §6 known-open 携带（本次点名，不作缺陷关闭）",
+          "anchor": "db-source-line-103"
+        },
+        {
+          "line": 112,
+          "heading": "## §7 未覆盖范围与交接（诚实边界）",
+          "anchor": "db-source-line-112"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "repin": {
+      "task_id": "LEARN-repin",
+      "learning_path": "knowledge/domains/painters/learning/repin/learning_path.md",
+      "source_sha256": "43a7d3fe0fdea5d6a0c6f6d247fbc31824d3f9ccaafa2859f344dd06ea0d31a0",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-repin — learning_path（学习路径 / 列宾）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/23 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 9 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "rivera": {
+      "task_id": "LEARN-rivera",
+      "learning_path": "knowledge/domains/painters/learning/rivera/learning_path.md",
+      "source_sha256": "6a3152379040ca970d1bdd2b3b76d21b74601099632da6d2fac0b721724b1b4f",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-rivera — learning_path（学习路径 / 里维拉）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/23 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "rockwell": {
+      "task_id": "LEARN-rockwell",
+      "learning_path": "knowledge/domains/painters/learning/rockwell/learning_path.md",
+      "source_sha256": "fed205125116dc3b1801fd7d9eaa75b40b8f071a7111f912999768489e61a41d",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-rockwell — learning_path（学习路径 / 洛克威尔）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/34 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，9 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "sargent": {
+      "task_id": "LEARN-sargent",
+      "learning_path": "knowledge/domains/painters/learning/sargent/learning_path.md",
+      "source_sha256": "6db13f8169ddba47723dee13d0a775fbd3988cb0590f05a5a596113e1ca8ca0c",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-sargent — 学习路径卡（John Singer Sargent）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 20,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-20"
+        },
+        {
+          "line": 37,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-37"
+        },
+        {
+          "line": 54,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 67,
+          "heading": "## 4. 具体练习（3 阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-67"
+        },
+        {
+          "line": 71,
+          "heading": "### 阶梯一：anchored one-flow portrait（先锚后即兴：单色侧身像）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 78,
+          "heading": "### 阶梯二：pre-set light window + step-back（光窗锚 + 距离锚 + 社交装置锚）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 85,
+          "heading": "### 阶梯三：high-key single-accent + boundary discipline（高调/单点饱和/织物 + 组合自律）",
+          "anchor": "db-source-line-85"
+        },
+        {
+          "line": 96,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-96"
+        },
+        {
+          "line": 108,
+          "heading": "## 6. 常见失败（与 AUDIT-sargent 判定、conflicts.md 一致）",
+          "anchor": "db-source-line-108"
+        },
+        {
+          "line": 125,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-125"
+        },
+        {
+          "line": 135,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-135"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "sesshu": {
+      "task_id": "LEARN-sesshu",
+      "learning_path": "knowledge/domains/painters/learning/sesshu/learning_path.md",
+      "source_sha256": "2dfc5c63c03566aa139f90868f9fc10232ad01a7fe115ff9324bbc2842a73e93",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-sesshu — 学习路径卡（雪舟等楊 / Sesshū Tōyō）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 17,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-17"
+        },
+        {
+          "line": 34,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-34"
+        },
+        {
+          "line": 49,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-49"
+        },
+        {
+          "line": 63,
+          "heading": "## 4. 具体练习（3 阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-63"
+        },
+        {
+          "line": 67,
+          "heading": "### 阶梯一：haboku-and-skeleton（破墨 + 骨架共存）",
+          "anchor": "db-source-line-67"
+        },
+        {
+          "line": 74,
+          "heading": "### 阶梯二：reserved-white-and-axcut（留白作云水 + 斧劈构造）",
+          "anchor": "db-source-line-74"
+        },
+        {
+          "line": 81,
+          "heading": "### 阶梯三：intersection-and-lineage（40–60% 交集分工 + 长卷 + 狩野派/水墨接受史自律）",
+          "anchor": "db-source-line-81"
+        },
+        {
+          "line": 94,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-94"
+        },
+        {
+          "line": 106,
+          "heading": "## 6. 常见失败（与 §3.1 / §4 越界警报 / AUDIT 登记一致）",
+          "anchor": "db-source-line-106"
+        },
+        {
+          "line": 123,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-123"
+        },
+        {
+          "line": 132,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-132"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "seurat": {
+      "task_id": "LEARN-seurat",
+      "learning_path": "knowledge/domains/painters/learning/seurat/learning_path.md",
+      "source_sha256": "9dd0917a81ba4351c0cdda594ba2edf6e88146865fad49ef59939a4e51f878bf",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-seurat — learning_path（学习路径 / 修拉）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/19 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，7 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 9 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "sher_gil": {
+      "task_id": "LEARN-sher_gil",
+      "learning_path": "knowledge/domains/painters/learning/sher_gil/learning_path.md",
+      "source_sha256": "4a119ccc99151959604b9bce86b3ac931e3e338485a52069aee1f4ce57b76ce1",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-sher_gil — learning_path（学习路径 / 谢尔吉尔）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/32 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "sorolla": {
+      "task_id": "LEARN-sorolla",
+      "learning_path": "knowledge/domains/painters/learning/sorolla/learning_path.md",
+      "source_sha256": "40d71e2ea79d57e70f4c5834d71cd76502a1db606b1bd781bc8e17800435cdbe",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-sorolla — 学习路径卡（Joaquín Sorolla y Bastida）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 17,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-17"
+        },
+        {
+          "line": 32,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-32"
+        },
+        {
+          "line": 47,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-47"
+        },
+        {
+          "line": 61,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-61"
+        },
+        {
+          "line": 65,
+          "heading": "### 阶梯一 · 白上加白 / 高调去黑（M1）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 71,
+          "heading": "### 阶梯二 · 海滩逆光 + 透光白/反光白（M2，**本路径强调项**）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 77,
+          "heading": "### 阶梯三 · 正午顶光长笔触 + 反光网 + 摄影裁切（M3+M4）",
+          "anchor": "db-source-line-77"
+        },
+        {
+          "line": 83,
+          "heading": "### 反例/边界练习（收口，非新阶梯）",
+          "anchor": "db-source-line-83"
+        },
+        {
+          "line": 88,
+          "heading": "## 5. 可观察结果（不是学习收益）",
+          "anchor": "db-source-line-88"
+        },
+        {
+          "line": 101,
+          "heading": "## 6. 常见失败（与 §3 失败形态、§4 失败对照对应）",
+          "anchor": "db-source-line-101"
+        },
+        {
+          "line": 117,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-117"
+        },
+        {
+          "line": 126,
+          "heading": "## 8. 使用边界（硬边界）",
+          "anchor": "db-source-line-126"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "sultan_mohammed": {
+      "task_id": "LEARN-sultan_mohammed",
+      "learning_path": "knowledge/domains/painters/learning/sultan_mohammed/learning_path.md",
+      "source_sha256": "1a34d033cb30ddfd21a8f9b693c3c4dde1ef59b97016dce1c1ce7f96a1f1c325",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-sultan_mohammed — learning_path（学习路径 / 苏丹·穆罕默德）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/24 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "tarsila": {
+      "task_id": "LEARN-tarsila",
+      "learning_path": "knowledge/domains/painters/learning/tarsila/learning_path.md",
+      "source_sha256": "a72ab4a94524d46644969fcc322c2419bb6ef0e785e157f0e78402f3cc5e917f",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-tarsila · learning_path.md（A-30 §8.1 学习路径）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 12,
+          "heading": "## 1. 前置知识（动手前先知道什么）",
+          "anchor": "db-source-line-12"
+        },
+        {
+          "line": 25,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不另造出处）",
+          "anchor": "db-source-line-25"
+        },
+        {
+          "line": 42,
+          "heading": "## 3. 要观察的机制（6 条，来自 §8.2 七规则 + §1 视觉指纹）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 55,
+          "heading": "## 4. 具体练习（可操作；三阶梯 + 一收口，全部为**建议练习**）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 59,
+          "heading": "### 阶梯 L1｜色块扁平基础研究（flat-block discipline）— 建议练习",
+          "anchor": "db-source-line-59"
+        },
+        {
+          "line": 66,
+          "heading": "### 阶梯 L2｜乡土人物变形（vernacular-figure distortion）— 建议练习",
+          "anchor": "db-source-line-66"
+        },
+        {
+          "line": 73,
+          "heading": "### 阶梯 L3｜分工判别压测（4 判据 × ≥2 轴，混合反例）— 建议练习",
+          "anchor": "db-source-line-73"
+        },
+        {
+          "line": 84,
+          "heading": "### 收口｜综合自检（一帧跑完 §8.2 七条）— 建议练习",
+          "anchor": "db-source-line-84"
+        },
+        {
+          "line": 90,
+          "heading": "## 5. 可观察结果（自查表，不是学习成效）",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 106,
+          "heading": "## 6. 常见失败（反例，按冲突行与现有记录）",
+          "anchor": "db-source-line-106"
+        },
+        {
+          "line": 122,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-122"
+        },
+        {
+          "line": 132,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-132"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "turner": {
+      "task_id": "LEARN-turner",
+      "learning_path": "knowledge/domains/painters/learning/turner/learning_path.md",
+      "source_sha256": "085047e28d6013f2e4875abdacb0af7c6c98e292f415d2caa82f7d7deb581dd1",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-turner — 学习路径（A-30 §8.1 八节形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 10,
+          "heading": "## 1. 前置知识",
+          "anchor": "db-source-line-10"
+        },
+        {
+          "line": 19,
+          "heading": "## 2. 重点作品及来源",
+          "anchor": "db-source-line-19"
+        },
+        {
+          "line": 36,
+          "heading": "## 3. 要观察的机制",
+          "anchor": "db-source-line-36"
+        },
+        {
+          "line": 38,
+          "heading": "### 主线 A — 大气光效（本轮重点）",
+          "anchor": "db-source-line-38"
+        },
+        {
+          "line": 48,
+          "heading": "### 主线 B — 水体反光（本轮重点，须诚实）",
+          "anchor": "db-source-line-48"
+        },
+        {
+          "line": 62,
+          "heading": "### 冲突行（本轮点名）",
+          "anchor": "db-source-line-62"
+        },
+        {
+          "line": 68,
+          "heading": "### 双账户 CC-2（本轮点名，必须诚实带过）",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 81,
+          "heading": "## 4. 具体练习（三阶梯，全部为**建议练习** `[归纳]`）",
+          "anchor": "db-source-line-81"
+        },
+        {
+          "line": 105,
+          "heading": "## 5. 可观察结果",
+          "anchor": "db-source-line-105"
+        },
+        {
+          "line": 119,
+          "heading": "## 6. 常见失败",
+          "anchor": "db-source-line-119"
+        },
+        {
+          "line": 134,
+          "heading": "## 7. 下一步",
+          "anchor": "db-source-line-134"
+        },
+        {
+          "line": 142,
+          "heading": "## 8. 使用边界",
+          "anchor": "db-source-line-142"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "van_eyck": {
+      "task_id": "LEARN-van_eyck",
+      "learning_path": "knowledge/domains/painters/learning/van_eyck/learning_path.md",
+      "source_sha256": "1b88d64850ed972bdef74ea97bc90b1b214a97e88b2855f4f0c25f5958892710",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-van_eyck — learning_path（学习路径 / 凡·艾克）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/20 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "van_gogh": {
+      "task_id": "LEARN-van_gogh",
+      "learning_path": "knowledge/domains/painters/learning/van_gogh/learning_path.md",
+      "source_sha256": "ae73228479f3fdc29612ebc5e912aad09542c43a8bfd92efd07b761d4f2b4709",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-van_gogh — 学习路径卡（Vincent van Gogh）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 20,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-20"
+        },
+        {
+          "line": 36,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-36"
+        },
+        {
+          "line": 51,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-51"
+        },
+        {
+          "line": 65,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-65"
+        },
+        {
+          "line": 69,
+          "heading": "### 阶梯一：impasto direction-field studies（厚涂笔触方向场分区）",
+          "anchor": "db-source-line-69"
+        },
+        {
+          "line": 76,
+          "heading": "### 阶梯二：complementary-pair juxtaposition（互补对并置）",
+          "anchor": "db-source-line-76"
+        },
+        {
+          "line": 83,
+          "heading": "### 阶梯三：swirl/star field + combination discipline（漩涡星体场 + 组合自律）",
+          "anchor": "db-source-line-83"
+        },
+        {
+          "line": 93,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-93"
+        },
+        {
+          "line": 105,
+          "heading": "## 6. 常见失败（与 AUDIT 冲突判定、conflicts.md 一致）",
+          "anchor": "db-source-line-105"
+        },
+        {
+          "line": 123,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-123"
+        },
+        {
+          "line": 133,
+          "heading": "## 8. 使用边界（硬边界；违反即超出本卡适用范围）",
+          "anchor": "db-source-line-133"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "velazquez": {
+      "task_id": "LEARN-velazquez",
+      "learning_path": "knowledge/domains/painters/learning/velazquez/learning_path.md",
+      "source_sha256": "f84b396929b67c7e5c5757195834a7cc5a35e3cd901efa44d2acd8a81101d9a9",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-velazquez — 学习路径（learning_path）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 11,
+          "heading": "## §1 前置知识（先分清楚三类知识，标错等级 = 把推断冒充史料）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 30,
+          "heading": "## §2 观察对象（照 §12 十件清单，不重写作品序列）",
+          "anchor": "db-source-line-30"
+        },
+        {
+          "line": 55,
+          "heading": "## §3 三个主机制（M1 / M2 / M3，全部标等级）",
+          "anchor": "db-source-line-55"
+        },
+        {
+          "line": 57,
+          "heading": "### M1 — 光的第三档：画室与空气（主轴）`[归纳]` 分工 + `[史料]` 空气措辞",
+          "anchor": "db-source-line-57"
+        },
+        {
+          "line": 68,
+          "heading": "### M2 — 碎笔触成像 + 完成度分级（borrones / near-view falls apart）`[研究]` + `[归纳]`",
+          "anchor": "db-source-line-68"
+        },
+        {
+          "line": 74,
+          "heading": "### M3 — 空间与自反观看（多层开口 + 视线轴）`[归纳]` + `[研究]`",
+          "anchor": "db-source-line-74"
+        },
+        {
+          "line": 82,
+          "heading": "## §4 三段练习阶梯（顺序 = 判光档 → 控笔触 → 套时期 / 反例）",
+          "anchor": "db-source-line-82"
+        },
+        {
+          "line": 86,
+          "heading": "### 阶梯 1 — 把「第三档」从伦勃朗/维米尔/达·芬奇里判出来（M1）",
+          "anchor": "db-source-line-86"
+        },
+        {
+          "line": 94,
+          "heading": "### 阶梯 2 — 近看崩解 / 完成度分配（M2 + M3）",
+          "anchor": "db-source-line-94"
+        },
+        {
+          "line": 101,
+          "heading": "### 阶梯 3 — 时期切换 + bodegones 反例（brief 强调点 ③）",
+          "anchor": "db-source-line-101"
+        },
+        {
+          "line": 110,
+          "heading": "## §5 下一步及使用边界（A-30 §8.1 要求的八项收口）",
+          "anchor": "db-source-line-110"
+        },
+        {
+          "line": 127,
+          "heading": "## §6 dangling 「本卡 §3.1」 指针（brief 强调点 ④，照录 AUDIT §7，不修）",
+          "anchor": "db-source-line-127"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "vermeer": {
+      "task_id": "LEARN-vermeer",
+      "learning_path": "knowledge/domains/painters/learning/vermeer/learning_path.md",
+      "source_sha256": "272a6966b4d0263aec5ca8d7f51df44cbc8431224a2137065881c5106abcacda",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-vermeer — 学习路径（A-30 §8.1 形状）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 12,
+          "heading": "## §1 前置知识（先具备什么，再开练）",
+          "anchor": "db-source-line-12"
+        },
+        {
+          "line": 24,
+          "heading": "## §2 重点作品及来源（引用现有记录，不新增编造）",
+          "anchor": "db-source-line-24"
+        },
+        {
+          "line": 42,
+          "heading": "## §3 要观察的机制（三个主机制 + 关联机制，全部带定位与等级）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 56,
+          "heading": "## §4 具体练习（建议练习 · 三段阶梯 ladder，≥3 级，可操作）",
+          "anchor": "db-source-line-56"
+        },
+        {
+          "line": 61,
+          "heading": "### 阶梯 1 — Single-event room scenes（练 M1「单一事件 + Δ≤1%」）",
+          "anchor": "db-source-line-61"
+        },
+        {
+          "line": 70,
+          "heading": "### 阶梯 2 — Pointillé highlight studies（练 M2「密度分档 0–2 / 5–20 / 100+」）",
+          "anchor": "db-source-line-70"
+        },
+        {
+          "line": 84,
+          "heading": "### 阶梯 3 — Quiet-surface discipline（练 M3「边缘 ≥2px」+ M4 平坦暗部 + M5/M6，含 near-miss 取值）",
+          "anchor": "db-source-line-84"
+        },
+        {
+          "line": 101,
+          "heading": "## §5 可观察结果（产物级 / 不是学习成效）",
+          "anchor": "db-source-line-101"
+        },
+        {
+          "line": 113,
+          "heading": "## §6 常见失败（反例，照录现有档案 + 冲突表）",
+          "anchor": "db-source-line-113"
+        },
+        {
+          "line": 128,
+          "heading": "## §7 下一步（接入 A-30 总路线）",
+          "anchor": "db-source-line-128"
+        },
+        {
+          "line": 141,
+          "heading": "## §8 使用边界（硬边界，照录）",
+          "anchor": "db-source-line-141"
+        },
+        {
+          "line": 154,
+          "heading": "## 附：本文件每条断言的定位索引",
+          "anchor": "db-source-line-154"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "wu_guanzhong": {
+      "task_id": "LEARN-wu_guanzhong",
+      "learning_path": "knowledge/domains/painters/learning/wu_guanzhong/learning_path.md",
+      "source_sha256": "822365d1eff5af65150945e5fec8ef99a072aeb558721d865233e4586771549d",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-wu_guanzhong — 学习路径卡（吴冠中 / Wu Guanzhong, 1919–2010）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 16,
+          "heading": "## 1. 前置知识（先知道什么，才看得懂这些练习）",
+          "anchor": "db-source-line-16"
+        },
+        {
+          "line": 32,
+          "heading": "## 2. 重点作品及来源（引用现有记录，不新增作品、不重新取证）",
+          "anchor": "db-source-line-32"
+        },
+        {
+          "line": 47,
+          "heading": "## 3. 要观察的机制（把参数变成「看什么」）",
+          "anchor": "db-source-line-47"
+        },
+        {
+          "line": 60,
+          "heading": "## 4. 具体练习（阶梯；全部为「建议练习」`[归纳]`，未经人评）",
+          "anchor": "db-source-line-60"
+        },
+        {
+          "line": 64,
+          "heading": "### 阶梯一：silvery-grey ground & 搬家写生（银灰底子与结构重组）",
+          "anchor": "db-source-line-64"
+        },
+        {
+          "line": 71,
+          "heading": "### 阶梯二：point-line-plane + 风筝线（黑白块面/点线面/母题锚点）",
+          "anchor": "db-source-line-71"
+        },
+        {
+          "line": 78,
+          "heading": "### 阶梯三：近抽象档自律 + 彩点预算 + 反例张力（carried）",
+          "anchor": "db-source-line-78"
+        },
+        {
+          "line": 90,
+          "heading": "## 5. 可观察结果（练完能看见什么；仍属「建议练习」，非学习收益）",
+          "anchor": "db-source-line-90"
+        },
+        {
+          "line": 102,
+          "heading": "## 6. 常见失败（与 AUDIT-wu_guanzhong §3 冲突判定、conflicts.md 通用规则一致）",
+          "anchor": "db-source-line-102"
+        },
+        {
+          "line": 118,
+          "heading": "## 7. 下一步（本路径之后，不越界）",
+          "anchor": "db-source-line-118"
+        },
+        {
+          "line": 126,
+          "heading": "## 8. 使用边界（A-30 §8.1 硬性收口）",
+          "anchor": "db-source-line-126"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "xu_beihong": {
+      "task_id": "LEARN-xu_beihong",
+      "learning_path": "knowledge/domains/painters/learning/xu_beihong/learning_path.md",
+      "source_sha256": "3eca7c092077fb88301a38e671b4c2b10d839342a7c143391cc1cb0c0d86f410",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-xu_beihong — learning_path（学习路径 / 徐悲鸿）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/37 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，9 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "xu_wei": {
+      "task_id": "LEARN-xu_wei",
+      "learning_path": "knowledge/domains/painters/learning/xu_wei/learning_path.md",
+      "source_sha256": "f4cabc84a4839425f853f00746448e6efd3eb05d916172c2afc8ae46a351b9e1",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-xu_wei — learning_path（学习路径 / 徐渭）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/29 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，7 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 7 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "zhao_mengfu": {
+      "task_id": "LEARN-zhao_mengfu",
+      "learning_path": "knowledge/domains/painters/learning/zhao_mengfu/learning_path.md",
+      "source_sha256": "5227a096f39a88a95e625155d7dd2730db00d907976c1b6dc1e2a03832c5c406",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-zhao_mengfu — learning_path（学习路径 / 赵孟頫）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/24 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，7 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 9 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 7 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    },
+    "zorn": {
+      "task_id": "LEARN-zorn",
+      "learning_path": "knowledge/domains/painters/learning/zorn/learning_path.md",
+      "source_sha256": "2f7303c1d51d954bd37283cc001237acd44b0eb8262f6e19511bdb28eea39897",
+      "source_execution_status": "accepted",
+      "state": "public_projection",
+      "sections": [
+        {
+          "line": 1,
+          "heading": "# LEARN-zorn — learning_path（学习路径 / 佐恩）",
+          "anchor": "db-source-line-1"
+        },
+        {
+          "line": 6,
+          "heading": "## 0. 前置与口径",
+          "anchor": "db-source-line-6"
+        },
+        {
+          "line": 11,
+          "heading": "## 1. 核心视觉指纹（§1，先认骨架再练细节）",
+          "anchor": "db-source-line-11"
+        },
+        {
+          "line": 22,
+          "heading": "## 2. 语料引文（带出处；3/33 条抽样，逐条可回源）",
+          "anchor": "db-source-line-22"
+        },
+        {
+          "line": 31,
+          "heading": "## 3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "anchor": "db-source-line-31"
+        },
+        {
+          "line": 42,
+          "heading": "## 4. 三段练习阶梯（§12 10 件，建议练习，非实测收益）",
+          "anchor": "db-source-line-42"
+        },
+        {
+          "line": 54,
+          "heading": "## 5. 常见失败（对应 §8.2 8 条 rule ids）",
+          "anchor": "db-source-line-54"
+        },
+        {
+          "line": 65,
+          "heading": "## 6. 边界",
+          "anchor": "db-source-line-65"
+        }
+      ],
+      "semantic_or_learning_effect_reaudit": false
+    }
+  },
+  "navigation_groups": [
+    {
+      "id": "light_edges",
+      "label": "明暗与边缘控制",
+      "artist": "da_vinci",
+      "foundation": [
+        {
+          "artist": "da_vinci",
+          "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+          "anchor": "db-source-line-23",
+          "heading": "1. 前置知识",
+          "source_sha256": "bc29d5b91285dcfcdd7e385783f2ad5bb3f9407dbd22e86881dde91e9d47545c",
+          "source_line": 23
+        },
+        {
+          "artist": "da_vinci",
+          "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+          "anchor": "db-source-line-78",
+          "heading": "阶梯 1 · 灰阶／明暗梯度研究（tonal gradient studies）— 建议练习",
+          "source_sha256": "bc29d5b91285dcfcdd7e385783f2ad5bb3f9407dbd22e86881dde91e9d47545c",
+          "source_line": 78
+        }
+      ],
+      "advanced": [
+        {
+          "artist": "da_vinci",
+          "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+          "anchor": "db-source-line-84",
+          "heading": "阶梯 2 · 空气透视分层（aerial-perspective layering）— 建议练习",
+          "source_sha256": "bc29d5b91285dcfcdd7e385783f2ad5bb3f9407dbd22e86881dde91e9d47545c",
+          "source_line": 84
+        },
+        {
+          "artist": "da_vinci",
+          "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+          "anchor": "db-source-line-89",
+          "heading": "阶梯 3 · 边缘链纪律 ≤40px 无硬边（edge-chain discipline）— 建议练习",
+          "source_sha256": "bc29d5b91285dcfcdd7e385783f2ad5bb3f9407dbd22e86881dde91e9d47545c",
+          "source_line": 89
+        }
+      ],
+      "alternative": {
+        "label": "不做人物题材时，读既有纯风格段并保留明暗/边缘规则",
+        "target": {
+          "artist": "da_vinci",
+          "path": "knowledge/domains/painters/modules/da_vinci.md",
+          "sha256": "e6ad4d1b24b25994bfc4cc467677d1f323545e28bba17f1efd7428f8dcc88cc3",
+          "line": 41,
+          "heading": "## §8.1b 纯风格段（场景可迁移）",
+          "type": "style_paragraph",
+          "anchor": "81b-纯风格段场景可迁移"
+        },
+        "basis": {
+          "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+          "anchor": "db-source-line-126",
+          "source_sha256": "bc29d5b91285dcfcdd7e385783f2ad5bb3f9407dbd22e86881dde91e9d47545c",
+          "source_line": 126,
+          "supporting_phrase": "不做人物题材时改用"
+        }
+      }
+    },
+    {
+      "id": "color_space",
+      "label": "颜色组织、轮廓与空间",
+      "artist": "cezanne",
+      "foundation": [
+        {
+          "artist": "cezanne",
+          "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+          "anchor": "db-source-line-24",
+          "heading": "1. 前置知识",
+          "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+          "source_line": 24
+        },
+        {
+          "artist": "cezanne",
+          "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+          "anchor": "db-source-line-77",
+          "heading": "基底 A0 · 建设性笔触铺底（每阶开头都做，约 20 分钟）",
+          "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+          "source_line": 77
+        },
+        {
+          "artist": "cezanne",
+          "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+          "anchor": "db-source-line-83",
+          "heading": "阶梯 1 · 暖冷交错编织 pass（warm-cold weaving pass）",
+          "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+          "source_line": 83
+        }
+      ],
+      "advanced": [
+        {
+          "artist": "cezanne",
+          "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+          "anchor": "db-source-line-90",
+          "heading": "阶梯 2 · 蓝调轮廓纪律（blue-contour discipline）",
+          "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+          "source_line": 90
+        },
+        {
+          "artist": "cezanne",
+          "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+          "anchor": "db-source-line-97",
+          "heading": "阶梯 3 · 多点透视空间压缩（multi-point perspective compression）",
+          "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+          "source_line": 97
+        }
+      ],
+      "alternative": {
+        "label": "完成原三阶后，按既有顺序补人物、晚期返工、水彩；源路径下一步给出各档 locator",
+        "target": {
+          "artist": "cezanne",
+          "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+          "anchor": "db-source-line-144",
+          "heading": "7. 下一步",
+          "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+          "source_line": 144
+        },
+        "basis": {
+          "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+          "anchor": "db-source-line-144",
+          "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+          "source_line": 144,
+          "supporting_phrase": "补齐未覆盖的作品类型"
+        }
+      }
+    },
+    {
+      "id": "print_text",
+      "label": "版画工艺与图文同版",
+      "artist": "blake",
+      "foundation": [
+        {
+          "artist": "blake",
+          "path": "knowledge/domains/painters/learning/blake/learning_path.md",
+          "anchor": "db-source-line-12",
+          "heading": "§1 前置知识（先具备什么，再开练）",
+          "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+          "source_line": 12
+        },
+        {
+          "artist": "blake",
+          "path": "knowledge/domains/painters/learning/blake/learning_path.md",
+          "anchor": "db-source-line-69",
+          "heading": "阶梯 1 — 线雕与套色机制（练 M1/M2/M3：浮雕蚀刻图文同版 + 铁丝轮廓 + 手工水彩套色）`建议练习`",
+          "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+          "source_line": 69
+        }
+      ],
+      "advanced": [
+        {
+          "artist": "blake",
+          "path": "knowledge/domains/painters/learning/blake/learning_path.md",
+          "anchor": "db-source-line-78",
+          "heading": "阶梯 2 — 图文同版与文字板比例（练 M4/M5：L95 的 0% 大彩色版画档 vs L214 的 5–35% 灰区）`建议练习`",
+          "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+          "source_line": 78
+        },
+        {
+          "artist": "blake",
+          "path": "knowledge/domains/painters/learning/blake/learning_path.md",
+          "anchor": "db-source-line-90",
+          "heading": "阶梯 3 — 辐射装置与组合预检（练 M6/M7 + C-rows + 失败条件）`建议练习`",
+          "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+          "source_line": 90
+        }
+      ],
+      "alternative": {
+        "label": "改读丢勒的排线明暗机制，比较明暗由线还是色层承担",
+        "target": {
+          "artist": "durer",
+          "path": "knowledge/domains/painters/learning/durer/learning_path.md",
+          "anchor": "db-source-line-73",
+          "heading": "台阶 2 — 排线体系 I：明度→线密度的单调映射",
+          "source_sha256": "4bf49337511fdc2ed74741fe2ae05abdf15f21aa49b22e4b5730f43b93a3658d",
+          "source_line": 73
+        },
+        "basis": {
+          "path": "knowledge/domains/painters/learning/blake/learning_path.md",
+          "anchor": "db-source-line-127",
+          "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+          "source_line": 127,
+          "supporting_phrase": "版画两路对照 → **丢勒**（排线明暗）"
+        }
+      }
+    },
+    {
+      "id": "ink_space",
+      "label": "留白与减笔",
+      "artist": "bada_shanren",
+      "foundation": [
+        {
+          "artist": "bada_shanren",
+          "path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+          "anchor": "db-source-line-19",
+          "heading": "1. 前置知识（先知道什么，才看得懂这些练习）",
+          "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+          "source_line": 19
+        },
+        {
+          "artist": "bada_shanren",
+          "path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+          "anchor": "db-source-line-68",
+          "heading": "阶梯一：计白当黑 / 悬置留白场（empty-field suspension）",
+          "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+          "source_line": 68
+        }
+      ],
+      "advanced": [
+        {
+          "artist": "bada_shanren",
+          "path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+          "anchor": "db-source-line-76",
+          "heading": "阶梯二：白眼向天造型（white-eye symbol, subject-level）",
+          "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+          "source_line": 76
+        },
+        {
+          "artist": "bada_shanren",
+          "path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+          "anchor": "db-source-line-84",
+          "heading": "阶梯三：笔墨经济 + 书法性款印 + 组合边界自律",
+          "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+          "source_line": 84
+        }
+      ],
+      "alternative": {
+        "label": "以倪瓒作构图减法/形象减法对照；这是原下一步列出的比较入口",
+        "target": {
+          "artist": "ni_zan",
+          "path": "knowledge/domains/painters/learning/ni_zan/learning_path.md",
+          "anchor": "db-source-line-31",
+          "heading": "3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+          "source_sha256": "bdb84d963ae6db0558a2016448e3ca9c0c68a7fe76e5e931a859dac00464a46c",
+          "source_line": 31
+        },
+        "basis": {
+          "path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+          "anchor": "db-source-line-121",
+          "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+          "source_line": 121,
+          "supporting_phrase": "倪瓒（构图减法 vs 形象减法）"
+        }
+      }
+    }
+  ],
+  "cross_artist_comparisons": [
+    {
+      "from": "da_vinci",
+      "to": "caravaggio",
+      "label": "明暗边界与光轴分工",
+      "target": {
+        "artist": "caravaggio",
+        "path": "knowledge/domains/painters/learning/caravaggio/learning_path.md",
+        "anchor": "db-source-line-38",
+        "heading": "3. 要观察的机制（练时盯什么）",
+        "source_sha256": "5ce4f726cb7d857bc1c3c10bdd47dafe3f39fb173a8279d4a43a5466ebef38fb",
+        "source_line": 38
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+        "anchor": "db-source-line-126",
+        "source_sha256": "bc29d5b91285dcfcdd7e385783f2ad5bb3f9407dbd22e86881dde91e9d47545c",
+        "source_line": 126,
+        "supporting_phrase": "卡拉瓦乔（C-03）"
+      },
+      "limit": "原文列为建议对照及建议实验；不是已运行的组合。"
+    },
+    {
+      "from": "cezanne",
+      "to": "monet",
+      "label": "笔触/颜色组织的比较入口",
+      "target": {
+        "artist": "monet",
+        "path": "knowledge/domains/painters/learning/monet/learning_path.md",
+        "anchor": "db-source-line-47",
+        "heading": "3. 要观察的机制（把参数变成「看什么」）",
+        "source_sha256": "8bd67ff86e2b91ceca7561c35c767087c9215c33b69bf75ab63980f102855450",
+        "source_line": 47
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/cezanne/learning_path.md",
+        "anchor": "db-source-line-144",
+        "source_sha256": "cfdf20fdb124b87c4a7633f65bceb1ccfc813b95418675ea3b60dc387bb26286",
+        "source_line": 144,
+        "supporting_phrase": "莫奈 + 塞尚"
+      },
+      "limit": "原文明确是建议补入的实验，未据此新增通过结论。"
+    },
+    {
+      "from": "blake",
+      "to": "durer",
+      "label": "排线明暗与手工套色",
+      "target": {
+        "artist": "durer",
+        "path": "knowledge/domains/painters/learning/durer/learning_path.md",
+        "anchor": "db-source-line-73",
+        "heading": "台阶 2 — 排线体系 I：明度→线密度的单调映射",
+        "source_sha256": "4bf49337511fdc2ed74741fe2ae05abdf15f21aa49b22e4b5730f43b93a3658d",
+        "source_line": 73
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/blake/learning_path.md",
+        "anchor": "db-source-line-127",
+        "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+        "source_line": 127,
+        "supporting_phrase": "版画两路对照 → **丢勒**（排线明暗）"
+      },
+      "limit": "只按原下一步列出的比较轴阅读。"
+    },
+    {
+      "from": "blake",
+      "to": "hokusai",
+      "label": "轮廓/手工色层与平涂色块",
+      "target": {
+        "artist": "hokusai",
+        "path": "knowledge/domains/painters/learning/hokusai/learning_path.md",
+        "anchor": "db-source-line-44",
+        "heading": "3. 要观察的机制（练时盯什么）",
+        "source_sha256": "34103216d4e00391034fd7fc3e0035ab3be7b961a0c7e143cf0c3c8d3ff14e15",
+        "source_line": 44
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/blake/learning_path.md",
+        "anchor": "db-source-line-127",
+        "source_sha256": "5b957ac00c6e05869a3a010360e2cf4dc1188fbee01d115c1177b64c6c89f53f",
+        "source_line": 127,
+        "supporting_phrase": "**北斋**（平涂色块）"
+      },
+      "limit": "不同机制显式分区，不推断互换有效。"
+    },
+    {
+      "from": "bada_shanren",
+      "to": "ni_zan",
+      "label": "构图减法与形象减法",
+      "target": {
+        "artist": "ni_zan",
+        "path": "knowledge/domains/painters/learning/ni_zan/learning_path.md",
+        "anchor": "db-source-line-31",
+        "heading": "3. 创作原则 → 决策序（§3，8 条，how-to-think 内核）",
+        "source_sha256": "bdb84d963ae6db0558a2016448e3ca9c0c68a7fe76e5e931a859dac00464a46c",
+        "source_line": 31
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+        "anchor": "db-source-line-121",
+        "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+        "source_line": 121,
+        "supporting_phrase": "倪瓒（构图减法 vs 形象减法）"
+      },
+      "limit": "原路径列出的比较关系，不是新的作者意图归因。"
+    },
+    {
+      "from": "bada_shanren",
+      "to": "xu_wei",
+      "label": "爆发/湿润与冷峻/减笔",
+      "target": {
+        "artist": "xu_wei",
+        "path": "knowledge/domains/painters/learning/xu_wei/learning_path.md",
+        "anchor": "db-source-line-31",
+        "heading": "3. 创作原则 → 决策序（§3，7 条，how-to-think 内核）",
+        "source_sha256": "f4cabc84a4839425f853f00746448e6efd3eb05d916172c2afc8ae46a351b9e1",
+        "source_line": 31
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/bada_shanren/learning_path.md",
+        "anchor": "db-source-line-121",
+        "source_sha256": "7cf982ea698f6dbe025dd7ea84be955726cd32e89db53d6e9db07057b65cd40f",
+        "source_line": 121,
+        "supporting_phrase": "徐渭（爆发/湿润 vs 冷峻/减笔）"
+      },
+      "limit": "保持原规则归纳等级。"
+    },
+    {
+      "from": "chardin",
+      "to": "vermeer",
+      "label": "高光形态、表面与阴影色相",
+      "target": {
+        "artist": "vermeer",
+        "path": "knowledge/domains/painters/learning/vermeer/learning_path.md",
+        "anchor": "db-source-line-42",
+        "heading": "§3 要观察的机制（三个主机制 + 关联机制，全部带定位与等级）",
+        "source_sha256": "272a6966b4d0263aec5ca8d7f51df44cbc8431224a2137065881c5106abcacda",
+        "source_line": 42
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/chardin/learning_path.md",
+        "anchor": "db-source-line-145",
+        "source_sha256": "504f838b4b4be4f3ae5b1e145d9eb05d0fed88fceebd4ecdb9a4f69a591a4bfb",
+        "source_line": 145,
+        "supporting_phrase": "vs 维米尔（高光形态/表面/阴影色相）"
+      },
+      "limit": "原文要求至少两轴比较；不以一处相似替代边界。"
+    },
+    {
+      "from": "wu_guanzhong",
+      "to": "kandinsky",
+      "label": "抽象的两条路径",
+      "target": {
+        "artist": "kandinsky",
+        "path": "knowledge/domains/painters/learning/kandinsky/learning_path.md",
+        "anchor": "db-source-line-50",
+        "heading": "3. 要观察的机制",
+        "source_sha256": "a34b62f064dc7a7682f97a03e5b74976b95a893f438a462f766b07ffa5f904b5",
+        "source_line": 50
+      },
+      "basis": {
+        "path": "knowledge/domains/painters/learning/wu_guanzhong/learning_path.md",
+        "anchor": "db-source-line-118",
+        "source_sha256": "822365d1eff5af65150945e5fec8ef99a072aeb558721d865233e4586771549d",
+        "source_line": 118,
+        "supporting_phrase": "**kandinsky**（抽象两路径，四判据互洽）"
+      },
+      "limit": "原文保留待组合实验验证，不是 E 系列接受。"
+    }
+  ],
+  "legacy_style_entries": [
+    {
+      "artist": "caravaggio",
+      "path": "knowledge/domains/painters/modules/caravaggio.md",
+      "sha256": "7ab288a7e3c952ec2eba44f897191e54ed71ae3304b96bc204dfe05ad47f6d98",
+      "line": 42,
+      "heading": "## §8.1b 纯风格段（场景可迁移）",
+      "type": "style_paragraph",
+      "anchor": "81b-纯风格段场景可迁移"
+    },
+    {
+      "artist": "cezanne",
+      "path": "knowledge/domains/painters/modules/cezanne.md",
+      "sha256": "b44315dab92542a78f2bd00be96fe325c86b9fb7a9c305171e0dd8c20046e58d",
+      "line": 41,
+      "heading": "## §8.1b 纯风格段（场景可迁移）",
+      "type": "style_paragraph",
+      "anchor": "81b-纯风格段场景可迁移"
+    },
+    {
+      "artist": "da_vinci",
+      "path": "knowledge/domains/painters/modules/da_vinci.md",
+      "sha256": "e6ad4d1b24b25994bfc4cc467677d1f323545e28bba17f1efd7428f8dcc88cc3",
+      "line": 41,
+      "heading": "## §8.1b 纯风格段（场景可迁移）",
+      "type": "style_paragraph",
+      "anchor": "81b-纯风格段场景可迁移"
+    },
+    {
+      "artist": "durer",
+      "path": "knowledge/domains/painters/modules/durer.md",
+      "sha256": "9e59e559283ed4784734d0811d2244b0487a8da74de6f62c3ea0d4aece038609",
+      "line": 43,
+      "heading": "## §8.1b 纯风格段（场景可迁移）",
+      "type": "style_paragraph",
+      "anchor": "81b-纯风格段场景可迁移"
+    },
+    {
+      "artist": "hokusai",
+      "path": "knowledge/domains/painters/modules/hokusai.md",
+      "sha256": "dbf8bded1ec7b50cd6981dff7d93742d2aecf515f0cfc309dfcd565f88f55784",
+      "line": 39,
+      "heading": "## §8.1b 场景可迁移性注记",
+      "type": "transfer_note",
+      "anchor": "81b-场景可迁移性注记"
+    },
+    {
+      "artist": "matisse",
+      "path": "knowledge/domains/painters/modules/matisse.md",
+      "sha256": "a0477875113ee296257ca730ef1e15fa64d4846f39b8394556ac51ad419d9802",
+      "line": 37,
+      "heading": "## §8.1b 场景可迁移性注记",
+      "type": "transfer_note",
+      "anchor": "81b-场景可迁移性注记"
+    },
+    {
+      "artist": "michelangelo",
+      "path": "knowledge/domains/painters/modules/michelangelo.md",
+      "sha256": "13c1e5f54dc7d2231c870cee86891baed41a281a8311d05ccd4a99f2941a45a5",
+      "line": 39,
+      "heading": "## §8.1b 纯风格段（场景可迁移）",
+      "type": "style_paragraph",
+      "anchor": "81b-纯风格段场景可迁移"
+    },
+    {
+      "artist": "monet",
+      "path": "knowledge/domains/painters/modules/monet.md",
+      "sha256": "5585d5db023fc4db412003d86ec305db9b7b0b7166af2fbc27bf4deb0f4e004e",
+      "line": 38,
+      "heading": "## §8.1b 场景可迁移性注记",
+      "type": "transfer_note",
+      "anchor": "81b-场景可迁移性注记"
+    },
+    {
+      "artist": "picasso",
+      "path": "knowledge/domains/painters/modules/picasso.md",
+      "sha256": "ae7b8eeb92e6fb9b2a2cbc5347e8f0d2945455fc3f1ae61253545143a5cc35f6",
+      "line": 38,
+      "heading": "## §8.1b 纯风格段（场景可迁移）",
+      "type": "style_paragraph",
+      "anchor": "81b-纯风格段场景可迁移"
+    },
+    {
+      "artist": "van_gogh",
+      "path": "knowledge/domains/painters/modules/van_gogh.md",
+      "sha256": "3f1aa0c0e7a908ca5100505da2570a5214033d434e1fc40b8062365ffe3c4517",
+      "line": 40,
+      "heading": "## §8.1b 场景可迁移性注记",
+      "type": "transfer_note",
+      "anchor": "81b-场景可迁移性注记"
+    },
+    {
+      "artist": "vermeer",
+      "path": "knowledge/domains/painters/modules/vermeer.md",
+      "sha256": "22e764e58d49d729ed387257bf8c79f20b8331812d7bcbc3b9d21794646cd9f0",
+      "line": 43,
+      "heading": "## §8.1b 纯风格段（场景可迁移）",
+      "type": "style_paragraph",
+      "anchor": "81b-纯风格段场景可迁移"
+    }
+  ]
+}

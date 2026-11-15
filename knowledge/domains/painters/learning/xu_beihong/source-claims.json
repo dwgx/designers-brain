@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-xu_beihong",
+  "source_receipt_sha256": "cf6a2d28b50130a2d66285c9125d30bf14595edd98347814c921753dcfe86c99",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEARN-xu_beihong-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/xu_beihong.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1/§3/§4/§8.2/§12（开工 sha256sum 实测）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "25f679e6fc001a12792179beb5c8536a442fbf52e6ba184de795e00613efbb29",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-xu_beihong-AUDIT-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:5e366d761c1a7ac0",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "a34000098ce27f4e18b8dc6d8726d10ebf63f4d256e7480a902e04ebda67eab5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-xu_beihong-RULE-COUNTER",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/xu_beihong.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 8 条可判定规则（rule ids 逐条照录），claim 图 §F 计 8 条与头部声明 8 条一致",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "25f679e6fc001a12792179beb5c8536a442fbf52e6ba184de795e00613efbb29",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-xu_beihong-QUOTE-DENOM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/xu_beihong.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "grep -c '^### ' = 37 条引文，抽样 3 条均带出处",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6d32308aea21c5cdd1c3ab1edf3db6366d8f987c2bd6366c03d7e986c9d3382a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-xu_beihong-CLAIM-MAP-TOTAL",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:dcbccf15ac8d06ba",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5961c8d6c4d75f76061e3d899ba8cb47f7cf36a85e20c22d3d2073a24fc9c624",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-xu_beihong-THRESH-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/xu_beihong.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2/§4 阈值 [归纳] 未经渲染实验校准，未做像素测量（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "396be89ab9c80baabf230d430a0193b37ba67bcce6643be687e664ea3333f23b",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-xu_beihong-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 A-30：练习未由人完成/评价时为建议练习，不写『已证实学习收益』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

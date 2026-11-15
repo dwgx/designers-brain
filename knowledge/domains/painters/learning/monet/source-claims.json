@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-monet",
+  "source_receipt_sha256": "8afa2dd6c3bf78da7639cd24a3b2250c9de19698edddd4afce6061f0631b70be",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEARN-MONET-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:31bdfa7a40f47eeb",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:8d0a84ad7fe05d9e",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5574a01a4e225943ef528b68bef8419e6a0e20e064165c1d9550ee5ef0d68980",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-MONET-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:66422242c2b617ed",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "74897855dd26b7285f9647463a43ac37f96968443b180dd741e0094fac4eb21f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:7b80ea785448c77a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "9aec070f2d2345334957a30e4ff4fa0b21633887d2c2c93527d876a1ba360a06",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-MONET-THREE-MECHANISMS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/monet.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L201 §8.2-1 笔触 4-12px/90-100%; L203 §8.2-3 S≤65%; L204 §8.2-4 包络 ≤60%/R²≥0.8; L86-89 §4 P3 强档 边界外=透纳领域",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6b0e3e9dd1357851586e95e890b6d5e01a9686d751626c5a214b5206d7cd033e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/monet.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L44/L46/L47 §8.2 原样; L64-67 §4 P3 原样",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "840a01cd735f661651e827f214f1ee69ed3c5f17c1ac1c003cb2871d384788a5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-MONET-CONFLICTS-C05-C10-C14",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L36/L41/L45 总表; L109-121 C-05; L176-186 C-10 (含 L180 边界外=透纳领域, L186/:335 E2c 待补); L229-242 C-14; L305-333 N1/N3/N4/N5/N9",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:85d54b042909825c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "078ae0e3be9d44f515dfe753dd7fa1624de96a04e4d734734bd224ef8475f529",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-MONET-A30-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "§8.1 A-30: L269-273 八节形状 + 练习须标建议练习、不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:9a3c3492d9e12342",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "8bd67ff86e2b91ceca7561c35c767087c9215c33b69bf75ab63980f102855450",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-MONET-HT-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:f0cc63ac3e39bd14",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "0b188cc42ba2375b394eeb8e0654cf79ec7180ef9b9409cc51e8f7e9eb4bc6c0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md (package)",
+          "version": null,
+          "locator": "L9 How to Think 必须区分作者可核实的自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-MONET-LOCATOR-DRIFT",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L115 引 monet.md L200; L180/L235 引 L203; L404 自述行号估算偏移史",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f2ef958956e623b7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "91d508f66b78da397e74522a6549b1f878e50f91701e09d26192ede9a6312ad1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-MONET-PRACTICE-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "L273 练习效果尚未由人完成或评价时明确为建议练习，不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:d9e3e28a67a2391c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "8bd67ff86e2b91ceca7561c35c767087c9215c33b69bf75ab63980f102855450",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

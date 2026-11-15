@@ -1,0 +1,807 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-sesshu",
+  "source_receipt_sha256": "6ae85ed6f6f98e3c5dd160092d97b07ba2accb389ded410fb10127b811b38c83",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LS-INPUT-CARD",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:5558cbea65060ef5",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-INPUT-DOSSIER",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8aad3864f829647a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-INPUT-CORPUS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:937b18d607ea6581",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-INPUT-AUDIT-MANIFEST",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b45dcf268a9c001d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-INPUT-CONFLICTS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8a5eab78f571c4e7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-AUDIT-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:045c089bed946c6a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-EXTRACT-228",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:689552215fac32d2",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K1-APPARATUS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:9,21,149`；`modules/sesshu.md:9-13`",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K2-HABOKU-WHITE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:53,54,39,40,155,204,206`；`modules/sesshu.md:45,47`",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K3-INTERSECTION",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:3267443577e1caa9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K4-KANO",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:5cc4d63df7815060",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K5-18PD",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:146ceb2c534bbc5b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K6-PARAMS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:cbe0fc6bd232d686",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K7-SELF",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:71,120,122,123`；`_corpus/sesshu.md:12,20,27,48,55`（Q1–Q3/Q6/Q7）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-K8-INTERFACE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b6a0295cb53ea648",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-WORKS-12",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:2562c573fef27c8f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-WORKS-HABOKU",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:a5bc25f22e8a6f28",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-WORKS-WHITE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8e475c76a90a0ae9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-WORKS-INTERSECTION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:2a859d459e69acf8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-WORKS-RIGHTS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:5ed6db92b652ce68",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-WORKS-ATTRIB",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:356fad99daa0a8c2",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M1-HABOKU",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:53`（§2-1 引 [R2] 衛藤駿/玉澗）、`:54`（§2-2 [R3]）、`:155`（e国宝 [R3]）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M1-SELFNAME",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:6f4436380cd1e83b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M1-RULE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:204`；`modules/sesshu.md:45`（原样）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M2-WHITE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:206`；`modules/sesshu.md:47`；`:40`（§1-5）、`:107`（P4 默认中 35%）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M2-SKELETON",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:202-203`；`modules/sesshu.md:43-44`；`:36-38`（§1）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M3-40-60-RULE",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:85`（逐字「取交集并显式取值」）、`:84`（判据四条）、`:86`（70/30 主导轴）、`:111`（越界警报②）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M3-JURIS",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:dec40b36d5815ce1",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M3-COUNTEREX",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:c8fa114ddea4e13a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M4-INK",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:205`；`modules/sesshu.md:46`；`:38`（§1-3）、`:44`（§1-9）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-M5-VIEW",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:207,59,58,156`；`modules/sesshu.md:48`",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-PARAMS-P1P6",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:104-111`；`modules/sesshu.md:56-65`",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-STATIC-C09",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b35e01c6a8a14768",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-DIV-BADA",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:91f3ea7240fd812a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-DIV-HOKUSAI",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:fc28ba9cee50f001",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-DIV-OTHERS",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:0352f511560a0d1b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-INTERFACE-C",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:25efea4cfdd39cec",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-REG-NOMISS",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:531ffe8628327d51",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-REG-EXTRACT",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:10d5f6ed04088e2d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-REG-A78",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:82a23fd949720bd3",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-REG-B6-OVERTURN",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d7c9f756a28a4424",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-KANO-HISTORY",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sesshu.md",
+          "version": null,
+          "locator": "`dossiers/sesshu.md:145-146,298,334`；`_corpus/sesshu.md:114,117`（Q14）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-KANO-Q14",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/sesshu.md",
+          "version": null,
+          "locator": "`_corpus/sesshu.md:112-117,149`；`dossiers/sesshu.md:284,300`",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-KANO-0ROWS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d522d230f90f6ef0",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-RIGHTS-18",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:0ca87b0744f6cff6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-RIGHTS-GAP",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:648e57809ee2965a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-EXTERNAL-FETCH",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:743e995d0f5c2479",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-SELF-AUDIT",
+      "claim_kind": "fact",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:58abd7a9fb32cb96",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-B2-WEAKENED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8f27c7a308899a14",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-PRACTICE-STATUS",
+      "claim_kind": "design_candidate",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:a84b892d7b4fb711",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-RECEIPT-SUBMITTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:fb7478b62eed42d7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-WRITE-BOUNDARY",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:a90a081f2758e711",
+          "version": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LS-ARTIFACT-KINDS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:3541d8804fc12a5a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

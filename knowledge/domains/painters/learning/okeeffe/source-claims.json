@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-okeeffe",
+  "source_receipt_sha256": "31c5af8764ae4d53235a90f3696442ff911c8ec160df1087156aec20a8b03261",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEARN-okeeffe-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/okeeffe.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1/§3/§4/§8.2/§12（开工 sha256sum 实测）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "1464ad5cbf4ea81f6a73444ce54975dbeb43f490b7e53d068d69d02040faf465",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-okeeffe-AUDIT-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:82fba9b4b3d207af",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "fc5f1f57a48c5497f1777ff9e9032e4b873762ee2a596d307712110793d876d6",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-okeeffe-RULE-COUNTER",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/okeeffe.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 7 条可判定规则（rule ids 逐条照录），claim 图 §F 计 7 条与头部声明 7 条一致",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1464ad5cbf4ea81f6a73444ce54975dbeb43f490b7e53d068d69d02040faf465",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-okeeffe-QUOTE-DENOM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/okeeffe.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "grep -c '^### ' = 35 条引文，抽样 3 条均带出处",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9c4f1977cf2ee98dc87aaf6fb3d0b86a6c966bd8548c78f715a9edf8e5645358",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-okeeffe-CLAIM-MAP-TOTAL",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:cf89aea24e85be28",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "fb0cac295430cd380ab61c7c24a3a559219e1d142bafc0668ff01a07c5a00718",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-okeeffe-THRESH-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/okeeffe.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2/§4 阈值 [归纳] 未经渲染实验校准，未做像素测量（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "894ad800818f7f4463b4f4328dbe9127cf51aea38436a9ce8c9c2de0759a2d30",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-okeeffe-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 A-30：练习未由人完成/评价时为建议练习，不写『已证实学习收益』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

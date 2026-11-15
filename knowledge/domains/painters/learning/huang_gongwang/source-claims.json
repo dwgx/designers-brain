@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-huang_gongwang",
+  "source_receipt_sha256": "583a34be10b10232ef572e59c4bd1c62e24f28f7ec554a997b006f783cd3cb72",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LH-SELF-YES-LIMITED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/huang_gongwang.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L4 类型定义 + §一 Q1-Q10 L8-L73 + §二 Q11-Q13 L77-L94：全为 [self-written]；去四病 逐字层另见 HG-Q1=conflict",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "c31e10c4e53f267c7522e317ead3079b37842e3542cbe5171f59f4bab07ab8fb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/huang_gongwang.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§10-10 L264 + 自审 D L427：§4 六参数与 §8.2 七规则为 [归纳]、未对原作做像素测量/未实测参数",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "95eb6a685fdd063b02586f8eebaf982cb9d24b3757b26d3126c03f41c030fbd5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-CONFLICT-Q1-KNOWN-OPEN",
+      "claim_kind": "fact",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:f9b7858c84625ad1",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ee9b5a8667ac9bea067dcade4c4b7806e92b4500118d1863370465f309e574b6",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:d6693b9b4a78173c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a850dffc676be969327209d00d4f472873ae7a53e9b6f01ad56f9ad4db19a0cc",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-MECHANISMS-SOUTHERN",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/huang_gongwang.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "用笔 §8.2-1 L201/§8.2-2 L202/§4 P1-P2 L78-L86；留白 §1-8 L35；水位 §1-4 L31/§8.2-3 L203/§4 P5 L98-L101；[自述] 输入 §2-4 L44/§2-7 L47/§2-10 L50",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "95eb6a685fdd063b02586f8eebaf982cb9d24b3757b26d3126c03f41c030fbd5",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/huang_gongwang.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 L48-L54 + §4 L58-L86 卡侧同值；§3.1 冲突注记 L88-L95",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "29e871000f17286a66c5074532f4a3994b5ab32f3513fdf66267d4e51a9998e5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-ZERO-CROWS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1 18 条 C + §4 11 条 near-miss 全扫，0 条命名黄公望（AUDIT HG-CF-01）；§3 N1-N9 L300-L337 为可援引通用规则",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:5cc7d6674ec574e4",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "8ffb5ab09d6a399bc05f0dd5bf6de5cf0b2a0883e4e4c98c7f11ae6d9435b58f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-CE-INFERENCE",
+      "claim_kind": "hypothesis",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8cb88f16dc66963e",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "a17967a895b2ab0f89c40fbcb840095aacd271247fa8de3ea349f8ffb227fd04",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L273：练习效果尚未由人评价时明确为建议练习，不写『已证实学习收益』；§8.4 L308/L310 禁止模拟人评",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/huang_gongwang.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§12 L317-L352 临摹/学习清单（8 件）+ §4/§8.2 自查量；三段阶梯为建议练习",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "95eb6a685fdd063b02586f8eebaf982cb9d24b3757b26d3126c03f41c030fbd5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-NO-INVENTED-PSYCH",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "00-GOAL.md (execution package)",
+          "version": null,
+          "locator": "L9：How to Think 必须区分作者可核实自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/huang_gongwang.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§11 L276『迎静气，去躁气/淡泊宁和/宗教性静观』为 [研究]/[史料] 学界解读，不是自述、不作动机推断",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "95eb6a685fdd063b02586f8eebaf982cb9d24b3757b26d3126c03f41c030fbd5",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

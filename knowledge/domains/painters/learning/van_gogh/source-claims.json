@@ -1,0 +1,328 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-van_gogh",
+  "source_receipt_sha256": "fb3c76413f93a12651728d805e0b65fa03f8019cb8f1716b5f67fe808c493ded",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LVG-M1-DIRFIELD",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:204 (§8.2-1 笔触单元/方向场, measured L204)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:206 (§8.2-3 厚涂覆盖, measured L206)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-card",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/modules/van_gogh.md:46,48",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "bf0e0bb60956dd0a64c4161fd875c9704bbf2990b255d9ac96f96053f15ebfcc",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-M2-COMPL",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:205 (§8.2-2 色数/互补对, measured L205)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:85-88 (§4 P3 强档近 1:1)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-card",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/modules/van_gogh.md:47,66-69",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "bf0e0bb60956dd0a64c4161fd875c9704bbf2990b255d9ac96f96053f15ebfcc",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-82-7RULES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:202-210 (§8.2 七条, measured L204-L210)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-card",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/modules/van_gogh.md:44-52",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "bf0e0bb60956dd0a64c4161fd875c9704bbf2990b255d9ac96f96053f15ebfcc",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-HT-SPLIT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "00-GOAL-md",
+          "version": "package",
+          "locator": "00-GOAL.md:9 (区分作者自述与研究者推断, 不编造作者心理)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:256 (本档案未使用 [推测] 级结论)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-corpus",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/_corpus/van_gogh.md:4,6 (类型分级 + 规范化声明)",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "24f027d84d23dfbd54bfe0aa1ed7808360a8824a07ffadaedcb500446c66acd1",
+          "access_status": "partial"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-PRACTICE-LADDER",
+      "claim_kind": "design_candidate",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT-md",
+          "version": "package",
+          "locator": "01-AUDIT.md:269-273 (A-30 §8.1 八节形状; 练习须标建议练习)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:204-210,404-422,429-437 (§8.2 规则 + §12 作品映射)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-NO-VERIFIED-BENEFIT",
+      "claim_kind": "model_judgment",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT-md",
+          "version": "package",
+          "locator": "01-AUDIT.md:273 (练习效果须标建议练习, 未由人评价)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e297f089dab1005e",
+          "version": "attempt-2",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-DRIFT",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "conflicts-md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/cross/conflicts.md:114,168,209 (旧行号 L203/L204/L205/L206/L208)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:204-210 (实测 §8.2-4=L207, §8.2-5=L208; +2 漂移)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:02c34974f14d709e",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "cac08be343a87a64d5e53fc40664b86ce53e1221115613374a5c9c2cbe7c322f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-DUAL-903",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8ad01c3251502cea",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "181ec23ae79d242db347ac5f333543b1938e151f37e40b10fa4c0e8e488f368f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "van_gogh-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/van_gogh.md:252 (§10 [UNVERIFIED]) / :390 (§11.3 note 2 可据此收口)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "aa170a18f82b9189c103fa24447ef295e9c7b88581728687591c175a9184cd14",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-DUAL-GATE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:0a77f31ff1fdca4f",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a20c7f811b00c3a74255872fde16160e5babf4adb37fa809ce4ec398a036608",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f24fa31983370e39",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "181ec23ae79d242db347ac5f333543b1938e151f37e40b10fa4c0e8e488f368f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "05-RELEASE-ACCEPTANCE-md",
+          "version": "package",
+          "locator": "05-RELEASE-ACCEPTANCE.md:34-38 (execution/knowledge/human_review 三类状态分存, submitted != accepted)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "dacc6cdb68885cde522c29625a4001b418b06a2953e09100606e8e46a33cc0cf",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-AUDIT-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:37685a50579cbb14",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a20c7f811b00c3a74255872fde16160e5babf4adb37fa809ce4ec398a036608",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:3583dc83766cbbdc",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "181ec23ae79d242db347ac5f333543b1938e151f37e40b10fa4c0e8e488f368f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-CONFLICTS-3",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "conflicts-md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/cross/conflicts.md:36,40,43 (C-05/C-09/C-12 总表), :109-121,164-174,203-215 (详节), :305-333 (N 规则)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:31ecb56929c18c38",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "cac08be343a87a64d5e53fc40664b86ce53e1221115613374a5c9c2cbe7c322f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LVG-NO-REPO-WRITE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "ops-GOALS-md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "ops/GOALS.md (A-30 / S-06 open goals; read-only repo baseline)",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:19e2fff16df757f9",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "cac08be343a87a64d5e53fc40664b86ce53e1221115613374a5c9c2cbe7c322f",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

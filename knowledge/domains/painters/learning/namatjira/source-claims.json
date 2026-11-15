@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-namatjira",
+  "source_receipt_sha256": "884a91da3abae14a37d3c2a9bc818648480e1242de4b061fac13f8d143071923",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LM-NAMATJIRA-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "namatjira-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/namatjira.md:sha256 c39536d33a02303222e15b9c5bc6062523a26df2bc567c20d4023cb1694d4aff",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "c39536d33a02303222e15b9c5bc6062523a26df2bc567c20d4023cb1694d4aff",
+          "access_status": "available"
+        },
+        {
+          "source_id": "namatjira-card",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/modules/namatjira.md:sha256 9126af70a17dc1279a1102fe4ae0ca3e087fe120925019fd634699399ddc759d",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "9126af70a17dc1279a1102fe4ae0ca3e087fe120925019fd634699399ddc759d",
+          "access_status": "available"
+        },
+        {
+          "source_id": "namatjira-corpus",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/_corpus/namatjira.md:sha256 f47cf44555c8731a725153e1ff3bdf88a8db40fd52bce6ef295afb8eb2008455",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "f47cf44555c8731a725153e1ff3bdf88a8db40fd52bce6ef295afb8eb2008455",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-NAMATJIRA-ACCEPTED-DEPENDENCY",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:28b6acb03d39b0ec",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "2840cd314612c43c77fe2f209941e8416ac9c8e89c1e5fc43dfa60bb45236452",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-NAMATJIRA-S82-RULE-COUNT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "namatjira-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/namatjira.md:§8.2:L238-251 (8 rules, ids §8.2-1..§8.2-8)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "c39536d33a02303222e15b9c5bc6062523a26df2bc567c20d4023cb1694d4aff",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-NAMATJIRA-CLAIMMAP-ROWS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:619a06da5d2f5939",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "27d9199eaa75a1f69ddd8eef9f610ef9cfab4cd987779880ae762b5e993db3cd",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-NAMATJIRA-COUNTERS-VERBATIM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d3767aa2f85b79de",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "766f986d4b6d9c02384b0da37999f272b4a461fc10fc9c8dca7cbddf5eca1c3b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "namatjira-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/namatjira.md:§8.2:L241..L248",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "c39536d33a02303222e15b9c5bc6062523a26df2bc567c20d4023cb1694d4aff",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-NAMATJIRA-THRESHOLDS-UNMEASURED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "namatjira-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/namatjira.md:§8.2 尾注 (> 说明：全部阈值为 `[归纳]`（本项目操作化建议），未经渲染实验校准；与 `templates/style_card)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "c39536d33a02303222e15b9c5bc6062523a26df2bc567c20d4023cb1694d4aff",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-NAMATJIRA-NO-VERIFIED-BENEFIT",
+      "claim_kind": "model_judgment",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT-md",
+          "version": "package",
+          "locator": "01-AUDIT.md:273 (练习效果须标建议练习，未由人评价)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        },
+        {
+          "source_id": "internal-evidence:bb8f9d9547a81bab",
+          "version": "attempt-1",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}
