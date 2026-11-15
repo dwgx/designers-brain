@@ -1498,6 +1498,7 @@ def write_cards():
 
 
 def check_all():
+    """逐字比对全部卡；返回失败条目数（供 main 决定退出码）。"""
     total = ok = 0
     for a in ARTISTS:
         alines = read_lines(ARCH / ("%s.md" % a["id"]))
@@ -1513,7 +1514,9 @@ def check_all():
             if not good:
                 print("!! %s %s mismatch" % (a["id"], key))
         print("[%s] %s" % (a["id"], " · ".join(parts)))
-    print("checks=%d ok=%d fail=%d   # 76 卡 × §8.1/§8.2/§4 逐字比对" % (total, ok, total - ok))
+    fail = total - ok
+    print("checks=%d ok=%d fail=%d   # 76 卡 × §8.1/§8.2/§4 逐字比对" % (total, ok, fail))
+    return fail
 
 
 def diff_one(aid, full=False, sec=None):
@@ -1549,11 +1552,12 @@ def main():
     args = sys.argv[1:]
     if not args or "--help" in args:
         print(__doc__)
-        return
+        return 0
     if "--write" in args:
         write_cards()
     elif "--check" in args:
-        check_all()
+        # fail-closed：任一不一致即非零退出（审计 A01）
+        return 1 if check_all() > 0 else 0
     elif "--diff" in args:
         i = args.index("--diff")
         aid = args[i + 1] if i + 1 < len(args) else ""
@@ -1561,7 +1565,8 @@ def main():
         diff_one(aid, full="--full" in args, sec=sec)
     else:
         print(__doc__)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

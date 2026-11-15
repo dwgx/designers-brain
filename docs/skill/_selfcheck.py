@@ -3,7 +3,8 @@
 """Designers_Brain skill 自检：引用路径存在性 + frontmatter 合规 + junction 解析 + domains.yaml 校验。
 
 用法（仓库根 D:/Project/Designers_Brain）：
-    python docs/skill/_selfcheck.py
+    python docs/skill/_selfcheck.py                 # 全量：仓库 + 用户级安装检查
+    python docs/skill/_selfcheck.py --repo-only      # 仅仓库：跳过 junction/harness 安装检查
 
 口径：
 - 抽取 skill_spec.md / draft/SKILL.md / skills/designers-brain/（SKILL.md + references/*.md +
@@ -14,14 +15,25 @@
 - 备选布局（docs/skill/designers-brain/）仍列规划、不计失败；示意形态（含 ... / < / >）跳过；
 - frontmatter：草案与落位版均校验（name / description 按 agentskills.io 口径；落位版查与父目录同名）；
 - junction 解析：4 条（仓库内 1 + 用户级 3）realpath == REPO/skills/designers-brain（逐条）；
+  `--repo-only` 跳过（属用户级安装状态，不属仓库完整性）；
 - domains.yaml：逐域 count 与 cards 目录实际数一致（计数规则见 count_cards；新增域时按规格 §5.3 更新）。
+- `--repo-only` 仍逐条核验仓库内引用路径（含 experiments/E1_t1b / E1_t1c，缺失即 FAIL，不白名单）。
 
-退出码：0 = PASS（无失败）；1 = 有失败。
+必需依赖：pyyaml。缺失时 frontmatter / domains.yaml 校验显式 FAIL（非零退出），绝不以 SKIP=PASS 蒙混。
+
+退出码：0 = PASS（无失败）；1 = 有失败或必需依赖缺失（BLOCKED，非零）。
 """
+import argparse
 import glob
 import os
 import re
 import sys
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except Exception:  # pragma: no cover
+    pass
 
 try:
     import yaml
@@ -130,7 +142,7 @@ def check_frontmatter(path: str, expect_dir: str = None):
         return [("FAIL", "无 frontmatter 块")]
     fm_text = m.group(1)
     if yaml is None:
-        return [("SKIP", "pyyaml 未安装，跳过 YAML 解析")]
+        return [("FAIL", "pyyaml 未安装（必需依赖）：无法校验 frontmatter，BLOCKED 非零退出")]
     try:
         data = yaml.safe_load(fm_text)
     except Exception as e:  # noqa: BLE001
@@ -195,7 +207,7 @@ def check_domains():
     if not os.path.isfile(path):
         return [("domains.yaml", "FAIL", "文件不存在")], False
     if yaml is None:
-        return [("domains.yaml", "SKIP", "pyyaml 未安装，跳过")], True
+        return [("domains.yaml", "FAIL", "pyyaml 未安装（必需依赖）：无法校验，BLOCKED 非零退出")], False
     try:
         data = yaml.safe_load(open(path, encoding="utf-8"))
     except Exception as e:  # noqa: BLE001
@@ -249,6 +261,13 @@ def check_harness(toks):
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(
+        description="Designers_Brain skill 自检（仓库路径 + frontmatter + junction/harness + domains.yaml）。")
+    ap.add_argument("--repo-only", action="store_true",
+                    help="只跑仓库内检查，跳过 4 条 junction 与 harness 等用户级安装检查")
+    args = ap.parse_args()
+    repo_only = args.repo_only
+
     per_file = {}
     token_sources = {}
     harness_toks = set()
@@ -313,16 +332,21 @@ def main() -> int:
     for t in planned:
         print(f"    ⏳ {t}")
 
-    harness_rows = check_harness(harness_toks)
-    n_h_ok = sum(1 for _, s, _ in harness_rows if s == "ok")
-    n_h_design = sum(1 for _, s, _ in harness_rows if s == "design")
-    n_h_fail = sum(1 for _, s, _ in harness_rows if s == "fail")
-    n_h_skip = sum(1 for _, s, _ in harness_rows if s == "skip")
-    print(f"\n== 机器级/打包件路径（状态核对）== ok={n_h_ok} design-only={n_h_design} "
-          f"skip={n_h_skip} fail={n_h_fail}")
-    for t, s, d in harness_rows:
-        mark = {"ok": "ok", "design": "·", "skip": "~", "fail": "FAIL"}[s]
-        print(f"    {mark:>4} {t}  [{d}]")
+    # 机器级/打包件路径（用户级安装检查）：--repo-only 跳过
+    if repo_only:
+        print("\n== 机器级/打包件路径（--repo-only：跳过用户级安装检查）== SKIPPED")
+        n_h_fail = 0
+    else:
+        harness_rows = check_harness(harness_toks)
+        n_h_ok = sum(1 for _, s, _ in harness_rows if s == "ok")
+        n_h_design = sum(1 for _, s, _ in harness_rows if s == "design")
+        n_h_fail = sum(1 for _, s, _ in harness_rows if s == "fail")
+        n_h_skip = sum(1 for _, s, _ in harness_rows if s == "skip")
+        print(f"\n== 机器级/打包件路径（状态核对）== ok={n_h_ok} design-only={n_h_design} "
+              f"skip={n_h_skip} fail={n_h_fail}")
+        for t, s, d in harness_rows:
+            mark = {"ok": "ok", "design": "·", "skip": "~", "fail": "FAIL"}[s]
+            print(f"    {mark:>4} {t}  [{d}]")
 
     print(f"\n== 示意形态（占位符，跳过）== schematic={len(schematic)}")
     for t in schematic:
@@ -342,11 +366,16 @@ def main() -> int:
         if status == "FAIL":
             fm_ok = False
 
-    jrows = check_junctions()
-    n_j_ok = sum(1 for _, s, _ in jrows if s == "ok")
-    print(f"\n== junction 解析（4 条；realpath == REPO/skills/designers-brain）== {n_j_ok}/4 ok")
-    for j, s, d in jrows:
-        print(f"    {s:>4} {j}  [{d}]")
+    # junction 解析（4 条，用户级安装检查）：--repo-only 跳过
+    if repo_only:
+        print("\n== junction 解析（4 条；--repo-only：跳过用户级安装检查）== SKIPPED")
+    else:
+        jrows = check_junctions()
+        n_j_ok = sum(1 for _, s, _ in jrows if s == "ok")
+        print(f"\n== junction 解析（4 条；realpath == REPO/skills/designers-brain）== {n_j_ok}/4 ok")
+        for j, s, d in jrows:
+            print(f"    {s:>4} {j}  [{d}]")
+        n_j_ok_total = n_j_ok
 
     drows, d_ok = check_domains()
     print(f"\n== domains.yaml 校验（count == cards 目录实际数）==")
@@ -356,12 +385,19 @@ def main() -> int:
     if missing_files:
         print(f"\n!! 缺失扫描文件: {missing_files}")
 
-    verdict = "PASS" if (not fail and not missing_files and fm_ok
-                         and n_j_ok == len(JUNCTIONS) and d_ok
-                         and n_h_fail == 0) else "FAIL"
-    print(f"\nRESULT: {verdict}  (checked={len(ok)} fail={len(fail)} planned={len(planned)} "
-          f"· junctions={n_j_ok}/{len(JUNCTIONS)} · domains={'ok' if d_ok else 'FAIL'} "
-          f"· harness_fail={n_h_fail})")
+    # 必需依赖缺失会令 fm_ok / d_ok 为 False（FAIL，非 SKIP=PASS）。
+    base_ok = (not fail and not missing_files and fm_ok and d_ok)
+    if repo_only:
+        verdict = "PASS" if base_ok else "FAIL"
+    else:
+        verdict = "PASS" if (base_ok and n_j_ok_total == len(JUNCTIONS)
+                             and n_h_fail == 0) else "FAIL"
+    mode = "repo-only" if repo_only else "full"
+    junc_s = "skipped" if repo_only else f"{n_j_ok_total}/{len(JUNCTIONS)}"
+    harn_s = "skipped" if repo_only else str(n_h_fail)
+    print(f"\nRESULT: {verdict}  (mode={mode} · checked={len(ok)} fail={len(fail)} "
+          f"planned={len(planned)} · junctions={junc_s} "
+          f"· domains={'ok' if d_ok else 'FAIL'} · harness_fail={harn_s})")
     return 0 if verdict == "PASS" else 1
 
 

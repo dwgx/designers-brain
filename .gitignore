@@ -34,3 +34,4 @@ _private/
 # --- Worker scratch/temp (local only) ---
 /_scratch/
 /_tmp_*
+_agent-history/
