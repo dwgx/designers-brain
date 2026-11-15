@@ -1,7 +1,7 @@
 # Designers_Brain
 
 > 本ファイルは翻訳版です。英語正本が優先されます（最新変更に遅れる場合があります）。
-Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
+Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)。2026-10-26 更新：件数と画像ライセンスの記述
 
 [English](README.md) · [中文](README.zh-CN.md) · 日本語
 
@@ -16,8 +16,8 @@ Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
 
 収録内容：
 
-- **画家ドシエ（資料ファイル）62 件**（ダ・ヴィンチ、ミケランジェロ、ファン・ゴッホ、モネ、ピカソ、セザンヌ、マティス、北斎、カラヴァッジョ、フェルメール、デューラー）——各約 300〜600 行のエビデンス、出典付き引用 1613 件、パブリックドメイン作品 618 点。
-- **合成可能なモジュールカード 62 枚** + **モーショングラフィックスのスタイルカード 15 枚**（10 秒アニメーションの骨格）。
+- **画家ドシエ（資料ファイル）76 件**（ダ・ヴィンチ、ミケランジェロ、ファン・ゴッホ、モネ、ピカソ、セザンヌ、マティス、北斎、カラヴァッジョ、フェルメール、デューラーほか）——各約 300〜600 行のエビデンス、出典付き引用 2044 件、出典付き作品画像 735 点：**パブリックドメイン / CC0 が 697 点 ＋ 帰属表示が必要なオープンライセンス画像 38 点**（[NOTICE.md](NOTICE.md) 参照）。*（PRE マイルストーン時点の数値も記録として保持：62 件 / 1613 件 / 618 点——「画像はすべてパブリックドメイン」という従来の記述は、うち 38 点については正しくありません。）*
+- **合成可能なモジュールカード 76 枚** + **モーショングラフィックスのスタイルカード 15 枚**（10 秒アニメーションの骨格）。*（PRE：62 枚。）*
 - **モジュール横断ルール**：コンフリクト項目 18 件（C-01–C-18）+ コンポジション（組み合わせ）ルール N1–N9。
 - **スキル**（`skills/designers-brain/`）——ask-first（まず問いを立てる）コンサルタントプロトコルを実装。
 - **機械チェック付きの実験**：スタイル転写マトリクス（E シリーズ）と 3 本のエンドツーエンド・アニメーションパイプライン（Web ×2、Blender ×1）。
@@ -45,7 +45,7 @@ New-Item -ItemType Junction -Path "$HOME\.claude\skills\designers-brain" `
 ### 3. 実験を再現する
 
 ```bash
-# module-card verbatim check (186 checks)
+# module-card verbatim check (228 checks — 76 枚 × §8.1/§8.2/§4)
 python knowledge/domains/painters/modules/_extract.py --check
 
 # image experiment verification (example: composition batch)
@@ -84,3 +84,5 @@ templates/    module / style-card / determinism / design-brief templates
 ## ライセンス
 
 コンテンツとドキュメント：[CC BY 4.0](LICENSE)。コード：[MIT](LICENSE-CODE)。サードパーティ：[NOTICE.md](NOTICE.md) を参照。
+
+画像ライセンスは**一様ではありません**：出典付き作品画像 735 点のうち 697 点がパブリックドメインまたは CC0、38 点がオープンライセンス（CC BY 3.0/4.0、CC BY-SA 3.0/4.0、ColBase 利用規約、台北国立故宮博物院オープンデータ）で、再配布時には**画像ごとのクレジット表示が必須**です。区分と帰属要件は [NOTICE.md](NOTICE.md#images-not-pdcc0-38) を参照。

@@ -1,7 +1,7 @@
 # Designers_Brain
 
 > 本文件为翻译版；以英文正本为准（可能滞后于最新改动）。
-Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
+Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)；2026-10-26 更新：计数与图像许可口径
 
 [English](README.md) · 中文 · [日本語](README.ja.md)
 
@@ -16,8 +16,8 @@ Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
 
 内容一览：
 
-- **62 份画家档案**（达·芬奇、米开朗基罗、梵高、莫奈、毕加索、塞尚、马蒂斯、葛饰北斋、卡拉瓦乔、维米尔、丢勒）——每份约 300–600 行证据、1613 条带来源引文、618 件公有领域作品。
-- **62 张可组合模块卡** + **15 张动态图形风格卡**（10 秒动画骨架）。
+- **76 份画家档案**（达·芬奇、米开朗基罗、梵高、莫奈、毕加索、塞尚、马蒂斯、葛饰北斋、卡拉瓦乔、维米尔、丢勒等）——每份约 300–600 行证据、2044 条带来源引文、735 件来源图像：**697 件公有领域 / CC0 ＋ 38 件开放许可、须逐张署名**（见 [NOTICE.md](NOTICE.md)）。*（PRE 里程碑口径，保留备查：62 份 / 1613 条 / 618 件——原先「图像全部为公有领域」的说法对其中 38 件不成立。）*
+- **76 张可组合模块卡** + **15 张动态图形风格卡**（10 秒动画骨架）。*（PRE：62 张。）*
 - **跨模块规则**：18 条冲突条目（C-01–C-18）+ 组合规则 N1–N9。
 - **一个 skill**（`skills/designers-brain/`），实现「先问再设计」的顾问协议。
 - **带机械检查的实验**：风格迁移矩阵（E 系列）与三条端到端动画管线（网页 ×2、Blender ×1）。
@@ -45,7 +45,7 @@ New-Item -ItemType Junction -Path "$HOME\.claude\skills\designers-brain" `
 ### 3. 复现一个实验
 
 ```bash
-# module-card verbatim check (186 checks)
+# module-card verbatim check (228 checks — 76 张卡 × §8.1/§8.2/§4)
 python knowledge/domains/painters/modules/_extract.py --check
 
 # image experiment verification (example: composition batch)
@@ -84,3 +84,5 @@ templates/    module / style-card / determinism / design-brief templates
 ## 许可
 
 内容与文档：[CC BY 4.0](LICENSE)。代码：[MIT](LICENSE-CODE)。第三方：见 [NOTICE.md](NOTICE.md)。
+
+图像许可**并不统一**：735 件来源图像中 697 件为公有领域或 CC0，38 件为开放许可（CC BY 3.0/4.0、CC BY-SA 3.0/4.0、ColBase 规约、台北故宫开放资料），再分发时**必须保留逐张署名行**。类别与署名要求见 [NOTICE.md](NOTICE.md#images-not-pdcc0-38)。
