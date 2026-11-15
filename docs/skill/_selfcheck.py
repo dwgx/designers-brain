@@ -93,6 +93,15 @@ HARNESS_DESIGN_ONLY = {
 }
 
 
+def path_scan_text(source: str) -> str:
+    """Remove the closing delimiter of simple Markdown links, retaining targets.
+
+    Literal paths and links with nested parentheses retain the existing scanner
+    behavior. Missing destinations still go through check_path and fail.
+    """
+    return re.sub(r'(\]\([^()\r\n]*)\)', r'\1 ', source)
+
+
 def clean(tok: str) -> str:
     tok = tok.strip()
     for pre in ("REPO/", "D:/Project/Designers_Brain/"):
@@ -282,6 +291,7 @@ def main() -> int:
         text_norm = text_norm.replace("$HOME/", "~/").replace("$HOME", "~")
         toks = set()
         for source in (text, text_norm):
+            source = path_scan_text(source)
             for m in TOKEN_RE.finditer(source):
                 toks.add(clean(m.group(0)))
             for m in TOKEN_RE2.finditer(source):
