@@ -86,3 +86,11 @@
 这些入口保留来源与证据边界；accepted执行记录不代表学习收益、E4或输出通道可用。
 
 <!-- DB-PUBLIC-KNOWLEDGE:END -->
+
+<!-- G5-CAPABILITIES:BEGIN -->
+
+## 能力边界
+
+- [当前 CAPABILITIES 矩阵](CAPABILITIES.md)：76 位画家、12 个本轮 motion、3 个历史项与7个 seed 的输出路线和证据边界。
+
+<!-- G5-CAPABILITIES:END -->
