@@ -76,7 +76,7 @@ Working...
                       ^
 error: No API key found for zenmux.
 
-Use /login, set an API key environment variable, or create C:\Users\dwgx1\.omp\agent\agent.db
+Use /login, set an API key environment variable, or create <private authentication store>.
       at #Qs (B:/~BUN/root/chunks/cli-ah31rv0s.js:46417:15)
       at async #io (B:/~BUN/root/chunks/cli-ah31rv0s.js:46163:26)
 
@@ -103,7 +103,7 @@ the model provider refused this request; retry later or change the request - req
 [4] MODEL_CHANGE: buddyfarm/deepseek-v4.1-flash  (role=fallback, resolvedModelIsFallback=true)
 [6] assistant ERROR(400): 400 图片生成模型不支持 tools
     图片生成模型不支持 tools (type=invalid_request_error param=upstream_error)
-    raw-http-request=C:\Users\dwgx1\.omp\logs\http-400-requests\1792056847020-ddf77s23lex1.json
+    raw-http-request=<private capture retained outside the public tree>
 [8] assistant TOOL eval: { Pillow 画圆脚本 }        ← 回退模型（deepseek）写的代码
 [10] toolResult: saved red_circle.png | 12399 bytes | verify: (512,512) center px (255,0,0)
 [11] assistant ERROR(403): 403 ... content policy ...

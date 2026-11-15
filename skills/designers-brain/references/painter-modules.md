@@ -1,6 +1,6 @@
 # 画家模块卡（指针）
 
-> 仓库根 `D:/Project/Designers_Brain`（REPO）；本文件只写「去哪读什么」，不复制内容。
+> REPO = the `repo` value returned by `python <skill-dir>/resolve_repo.py --json`; resolve the actual bundled skill directory, and stop if detached. This file contains pointers only; substantive content stays in the repository.
 
 - **索引（先读）**：`REPO/knowledge/domains/painters/modules/README.md` —— 76 卡清单 + 能力定位速查 + 组合前检查单。
 - **单卡 ×76**：`REPO/knowledge/domains/painters/modules/`（`README.md` 外 76 个卡文件；id：da_vinci / michelangelo / van_gogh / monet / picasso / cezanne / matisse / hokusai / caravaggio / vermeer / durer / turner / rembrandt / klimt / goya / seurat / hopper / bada_shanren / qi_baishi / ito_jakuchu / mucha / munch / kandinsky / velazquez / bosch / kahlo / behzad / huang_gongwang / friedrich / repin / ravi_varma / degas / gauguin / van_eyck / kngwarreye / hiroshige / sargent / piero_della_francesca / artemisia_gentileschi / namatjira / el_salahi / wu_guanzhong / fan_kuan / sesshu / constable / poussin / bruegel / el_greco / holbein / aivazovsky / okeeffe / rivera / zhao_mengfu / ni_zan / qiu_ying / ogata_korin / blake / chardin / manet / sorolla / zorn / sultan_mohammed / xu_beihong / li_keran / sher_gil / tarsila / chen_hongshou / xu_wei / hogarth / mir_sayyid_ali / de_chirico / rockwell / lin_fengmian / kitagawa_utamaro / lam / enwonwu）。

@@ -1,6 +1,6 @@
 # MG 风格卡（指针）
 
-> 仓库根 `D:/Project/Designers_Brain`（REPO）；本文件只写「去哪读什么」，不复制内容。
+> REPO = the `repo` value returned by `python <skill-dir>/resolve_repo.py --json`; resolve the actual bundled skill directory, and stop if detached. This file contains pointers only; substantive content stays in the repository.
 
 - **卡结构蒸馏**：`REPO/knowledge/domains/motion-graphics/cards/structure.md` —— 15 卡四段式骨架（任务头 / 画风段 / 内容段 / 反约束段）。
 - **管线手册**：`REPO/knowledge/domains/motion-graphics/cards/mg-styles-15_handbook.md` —— 逐文件实现细节（渲染 / 音频 / Blender / 评审）。

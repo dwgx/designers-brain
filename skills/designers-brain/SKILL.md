@@ -17,7 +17,7 @@ description: >
 # Designers_Brain 设计顾问
 
 > v0.2（2026-10-15；v0.1 初稿 + R1 并入 SkillEcosystem）｜落位：`<repo>/skills/designers-brain/SKILL.md`｜规格：`<repo>/docs/skill/skill_spec.md`
-> 仓库根 REPO 的**可移植定位**（2026-11-16 · G7-S2 sanitize：原稿硬编码开发机根目录，已改为运行时解析）：**REPO = 本 SKILL.md 所在目录的上两级**（`SKILL.md` 恒位于 `<repo>/skills/designers-brain/` 下，故 `REPO = dirname(dirname(SKILL.md))`）。解析失败（skill 被单独复制、脱离仓库）时**报错停用，不得回退到任何硬编码路径**。本 skill 不复制内容，只做路由与协议；一切细节读 REPO 原文件。（原开发机绝对路径仅作历史记录保留于 git 历史，不在本文件中出现。）
+> 仓库根 REPO 的可移植定位：运行本 skill 目录内的 `resolve_repo.py --json`，使用返回的 `repo`。等价路径关系为 `skill_dir = Path(<实际 SKILL.md 路径>).resolve().parent; REPO = skill_dir.parent.parent`。解析失败或脱离仓库时报错停用，不回退机器绝对路径。本 skill 只做路由与协议，具体内容从 REPO 读取。
 
 把 REPO 既有资产（76 画家模块卡 / 15 MG 卡 / 冲突清单 / 确定性契约）转成可执行的设计推荐：**先问 → 再选 → 后出稿**。
 

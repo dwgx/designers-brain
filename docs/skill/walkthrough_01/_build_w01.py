@@ -23,7 +23,7 @@ CARDS = os.path.join(REPO, "knowledge", "domains", "painters", "modules")
 PROMPTS = os.path.join(HERE, "prompts.json")
 
 MODEL = "grok-imagine-image-2.0"
-ENDPOINT = "http://192.168.11.4:3000/v1/images/generations"
+ENDPOINT = None  # Public metadata is redacted; the generator reads explicit runtime configuration.
 SIZE = "1024x1536"
 
 
@@ -192,6 +192,10 @@ def merge_write(jobs):
             },
             "jobs": [],
         }
+    # Normalize both existing and newly created public metadata.
+    doc["endpoint"] = None
+    doc["endpoint_disposition"] = 'Historical endpoint redacted from public metadata; new generation requires explicit IMAGE_GEN_ENDPOINT and IMAGE_GEN_API_KEY.'
+    doc["runtime_endpoint_env"] = "IMAGE_GEN_ENDPOINT"
     by_name = {j["name"]: j for j in doc.get("jobs", [])}
     for j in jobs:
         old = by_name.get(j["name"])
