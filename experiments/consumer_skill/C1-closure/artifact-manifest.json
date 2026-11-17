@@ -1,0 +1,258 @@
+{
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "created_at_utc": "2026-11-17T23:06:10.740389+00:00",
+  "files": [
+    {
+      "path": "A/01-focus-plan.json",
+      "bytes": 527,
+      "sha256": "fb77ed894fa37da79e734d427c7d07788caea1e1c7040fd8c883cc2f5392a11a"
+    },
+    {
+      "path": "A/01-focus-plan.svg",
+      "bytes": 604,
+      "sha256": "c84875952890d5397c7f16d9c65cbd642402ccd9497ba1e4b1397192fe2e237c"
+    },
+    {
+      "path": "A/02-sketch-spec.json",
+      "bytes": 3541,
+      "sha256": "7db116b3c8aa58f85eefe118a035fe5e2cc3dcb951233da9bc7b2dd62ad33dc0"
+    },
+    {
+      "path": "A/02-three-value-sketch.svg",
+      "bytes": 2507,
+      "sha256": "2d6888407a2b239fd9508610e5913996a2be6506973c590d9997ced9a9e41a5c"
+    },
+    {
+      "path": "A/READY.json",
+      "bytes": 725,
+      "sha256": "41215c41202eae35a89f674b4480c0bfcceb10eedbf4f54c39a73017c8fd829b"
+    },
+    {
+      "path": "A/artifact-validation.json",
+      "bytes": 493,
+      "sha256": "7913f01c8061183ccc060d891c1692d02b9612a1155a9eb658e0bcaaf2eac9c4"
+    },
+    {
+      "path": "A/build-stage-a.py",
+      "bytes": 20017,
+      "sha256": "f785be48bd4ed325e6808d9af0f28e97f1e0638118bc433029ed2bc5baddb0dd"
+    },
+    {
+      "path": "A/manifest.json",
+      "bytes": 2887,
+      "sha256": "71aca3c882baec41f95ab0ba4d318d53de55531afe1eab2765b22b3135a13f73"
+    },
+    {
+      "path": "A/public-read-1-command.py",
+      "bytes": 813,
+      "sha256": "5f1d4a481b3b843bdbcd33de010dc7e4d9ffdea5bb6f244ecbb6507b22785abb"
+    },
+    {
+      "path": "A/public-read-1-tool-result.json",
+      "bytes": 17611,
+      "sha256": "a0782d19969048c21bb320992c9a77093a474e013141d07d5403d1db57900488"
+    },
+    {
+      "path": "A/public-read-2-command.py",
+      "bytes": 1038,
+      "sha256": "7124638dea7d0cc9662671fb7acf1e1ed58fb807de6c719446e80a35277aaa70"
+    },
+    {
+      "path": "A/public-read-2-tool-result.json",
+      "bytes": 43090,
+      "sha256": "23f741a6ac5f705333c788786b69801487d66be9cd4245dd5042229f74bb9b83"
+    },
+    {
+      "path": "A/retrieval-log.md",
+      "bytes": 4384,
+      "sha256": "4ff79d3f52d553236160639c121e02e486ca7071018231dd1ec7163eddfeca91"
+    },
+    {
+      "path": "A/snapshot-verification-command.py",
+      "bytes": 3023,
+      "sha256": "1c42c57d4df3c8a05cf1010f097e0ea5fc448c1d904733f18c40e6c569be9435"
+    },
+    {
+      "path": "A/snapshot-verification-tool-result.json",
+      "bytes": 10314,
+      "sha256": "3dc7e18262b5089a37bc042c955373d121c41db8191c55b0c7b7c254647769a1"
+    },
+    {
+      "path": "A/source-read-ledger.json",
+      "bytes": 4508,
+      "sha256": "bec60b377d6ca63ef38a32687cd216e5e1e430b2b39555172ce896130e3a360b"
+    },
+    {
+      "path": "A/unaided-selection.json",
+      "bytes": 5119,
+      "sha256": "f5f189b7908817dac7e4f3aa798b1bb8d8d2b96c79130f507c7a1caf446cfa68"
+    },
+    {
+      "path": "B/A-render-log.json",
+      "bytes": 448,
+      "sha256": "cc8c2bcf3f44b5f7d58b59b681c29d58dcbfbc3c9c3c81997afee5459652f0c8"
+    },
+    {
+      "path": "B/A-render.png",
+      "bytes": 17193,
+      "sha256": "915b6e5d86268ef24b469f629e1b3aa4edee7c5e39d609e2ee7003f51142eae9"
+    },
+    {
+      "path": "B/B-render-log.json",
+      "bytes": 799,
+      "sha256": "40f0c87821c0a78c0d6f3abd5fcee89bdb4875d1e2673954b706f9c739189b3f"
+    },
+    {
+      "path": "B/B-render.png",
+      "bytes": 12538,
+      "sha256": "1d3bda2e3706ae417812a626db945280f23ee113205d9fd059100482ad5b05ce"
+    },
+    {
+      "path": "B/PRE-HOLDOUT-SEAL.json",
+      "bytes": 1084,
+      "sha256": "2a8a9c4560bdb3d705194e72b0410ce84c28a98c3a8c3638a70d8314364e9eec"
+    },
+    {
+      "path": "B/bad-outline.png",
+      "bytes": 18050,
+      "sha256": "d8a59979540f241ce6ea23a20a6e0cccce80517c1ebb7d203f3389ae797178a1"
+    },
+    {
+      "path": "B/bad-outline.svg",
+      "bytes": 2632,
+      "sha256": "24877272ac7b1ed1211a70699d4d2ec0059062bec253ffa53b7d8dbcf77d832c"
+    },
+    {
+      "path": "B/build-stage-b.py",
+      "bytes": 9453,
+      "sha256": "c23035dd773cd3e5462f89230fa2686ee0ae4356d8496b328deadc5b46ed33c1"
+    },
+    {
+      "path": "B/check-compositions.py",
+      "bytes": 4129,
+      "sha256": "7911f56fbaf9b63db0f6f8556d2fec91de1253a43cf6d36047a678ccb641c148"
+    },
+    {
+      "path": "B/measurement-plan.json",
+      "bytes": 2311,
+      "sha256": "5f6e6de4e6729dc973f12e96d846243fe3d36696be0f64916650b50fe92e8679"
+    },
+    {
+      "path": "B/measurement-results.json",
+      "bytes": 5456,
+      "sha256": "55a5f05bf16a773719871d47123ce214c477eb64bf1c9736b98920a1e9fee41e"
+    },
+    {
+      "path": "B/measurement-tool-output.json",
+      "bytes": 6081,
+      "sha256": "85f1e3e7570ec62387e3c42753c90c89f5c6924d9951d6695d61ad7148e7a0c4"
+    },
+    {
+      "path": "B/observation-and-scope.md",
+      "bytes": 6670,
+      "sha256": "ab3b59ef82373b075304da2ee3997a253c4116d08cb7ff765fd0308efb4923c0"
+    },
+    {
+      "path": "B/pre-holdout-observations.md",
+      "bytes": 1724,
+      "sha256": "db2bd281ecdab63742d208804c73de4b6145e601be178df835f379f0ed8e7ca5"
+    },
+    {
+      "path": "B/reference-LS-hash-command.py",
+      "bytes": 875,
+      "sha256": "23a45e73f5210048b7306d4c687251dbec394c6d0e819e7a24d1b27fa0d15a72"
+    },
+    {
+      "path": "B/reference-LS-hash-result.json",
+      "bytes": 866,
+      "sha256": "42f6849a2ee4f441031ce39329b72f9bfae4b7a8666abd56b686d808d4d13db2"
+    },
+    {
+      "path": "B/reference-LS-read-metadata.json",
+      "bytes": 460,
+      "sha256": "9bb4d009e242b5e2e53ad74a08ae16a7e38b24c164d5ea7ace47dccd2587853a"
+    },
+    {
+      "path": "B/reference-ML-VM-hash-command.py",
+      "bytes": 969,
+      "sha256": "426f8ead26c3a4c990efed76aa6ab30497cdd94a45b54ac434474847c06f3415"
+    },
+    {
+      "path": "B/reference-ML-VM-hash-result.json",
+      "bytes": 1080,
+      "sha256": "05364aeb71a357b4cece059d967e8ad43e1c60e3d16fedc26f9ea47c82a1b200"
+    },
+    {
+      "path": "B/reference-ML-VM-read-metadata.json",
+      "bytes": 1005,
+      "sha256": "762a7b572ca83e1ee4a0ac54ce1eea1afc9ba606805eac9f90566511ddac46c1"
+    },
+    {
+      "path": "B/renderer-unavailable-tool-output.json",
+      "bytes": 252,
+      "sha256": "ffad4374ac2ce27b59c5b8d2e39cdda29513e1ce65ff3a75986fe16c6596321b"
+    },
+    {
+      "path": "B/second-topic-spec.json",
+      "bytes": 2369,
+      "sha256": "e826b3c3e99835a71215854b2a19efd84b44b016c12dab19e1918fc926927e0f"
+    },
+    {
+      "path": "B/second-topic.svg",
+      "bytes": 2036,
+      "sha256": "ca3c94c450a784f530f23fcae1a5648430430c7949fb860baf66c5db38828175"
+    },
+    {
+      "path": "RESULT.md",
+      "bytes": 4674,
+      "sha256": "c5d193c542548413fb5ccb84263cb87f6e46beacac883b1443716ebfbf9871dd"
+    },
+    {
+      "path": "cue-envelope-check.json",
+      "bytes": 7131,
+      "sha256": "c0eb212a75e859776d40b3abe3b164863f24722eb50307033ab65f50eeb7ee46"
+    },
+    {
+      "path": "cue-gate-result.json",
+      "bytes": 928,
+      "sha256": "36e8b19049acafda50fed0d0d3134b35e86210f171b60adf8364956476875d96"
+    },
+    {
+      "path": "final-immutability-check.json",
+      "bytes": 468,
+      "sha256": "4cd0fbf4999b4aae676801a2a99ad6d21f22d6145b78e9b97c332f890e7ad9d9"
+    },
+    {
+      "path": "finalize-consumer.py",
+      "bytes": 5791,
+      "sha256": "67806d494be69599e7408cb5c05a264f3fe7ce2409cb3541141e820007c9b158"
+    },
+    {
+      "path": "snapshot-drift-command.py",
+      "bytes": 2606,
+      "sha256": "8416d7239289943e8dee2810d11f990597fa25ed85362a60bbca8e0f2ce11143"
+    },
+    {
+      "path": "snapshot-drift-tool-result.json",
+      "bytes": 2828,
+      "sha256": "8a09eae318527e5ec087315b5b98c6b22eefbbc680a64e80dff0b22b0e2bc866"
+    },
+    {
+      "path": "verify-cue-envelope.py",
+      "bytes": 3812,
+      "sha256": "832f8f494ea3bb83b7c1571d715911458f49990f7a9ef9fcc73c1cb59c3947a8"
+    },
+    {
+      "path": "verify-cue-final.py",
+      "bytes": 3285,
+      "sha256": "adf4c244cc348b47aecd0cbc6a84a00d2b069c32296a02212f73650a11c7e604"
+    }
+  ],
+  "excludes": [
+    "artifact-manifest.json",
+    "receipt.json"
+  ],
+  "note": "Includes immutable Stage A, Stage B artifacts and raw evidence, gate scripts/results, final result and final immutability verification. Reference image files remain in original Windows snapshot."
+}

@@ -1,0 +1,348 @@
+{
+  "browser": {
+    "raw_rel": "evidence/BROWSER-STRICT-12.raw.json",
+    "raw_sha256": "90b21b58c746de537036f8203acf83ea394c033c8ecc5926d3a28d86d2ee921e",
+    "rel": "evidence/BROWSER-STRICT.json",
+    "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7"
+  },
+  "cards": {
+    "02": {
+      "generation": "preserved-original-bytes",
+      "id": "02",
+      "mechanism": "metaball 融合/次级液滴延迟 2-3 帧 (流体融合)",
+      "media_rel": "media/MOTION-02.mp4",
+      "output_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+      "previous_output_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+      "previous_source_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+      "renderer_source_rel": "sources/MOTION-02/render.mjs",
+      "renderer_source_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+      "size_bytes": 2415292
+    },
+    "03": {
+      "font_rel": "evidence/MOTION-03/font-dependency.json",
+      "font_sha256": "c57ddeeea88acd425b169b5e2488aba363f71b25333ffde54566fbb2faabe072",
+      "generation": "native-1920x1080-current",
+      "id": "03",
+      "mechanism": "Fixed-angle isometric library; six books return to their shelves; visible three-sided books, bounded occlusion, actual CJK floor text and a continuous final pullback.",
+      "media_rel": "media/MOTION-03.mp4",
+      "output_sha256": "2a48c5564f950443a694413434b59cb4d957dca5e4e78fcaadb8f19dbfa1df34",
+      "previous_output_sha256": "e47d0ae332b8916143f902438c4b5babf936061baf42398024e3a0e57f0e84c3",
+      "previous_source_sha256": "d6493df994d176ccc2c60c321cabc273047ef4e6564360313ad6029216138289",
+      "renderer_source_rel": "sources/MOTION-03/render.py",
+      "renderer_source_sha256": "8497f7d577c4d2c73791de8311f34893db62756d655c99a1bc17237790dce162",
+      "run_rel": "evidence/MOTION-03/RUN.json",
+      "run_sha256": "4bd39e2755120f80d1865cf3f6a4a52c6c79aa1fdd3a8ddc6dd2e9f4f7fc848e",
+      "size_bytes": 3748786
+    },
+    "04": {
+      "font_rel": "evidence/MOTION-04/font-dependency.json",
+      "font_sha256": "8af47bfb9e809d54641d0f61a4e371595e11558d7f348193680915f4a8497175",
+      "generation": "native-1920x1080-current",
+      "id": "04",
+      "mechanism": "Synthwave midnight-radio title: striped sun, perspective grid, chrome CJK lettering, restrained scanlines and RGB separation.",
+      "media_rel": "media/MOTION-04.mp4",
+      "output_sha256": "7c2cb752f390629abf32ffdcfdeb133a7134473c75f4486c9bcd9f6844195d80",
+      "previous_output_sha256": "2ee12606fa60433348b1823b5370236389a2c734df69fa1d5120a4a19065fb52",
+      "previous_source_sha256": "ad87c3a756f85cc8dfdf2ba3affee5224c039bb276903a97b53511d9b7fb154e",
+      "renderer_source_rel": "sources/MOTION-04/render.js",
+      "renderer_source_sha256": "53670d3ac6fde7ca9fc22488ce39b78eb5d65f87d7e9bc36865f5026d04042a8",
+      "run_rel": "evidence/MOTION-04/RUN.json",
+      "run_sha256": "4e9aaf77b3ade38406aa2bb57c8cd6ad38fc75e4339454db2554ece496218dbe",
+      "size_bytes": 987236
+    },
+    "05": {
+      "font_rel": "evidence/MOTION-05/font-dependency.json",
+      "font_sha256": "6fc31c6c938799f98a4630a047beea85773bc0c3ac159761e5f53eaa0ef39718",
+      "generation": "native-1920x1080-current",
+      "id": "05",
+      "mechanism": "Connected outline morph: bulb → bubble → pencil → star, circle mediators, bounded squash/stretch and final hold.",
+      "media_rel": "media/MOTION-05.mp4",
+      "output_sha256": "ca7a6f7e0b3a11b8ac71de02e09015ff8be19c6dcaa75c6c656753c588745ae1",
+      "previous_output_sha256": "3d8914d101369cf9236f884b0941b934ce192c681f6052f849021e625410d95d",
+      "previous_source_sha256": "2706ae15ee60f0488e81dac9257dbcd3db016b8e53b7658341fed4ae0bd5f53e",
+      "renderer_source_rel": "sources/MOTION-05/render.js",
+      "renderer_source_sha256": "882d2505eff9c525fa74cf93cd93ccad15d6adbe6a10d02fce9759505ed707ca",
+      "run_rel": "evidence/MOTION-05/RUN.json",
+      "run_sha256": "eda9ca11ad6f3db17363dd4a43716688a3acd2e5d1823156509f7149bcffe150",
+      "size_bytes": 261139
+    },
+    "06": {
+      "font_rel": "evidence/MOTION-06/font-dependency.json",
+      "font_sha256": "838195732d3531d5fca0dfe5392f5d4e35ccc37cf6a457d84b019bebde4284f1",
+      "generation": "native-1920x1080-current",
+      "id": "06",
+      "mechanism": "Bauhaus grid composition: primary-colour geometry, mechanical beat-aligned movements and final poster hold.",
+      "media_rel": "media/MOTION-06.mp4",
+      "output_sha256": "d37d758a87c6fe064999519b92f45a3f85650e385414cfb64aaf54cb38ffd976",
+      "previous_output_sha256": "677d4186dabc1266bc515504d5c40f6f6553ccbf646c65bb1611dbc4b1fa5405",
+      "previous_source_sha256": "e8a4c1dc91523382a0eec6374f28b2fd611d931bfecaae4563c21be282fb03ca",
+      "renderer_source_rel": "sources/MOTION-06/render.js",
+      "renderer_source_sha256": "ec68f579afe1f7dbd588d8036b116865348bf50ebec23ec0d0ff01b815ad69ff",
+      "run_rel": "evidence/MOTION-06/RUN.json",
+      "run_sha256": "7b4256f12c08650618a24139c41f275699c8de74c0e30ac3c57e37489608e601",
+      "size_bytes": 82364
+    },
+    "07": {
+      "font_rel": "evidence/MOTION-07/font-dependency.json",
+      "font_sha256": "9b75692ee349bd51c3135d6575c48366cdf3726a9fedff3e126a6c3d6c569d10",
+      "generation": "native-1920x1080-current",
+      "id": "07",
+      "mechanism": "Science-fiction HUD linework: deterministic five-frame ticks and a whole-state cyan-to-orange change.",
+      "media_rel": "media/MOTION-07.mp4",
+      "output_sha256": "ef955281b1a5ef82c3cf97b6cfc74476552ac707038c03ed8b6f8c7b2d1b7e42",
+      "previous_output_sha256": "752224881f10c9f55ca4c5eea39b2685024decc66c85088f063edc1fed50b751",
+      "previous_source_sha256": "7f43ffef07f2d3d29335d82b5789978b4522d90d80fec478239c40ff8e1c4077",
+      "renderer_source_rel": "sources/MOTION-07/render.js",
+      "renderer_source_sha256": "8addb10cf26c18d0b4959b51c5bc1a96cbe614415d5f4b3feef8d4e2beb6f5f1",
+      "run_rel": "evidence/MOTION-07/RUN.json",
+      "run_sha256": "cea5b69478a2ea879f5e255de2ada17395a56ea8cdf50c2b346b8a2a8f5d6eb5",
+      "size_bytes": 197556
+    },
+    "09": {
+      "font_rel": "evidence/MOTION-09/font-dependency.json",
+      "font_sha256": "1b324f69100277b68c996ea9cc89a0875e97d4241261b720b0e7accab99c132a",
+      "generation": "native-1920x1080-current",
+      "id": "09",
+      "mechanism": "Glassmorphism over a moving blurred aurora light field; restrained highlights, native-resolution CJK text and final hold.",
+      "media_rel": "media/MOTION-09.mp4",
+      "output_sha256": "553e3335f20571a561800cbd8e208b26af945d2ee39e2e23743797d776bd5e57",
+      "previous_output_sha256": "aee1e1d19b76373037d3f72e627ba6346d811c9fd51205751a680a7cd4cf910f",
+      "previous_source_sha256": "8c4d4a07ac77d4b1dc6fc5cbaf2dcca2d9cb19e546cf2ddbeeb063d2f247eb8b",
+      "renderer_source_rel": "sources/MOTION-09/render.js",
+      "renderer_source_sha256": "dbff6af27a11ec3ad928fc7f633178ef06fb2453b115cda27d7c016773a010a0",
+      "run_rel": "evidence/MOTION-09/RUN.json",
+      "run_sha256": "1f6cde907c34e9dfa04e3146d5adb746caf07e1506a5d4e36eadac9ec7a63f55",
+      "size_bytes": 1678175
+    },
+    "10": {
+      "generation": "preserved-original-bytes",
+      "id": "10",
+      "mechanism": "2-4px 白描边/12fps ±2px 抖动/嘴巴替换帧 (剪纸拼贴)",
+      "media_rel": "media/MOTION-10.mp4",
+      "output_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+      "previous_output_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+      "previous_source_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+      "renderer_source_rel": "sources/MOTION-10/render.js",
+      "renderer_source_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+      "size_bytes": 7018073
+    },
+    "12": {
+      "generation": "preserved-original-bytes",
+      "id": "12",
+      "mechanism": "3-4 张微差线稿循环/一拍二 12fps/1 帧 smear (手绘 boil)",
+      "media_rel": "media/MOTION-12.mp4",
+      "output_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+      "previous_output_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+      "previous_source_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+      "renderer_source_rel": "sources/MOTION-12/render.py",
+      "renderer_source_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+      "size_bytes": 6406856
+    },
+    "13": {
+      "generation": "preserved-original-bytes",
+      "id": "13",
+      "mechanism": "stagger 2-4 帧/squash&stretch ~10% (矢量错帧)",
+      "media_rel": "media/MOTION-13.mp4",
+      "output_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+      "previous_output_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+      "previous_source_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+      "renderer_source_rel": "sources/MOTION-13/render.js",
+      "renderer_source_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+      "size_bytes": 1100809
+    },
+    "14": {
+      "font_rel": "evidence/MOTION-14/font-dependency.json",
+      "font_sha256": "f0d6ff519a268d2786547500381130559339340e5ed2d3be50c7166d55a6c350",
+      "generation": "native-1920x1080-current",
+      "id": "14",
+      "mechanism": "Water-distribution editorial animation using rounded USGS categories; continuous float camera with final pixel cropping.",
+      "media_rel": "media/MOTION-14.mp4",
+      "output_sha256": "763bd4a5d7e1cf986bf8d0d337ddb3f8e5e366a5d9bb9640e3dbb94ed52452a3",
+      "previous_output_sha256": "e8fc5d22e1810406b61191557925d0c2e68ec571cdca89ba5da78d34d28aca4a",
+      "previous_source_sha256": "88a26cf3a72ab47359ee22b1c06596dfbec0ec197a1630a8165959dbacf58d27",
+      "renderer_source_rel": "sources/MOTION-14/render.py",
+      "renderer_source_sha256": "9fe0628daaf02250b5f22b984101bde9a022dea1f39a675f87b6e7efb61e169d",
+      "run_rel": "evidence/MOTION-14/RUN.json",
+      "run_sha256": "61f036ebf93dd6e0fcf03e32b016ac95d4d2281446d6104ad5a8c47cd26f1692",
+      "size_bytes": 829835
+    },
+    "15": {
+      "generation": "preserved-original-bytes",
+      "id": "15",
+      "mechanism": "pop 0→1.15→1.0 ~8 帧/2-frame stagger (花字弹跳)",
+      "media_rel": "media/MOTION-15.mp4",
+      "output_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+      "previous_output_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+      "previous_source_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+      "renderer_source_rel": "sources/MOTION-15/render.py",
+      "renderer_source_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+      "size_bytes": 2836649
+    }
+  },
+  "data_sources": {
+    "evidence/MOTION-14/DATA-SOURCE.json": "4259a199cb8e47e462a881285d074b189ebb97a2e3e3562bc8bcf7d15a7dee65"
+  },
+  "gallery": {
+    "02": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-02-contact.jpg",
+      "sha256": "f72ab76d8bcf359abd11d5ac21e4b088cc31418fdc79181b5510791d987b075c",
+      "source_mp4_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6"
+    },
+    "03": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-03-contact.jpg",
+      "sha256": "3198d65445ef2522dbc96936d848165ff962f72e24ca66d8e90e9515fe3f178c",
+      "source_mp4_sha256": "2a48c5564f950443a694413434b59cb4d957dca5e4e78fcaadb8f19dbfa1df34"
+    },
+    "04": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-04-contact.jpg",
+      "sha256": "8ba961af3827974cb5a0c4387867c0c345aa0056a5545e21a40e2f728672c84f",
+      "source_mp4_sha256": "7c2cb752f390629abf32ffdcfdeb133a7134473c75f4486c9bcd9f6844195d80"
+    },
+    "05": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-05-contact.jpg",
+      "sha256": "1680a594bdba41a127b17522dc33221b3619b2d7b1b25dcec0c66b24ca9e8732",
+      "source_mp4_sha256": "ca7a6f7e0b3a11b8ac71de02e09015ff8be19c6dcaa75c6c656753c588745ae1"
+    },
+    "06": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-06-contact.jpg",
+      "sha256": "dc9b1ec4666607dfdd1ad0e35f011c7f008044dcde54e40f8aa60558f39865fc",
+      "source_mp4_sha256": "d37d758a87c6fe064999519b92f45a3f85650e385414cfb64aaf54cb38ffd976"
+    },
+    "07": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-07-contact.jpg",
+      "sha256": "3dce81fb81877dad4a46a8eb6dda828892195169125cbf370f1ec5c4fbeca2f0",
+      "source_mp4_sha256": "ef955281b1a5ef82c3cf97b6cfc74476552ac707038c03ed8b6f8c7b2d1b7e42"
+    },
+    "09": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-09-contact.jpg",
+      "sha256": "0d667bfa143c2f99124219ed1f63f3e005670f172352b985263eb31079ce473e",
+      "source_mp4_sha256": "553e3335f20571a561800cbd8e208b26af945d2ee39e2e23743797d776bd5e57"
+    },
+    "10": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-10-contact.jpg",
+      "sha256": "cd6739b739e26eac49138f0652f9eb797f7aa578fcfc37d316f1346574cb1195",
+      "source_mp4_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc"
+    },
+    "12": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-12-contact.jpg",
+      "sha256": "d065638baddde51fe6bca374d6c7dbbfb1b5b0711f9d84b1d335fcfb5e723686",
+      "source_mp4_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98"
+    },
+    "13": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-13-contact.jpg",
+      "sha256": "4534a383e72d70b5c088088bd29ee1b5c26b6cd7bd20b0663454b58a486ce4d3",
+      "source_mp4_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046"
+    },
+    "14": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-14-contact.jpg",
+      "sha256": "2b5dd8b705727bbf28a9386444df6952710ad6f1d4935fbd8ca53be41fa3bca6",
+      "source_mp4_sha256": "763bd4a5d7e1cf986bf8d0d337ddb3f8e5e366a5d9bb9640e3dbb94ed52452a3"
+    },
+    "15": {
+      "decoded_frame_indices": [
+        0,
+        120,
+        233,
+        299
+      ],
+      "layout": "2x2, 480x270 per frame",
+      "rel": "gallery/MOTION-15-contact.jpg",
+      "sha256": "13ddcd0708c0ad23f9c52279317c57185af55ce1947a19e23942814f7796cb00",
+      "source_mp4_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461"
+    }
+  },
+  "helpers": {
+    "sources/cjk_text.js": "33b62f31b684405b2588554f81ef93215aa59cdc335fad0ee7a50238615b0053",
+    "sources/cjk_text.py": "afe9b78ef1b66a9429a0b4671c7d7d7c1cf936570b6e4498ecab005e2c166cf1"
+  },
+  "release_pins_sha256": "08197a51b14034ec1544b8943f3273c97ca86ea32d27f28484f72038e94db627",
+  "schema": "motion-closure-manifest@2.0.0",
+  "spec": {
+    "codec": "h264",
+    "duration_sec": 10,
+    "fps": 30,
+    "frames": 300,
+    "pixel_format": "yuv420p",
+    "resolution": [
+      1920,
+      1080
+    ]
+  }
+}

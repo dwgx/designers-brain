@@ -1,0 +1,6 @@
+C2 Stage B check runner
+argv: check_runner.py --input-dir cases/missing --out runs_fresh_20261118/missing.out.txt
+input_dir: ROOT\candidate\experiments\consumer_skill\C2\stage-B\cases\missing
+observed_at_utc: 2026-11-17T21:42:29.762657+00:00
+ERROR: FileNotFoundError: missing required input file: cases/missing\layout.json
+FAIL (input impossible to evaluate; no silent pass)

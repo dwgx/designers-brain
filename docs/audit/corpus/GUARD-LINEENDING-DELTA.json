@@ -1,0 +1,18 @@
+{
+  "at_utc": "2026-11-17T23:28:26.685920+00:00",
+  "scope": "Only the prior matrix before guard rebased to exact e0 Git LF bytes; all 11 reviewed after bytes unchanged. No source guard bypass.",
+  "path": "knowledge/domains/painters/learning/COVERAGE-MATRIX.md",
+  "original_before": {
+    "path": "knowledge/domains/painters/learning/COVERAGE-MATRIX.md",
+    "before_sha256": "01791acf9acc2c75f5eec55232f8608b19d3e22ef73c2687649cf36c6c9c8f8b",
+    "before_bytes": 24368,
+    "after_sha256": "a0766724ea587561be273bb2855c07fd107f78bd112091b295c505c054a4a2b1",
+    "after_bytes": 36635,
+    "operation": "replace_guarded"
+  },
+  "actual_before_sha256": "f601dcbb72935e6319e3805e39096e2a4761746b3392a4a81970521098f6130d",
+  "actual_before_bytes": 24267,
+  "CRLF_removed": 101,
+  "original_manifest_sha256": "99cf6fe3fb6a4b3b9a1bcf908d135f238af3980103109d57d73b56531720145c",
+  "integration_manifest_sha256": "4882dd2d59021f9df531dab408de5f9185785f9ed206778a08bd288168958f5f"
+}

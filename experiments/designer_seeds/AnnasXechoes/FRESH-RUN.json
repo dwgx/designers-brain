@@ -1,0 +1,110 @@
+{
+  "schema": "seed-fresh-run-1.0",
+  "ran_at_utc": "2026-11-17T22:08:43.031669+00:00",
+  "environment": {
+    "python": "3.14.7",
+    "pillow": "12.3.0",
+    "system": "Windows"
+  },
+  "command": [
+    "python",
+    "-B",
+    "build.py",
+    "outputs"
+  ],
+  "cwd": "prototype",
+  "exit_code": 0,
+  "source_and_outputs": [
+    {
+      "path": "prototype/build.py",
+      "bytes": 15897,
+      "sha256": "d7f9587d6fba7348ef9a6ea66027e557b5dc9bd1f3d4f9b599eefc0a09a2f73a"
+    },
+    {
+      "path": "prototype/config.json",
+      "bytes": 4083,
+      "sha256": "8605fc2f18026a113ba9dcfc61fb3655316d773b91451f298919189c768188c3"
+    },
+    {
+      "path": "prototype/outputs/checks.json",
+      "bytes": 3015,
+      "sha256": "3920eb492c98ca51f9f4b1bc1fa48454957d840704e38f2568ea85a309d024ea"
+    },
+    {
+      "path": "prototype/outputs/negatives/N1_wrong_mask.png",
+      "bytes": 3163,
+      "sha256": "97e2daa4166692a0c10d23c52049eb81661f649b70b3c0bf58651a639cbb348e"
+    },
+    {
+      "path": "prototype/outputs/negatives/N2_role_field_claim.json",
+      "bytes": 160,
+      "sha256": "0a449ba5cc69b62a78d99326cacdd121c2ea224159d2ceb4bd5bc941846b2d20"
+    },
+    {
+      "path": "prototype/outputs/negatives/N2_role_field_only.png",
+      "bytes": 2611,
+      "sha256": "4647f82b10ea4d5f690e227d6357141bdd38519aa156057c93d1bafd1d602364"
+    },
+    {
+      "path": "prototype/outputs/part_masks.png",
+      "bytes": 960,
+      "sha256": "1a6b16952e681815b821cf77e9ea4515b8be3edd9616f56764c2a49c2b230ced"
+    },
+    {
+      "path": "prototype/outputs/prediction_only.md",
+      "bytes": 476,
+      "sha256": "a345da01034af22f30391419bfea647d22078df2424e75c0a8c33fa35fd34da8"
+    },
+    {
+      "path": "prototype/outputs/v1_G0_S0.png",
+      "bytes": 2611,
+      "sha256": "4647f82b10ea4d5f690e227d6357141bdd38519aa156057c93d1bafd1d602364"
+    },
+    {
+      "path": "prototype/outputs/v1_G0_S1.png",
+      "bytes": 3194,
+      "sha256": "c11d93df876594c02476e6784cadac0deb67eb77334576340f08506551935f30"
+    },
+    {
+      "path": "prototype/outputs/v1_G1_S0.png",
+      "bytes": 2886,
+      "sha256": "777c64b424ebf7dee9925c2accb371201f6c903e63fea1ec2a9e7f993c799317"
+    },
+    {
+      "path": "prototype/outputs/v1_G1_S1.png",
+      "bytes": 3500,
+      "sha256": "6a4c67d9608afa7db6b1b8fb86ba1b9257550c2b82bc4918e2df6c412c1874b3"
+    },
+    {
+      "path": "prototype/outputs/v2_baseline.png",
+      "bytes": 2314,
+      "sha256": "993d0efb821ebc6b60daed6f2ed86233f7d0310e79211cb0c2d2038bfa86856b"
+    },
+    {
+      "path": "prototype/outputs/v2_full.png",
+      "bytes": 3149,
+      "sha256": "91bdea7f38c8cde1506e57e0c089e079683b0c3e1c98533b080798a6fb8e3ec0"
+    }
+  ],
+  "actual_checks_summary": {
+    "positive_checks": [
+      "Q1_six_stimuli_and_fixed_composition",
+      "Q2_outside_mask_diff_zero",
+      "Q3_geometry_separately_localizable",
+      "Q4_surface_separately_localizable",
+      "Q5_vessel2_transfer_stimulus"
+    ],
+    "negative_controls": [
+      "N1_wrong_mask_DETECTED",
+      "N2_role_field_only_DETECTED"
+    ],
+    "image_count": 6,
+    "image_cap": 6,
+    "all_positive_pass": true,
+    "all_negative_controls_detected": true,
+    "verifier_reads_real_png_bytes": true
+  },
+  "evidence_level_unchanged": "E1",
+  "not_human_review": true,
+  "source_review": "Root read original build/config, ran independent cloud reproduction; this is an additional actual relocated Windows run. No original files overwritten."
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+  <title>Seed-bank inspection bench — three-value composition</title>
+  <desc>Original text-assisted composition. The intended center is the lit rim of an open cloth sample bag at 573,317. No pixel reference was viewed. The three opaque grey fills are value masses, not a completed sfumato rendering.</desc>
+  <metadata>{"case":"C1","attempt":"C1-CLOSURE-20261118-001","focus":[573,317],"palette":["#404040","#888888","#d0d0d0"]}</metadata>
+  <rect id="middle-field" width="960" height="640" fill="#888888"/>
+  <path id="left-room-shadow" d="M0 0H95V280Q76 309 0 335Z" fill="#404040"/>
+  <path id="rear-shelf-shadow" d="M96 271H276L300 286H177L141 297H96Z" fill="#404040"/>
+  <path id="left-container-shadow" d="M168 212H183V270H168Z" fill="#404040"/>
+  <path id="container-cap-fragment" d="M212 216H244L251 225H212Z" fill="#404040"/>
+  <path id="rear-container-hidden-body" d="M312 224Q344 210 374 224V287H312Z" fill="#888888"/>
+  <path id="far-shelf-merged" d="M688 245H860V270H688Z" fill="#888888"/>
+  <path id="table-front-shadow" d="M0 535L317 568L701 541L960 467V640H0Z" fill="#404040"/>
+  <path id="inspection-surface" d="M0 381L231 309L960 349V467L701 541L317 568L0 535Z" fill="#888888"/>
+  <path id="broad-bag-shadow" d="M466 355Q484 317 540 314L645 348Q690 403 658 449L610 495Q548 508 482 472L444 433Z" fill="#404040"/>
+  <path id="bag-shadow-side-lost-edge" d="M594 345Q650 360 672 412Q682 455 631 493L589 492Q618 458 614 426L584 395Z" fill="#888888"/>
+  <path id="bag-middle-plane" d="M480 350Q480 324 523 319L604 352L601 416Q598 462 557 479L492 466Q465 436 462 402Z" fill="#888888"/>
+  <path id="bag-lit-fold" d="M481 347Q488 324 518 318L535 343L521 399Q517 432 494 448L478 422Q469 390 481 347Z" fill="#d0d0d0"/>
+  <path id="open-bag-mouth" d="M491 315Q513 278 566 282Q616 284 644 320Q619 347 569 351Q523 348 491 315Z" fill="#404040"/>
+  <path id="lit-opening-rim" d="M488 313Q504 278 552 276Q605 270 641 306L625 311Q593 289 557 293Q520 294 507 320Z" fill="#d0d0d0"/>
+  <path id="rim-front-fold" d="M507 320Q547 341 599 331L625 311L637 324Q614 351 571 357Q527 353 498 335Z" fill="#888888"/>
+  <path id="small-lit-rim-return" d="M507 320L524 328L517 344L498 335Z" fill="#d0d0d0"/>
+  <path id="foreground-cloth-dark-fold" d="M282 458L382 439L449 457L385 473L320 474Z" fill="#404040"/>
+  <path id="foreground-cloth-merged-plane" d="M281 442L358 416L431 436L399 451L349 451L304 467Z" fill="#888888"/>
+<path id="deliberately-restored-forbidden-edge" d="M672 412 Q682 455 631 493" fill="none" stroke="#404040" stroke-width="6"/></svg>

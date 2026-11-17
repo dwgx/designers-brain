@@ -1,0 +1,22 @@
+{
+  "native_cards": [
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "09",
+    "14"
+  ],
+  "note": "Seven current native-resolution sources and final Windows H.264 encodes. Five original MP4/source pairs preserved byte-for-byte. See history/e0cfe964 for superseded scale-wrapper implementation and old media/source pins. No font, PNG sequence, binary tool, private path, audio audit or fabricated human score is included.",
+  "preserved_cards": [
+    "02",
+    "10",
+    "12",
+    "13",
+    "15"
+  ],
+  "previous_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "release_pins_sha256": "08197a51b14034ec1544b8943f3273c97ca86ea32d27f28484f72038e94db627",
+  "schema": "motion-public-provenance@2.0.0"
+}

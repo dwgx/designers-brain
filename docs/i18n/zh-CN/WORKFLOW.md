@@ -12,18 +12,18 @@ Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
 
 - **主脑**（顶层 agent 会话）：定方向、切分工作、派发、验收（读产物 + 跑验收条件）、综合汇总，并维护 `ops/GOALS.md`、本文件与 `docs/`。
 - **研究工人**（会话内子代理）：只写入各自任务书中给定的**专属路径**。有名字（`agent://<Name>`）；可以互相发消息交叉核对。仅当任务书明确允许时，才可再派只读的子代理。
-- **跨 harness 工人**（`dispatch.ps1` —— claude / codex / omp）：体量大、耗时长的进程外工作。流程：`board.py open`（占用写路径）→ 任务书通过 `briefcheck` → 派发 → 读 `last.md` + 核验产物 → `board.py close --verify`。
+- **跨 harness 工人**（进程外、**版本化 job 目录**——历史上的 `dispatch.ps1` + `board.py` 流程已退役）：任务书放进版本化 job 目录；工人 plan → execute → verify → report，全部经文件（`last.md` + `receipt.json`）交付；每条主张都带 path+key 或产生它的命令。进程内工作用下面的具名子代理。
 
 ## 2. 车道
 
 | 车道 | 内容 | 状态 |
 |---|---|---|
-| **A —— 画家蒸馏** | 62 份画家档案 + 引文语料库（1613 条带来源引文）+ 图像库 + 62 张可组合模块卡 | 核心已完成；第二批候选已入队 |
+| **A —— 画家蒸馏** | 76 份画家档案 + 引文语料库（2044 条带来源引文）+ 图像库（739 件带来源作品）+ 76 张可组合模块卡（228/228 逐字校验） | 已完成 |
 | **B —— Agent 代码艺术** | 15 卡结构剖析（MG 风格）、HTML/Blender 管线、提示词语料、GitHub / Opus-5.5 证据 | 已完成 |
 | **C —— 跨 harness 派发** | 为外部工人做切片、记账与回执对账 | 全部条目已收口 |
-| **D —— 网络 / 浏览器** | 来源、图像库（618 件公有领域作品）、参考帧映射、视频归档 | 已完成 |
+| **D —— 网络 / 浏览器** | 来源、图像库（739 件带来源作品——701 件 PD/CC0 + 38 件需署名，见 `NOTICE.md`）、参考帧映射、视频归档 | 已完成 |
 | **S —— skill（技能包）** | `skills/designers-brain/` 建包：生态调研 → 规格 → 构建 → 盲测 → 走查 | 已完成（PRE 里程碑） |
-| **E —— 实验**（跨车道） | 图像实验（E1/E2 系列）+ 端到端动画测试（网页 ×2、Blender ×1） | 第 1 批已完成；E3/E4 已入队 |
+| **E —— 实验**（跨车道） | 图像实验（E1/E2 系列）+ 端到端动画测试（网页 ×2、Blender ×1） | 第 1 批已完成；E3/E4 因图像通道（历史 503）受阻，待恢复后续跑 |
 
 ## 3. LOOP 协议（每条研究线都跑这个循环）
 
@@ -53,9 +53,8 @@ Translation baseline: README/docs as of 2026-10-15 (commit 534924e+)
 | `web_search` / `read`(URL) | 通用检索与静态抓取 |
 | eval `browser` / chrome-devtools MCP | 重 JS 页面、交互、截图 |
 | `task` 子代理 | 进程内研究扇出（有名字、可用 IRC 寻址） |
-| `dispatch.ps1` | 跨 harness 派发（claude / codex / omp），派发板 + briefcheck 两道关卡 |
+| 版本化 job 目录（跨进程） | 进程外派发：任务书进 → `last.md` + `receipt.json` 出（退役的 `dispatch.ps1` + `board.py` 派发板流程已成为历史——记录在 `ops/OPS-LOG.md`） |
 | `sessq` / `archive` | 历史会话与旧测量 |
-| `board.py` | 派发记账（open / close / reconcile） |
 
 ## 7. 汇报格式（面向 Owner）
 

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-card="C1_no_label" data-decorative="0" data-array-hash16="fa7e00f7c325d3cb" data-mean="14.0000">
+  <rect x="0" y="0" width="512" height="384" fill="#f6f6f4" data-role="background" />
+  <g data-role="text-layer" />
+  <rect x="40" y="250" width="432" height="110" fill="none" stroke="#3c3e40" stroke-width="2" data-role="label-frame" />
+</svg>

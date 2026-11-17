@@ -20,13 +20,13 @@
 
 - **必读**：[behzad.md](../../dossiers/behzad.md) §0 元信息、§1 视觉指纹（11 条）、§4 六控制参数、§8.2 8 条可判定规则（`L201–212`）。
 - **卡片**：[behzad.md](../../modules/behzad.md)（压缩卡，§4/§8.1/§8.2 抽取一致）。
-- **语料**：[behzad.md](../../dossiers/_corpus/behzad.md)（引文逐条带回源；`[自述]` / `[reported speech]` 分级照用）。
+- **语料**：[behzad.md](../../dossiers/_corpus/behzad.md)（引文逐条带回源；`[inscription]` / `[contemporary record]` / `[later record]` 分级照用；本档案无 `[自述]`、无 `[self-written]` 条目）。
 - **诚实前提**：§4/§8.2 数值为 `[归纳]`、未像素实测（分母＝假想参考帧）；本片 `[推测]`=0。
 
 <a id="db-source-line-21"></a>
 ## 2. 重点作品及来源（沿用 AUDIT 逐行记录）
 
-- （见 dossier §0「关键作品」逐条带馆藏与 URL）
+- 重点作品 5 件（沿用 dossier §0）：《优素福逃避祖莱哈》（开罗 Dār al-Kutub Adab Farsi 908，1488）· 《霍拉纳克宫的建造》（BL Or. 6810 f.154v）· 《亚历山大与隐士》（Or. 6810 f.273r）· 《两只骆驼相斗》（德黑兰古列斯坦 Golshan 画册）· 《舞僧》（Met 17.81.4，归属两说）——馆藏与来源逐条见 dossier §0。
 
 > 权利信息沿用现有记录，本片不逐站复核许可页（`image_seen=0`, `read_scope=metadata`）。
 

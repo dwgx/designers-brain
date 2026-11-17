@@ -469,7 +469,7 @@ ebcc36eb6709254944e84860cb3d8190ad5d62c817586f337b0d833183b866c5  snow_storm_ste
 （3）回归：`python knowledge/domains/painters/modules/_extract.py --check` → `checks=33 ok=33 fail=0`（既有 11 卡未受影响；turner 卡待合并批次扩 ARTISTS）。
 
 **D 小结（≤14 行）**
-1. 已确立：三处落盘——dossier（345 行 / 44.2 KB）+ 语料（19 条 / 19.4 KB）+ 图库（5 张 / 2.7 MB，长边 ≤1800px，全部 PD）。
+1. 已确立：三处落盘——dossier（345 行 / 44.2 KB）+ 语料（19 条 / 19.4 KB）+ 图库（**6 张**：5 PD + 1 CC BY 3.0〔norham_castle_sunrise，摄影 Sailko，需署名〕，长边 ≤1800px；详见 `_images/turner/MANIFEST.md` 与仓库 `NOTICE.md`）。（2026-11-18 收口核验：原「5 张全部 PD」为过时口径。）
 2. 已确立：§8.1/§8.2/§4 与 monet.md 同构，可被 `_extract.py` 抽取函数直接抽取（见 C）。
 3. 已确立：分工条款写死于 §3（复读并引用 `monet.md` §3 原文；与 `expansion.md` §1.4/X1 的 40% 结论一致）。
 4. 已确立：5 条核心引文双源或权威单源（绑桅 / forte / soapsuds / blacker / fired a gun）；Ruskin 两条大引文逐字核对 Gutenberg 原文。

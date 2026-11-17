@@ -1,0 +1,76 @@
+{
+  "prototype": "SEED-EXPERIMENT-xchylerdrenth/prototype-s12",
+  "phase": "S12-B",
+  "author_actor_id": "SeedDepsB",
+  "status": "submitted",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · pending_human reserved]",
+  "declared_before_run": true,
+  "notes": "PRE-RUN frozen config. Fixed 8-node/10-edge DAG; projection/decoration/occlusion separated. Engineering operationalisation, NOT author algorithm. No author/Bem images copied; no network; no RNG.",
+  "canvas": {"W": 512, "H": 384, "background_rgb": [244, 244, 241]},
+  "dag": {
+    "V": ["a", "b", "c", "d", "e", "f", "g", "h"],
+    "E": [["a","c"],["b","c"],["c","d"],["c","e"],["d","f"],["e","f"],["e","g"],["f","h"],["g","h"],["c","g"]],
+    "edge_count": 10,
+    "note": "canonical structure edge set; verifier reads ACTUAL output SVG <path data-role=structure-edge>, NOT this input G."
+  },
+  "flat_node_coords_px": {
+    "a": [60, 90], "b": [60, 290], "c": [175, 190], "d": [300, 90],
+    "e": [300, 290], "f": [410, 190], "g": [300, 190], "h": [475, 190]
+  },
+  "projection": {
+    "flat": "identity",
+    "perspective": "toward-VP projective shrink k=0.8 (one bounded one-point operationalisation); node topology unchanged",
+    "VP_px": [256, 70], "k": 0.8
+  },
+  "depth_lines": {
+    "role": "depth-line",
+    "count": 6,
+    "Ai": "bottom points (30+i*90, 372) for i=0..5",
+    "Bi": "Ai + (VP - Ai)*0.78 (distinct per line, all extended lines pass through VP)",
+    "note": "VP/残差 measured ONLY on these originally-parallel depth lines; NEVER on arbitrary structure edges. Flat config has NONE -> VP N/A."
+  },
+  "occlusion_cards_px": {
+    "back": [30, 250, 150, 340], "front": [100, 290, 220, 380],
+    "overlap": [100, 290, 150, 340],
+    "back_rgb": [100, 140, 180], "front_rgb": [210, 120, 60],
+    "correct_z": "card-front painted AFTER card-back -> FRONT covers overlap in real PNG",
+    "note": "z-order judged from ACTUAL PNG overlap pixels, not a z-order field."
+  },
+  "decoration": {"densities": [0, 18, 40], "role": "deco", "self_drawn": true},
+  "code_texture": {"on": true, "role": "code-texture", "self_authored_json_snippet": true,
+                    "note": "a tiny self-authored JSON glyph patch; on/off must NOT change structure edges."},
+  "configs_5": [
+    "flat_base (flat, deco0, codeOFF)",
+    "persp_base (perspective, deco0, codeOFF, depth-lines ON)",
+    "persp_d18 (perspective, deco18, codeOFF)",
+    "persp_code (perspective, deco0, codeON)",
+    "persp_d40 (perspective, deco40 EXCESS boundary, codeOFF)"
+  ],
+  "single_fault_cases_3": [
+    "F_pseudo_edge: add a decoration-dot->node fake structure-edge path (topology fault)",
+    "F_bad_VP: shift ONE depth-line endpoint so lines no longer concur (VP fault)",
+    "F_wrong_z: swap card-front/card-back draw order (occlusion fault)"
+  ],
+  "image_cap": 8,
+  "thresholds": {
+    "vp_residual_max_px": 2.0,
+    "occlusion_front_pixel_min_ratio": 0.9,
+    "occlusion_back_pixel_max_ratio_when_correct": 0.1
+  },
+  "intended_checks": [
+    "T1: structure edges read from ACTUAL output SVG paths == canonical 10 for all 5 configs (code/dot switches do NOT change structure set)",
+    "T2: VP measured ONLY on depth-parallel lines: flat -> N/A; perspective configs residual < threshold; using structure edges as VP lines is explicitly rejected as WRONG",
+    "T3: occlusion judged from ACTUAL PNG overlap pixels: all 5 configs show FRONT covering overlap (correct z)",
+    "T4 must-fail: pseudo-edge parsed edge set != canonical -> topology check DETECTS",
+    "T5 must-fail: bad-VP depth-line residual > threshold -> VP check DETECTS",
+    "T6 must-fail: wrong-z overlap shows BACK covering -> occlusion check DETECTS",
+    "T7: positive configs not all rejected (5/5 pass their applicable checks)"
+  ],
+  "negative_controls_are_real_files": true,
+  "rights_and_honesty": [
+    "Personal site / workshop give identity only; no reproducible author algorithm. HEX case has multiple co-credits -> no single-author attribution. Bem images are research reference only, NOT republished.",
+    "Flat grid VP = N/A; unified one-point perspective for the whole series is NOT claimed. Local white dots are NOT auto-counted as workflow nodes.",
+    "Verifier proves LOCAL structure constraints only; NOT that a reader reads the workflow, NOT aesthetic value of code texture. SVG is primary; PNG is Pillow-rasterised same geometry (no browser/WebGL claimed).",
+    "Local prototype != parent E2/E3 success; seed stays E1; no promotion. No prewritten passed:true; failed checks recorded as failed."
+  ]
+}

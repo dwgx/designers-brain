@@ -21,7 +21,7 @@
 | §G 等级纪律 / 失败条件 / 反例（C-GRADE-* / C-FAIL-*） | 8 |
 | **claims_total** | **53** |
 
-按 support_status：`supported` 45 / `partial` 6（C-ZORN-* 系列 + C-DEP-02 的 upstream partial 携带）/ `not_applicable` 2（练习建议）。无 `unverified`/`conflict` 硬升级；2 次 HTTP 429 与 `image_seen=0` 记为诚实 partial/unknown，不推翻 dossier §9 的 2026-10-16 本机实测。
+按正文 53 个 `C-*` 条目逐条重数（2026-11-18 文本计数更正）：`supported` **39** / `partial` **9** / `not_applicable` **5**。这是历史条目标签的准确汇总，不重新裁决任何 claim；原摘要 45/6/2 未与正文对应。Zorn 条目的旧标签属于旧时点，其现行处置按本文件 F20-B 收口注记；2 次 HTTP 429 与 `image_seen=0` 也不升级为新回访/新看图。
 
 ---
 
@@ -97,6 +97,8 @@
 
 <a id="db-source-line-92"></a>
 ## §C brief 强调② — Zorn 收口 pending NOT closed（open，不收口）
+
+> **2026-11-18 收口核验**：本节为收口前状态记录——dossier §4 L124、module L66/L72/L74、zorn dossier §3.1 L81 已于 2026-11-16 按 F20-B 收口（对齐完成）。C-ZORN-05/06 的「pending NOT closed」判定已过时；行保留不删。
 
 - **C-ZORN-01** `[归纳]` `supported` — 四轴内容已同名对齐（可比较、可用）
   - locator: `dossiers/sargent.md:L94-L100`（§3.1 第三写死条款：色板宽度/炫技位置/题材·社会装置/光，`L95-L100`）；`dossiers/zorn.md:L81`（§3.1 第一写死条款，`L82-L87`）；`modules/zorn.md:L74`
@@ -216,7 +218,7 @@
 
 ---
 
-> 完整 `source_refs`（含 `retrieved_bytes_sha256` / `read_scope` / `access_status` / `version`）见 `receipt.json` `claims[]`；本文件 53 行与 receipt 的精简 claims 一一对应（receipt 只登记代表性 claim，不逐行复刻）。所有 locator 为 `nl -ba` 实测行号 + 子串；AUDIT 产物以其 hash 固定（`RESULT.md`=`816d346b…1731c` 等），本 lane 不改写。
+> 源 receipt 的代表性 `claims[]` 与其公共投影 `source-claims.json` 含 **10** 个 claim；本文列 **53** 个细分条目，二者不是一一对应。细分条目保留各自 locator/basis；代表性 source_refs 的 `retrieved_bytes_sha256` / `read_scope` / `access_status` / `version` 见 `source-claims.json`，原 receipt 由维护者归档。原 locator 属源版本，不能自动证明当前文件同一行号仍命中；本轮未回写旧 AUDIT 或旧 receipt。
 
 ## 同一条目的附页
 

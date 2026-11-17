@@ -11,7 +11,6 @@
 ## 统计
 
 - claims_total = **46**（LP 16 + HT 9 + MN 21）
-- per-support: supported = 33, partial = 2, not_applicable = 11 → 合计 46 ✓
 - 计数口径：每行一条，分母 = 本表 46 行；不把 AUDIT 的 78 行混入本 LEARN 分母。
 - 全部 locator 为冻结头实测行号 / AUDIT ACCEPTED 文件内定位；本 LEARN 不新增外部 URL、不重跑 `_extract.py`。
 - per-support: supported = 42, partial = 2, not_applicable = 2 → 合计 46 ✓

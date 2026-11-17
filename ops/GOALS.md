@@ -203,6 +203,26 @@
 | ST-04 | done | 仓库收口：死亡点 sweep `91194d2` + 校验器同步 `4bdccbb` + louvre `19773a3` + 本波记录提交；三检查后推送 | git `main` | 主脑（站稳波） |
 | ST-05 | done | 交接与家族回报：五件 detail + 机器板 + digests 副本 + receipts + 终报 | `~/.dwgx/ops/detail-2026-10-16-designers-brain-standfirm.md` 等 | 主脑（站稳波） |
 
+## Lane Z — 发布后收口（closure campaign 2026-11-18）
+
+旧 e0 门审为 NEEDS_REPAIR；旧“原生1080／76全文覆盖／所有等价组织”等过度结论已撤回。以下是 Root 当前有界交付，不覆盖原历史回执；最终提交与干净克隆门见 `docs/audit/closure-20261118/FINAL-GATE.json`。
+
+| ID | 状态 | 当前目标与结果 | 产出路径 | 归属 |
+| --- | --- | --- | --- | --- |
+| Z-01 | engineering_review_complete | 三UI入库、真实浏览器、语义负控；并行临时目录已修复 | `examples/ui/` + `docs/audit/closure-20261118/runtime/` | Main + Root + 独立审阅 |
+| Z-02 | engineering_review_complete | 12段完整解码；5原片＋7最终原生重渲；真实48次seek＋10负控；字体/helper绑定 | `experiments/motion_closure/` | Root + 独立反证审阅 |
+| Z-03 | disclosure_review_complete | 739文件：39true/699false/1conditional-null；3预期负控 | `_images/rights-file-level.json` + `NOTICE.md` | Main + Root + 独立审阅 |
+| Z-04 | engineering_review_complete | 7个E1包实际构建；原3包47输出双进程一致；19项当前58个不同文件对账 | `experiments/designer_seeds/` + `docs/audit/current19/` | Main + Root + 独立审阅 |
+| Z-05 | scoped_research_review_complete | 76条覆盖矩阵：原41独立稿＋新7组织稿＋28既有等价路径；不声称所有正文/外引全文已读 | `knowledge/domains/painters/learning/` + `docs/audit/corpus/` | Corpus B1–B4 + 2独立审阅 + Root |
+| Z-06 | current_docs_updated | 中英日README/PROTOCOLS、能力说明、事实计数和评审入口现行化 | `README*` + `docs/` + `knowledge/CAPABILITIES.*` | Root |
+| Z-07 | historical_evidence_preserved | 旧C1/C2/C3及C2实际复跑保留；公开路径脱敏与SHA分别披露 | `experiments/consumer_skill/` | Main + Root |
+| Z-08 | repo_skill_review_complete | repo-only路由自检；增加整图可读性指导，其改善效果未验证 | `skills/designers-brain/` + `docs/skill/` | Main + Root |
+| Z-09 | human_input_pending | 23可查看评分位置：22实验＋1可选基线；主要分数仍空 | `docs/HUMAN-REVIEW-VIEWING.md` + `docs/HUMAN-REVIEW-SCORES.md` | Owner / 真人评审 |
+| Z-10 | final_gate_recorded_separately | 最终版本的干净克隆、校验、发布身份以门审文件与release为准 | `docs/audit/closure-20261118/FINAL-GATE.json` | Root |
+| Z-11 | protocol_complete_case_failed | 新隔离C1一次试验；H1 partial/H2 limited，A/B视觉辨识失败 | `experiments/consumer_skill/C1-closure/` | 独立消费者 + Root + 独立复核 |
+
+复验入口：`python docs/skill/_selfcheck.py --repo-only`；`python knowledge/domains/painters/modules/_extract.py --check`；`python tools/check_image_rights.py`；`python experiments/motion_closure/verify_all.py --root experiments/motion_closure --ffmpeg <ffmpeg-executable> --report <report.json>`。实际退出码、文件绑定与限制见当前审计；不将各门数量相加当任务完成数。
+
 ## 环境实测（2026-10-15，供后续引用）
 
 - node v24.19.0 · npm 11.17.0 · ffmpeg n9.0.1 · Python 3.14.7 · **ImageMagick 未装**

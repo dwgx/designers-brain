@@ -1,0 +1,35 @@
+{
+  "sealed_at_utc": "2026-11-17T23:02:29.910247+00:00",
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "cue_sha256": "eac6ea90c2d6187a975ed015913a520b15d5466605843672c48113c614240eeb",
+  "locked_files": [
+    {
+      "path": "second-topic-spec.json",
+      "sha256": "e826b3c3e99835a71215854b2a19efd84b44b016c12dab19e1918fc926927e0f",
+      "bytes": 2369
+    },
+    {
+      "path": "second-topic.svg",
+      "sha256": "ca3c94c450a784f530f23fcae1a5648430430c7949fb860baf66c5db38828175",
+      "bytes": 2036
+    },
+    {
+      "path": "measurement-plan.json",
+      "sha256": "5f6e6de4e6729dc973f12e96d846243fe3d36696be0f64916650b50fe92e8679",
+      "bytes": 2311
+    },
+    {
+      "path": "check-compositions.py",
+      "sha256": "7911f56fbaf9b63db0f6f8556d2fec91de1253a43cf6d36047a678ccb641c148",
+      "bytes": 4129
+    },
+    {
+      "path": "bad-outline.svg",
+      "sha256": "24877272ac7b1ed1211a70699d4d2ec0059062bec253ffa53b7d8dbcf77d832c",
+      "bytes": 2632
+    }
+  ],
+  "last_supper_pixels_seen": false,
+  "no_more_svg_spec_plan_checker_mutation": true
+}

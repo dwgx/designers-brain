@@ -15,7 +15,7 @@ You are working in **Designers_Brain**, a research repository that distills desi
 - **Evidence grades on every claim** (`[自述]/[史料]/[研究]/[归纳]/[推测]`); quotes carry sources; "not found" is written as 未找到（已查: …）.
 - **No "done" without a runnable check** — name the command, paste raw output. Unverified = `[UNVERIFIED]`.
 - **Raw sources are read-only**: `knowledge/domains/motion-graphics/origin/`.
-- **No secrets, no third-party media** in commits; run the secret scan before publishing.
+- **No secrets; no unlicensed third-party media** in commits (the shipped museum-image set is governed by `NOTICE.md` + per-artist image manifests); run the secret scan before publishing.
 - Docs are English; Chinese is acceptable in raw research notes (dossiers, logs).
 - Commit freely; **push only after the three checks** (PROTOCOLS §8).
 
@@ -27,7 +27,7 @@ You are working in **Designers_Brain**, a research repository that distills desi
 
 ```bash
 python docs/skill/_selfcheck.py                                  # skill refs + junctions + domains → expect PASS
-python knowledge/domains/painters/modules/_extract.py --check    # module cards → expect checks=33 ok=33
+python knowledge/domains/painters/modules/_extract.py --check    # module cards → expect checks=228 ok=228 (76 cards × §8.1/§8.2/§4)
 cd experiments/E2_t1 && python _verify_e2.py                     # experiment → expect VERIFY PASS
 ```
 

@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-EXPERIMENT-kail_designs/prototype",
+  "dedup_key": "DB-20261115:SEED-EXPERIMENT-kail_designs:prototype:S05",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "input_hashes": [
+    {
+      "path_or_id": "config.json",
+      "sha256": "856a6e1d376bd2c0c4841244efab9d7df3f93b390c36f3719fa36c1eba72d7f2"
+    },
+    {
+      "path_or_id": "build.py",
+      "sha256": "c74f27b94bb381f27d74f4e2545f358e34f9d7dafd3dc8afe58ff5f812a3101b"
+    },
+    {
+      "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py",
+      "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263"
+    },
+    {
+      "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/state.md (parent, preserved)",
+      "sha256": "150edc676b2b8ec32d747b4c6c89094eb66b152f3ce3a2cf51dbf0c2cd1fde25"
+    }
+  ],
+  "allowed_write_paths": [
+    "staging/SEED-EXPERIMENT-kail_designs/prototype/"
+  ],
+  "spawns_allowed": false,
+  "attempt": 1,
+  "repair_round": 0,
+  "model_route": {
+    "requested_model": "buddyfarm/hy4free",
+    "requested_effort": "max",
+    "observed_model": null,
+    "profile_sha256": null,
+    "omp_version": null,
+    "token_usage": null,
+    "fallback": null
+  },
+  "artifacts": [
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/README.md",
+      "sha256": "4f3909c2c183eb8ffea8d129bb9c435ffbcc583cbee808af2f3e06563b1ab469",
+      "kind": "result_summary"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/RESULT.md",
+      "sha256": "462b66469ff93a52b2d5a0d38d16362ac5dc7f1f128d58a7090743400143e549",
+      "kind": "result_summary"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/config.json",
+      "sha256": "856a6e1d376bd2c0c4841244efab9d7df3f93b390c36f3719fa36c1eba72d7f2",
+      "kind": "inputs_config"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/build.py",
+      "sha256": "c74f27b94bb381f27d74f4e2545f358e34f9d7dafd3dc8afe58ff5f812a3101b",
+      "kind": "source_code"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/run_evidence.json",
+      "sha256": "92e601cba7236a08f15c7029b810361c3745c40c19f6635f8e6d65967f27d2f5",
+      "kind": "run_receipts"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/runner_receipt.json",
+      "sha256": "51f0125ec8c1841b39f15cafbebdf4d4156a18b677918c8902875dba8c9c3ba4",
+      "kind": "runner_receipt"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/checks.json",
+      "sha256": "248d5f62db786bf7c36fb4cd496f5a097d5f4ad1b37d3481c5f409733a671020",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/diff_v1_exposure.json",
+      "sha256": "6db05fa23b1eff9cf2428de438e55dca70f71efabaa15a0f7a0db0325d83c6bb",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/diff_v1_exposure.png",
+      "sha256": "c58a8dae5107ead072e32c5c67671dcc5cde7ead17145179589e4b1d4e6b8cd8",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/diff_v2_halo.json",
+      "sha256": "877da428eec030c612640bd5c5d7413cb62da565e810219180a3504ee467377e",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/diff_v2_halo.png",
+      "sha256": "1f9e613ce5658dd8b6c4d123e547836f9151eacc45f0810206e2f7420ef468cd",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/diff_v3_grain.json",
+      "sha256": "2e845d95a1f4bce62a6ec0fbcddc38abb7bad65644c2b12207d2d53b6f6c4c2a",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/diff_v3_grain.png",
+      "sha256": "e64f9b707aa1c6a6be4ea9871903ca8e98011a91c2d6cef695ddbe210d039f62",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/input_field.json",
+      "sha256": "ac002e61ae02b06c1aa149661887861b645d9a32c993bb367c208ab9f6f836a8",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/input_field.png",
+      "sha256": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/run_config_snapshot.json",
+      "sha256": "bbed5ce0730c67fa6ea34b43380f5488666baf5019eb90a10c25d0322032ef3f",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v0_baseline.json",
+      "sha256": "a8170a9906f8bb62ed65fc6468ac475e12f2e9dfb3dc5b680b039d107ac58cd6",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v0_baseline.png",
+      "sha256": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v1_exposure.json",
+      "sha256": "7d962bdf72bd4703c6af3390d7851e680d11b00cc622e2ffe414991d865b5f23",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v1_exposure.png",
+      "sha256": "523a0fbe79b19029a8cc1262888799c3e386c0c711e7cba03861c2dfbf373939",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v2_halo.json",
+      "sha256": "24f034c5a78064dc6c31a6e3df8c88ada07f174f0f577c26f39d2a8b5876c5dd",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v2_halo.png",
+      "sha256": "ff8bd37cc1b31212f3ec203a331de0dcd0578d3848b82679d39b8dc4f7f74640",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v3_grain.json",
+      "sha256": "bfdf1fe2ca798038ec84b453216b820a2b1116608856417e2a158b3a72e5e33b",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/outputs/v3_grain.png",
+      "sha256": "b283613b1aeda81f2e6535631596a57b7f7326b8bd3559984c05a910c64392be",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-kail_designs/prototype/S11B-CALIBRATION.md",
+      "sha256": "42e310f263bb34ed3df5f3216deca4fd20834abbcd582bb75a3ef83db1c04cf4",
+      "kind": "result_summary"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-prototype-ran-and-checks-passed",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "outputs/checks.json",
+          "version": null,
+          "locator": "outputs/checks.json (all declared checks)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "248d5f62db786bf7c36fb4cd496f5a097d5f4ad1b37d3481c5f409733a671020",
+          "access_status": "available"
+        },
+        {
+          "source_id": "run_evidence.json",
+          "version": null,
+          "locator": "run_evidence.json (actual outcomes + rerun identity)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "92e601cba7236a08f15c7029b810361c3745c40c19f6635f8e6d65967f27d2f5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "C-rerun-byte-identical",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "rerun_20261115/",
+          "version": null,
+          "locator": "rerun_20261115/ per-file sha256 == outputs/ per-file sha256",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "248d5f62db786bf7c36fb4cd496f5a097d5f4ad1b37d3481c5f409733a671020",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "runner_id": "SeedDepsRevisit-S05-kail_designs-prototype",
+    "commands": [
+      "python -X utf8 build.py outputs",
+      "python -X utf8 build.py rerun_20261115",
+      "sha256sum outputs/* vs rerun_20261115/* (all identical)",
+      "python -X utf8 <package>/tools/verify-receipt.py receipt.json --schema ... --workspace-root <RUN_ROOT>"
+    ],
+    "cwd": "SOURCE@designers-brain (read-only source repo); outputs to staging/SEED-EXPERIMENT-kail_designs/prototype/",
+    "started_at": "2026-11-15T14:10:46.932668+00:00",
+    "ended_at": "2026-11-15T14:10:46.932668+00:00",
+    "exit_code": 0,
+    "receipt_path": "staging/SEED-EXPERIMENT-kail_designs/prototype/runner_receipt.json",
+    "receipt_sha256": "51f0125ec8c1841b39f15cafbebdf4d4156a18b677918c8902875dba8c9c3ba4",
+    "limitations": [
+      "CANDIDATE mechanism hypothesis; NOT E2/E3 evidence, NOT a validated reproduction, NOT an E3 success.",
+      "Candidate local post-processing mechanism ONLY. NOT the real ascii-magic/backgrounds.supply kernel, NOT their default pass order, NOT a proven shader pipeline. Two product pages' labels NOT merged. No time-continuity / website-determinism / 4K / video-export claim. S11-B bounds: ONLY the exposure→halo→grain 4 single-toggle variants (clip 0→1113) on one 64x48 field were tested; NO combined pass-order / full-stack verification; C4 MAD>0 is NOT spectrum / low-frequency-preservation evidence. Seed stays E1; no E2/E3/active promotion.",
+      "No image API / WebGL / ffmpeg / historical media / author artwork / credentials / RNG. Deterministic rerun verified.",
+      "status=submitted validates schema only (verify-receipt.py:20-21); author does not self-accept; independent GLM review is a later gate."
+    ]
+  },
+  "review": null,
+  "unresolved": [
+    {
+      "issue": "Parent SEED-EXPERIMENT-kail_designs original E2/E3 mechanism-reproduction goal remains unmet (seed is E1, render/evidence gates unchanged).",
+      "impact": "This prototype is a candidate mechanism hypothesis only; it does NOT satisfy the parent's required_artifact_kinds or the E3 evidence gate.",
+      "next_discriminating_action": "Keep parent goal blocked until an authorized image channel is re-probed and the seed-level E2 evidence (≥30 posts/timeline + full media + ≥2 independent sources) is met; aesthetic judgement stays pending_human."
+    }
+  ],
+  "human_review": {
+    "status": "not_applicable",
+    "actual_reviewer": null,
+    "record_path": null
+  },
+  "execution_dedup_key": null,
+  "author_actor_id": "SeedDepsRevisit",
+  "reused_from": null,
+  "execution_kind": "leaf_work_item",
+  "blocked_by": []
+}

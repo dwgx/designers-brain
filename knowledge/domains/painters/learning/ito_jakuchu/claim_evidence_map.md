@@ -54,7 +54,7 @@
 | claim_id | locator（file:section:line + 子串） | grade | status | basis |
 |---|---|---|---|---|
 | LM-P01 | `dossiers/ito_jakuchu.md:§4`（六控制参数表） | [归纳] | partial | 六参数档位；阈值未实测 |
-| LM-P02 | `dossiers/ito_jakuchu.md:§8.2 尾注:L242`「」 | [归纳] | supported | 明记未像素测量；本片据此不升级阈值 |
+| LM-P02 | `dossiers/ito_jakuchu.md:L481`（「我仍赌错的是什么」：§8.2 八条阈值=目测归纳的**未实测参数**） | [归纳] | supported | 明记未像素测量；本片据此不升级阈值 |
 | LM-P03 | `LEARN-ito_jakuchu/mechanism_notes.md:§5`（8 条 counters，逐条回指 §8.2-1…§8.2-8） | [归纳] | partial | 反例为 [inference] 纸面推演，非已验证实验 |
 
 <a id="db-source-line-53"></a>

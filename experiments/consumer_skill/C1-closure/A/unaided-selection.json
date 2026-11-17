@@ -1,0 +1,97 @@
+{
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "binding_sha256": "5e0bdad6fad5c3186a97b5ca0cb0f7c70aa06c36cbbf8cb4f0e2e8e045aa8744",
+  "head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "attempt_started_at_utc": "2026-11-17T22:39:50.632479+00:00",
+  "selected_at_utc": "2026-11-17T22:55:49.301642+00:00",
+  "requested_model": "native_subagent_inherited_parent",
+  "served_model": "unknown",
+  "chosen_unit": "da_vinci：阶梯1的暗底／中间调／亮部三级起稿，结合非人物题材分支的明暗与边缘关系",
+  "chosen_mechanism": "受光部分保留结构，阴影侧外缘与环境明度合并；非焦点及后排边缘不获得等强轮廓；单一左上光作为组织前提。",
+  "invariant_to_carry": "局部受光形与遮蔽暗部形成一个视觉重心，背光外缘及后排形体通过相邻同值合并降低辨识强度。",
+  "source_vs_inference": "三级灰阶、左上单光、禁止描边和暗侧边缘化开来自已读公共文本。把最显著明暗邻接限制在指定焦点是消费者的构图推论，不冒充原作者明确提出的通用定律。",
+  "topic": "夜班种子库检验台上一个打开的布质样本袋；后排闭合样本容器退入灰底。",
+  "novelty_scope": "该具体题材未出现在本次已读练习、作品说明或提示词中。没有遍历全库，不能断言全仓库无同类题材。",
+  "focus": {
+    "canvas": {
+      "width": 960,
+      "height": 640
+    },
+    "intended_visual_center": {
+      "x": 573,
+      "y": 317,
+      "normalized": [
+        0.596875,
+        0.4953125
+      ],
+      "region": [
+        508,
+        282,
+        641,
+        352
+      ]
+    },
+    "focus_name": "种子库布质样本袋的受光折口",
+    "planned_before_sketch_utc": "2026-11-17T22:55:49.301636+00:00",
+    "attention_plan": "亮折边与暗袋口相邻；其余容器和袋背光边缘只用中间调或并入中间调，不靠外轮廓描线逐件解释。"
+  },
+  "alternatives": [
+    {
+      "unit": "bada_shanren",
+      "exposure": "learning/INDEX.md 31–37；modules/README.md 28",
+      "decision": "未深入，留白／减笔与本次三值和背光边缘的直接关系较弱；这是消费者选择理由。"
+    },
+    {
+      "unit": "caravaggio",
+      "exposure": "learning/INDEX.md 43；modules/README.md 19",
+      "decision": "未深入。入口定位为硬光戏剧，本次选择安静的中间调和失边，不组合第二模块。"
+    },
+    {
+      "topic": "球体或面部右眼和嘴角",
+      "decision": "已在学习路径87–91行明确作为练习例，不采用。"
+    },
+    {
+      "topic": "岩石与浅水的风景",
+      "decision": "模块纯风格段54行仍保留这些场景词，避免用它们作为未示例题材。"
+    }
+  ],
+  "reading_evidence": [
+    {
+      "path": "knowledge/INDEX.md",
+      "sha256": "d4688562f5975fae9b4366b26dc536379f5db55bc0923f1bbdd224f58a91533e",
+      "locator": "L81–86，链接 domains/painters/learning/INDEX.md"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/INDEX.md",
+      "sha256": "c24e16e7cbdca9b44bdc9143979ec9e18785a961b05d6fa3c92e3e95b8eb80fd",
+      "locator": "L7–13，链接 da_vinci/learning_path.md#db-source-line-78 及 ../modules/da_vinci.md#81b-纯风格段场景可迁移"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+      "sha256": "00a7010818682d14c14003f8e2ef06949ff25fb1bcc4ef1deca76986dde22730",
+      "locator": "L72–79；L87–103；L142；L148–154。anchor db-source-line-78 和 db-source-line-126"
+    },
+    {
+      "path": "knowledge/domains/painters/modules/da_vinci.md",
+      "sha256": "e6ad4d1b24b25994bfc4cc467677d1f323545e28bba17f1efd7428f8dcc88cc3",
+      "locator": "L9–12；L41–57；L63–69；L75–77"
+    }
+  ],
+  "public_text_exposure": [
+    "knowledge/INDEX.md 的 MG 卡题材、8位画家作品名等全文导航文本已见。",
+    "learning/INDEX.md 的多作者路径摘要和76名字清单已见；modules/README.md 1–80行能力摘要已见。",
+    "da_vinci学习路径全文包括作品说明、球体／眼和嘴角例、三阶操作和机械阈值、建议比较及明确未人评限制。",
+    "da_vinci模块全文包括可直接粘贴的人物 prompt、负向词及纯风格 prompt；其中仍保留圆锥岩石和浅绿水等题材词。",
+    "这不是零提示条件；本次是公开文本辅助、无图像像素辅助的模型消费。"
+  ],
+  "unknowns_and_limits": [
+    "未看任何图像像素，包括参考作品、旧输出及本次SVG的栅格结果。",
+    "精确三值稿不呈现连续灰度过渡；不能据此通过 sfumato 的过渡带、Canny链或Laplacian规则。",
+    "灰度RGB值不是已校准的CIELAB L；不把RGB面积分布冒充来源L阈值验收。",
+    "本次只提出构图关系并实现草图；尚无人评、审美接受或一般泛化证据。",
+    "继承原生子代理被请求；实际served模型不可见，保持unknown。"
+  ]
+}

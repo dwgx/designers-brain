@@ -1,0 +1,21 @@
+== UI-01 negative controls ==
+fixture_contract=state-machine simulation (no live AG-UI/SSE transport)
+POSITIVE clean fixture _check exit=0
+  RESULT: ALL MECHANICAL CHECKS PASSED (119 assertions).
+  PASS pristine fixture must PASS the real check
+N1_scripted_extra_advance _check exit=1
+  AssertionError: T2-after-1-advance/T2 data-state=waiting-for-input
+  PASS N1_scripted_extra_advance must fail with its intended assertion, not a harness error
+N2_scripted_wrong_task _check exit=1
+  AssertionError: T3-after-1-advance/T3 data-state=waiting-for-input
+  PASS N2_scripted_wrong_task must fail with its intended assertion, not a harness error
+N3_relabelled_truncation _check exit=1
+  AssertionError: T3-after-2-advances/T3 data-state=stream-interrupted
+  PASS N3_relabelled_truncation must fail with its intended assertion, not a harness error
+N4_rule_text_altered _check exit=1
+  AssertionError: fixture records AG-UI truncation rule (no synthesized RUN_FINISHED, no false success)
+  PASS N4_rule_text_altered must fail with its intended assertion, not a harness error
+
+RESULT: ALL NEGATIVE CONTROLS DETECTED; positive control passed.
+LIMITATION: this is a state-machine simulation. No live AG-UI/SSE
+reconnect/duplicate-event handling over a network transport is claimed.

@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-EXPERIMENT-enigmatriz/prototype",
+  "dedup_key": "DB-20261115:SEED-EXPERIMENT-enigmatriz:prototype:S05",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "input_hashes": [
+    {
+      "path_or_id": "config.json",
+      "sha256": "e8573919da850c3dbecc67b9ef6c920550aed0caff6050fa05d42af7ffedfde7"
+    },
+    {
+      "path_or_id": "build.py",
+      "sha256": "8da048b44660b71877a37431435cde1dcf873302171f13cee5637787bd2218ae"
+    },
+    {
+      "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py",
+      "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263"
+    },
+    {
+      "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/state.md (parent, preserved)",
+      "sha256": "5b648dd44621b2df6bb3c8dcb6b97b19d746782c1cb32783c0d61aba03bacac8"
+    }
+  ],
+  "allowed_write_paths": [
+    "staging/SEED-EXPERIMENT-enigmatriz/prototype/"
+  ],
+  "spawns_allowed": false,
+  "attempt": 1,
+  "repair_round": 0,
+  "model_route": {
+    "requested_model": "buddyfarm/hy4free",
+    "requested_effort": "max",
+    "observed_model": null,
+    "profile_sha256": null,
+    "omp_version": null,
+    "token_usage": null,
+    "fallback": null
+  },
+  "artifacts": [
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/README.md",
+      "sha256": "b4d1a8158af08847c523c9d6b9c15df97ae5b4a072a0a9fdb546dfa63a5f28f0",
+      "kind": "result_summary"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/RESULT.md",
+      "sha256": "9864c8da11222ccf448eefe5b83d73faaee17078980ec1689a2f8006b524f6a5",
+      "kind": "result_summary"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/config.json",
+      "sha256": "e8573919da850c3dbecc67b9ef6c920550aed0caff6050fa05d42af7ffedfde7",
+      "kind": "inputs_config"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/build.py",
+      "sha256": "8da048b44660b71877a37431435cde1dcf873302171f13cee5637787bd2218ae",
+      "kind": "source_code"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/run_evidence.json",
+      "sha256": "8703fda734d78095680941f1330250e2a599a8372fcb07165a6150936cf0c0b8",
+      "kind": "run_receipts"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/runner_receipt.json",
+      "sha256": "cdc8ad676373b1022d5f1aebd4810993346d39548afa072a05210b56973df215",
+      "kind": "runner_receipt"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/ascii_normal.txt",
+      "sha256": "400a8520d4d57c59a8df35852b5d6426113cfbe7aba1cc08b58680d32e4f6b63",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/ascii_reversed.txt",
+      "sha256": "ff378640b5dd257c6fc278fd7445bbfb257afb532fd54a88533d41730a5c3c63",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/cell_ledger_normal.json",
+      "sha256": "4309d7fe29d2a80ec4774cf5084b693982e199857b0b0e8c8ea8617bcc20daa0",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/cell_ledger_reversed.json",
+      "sha256": "cda2ce9a09251e99412ebc1b4076ede29cb2bcd7b07f650ef04e69206a87fa4d",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/checks.json",
+      "sha256": "5d72770e127a86b3a97cd84e0e70ba85f5ec1e2e82645d8af2950a5c6e0df8f7",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/glyph_coverage_table.json",
+      "sha256": "9b037a982235f1477d1370fcf205e48e4d1d6ccd60474e34bdb8298e438412fd",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/input_chart.png",
+      "sha256": "7d4ff90da0e8cc78d73253f67c6a0088ffbae7c4d9b4714c2358642eba1a5024",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/input_mask.png",
+      "sha256": "6a05c88933461872ccf311be6f504808c454c5635bf3494ae46be252431a1c37",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/render_normal.png",
+      "sha256": "197e946edec46c7b84b54ad6c8766e8b13a806a133b6f108dc955c23d448cbdd",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/render_reversed.png",
+      "sha256": "35dffece834ebf61906ab913a904930eb8f7494818aa089fd45c1d325a3be0c3",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/outputs/run_config_snapshot.json",
+      "sha256": "527be73aaba5d954c13b34fd55d4c06b079651e68e42f78bbd65274dcc88849e",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/S11B-CALIBRATION.md",
+      "sha256": "dea3fce8f72203b04723c0e4a8871afa550662f54c1376d1ce68ce2390968745",
+      "kind": "result_summary"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-prototype-ran-and-checks-passed",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "outputs/checks.json",
+          "version": null,
+          "locator": "outputs/checks.json (all declared checks)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "5d72770e127a86b3a97cd84e0e70ba85f5ec1e2e82645d8af2950a5c6e0df8f7",
+          "access_status": "available"
+        },
+        {
+          "source_id": "run_evidence.json",
+          "version": null,
+          "locator": "run_evidence.json (actual outcomes + rerun identity)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "8703fda734d78095680941f1330250e2a599a8372fcb07165a6150936cf0c0b8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "C-rerun-byte-identical",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "rerun_20261115/",
+          "version": null,
+          "locator": "rerun_20261115/ per-file sha256 == outputs/ per-file sha256",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "5d72770e127a86b3a97cd84e0e70ba85f5ec1e2e82645d8af2950a5c6e0df8f7",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "runner_id": "SeedDepsRevisit-S05-enigmatriz-prototype",
+    "commands": [
+      "python -X utf8 build.py outputs",
+      "python -X utf8 build.py rerun_20261115",
+      "sha256sum outputs/* vs rerun_20261115/* (all identical)",
+      "python -X utf8 <package>/tools/verify-receipt.py receipt.json --schema ... --workspace-root <RUN_ROOT>"
+    ],
+    "cwd": "SOURCE@designers-brain (read-only source repo); outputs to staging/SEED-EXPERIMENT-enigmatriz/prototype/",
+    "started_at": "2026-11-15T14:10:46.685893+00:00",
+    "ended_at": "2026-11-15T14:10:46.685893+00:00",
+    "exit_code": 0,
+    "receipt_path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/runner_receipt.json",
+    "receipt_sha256": "cdc8ad676373b1022d5f1aebd4810993346d39548afa072a05210b56973df215",
+    "limitations": [
+      "CANDIDATE mechanism hypothesis; NOT E2/E3 evidence, NOT a validated reproduction, NOT an E3 success.",
+      "Only supports OUR implemented selected-region/quantization mechanism. NOT the artist's algorithm, NOT automatic mask toolchain, NOT human 'looks like enigmatriz'. Reversal is a CONTROL, not an aesthetic failure. S11-B config honesty: final run config (NOT provably frozen pre-registration); build.py C4 pass is a constant True, NOT a general mask validator; only THIS mask had outside-mask diff = 0. Seed stays E1; no E2/E3/active promotion.",
+      "No image API / WebGL / ffmpeg / historical media / author artwork / credentials / RNG. Deterministic rerun verified.",
+      "status=submitted validates schema only (verify-receipt.py:20-21); author does not self-accept; independent GLM review is a later gate."
+    ]
+  },
+  "review": null,
+  "unresolved": [
+    {
+      "issue": "Parent SEED-EXPERIMENT-enigmatriz original E2/E3 mechanism-reproduction goal remains unmet (seed is E1, render/evidence gates unchanged).",
+      "impact": "This prototype is a candidate mechanism hypothesis only; it does NOT satisfy the parent's required_artifact_kinds or the E3 evidence gate.",
+      "next_discriminating_action": "Keep parent goal blocked until an authorized image channel is re-probed and the seed-level E2 evidence (≥30 posts/timeline + full media + ≥2 independent sources) is met; aesthetic judgement stays pending_human."
+    }
+  ],
+  "human_review": {
+    "status": "not_applicable",
+    "actual_reviewer": null,
+    "record_path": null
+  },
+  "execution_dedup_key": null,
+  "author_actor_id": "SeedDepsRevisit",
+  "reused_from": null,
+  "execution_kind": "leaf_work_item",
+  "blocked_by": []
+}

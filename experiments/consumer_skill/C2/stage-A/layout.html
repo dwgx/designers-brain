@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>C2 — 无闪烁信息层级对照 / no-flicker hierarchy contrast</title>
+<!--
+  C2 / P4R-C2-20261117T123432 — Stage A unaided sketch.
+  Static by construction: no scripting, no keyframes, no CSS motion, no time-based
+  effects, no timers. Every flashing element count = 0 (0 Hz, <=3 Hz).
+  Style vocabulary (palette/typeface/spacing/slot numbers) is IDENTICAL in both
+  panels; ONLY the role->slot binding differs. See layout.json + check-output.json.
+-->
+<style>
+  :root{
+    --c0:#101820; --c1:#1f2d3d; --c2:#3d5a80;
+    --c3:#98c1d9; --c4:#e0fbfc; --accent:#ee6c4d;
+    --sp1:4px; --sp2:8px; --sp3:16px; --sp4:32px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--c0);color:var(--c4);
+       font-family:system-ui,sans-serif;padding:var(--sp4)}
+  h1{font-size:20px;font-weight:500;margin:0 0 var(--sp3)}
+  .note{color:var(--c3);font-size:13px;margin:0 0 var(--sp4);max-width:900px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp4)}
+  .panel{background:var(--c1);border:1px solid var(--c2);padding:var(--sp3)}
+  .panel h2{font-size:14px;font-weight:500;margin:0 0 var(--sp3);color:var(--c3)}
+  /* S1: top salience slot — high contrast, bold, accent border, small area */
+  .s1{background:var(--c2);color:var(--c4);font-weight:700;font-size:28px;
+      padding:var(--sp2) var(--sp3);border-left:var(--sp1) solid var(--accent);
+      margin-bottom:var(--sp3)}
+  /* S2: mid salience slot — medium contrast, medium weight, moderate area */
+  .s2{background:var(--c1);color:var(--c3);font-weight:500;font-size:16px;
+      padding:var(--sp2);border:1px solid var(--c2);margin-bottom:var(--sp3)}
+  /* S3: baseline slot — low contrast, regular weight, largest area */
+  .s3{background:var(--c0);color:var(--c2);font-weight:400;font-size:13px;
+      padding:var(--sp2);line-height:1.6}
+  .tag{font-size:11px;color:var(--c3);opacity:0.85;display:block;margin-top:var(--sp1)}
+  .expect{font-size:12px;margin-top:var(--sp3);font-weight:500}
+  .expect.pass{color:var(--c4)} .expect.fail{color:var(--accent)}
+</style>
+</head>
+<body>
+  <h1>C2 · 无闪烁信息层级对照 — aurora tide gauge</h1>
+  <p class="note">
+    两个面板的调色板、字体、间距、三个槽位(S1/S2/S3)的数值完全相同；唯一差别是
+    「语义角色 → 槽位」的绑定。左：数据值占最高显著性槽位（应 PASS）；
+    右：装饰占最高显著性槽位、数据值降到中槽（应 FAIL）。
+    这是机制性/声明式对照，不是人眼阅读测试，也不是渲染图像对比。
+    全页无闪烁元素（0 个，0 Hz，满足 &le;3 Hz）。
+  </p>
+  <div class="grid">
+    <section class="panel" aria-label="role-based variant">
+      <h2>Variant A — role_based（数据值 → S1）</h2>
+      <div class="s1">TIDE 4.2 m — RISING<span class="tag">role: readable_data_value · slot S1</span></div>
+      <div class="s2">aurora ribbon illustration (decorative)<span class="tag">role: illustrative_decoration · slot S2</span></div>
+      <div class="s3">baseline: station 07, 30-min window, UTC+0 — no label emphasis<span class="tag">role: no_label_baseline · slot S3</span></div>
+      <div class="expect pass">check: top-salience role = readable_data_value → expected PASS</div>
+    </section>
+    <section class="panel" aria-label="pure-style variant">
+      <h2>Variant B — pure_style（装饰 → S1，数据值 → S2）</h2>
+      <div class="s1">aurora ribbon illustration (decorative)<span class="tag">role: illustrative_decoration · slot S1</span></div>
+      <div class="s2">TIDE 4.2 m — RISING<span class="tag">role: readable_data_value · slot S2</span></div>
+      <div class="s3">baseline: station 07, 30-min window, UTC+0 — no label emphasis<span class="tag">role: no_label_baseline · slot S3</span></div>
+      <div class="expect fail">check: top-salience role = illustrative_decoration → expected FAIL</div>
+    </section>
+  </div>
+</body>
+</html>

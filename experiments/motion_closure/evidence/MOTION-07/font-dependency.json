@@ -1,0 +1,36 @@
+{
+  "face_index": 0,
+  "fallback_used": false,
+  "family": [
+    "SimHei",
+    "Regular"
+  ],
+  "file_name": "simhei.ttf",
+  "font_sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+  "helper_sha256": "afe9b78ef1b66a9429a0b4671c7d7d7c1cf936570b6e4498ecab005e2c166cf1",
+  "js_helper_sha256": "33b62f31b684405b2588554f81ef93215aa59cdc335fad0ee7a50238615b0053",
+  "missing_glyphs": [],
+  "pillow_version": "12.3.0",
+  "requests": [
+    {
+      "id": "0",
+      "size": 54,
+      "text": "着"
+    },
+    {
+      "id": "1",
+      "size": 54,
+      "text": "陆"
+    },
+    {
+      "id": "2",
+      "size": 54,
+      "text": "成"
+    },
+    {
+      "id": "3",
+      "size": 54,
+      "text": "功"
+    }
+  ]
+}

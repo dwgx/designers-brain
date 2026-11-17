@@ -1,0 +1,109 @@
+{
+  "scope": "No new consumer run. Exact current bytes and consumed e0 ranges compared; new unconsumed guidance is not tested by this failed attempt.",
+  "rows": [
+    {
+      "path": "knowledge/INDEX.md",
+      "frozen_sha256": "d4688562f5975fae9b4366b26dc536379f5db55bc0923f1bbdd224f58a91533e",
+      "current_sha256": "d4688562f5975fae9b4366b26dc536379f5db55bc0923f1bbdd224f58a91533e",
+      "whole_blob_unchanged": true,
+      "content_exposed": true,
+      "consumed_line_ranges": [
+        [
+          1,
+          96
+        ]
+      ],
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "knowledge/LEARNING-INDEX.json",
+      "frozen_sha256": "e6f801219dc3ab08a05b5a3b6a68a7e967f2d1dc3a2bc53e7c3fea3c5c74de73",
+      "current_sha256": "11cd4828e0ea396c45f86eb23c440604d792bd91d9965aa7952d4d2be4e3c21b",
+      "whole_blob_unchanged": false,
+      "content_exposed": false,
+      "consumed_line_ranges": [],
+      "consumed_ranges_unchanged": null
+    },
+    {
+      "path": "knowledge/domains/painters/learning/INDEX.md",
+      "frozen_sha256": "c24e16e7cbdca9b44bdc9143979ec9e18785a961b05d6fa3c92e3e95b8eb80fd",
+      "current_sha256": "1658164c68162136919b8afb65c068fca09fe32b9f73881d07b36312add0d022",
+      "whole_blob_unchanged": false,
+      "content_exposed": true,
+      "consumed_line_ranges": [
+        [
+          1,
+          133
+        ]
+      ],
+      "consumed_ranges_unchanged": false
+    },
+    {
+      "path": "knowledge/domains/painters/modules/README.md",
+      "frozen_sha256": "e98da3bceeda223521c52592ffa0c4e4a2d30ccc8c63d98bf75ba8c18a3663a3",
+      "current_sha256": "f7754c00749546b204b7ba6557622e2f36838872a6ac6109bdad0ea909879fa1",
+      "whole_blob_unchanged": false,
+      "content_exposed": true,
+      "consumed_line_ranges": [
+        [
+          1,
+          80
+        ]
+      ],
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "skills/designers-brain/SKILL.md",
+      "frozen_sha256": "5043ac6f7daeaa6d067a26866efbc20c3bed79226573106f89d8253e41cf5362",
+      "current_sha256": "5043ac6f7daeaa6d067a26866efbc20c3bed79226573106f89d8253e41cf5362",
+      "whole_blob_unchanged": true,
+      "content_exposed": false,
+      "consumed_line_ranges": [],
+      "consumed_ranges_unchanged": null
+    },
+    {
+      "path": "skills/designers-brain/references/painter-modules.md",
+      "frozen_sha256": "96a83b91abed8cde77e26bd77b1328f2f810f5f5b8304f84f3c98f4ce46a0787",
+      "current_sha256": "20a5b97a82745d8059a1785bcccc4b6b2fb0f9e877ebb93964adfebf2d0871d7",
+      "whole_blob_unchanged": false,
+      "content_exposed": true,
+      "consumed_line_ranges": [
+        [
+          1,
+          20
+        ]
+      ],
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+      "frozen_sha256": "00a7010818682d14c14003f8e2ef06949ff25fb1bcc4ef1deca76986dde22730",
+      "current_sha256": "00a7010818682d14c14003f8e2ef06949ff25fb1bcc4ef1deca76986dde22730",
+      "whole_blob_unchanged": true,
+      "content_exposed": true,
+      "consumed_line_ranges": [
+        [
+          1,
+          162
+        ]
+      ],
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "knowledge/domains/painters/modules/da_vinci.md",
+      "frozen_sha256": "e6ad4d1b24b25994bfc4cc467677d1f323545e28bba17f1efd7428f8dcc88cc3",
+      "current_sha256": "e6ad4d1b24b25994bfc4cc467677d1f323545e28bba17f1efd7428f8dcc88cc3",
+      "whole_blob_unchanged": true,
+      "content_exposed": true,
+      "consumed_line_ranges": [
+        [
+          1,
+          98
+        ]
+      ],
+      "consumed_ranges_unchanged": true
+    }
+  ],
+  "observed_at_utc": "2026-11-17T23:42:49.497358+00:00",
+  "current_scope": "Current closure includes seven new how-to-think documents and navigation edits after the frozen e0 consumer input. No new consumer run or validation of these additions is claimed."
+}

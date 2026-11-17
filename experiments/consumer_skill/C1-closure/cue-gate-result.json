@@ -1,0 +1,19 @@
+{
+  "status": "verified",
+  "instructions_exposed_before_verification": false,
+  "verified_at_utc": "2026-11-17T22:58:49.381357+00:00",
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "binding_sha256": "5e0bdad6fad5c3186a97b5ca0cb0f7c70aa06c36cbbf8cb4f0e2e8e045aa8744",
+  "cue_sha256": "eac6ea90c2d6187a975ed015913a520b15d5466605843672c48113c614240eeb",
+  "a_seal_sha256": "a55707e9e327905c3e3756640de306ffaea135e14c095c0a05da807246bc7efd",
+  "a_manifest_sha256": "71aca3c882baec41f95ab0ba4d318d53de55531afe1eab2765b22b3135a13f73",
+  "root_observed_at_utc": "2026-11-17T22:56:41.646901+00:00",
+  "cue_issued_at_utc": "2026-11-17T22:57:42.192840+00:00",
+  "a_files_verified": 15,
+  "source_blobs_verified": 8,
+  "snapshot_checked_at_utc": "2026-11-17T22:58:31.800578+00:00",
+  "head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd"
+}

@@ -20,13 +20,13 @@
 
 - **必读**：[de_chirico.md](../../dossiers/de_chirico.md) §0 元信息、§1 视觉指纹（12 条）、§4 六控制参数、§8.2 8 条可判定规则（`L244–257`）。
 - **卡片**：[de_chirico.md](../../modules/de_chirico.md)（压缩卡，§4/§8.1/§8.2 抽取一致）。
-- **语料**：[de_chirico.md](../../dossiers/_corpus/de_chirico.md)（引文逐条带回源；`[自述]` / `[reported speech]` 分级照用）。
+- **语料**：[de_chirico.md](../../dossiers/_corpus/de_chirico.md)（引文逐条带回源；`[self-written]` / `[self-spoken]` / `[letter]` / `[memoir]` / `[poetry]` / `[novel]` 分级照用）。
 - **诚实前提**：§4/§8.2 数值为 `[归纳]`、未像素实测（分母＝假想参考帧）；本片 `[推测]`=0。
 
 <a id="db-source-line-21"></a>
 ## 2. 重点作品及来源（沿用 AUDIT 逐行记录）
 
-- （见 dossier §0「关键作品」逐条带馆藏与 URL）
+- 重点作品 6 件（沿用 dossier §0）：《秋日午后的谜》（私人收藏）· 《红塔》（Peggy Guggenheim，76.2553）· 《诗人的不确定性》（Tate T04109）· 《爱之歌》（MoMA 950.1979）· 《蒙帕纳斯车站》（MoMA 1077.1969）· 《阿波利奈尔（预兆性）肖像》（Pompidou AM 1975-52）——馆藏逐条见 dossier §0（版权原因不嵌图）。
 
 > 权利信息沿用现有记录，本片不逐站复核许可页（`image_seen=0`, `read_scope=metadata`）。
 

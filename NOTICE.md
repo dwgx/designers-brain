@@ -10,8 +10,8 @@ files that cannot be redistributed (tutorial videos, reference clips) are
   Source of the 15 motion-graphics style cards distilled in
   `knowledge/domains/motion-graphics/`. Original card credit: "Claude Code · Opus 5.5".
   The card screenshots and transcript in `.../origin/` derive from this project.
-- **video-shotcraft** — https://github.com/... (Apache-2.0). Analyzed in
-  `knowledge/domains/motion-graphics/cards/video_shotcraft*.md` (analysis only; no code copied).
+- **video-shotcraft** — https://github.com/Vincentwei1021/video-shotcraft (Apache-2.0, as recorded in the source research). Analyzed in
+  `knowledge/domains/motion-graphics/cards/video_shotcraft.md` (analysis only; no code copied).
 
 ## Skill-format research archive (`docs/skill/refs/`)
 
@@ -23,16 +23,27 @@ files that cannot be redistributed (tutorial videos, reference clips) are
 ## Images
 
 - The public image library holds **739 images** (`knowledge/domains/painters/dossiers/_images/`).
-  They are **not uniformly public-domain**: **701 are public domain or CC0**
+  They are **not uniformly public-domain**: by the central manifest's License-column
+  (artwork-level label) accounting, **701 rows are labeled public domain / CC0**
   (The Met Open Access, Art Institute of Chicago CC0, Cleveland Museum of Art CC0,
-  PD/PD-Art/PD-US scans on Wikimedia Commons) and **38 are openly
-  licensed but attribution-bearing** — see the next section.
+  PD/PD-Art/PD-US scans on Wikimedia Commons) and **38 are labeled openly
+  licensed but attribution-bearing** — see the next section. This 701/38 split is a
+  *label accounting convention*, **not** a file-level "credit-free" count.
+- **File-level reuse safety:** the authoritative, machine-readable file-level
+  classification is `knowledge/domains/painters/dossiers/_images/rights-file-level.json`.
+  Under this project's conservative convention **39 of the 739 distributed JPGs
+  require attribution** (the 38 below plus `qi_baishi/morning_glory_1950.jpg`),
+  699 carry recognized PD/CC0 labels with no stated attribution condition, and
+  one (`klimt/the_kiss.jpg`) remains jurisdiction-dependent. The Commons source
+  states CC BY-SA 4.0 for the digital reproduction and a PD-Art exception in
+  applicable jurisdictions; this project does not choose a jurisdiction. Do not
+  interpret null as permission-free or read 701 as 701 credit-free files.
 - Per-image source URL, license string and credit line: `knowledge/INDEX.md` and
   `knowledge/domains/painters/dossiers/_images/manifest.md` (single manifest, 逐张明细).
 - Copyright-uncleared material is kept in the private layer (`_private/`) and is
   never committed or redistributed (see the manifest's 「私有层例外」 section).
 
-## Images not PD/CC0 (38)
+## Images whose manifest License label is not PD/CC0 (38 license-column rows)
 
 These 38 of the 739 images are **not** public-domain/CC0. The underlying artwork is
 usually PD; what carries the license is the modern **photograph / scan / museum
@@ -53,13 +64,22 @@ source category:
 
 Notes:
 
-- The count follows the manifest's License column: a row is listed here when its
-  license is not `Public domain` / `PD-*` / `CC0`. The remaining **701** rows are
-  PD/CC0 and need no attribution (courtesy credit still welcome).
-- Borderline row, not counted above: `qi_baishi/morning_glory_1950.jpg` — the
-  **artwork** is PD-China and is counted on the PD side, but the photograph is
-  **CC BY 2.0** (Jean-Pierre Dalbéra), so credit the photographer when reusing that
-  file.
+- The 38 count follows the manifest's License column: a row is listed here when its
+  license label is not `Public domain` / `PD-*` / `CC0`. The remaining **701** rows
+  carry PD/CC0 labels; that is an artwork-level accounting convention, **not** a
+  statement that all 701 distributed JPG files are credit-free (courtesy credit
+  still welcome).
+- **Composite case (counted in the file-level 39):** `qi_baishi/morning_glory_1950.jpg`
+  — the **artwork** is PD-China (Qi Baishi, 1950), but the distributed JPG is a 2023
+  photograph by **Jean-Pierre Dalbéra** (Musée Cernuschi, Paris) licensed **CC BY 2.0**
+  (Flickr review 2023-02-06). Reuse requires credit to the photographer, the CC BY 2.0
+  license, a link to the deed, and an indication of changes. It is counted on the PD
+  side of the 701/38 *label* split but is one of the **39 file-level attribution
+  rows** in `rights-file-level.json` — the two accounts must not be conflated.
+- For definitive per-file reuse terms (including composite PD-artwork + CC-BY-photo
+  cases and PD-Art jurisdiction notes), consult
+  `knowledge/domains/painters/dossiers/_images/rights-file-level.json`; it is a
+  conservative project convention, not a global legal judgment.
 - The 744 images in the private layer (`_private/`, 57 artists, incl. Hopper, Kahlo,
   Kngwarreye, Namatjira, O'Keeffe, Rivera) are **copyright-uncleared research copies**
   and are not covered by this NOTICE; they are never redistributed.
@@ -72,5 +92,6 @@ Notes:
 ## AI provenance
 
 - Portions of this repository's text, code, and images were produced with AI
-  agents (see `docs/WORKFLOW.md`); all outputs pass the repository's evidence
-  and verification protocols.
+  agents (see `docs/WORKFLOW.md`). Verification records distinguish implementation,
+  executed checks, model review and pending human evaluation; an archived receipt
+  does not by itself verify every present-day claim or artifact.

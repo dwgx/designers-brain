@@ -1,0 +1,307 @@
+[
+ [
+  {
+   "col": 0,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 1,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 2,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 3,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 4,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 5,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 6,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 7,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 8,
+   "row": 0,
+   "touched": false
+  },
+  {
+   "col": 9,
+   "row": 0,
+   "touched": false
+  }
+ ],
+ [
+  {
+   "col": 0,
+   "row": 1,
+   "touched": false
+  },
+  {
+   "col": 1,
+   "row": 1,
+   "mean_lum": 45.722,
+   "ramp_index": 2,
+   "glyph": ".",
+   "glyph_coverage": 0.041667
+  },
+  {
+   "col": 2,
+   "row": 1,
+   "mean_lum": 136.382,
+   "ramp_index": 5,
+   "glyph": "+",
+   "glyph_coverage": 0.104167
+  },
+  {
+   "col": 3,
+   "row": 1,
+   "mean_lum": 100.438,
+   "ramp_index": 4,
+   "glyph": "=",
+   "glyph_coverage": 0.083333
+  },
+  {
+   "col": 4,
+   "row": 1,
+   "mean_lum": 114.583,
+   "ramp_index": 4,
+   "glyph": "=",
+   "glyph_coverage": 0.083333
+  },
+  {
+   "col": 5,
+   "row": 1,
+   "mean_lum": 140.417,
+   "ramp_index": 5,
+   "glyph": "+",
+   "glyph_coverage": 0.104167
+  },
+  {
+   "col": 6,
+   "row": 1,
+   "touched": false
+  },
+  {
+   "col": 7,
+   "row": 1,
+   "touched": false
+  },
+  {
+   "col": 8,
+   "row": 1,
+   "touched": false
+  },
+  {
+   "col": 9,
+   "row": 1,
+   "touched": false
+  }
+ ],
+ [
+  {
+   "col": 0,
+   "row": 2,
+   "touched": false
+  },
+  {
+   "col": 1,
+   "row": 2,
+   "mean_lum": 118.014,
+   "ramp_index": 4,
+   "glyph": "=",
+   "glyph_coverage": 0.083333
+  },
+  {
+   "col": 2,
+   "row": 2,
+   "mean_lum": 245.0,
+   "ramp_index": 9,
+   "glyph": "@",
+   "glyph_coverage": 0.368056
+  },
+  {
+   "col": 3,
+   "row": 2,
+   "mean_lum": 167.972,
+   "ramp_index": 6,
+   "glyph": "*",
+   "glyph_coverage": 0.125
+  },
+  {
+   "col": 4,
+   "row": 2,
+   "mean_lum": 114.583,
+   "ramp_index": 4,
+   "glyph": "=",
+   "glyph_coverage": 0.083333
+  },
+  {
+   "col": 5,
+   "row": 2,
+   "mean_lum": 140.417,
+   "ramp_index": 5,
+   "glyph": "+",
+   "glyph_coverage": 0.104167
+  },
+  {
+   "col": 6,
+   "row": 2,
+   "touched": false
+  },
+  {
+   "col": 7,
+   "row": 2,
+   "touched": false
+  },
+  {
+   "col": 8,
+   "row": 2,
+   "touched": false
+  },
+  {
+   "col": 9,
+   "row": 2,
+   "touched": false
+  }
+ ],
+ [
+  {
+   "col": 0,
+   "row": 3,
+   "touched": false
+  },
+  {
+   "col": 1,
+   "row": 3,
+   "mean_lum": 51.25,
+   "ramp_index": 2,
+   "glyph": ".",
+   "glyph_coverage": 0.041667
+  },
+  {
+   "col": 2,
+   "row": 3,
+   "mean_lum": 151.528,
+   "ramp_index": 5,
+   "glyph": "+",
+   "glyph_coverage": 0.104167
+  },
+  {
+   "col": 3,
+   "row": 3,
+   "mean_lum": 106.118,
+   "ramp_index": 4,
+   "glyph": "=",
+   "glyph_coverage": 0.083333
+  },
+  {
+   "col": 4,
+   "row": 3,
+   "mean_lum": 114.583,
+   "ramp_index": 4,
+   "glyph": "=",
+   "glyph_coverage": 0.083333
+  },
+  {
+   "col": 5,
+   "row": 3,
+   "mean_lum": 140.417,
+   "ramp_index": 5,
+   "glyph": "+",
+   "glyph_coverage": 0.104167
+  },
+  {
+   "col": 6,
+   "row": 3,
+   "touched": false
+  },
+  {
+   "col": 7,
+   "row": 3,
+   "touched": false
+  },
+  {
+   "col": 8,
+   "row": 3,
+   "touched": false
+  },
+  {
+   "col": 9,
+   "row": 3,
+   "touched": false
+  }
+ ],
+ [
+  {
+   "col": 0,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 1,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 2,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 3,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 4,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 5,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 6,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 7,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 8,
+   "row": 4,
+   "touched": false
+  },
+  {
+   "col": 9,
+   "row": 4,
+   "touched": false
+  }
+ ]
+]

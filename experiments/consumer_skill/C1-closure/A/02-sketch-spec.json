@@ -1,0 +1,142 @@
+{
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "created_at_utc": "2026-11-17T22:55:49.301971+00:00",
+  "topic": "夜班种子库检验台上一个打开的布质样本袋；后排闭合样本容器退入灰底。",
+  "canvas": {
+    "width": 960,
+    "height": 640
+  },
+  "focus": {
+    "x": 573,
+    "y": 317,
+    "normalized": [
+      0.596875,
+      0.4953125
+    ],
+    "region": [
+      508,
+      282,
+      641,
+      352
+    ]
+  },
+  "palette": {
+    "dark": "#404040",
+    "middle": "#888888",
+    "light": "#d0d0d0"
+  },
+  "light_direction": "Single upper-left soft illumination as the planned cause of the mass grouping; no second visible light source.",
+  "weak_edges": [
+    {
+      "edge_id": "E1",
+      "location": "布袋右下背光外缘",
+      "polyline": [
+        [
+          638,
+          380
+        ],
+        [
+          672,
+          412
+        ],
+        [
+          663,
+          460
+        ],
+        [
+          631,
+          493
+        ]
+      ],
+      "implementation": "bag-shadow-side-lost-edge 与 inspection-surface 同为 #888888，右下外缘局部消失；不补轮廓。",
+      "why": "module L75 中档说明阴影一侧边缘化开、亮部保留结构；这是三值起稿的同值合并近似。"
+    },
+    {
+      "edge_id": "E2",
+      "location": "后排中部样本容器的上沿和侧壁",
+      "polyline": [
+        [
+          312,
+          224
+        ],
+        [
+          344,
+          210
+        ],
+        [
+          374,
+          224
+        ],
+        [
+          374,
+          287
+        ]
+      ],
+      "implementation": "rear-container-hidden-body 与背景同为 #888888；只以邻近可见容器碎边暗示后排存在，不逐件勾线。",
+      "why": "learning path L95 远层软化边缘并降对比；灰阶里仅保留对比/边缘部分，未声称检验色相与饱和指标。"
+    },
+    {
+      "edge_id": "E3",
+      "location": "远右货架水平边",
+      "polyline": [
+        [
+          688,
+          245
+        ],
+        [
+          860,
+          245
+        ],
+        [
+          860,
+          270
+        ],
+        [
+          688,
+          270
+        ]
+      ],
+      "implementation": "far-shelf-merged 与背景同值，整段不出现独立暗线。",
+      "why": "防止远处长直边与袋口争夺注意；这是基于边缘取舍作出的消费者构图决定。"
+    },
+    {
+      "edge_id": "E4",
+      "location": "前景折布的亮面边缘",
+      "polyline": [
+        [
+          281,
+          442
+        ],
+        [
+          358,
+          416
+        ],
+        [
+          431,
+          436
+        ]
+      ],
+      "implementation": "只保留暗折痕，亮面仍用中灰，不把次要折布提升为第二块亮区。",
+      "why": "维持袋口局部明暗邻接的主次；这是本次焦点设计的推论。"
+    }
+  ],
+  "kept_edges": [
+    {
+      "location": "受光袋口上缘与暗袋口相邻",
+      "purpose": "焦点及袋口朝向的结构信息"
+    },
+    {
+      "location": "近处台沿的暗中分界",
+      "purpose": "说明承托平面，但没有亮值，避免复制焦点的明暗组合"
+    }
+  ],
+  "relation_check_before_cue": "SVG几何与标注实现了以上取舍；尚未观察栅格结果，不声称视觉检查已通过。",
+  "full_style_rules_not_tested": [
+    "连续灰度过渡带",
+    "人物区域Canny连续链",
+    "远景蓝相与饱和度变化",
+    "Laplacian阈值",
+    "真人焦点识别或审美接受"
+  ]
+}

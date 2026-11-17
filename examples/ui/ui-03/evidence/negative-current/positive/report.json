@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "case": "UI-03",
+  "started_utc": "2026-11-17T22:14:19.941324+00:00",
+  "layers": {
+    "geometry": {
+      "algorithm": "Pillow exact RGB channel difference; zero channel tolerance; not pixelmatch",
+      "viewport": {
+        "width": 320,
+        "height": 200,
+        "dpr": 1
+      },
+      "screenshots": [
+        {
+          "path": "default.png",
+          "sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+          "bytes": 2740,
+          "width": 320,
+          "height": 200
+        },
+        {
+          "path": "hover.png",
+          "sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+          "bytes": 4048,
+          "width": 320,
+          "height": 200
+        },
+        {
+          "path": "dark.png",
+          "sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+          "bytes": 2701,
+          "width": 320,
+          "height": 200
+        },
+        {
+          "path": "default-recheck.png",
+          "sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+          "bytes": 2740,
+          "width": 320,
+          "height": 200
+        }
+      ],
+      "diffs": [
+        {
+          "comparison": "default_vs_hover",
+          "changed_pixels": 7829,
+          "total_pixels": 64000,
+          "expected": "different",
+          "ok": true,
+          "diff_path": "diff-default-hover.png",
+          "sha256": "f0168eff5469f87ace39ff90b43f0ab0c48e7b1658735bb32940f675cf95b048"
+        },
+        {
+          "comparison": "default_vs_dark",
+          "changed_pixels": 59528,
+          "total_pixels": 64000,
+          "expected": "different",
+          "ok": true,
+          "diff_path": "diff-default-dark.png",
+          "sha256": "d3b87dfc00f2351831cf5149eb37efb37a5724293b45a246d2652ef9502b9620"
+        },
+        {
+          "comparison": "default_vs_default-recheck",
+          "changed_pixels": 0,
+          "total_pixels": 64000,
+          "expected": "identical",
+          "ok": true,
+          "diff_path": "diff-default-default-recheck.png",
+          "sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd"
+        }
+      ],
+      "ok": true
+    },
+    "behavior": {
+      "method": "CDP Input.dispatchMouseEvent/Input.dispatchKeyEvent; no JS dispatchEvent",
+      "checks": [
+        {
+          "id": "CDP_pointer_exactly_once",
+          "ok": true,
+          "actual": {
+            "count": 1,
+            "pressed": true,
+            "disabled": false
+          }
+        },
+        {
+          "id": "CDP_Tab_reaches_visible_focus",
+          "ok": true,
+          "actual": {
+            "id": "counter",
+            "focusVisible": true,
+            "outline": "solid",
+            "width": 3
+          }
+        },
+        {
+          "id": "CDP_Enter_exactly_once",
+          "ok": true,
+          "actual": {
+            "count": 1,
+            "pressed": true,
+            "disabled": false
+          }
+        },
+        {
+          "id": "CDP_Space_exactly_once",
+          "ok": true,
+          "actual": {
+            "count": 2,
+            "pressed": false,
+            "disabled": false
+          }
+        },
+        {
+          "id": "CDP_disabled_pointer_noop",
+          "ok": true,
+          "actual": {
+            "count": 2,
+            "pressed": false,
+            "disabled": true
+          }
+        },
+        {
+          "id": "CDP_disabled_keyboard_noop",
+          "ok": true,
+          "actual": {
+            "count": 2,
+            "pressed": false,
+            "disabled": true
+          }
+        }
+      ],
+      "ok": true
+    },
+    "semantics": {
+      "method": "live DOM contract, not a full accessibility-tree audit",
+      "actual": {
+        "counterCount": 1,
+        "tag": "button",
+        "type": "button",
+        "role": null,
+        "ariaPressed": "false",
+        "name": "Add one to the counter",
+        "expectedName": "Add one to the counter",
+        "text": "Add one",
+        "visible": true,
+        "disabled": true,
+        "pressed": false,
+        "stateDisabled": true,
+        "outputCount": 1,
+        "outputTag": "output",
+        "live": "polite",
+        "outputText": "2",
+        "stateCount": 2
+      },
+      "ok": true
+    },
+    "model_aesthetic": {
+      "status": "untested"
+    },
+    "human": {
+      "status": "pending_human"
+    }
+  },
+  "ok": true,
+  "scope": "same-process geometry + browser CDP input + live DOM contract; not aesthetic/WCAG/user-goal approval",
+  "source_hashes": {
+    "fixture/index.html": "5dcf317a4d645dfbe815861da7f4caf01f00527daada756b3cd869af93f9fef6",
+    "fixture/component.js": "14145c518ec36c3dfd261fa2c9c747a4d98b6a9c8bcc04ec19c1e091545397f7",
+    "fixture/run_visual.py": "ba383f0ccebed9a69aae5e3e9069647f9b9a57d59b3284af6206b209d5ee3c5f",
+    "cdp_util.py": "35bf473e95c70a92f32e9a5b1d57830cd839772ae226e2e64ef41ded0a30c379",
+    "chrome_util.py": "ca1ef06d85f47c0afc24987b3f260c51f6c2f42688f3661d0e0b862873bbfeac"
+  },
+  "fixture_override": true,
+  "environment": {
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/157.0.8103.79",
+      "revision": "@6dc9bc3bdaea5c35ed6d41fceab2f7a3a2227c4f",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "jsVersion": "15.7.112.43"
+    },
+    "transport": "websocket-client",
+    "python": "3.14.7",
+    "pillow": "12.3.0"
+  },
+  "finished_utc": "2026-11-17T22:14:21.522145+00:00",
+  "exit_code": 0
+}

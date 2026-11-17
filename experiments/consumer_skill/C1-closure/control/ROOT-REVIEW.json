@@ -1,0 +1,27 @@
+{
+  "observed_at_utc": "2026-11-17T23:11:24.364879+00:00",
+  "reviewer": "root",
+  "independent_from_consumer": true,
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "consumer_receipt_sha256": "490c7274d02a24dded517e985515f63ac93daba0369e816fdfead98c64a5b719",
+  "consumer_result_sha256": "c5d193c542548413fb5ccb84263cb87f6e46beacac883b1443716ebfbf9871dd",
+  "all_49_manifest_entries_byte_verified": true,
+  "stage_a_manifest_entries_verified": 15,
+  "pre_holdout_locked_entries_verified": 5,
+  "protocol_complete": true,
+  "root_case_verdict": "failed",
+  "h1": "partial",
+  "h2": "limited_boundary_observation_supported",
+  "human_review": null,
+  "publication_acceptance_of_general_capability": false,
+  "root_actually_viewed": [
+    "B/A-render.png",
+    "B/B-render.png"
+  ],
+  "visual_finding": "A reads as a pot/jar more readily than a cloth sample bag; B over-merges its rear body with the background. Local light/dark adjacency is visible, but form readability is insufficient.",
+  "reading_scope_correction": "Eight blob identities were checked. Six bodies/ranges were actually exposed: four of the six public navigation entries plus da_vinci learning_path and module. SKILL.md and LEARNING-INDEX.json were identity-checked only, not semantically consumed.",
+  "input_version_scope": "Frozen e0cfe964/ae4a28ae snapshot. Final-publication deltas must be checked separately; no claim this run executed the final release HEAD.",
+  "mechanical_scope": "Local palette/ROI/one edge cross-section and actual altered-outline rejection. Not sfumato, visual attention, causal learning, full-library generalization, or human aesthetics.",
+  "feedback_scope": "Root saw the sealed images and reported the same readability limitations before final receipt; no locked image or criterion changed. Author self-review and root decision are distinguished."
+}

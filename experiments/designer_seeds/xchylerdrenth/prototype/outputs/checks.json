@@ -1,0 +1,177 @@
+{
+  "T1_structure_edges_from_svg_paths": {
+    "passed": true,
+    "per_config": {
+      "flat_base": {
+        "count": 10,
+        "matches_canonical": true
+      },
+      "persp_base": {
+        "count": 10,
+        "matches_canonical": true
+      },
+      "persp_d18": {
+        "count": 10,
+        "matches_canonical": true
+      },
+      "persp_code": {
+        "count": 10,
+        "matches_canonical": true
+      },
+      "persp_d40": {
+        "count": 10,
+        "matches_canonical": true
+      }
+    },
+    "note": "parsed from output <path data-role=structure-edge>; code/dot switches keep exactly 10 edges",
+    "read_from": "actual output SVG paths (NOT input G)"
+  },
+  "T2_VP_only_on_depth_parallel_lines": {
+    "passed": true,
+    "per_config": {
+      "flat_base": {
+        "status": "N/A",
+        "reason": "flat grid: no depth-parallel lines"
+      },
+      "persp_base": {
+        "status": "measured",
+        "vp": [
+          256.0,
+          70.0
+        ],
+        "residual_px": 0.0,
+        "n_lines": 6,
+        "pass": true
+      },
+      "persp_d18": {
+        "status": "measured",
+        "vp": [
+          256.0,
+          70.0
+        ],
+        "residual_px": 0.0,
+        "n_lines": 6,
+        "pass": true
+      },
+      "persp_code": {
+        "status": "measured",
+        "vp": [
+          256.0,
+          70.0
+        ],
+        "residual_px": 0.0,
+        "n_lines": 6,
+        "pass": true
+      },
+      "persp_d40": {
+        "status": "measured",
+        "vp": [
+          256.0,
+          70.0
+        ],
+        "residual_px": 0.0,
+        "n_lines": 6,
+        "pass": true
+      }
+    },
+    "vp_residual_if_wrongly_using_structure_edges_px": 5136.82,
+    "note": "VP estimated ONLY from depth-line paths; structure-edge family is non-concurrent (large residual) -> must NOT be used; flat = N/A",
+    "read_from": "actual SVG depth-line path endpoints"
+  },
+  "T3_occlusion_from_png_overlap": {
+    "passed": true,
+    "per_config_overlap": {
+      "flat_base": {
+        "front": 2401,
+        "back": 0,
+        "total": 2500,
+        "front_ratio": 0.9604,
+        "back_ratio": 0.0
+      },
+      "persp_base": {
+        "front": 2401,
+        "back": 0,
+        "total": 2500,
+        "front_ratio": 0.9604,
+        "back_ratio": 0.0
+      },
+      "persp_d18": {
+        "front": 2401,
+        "back": 0,
+        "total": 2500,
+        "front_ratio": 0.9604,
+        "back_ratio": 0.0
+      },
+      "persp_code": {
+        "front": 2401,
+        "back": 0,
+        "total": 2500,
+        "front_ratio": 0.9604,
+        "back_ratio": 0.0
+      },
+      "persp_d40": {
+        "front": 2401,
+        "back": 0,
+        "total": 2500,
+        "front_ratio": 0.9604,
+        "back_ratio": 0.0
+      }
+    },
+    "note": "z judged from real PNG pixels in overlap rect, not a z-order field",
+    "read_from": "actual PNG overlap bytes"
+  },
+  "T4_pseudo_edge_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "parsed_edge_count": 11,
+    "extra_edge_present": true,
+    "verdict": "FAILED (topology: fake structure edge from decoration dot)",
+    "detected_from_real_bytes": true
+  },
+  "T5_bad_VP_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "depth_line_residual_px": 460.01,
+    "threshold_px": 2.0,
+    "verdict": "FAILED (VP: one depth line endpoint moved, lines non-concurrent)",
+    "detected_from_real_bytes": true
+  },
+  "T6_wrong_z_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "overlap_colors": {
+      "front": 0,
+      "back": 2500,
+      "total": 2500,
+      "front_ratio": 0.0,
+      "back_ratio": 1.0
+    },
+    "verdict": "FAILED (occlusion: background card drawn on top)",
+    "detected_from_real_bytes": true
+  },
+  "T7_positive_configs_not_all_rejected": {
+    "passed": true,
+    "configs_passing_applicable_checks": 5,
+    "note": "all 5 configs pass structure + (applicable) VP + occlusion"
+  },
+  "_summary": {
+    "positive_checks": [
+      "T1_structure_edges_from_svg_paths",
+      "T2_VP_only_on_depth_parallel_lines",
+      "T3_occlusion_from_png_overlap",
+      "T7_positive_configs_not_all_rejected"
+    ],
+    "negative_controls": [
+      "T4_pseudo_edge_DETECTED",
+      "T5_bad_VP_DETECTED",
+      "T6_wrong_z_DETECTED"
+    ],
+    "configs": 5,
+    "single_fault_cases": 3,
+    "image_count": 8,
+    "image_cap": 8,
+    "all_positive_pass": true,
+    "all_negative_controls_detected": true,
+    "verifier_reads_actual_svg_and_png": true
+  }
+}

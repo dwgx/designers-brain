@@ -1,0 +1,67 @@
+{
+  "behavior": [
+    {
+      "id": "B1_pointer_click_increments",
+      "ok": true,
+      "detail": "count 0->1, pressed=true"
+    },
+    {
+      "id": "B2_keyboard_activates",
+      "ok": true,
+      "detail": "count=1, pressed=true"
+    },
+    {
+      "id": "B3_disabled_blocks_activation",
+      "ok": true,
+      "detail": "state unchanged=true, count=0"
+    },
+    {
+      "id": "B4_reenable_restores_activation",
+      "ok": true,
+      "detail": "count=1, disabled=false"
+    },
+    {
+      "id": "B5_invalid_action_noop",
+      "ok": true,
+      "detail": "unchanged=true"
+    }
+  ],
+  "semantics": [
+    {
+      "id": "S1_role_button",
+      "ok": true,
+      "detail": "unique #counter count=1, tag=button, type=button"
+    },
+    {
+      "id": "S2_aria_pressed_present",
+      "ok": true,
+      "detail": "target aria-pressed=false"
+    },
+    {
+      "id": "S3_accessible_name_present",
+      "ok": true,
+      "detail": "target aria-label=Add one to the counter"
+    },
+    {
+      "id": "S4_live_output_present",
+      "ok": true,
+      "detail": "unique #count count=1, tag=output"
+    },
+    {
+      "id": "S5_visible_text_label",
+      "ok": true,
+      "detail": "parsed target text=Add one"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "behavior_total": 5,
+    "behavior_passed": 5,
+    "semantics_total": 5,
+    "semantics_passed": 5,
+    "node": "v24.19.0",
+    "cwd": "."
+  }
+}

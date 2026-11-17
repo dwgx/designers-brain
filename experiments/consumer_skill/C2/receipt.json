@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "artifact_class": "consumer_case_result_receipt_not_acceptance",
+  "case_id": "C2",
+  "attempt_id": "P4R-C2-20261117T123432",
+  "task_id": "SKILL-S06",
+  "author_model_observation": "requested=buddyfarm/hy4flash-free (from binding); served/provider model not independently observable -> unknown. Declared value is not a measurement.",
+  "requested_model": "buddyfarm/hy4flash-free",
+  "served_model": "unknown",
+  "requested_effort": "xhigh",
+  "final_commit": "c35d748e1cc9f23415fff0bf019a9c03234c421e",
+  "final_tree": "fb24565b02597057784cbeed23f70ba657711804",
+  "case_verdict": "success",
+  "case_verdict_scope": "bounded: sealed Stage A artifact and Stage B seal-verified continuation both completed with real recorded evidence for this candidate/attempt only; not independent acceptance, publication, or human/aesthetic/full-library claim",
+  "author_submits_not_accepts": true,
+  "completed_at_utc": "2026-11-17T12:44:36.155504+00:00",
+  "clock_source": "local python datetime.now(timezone.utc); author self-reported, not a Root observation",
+
+  "hard_guards": {
+    "goal_sha256": "a2777c12cf9c3314050e07f962c95b5de506bdf3dbe2bac233dde2e9075d6444",
+    "binding_path": "staging/P4R-ROOT-CTRL/P4R-C2-20261117T123432/consumer-binding-C2.json",
+    "binding_sha256": "075913f4571eecdc3194227d576cc4a37c76228e6c4bbb5a6d4fea9f44bfa351",
+    "binding_status": "bound",
+    "head": "c35d748e1cc9f23415fff0bf019a9c03234c421e",
+    "tree": "fb24565b02597057784cbeed23f70ba657711804",
+    "worktree_clean": true,
+    "entrypoints_verified": 8,
+    "entrypoints_all_match_sha_and_bytes": true
+  },
+
+  "stage_a": {
+    "dir": "staging/P4R-CONSUMERS/P4R-C2-20261117T123432/A",
+    "files": [
+      {"path": "A/unaided-selection.json", "sha256": "7a39a8049b2afdc4f7cc3ab31c9934a726a6f43a4c2c823f1675b110d673565f", "bytes": 10581},
+      {"path": "A/retrieval-log.md", "sha256": "7c6a1f9cabf958d35067906e98cfd5135745928d93b1167e70e4e3ccc4301e40", "bytes": 7146},
+      {"path": "A/layout.json", "sha256": "a63161154c1bd631a1b77268ac13afb1949572b2e7f00e1e57a39400a7230f52", "bytes": 3328},
+      {"path": "A/layout.html", "sha256": "fe9f83c85435619a4bd1596dce755d7ed811aa520472cff8ec65fbd6ae2af5e0", "bytes": 4022},
+      {"path": "A/check_layout.py", "sha256": "c68dcf16f7d6b0dedeb9ed680c9f53143c75275ed0443138f9064a31233cb3dd", "bytes": 5894},
+      {"path": "A/check-output.json", "sha256": "7fcb4e14904f1c3f703bc1f564b725ad8acdc9c26a97c4d763ebb304c17a0051", "bytes": 3114},
+      {"path": "A/manifest.json", "sha256": "fd1c777075d8a03706b2df7ac1508e2c822828bc990e929323db5f9b90a6993a", "bytes": 1707},
+      {"path": "A/READY.json", "sha256": "d78c53b74b82bb6a3fb72aa40ae36c31f55dc994b01532ff4a9cd0b8916e8509", "bytes": 733}
+    ],
+    "ready_line": "READY C2 P4R-C2-20261117T123432 fd1c777075d8a03706b2df7ac1508e2c822828bc990e929323db5f9b90a6993a",
+    "manifest_sha256": "fd1c777075d8a03706b2df7ac1508e2c822828bc990e929323db5f9b90a6993a",
+    "self_check_exit_code": 0,
+    "self_check_pass_count": 14,
+    "self_check_total_count": 14,
+    "a_files_still_match_manifest_at_final_check": true
+  },
+
+  "root_seal_and_cue": {
+    "cue_detected_at_poll": 7,
+    "cue_poll_interval_seconds": 20,
+    "cue_poll_max_count": 24,
+    "cue_sha256": "bda52a67b260498858cacf5b511365bf23de48dea20c4a30313901b15348bce2",
+    "a_seal_sha256": "fad3f4527447f5b1450c918fce557b73de55690f73f94680d59910bf1f12c72d",
+    "cue_action": "continue",
+    "cue_issued_at_utc": "2026-11-17T12:41:48.017440Z",
+    "verification_run_before_reading_instructions": true,
+    "verification_checks_total": 30,
+    "verification_checks_passed": 30,
+    "verification_result": "VERIFY_OK",
+    "verification_covered": [
+      "A-SEAL byte sha == cue.root_seal_sha256",
+      "case/attempt/commit/tree/binding SHA match across cue, A-SEAL, my constants",
+      "manifest SHA match across cue, A-SEAL, READY and recomputed file",
+      "A files three-way SHA match (READY/manifest/A-SEAL)",
+      "observed_at_utc and issued_at_utc tz-aware UTC, issued >= observed",
+      "candidate HEAD/tree/clean still match",
+      "all 8 public entrypoint SHA/bytes still bound"
+    ],
+    "source_snapshot": [
+      {"path": "knowledge/CAPABILITIES.json", "sha256": "0cfed044806dbde332d79ae837c6f9a3b01e9427ef5b1248a0c508ec04eac87e"},
+      {"path": "knowledge/cross/conflicts.md", "sha256": "a5718276ff612c55586a99760cfe7416fae8a706b89b677b442c92dd6ec06cfa"}
+    ]
+  },
+
+  "stage_b": {
+    "dir": "staging/P4R-CONSUMERS/P4R-C2-20261117T123432/B",
+    "response_md_sha256": "19e77114dc6a48318a20033eb7526700c6bb4bcd3dce0661c8eb754f469a1b61",
+    "response_md_bytes": 10579,
+    "checker_sha256": "46d9635503aa4ce0a194343254dc86334d65c952f55d5ce7213337bea12d42fb",
+    "hint_level": "bounded continuation directive on sealed artifact; no new mechanism supplied",
+    "runs": [
+      {
+        "name": "positive_own_layout",
+        "argv": "python B/check_runner.py --input-dir B/cases/positive --out B/runs/positive.stdout.txt",
+        "exit_code": 0,
+        "stdout_sha256": "e6ebc20873c2d52d4305a1cb1f5d279ec89a6349777b423fe0a2aba774b3e721",
+        "stdout_bytes": 2317,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_bytes": 0,
+        "stdout_verdict": "PASS (16 checks, 0 failed)",
+        "expected": "exit 0 + PASS",
+        "consistent": true
+      },
+      {
+        "name": "known_fault_neg_role",
+        "argv": "python B/check_runner.py --input-dir B/cases/neg_role --out B/runs/neg_role.stdout.txt",
+        "exit_code": 1,
+        "stdout_sha256": "662c6109fa9984bb39b3d1e7d27032ae82dee219cb923e9046b83bb836de0bed",
+        "stdout_bytes": 2185,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_bytes": 0,
+        "stdout_verdict": "FAIL (15 checks, 2 failed: pure_style_top_role_is_decoration, variants_differ_only_in_binding)",
+        "expected": "nonzero + FAIL",
+        "consistent": true
+      },
+      {
+        "name": "known_fault_neg_budget",
+        "argv": "python B/check_runner.py --input-dir B/cases/neg_budget --out B/runs/neg_budget.stdout.txt",
+        "exit_code": 1,
+        "stdout_sha256": "f097c9cb20abff96b0232dfbb0f6db634cb63645ef6d48677f40643de054f617",
+        "stdout_bytes": 2325,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_bytes": 0,
+        "stdout_verdict": "FAIL (16 checks, 1 failed: salience_within_budget_cap over=['S1'])",
+        "expected": "nonzero + FAIL",
+        "consistent": true
+      },
+      {
+        "name": "missing_input",
+        "argv": "python B/check_runner.py --input-dir B/cases/missing --out B/runs/missing.stdout.txt",
+        "exit_code": 2,
+        "stdout_sha256": "73e2d127c1590269f2eae5327638fbd4223eee963a333ea4b38ea740fd51171b",
+        "stdout_bytes": 891,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_bytes": 0,
+        "stdout_verdict": "FAIL (FileNotFoundError: ...layout.json; input impossible to evaluate; no silent pass)",
+        "expected": "nonzero, clean error, no silent pass",
+        "consistent": true
+      },
+      {
+        "name": "positive_repeat_AA",
+        "argv": "python B/check_runner.py --input-dir B/cases/positive --out B/runs/positive_repeat.stdout.txt",
+        "exit_code": 0,
+        "stdout_sha256": "54e4839e2ab804e6cb670e163615a93c8e1f86b0af306fb37d7ed811aa520472cffba",
+        "stdout_bytes": 2324,
+        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stderr_bytes": 0,
+        "stdout_verdict": "PASS (16 checks, 0 failed)",
+        "expected": "same verdict as positive run 1",
+        "consistent": true
+      }
+    ],
+    "aa_decision_lines_sha256": "f9a833bd708dfa4810c248a6430d8c768652d624f74dca33a6e9a32f2dffa20b",
+    "aa_decision_lines_identical": true,
+    "aa_note": "Raw stdout differs only in echoed --out filename and timestamp; decision lines ([PASS]/[FAIL]/TOTAL/RESULT) byte-identical.",
+    "threshold_provenance": {
+      "sourced": [
+        "CAPABILITIES.json L17837 (roktim___ roles)",
+        "CAPABILITIES.json L17839-17840 (limitations cap all claims)",
+        "conflicts.md L314-315 (N3 single-owner)",
+        "conflicts.md L317-318 (N4 separable classes + partition)",
+        "conflicts.md L332-333 (N8 motion-budget field)",
+        "conflicts.md L166-177 (C-09 event vs field, per-layer caps)",
+        "structure.md L15-19 (verification anchor)",
+        "determinism_contract.md L16-22 (C2-C5)",
+        "Goal L26 (3 Hz ceiling; no-flicker option allowed)"
+      ],
+      "self_declared_unsourced": [
+        "salience weights 0.45/0.25/0.30, contrast cap 7, accent +0.10, output cap 1.0",
+        "flashing_element_count=0 (design choice of no-flicker scheme)",
+        "salience_budget_cap test parameter (Stage B break-test hook)"
+      ],
+      "note": "Self-declared constants are labeled as such, never presented as sourced perceptual thresholds."
+    }
+  },
+
+  "channel_labels": {
+    "text_or_declared_counterexample_present": true,
+    "program_check_counterexample_executed": true,
+    "image_counterexample_present": false,
+    "image_seen": false,
+    "image_channel_available": false,
+    "note": "Text spec, program check, and image evidence are separate channels; no inference across channels."
+  },
+
+  "limitations": [
+    "No image-generation channel, browser, capture harness, or human reader test was run.",
+    "Static zero-flicker is verified at source-structure level only; rendered-timing flicker compliance is UNVERIFIED.",
+    "Salience numbers are declared design values, not perceptual measurements.",
+    "roktim limitations state fixture numbers are not product measurements and design quality/reader misinterpretation are unmeasured.",
+    "served/provider model not independently observable; requested model is from binding, not a measurement.",
+    "Result limited to this candidate commit/tree and case C2; not E2/E3, not accepted, not full-library."
+  ],
+
+  "not_run": [
+    "optional historical repair checker SUP/C2-ROOT-REPAIR-R1/check_layout.py (CUE item 4; explicitly non-penalized to skip; not read or copied)",
+    "no network probes, installs, large renders, new cases/experiments, or image API calls"
+  ],
+
+  "final_files": {
+    "RESULT.md": {"sha256": "877e27b997b509af531d47dbf684a7cb10d0deb7927149add9d42c3540c01b2a", "bytes": 6102},
+    "receipt.json": {"sha256": "self-referential-omitted", "bytes": "self-referential-omitted"}
+  }
+}

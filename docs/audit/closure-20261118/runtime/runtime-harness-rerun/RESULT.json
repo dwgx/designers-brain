@@ -1,0 +1,187 @@
+{
+  "scope": "Targeted actual rerun after isolated browser profiles / strict expected assertions / UTF-8 error reporting; four simultaneous UI subprocesses exercise profile independence.",
+  "commands": [
+    {
+      "name": "ui01-main",
+      "argv": [
+        "python",
+        "-B",
+        "_check.py"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\examples\\ui\\ui-01",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:04.044224+00:00",
+      "ended_utc": "2026-11-17T22:52:04.702047+00:00",
+      "stdout_sha256": "85577e95841956a0d24edd5a27989a32a80b792f65bb2a4dcc6cccf28fbb36ae",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": "elled and completed\r\n  PASS fixture records AG-UI truncation rule (no synthesized RUN_FINISHED, no false success)\r\n  PASS truncated run recorded as having NO outcome\r\n  PASS re-run of truncated run recorded as a NEW runId (not a resume)\r\n== 5. 3 concurrent tasks + per-task draft/unread/result ownership ==\r\n  PASS 3 concurrent task cards rendered\r\n  PASS T1 owns draft/unread/result fields\r\n  PASS T2 owns draft/unread/result fields\r\n  PASS T3 owns draft/unread/result fields\r\n  PASS cards carry per-task identity\r\n  PASS per-task draft/unread/result DOM ids are namespaced\r\n== 6. draft preservation on task switch ==\r\n  PASS T1 draft textarea set to draft-alpha-未发送\r\n  PASS T1 draft preserved AFTER switching away to T3\r\n  PASS T1 draft preserved AFTER switching back to T1\r\n  PASS T3 has its own (empty) draft, not T1's — ownership is per-task\r\n  PASS textarea value sourced from model on every render\r\n  PASS input writes draft back into model\r\n== 7. summary vs expandable evidence ==\r\n  PASS expandable evidence <details> present\r\n  PASS summary region present\r\n\r\nRESULT: ALL MECHANICAL CHECKS PASSED (119 assertions).\r\nNOT TESTED (human/visual): pixel rendering,审美/风格, 任务恢复易用性, 真实 IME, 长期生产率.\r\n",
+      "original_stdout_sha256": "24809cc9d1cffd5d56bfa6b48beceab0d743d08f5746dde6f2d474d6b1f0b99c",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-main.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-main.stderr.txt"
+    },
+    {
+      "name": "ui01-negative",
+      "argv": [
+        "python",
+        "-B",
+        "check_negative.py"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\examples\\ui\\ui-01",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:04.044414+00:00",
+      "ended_utc": "2026-11-17T22:52:07.018207+00:00",
+      "stdout_sha256": "01aca9f6013fbb3ea3e577f5d352557faf5c0d07aee67e262eaec54870e31864",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": "ransport)\r\nPOSITIVE clean fixture _check exit=0\r\n  RESULT: ALL MECHANICAL CHECKS PASSED (119 assertions).\r\n  PASS pristine fixture must PASS the real check\r\nN1_scripted_extra_advance _check exit=1\r\n  AssertionError: T2-after-1-advance/T2 data-state=waiting-for-input\r\n  PASS N1_scripted_extra_advance must fail with its intended assertion, not a harness error\r\nN2_scripted_wrong_task _check exit=1\r\n  AssertionError: T3-after-1-advance/T3 data-state=waiting-for-input\r\n  PASS N2_scripted_wrong_task must fail with its intended assertion, not a harness error\r\nN3_relabelled_truncation _check exit=1\r\n  AssertionError: T3-after-2-advances/T3 data-state=stream-interrupted\r\n  PASS N3_relabelled_truncation must fail with its intended assertion, not a harness error\r\nN4_rule_text_altered _check exit=1\r\n  AssertionError: fixture records AG-UI truncation rule (no synthesized RUN_FINISHED, no false success)\r\n  PASS N4_rule_text_altered must fail with its intended assertion, not a harness error\r\n\r\nRESULT: ALL NEGATIVE CONTROLS DETECTED; positive control passed.\r\nLIMITATION: this is a state-machine simulation. No live AG-UI/SSE\r\nreconnect/duplicate-event handling over a network transport is claimed.\r\n",
+      "original_stdout_sha256": "dbcf73564a1f3d912968a9a70cc08dce0c39d7ae39dc7eab2ac9c56bb0340bcd",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-negative.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-negative.stderr.txt"
+    },
+    {
+      "name": "ui02-main",
+      "argv": [
+        "python",
+        "-B",
+        "_check.py"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\examples\\ui\\ui-02",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:04.044598+00:00",
+      "ended_utc": "2026-11-17T22:52:04.736409+00:00",
+      "stdout_sha256": "6f16b058430579151678b92a83915e3d630844c2959ecd6785794e70641aa554",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": "IME PASS; OS-IME/visual: UNTESTED.\r\n== [CJK] CLREQ 2026-11-04 line-break / 禁则 rules (CSS vs untested) ==\r\n  PASS cjk_layout.json rule matrix present\r\n  PASS at least 3 CLREQ rules mapped to CSS properties (line-break/word-break/etc)\r\n  PASS at least 1 CLREQ rule honestly marked untested (not CSS-implementable here)\r\n  PASS CSS rule R1-line-start-basic cites clreq locator + CSS property\r\n  PASS CSS rule R2-line-end-opening cites clreq locator + CSS property\r\n  PASS CSS rule R3-strict-dash-ellipsis cites clreq locator + CSS property\r\n  PASS CSS rule R4-none-loose-reference cites clreq locator + CSS property\r\n  PASS CSS rule R5-word-break-cjk cites clreq locator + CSS property\r\n  CSS-implemented: R1-line-start-basic, R2-line-end-opening, R3-strict-dash-ellipsis, R4-none-loose-reference, R5-word-break-cjk\r\n  Untested: R6-unbreakable-marks, R7-punctuation-width-adjustment, R8-hanging-punctuation, R9-line-adjustment-justification, R10-han-western-mixed-spacing\r\n\r\nRESULT: ALL MECHANICAL CHECKS PASSED (63 assertions).\r\nNOT TESTED: OS-level CJK IME (Microsoft Pinyin / candidate window), pixel/visual rendering,\r\n            审美/风格, WCAG full conformance audit, real human keyboard usability.\r\n",
+      "original_stdout_sha256": "3179bbe280384f82dffe07852d142aea5c4c7e8f537577227e400e97c479e1a1",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-main.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-main.stderr.txt"
+    },
+    {
+      "name": "ui02-concurrent",
+      "argv": [
+        "python",
+        "-B",
+        "_check.py"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\examples\\ui\\ui-02",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:04.044859+00:00",
+      "ended_utc": "2026-11-17T22:52:04.740873+00:00",
+      "stdout_sha256": "6f16b058430579151678b92a83915e3d630844c2959ecd6785794e70641aa554",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": "IME PASS; OS-IME/visual: UNTESTED.\r\n== [CJK] CLREQ 2026-11-04 line-break / 禁则 rules (CSS vs untested) ==\r\n  PASS cjk_layout.json rule matrix present\r\n  PASS at least 3 CLREQ rules mapped to CSS properties (line-break/word-break/etc)\r\n  PASS at least 1 CLREQ rule honestly marked untested (not CSS-implementable here)\r\n  PASS CSS rule R1-line-start-basic cites clreq locator + CSS property\r\n  PASS CSS rule R2-line-end-opening cites clreq locator + CSS property\r\n  PASS CSS rule R3-strict-dash-ellipsis cites clreq locator + CSS property\r\n  PASS CSS rule R4-none-loose-reference cites clreq locator + CSS property\r\n  PASS CSS rule R5-word-break-cjk cites clreq locator + CSS property\r\n  CSS-implemented: R1-line-start-basic, R2-line-end-opening, R3-strict-dash-ellipsis, R4-none-loose-reference, R5-word-break-cjk\r\n  Untested: R6-unbreakable-marks, R7-punctuation-width-adjustment, R8-hanging-punctuation, R9-line-adjustment-justification, R10-han-western-mixed-spacing\r\n\r\nRESULT: ALL MECHANICAL CHECKS PASSED (63 assertions).\r\nNOT TESTED: OS-level CJK IME (Microsoft Pinyin / candidate window), pixel/visual rendering,\r\n            审美/风格, WCAG full conformance audit, real human keyboard usability.\r\n",
+      "original_stdout_sha256": "3179bbe280384f82dffe07852d142aea5c4c7e8f537577227e400e97c479e1a1",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-concurrent.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-concurrent.stderr.txt"
+    },
+    {
+      "name": "rights-positive",
+      "argv": [
+        "python",
+        "-B",
+        "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\tools\\check_image_rights.py"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:07.018839+00:00",
+      "ended_utc": "2026-11-17T22:52:07.094774+00:00",
+      "stdout_sha256": "634f58e36edfe4bb1ca807a1467aa2fa52853d7b85e47d8676d92b9c63f4bfc7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": "o_yoka.jpg', 'ito_jakuchu/shoubai_gunkei_zu_byobu.jpg', 'ito_jakuchu/kaiboji_gunkei_zu.jpg', 'ito_jakuchu/ishidoro_zu_byobu.jpg', 'mucha/le_pater_1899.jpg', 'kandinsky/blaue_reiter_almanac_cover_1912.jpg', 'degas/combing_the_hair_1896.jpg', 'piero_della_francesca/diptych_federico_battista.jpg', 'piero_della_francesca/diptych_reverse_triumphs.jpg', 'piero_della_francesca/madonna_di_senigallia.jpg', 'fan_kuan/wanghui_fa_fankuan.jpg', 'qiu_ying/han_palace_d_konghou.jpg', 'qiu_ying/han_palace_d_serving_ladies.jpg', 'qiu_ying/han_palace_d_stairs_attendant.jpg', 'qiu_ying/han_palace_full_scroll.jpg', 'qiu_ying/han_palace_s06_peacock_kids.jpg', 'qiu_ying/han_palace_s08_flower_picking.jpg', 'qiu_ying/han_palace_s12_doucao_reading.jpg', 'xu_wei/zahua_scroll_colophon.jpg', 'xu_wei/zahua_scroll_leaves.jpg', 'xu_wei/zahua_scroll_peony.jpg', 'xu_wei/zahua_scroll_pomegranate.jpg', 'kitagawa_utamaro/fujin_sogaku_juttai_uwaki.jpg', 'kitagawa_utamaro/musume_hidokei_uma.jpg', 'kitagawa_utamaro/takashima_ohisa_fan.jpg', 'kitagawa_utamaro/toji_zensei_bijin_takigawa.jpg', 'kitagawa_utamaro/yamauba_kintaro_kurieda.jpg']\r\nRESULT: OK — rights-file-level.json consistent with manifest; no unexpected rows.\r\n",
+      "original_stdout_sha256": "e4b7052be7a8300578a0d1bf598cb87de67520485fe91b890f9ad269195122ca",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-positive.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-positive.stderr.txt"
+    },
+    {
+      "name": "rights-wrong-path",
+      "argv": [
+        "python",
+        "-B",
+        "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\tools\\check_image_rights.py",
+        "--json",
+        "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\web-review\\foundation-final-run\\rights-wrong-path.json"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:07.095048+00:00",
+      "ended_utc": "2026-11-17T22:52:07.168133+00:00",
+      "stdout_sha256": "9ad6b94d509ffc56519f12fa1ace6ad935015deebe431f4b282cc300cb19f90d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": "iter_almanac_cover_1912.jpg', 'degas/combing_the_hair_1896.jpg', 'piero_della_francesca/diptych_federico_battista.jpg', 'piero_della_francesca/diptych_reverse_triumphs.jpg', 'piero_della_francesca/madonna_di_senigallia.jpg', 'fan_kuan/wanghui_fa_fankuan.jpg', 'qiu_ying/han_palace_d_konghou.jpg', 'qiu_ying/han_palace_d_serving_ladies.jpg', 'qiu_ying/han_palace_d_stairs_attendant.jpg', 'qiu_ying/han_palace_full_scroll.jpg', 'qiu_ying/han_palace_s06_peacock_kids.jpg', 'qiu_ying/han_palace_s08_flower_picking.jpg', 'qiu_ying/han_palace_s12_doucao_reading.jpg', 'xu_wei/zahua_scroll_colophon.jpg', 'xu_wei/zahua_scroll_leaves.jpg', 'xu_wei/zahua_scroll_peony.jpg', 'xu_wei/zahua_scroll_pomegranate.jpg', 'kitagawa_utamaro/fujin_sogaku_juttai_uwaki.jpg', 'kitagawa_utamaro/musume_hidokei_uma.jpg', 'kitagawa_utamaro/takashima_ohisa_fan.jpg', 'kitagawa_utamaro/toji_zensei_bijin_takigawa.jpg', 'kitagawa_utamaro/yamauba_kintaro_kurieda.jpg']\r\nERROR: 1 manifest paths missing from JSON, e.g. ['da_vinci/last_supper.jpg']\r\nERROR: 1 JSON paths not in manifest, e.g. ['wrong/no-such-file.jpg']\r\nERROR: header counts.requires_attribution_true=39 != re-derived 38\r\nRESULT: FAIL — 3 problem(s) listed above.\r\n",
+      "original_stdout_sha256": "20b7bf428f533434d0abea7cbbbfcd5fdf89acd608f340b4731c1c0d23d9fa46",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-wrong-path.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-wrong-path.stderr.txt"
+    },
+    {
+      "name": "rights-bad-count",
+      "argv": [
+        "python",
+        "-B",
+        "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\tools\\check_image_rights.py",
+        "--json",
+        "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\web-review\\foundation-final-run\\rights-bad-count.json"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:07.168419+00:00",
+      "ended_utc": "2026-11-17T22:52:07.238360+00:00",
+      "stdout_sha256": "6d69171a5b16c1e54fef128f76e54fc6acb378d457d7fc3e1d28553b1035af5e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": " 'ito_jakuchu/shoubai_gunkei_zu_byobu.jpg', 'ito_jakuchu/kaiboji_gunkei_zu.jpg', 'ito_jakuchu/ishidoro_zu_byobu.jpg', 'mucha/le_pater_1899.jpg', 'kandinsky/blaue_reiter_almanac_cover_1912.jpg', 'degas/combing_the_hair_1896.jpg', 'piero_della_francesca/diptych_federico_battista.jpg', 'piero_della_francesca/diptych_reverse_triumphs.jpg', 'piero_della_francesca/madonna_di_senigallia.jpg', 'fan_kuan/wanghui_fa_fankuan.jpg', 'qiu_ying/han_palace_d_konghou.jpg', 'qiu_ying/han_palace_d_serving_ladies.jpg', 'qiu_ying/han_palace_d_stairs_attendant.jpg', 'qiu_ying/han_palace_full_scroll.jpg', 'qiu_ying/han_palace_s06_peacock_kids.jpg', 'qiu_ying/han_palace_s08_flower_picking.jpg', 'qiu_ying/han_palace_s12_doucao_reading.jpg', 'xu_wei/zahua_scroll_colophon.jpg', 'xu_wei/zahua_scroll_leaves.jpg', 'xu_wei/zahua_scroll_peony.jpg', 'xu_wei/zahua_scroll_pomegranate.jpg', 'kitagawa_utamaro/fujin_sogaku_juttai_uwaki.jpg', 'kitagawa_utamaro/musume_hidokei_uma.jpg', 'kitagawa_utamaro/takashima_ohisa_fan.jpg', 'kitagawa_utamaro/toji_zensei_bijin_takigawa.jpg', 'kitagawa_utamaro/yamauba_kintaro_kurieda.jpg']\r\nERROR: header counts.files_total=999 != actual 739\r\nRESULT: FAIL — 1 problem(s) listed above.\r\n",
+      "original_stdout_sha256": "ca9ff9f43f6aa639bf2de90ff3dc84fcc4d7ae5c8b0af81ad00788da8a3bd7b9",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-bad-count.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-bad-count.stderr.txt"
+    },
+    {
+      "name": "rights-conditional-to-false",
+      "argv": [
+        "python",
+        "-B",
+        "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final\\tools\\check_image_rights.py",
+        "--json",
+        "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\web-review\\foundation-final-run\\rights-conditional-to-false.json"
+      ],
+      "cwd": "USER_HOME\\.dwgx\\ops\\campaigns\\designers-brain-closure-20261118\\root-final",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "passed": true,
+      "started_utc": "2026-11-17T22:52:07.238649+00:00",
+      "ended_utc": "2026-11-17T22:52:07.311198+00:00",
+      "stdout_sha256": "3617a833b6f8774eb3900051487c1b3232f705fec717c06b68b43c3438c667fd",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tail": "reiter_almanac_cover_1912.jpg', 'degas/combing_the_hair_1896.jpg', 'piero_della_francesca/diptych_federico_battista.jpg', 'piero_della_francesca/diptych_reverse_triumphs.jpg', 'piero_della_francesca/madonna_di_senigallia.jpg', 'fan_kuan/wanghui_fa_fankuan.jpg', 'qiu_ying/han_palace_d_konghou.jpg', 'qiu_ying/han_palace_d_serving_ladies.jpg', 'qiu_ying/han_palace_d_stairs_attendant.jpg', 'qiu_ying/han_palace_full_scroll.jpg', 'qiu_ying/han_palace_s06_peacock_kids.jpg', 'qiu_ying/han_palace_s08_flower_picking.jpg', 'qiu_ying/han_palace_s12_doucao_reading.jpg', 'xu_wei/zahua_scroll_colophon.jpg', 'xu_wei/zahua_scroll_leaves.jpg', 'xu_wei/zahua_scroll_peony.jpg', 'xu_wei/zahua_scroll_pomegranate.jpg', 'kitagawa_utamaro/fujin_sogaku_juttai_uwaki.jpg', 'kitagawa_utamaro/musume_hidokei_uma.jpg', 'kitagawa_utamaro/takashima_ohisa_fan.jpg', 'kitagawa_utamaro/toji_zensei_bijin_takigawa.jpg', 'kitagawa_utamaro/yamauba_kintaro_kurieda.jpg']\r\nERROR: attribute drift klimt/the_kiss.jpg: JSON requires_attribution=False but license re-derives None (reason=jurisdiction_dependent_pd_art; license='Public domain（PD-Art；PD-old-100-expired；上传者附加 CC BY-SA 4.0）')\r\nRESULT: FAIL — 1 problem(s) listed above.\r\n",
+      "original_stdout_sha256": "2d69e5f2c5884d45b19bd9588d1dad022a40ce6b653ff6a495895088f12afc53",
+      "stdout_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-conditional-to-false.stdout.txt",
+      "original_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-conditional-to-false.stderr.txt"
+    }
+  ],
+  "source_sha256": {
+    "examples/ui/ui-01/_check.py": "3c82572bb416685ccab42642344797e7b05e837c5e0d8674a11d2aaca66eaff8",
+    "examples/ui/ui-01/check_negative.py": "0a14818a28b4331072477a69c39a2cad97fb077f8704c730938bd48fb02faacb",
+    "examples/ui/ui-02/_check.py": "9d7325381692458e28d884ca54309594d56318d6c8d3b9f4908fbfa1c859b070",
+    "tools/check_image_rights.py": "8dd5c40489c27929bffe3b3ea5f314d3555d613fc82d5dee482b89a08108f636"
+  },
+  "passed": true,
+  "projection_scope": "Actual run record; private invocations redacted. Original stream hashes preserved separately; current stream hashes bind published logs. Historical first-run failures are not overwritten by later reruns."
+}

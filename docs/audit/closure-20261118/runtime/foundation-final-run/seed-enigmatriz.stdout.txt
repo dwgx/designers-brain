@@ -1,0 +1,5 @@
+enigmatriz build OK -> ROOT/web-review\foundation-final-run\seeds\enigmatriz
+ramp(measured ascending coverage):  -.:=+*#%@
+outside-mask diff chart/normal/reversed: 0 0 0
+pearson normal/reversed: 0.8795 -0.899 | changed in-mask glyphs: 15
+metricpilot reused: True

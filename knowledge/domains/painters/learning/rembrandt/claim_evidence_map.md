@@ -73,6 +73,8 @@
 <a id="db-source-line-66"></a>
 ## §E near-miss 11 行 reality / L107「8 对」— **known-open（本次点名重点）**
 
+> **2026-11-18 收口核验**：模块卡 L107 已由 owner lane 于 2026-11-16（F01 计数更正）改为「near-miss 11 对」——本 known-open **已解决**；下行保留为当时的漂移记录，不删改。
+
 | claim_id | 内容 | 等级 | 定位 | support |
 |---|---|---|---|---|
 | C-NM-11 | `conflicts.md` §4 near-miss 表**实为 11 编号行**（#1–#11），#9/#10/#11 带「（2026-10-16 补）」 | 事实（本机实测） | [conflicts.md](../../../../cross/conflicts.md) L347-L357；AUDIT R-CF-01；review-evidence.md §4 复现 | supported |

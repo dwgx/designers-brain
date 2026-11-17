@@ -1,0 +1,1 @@
+{"case": "UI-03", "ok": true, "exit_code": 0, "layers": {"geometry": true, "behavior": true, "semantics": true, "model_aesthetic": "untested", "human": "pending_human"}, "error": null}

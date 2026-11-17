@@ -1,0 +1,49 @@
+{
+  "prototype": "SEED-EXPERIMENT-roktim___/prototype-s12",
+  "phase": "S12-B",
+  "author_actor_id": "SeedDepsB",
+  "status": "submitted",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · pending_human reserved]",
+  "declared_before_run": true,
+  "notes": "PRE-RUN frozen config. Self-drawn neutral geometry, fixed grid/font/position/color. All values computed by run code from a self-authored small array (synthetic fixture). NOT product uptime/P95. No author/client images; no network; no RNG.",
+  "canvas": {"W": 512, "H": 384, "background_rgb": [246, 246, 244]},
+  "fixed_frame": {
+    "label_box_px": [40, 250, 472, 360],
+    "grid": "fixed 8px dotted grid, constant across all 4 cards",
+    "font": "monospace bitmap, fixed size (Pillow default + SVG monospace)",
+    "positions": "fixed per-role x/y (declared in build.py), constant across cards",
+    "colors": {"ink": [30, 32, 34], "accent": [70, 110, 150], "warn": [180, 70, 50]}
+  },
+  "synthetic_fixture": {
+    "array": [12, 15, 9, 20, 14, 18, 11, 13],
+    "formula": "mean(array); count=len(array); min,max=min,max(array)",
+    "unit_value": "ms (synthetic fixture unit)",
+    "unit_count": "samples",
+    "note": "SYNTHETIC FIXTURE / computed locally from a self-authored array / NOT a product performance measurement / NOT uptime / NOT P95",
+    "brief_3_lines": ["Tessel-like telemetry LOOK is a visual token, not evidence.", "Numbers on these cards are computed from a tiny synthetic array.", "Whether a human misreads them is NOT measured (pending_human)."],
+    "author_metadata_note": "Roktim on-image numbers are NOT performance measurements; author work pages give no auditable telemetry or source."
+  },
+  "cards_4": [
+    "C1_no_label.png / .svg — label frame present but EMPTY (no semantic text)",
+    "C2_readable_synthetic.png / .svg — computed value + unit + source + note visible as SVG <text>",
+    "C3_decorative_marked.png / .svg — decorative value + ILLUSTRATIVE / NOT PERFORMANCE DATA + note visible",
+    "C4_annotation_removed.png / .svg — NEGATIVE: card3 with the annotation line removed (must-fail)"
+  ],
+  "semantic_roles_distinct": ["fig (FIG. 28)", "n (N=8 samples)", "value (computed mean ms)", "unit", "source", "note", "decorative-marker"],
+  "thresholds": {"value_tolerance": 0.0001},
+  "intended_checks": [
+    "R1: C2 value/unit/source/note READABLE from actual SVG <text data-role>; computed mean equals recompute from array (source/value consistent)",
+    "R2: C3 decorative marker ILLUSTRATIVE + NOT PERFORMANCE DATA present as real SVG text; type=decorative",
+    "R3: FIG/N/VALUE are distinct semantic roles read by data-role from actual SVG (a naive regex conflating them is shown to be wrong)",
+    "R4 must-fail: C4 annotation-removed -> verifier's contract check DETECTS missing annotation -> recorded as FAILED",
+    "R5 must-fail: N_tamper (one-off copy) changes computed value text -> verifier DETECTS value != recompute -> recorded as FAILED",
+    "R6: C1 no-label card has ZERO semantic-role <text> elements (valid no-label control)"
+  ],
+  "negative_controls_are_real_files": true,
+  "rights_and_honesty": [
+    "No classical artwork / author poster is used or implied; classical-image axis is NOT completed (needs licensed PD asset).",
+    "Reader misreading, telemetry register, aesthetic contribution are NOT judged (model_judgment at most, pending_human).",
+    "Local label-contract prototype != parent E2/E3 success; seed stays E1; no promotion.",
+    "No prewritten passed:true; verifier reads ACTUAL SVG <text> bytes; failed checks recorded as failed."
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "scope": "coverage correction, sanitized lane summary, seven current decision-sequence documents with limited organization review completed and two navigation updates; no raw lane/history receipt changes",
+  "observed_candidate_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "source_guards": [
+    {
+      "path": "knowledge/domains/painters/dossiers/friedrich.md",
+      "sha256": "eb79ca1e94304b2f7d466f1daefb35d1bc536e8cc9c5c26b2f3f04ee90b84551",
+      "bytes": 78211
+    },
+    {
+      "path": "knowledge/domains/painters/modules/friedrich.md",
+      "sha256": "d49387a05462455c410c25ed0ef5c5fac79cea323aa6bef5666f1ec81792546b",
+      "bytes": 9406
+    },
+    {
+      "path": "knowledge/domains/painters/learning/friedrich/learning_path.md",
+      "sha256": "2c1f83861c608533fe69bedb79a5f05bc4f897cf9bb982997ed06900d6918687",
+      "bytes": 8571
+    },
+    {
+      "path": "knowledge/domains/painters/learning/friedrich/mechanism_notes.md",
+      "sha256": "2201bde88a93ef587839a34bf570d53687701a920f52e34720a084c1ad310c93",
+      "bytes": 16459
+    },
+    {
+      "path": "knowledge/domains/painters/learning/friedrich/claim_evidence_map.md",
+      "sha256": "78ee30806dbe017b1de597e8af5f3f32210e57645a710a48825df0254ca1c8e3",
+      "bytes": 12166
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/gauguin.md",
+      "sha256": "7211fa83a2944a5b1b35349c1b20171376f35b395efbcb8e836340adae7a619c",
+      "bytes": 70184
+    },
+    {
+      "path": "knowledge/domains/painters/modules/gauguin.md",
+      "sha256": "5e2d78babb214be88b6cc99ef5618d35c2e40c0306ebe4b59e5c3dacd0b480a4",
+      "bytes": 9566
+    },
+    {
+      "path": "knowledge/domains/painters/learning/gauguin/learning_path.md",
+      "sha256": "2aed90189356fa439e5cdcfb681bfdc006463876bbaf0c149b4341d9e1cda9c9",
+      "bytes": 11479
+    },
+    {
+      "path": "knowledge/domains/painters/learning/gauguin/mechanism_notes.md",
+      "sha256": "e61ac3c64321c7c724bb9e90411a0e5b976bbe99b4d29a06ff74472bdd043b80",
+      "bytes": 17514
+    },
+    {
+      "path": "knowledge/domains/painters/learning/gauguin/claim_evidence_map.md",
+      "sha256": "cf7af51bd6ea1c0033091c3b89d6fdd2d841105ac87d8dfe2baa7d9b10a4a598",
+      "bytes": 12639
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/hopper.md",
+      "sha256": "136addc56ce6037719b90de71ddfabf9d9373b1664d26aae47b3a2e2e5bd8f54",
+      "bytes": 66462
+    },
+    {
+      "path": "knowledge/domains/painters/modules/hopper.md",
+      "sha256": "80c4610a3ab9258284e61fbf3503512cf2b66cac57cd7920cdd9fe52ea84d739",
+      "bytes": 7914
+    },
+    {
+      "path": "knowledge/domains/painters/learning/hopper/learning_path.md",
+      "sha256": "662e8d4738678b4e93f5015c70975da610051e98beed83ba9253723017edfd58",
+      "bytes": 8118
+    },
+    {
+      "path": "knowledge/domains/painters/learning/hopper/mechanism_notes.md",
+      "sha256": "735042cf61d24617a9b9678df1201fb53e23572201ffd49cbdf634165bf88c5b",
+      "bytes": 15101
+    },
+    {
+      "path": "knowledge/domains/painters/learning/hopper/claim_evidence_map.md",
+      "sha256": "38e434f6f1d9f8032cbe7b7ea38dc8847bb1e224410383056ef91fd8061026f1",
+      "bytes": 11383
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/ito_jakuchu.md",
+      "sha256": "bc8d23e1a186121285a914506d0071c4d3bedaa8d19a3ff9c10f1d1b967d1fb2",
+      "bytes": 57905
+    },
+    {
+      "path": "knowledge/domains/painters/modules/ito_jakuchu.md",
+      "sha256": "8ca5a12eb8f99a648c1b87e7f2cf0979d30014a7b49473eb1131a5f254a3aa7a",
+      "bytes": 7502
+    },
+    {
+      "path": "knowledge/domains/painters/learning/ito_jakuchu/learning_path.md",
+      "sha256": "b0b836c8799955cfa0e6b2bf156c951d721a28ae14a2657ca1e3a156974355b5",
+      "bytes": 8080
+    },
+    {
+      "path": "knowledge/domains/painters/learning/ito_jakuchu/mechanism_notes.md",
+      "sha256": "b9b916575760b3378317b641655ee85a2912b654f40324dec10221f2dea5fd9f",
+      "bytes": 14992
+    },
+    {
+      "path": "knowledge/domains/painters/learning/ito_jakuchu/claim_evidence_map.md",
+      "sha256": "7fdc05fea61600f18235878d546620841380243e947582c658d2e3ae1c9bf406",
+      "bytes": 11005
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/kitagawa_utamaro.md",
+      "sha256": "8d7393648f604216c6eb144817d8fb6e507bfe134c89da075f4a83348c30ee86",
+      "bytes": 58743
+    },
+    {
+      "path": "knowledge/domains/painters/modules/kitagawa_utamaro.md",
+      "sha256": "6faa17c1d32553910edfbb3250b9225f27b5834e547c5ad07a048b559a398896",
+      "bytes": 8897
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kitagawa_utamaro/learning_path.md",
+      "sha256": "e30c211a46ecda295f83d7b0b9ec06c2ec9d331fd420aedac1abe3d55d6c449f",
+      "bytes": 7931
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kitagawa_utamaro/mechanism_notes.md",
+      "sha256": "0722d2a2da50ab5c374bd3911c6ffa7dc20495e05cd56973bf8e469e66ca2e19",
+      "bytes": 13995
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kitagawa_utamaro/claim_evidence_map.md",
+      "sha256": "a1b1b8babb42f4bd83882ad5ee755694b36820fb634d8c2ef30dc210a4417803",
+      "bytes": 11222
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/kngwarreye.md",
+      "sha256": "af2c129d453ffd225ece59fe9b1fcb8b4c2543997bfb74b0689fe9cf165663eb",
+      "bytes": 62198
+    },
+    {
+      "path": "knowledge/domains/painters/modules/kngwarreye.md",
+      "sha256": "7c087c10e2696d25173ae66ce62cacf3b70c530e4e7eb9ce19f489fb71b5d53a",
+      "bytes": 8772
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kngwarreye/learning_path.md",
+      "sha256": "ddd761f4c75d24999f899cd20c632be9e3f5cd42d03851c2829f82416a0244b6",
+      "bytes": 8103
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kngwarreye/mechanism_notes.md",
+      "sha256": "0564c8b6e8150db94462aaac26c70fb0eb45a51dedeba9c47a48f490709969a7",
+      "bytes": 15240
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kngwarreye/claim_evidence_map.md",
+      "sha256": "d386a43dd33a51e31eb0bb538f1acca818a441ae6a9e7cbf5cd6ed403ca0d45f",
+      "bytes": 11559
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/li_keran.md",
+      "sha256": "1aabdbdc0b5369f562e8838f3f68dc757048aa9f1a333f886b29cf8516177cde",
+      "bytes": 91770
+    },
+    {
+      "path": "knowledge/domains/painters/modules/li_keran.md",
+      "sha256": "8a87df25793b8ea677f7bb39b2a7bbbb871f4a5324dd6caa573e118fd73915cd",
+      "bytes": 10034
+    },
+    {
+      "path": "knowledge/domains/painters/learning/li_keran/learning_path.md",
+      "sha256": "720ff37de1a5261c7f9e1f78adb755a133fccf71c000c9f0248d06515a04d6e9",
+      "bytes": 8434
+    },
+    {
+      "path": "knowledge/domains/painters/learning/li_keran/mechanism_notes.md",
+      "sha256": "5ce7d0269c56c1dc1690f7f230be67bc0aeee756a31b98ad1a271798a2bc9bac",
+      "bytes": 16222
+    },
+    {
+      "path": "knowledge/domains/painters/learning/li_keran/claim_evidence_map.md",
+      "sha256": "ca8f6d29549e034a49193f7774647f97490561d75838c9674cd9ab96a5892cac",
+      "bytes": 12713
+    }
+  ],
+  "files": [
+    {
+      "path": "knowledge/domains/painters/learning/COVERAGE-MATRIX.md",
+      "before_sha256": "f601dcbb72935e6319e3805e39096e2a4761746b3392a4a81970521098f6130d",
+      "before_bytes": 24267,
+      "after_sha256": "a0766724ea587561be273bb2855c07fd107f78bd112091b295c505c054a4a2b1",
+      "after_bytes": 36635,
+      "operation": "replace_guarded",
+      "original_before_sha256": "01791acf9acc2c75f5eec55232f8608b19d3e22ef73c2687649cf36c6c9c8f8b",
+      "original_before_bytes": 24368
+    },
+    {
+      "path": "docs/audit/corpus/CORPUS-LANES-SUMMARY.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "8b3dc752c65e2320b61ee4dc74e82a939d391fe2e84e86ef2afa64a7dc3cc55d",
+      "after_bytes": 13704,
+      "operation": "create_if_absent"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/INDEX.md",
+      "before_sha256": "c24e16e7cbdca9b44bdc9143979ec9e18785a961b05d6fa3c92e3e95b8eb80fd",
+      "before_bytes": 13423,
+      "after_sha256": "1658164c68162136919b8afb65c068fca09fe32b9f73881d07b36312add0d022",
+      "after_bytes": 15351,
+      "operation": "replace_guarded"
+    },
+    {
+      "path": "knowledge/LEARNING-INDEX.json",
+      "before_sha256": "e6f801219dc3ab08a05b5a3b6a68a7e967f2d1dc3a2bc53e7c3fea3c5c74de73",
+      "before_bytes": 201763,
+      "after_sha256": "11cd4828e0ea396c45f86eb23c440604d792bd91d9965aa7952d4d2be4e3c21b",
+      "after_bytes": 206406,
+      "operation": "replace_guarded"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/friedrich/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "9cd5eb3ef88cb5fe8d9d51a80725ef602b79b0b42e78bd625b388015c041f76a",
+      "after_bytes": 10814,
+      "operation": "create_if_absent"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/gauguin/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "7cd7cd936e30ce3c58cb1c35170a2bbd22191beab143fd7cb81284bfa97f63e9",
+      "after_bytes": 10718,
+      "operation": "create_if_absent"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/hopper/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "f292084559537b7d62709a51182b68fae06b89a994d8616436c50812b725ceea",
+      "after_bytes": 10581,
+      "operation": "create_if_absent"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/ito_jakuchu/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "da3c7392c4dbc73534be7d2d09a3f409946e01415a646a31e802e03b25c1d467",
+      "after_bytes": 10887,
+      "operation": "create_if_absent"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kitagawa_utamaro/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "5f7c36e9ec06473d012f702555729ee122e64356f352e97826658b9d964e31cd",
+      "after_bytes": 11171,
+      "operation": "create_if_absent"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kngwarreye/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "3c0ed49f96503e41a1f5027c956d66dfafe372c534ab2ad9143681603e9c1e35",
+      "after_bytes": 11366,
+      "operation": "create_if_absent"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/li_keran/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "6bc1a34905691ae0f5904fab43bb635c80ee4fddbbde1075e1a25d4df38c673b",
+      "after_bytes": 10855,
+      "operation": "create_if_absent"
+    }
+  ]
+}

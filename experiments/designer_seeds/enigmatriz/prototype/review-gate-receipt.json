@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-PROTOTYPE-enigmatriz-REVIEW",
+  "kind": "independent_review",
+  "dedup_key": "DB-20261115:SEED-PROTOTYPE-enigmatriz-REVIEW",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "author_actor_id": "ReviewGateSeedProto",
+  "reviewed_task_id": "SEED-EXPERIMENT-enigmatriz/prototype",
+  "independent_from_author": true,
+  "execution_kind": "leaf_work_item",
+  "spawns_allowed": false,
+  "allowed_write_paths": [
+    "staging/SEED-EXPERIMENT-enigmatriz/prototype/review-evidence.md",
+    "staging/SEED-EXPERIMENT-enigmatriz/prototype/review-gate-receipt.json",
+    "staging/SEED-EXPERIMENT-enigmatriz/prototype/review-gate-runner-receipt.json"
+  ],
+  "r2_refresh": {
+    "marker": "r2",
+    "refreshed_at": "2026-11-15T16:18:38Z",
+    "refreshed_by": "ReviewGateSeedProto",
+    "reason": "Author (SeedDepsRevisit) delivered the calibrated-closure final receipt.json; gate re-bound to current bytes, re-ran the real PKG verify-receipt.py, and corrected the r1 tool-absent / wrong-hash defects recorded in S11B-CALIBRATION.md. Prior r1 content preserved as review-gate-receipt.r1.bak.json (plus earlier review-gate-receipt.v1-history.json).",
+    "supersedes": "review-gate-receipt.r1.bak.json"
+  },
+  "input_hashes": [
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/receipt.json", "sha256": "5563a6edd9be8e4f00b69661cede2c6a106c7fbad2c8f78c49104e587726431b", "note": "FINAL calibrated-closure receipt; recomputed from bytes 2026-11-15T16:18Z; matches SeedDepsRevisit closure value and verify-receipt.out footer FINAL-RECEIPT-SHA256" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/runner_receipt.json", "sha256": "cdc8ad676373b1022d5f1aebd4810993346d39548afa072a05210b56973df215" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/RESULT.md", "sha256": "9864c8da11222ccf448eefe5b83d73faaee17078980ec1689a2f8006b524f6a5", "note": "updated by author calibrated closure (r1 recorded 74766265…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/README.md", "sha256": "b4d1a8158af08847c523c9d6b9c15df97ae5b4a072a0a9fdb546dfa63a5f28f0", "note": "updated by author calibrated closure (r1 recorded fbbc5ccb…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/run_evidence.json", "sha256": "8703fda734d78095680941f1330250e2a599a8372fcb07165a6150936cf0c0b8", "note": "unchanged since r1" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/config.json", "sha256": "e8573919da850c3dbecc67b9ef6c920550aed0caff6050fa05d42af7ffedfde7", "note": "unchanged since r1" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/build.py", "sha256": "8da048b44660b71877a37431435cde1dcf873302171f13cee5637787bd2218ae", "note": "unchanged since r1" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/S11B-CALIBRATION.md", "sha256": "dea3fce8f72203b04723c0e4a8871afa550662f54c1376d1ce68ce2390968745", "note": "new author calibration addendum, bound artifact of final receipt" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/state.md (parent, preserved)", "sha256": "5b648dd44621b2df6bb3c8dcb6b97b19d746782c1cb32783c0d61aba03bacac8", "note": "parent E2/E3/active state doc unchanged" },
+    { "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py", "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263", "note": "unchanged; MetricPilot lap_var/lum_hist re-import source" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype (dir manifest: '<relpath>  <sha256>' lines, LF-joined, sorted by path, over all files EXCEPT review-gate-* gate files)", "sha256": "5d37b6693b8d4c3a19fc78c9c2b79d2f867c6ede30a8aaf961acfc4db5cae16d", "note": "n=33 non-gate files; recipe excludes review-gate-* so this binding stays stable as gate receipts are refreshed" }
+  ],
+  "review": {
+    "reviewer_actor_id": "ReviewGateSeedProto",
+    "independent_from_author": true,
+    "reviewed_artifact_hashes": [
+      "5563a6edd9be8e4f00b69661cede2c6a106c7fbad2c8f78c49104e587726431b",
+      "cdc8ad676373b1022d5f1aebd4810993346d39548afa072a05210b56973df215",
+      "5d37b6693b8d4c3a19fc78c9c2b79d2f867c6ede30a8aaf961acfc4db5cae16d"
+    ],
+    "provenance_note_r2": {
+      "defect": "r1 recorded review.reviewed_artifact_hashes[0] = d23093dd89ed6ee7f1f5885e02f3ba2c7f583bc62a488b07e11dc8bbbf02b0ee — a hand-copy/transcription error, not equal to any author receipt bytes (S11B-CALIBRATION.md §1 finding).",
+      "old_wrong_value": "d23093dd89ed6ee7f1f5885e02f3ba2c7f583bc62a488b07e11dc8bbbf02b0ee",
+      "old_input_hashes0_value": "d23093dd89ed6ee79e1d7d7ba01675953417b5b34d4060334a5b4595a4b47a35 (this WAS the correct byte-SHA of the author receipt before the calibrated closure edited it)",
+      "recomputed_from_current_bytes": "5563a6edd9be8e4f00b69661cede2c6a106c7fbad2c8f78c49104e587726431b",
+      "binding_now": "reviewed_artifact_hashes[0] and input_hashes[0] both carry the recomputed FINAL value; never hand-copy a digest"
+    },
+    "verdict": "accepted",
+    "verdict_rationale": "r2 refresh of an accepted r1 review. r1 full evidence (dir-manifest recompute, fresh build.py rerun byte-identical 11/11, Pearson +0.879535/-0.899008 sign-flip recompute, outside-mask pixel diff 0/0/0, font path+sha, MetricPilot interface reuse) stands on unchanged config/build/outputs bytes. r2 additions: (1) receipt.json re-bound to FINAL calibrated-closure bytes 5563a6ed…, recomputed from bytes, matching the SeedDepsRevisit closure value and the verify-receipt.out footer; (2) PKG verify-receipt.py (sha 00ef6071…) executed for real, exit 0, ok=true, status=submitted; (3) receipt internals re-validated on current bytes: 18/18 artifacts, 4/4 input_hashes (config/build.py/metrics.py/parent state.md), 3/3 claim source_ref bindings match; (4) calibration bounded-language scan over receipt claims: no promotion/combined/spectrum/validated-reproduction language; C4_selected_region_checks 'pass': True confirmed to be a constant literal in build.py (single declared rectangle, not a general mask validator), consistent with S11B-CALIBRATION.md §2. S05/S11 boundary held: mechanism candidates on synthetic input only, NOT a validated reproduction, NOT E2/E3 evidence; aesthetic judgement pending_human.",
+    "evidence_path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/review-evidence.md",
+    "minor_nits": [
+      "checks.json C6 pass field is null (verdict lives in run_evidence.json.deterministic_rerun) — cosmetic split, non-material.",
+      "receipt execution.started_at == ended_at — multi-command batch entry, hash binding makes it non-material.",
+      "claim source_ref C-rerun-byte-identical names source_id 'rerun_20261115/' but binds the byte-SHA of its checks.json (dir content byte-identical to outputs/, verified) — ambiguous locator, binding itself correct."
+    ]
+  },
+  "execution": {
+    "verify_receipt": {
+      "command": "python -X utf8 <PKG>/tools/verify-receipt.py <dir>/prototype/receipt.json --schema <PKG>/templates/receipt.schema.json --workspace-root <RUN_ROOT>",
+      "output": {
+        "ok": true,
+        "status": "submitted",
+        "errors": [],
+        "scope": "schema, declared actor separation, cross-references and local bytes; independent source/runner/human verification still required"
+      },
+      "exit_code": 0,
+      "tool_sha256": "00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0",
+      "r2_correction": "r1 wrongly recorded the tool as 'absent from machine / NOT EXECUTABLE'; the sealed PKG tool exists and was executed for real in the r2 refresh (this corrects the 'equivalent_validation' workaround claim in r1)."
+    },
+    "hash_spot_checks": 26,
+    "hash_spot_checks_matched": 26,
+    "repo_head_verified": "f008952365a77e140cbda3f3959d43ef000f9a22",
+    "locator_samples": "outputs/cell_ledger_normal.json in-mask cells (15); config.json.font.declared_sha256 cf00b507; staging/METRIC-PILOT/fixtures/metrics.py 7662e159…; build.py C4 constant True literal; parent state.md 5b648dd4…; verify-receipt.out footer FINAL-RECEIPT-SHA256=5563a6ed…",
+    "runner_receipt_path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/review-gate-runner-receipt.json"
+  },
+  "human_review": {
+    "status": "not_applicable",
+    "actual_reviewer": null,
+    "record_path": null
+  },
+  "timestamp": "2026-11-15T16:18:38Z"
+}

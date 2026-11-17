@@ -1,0 +1,8 @@
+AnnasXechoes checks: POS= True NEG_DETECTED= True
+  Q1_six_stimuli_and_fixed_composition: passed=True
+  Q2_outside_mask_diff_zero: passed=True
+  Q3_geometry_separately_localizable: passed=True
+  Q4_surface_separately_localizable: passed=True
+  Q5_vessel2_transfer_stimulus: passed=True
+  N1_wrong_mask_DETECTED: passed=True
+  N2_role_field_only_DETECTED: passed=True

@@ -1,0 +1,1 @@
+PASS 7 synthetic gate controls; no browser input/pixels measured

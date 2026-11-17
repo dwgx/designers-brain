@@ -1,0 +1,142 @@
+{
+  "schema": "seed-fresh-run-1.0",
+  "ran_at_utc": "2026-11-17T22:08:43.241420+00:00",
+  "environment": {
+    "python": "3.14.7",
+    "pillow": "12.3.0",
+    "system": "Windows"
+  },
+  "command": [
+    "python",
+    "-B",
+    "build.py",
+    "outputs"
+  ],
+  "cwd": "prototype",
+  "exit_code": 0,
+  "source_and_outputs": [
+    {
+      "path": "prototype/build.py",
+      "bytes": 19812,
+      "sha256": "cc3a554f5e119ad93bdc168fa706758d49ae46260898713ce5b4ea49cbf552a7"
+    },
+    {
+      "path": "prototype/config.json",
+      "bytes": 4571,
+      "sha256": "01f3aecc0204dc0ed62ba60f3bdbd72b33fa319af39a235389ebb808f31096d0"
+    },
+    {
+      "path": "prototype/outputs/checks.json",
+      "bytes": 4648,
+      "sha256": "5ae822d0cf28d5f4e09c2c500081b6c98b2700ff1c8117ba402dc764cd5599c4"
+    },
+    {
+      "path": "prototype/outputs/dag_design_contract.json",
+      "bytes": 607,
+      "sha256": "82e63e2633ee6f09e4f2bee6bc96c781c6c376ff8f876e10589646a47d631494"
+    },
+    {
+      "path": "prototype/outputs/flat_base.png",
+      "bytes": 4739,
+      "sha256": "cde91f345b7b0d5503cf253b2549a51f2040d3da090795c58cfbad9cdf073e4c"
+    },
+    {
+      "path": "prototype/outputs/flat_base.svg",
+      "bytes": 3622,
+      "sha256": "87eeafb0130e0105e4c8827ef176944332f7c42f7dbebd985a5fc8d5cdfd7567"
+    },
+    {
+      "path": "prototype/outputs/negatives/F_bad_VP.png",
+      "bytes": 6662,
+      "sha256": "c70afa55e84e7976153188d27249f819e7b09d8ead2d2a3e321007fd99bafdf0"
+    },
+    {
+      "path": "prototype/outputs/negatives/F_bad_VP.svg",
+      "bytes": 4412,
+      "sha256": "256b4570acbf85e1e902bc806ef82cf2af10b0cc7594b5f69857182ba4754dfe"
+    },
+    {
+      "path": "prototype/outputs/negatives/F_pseudo_edge.png",
+      "bytes": 7001,
+      "sha256": "2eb8b72d4bd77926d9629475ec52a7873c4b5c5c86bb36b5fed967212b15043d"
+    },
+    {
+      "path": "prototype/outputs/negatives/F_pseudo_edge.svg",
+      "bytes": 4566,
+      "sha256": "934d07ca051afd7164ddf5a452a53082991c4a176308654e503f6d44ef21f22b"
+    },
+    {
+      "path": "prototype/outputs/negatives/F_wrong_z.png",
+      "bytes": 6549,
+      "sha256": "d7abc3b5b61d5625403248f2770eb6220d1c985c267c9d6075cd0423a3652847"
+    },
+    {
+      "path": "prototype/outputs/negatives/F_wrong_z.svg",
+      "bytes": 4413,
+      "sha256": "e813c0ea5a464a85d8de49d50c1b2d764e040ea508f6ee1ab31864549e192a53"
+    },
+    {
+      "path": "prototype/outputs/persp_base.png",
+      "bytes": 6550,
+      "sha256": "3e65ef6a85c4b46f8b73d16d3b8e46c554080030d68b824584ab4c3a703ef4fe"
+    },
+    {
+      "path": "prototype/outputs/persp_base.svg",
+      "bytes": 4414,
+      "sha256": "f07c4ff3b191a9ad84df3664a378827b4716ef2ff9a9eeaadb15740477a40e51"
+    },
+    {
+      "path": "prototype/outputs/persp_code.png",
+      "bytes": 8443,
+      "sha256": "baaac15ace1c4ea69693a45bd6aab22eb2eff45011faa9dcecdf545b0e8b6db0"
+    },
+    {
+      "path": "prototype/outputs/persp_code.svg",
+      "bytes": 5011,
+      "sha256": "37c608c8ad4ae7b375c4a111c9e1e7267aa15c9d5f5d4cf322b22713b0816aef"
+    },
+    {
+      "path": "prototype/outputs/persp_d18.png",
+      "bytes": 6862,
+      "sha256": "604d85da69d80c3c31b4c30bbd5a28fcb51d3fa14db9cc0af9066df95058774b"
+    },
+    {
+      "path": "prototype/outputs/persp_d18.svg",
+      "bytes": 5929,
+      "sha256": "a7b8d54d5d13b6c446c1a7333af96996deda97d14618cc24097be206b284d7ef"
+    },
+    {
+      "path": "prototype/outputs/persp_d40.png",
+      "bytes": 7278,
+      "sha256": "794142961b4f9e60fc5e85a80cc7c4402547064b56739cfd60cf5febc6a8ea0b"
+    },
+    {
+      "path": "prototype/outputs/persp_d40.svg",
+      "bytes": 7813,
+      "sha256": "3bda637c8333407bb5617734aca1271249c273a13b79dc7dc7846d0e5f538f01"
+    }
+  ],
+  "actual_checks_summary": {
+    "positive_checks": [
+      "T1_structure_edges_from_svg_paths",
+      "T2_VP_only_on_depth_parallel_lines",
+      "T3_occlusion_from_png_overlap",
+      "T7_positive_configs_not_all_rejected"
+    ],
+    "negative_controls": [
+      "T4_pseudo_edge_DETECTED",
+      "T5_bad_VP_DETECTED",
+      "T6_wrong_z_DETECTED"
+    ],
+    "configs": 5,
+    "single_fault_cases": 3,
+    "image_count": 8,
+    "image_cap": 8,
+    "all_positive_pass": true,
+    "all_negative_controls_detected": true,
+    "verifier_reads_actual_svg_and_png": true
+  },
+  "evidence_level_unchanged": "E1",
+  "not_human_review": true,
+  "source_review": "Root read original build/config, ran independent cloud reproduction; this is an additional actual relocated Windows run. No original files overwritten."
+}

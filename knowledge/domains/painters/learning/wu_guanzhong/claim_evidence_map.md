@@ -7,7 +7,7 @@
 > **口径（复用 ACCEPTED 审计的 locator 纪律，不重新审计）**：每条论断给「来源文件 + 具体行/节定位 + 证据等级 + 支持状态」。内部证据 4874f193014ae79c（未公开；来源记录由维护者保留） 为只读回源（基线 `f008952365a77e140cbda3f3959d43ef000f9a22`，本 lane 开工已 sha256sum 复核四件冻结输入，见 `RESULT.md §2`）；内部证据 edee2f07de0827fa（未公开；来源记录由维护者保留） 为上游 ACCEPTED 产物；内部证据 7001a2e188254881（未公开；来源记录由维护者保留） 为本 lane 生成。
 > 等级沿用仓库口径：`[自述]` / `[self-written]` = 作者言语记录；`[史料]` = 史实/权利/字节记录；`[研究]` = 二手研究/文本比对；`[归纳]` = 项目操作规则/研究者归纳；`[inference]` = AUDIT 反例分析推理（沿用）；`[推测]` 本 lane **不使用**（计数 0）。
 > 版本列：仓库文件 = `f0089523…`；staging artifact = 本轮/上游生成（给 sha256）。`read_scope` / `access_status`：本机文件 = `available` / `fulltext`|`sections`|`artifact`；外部 URL 本轮**未重访** = `unknown`（沿用 AUDIT 上游 4 次 HTTP 200，不升级）；原图像素目检 = `0`（无 `image_seen`）。
-> **行号纪律**：`card:90` 与 dossier §9 写「near-miss 8 对」而 conflicts.md §4 表实为 11 行——计数漂移**报告不修**（AUDIT `RESULT.md §Conflicts.md locator drift`）。本表一律用**实测行号 + 子串**。wu_guanzhong **零专属 C-行**（`conflicts_rows_checked=0` 正确，非漏审）。
+> **行号纪律**：`card:90` 与 dossier §9 写「near-miss 8 对」而 conflicts.md §4 表实为 11 行——计数漂移**报告不修**（AUDIT `RESULT.md §Conflicts.md locator drift`）。本表一律用**实测行号 + 子串**。wu_guanzhong **零专属 C-行**（`conflicts_rows_checked=0` 正确，非漏审）。（**2026-11-18 收口核验**：module L90 已按 F01 于 2026-11-16 更正为「11 对」，漂移已消除；本行保留为历史登记。）
 
 ---
 
@@ -79,7 +79,6 @@
 | 维度 | 计数 |
 |---|---|
 | claims_total | 30 |
-| kind：fact / observation / design_candidate / validated_rule | 13 / 14 / 1 / 1（另 1 条为 supported 的 fact，合计 30；见上表逐行 kind） |
 | support_status：supported / partial / unverified / conflict / not_applicable | 30 / 0 / 0 / 0 / 0（本表只登记有本机/上游产物支撑的论断；未决项以 `unresolved` 形式进 `receipt.json`，不混入 claim 表） |
 | `[推测]` | **0** |
 | kind：fact / observation / design_candidate / validated_rule | 18 / 10 / 1 / 1（合计 30；见上表逐行 kind） |

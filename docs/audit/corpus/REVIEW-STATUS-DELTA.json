@@ -1,0 +1,89 @@
+{
+  "scope": "Root finite current-research-organization acceptance after independent semantic review; only one header line changed in each of seven documents; no E4/human/external/source grade upgrade",
+  "files": [
+    {
+      "artist": "friedrich",
+      "path": "knowledge/domains/painters/learning/friedrich/how-to-think.md",
+      "before_sha256": "379d5b0fd083c48e592f42ad570a91a3e42a74758ddb8bd49301f59df52a749c",
+      "before_bytes": 10761,
+      "before_status_line": "> 状态：`draft_current_organization`；独立语义审阅：`pending`。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执。",
+      "body_without_status_line_sha256": "98da6a4896b6bf5610194db92152b087c2e0ccf9d332aa014ac0ddcb2a0ba40b",
+      "after_sha256": "9cd5eb3ef88cb5fe8d9d51a80725ef602b79b0b42e78bd625b388015c041f76a",
+      "after_bytes": 10814,
+      "after_status_line": "> 状态：`scoped_review_complete`（仅本轮操作组织）；独立语义复核已完成。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执；原历史回执不覆盖本稿。",
+      "only_status_line_changed": true
+    },
+    {
+      "artist": "gauguin",
+      "path": "knowledge/domains/painters/learning/gauguin/how-to-think.md",
+      "before_sha256": "f190fcb9290c51ce0a544171a2381d182c061cdbf1f1771e5d644d69afbdb163",
+      "before_bytes": 10665,
+      "before_status_line": "> 状态：`draft_current_organization`；独立语义审阅：`pending`。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执。",
+      "body_without_status_line_sha256": "4d6c6ad020c7f9ce29d55ff0b653908f457298a5e34dd4fb70fc89d97c97ca7b",
+      "after_sha256": "7cd7cd936e30ce3c58cb1c35170a2bbd22191beab143fd7cb81284bfa97f63e9",
+      "after_bytes": 10718,
+      "after_status_line": "> 状态：`scoped_review_complete`（仅本轮操作组织）；独立语义复核已完成。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执；原历史回执不覆盖本稿。",
+      "only_status_line_changed": true
+    },
+    {
+      "artist": "hopper",
+      "path": "knowledge/domains/painters/learning/hopper/how-to-think.md",
+      "before_sha256": "178bcf77e444e51dba81794fdef5203abb5187059a9f5e2e605210206e109f98",
+      "before_bytes": 10528,
+      "before_status_line": "> 状态：`draft_current_organization`；独立语义审阅：`pending`。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执。",
+      "body_without_status_line_sha256": "8ecf21a81a556e8b1accf419069720cf4654f78a95a3a4c67857c00eaf74b339",
+      "after_sha256": "f292084559537b7d62709a51182b68fae06b89a994d8616436c50812b725ceea",
+      "after_bytes": 10581,
+      "after_status_line": "> 状态：`scoped_review_complete`（仅本轮操作组织）；独立语义复核已完成。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执；原历史回执不覆盖本稿。",
+      "only_status_line_changed": true
+    },
+    {
+      "artist": "ito_jakuchu",
+      "path": "knowledge/domains/painters/learning/ito_jakuchu/how-to-think.md",
+      "before_sha256": "b7fb96260961d75ebf2ac54892e5d8f1a8dae8bfca896ad33a0628df96f5e147",
+      "before_bytes": 10834,
+      "before_status_line": "> 状态：`draft_current_organization`；独立语义审阅：`pending`。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执。",
+      "body_without_status_line_sha256": "c08222dca8cb50c6f63da6ffb3c3798a78bb60c35b5c03d806b470bbd9de6560",
+      "after_sha256": "da3c7392c4dbc73534be7d2d09a3f409946e01415a646a31e802e03b25c1d467",
+      "after_bytes": 10887,
+      "after_status_line": "> 状态：`scoped_review_complete`（仅本轮操作组织）；独立语义复核已完成。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执；原历史回执不覆盖本稿。",
+      "only_status_line_changed": true
+    },
+    {
+      "artist": "kitagawa_utamaro",
+      "path": "knowledge/domains/painters/learning/kitagawa_utamaro/how-to-think.md",
+      "before_sha256": "cc0189f3eae5ca1addd3beccf95a635fad81f53374be7a686873359dd0499847",
+      "before_bytes": 11118,
+      "before_status_line": "> 状态：`draft_current_organization`；独立语义审阅：`pending`。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执。",
+      "body_without_status_line_sha256": "85a4be6b6ca34b5516d7e2042793f5b39df7248a798926b22e9a7285a889e827",
+      "after_sha256": "5f7c36e9ec06473d012f702555729ee122e64356f352e97826658b9d964e31cd",
+      "after_bytes": 11171,
+      "after_status_line": "> 状态：`scoped_review_complete`（仅本轮操作组织）；独立语义复核已完成。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执；原历史回执不覆盖本稿。",
+      "only_status_line_changed": true
+    },
+    {
+      "artist": "kngwarreye",
+      "path": "knowledge/domains/painters/learning/kngwarreye/how-to-think.md",
+      "before_sha256": "bac8a3dff208d62096912e56067f200dddff84a16d6a83baca31051590adc0a1",
+      "before_bytes": 11313,
+      "before_status_line": "> 状态：`draft_current_organization`；独立语义审阅：`pending`。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执。",
+      "body_without_status_line_sha256": "616801c2e90f4723cf1d79a7e9aed8f403be561c8d7cd5c87acf60316710be91",
+      "after_sha256": "3c0ed49f96503e41a1f5027c956d66dfafe372c534ab2ad9143681603e9c1e35",
+      "after_bytes": 11366,
+      "after_status_line": "> 状态：`scoped_review_complete`（仅本轮操作组织）；独立语义复核已完成。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执；原历史回执不覆盖本稿。",
+      "only_status_line_changed": true
+    },
+    {
+      "artist": "li_keran",
+      "path": "knowledge/domains/painters/learning/li_keran/how-to-think.md",
+      "before_sha256": "31c586149f1136f8841d999eae482cec0831ebb0d2cfd7426321253eb9510ac5",
+      "before_bytes": 10802,
+      "before_status_line": "> 状态：`draft_current_organization`；独立语义审阅：`pending`。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执。",
+      "body_without_status_line_sha256": "ba090fa56474259e52c6d4f3791476f51f5355360212ea91fdc8c37e8ffb4bb4",
+      "after_sha256": "6bc1a34905691ae0f5904fab43bb635c80ee4fddbbde1075e1a25d4df38c673b",
+      "after_bytes": 10855,
+      "after_status_line": "> 状态：`scoped_review_complete`（仅本轮操作组织）；独立语义复核已完成。本轮新增组织稿，不是历史 LEARN 任务的原件或历史接收回执；原历史回执不覆盖本稿。",
+      "only_status_line_changed": true
+    }
+  ]
+}

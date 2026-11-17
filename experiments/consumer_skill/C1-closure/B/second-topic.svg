@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<title>Mountain-pass weather rover — three-value transfer sketch</title>
+<desc>Focus at 365,271 on the lit roof and dark windscreen. Rear vertical contour merges with grey fog. Original second topic, fixed before Last Supper pixels.</desc>
+<rect width="960" height="640" fill="#888888"/>
+<path id="distant-mast-fragment" d="M805 151H812V247H805Z M779 181H831V187H779Z" fill="#404040"/>
+<path id="rear-shed-merged" d="M704 252H875V277H704Z" fill="#888888"/>
+<path id="ground-shadow" d="M737 597L960 527V640H616Z" fill="#404040"/>
+<path id="track-body" d="M305 388L609 388Q658 391 666 417Q668 442 628 452L329 445Q288 441 280 417Q278 398 305 388Z" fill="#404040"/>
+<path id="track-inner" d="M320 405L606 405Q631 406 641 420Q630 433 610 435L330 429Q310 427 304 418Z" fill="#888888"/>
+<circle cx="338" cy="417" r="10" fill="#404040"/>
+<circle cx="405" cy="419" r="10" fill="#404040"/>
+<circle cx="473" cy="421" r="10" fill="#404040"/>
+<circle cx="541" cy="422" r="10" fill="#404040"/>
+<circle cx="609" cy="421" r="10" fill="#404040"/>
+<path id="rover-body" d="M278 310L310 257L431 239L486 291L684 320V392L622 414L310 398L273 367Z" fill="#888888"/>
+<path id="front-lit-panel" d="M278 310L312 307L313 379L291 376L273 357Z" fill="#d0d0d0"/>
+<path id="front-shadow-panel" d="M292 338L311 341V381L286 371Z" fill="#404040"/>
+<path id="windscreen" d="M311 265L348 236L414 239L437 301L314 312Z" fill="#404040"/>
+<path id="roof-lit-plane" d="M304 260L339 222L418 224L442 246L425 252L407 241L348 239L320 267Z" fill="#d0d0d0"/>
+<path id="right-cabin-merged" d="M437 269L468 291V347L431 341Z" fill="#888888"/>
+<path id="body-lower-shadow" d="M313 379L622 396L622 414L310 398Z" fill="#404040"/>
+<path id="instrument-housing-fragment" d="M523 303H567L578 315H523Z" fill="#404040"/>
+<path id="rear-outer-edge-lost" d="M632 318L684 320V392L656 400L632 381Z" fill="#888888"/>
+<path id="snow-berm-merged" d="M76 445Q168 407 254 451L290 490H76Z" fill="#888888"/>
+</svg>

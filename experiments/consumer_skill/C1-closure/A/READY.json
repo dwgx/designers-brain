@@ -1,0 +1,19 @@
+{
+  "status": "READY",
+  "stage": "A",
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "binding_sha256": "5e0bdad6fad5c3186a97b5ca0cb0f7c70aa06c36cbbf8cb4f0e2e8e045aa8744",
+  "head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "manifest_path": "manifest.json",
+  "manifest_sha256": "71aca3c882baec41f95ab0ba4d318d53de55531afe1eab2765b22b3135a13f73",
+  "manifest_bytes": 2887,
+  "ready_at_utc": "2026-11-17T22:55:49.303369+00:00",
+  "file_count_excluding_manifest_ready": 15,
+  "a_is_immutable_from_now": true,
+  "image_pixels_read": 0,
+  "requested_model": "native_subagent_inherited_parent",
+  "served_model": "unknown"
+}

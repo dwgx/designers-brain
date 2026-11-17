@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-config="flat_base" data-perspective="0" data-deco="0" data-code="0">
+  <rect x="0" y="0" width="512" height="384" fill="#f4f4f1" data-role="background" />
+  <path d="M 60.00 90.00 L 175.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="a" data-to="c" />
+  <path d="M 60.00 290.00 L 175.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="b" data-to="c" />
+  <path d="M 175.00 190.00 L 300.00 90.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="c" data-to="d" />
+  <path d="M 175.00 190.00 L 300.00 290.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="c" data-to="e" />
+  <path d="M 300.00 90.00 L 410.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="d" data-to="f" />
+  <path d="M 300.00 290.00 L 410.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="e" data-to="f" />
+  <path d="M 300.00 290.00 L 300.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="e" data-to="g" />
+  <path d="M 410.00 190.00 L 475.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="f" data-to="h" />
+  <path d="M 300.00 190.00 L 475.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="g" data-to="h" />
+  <path d="M 175.00 190.00 L 300.00 190.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="c" data-to="g" />
+  <circle cx="60.00" cy="90.00" r="13" fill="#466e96" data-role="node" data-node="a" />
+  <text x="57.00" y="94.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">a</text>
+  <circle cx="60.00" cy="290.00" r="13" fill="#466e96" data-role="node" data-node="b" />
+  <text x="57.00" y="294.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">b</text>
+  <circle cx="175.00" cy="190.00" r="13" fill="#466e96" data-role="node" data-node="c" />
+  <text x="172.00" y="194.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">c</text>
+  <circle cx="300.00" cy="90.00" r="13" fill="#466e96" data-role="node" data-node="d" />
+  <text x="297.00" y="94.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">d</text>
+  <circle cx="300.00" cy="290.00" r="13" fill="#466e96" data-role="node" data-node="e" />
+  <text x="297.00" y="294.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">e</text>
+  <circle cx="410.00" cy="190.00" r="13" fill="#466e96" data-role="node" data-node="f" />
+  <text x="407.00" y="194.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">f</text>
+  <circle cx="300.00" cy="190.00" r="13" fill="#466e96" data-role="node" data-node="g" />
+  <text x="297.00" y="194.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">g</text>
+  <circle cx="475.00" cy="190.00" r="13" fill="#466e96" data-role="node" data-node="h" />
+  <text x="472.00" y="194.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">h</text>
+  <rect x="30" y="250" width="120" height="90" fill="#648cb4" stroke="#282c32" stroke-width="1" data-role="card-back" />
+  <rect x="100" y="290" width="120" height="90" fill="#d2783c" stroke="#282c32" stroke-width="1" data-role="card-front" />
+</svg>

@@ -1,0 +1,64 @@
+{
+  "source_head": "f008952365a77e140cbda3f3959d43ef000f9a22",
+  "root_head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "images": {
+    "baseline_count": 739,
+    "source_count": 739,
+    "root_count": 739,
+    "source_path_set_exact": true,
+    "root_path_set_exact": true,
+    "mismatches": [],
+    "tree_sha256": {
+      "e0": "ed3fc1cda611a209114f25ac814fc6a1988153ce7557386e69cb52b6a0ba5848",
+      "source_f008952": "ed3fc1cda611a209114f25ac814fc6a1988153ce7557386e69cb52b6a0ba5848",
+      "source_working": "ed3fc1cda611a209114f25ac814fc6a1988153ce7557386e69cb52b6a0ba5848",
+      "root_working": "ed3fc1cda611a209114f25ac814fc6a1988153ce7557386e69cb52b6a0ba5848"
+    }
+  },
+  "central_manifest": {
+    "path": "knowledge/domains/painters/dossiers/_images/manifest.md",
+    "raw_sha256": {
+      "source_f008952": "0540d8df1c2597287b06e0664d3832c848f18bd5932d46dd5b8480b6c59da033",
+      "source_working": "5698124daf47c989fd26232a686ec54cda2658b623e1a302ddb5806ebf95b470",
+      "e0": "0540d8df1c2597287b06e0664d3832c848f18bd5932d46dd5b8480b6c59da033",
+      "root_working": "0540d8df1c2597287b06e0664d3832c848f18bd5932d46dd5b8480b6c59da033"
+    },
+    "canonical_lf_sha256": {
+      "source_f008952": "0540d8df1c2597287b06e0664d3832c848f18bd5932d46dd5b8480b6c59da033",
+      "source_working": "0540d8df1c2597287b06e0664d3832c848f18bd5932d46dd5b8480b6c59da033",
+      "e0": "0540d8df1c2597287b06e0664d3832c848f18bd5932d46dd5b8480b6c59da033",
+      "root_working": "0540d8df1c2597287b06e0664d3832c848f18bd5932d46dd5b8480b6c59da033"
+    },
+    "bytes": {
+      "source_f008952": 467685,
+      "source_working": 470997,
+      "e0": 467685,
+      "root_working": 467685
+    }
+  },
+  "old5_motion": {
+    "10": {
+      "e0_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+      "root_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc"
+    },
+    "12": {
+      "e0_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+      "root_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98"
+    },
+    "13": {
+      "e0_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+      "root_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046"
+    },
+    "15": {
+      "e0_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+      "root_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461"
+    },
+    "02": {
+      "e0_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+      "root_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6"
+    }
+  },
+  "scope": "Independent read-only comparisons of fixed source/e0 commits and observed working bytes; read window is not one atomic work-tree snapshot. Root separately reproduced the 739-file full-path ledger. Historical SOURCE working manifest is exact CRLF form, not a claimed before/after raw comparison.",
+  "image_ledger_algorithm": "Sort repository-relative POSIX image paths; SHA256 of concatenated path + TAB + lowercase file SHA256 + LF; 739 JPG files.",
+  "review_sha256": "43a1a0539963148adb8974ad7324793fd3155d9287c98e7d5ad4ebc0503c70eb"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-17T22:55:49.302715+00:00",
+  "svg_xml_parse": "passed",
+  "opaque_fill_values": [
+    "#404040",
+    "#888888",
+    "#d0d0d0"
+  ],
+  "scene_strokes": 0,
+  "external_images": 0,
+  "gradients_or_filters": 0,
+  "focus_plan_written_before_actual_sketch": true,
+  "pixel_exposure": 0,
+  "raster_visual_review": "not_performed_in_stage_a",
+  "interpretation": "Structural checks establish an actual parseable three-value SVG. They do not establish visual quality or learning."
+}

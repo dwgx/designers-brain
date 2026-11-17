@@ -1,0 +1,9 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-vocab="beam" data-state="connected" data-ax="170.00" data-bx="342.00" data-connector-width="18.00">
+  <ns0:rect x="0" y="0" width="512" height="384" fill="#f2f3f2" data-role="background" />
+  <ns0:g data-role="objects">
+    <ns0:circle cx="170.00" cy="192.00" r="44" fill="#5664c4" data-role="atom" data-atom="A" />
+    <ns0:circle cx="170.00" cy="192.00" r="24.20" fill="#dfe6f7" data-role="atom-inner" data-atom="A" />
+    <ns0:circle cx="342.00" cy="192.00" r="44" fill="#5664c4" data-role="atom" data-atom="B" />
+    <ns0:circle cx="342.00" cy="192.00" r="24.20" fill="#dfe6f7" data-role="atom-inner" data-atom="B" />
+  </ns0:g>
+</ns0:svg>

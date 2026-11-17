@@ -92,7 +92,7 @@
 - **先选**：逐帧跑 §8.2-1…8（L197–L204）自查；复核每条规则的 `[归纳]` 标签与「未做像素测量」(L206)；权利引用沿用 `AUDIT-velazquez/rights_review.md` 12 行 9PD+3CC0（`fact(已决)`，不重审、不改）。
 - **牺牲**：不写「已证实学习收益」；不把建议练习写成真人评价（`human_review.status=not_applicable`）。
 - **为什么**：`01-AUDIT.md` §8.1 L273；A-30 验收要求「零缺失本地引用、引用作品与权利沿用现有记录」。
-- **何时失效 / 指针纪律（brief 强调点 ④）**：引用「§3.1 分工条款」时**必须指向 dossier L74–L81**。[velazquez.md](../../modules/velazquez.md) L79–L82 的「**本卡 §3.1**」是**悬空指针**（模块卡无 §3.1 节）→ `VL-DRIFT-01`；L87「near-miss 8 对」vs conflicts.md §4 实有 11 条(L347–L357) → `VL-DRIFT-02`。两者 AUDIT 判 `conflict`、报告不修；本 shard 不碰 repo/AUDIT 产物。C-14/N1/N3 行号（L45/L229/L305/L311）可解析，不在此列。
+- **何时失效 / 指针纪律（brief 强调点 ④）**：引用「§3.1 分工条款」时**必须指向 dossier L74–L81**。[velazquez.md](../../modules/velazquez.md) L79–L82 的「**本卡 §3.1**」是**悬空指针**（模块卡无 §3.1 节）→ `VL-DRIFT-01`；L87「near-miss 8 对」vs conflicts.md §4 实有 11 条(L347–L357) → `VL-DRIFT-02`（**2026-11-18 收口核验**：module L87 已按 F01 于 2026-11-16 更正为「11 对」，漂移已消除；本行保留为历史登记）。两者 AUDIT 判 `conflict`、报告不修；本 shard 不碰 repo/AUDIT 产物。C-14/N1/N3 行号（L45/L229/L305/L311）可解析，不在此列。
 - **等级**：自查规则 `[归纳]`；权利计数/悬空指针/near-miss 计数 = `fact(已决)`（AUDIT ACCEPTED 裁定，下游采信）。
 
 ---

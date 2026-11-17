@@ -6,12 +6,21 @@
   "derivation_rules": {
     "roster": "same source map; unique 76 LEARN",
     "relations": "exact source SHA, heading and supporting phrase checks",
-    "status": "source accepted is not public integration acceptance or learning efficacy"
+    "status": "source accepted is not public integration acceptance or learning efficacy",
+    "current_how_to_think": "Seven current-round decision-sequence documents, independently reviewed within the current organization scope, derived from SHA-bound current local sources; separate from the historical LEARN source/receipt and old C1 validation. See each new document for source scope."
   },
   "summary": {
     "total": 76,
     "navigation_groups": 4,
-    "explicit_cross_relations": 8
+    "explicit_cross_relations": 8,
+    "how_to_think_delivery": {
+      "preexisting_dedicated_documents": 41,
+      "current_new_organization_documents": 7,
+      "current_organization_scope_reviewed": 7,
+      "preexisting_distributed_kernels_identified_by_lane": 28,
+      "dedicated_documents_after_this_delivery": 48,
+      "uniform_semantic_or_effect_acceptance": false
+    }
   },
   "entries": {
     "aivazovsky": {
@@ -1542,7 +1551,19 @@
           "anchor": "db-source-line-83"
         }
       ],
-      "semantic_or_learning_effect_reaudit": false
+      "semantic_or_learning_effect_reaudit": false,
+      "how_to_think": "knowledge/domains/painters/learning/friedrich/how-to-think.md",
+      "how_to_think_delivery": {
+        "sha256": "9cd5eb3ef88cb5fe8d9d51a80725ef602b79b0b42e78bd625b388015c041f76a",
+        "bytes": 10814,
+        "state": "scoped_review_complete",
+        "grade": "[归纳]",
+        "independent_semantic_review": "completed_for_current_organization",
+        "historical_receipt_coverage": false,
+        "old_c1_validation_coverage": false,
+        "e4_validation": "not_performed",
+        "human_learning_effect": "not_evaluated"
+      }
     },
     "gauguin": {
       "task_id": "LEARN-gauguin",
@@ -1627,7 +1648,19 @@
           "anchor": "db-source-line-97"
         }
       ],
-      "semantic_or_learning_effect_reaudit": false
+      "semantic_or_learning_effect_reaudit": false,
+      "how_to_think": "knowledge/domains/painters/learning/gauguin/how-to-think.md",
+      "how_to_think_delivery": {
+        "sha256": "7cd7cd936e30ce3c58cb1c35170a2bbd22191beab143fd7cb81284bfa97f63e9",
+        "bytes": 10718,
+        "state": "scoped_review_complete",
+        "grade": "[归纳]",
+        "independent_semantic_review": "completed_for_current_organization",
+        "historical_receipt_coverage": false,
+        "old_c1_validation_coverage": false,
+        "e4_validation": "not_performed",
+        "human_learning_effect": "not_evaluated"
+      }
     },
     "goya": {
       "task_id": "LEARN-goya",
@@ -2102,7 +2135,19 @@
           "anchor": "db-source-line-85"
         }
       ],
-      "semantic_or_learning_effect_reaudit": false
+      "semantic_or_learning_effect_reaudit": false,
+      "how_to_think": "knowledge/domains/painters/learning/hopper/how-to-think.md",
+      "how_to_think_delivery": {
+        "sha256": "f292084559537b7d62709a51182b68fae06b89a994d8616436c50812b725ceea",
+        "bytes": 10581,
+        "state": "scoped_review_complete",
+        "grade": "[归纳]",
+        "independent_semantic_review": "completed_for_current_organization",
+        "historical_receipt_coverage": false,
+        "old_c1_validation_coverage": false,
+        "e4_validation": "not_performed",
+        "human_learning_effect": "not_evaluated"
+      }
     },
     "huang_gongwang": {
       "task_id": "LEARN-huang_gongwang",
@@ -2247,7 +2292,19 @@
           "anchor": "db-source-line-84"
         }
       ],
-      "semantic_or_learning_effect_reaudit": false
+      "semantic_or_learning_effect_reaudit": false,
+      "how_to_think": "knowledge/domains/painters/learning/ito_jakuchu/how-to-think.md",
+      "how_to_think_delivery": {
+        "sha256": "da3c7392c4dbc73534be7d2d09a3f409946e01415a646a31e802e03b25c1d467",
+        "bytes": 10887,
+        "state": "scoped_review_complete",
+        "grade": "[归纳]",
+        "independent_semantic_review": "completed_for_current_organization",
+        "historical_receipt_coverage": false,
+        "old_c1_validation_coverage": false,
+        "e4_validation": "not_performed",
+        "human_learning_effect": "not_evaluated"
+      }
     },
     "kahlo": {
       "task_id": "LEARN-kahlo",
@@ -2477,7 +2534,19 @@
           "anchor": "db-source-line-82"
         }
       ],
-      "semantic_or_learning_effect_reaudit": false
+      "semantic_or_learning_effect_reaudit": false,
+      "how_to_think": "knowledge/domains/painters/learning/kitagawa_utamaro/how-to-think.md",
+      "how_to_think_delivery": {
+        "sha256": "5f7c36e9ec06473d012f702555729ee122e64356f352e97826658b9d964e31cd",
+        "bytes": 11171,
+        "state": "scoped_review_complete",
+        "grade": "[归纳]",
+        "independent_semantic_review": "completed_for_current_organization",
+        "historical_receipt_coverage": false,
+        "old_c1_validation_coverage": false,
+        "e4_validation": "not_performed",
+        "human_learning_effect": "not_evaluated"
+      }
     },
     "klimt": {
       "task_id": "LEARN-klimt",
@@ -2617,7 +2686,19 @@
           "anchor": "db-source-line-85"
         }
       ],
-      "semantic_or_learning_effect_reaudit": false
+      "semantic_or_learning_effect_reaudit": false,
+      "how_to_think": "knowledge/domains/painters/learning/kngwarreye/how-to-think.md",
+      "how_to_think_delivery": {
+        "sha256": "3c0ed49f96503e41a1f5027c956d66dfafe372c534ab2ad9143681603e9c1e35",
+        "bytes": 11366,
+        "state": "scoped_review_complete",
+        "grade": "[归纳]",
+        "independent_semantic_review": "completed_for_current_organization",
+        "historical_receipt_coverage": false,
+        "old_c1_validation_coverage": false,
+        "e4_validation": "not_performed",
+        "human_learning_effect": "not_evaluated"
+      }
     },
     "lam": {
       "task_id": "LEARN-lam",
@@ -2757,7 +2838,19 @@
           "anchor": "db-source-line-85"
         }
       ],
-      "semantic_or_learning_effect_reaudit": false
+      "semantic_or_learning_effect_reaudit": false,
+      "how_to_think": "knowledge/domains/painters/learning/li_keran/how-to-think.md",
+      "how_to_think_delivery": {
+        "sha256": "6bc1a34905691ae0f5904fab43bb635c80ee4fddbbde1075e1a25d4df38c673b",
+        "bytes": 10855,
+        "state": "scoped_review_complete",
+        "grade": "[归纳]",
+        "independent_semantic_review": "completed_for_current_organization",
+        "historical_receipt_coverage": false,
+        "old_c1_validation_coverage": false,
+        "e4_validation": "not_performed",
+        "human_learning_effect": "not_evaluated"
+      }
     },
     "lin_fengmian": {
       "task_id": "LEARN-lin_fengmian",

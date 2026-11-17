@@ -1,0 +1,74 @@
+{
+ "case_id": "bad_grid_offset",
+ "description": "DELIBERATELY BAD control: shift ONE glyph's primitives by a half-cell offset (8px) AND mix in an UNREGISTERED radius (r=9). This must be detected by the in-bounds/uniform-scale check as a specific, named failure, NOT silently accepted.",
+ "radius_px": 9,
+ "registered_radii": [
+  2,
+  4,
+  7
+ ],
+ "offset_applied": [
+  8,
+  8
+ ],
+ "n_primitives": 35,
+ "in_bounds_check": {
+  "out_of_grid_count": 35,
+  "unregistered_scale_count": 35,
+  "detected": true,
+  "example_out_of_grid": [
+   {
+    "glyph": "A",
+    "col": 1,
+    "row": 0,
+    "x": 52,
+    "y": 30,
+    "r": 9
+   },
+   {
+    "glyph": "A",
+    "col": 2,
+    "row": 0,
+    "x": 68,
+    "y": 30,
+    "r": 9
+   },
+   {
+    "glyph": "A",
+    "col": 3,
+    "row": 0,
+    "x": 84,
+    "y": 30,
+    "r": 9
+   }
+  ],
+  "example_unregistered": [
+   {
+    "glyph": "A",
+    "col": 1,
+    "row": 0,
+    "x": 52,
+    "y": 30,
+    "r": 9
+   },
+   {
+    "glyph": "A",
+    "col": 2,
+    "row": 0,
+    "x": 68,
+    "y": 30,
+    "r": 9
+   },
+   {
+    "glyph": "A",
+    "col": 3,
+    "row": 0,
+    "x": 84,
+    "y": 30,
+    "r": 9
+   }
+  ]
+ },
+ "expected_failure": "primitives no longer centered on declared grid cells; radius not in the registered settings; check must report out_of_grid + unregistered_scale",
+ "outcome": "DETECTED (expected failure)"
+}

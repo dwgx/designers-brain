@@ -1,0 +1,846 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.79",
+    "revision": "@6dc9bc3bdaea5c35ed6d41fceab2f7a3a2227c4f",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.43"
+  },
+  "videos": [
+    {
+      "card": "02",
+      "mp4_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+      "utc": "2026-11-17T22:54:58.339310+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "54fbb48d80b5824e574da9ff83a038967199e06584ffb8163e61b8e227d02fdc"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "602bf775eb8887b6377035adf0291cf25cd19bed98521f6d06fb8fd7e054373e"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "04dd6a923efeff765d48823c59bc91aadcf6d09aceac4b8f49e8bc7df16c33c4"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "994e1bb68efc74ed9e3cdda4e552ed80320f75d7e560c97bd496335d285b44f8"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7114,
+        "paused": true,
+        "quality": 709
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "03",
+      "mp4_sha256": "2a48c5564f950443a694413434b59cb4d957dca5e4e78fcaadb8f19dbfa1df34",
+      "utc": "2026-11-17T22:54:59.348178+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "a62a8f13588bca2c90aa85b321601e3cc468114f81334b298e3ee491c7cbb375"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "f8d89fd73a860a0133d347ae3e1901f3afac101737c24f38aa3beb709ba3493c"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "0400a5fdf80bb023dabef1bbf774b5f5b8190ef3633e269644bb4e6cae387159"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "7c60df4f6f9ff1437fbc89ca1932148286589d9460b146284d2d0bbd78a62d04"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7032,
+        "paused": true,
+        "quality": 459
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "04",
+      "mp4_sha256": "7c2cb752f390629abf32ffdcfdeb133a7134473c75f4486c9bcd9f6844195d80",
+      "utc": "2026-11-17T22:55:00.553285+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "37743fbcf657f47d661c0f007466ed97e43d9fa65446bb70eddbcd7ffa3491dd"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "fa00576b09a464600ba4db182c57f5256a4e6dca0e8b7daea4548a7c1c7400f5"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "8d9683347acfc8e64481e3ad413e1a4ba38681da4e74dfeb537a172527f55931"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "c441d7dc23238c419d454571131f5b25da3a1562f9eab8bac0872e92a1256dda"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7148,
+        "paused": true,
+        "quality": 484
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "05",
+      "mp4_sha256": "ca7a6f7e0b3a11b8ac71de02e09015ff8be19c6dcaa75c6c656753c588745ae1",
+      "utc": "2026-11-17T22:55:01.631272+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "b4b794f43ccd91d0ffe548fc1ee952beab5c1066d588c9772bdce77ffab9ae3c"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "9b46dcc19fc9e8fde046c99bf1d8033048fe73a808360a7d292c869ba96cf0b1"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "efc4d250c06835274a31e943ac331097498146f0d4b3b7587f4c400e2291608c"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "b5bb873b6be8be510a6ab4e7deb6326f6ca2c2b64ae3c312227bddc646bc066a"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7079,
+        "paused": true,
+        "quality": 459
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "06",
+      "mp4_sha256": "d37d758a87c6fe064999519b92f45a3f85650e385414cfb64aaf54cb38ffd976",
+      "utc": "2026-11-17T22:55:02.642028+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "78cbef022e4ecf8e95fbce9f27516f961c93c00207f8ecbe5463579f8d57c3b0"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "7cf9be27710ea827677b6e8ede02630f85947bfc717ab2eafef3f5467e148aba"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "c9127e8eca76691e5406da4f4c42668610404b2c5fe8bd4fb830b0fa66e95726"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "a3d539261166d5cab154be0ae17ed95748d843c0c06f183334555315f9ec46b3"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7052,
+        "paused": true,
+        "quality": 459
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "07",
+      "mp4_sha256": "ef955281b1a5ef82c3cf97b6cfc74476552ac707038c03ed8b6f8c7b2d1b7e42",
+      "utc": "2026-11-17T22:55:03.654746+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "04b51bc20fd9cd0d4abd5bb4bd0da4644ccc39cf617f2426ef13228e6464b1dc"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "3a42a4046251256beec26d80e48c575fad18e58e45b75e173682305e378a57e9"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "6563e376ccb8ccb7861ac2bfacc6637ddfb28e226cc4042ca75a95052fc49e93"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "fbd62a37d581b6dccbcd3f376e33a46a74d04b328b5e1b3f7161b6e238c90fc8"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7092,
+        "paused": true,
+        "quality": 459
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "09",
+      "mp4_sha256": "553e3335f20571a561800cbd8e208b26af945d2ee39e2e23743797d776bd5e57",
+      "utc": "2026-11-17T22:55:04.695060+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "b94a98871c6aa7608943ea7c5ed1d81e2afbd86c1374ee9215d15951f4b96de4"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "977562c7f60866b37f363eff195684a5cbcc7b3ec087814c049bb9ef4d28dc05"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "4e025f94e12fc0f9ee6d3818f5b336b514b6aca533c3a584abc3c7d541d6a551"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "e22da37100ed2e0f7c9c71fd1697eb595bcfdf970ff9fee16f93d6b5342eb09d"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7089,
+        "paused": true,
+        "quality": 459
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "10",
+      "mp4_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+      "utc": "2026-11-17T22:55:05.912672+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            7.937
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "314c162ea7d8b452feeb1d071a6db6d4a4acb4480a9639c90167c67716013a0d"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "da06a5206cbb3b46336183a7b2c6732dc70fc7f526a0b9b84ed2f20c94664457"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "2a971bc7bfd5fffb9bb30b1c4b39ef1039f8b102c489647f88fb566dd1b56892"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "d7f5502689269c308fd7349fff8f90131e6b1d0d9214bb0e717012162d4846d2"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7106,
+        "paused": true,
+        "quality": 709
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "12",
+      "mp4_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+      "utc": "2026-11-17T22:55:07.097689+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "507278f5df61403cca29d2f2db03c99b5f7e71718e94d2515bc27f66aed780d0"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "8afaf40d628fc7fb2c9ade1e8dcb3da531ed4dfd787e068be2b234f986e73dc1"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "494feb0f7509fcca3957d09dc7fe7921b12c3fc8f1b142997682692c4e005673"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "17eb88c7d495faec1828db3e916f6940b06e268afaf44581f5e732ae48b29e6f"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7155,
+        "paused": true,
+        "quality": 709
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "13",
+      "mp4_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+      "utc": "2026-11-17T22:55:08.249829+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "52d784b0c10c63998cba95fb0879c00be09c226e1cf04f4d09f34824aeecd982"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "18c9b869c7d9d1b187b1118a6009f4cbddc505bbacf569c7a63bd42ecc0296bb"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "80494355c8cbb82eaab9ff7ff4b0c409c4b6c8746b8a0deac7a1e9aa638862ae"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "336693c07d946a2af23100417b3956001b1b1eb9dd9a4e8bad3426a973870381"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7013,
+        "paused": true,
+        "quality": 709
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "14",
+      "mp4_sha256": "763bd4a5d7e1cf986bf8d0d337ddb3f8e5e366a5d9bb9640e3dbb94ed52452a3",
+      "utc": "2026-11-17T22:55:09.252390+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "ed4198a42df6358485535fd4d17771a51dce1dadea77a067cca7c1badd8bf7a9"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "662094e075ae45670bfa59a0f22e41357e180e0a5eb979af21c2f54358ccdacd"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "bb7261ac4da952781de8694501226074292834607e1538279d03b7b0e6efe2bb"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "99724d1f2b6547975ebcf12c52aa4ba659625e8e5df64d9ad6fc81282fe6b541"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7027,
+        "paused": true,
+        "quality": 459
+      },
+      "canPlayH264": "probably"
+    },
+    {
+      "card": "15",
+      "mp4_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+      "utc": "2026-11-17T22:55:10.303567+00:00",
+      "passed": true,
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4,
+        "seekable": [
+          [
+            0,
+            10
+          ]
+        ],
+        "buffered": [
+          [
+            0,
+            10
+          ]
+        ]
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0.5,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "ae41fac3921cf02983e4b460619d602491e9fda92623013e9161431a10eca044"
+        },
+        {
+          "requested": 4,
+          "observed": 4,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "2f6f82c19d0e240018cbbc44f2fde5dac0c75b0a6109b95359d66f6915c9b16a"
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 7.766666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "26f1af9fd1cc037c283da6124e0a9b1b5e4e6c00ea6e6ba3ef90b4b3796ab50f"
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 9.966666,
+          "seeking": false,
+          "readyState": 4,
+          "frame_signature_32x18": "fd7d05fa2997a78203c30612fcdc5731ecaaf536c1ad6ab07d21b8cb89061769"
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7079,
+        "paused": true,
+        "quality": 709
+      },
+      "canPlayH264": "probably"
+    }
+  ],
+  "http_requests": [
+    {
+      "card": "02",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 2415291,
+      "size": 2415292
+    },
+    {
+      "card": "03",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 3748785,
+      "size": 3748786
+    },
+    {
+      "card": "04",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 987235,
+      "size": 987236
+    },
+    {
+      "card": "05",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 261138,
+      "size": 261139
+    },
+    {
+      "card": "06",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 82363,
+      "size": 82364
+    },
+    {
+      "card": "07",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 197555,
+      "size": 197556
+    },
+    {
+      "card": "09",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 1678174,
+      "size": 1678175
+    },
+    {
+      "card": "10",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 7018072,
+      "size": 7018073
+    },
+    {
+      "card": "12",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 6406855,
+      "size": 6406856
+    },
+    {
+      "card": "13",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 1100808,
+      "size": 1100809
+    },
+    {
+      "card": "14",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 829834,
+      "size": 829835
+    },
+    {
+      "card": "15",
+      "range": "bytes=0-",
+      "status": 206,
+      "start": 0,
+      "end": 2836648,
+      "size": 2836649
+    }
+  ],
+  "probe_source_sha256": "8bad16eb97ef302dc2df23cbddbcd3ecddf3910d888259a32d1d78158cdcb4d9",
+  "scope": "Actual isolated Chrome on owned localhost HTTP server with byte ranges. Four seeks require observed time within 0.12s and a decoded thumbnail signature; at least two distinct signatures, plus real playhead advance. Not human/aesthetic/audio review.",
+  "seek_guard": "abs(observed-requested)<=0.12 and not seeking and readyState>=2",
+  "transport": "HTTP byte ranges supported (206)",
+  "passed": true
+}

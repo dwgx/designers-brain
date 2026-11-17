@@ -1,0 +1,21 @@
+PASS original 14 tokens and chained aliases
+PASS default modifier order
+PASS explicit modifiers
+PASS aliases resolved after ordering
+PASS actual alias type conflict / check
+PASS actual alias type conflict / all
+PASS actual alias type conflict / single
+PASS untyped chained alias inherits target type
+PASS root group type inherited
+PASS literal dot name never silently overwrites
+PASS resolve_document validates type
+PASS legal dollar-in-name and spaces retained
+PASS invalid dimension literal
+PASS invalid color literal
+PASS cycle alias
+PASS self cycle
+PASS missing target
+PASS invalid modifier {'nope': 'x'}
+PASS invalid modifier {'theme': 1}
+PASS invalid modifier {'theme': 'neon'}
+RESULT: 20 resolver controls passed; explicit sRGB/px-rem subset.

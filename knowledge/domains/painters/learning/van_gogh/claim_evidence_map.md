@@ -76,7 +76,7 @@
 
 | # | claim_id | 论断（短） | kind/status | 证据定位 | 等级 | 备注 |
 |---|---|---|---|---|---|---|
-| 30 | LVG-DUAL-903 | 903 事实 `supported` / 「收口」措辞 `partial` 两账户并存；§10 L252 `[UNVERIFIED]` 与 §11.3 note 2 同时在档 | fact/supported | AUDIT `receipt.json:275-311`(AVG-903-CLOSURE supported)/`:314-327`(TEXTUAL-GAP partial) × `dossiers/van_gogh.md:252,390` × AUDIT `RESULT.md:20-21`/`claim_evidence_map.md:68-76` | `[史料]`（产物/档案） | **不合并、不伪造单一裁决** |
+| 30 | LVG-DUAL-903 | 903 事实 `supported` / 「收口」措辞 `partial` 双账户曾并存；§10 L252 原 `[UNVERIFIED]`——**F33（2026-11-16）已收口**（删除线保留历史）；§11.3 note 2 已核实 | fact/supported | AUDIT `receipt.json:275-311`(AVG-903-CLOSURE supported)/`:314-327`(TEXTUAL-GAP partial) × `dossiers/van_gogh.md:252,390` × AUDIT `RESULT.md:20-21`/`claim_evidence_map.md:68-76` | `[史料]`（产物/档案） | 历史账户保留；2026-11-18 收口核验确认 F33 收口 |
 | 31 | LVG-DUAL-GATE | gate 复核 `receipt.json@0bf134e2…`(submitted)→verdict=accepted；当前 `receipt.json@181ec23a…` 升 accepted = 同任务两阶段 | fact/supported | AUDIT `review-gate-receipt.json:15`(input hash 0bf134e2…)/`:50`(verdict accepted) × 本 lane `sha256sum receipt.json`=`181ec23a…` × `receipt.json:6` status=accepted × `review-gate-runner-receipt.json`(verify ok:true on submitted) | `[史料]`（字节实测） | 不是矛盾；两阶段状态 |
 | 32 | LVG-DUAL-3STATUS | 三类状态分别保存；本 lane submitted/review=null/human_review=not_applicable | fact/supported | `05-RELEASE-ACCEPTANCE.md:34-38` × 本 `receipt.json` × AUDIT `RESULT.md §Limitations` | `[史料]`(spec)/`[归纳]`(执行) | `submitted ≠ accepted`；不填模拟人评 |
 | 33 | LVG-DUAL-RIGHTS | §12「PD」是 CC0 简写、书信译本非 PD —— 两个权利对象不混称 | fact/supported | `dossiers/van_gogh.md:397` × AUDIT `rights_review.md`/`claim_evidence_map.md:86-89`/`receipt.json unresolved[0]` | `[史料]`（权利账） | 标签订正属后继 STYLE lane |

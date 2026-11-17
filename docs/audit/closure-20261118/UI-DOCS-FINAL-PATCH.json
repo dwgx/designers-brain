@@ -1,0 +1,75 @@
+{
+  "scope": "Exactly five Markdown documentation replacements; no checker, fixture, original receipt, report, PNG or code changes",
+  "before_read_utc": "2026-11-17T23:34:27.576529+00:00",
+  "evidence_basis": "Actual Windows closure commands at 22:48 UTC and targeted harness rerun at 22:52 UTC on 2026-11-17; case-local UI02/UI03 records retain their 22:14 UTC timestamps",
+  "retained_limits": [
+    "AG-UI/SSE transport not tested",
+    "OS-native IME and complete keyboard/WCAG not tested",
+    "model aesthetic untested and human pending",
+    "UI03 missing_name tests required aria-label contract, not computed accessible-name emptiness"
+  ],
+  "files": [
+    {
+      "path": "examples/ui/README.md",
+      "operation": "replace_if_before_sha_matches",
+      "before_sha256": "1d4a27b981d29b2efc99c9c6d053c88810faedb0b6c57becdc9bfd034c60a0df",
+      "after_sha256": "0e467cb857b513363343d30f3eafd69294020acfe3846a7fa4b5b90f6caced6b",
+      "before_bytes": 2300,
+      "after_bytes": 3750
+    },
+    {
+      "path": "examples/ui/ui-01/README.md",
+      "operation": "replace_if_before_sha_matches",
+      "before_sha256": "557a47b23d018deb30fe92afae0f4900462c8933573c932de0747b30d8172ea6",
+      "after_sha256": "ef11d1287417603a20e6f0bc98b257d5f54013f00d68676aaf2f371564285753",
+      "before_bytes": 1754,
+      "after_bytes": 3107
+    },
+    {
+      "path": "examples/ui/ui-02/README.md",
+      "operation": "replace_if_before_sha_matches",
+      "before_sha256": "e9c2df87e8d76d9f6fc1f611ec6f2dd9bedb8b5bbacb95d7d941780e2a4433ab",
+      "after_sha256": "791520681e19c1a1ea71d3d791dfed63322b0a79ff9ea12209a0fc2e62227537",
+      "before_bytes": 2574,
+      "after_bytes": 3673
+    },
+    {
+      "path": "examples/ui/ui-03/README.md",
+      "operation": "replace_if_before_sha_matches",
+      "before_sha256": "87d4b92d21de88f71e6ac19ae549a4d6000b790aee82cd0a28f98eb3bb1b0b1d",
+      "after_sha256": "74cdd43416876adb4ed872f6c404240589ca77ae7d13b1a1b9e3d2b27ae9a67a",
+      "before_bytes": 2626,
+      "after_bytes": 4792
+    },
+    {
+      "path": "examples/ui/ui-03/VERIFICATION_MATRIX.md",
+      "operation": "replace_if_before_sha_matches",
+      "before_sha256": "7534844e98b0930efb178e42831c4565efc426f79bd2eed30468e613724e30ff",
+      "after_sha256": "673d263cfdc08793e71f801a00412c111974ce552551d48a98c3a7c489b568ae",
+      "before_bytes": 2168,
+      "after_bytes": 3541
+    }
+  ],
+  "public_evidence_bindings": [
+    {
+      "path": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+      "bytes": 63893,
+      "sha256": "145210fc0c2673f4b178c2434b7b1e6ebc80e5106ed8cf2c38275fa19001b10b"
+    },
+    {
+      "path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-ime.json",
+      "bytes": 2756,
+      "sha256": "09f244b1486b4f9741bfc5141705c2581ea1b7047866e4cae0ee834c2fc863ff"
+    },
+    {
+      "path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/RESULT.json",
+      "bytes": 20000,
+      "sha256": "ef20d91d3d1b35633d4a344de3f4ca1e1d556571dd9a68cf5e3659963daaadc1"
+    },
+    {
+      "path": "docs/audit/closure-20261118/runtime/runtime-harness-repair/PATCHES.json",
+      "bytes": 5115,
+      "sha256": "1230822a59d650a3e86670c2ba4f2696e25b5f8c5ad936b36ee467d28ad8e451"
+    }
+  ]
+}

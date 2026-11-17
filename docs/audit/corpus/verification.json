@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "observed_at_utc": "2026-11-17T23:25:17.996467+00:00",
+  "command": "python analysis/requirements/corpus-final-proposal/verify_proposal.py",
+  "scope": "Finite local proposal byte/nav/scope checks and tiny guard fixtures; no remote target mutation and no content/effect acceptance",
+  "proposed_files": [
+    {
+      "path": "knowledge/domains/painters/learning/COVERAGE-MATRIX.md",
+      "sha256": "a0766724ea587561be273bb2855c07fd107f78bd112091b295c505c054a4a2b1",
+      "bytes": 36635
+    },
+    {
+      "path": "docs/audit/corpus/CORPUS-LANES-SUMMARY.md",
+      "sha256": "8b3dc752c65e2320b61ee4dc74e82a939d391fe2e84e86ef2afa64a7dc3cc55d",
+      "bytes": 13704
+    },
+    {
+      "path": "knowledge/domains/painters/learning/INDEX.md",
+      "sha256": "1658164c68162136919b8afb65c068fca09fe32b9f73881d07b36312add0d022",
+      "bytes": 15351
+    },
+    {
+      "path": "knowledge/LEARNING-INDEX.json",
+      "sha256": "11cd4828e0ea396c45f86eb23c440604d792bd91d9965aa7952d4d2be4e3c21b",
+      "bytes": 206406
+    },
+    {
+      "path": "knowledge/domains/painters/learning/friedrich/how-to-think.md",
+      "sha256": "9cd5eb3ef88cb5fe8d9d51a80725ef602b79b0b42e78bd625b388015c041f76a",
+      "bytes": 10814
+    },
+    {
+      "path": "knowledge/domains/painters/learning/gauguin/how-to-think.md",
+      "sha256": "7cd7cd936e30ce3c58cb1c35170a2bbd22191beab143fd7cb81284bfa97f63e9",
+      "bytes": 10718
+    },
+    {
+      "path": "knowledge/domains/painters/learning/hopper/how-to-think.md",
+      "sha256": "f292084559537b7d62709a51182b68fae06b89a994d8616436c50812b725ceea",
+      "bytes": 10581
+    },
+    {
+      "path": "knowledge/domains/painters/learning/ito_jakuchu/how-to-think.md",
+      "sha256": "da3c7392c4dbc73534be7d2d09a3f409946e01415a646a31e802e03b25c1d467",
+      "bytes": 10887
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kitagawa_utamaro/how-to-think.md",
+      "sha256": "5f7c36e9ec06473d012f702555729ee122e64356f352e97826658b9d964e31cd",
+      "bytes": 11171
+    },
+    {
+      "path": "knowledge/domains/painters/learning/kngwarreye/how-to-think.md",
+      "sha256": "3c0ed49f96503e41a1f5027c956d66dfafe372c534ab2ad9143681603e9c1e35",
+      "bytes": 11366
+    },
+    {
+      "path": "knowledge/domains/painters/learning/li_keran/how-to-think.md",
+      "sha256": "6bc1a34905691ae0f5904fab43bb635c80ee4fddbbde1075e1a25d4df38c673b",
+      "bytes": 10855
+    }
+  ],
+  "source_guards_declared": 35,
+  "source_full_bodies_rehashed_locally": 28,
+  "dossier_full_file_hashes_from_actual_remote_snapshot_not_local_full_file_rehash": 7,
+  "module_dossier_body_comparisons": 14,
+  "matrix_rows": 76,
+  "matrix_columns": 8,
+  "baseline_dedicated": 41,
+  "new_current_organization": 7,
+  "dedicated_after_integration": 48,
+  "lane_identified_distributed_kernels": 28,
+  "b3_named_navigation_targets_previously_observed_existing": 57,
+  "decision_steps": 42,
+  "historical_fields_preserved_for_entries": 76,
+  "unchanged_other_entries": 69,
+  "six_unaffected_body_bytes_preserved_after_header_change": true,
+  "all_seven_post_review_deltas_header_only": true,
+  "li_keran_denominator_delta_verified": true,
+  "public_path_credential_scan": "PASS",
+  "lane_source_files": [
+    {
+      "path": "lanes/CORPUS-B1/RESULT.md",
+      "sha256": "e94f10d4ab7a86600714602f5b2fcf15444de63a318f175e240645c240dceae9",
+      "bytes": 16266
+    },
+    {
+      "path": "lanes/CORPUS-B2/RESULT.md",
+      "sha256": "03ac2e76ea37ab9c0c4a25f24dd52e373b9c174974d8bfe6994c1e009245af2c",
+      "bytes": 17679
+    },
+    {
+      "path": "lanes/CORPUS-B3/RESULT.md",
+      "sha256": "e2ce9c1905cd08cddf0a520a1ce2faaf2c87d75097163c4abce893ef72d3db9f",
+      "bytes": 17598
+    },
+    {
+      "path": "lanes/CORPUS-B4/RESULT.md",
+      "sha256": "29fd3b41892f62033bddc46e3b606bef71355f30973afef4f940ee831c72437a",
+      "bytes": 20912
+    }
+  ],
+  "guard_behavior_cases": [
+    "dry_run_checks_and_does_not_write",
+    "source_drift_blocks_all_writes",
+    "unexpected_target_blocks_all_writes",
+    "exact_expected_source_and_targets_apply",
+    "second_apply_is_idempotent",
+    "later_target_change_is_not_overwritten"
+  ],
+  "limitations": [
+    "Actual 35 source/11 target guards must still run against the root-owned integration checkout.",
+    "This script does not substitute for independent semantic review or Root acceptance; those occurred separately for the current organization scope.",
+    "No E4, new image observation, original-work threshold measurement, external-reference revalidation or human learning/aesthetic scoring."
+  ]
+}

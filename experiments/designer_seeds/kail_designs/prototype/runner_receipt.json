@@ -1,0 +1,76 @@
+{
+  "runner_id": "SeedDepsRevisit-S05-kail_designs-prototype",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-EXPERIMENT-kail_designs/prototype",
+  "dedup_key": "DB-20261115:SEED-EXPERIMENT-kail_designs:prototype:S05",
+  "cwd": "SOURCE@designers-brain (read-only source repo); writes under staging/SEED-EXPERIMENT-kail_designs/prototype/",
+  "repo_head": "f008952365a77e140cbda3f3959d43ef000f9a22",
+  "python": "3.14.7",
+  "pillow": "12.3.0",
+  "jsonschema": "4.26.0",
+  "commands": [
+    "probe python/Pillow/font/jsonschema on host (record actual versions)",
+    "read S05 brief + seed-feasibility-review.md + METRIC-PILOT/fixtures/metrics.py (reuse interfaces)",
+    "write config.json (PRE-RUN config + intended checks + color units + boundaries)",
+    "write build.py (executable deterministic mechanism source)",
+    "RUN 1: python -X utf8 build.py outputs",
+    "RUN 2: python -X utf8 build.py rerun_20261115",
+    "compare per-file sha256 run1 vs run2 (deterministic rerun)",
+    "write README.md + RESULT.md + run_evidence.json + runner_receipt.json + receipt.json",
+    "python -X utf8 <package>/tools/verify-receipt.py receipt.json --schema ... --workspace-root <RUN_ROOT>"
+  ],
+  "per_command_exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "input_hashes_verified": [
+    {
+      "path_or_id": "config.json",
+      "sha256": "856a6e1d376bd2c0c4841244efab9d7df3f93b390c36f3719fa36c1eba72d7f2"
+    },
+    {
+      "path_or_id": "build.py",
+      "sha256": "c74f27b94bb381f27d74f4e2545f358e34f9d7dafd3dc8afe58ff5f812a3101b"
+    },
+    {
+      "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py (reused numeric interfaces)",
+      "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263"
+    }
+  ],
+  "artifact_hashes_produced": {
+    "outputs/checks.json": "248d5f62db786bf7c36fb4cd496f5a097d5f4ad1b37d3481c5f409733a671020",
+    "outputs/diff_v1_exposure.json": "6db05fa23b1eff9cf2428de438e55dca70f71efabaa15a0f7a0db0325d83c6bb",
+    "outputs/diff_v1_exposure.png": "c58a8dae5107ead072e32c5c67671dcc5cde7ead17145179589e4b1d4e6b8cd8",
+    "outputs/diff_v2_halo.json": "877da428eec030c612640bd5c5d7413cb62da565e810219180a3504ee467377e",
+    "outputs/diff_v2_halo.png": "1f9e613ce5658dd8b6c4d123e547836f9151eacc45f0810206e2f7420ef468cd",
+    "outputs/diff_v3_grain.json": "2e845d95a1f4bce62a6ec0fbcddc38abb7bad65644c2b12207d2d53b6f6c4c2a",
+    "outputs/diff_v3_grain.png": "e64f9b707aa1c6a6be4ea9871903ca8e98011a91c2d6cef695ddbe210d039f62",
+    "outputs/input_field.json": "ac002e61ae02b06c1aa149661887861b645d9a32c993bb367c208ab9f6f836a8",
+    "outputs/input_field.png": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+    "outputs/run_config_snapshot.json": "bbed5ce0730c67fa6ea34b43380f5488666baf5019eb90a10c25d0322032ef3f",
+    "outputs/v0_baseline.json": "a8170a9906f8bb62ed65fc6468ac475e12f2e9dfb3dc5b680b039d107ac58cd6",
+    "outputs/v0_baseline.png": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+    "outputs/v1_exposure.json": "7d962bdf72bd4703c6af3390d7851e680d11b00cc622e2ffe414991d865b5f23",
+    "outputs/v1_exposure.png": "523a0fbe79b19029a8cc1262888799c3e386c0c711e7cba03861c2dfbf373939",
+    "outputs/v2_halo.json": "24f034c5a78064dc6c31a6e3df8c88ada07f174f0f577c26f39d2a8b5876c5dd",
+    "outputs/v2_halo.png": "ff8bd37cc1b31212f3ec203a331de0dcd0578d3848b82679d39b8dc4f7f74640",
+    "outputs/v3_grain.json": "bfdf1fe2ca798038ec84b453216b820a2b1116608856417e2a158b3a72e5e33b",
+    "outputs/v3_grain.png": "b283613b1aeda81f2e6535631596a57b7f7326b8bd3559984c05a910c64392be"
+  },
+  "deterministic_rerun_all_identical": true,
+  "limitations": [
+    "CANDIDATE mechanism hypothesis; NOT a validated reproduction, NOT E2/E3 evidence, NOT an E3 success.",
+    "No image API, no browser/WebGL, no ffmpeg, no historical/author media, no credentials, no RNG (coordinate-deterministic).",
+    "Candidate local post-processing mechanism ONLY. NOT the real ascii-magic/backgrounds.supply kernel, NOT their default pass order, NOT a proven shader pipeline. Two product pages' labels NOT merged. No time-continuity / website-determinism / 4K / video-export claim. Seed stays E1; no E2/E3/active promotion.",
+    "Parent SEED-EXPERIMENT original state/runner/reviewer records PRESERVED; no E2/E3/active status change.",
+    "Aesthetic/design judgement stays pending_human; independent GLM review of tested behavior is a later gate.",
+    "receipt.json status=submitted -> verify-receipt.py validates schema only (verify-receipt.py:20-21)."
+  ]
+}

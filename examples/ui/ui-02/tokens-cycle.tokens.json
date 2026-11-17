@@ -1,0 +1,14 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/format.json",
+  "$description": "INTENTIONALLY INVALID cycle demonstration for UI-02. DTCG Format 7.2.3: 'References MUST NOT be circular'; 'Tools MUST detect and report this as an error affecting all tokens in the circular chain.' This file passes the structural JSON Schema (aliases are just strings) but MUST be rejected by an alias resolver. Kept separate from tokens.tokens.json so the valid sheet stays valid.",
+  "loop": {
+    "$type": "color",
+    "a": { "$type": "color", "$value": "{loop.b}", "$description": "a -> b" },
+    "b": { "$type": "color", "$value": "{loop.c}", "$description": "b -> c" },
+    "c": { "$type": "color", "$value": "{loop.a}", "$description": "c -> a (cycle closes)" }
+  },
+  "selfLoop": {
+    "$type": "color",
+    "x": { "$type": "color", "$value": "{selfLoop.x}", "$description": "direct self-cycle" }
+  }
+}

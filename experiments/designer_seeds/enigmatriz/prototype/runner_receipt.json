@@ -1,0 +1,69 @@
+{
+  "runner_id": "SeedDepsRevisit-S05-enigmatriz-prototype",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-EXPERIMENT-enigmatriz/prototype",
+  "dedup_key": "DB-20261115:SEED-EXPERIMENT-enigmatriz:prototype:S05",
+  "cwd": "SOURCE@designers-brain (read-only source repo); writes under staging/SEED-EXPERIMENT-enigmatriz/prototype/",
+  "repo_head": "f008952365a77e140cbda3f3959d43ef000f9a22",
+  "python": "3.14.7",
+  "pillow": "12.3.0",
+  "jsonschema": "4.26.0",
+  "commands": [
+    "probe python/Pillow/font/jsonschema on host (record actual versions)",
+    "read S05 brief + seed-feasibility-review.md + METRIC-PILOT/fixtures/metrics.py (reuse interfaces)",
+    "write config.json (PRE-RUN config + intended checks + color units + boundaries)",
+    "write build.py (executable deterministic mechanism source)",
+    "RUN 1: python -X utf8 build.py outputs",
+    "RUN 2: python -X utf8 build.py rerun_20261115",
+    "compare per-file sha256 run1 vs run2 (deterministic rerun)",
+    "write README.md + RESULT.md + run_evidence.json + runner_receipt.json + receipt.json",
+    "python -X utf8 <package>/tools/verify-receipt.py receipt.json --schema ... --workspace-root <RUN_ROOT>"
+  ],
+  "per_command_exit_codes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "input_hashes_verified": [
+    {
+      "path_or_id": "config.json",
+      "sha256": "e8573919da850c3dbecc67b9ef6c920550aed0caff6050fa05d42af7ffedfde7"
+    },
+    {
+      "path_or_id": "build.py",
+      "sha256": "8da048b44660b71877a37431435cde1dcf873302171f13cee5637787bd2218ae"
+    },
+    {
+      "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py (reused numeric interfaces)",
+      "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263"
+    }
+  ],
+  "artifact_hashes_produced": {
+    "outputs/ascii_normal.txt": "400a8520d4d57c59a8df35852b5d6426113cfbe7aba1cc08b58680d32e4f6b63",
+    "outputs/ascii_reversed.txt": "ff378640b5dd257c6fc278fd7445bbfb257afb532fd54a88533d41730a5c3c63",
+    "outputs/cell_ledger_normal.json": "4309d7fe29d2a80ec4774cf5084b693982e199857b0b0e8c8ea8617bcc20daa0",
+    "outputs/cell_ledger_reversed.json": "cda2ce9a09251e99412ebc1b4076ede29cb2bcd7b07f650ef04e69206a87fa4d",
+    "outputs/checks.json": "5d72770e127a86b3a97cd84e0e70ba85f5ec1e2e82645d8af2950a5c6e0df8f7",
+    "outputs/glyph_coverage_table.json": "9b037a982235f1477d1370fcf205e48e4d1d6ccd60474e34bdb8298e438412fd",
+    "outputs/input_chart.png": "7d4ff90da0e8cc78d73253f67c6a0088ffbae7c4d9b4714c2358642eba1a5024",
+    "outputs/input_mask.png": "6a05c88933461872ccf311be6f504808c454c5635bf3494ae46be252431a1c37",
+    "outputs/render_normal.png": "197e946edec46c7b84b54ad6c8766e8b13a806a133b6f108dc955c23d448cbdd",
+    "outputs/render_reversed.png": "35dffece834ebf61906ab913a904930eb8f7494818aa089fd45c1d325a3be0c3",
+    "outputs/run_config_snapshot.json": "527be73aaba5d954c13b34fd55d4c06b079651e68e42f78bbd65274dcc88849e"
+  },
+  "deterministic_rerun_all_identical": true,
+  "limitations": [
+    "CANDIDATE mechanism hypothesis; NOT a validated reproduction, NOT E2/E3 evidence, NOT an E3 success.",
+    "No image API, no browser/WebGL, no ffmpeg, no historical/author media, no credentials, no RNG (coordinate-deterministic).",
+    "Only supports OUR implemented selected-region/quantization mechanism. NOT the artist's algorithm, NOT automatic mask toolchain, NOT human 'looks like enigmatriz'. Reversal is a CONTROL, not an aesthetic failure. Seed stays E1; no E2/E3/active promotion.",
+    "Parent SEED-EXPERIMENT original state/runner/reviewer records PRESERVED; no E2/E3/active status change.",
+    "Aesthetic/design judgement stays pending_human; independent GLM review of tested behavior is a later gate.",
+    "receipt.json status=submitted -> verify-receipt.py validates schema only (verify-receipt.py:20-21)."
+  ]
+}

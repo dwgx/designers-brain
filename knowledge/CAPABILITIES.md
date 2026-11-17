@@ -1,6 +1,6 @@
 # CAPABILITIES — 当前能力与证据边界
 
-此视图沿用 image / web10s / blender 四态结构。来源绑定与工程派生不替代正式整合审阅；不新增实验或 E2/E3 晋升。
+此视图沿用 image / web10s / blender 四态结构。2026-11-18 收口补充真实工程运行与当前文件绑定，四态不变，E2/E3、E4 与真人效果不自动晋升。当前结论见[收口审计](../docs/audit/closure-20261118/REVIEW.md)。
 
 JSON中的submitted/preview记录生成时的工程递交状态，不是当前公开版本的实时接收标志。正式接收请按最终版本/发布说明中的exact-SHA门绑定判断；本文件不自封accepted。
 
@@ -11,7 +11,7 @@ JSON中的submitted/preview记录生成时的工程递交状态，不是当前�
 | unsupported | 明确不适用的路线，不等于实验失败。 |
 | untested | 当前来源中没有该实体/输出路线的已实现证明。 |
 
-源候选版本：`8c3cd109800099c5943788f54c765c172ec4bc14`。原任务仍为 292 项；矩阵含95个本轮实体，3个历史motion单列，不能把这些数当任务完成数。
+历史 G5 源候选版本：`8c3cd109800099c5943788f54c765c172ec4bc14`。原任务仍为 292 项；矩阵含95个本轮实体，3个历史motion单列，不能把这些数当任务完成数。
 
 计算得到 supported=0，conditional=28；不预设任何支持数量。
 
@@ -100,18 +100,18 @@ JSON中的submitted/preview记录生成时的工程递交状态，不是当前�
 
 | 实体 | image | web10s | blender | 当前范围 / 入口 |
 | --- | --- | --- | --- | --- |
-| 02 液态 | unsupported | conditional | unsupported | 1920x1080 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 03 等轴2.5D | unsupported | conditional | unsupported | 960x540 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 04 复古未来 | unsupported | conditional | unsupported | 640x360 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 05 形变 | unsupported | conditional | unsupported | 640x360 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 06 包豪斯 | unsupported | conditional | unsupported | 640x360 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 07 科幻HUD | unsupported | conditional | unsupported | 640x360 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 09 玻璃拟态 | unsupported | conditional | unsupported | 640x360 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 10 拼贴 | unsupported | conditional | unsupported | 1920x1080 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 12 手绘线条沸腾 | unsupported | conditional | unsupported | 1920x1080 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 13 扁平矢量 | unsupported | conditional | unsupported | 1920x1080 / 300帧 / 10s；本地raster、静音、非完整browser路线。 |
-| 14 贴纸科普 | unsupported | conditional | unsupported | 960x540 / 300帧 / 10s；本地raster、静音、非完整browser路线。 极小柱有可见性下限；末停顿10/30s。 |
-| 15 综艺花字 | unsupported | conditional | unsupported | 1920x1080 / 300帧 / 10s；本地raster、静音、非完整browser路线。 S32仅V2/V3/V8；GLM delta 状态见JSON。 |
+| 02 液态 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；原源码及 MP4 字节保留；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 03 等轴2.5D | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；最终源码直接生成原生 1080 帧；含字体/helper 依赖；已修正书体遮挡、中文字与连续拉远；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 04 复古未来 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；最终源码直接生成原生 1080 帧；含字体/helper 依赖；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 05 形变 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；最终源码直接生成原生 1080 帧；含字体/helper 依赖；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 06 包豪斯 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；最终源码直接生成原生 1080 帧；含字体/helper 依赖；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 07 科幻HUD | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；最终源码直接生成原生 1080 帧；含字体/helper 依赖；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 09 玻璃拟态 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；最终源码直接生成原生 1080 帧；含字体/helper 依赖；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 10 拼贴 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；原源码及 MP4 字节保留；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 12 手绘线条沸腾 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；原源码及 MP4 字节保留；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 13 扁平矢量 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；原源码及 MP4 字节保留；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 14 贴纸科普 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；最终源码直接生成原生 1080 帧；含字体/helper 依赖；USGS 选取类别非完整分割，极小柱采用已披露可见性下限；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
+| 15 综艺花字 | unsupported | conditional | unsupported | 1920×1080 / 300帧 / 30fps / 10s / H.264；完整解码与 Chrome 实测播放、seek 通过；原源码及 MP4 字节保留；S32 仍仅 V2/V3/V8；静音、完整原卡与人评限制保留。[画廊](../experiments/motion_closure/gallery/index.html) |
 
 ## 3 个历史 motion
 
@@ -139,6 +139,8 @@ JSON中的submitted/preview记录生成时的工程递交状态，不是当前�
 
 7 个 seed 的局部程序原型已留下实际 PNG/SVG/检查输出；这保留工程成果，但不声称是作者真实算法、E2/E3复现、真实图像生成服务输出或人类审美通过。
 
-12 个本轮 motion 的完整时间轴不等于完整原卡：局部分辨率、静音、内容替代、浏览器路线和指定控制范围分别保留。3 个历史项不计入这12项。
+12 个本轮 motion 已完成逐帧 EOF 解码及实际 Chrome 播放/48 次定点 seek：5 张保持原始媒体字节，7 张以最终原生 1080 源码重新生成。它们仍是本地程序栅格视频，静音、完整原卡/内容替代/指定控制范围各自保留；浏览器播放不等于浏览器合成路线。旧缩放包装和未测 seek 的结论已撤回并保存在 history。3 个历史 motion 不计入这 12 个。
 
 本文件是原 CAPABILITIES 任务的派生视图；域状态仍只由 skills/designers-brain/domains.yaml 管理。
+
+原有三个 seed 已额外执行第二个新进程，与本轮首跑的 47/47 个输出逐字节一致；原 checks.json 的 C6=null 保留，新增证明单独记录。四个补齐包保留各自实际负控与跨环境记录。见[运行结果](../docs/audit/closure-20261118/runtime/seed-determinism-final/RESULT.json)。

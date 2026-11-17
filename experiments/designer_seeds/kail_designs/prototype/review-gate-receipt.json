@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-PROTOTYPE-kail_designs-REVIEW",
+  "kind": "independent_review",
+  "dedup_key": "DB-20261115:SEED-PROTOTYPE-kail_designs-REVIEW",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "author_actor_id": "ReviewGateSeedProto",
+  "reviewed_task_id": "SEED-EXPERIMENT-kail_designs/prototype",
+  "independent_from_author": true,
+  "execution_kind": "leaf_work_item",
+  "spawns_allowed": false,
+  "allowed_write_paths": [
+    "staging/SEED-EXPERIMENT-kail_designs/prototype/review-evidence.md",
+    "staging/SEED-EXPERIMENT-kail_designs/prototype/review-gate-receipt.json",
+    "staging/SEED-EXPERIMENT-kail_designs/prototype/review-gate-runner-receipt.json"
+  ],
+  "r2_refresh": {
+    "marker": "r2",
+    "refreshed_at": "2026-11-15T16:18:38Z",
+    "refreshed_by": "ReviewGateSeedProto",
+    "reason": "Author (SeedDepsRevisit) delivered the calibrated-closure final receipt.json (bound-claims calibration: single-toggle chain only, no combined pass-order or spectrum claims); gate re-bound to current bytes and re-ran the real PKG verify-receipt.py, correcting the r1 tool-absent defect. Prior r1 content preserved as review-gate-receipt.r1.bak.json (plus earlier review-gate-receipt.v1-history.json).",
+    "supersedes": "review-gate-receipt.r1.bak.json"
+  },
+  "input_hashes": [
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/receipt.json", "sha256": "60b2db56f1cb7a1a4d4edf41f2a9048b666e08f085cc5b4f791bec3cd42610ac", "note": "FINAL calibrated-closure receipt; recomputed from bytes 2026-11-15T16:18Z; matches SeedDepsRevisit closure value and verify-receipt.out footer FINAL-RECEIPT-SHA256" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/runner_receipt.json", "sha256": "51f0125ec8c1841b39f15cafbebdf4d4156a18b677918c8902875dba8c9c3ba4", "note": "unchanged since r1" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/RESULT.md", "sha256": "462b66469ff93a52b2d5a0d38d16362ac5dc7f1f128d58a7090743400143e549", "note": "updated by author calibrated closure (r1 recorded db5b50b5…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/README.md", "sha256": "4f3909c2c183eb8ffea8d129bb9c435ffbcc583cbee808af2f3e06563b1ab469", "note": "updated by author calibrated closure (r1 recorded 8ddb7d9a…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/run_evidence.json", "sha256": "92e601cba7236a08f15c7029b810361c3745c40c19f6635f8e6d65967f27d2f5", "note": "unchanged since r1" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/config.json", "sha256": "856a6e1d376bd2c0c4841244efab9d7df3f93b390c36f3719fa36c1eba72d7f2", "note": "unchanged since r1" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/build.py", "sha256": "c74f27b94bb381f27d74f4e2545f358e34f9d7dafd3dc8afe58ff5f812a3101b", "note": "unchanged since r1" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype/S11B-CALIBRATION.md", "sha256": "42e310f263bb34ed3df5f3216deca4fd20834abbcd582bb75a3ef83db1c04cf4", "note": "new author calibration addendum, bound artifact of final receipt" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/state.md (parent, preserved)", "sha256": "150edc676b2b8ec32d747b4c6c89094eb66b152f3ce3a2cf51dbf0c2cd1fde25", "note": "parent E2/E3/active state doc unchanged" },
+    { "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py", "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-kail_designs/prototype (dir manifest: '<relpath>  <sha256>' lines, LF-joined, sorted by path, over all files EXCEPT review-gate-* gate files)", "sha256": "f6ccd9272d090d83e0203ceace9183db8c5985b562a463a33d129eb42861a2b8", "note": "n=47 non-gate files; recipe excludes review-gate-* so this binding stays stable as gate receipts are refreshed" }
+  ],
+  "review": {
+    "reviewer_actor_id": "ReviewGateSeedProto",
+    "independent_from_author": true,
+    "reviewed_artifact_hashes": [
+      "60b2db56f1cb7a1a4d4edf41f2a9048b666e08f085cc5b4f791bec3cd42610ac",
+      "51f0125ec8c1841b39f15cafbebdf4d4156a18b677918c8902875dba8c9c3ba4",
+      "f6ccd9272d090d83e0203ceace9183db8c5985b562a463a33d129eb42861a2b8"
+    ],
+    "verdict": "accepted",
+    "verdict_rationale": "r2 refresh of an accepted r1 review. r1 full evidence (dir-manifest recompute 44 files, fresh build.py rerun byte-identical 18/18, clip 0->1113 recompute, halo ring mean 129.2063->155.1323 n=648 exact match on pre-clamp grids, grain operator exact reproduction max error 0, MAD 5.8671/6.0361) stands on unchanged config/build/outputs bytes. r2 additions: (1) receipt.json re-bound to FINAL calibrated-closure bytes 60b2db56…, recomputed from bytes, matching the SeedDepsRevisit closure value and the verify-receipt.out footer; (2) PKG verify-receipt.py (sha 00ef6071…) executed for real, exit 0, ok=true, status=submitted; (3) receipt internals re-validated on current bytes: 25/25 artifacts, 4/4 input_hashes (config.json, build.py, metrics.py, parent state.md), 3/3 claim source_ref bindings match; (4) calibration check: outputs/checks.json C4_grain_high_frequency_effect reports only flat_region_mean_abs_diff=5.8671 / coordinate_deterministic / rng_used=false — no FFT/spectrum measurement exists, matching S11B-CALIBRATION.md §2 (config.json's 'low-frequency structure preserved' wording is declared design intent, not a measured result); no combined pass-order claim: only four single-toggle variants v0-v3 exist, no exposure+halo / full-stack output; bounded-language scan over receipt claims: no promotion/validated-reproduction/spectrum/combined-pass language. CANDIDATE local post-processing mechanism hypothesis ONLY; NOT the ascii-magic/backgrounds.supply real kernel; NOT E2/E3 evidence; pending_human stays pending_human.",
+    "evidence_path": "staging/SEED-EXPERIMENT-kail_designs/prototype/review-evidence.md",
+    "minor_nits": [
+      "checks.json C6 pass field is null (verdict lives in run_evidence.json.deterministic_rerun) — cosmetic split, non-material.",
+      "PNG-based halo ring recompute differs from claimed mean by <=0.06 purely from 8-bit clamping; declared measurement surface is the pre-clamp JSON grids, which match exactly.",
+      "claim source_ref C-rerun-byte-identical names source_id 'rerun_20261115/' but binds the byte-SHA of its checks.json (dir content byte-identical to outputs/, verified) — ambiguous locator, binding itself correct."
+    ]
+  },
+  "execution": {
+    "verify_receipt": {
+      "command": "python -X utf8 <PKG>/tools/verify-receipt.py <dir>/prototype/receipt.json --schema <PKG>/templates/receipt.schema.json --workspace-root <RUN_ROOT>",
+      "output": {
+        "ok": true,
+        "status": "submitted",
+        "errors": [],
+        "scope": "schema, declared actor separation, cross-references and local bytes; independent source/runner/human verification still required"
+      },
+      "exit_code": 0,
+      "tool_sha256": "00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0",
+      "r2_correction": "r1 wrongly recorded the tool as 'absent from machine / NOT EXECUTABLE'; the sealed PKG tool exists and was executed for real in the r2 refresh (this corrects the 'equivalent_validation' workaround claim in r1)."
+    },
+    "hash_spot_checks": 33,
+    "hash_spot_checks_matched": 33,
+    "repo_head_verified": "f008952365a77e140cbda3f3959d43ef000f9a22",
+    "locator_samples": "outputs/v0_baseline.json+v2_halo.json field grids ring mean 129.2063/155.1323 n=648; outputs/checks.json C2 clip [0,1113] C4 flat diff 5.8671 rng_used=false; config.json.color_units raw 8-bit declaration; single-toggle variants v0-v3 only; parent state.md 150edc67…; verify-receipt.out footer FINAL-RECEIPT-SHA256=60b2db56…",
+    "runner_receipt_path": "staging/SEED-EXPERIMENT-kail_designs/prototype/review-gate-runner-receipt.json"
+  },
+  "human_review": {
+    "status": "not_applicable",
+    "actual_reviewer": null,
+    "record_path": null
+  },
+  "timestamp": "2026-11-15T16:18:38Z"
+}

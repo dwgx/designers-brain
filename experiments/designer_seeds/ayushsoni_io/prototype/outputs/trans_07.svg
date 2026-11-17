@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-vocab="beam" data-state="connected" data-ax="162.73" data-bx="349.27" data-connector-width="11.45">
+  <rect x="0" y="0" width="512" height="384" fill="#f2f3f2" data-role="background" />
+  <g data-role="objects">
+    <polygon points="184.73,186.27 327.27,190.00 327.27,194.00 184.73,197.73" fill="#8fb0e0" data-role="connector" data-from="A" data-to="B" data-width="11.45" />
+    <circle cx="162.73" cy="192.00" r="44" fill="#5664c4" data-role="atom" data-atom="A" />
+    <circle cx="162.73" cy="192.00" r="24.20" fill="#dfe6f7" data-role="atom-inner" data-atom="A" />
+    <circle cx="349.27" cy="192.00" r="44" fill="#5664c4" data-role="atom" data-atom="B" />
+    <circle cx="349.27" cy="192.00" r="24.20" fill="#dfe6f7" data-role="atom-inner" data-atom="B" />
+  </g>
+</svg>

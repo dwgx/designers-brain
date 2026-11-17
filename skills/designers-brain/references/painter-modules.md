@@ -18,3 +18,7 @@
 这些入口保留来源与证据边界；accepted执行记录不代表学习收益、E4或输出通道可用。
 
 <!-- DB-PUBLIC-KNOWLEDGE:END -->
+
+## 消费验证与可辨性边界
+
+出稿后按 [当前消费者结果与可辨性指引](../../../docs/skill/consumer-evidence.md#readability-after-local-checks) 检查实际图像。C1 局部指标通过但个案失败；不得将数值绿灯代替主体可辨性、完整画风迁移或真人评价。新建议为单例归纳，未验证学习改善。

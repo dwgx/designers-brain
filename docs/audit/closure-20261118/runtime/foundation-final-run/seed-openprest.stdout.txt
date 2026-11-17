@@ -1,0 +1,3 @@
+openprest build OK -> ROOT/web-review\foundation-final-run\seeds\openprest
+expected/actual primitives per setting: 35 [35, 35, 35]
+bad case detected: True | small-size n: 35

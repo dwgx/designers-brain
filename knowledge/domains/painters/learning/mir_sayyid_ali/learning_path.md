@@ -20,7 +20,7 @@
 
 - **必读**：[mir_sayyid_ali.md](../../dossiers/mir_sayyid_ali.md) §0 元信息、§1 视觉指纹（11 条）、§4 六控制参数、§8.2 8 条可判定规则（`L196–207`）。
 - **卡片**：[mir_sayyid_ali.md](../../modules/mir_sayyid_ali.md)（压缩卡，§4/§8.1/§8.2 抽取一致）。
-- **语料**：[mir_sayyid_ali.md](../../dossiers/_corpus/mir_sayyid_ali.md)（引文逐条带回源；`[自述]` / `[reported speech]` 分级照用）。
+- **语料**：[mir_sayyid_ali.md](../../dossiers/_corpus/mir_sayyid_ali.md)（引文逐条带回源；`[inscription]` / `[contemporary record]` / `[later record]` / `[research]` 分级照用；本档案无 `[自述]`、无 `[self-written]` 条目）。
 - **诚实前提**：§4/§8.2 数值为 `[归纳]`、未像素实测（分母＝假想参考帧）；本片 `[推测]`=0。
 
 <a id="db-source-line-21"></a>

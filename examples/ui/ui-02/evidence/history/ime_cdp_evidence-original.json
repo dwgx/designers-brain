@@ -1,0 +1,28 @@
+{
+  "method": "CDP Input.imeSetComposition + Input.dispatchKeyEvent",
+  "realBrowser": true,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+  "chromeVersionProbe": "Google Chrome 157.0.8103.51 (from `chrome --version`)",
+  "isSyntheticJsKeydown": false,
+  "description": "Genuine browser-level composition session in headless Chrome via CDP. No OS-level CJK IME was installed or exercised.",
+  "compositionStartFired": true,
+  "compositionEndFired": true,
+  "enterDuringComposition_isComposing": true,
+  "enterDuringComposition_keyCode": 13,
+  "enterAfterComposition_isComposing": false,
+  "sendFiredDuringComposition": false,
+  "sendFiredAfterComposition": true,
+  "sendCountDuringComposition": 0,
+  "sendCountAfterComposition": 1,
+  "capturedKeydownDuring": {
+    "isComposing": true,
+    "key": "Enter",
+    "keyCode": 13
+  },
+  "fixtureEventLog": "compositionstart data=\"\"\ncompositionupdate data=\"nihao\"\nbeforeinput isComposing=true data=\"nihao\"\ninput isComposing=true data=\"nihao\"\ncompositionupdate data=\"ni hao\"\nbeforeinput isComposing=true data=\"ni hao\"\ninput isComposing=true data=\"ni hao\"\nkeydown key=Enter isComposing=true keyCode=13 composing=true\n  -> GATED (IME confirmation; send NOT fired)\ncompositionupdate data=\"你好\"\nbeforeinput isComposing=true data=\"你好\"\ninput isComposing=true data=\"你好\"\ncompositionend data=\"你好\"\nkeydown key=Enter isComposing=false keyCode=13 composing=false\nbeforeinput isComposing=false data=null\n",
+  "untested": [
+    "OS-level CJK IME (Microsoft Pinyin / candidate window / real preedit)",
+    "pixel/visual rendering of composed text",
+    "locale-specific IME confirmation quirks"
+  ]
+}

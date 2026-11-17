@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-EXPERIMENT-openprest/prototype",
+  "dedup_key": "DB-20261115:SEED-EXPERIMENT-openprest:prototype:S05",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "input_hashes": [
+    {
+      "path_or_id": "config.json",
+      "sha256": "c30619cfbf7d90e4e5871b91dc60c4fbfc5dc4ef2066289bd2f275a102e3be38"
+    },
+    {
+      "path_or_id": "build.py",
+      "sha256": "37ccd7d8dc48fea4ef636f068655398d9fdb3a2ac2de789953ce293b7596bc3a"
+    },
+    {
+      "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py",
+      "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263"
+    },
+    {
+      "path_or_id": "staging/SEED-EXPERIMENT-openprest/state.md (parent, preserved)",
+      "sha256": "3586aea09bee9f4491992469d5584b630f3c60c428fa9923f69cf5bf9f527c91"
+    }
+  ],
+  "allowed_write_paths": [
+    "staging/SEED-EXPERIMENT-openprest/prototype/"
+  ],
+  "spawns_allowed": false,
+  "attempt": 1,
+  "repair_round": 0,
+  "model_route": {
+    "requested_model": "buddyfarm/hy4free",
+    "requested_effort": "max",
+    "observed_model": null,
+    "profile_sha256": null,
+    "omp_version": null,
+    "token_usage": null,
+    "fallback": null
+  },
+  "artifacts": [
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/README.md",
+      "sha256": "3e0e8182d972defe0b6d0769eec767bcf22bc73b38a320b5c20fcde1050aa8bd",
+      "kind": "result_summary"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/RESULT.md",
+      "sha256": "d4155eefc2e2809c5848d61cb4a19550a3823f0b20df59b8730bf0aaa93bb434",
+      "kind": "result_summary"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/config.json",
+      "sha256": "c30619cfbf7d90e4e5871b91dc60c4fbfc5dc4ef2066289bd2f275a102e3be38",
+      "kind": "inputs_config"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/build.py",
+      "sha256": "37ccd7d8dc48fea4ef636f068655398d9fdb3a2ac2de789953ce293b7596bc3a",
+      "kind": "source_code"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/run_evidence.json",
+      "sha256": "689f628de7fc935e095fa29ebf35c8dd8b90255cb96ab89fc1b1b265a0210248",
+      "kind": "run_receipts"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/runner_receipt.json",
+      "sha256": "22b68b5cd789e36114a749e2b600d3141e35aee34d72503c960c57e586d8b228",
+      "kind": "runner_receipt"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/checks.json",
+      "sha256": "d11aa0b362b0d6a17e9205ada6fe85e66026253e7ddc5c5c75a4f2a031e36ac8",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_bad_grid_offset.png",
+      "sha256": "a90314f17923f23633a322c634d316ed1a36d20b799007f5e0033563574bc414",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_bad_grid_offset.svg",
+      "sha256": "9ed2795d8fabe46f3048360ca6ea0600689adc5e6d43ca9fd48c6d5464b40f38",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_s1.png",
+      "sha256": "e73ab93273e0b47dc6a407697f7f43aeedb836313141b2820a99eddde117667f",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_s1.svg",
+      "sha256": "15885fbdf2958c9d74fdbf89963e414d0c937ae7de3132cdcdac039d6c106ae5",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_s2.png",
+      "sha256": "0115aa61b5c1b9d70f8f323735945f61f646b953d30690cf84ca3785c3bd54ac",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_s2.svg",
+      "sha256": "51e6eca5921405223814220d08695f96a1c20b9eb7e2fff70cfe67bd787e4fdc",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_s3.png",
+      "sha256": "bc32213ba7eb480f37482412bb0af295c0a08bb64fe2dcd0db95e1ec968c3644",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_s3.svg",
+      "sha256": "62aa550c2fd227b60330df5e88c3e4e47c0a6a10eeae72bfafb9c16cf967b3be",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_small_size.png",
+      "sha256": "c71582334d342534d4e46feef9ce655eeffca5a3b2b785148eec99a1e0165b91",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/glyphs_small_size.svg",
+      "sha256": "e09d42699a95560afe291b331ef8c4dffedfe622a0315946d89f2e0a2f2da4cf",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/parameter_ledger.json",
+      "sha256": "7271588a7a73f8bd77cafbda47278aad33863d585fbb8c637a884b30333d8391",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/primitives_bad_grid_offset.json",
+      "sha256": "57cd063ec41220bd464490f6ef342955f99881816adf384e0616e98366956630",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/primitives_s1.json",
+      "sha256": "1e7beb2af984abb421f032e18cd62c8ebf0efd96f96b73b6104eec68d8110e7c",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/primitives_s2.json",
+      "sha256": "fd598f0f2b55bbed857c9129d42b89947ecd6ae4a5eb11fa9c7a4ad949a9fe99",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/primitives_s3.json",
+      "sha256": "5d16d6f31713ce4b5ddffcf0da1a8bd2e45a4d72a42f62d289b2923a909ef032",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/run_config_snapshot.json",
+      "sha256": "b63c084854add8c74340f34197c6db9c36f795afdb24b260b5f4782e11c4467c",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/outputs/small_size_limitation.json",
+      "sha256": "8aa02f32dc59fca83de987fdbefb784b8f6cb076b7e338470c26e55eda6c5cd2",
+      "kind": "experiment_outputs"
+    },
+    {
+      "path": "staging/SEED-EXPERIMENT-openprest/prototype/S11B-CALIBRATION.md",
+      "sha256": "1660f3c0e14157f82b69564cb8458cdeef1de636448542ae8c07b6d5d728b804",
+      "kind": "result_summary"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C-prototype-ran-and-checks-passed",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "outputs/checks.json",
+          "version": null,
+          "locator": "outputs/checks.json (all declared checks)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "d11aa0b362b0d6a17e9205ada6fe85e66026253e7ddc5c5c75a4f2a031e36ac8",
+          "access_status": "available"
+        },
+        {
+          "source_id": "run_evidence.json",
+          "version": null,
+          "locator": "run_evidence.json (actual outcomes + rerun identity)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "689f628de7fc935e095fa29ebf35c8dd8b90255cb96ab89fc1b1b265a0210248",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "C-rerun-byte-identical",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "rerun_20261115/",
+          "version": null,
+          "locator": "rerun_20261115/ per-file sha256 == outputs/ per-file sha256",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "d11aa0b362b0d6a17e9205ada6fe85e66026253e7ddc5c5c75a4f2a031e36ac8",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "runner_id": "SeedDepsRevisit-S05-openprest-prototype",
+    "commands": [
+      "python -X utf8 build.py outputs",
+      "python -X utf8 build.py rerun_20261115",
+      "sha256sum outputs/* vs rerun_20261115/* (all identical)",
+      "python -X utf8 <package>/tools/verify-receipt.py receipt.json --schema ... --workspace-root <RUN_ROOT>"
+    ],
+    "cwd": "SOURCE@designers-brain (read-only source repo); outputs to staging/SEED-EXPERIMENT-openprest/prototype/",
+    "started_at": "2026-11-15T14:10:46.808471+00:00",
+    "ended_at": "2026-11-15T14:10:46.808471+00:00",
+    "exit_code": 0,
+    "receipt_path": "staging/SEED-EXPERIMENT-openprest/prototype/runner_receipt.json",
+    "receipt_sha256": "22b68b5cd789e36114a749e2b600d3141e35aee34d72503c960c57e586d8b228",
+    "limitations": [
+      "CANDIDATE mechanism hypothesis; NOT E2/E3 evidence, NOT a validated reproduction, NOT an E3 success.",
+      "2-glyph hand-declared geometry toy. NOT a complete font / language coverage / readability proof. '未找到 fvar' does NOT prove the artist did NOT use a variable font (remains 未证实). 15 negative barcode decodes NOT re-run; no usable-encoding claim. S11-B: small-size render emitted / 35 primitives retained / connectivity-counter topology and readability UNMEASURED / pending_human (no loss or hole-collapse claim). Seed stays E1; no E2/E3/active promotion.",
+      "No image API / WebGL / ffmpeg / historical media / author artwork / credentials / RNG. Deterministic rerun verified.",
+      "status=submitted validates schema only (verify-receipt.py:20-21); author does not self-accept; independent GLM review is a later gate."
+    ]
+  },
+  "review": null,
+  "unresolved": [
+    {
+      "issue": "Parent SEED-EXPERIMENT-openprest original E2/E3 mechanism-reproduction goal remains unmet (seed is E1, render/evidence gates unchanged).",
+      "impact": "This prototype is a candidate mechanism hypothesis only; it does NOT satisfy the parent's required_artifact_kinds or the E3 evidence gate.",
+      "next_discriminating_action": "Keep parent goal blocked until an authorized image channel is re-probed and the seed-level E2 evidence (≥30 posts/timeline + full media + ≥2 independent sources) is met; aesthetic judgement stays pending_human."
+    }
+  ],
+  "human_review": {
+    "status": "not_applicable",
+    "actual_reviewer": null,
+    "record_path": null
+  },
+  "execution_dedup_key": null,
+  "author_actor_id": "SeedDepsRevisit",
+  "reused_from": null,
+  "execution_kind": "leaf_work_item",
+  "blocked_by": []
+}

@@ -1,0 +1,6 @@
+== UI-01 negative controls ==
+fixture_contract=state-machine simulation (no live AG-UI/SSE transport)
+POSITIVE clean fixture _check exit=1
+  (no RESULT line)
+FAIL pristine fixture must PASS the real check
+NEGATIVE-CONTROL FAILURE: pristine fixture must PASS the real check

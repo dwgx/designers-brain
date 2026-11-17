@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "status": "submitted",
+  "errors": [],
+  "scope": "schema, declared actor separation, cross-references and local bytes; independent source/runner/human verification still required"
+}
+
+EXIT_CODE=0
+FINAL-RECEIPT-SHA256=5563a6edd9be8e4f00b69661cede2c6a106c7fbad2c8f78c49104e587726431b
+RECORDED-reviewed_artifact_hashes[0]=d23093dd89ed6ee7f1f5885e02f3ba2c7f583bc62a488b07e11dc8bbbf02b0ee (WRONG, reviewer-owned; left for ReviewGateSeedProto)
+RECORDED-input_hashes[0]/pre-calib-byte-SHA=d23093dd89ed6ee79e1d7d7ba01675953417b5b34d4060334a5b4595a4b47a35 (was correct for pre-calibration bytes)
+RECOMPUTED-FINAL-byte-SHA=5563a6edd9be8e4f00b69661cede2c6a106c7fbad2c8f78c49104e587726431b (bind THIS from current bytes)

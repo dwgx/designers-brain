@@ -1,0 +1,132 @@
+{
+  "relations_order": [
+    "separated",
+    "connected",
+    "overlap",
+    "merged"
+  ],
+  "vocabularies": [
+    "beam",
+    "stamp"
+  ],
+  "keyframes": [
+    {
+      "vocab": "beam",
+      "relation": "separated",
+      "ax": 150,
+      "bx": 362,
+      "connector_width": 0
+    },
+    {
+      "vocab": "beam",
+      "relation": "connected",
+      "ax": 170,
+      "bx": 342,
+      "connector_width": 18
+    },
+    {
+      "vocab": "beam",
+      "relation": "overlap",
+      "ax": 216,
+      "bx": 296,
+      "connector_width": 0
+    },
+    {
+      "vocab": "beam",
+      "relation": "merged",
+      "ax": 226,
+      "bx": 286,
+      "connector_width": 0
+    },
+    {
+      "vocab": "stamp",
+      "relation": "separated",
+      "ax": 150,
+      "bx": 362,
+      "connector_width": 0
+    },
+    {
+      "vocab": "stamp",
+      "relation": "connected",
+      "ax": 170,
+      "bx": 342,
+      "connector_width": 18
+    },
+    {
+      "vocab": "stamp",
+      "relation": "overlap",
+      "ax": 216,
+      "bx": 296,
+      "connector_width": 0
+    },
+    {
+      "vocab": "stamp",
+      "relation": "merged",
+      "ax": 226,
+      "bx": 286,
+      "connector_width": 0
+    }
+  ],
+  "transition_frames": [
+    {
+      "i": 0,
+      "t": 0.0,
+      "ax": 150.0
+    },
+    {
+      "i": 1,
+      "t": 0.0909,
+      "ax": 151.82
+    },
+    {
+      "i": 2,
+      "t": 0.1818,
+      "ax": 153.64
+    },
+    {
+      "i": 3,
+      "t": 0.2727,
+      "ax": 155.45
+    },
+    {
+      "i": 4,
+      "t": 0.3636,
+      "ax": 157.27
+    },
+    {
+      "i": 5,
+      "t": 0.4545,
+      "ax": 159.09
+    },
+    {
+      "i": 6,
+      "t": 0.5455,
+      "ax": 160.91
+    },
+    {
+      "i": 7,
+      "t": 0.6364,
+      "ax": 162.73
+    },
+    {
+      "i": 8,
+      "t": 0.7273,
+      "ax": 164.55
+    },
+    {
+      "i": 9,
+      "t": 0.8182,
+      "ax": 166.36
+    },
+    {
+      "i": 10,
+      "t": 0.9091,
+      "ax": 168.18
+    },
+    {
+      "i": 11,
+      "t": 1.0,
+      "ax": 170.0
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Preserve the rejected raw historical receipt's actual CRLF bytes and SHA.
+# Current generated JSON/README/gallery bytes are explicitly UTF-8 LF.
+history/rejected-weak-browser/BROWSER.json -text

@@ -1,0 +1,57 @@
+--- a/prototype/build.py
++++ b/prototype/build.py
+@@ -177,10 +177,38 @@
+ def svg_edges(svg_text):
+     """Parse structure edges from ACTUAL SVG <path data-role=structure-edge>."""
+     root = ET.fromstring(svg_text)
++    nodes = {el.get("data-node"): (float(el.get("cx")), float(el.get("cy")))
++             for el in root.iter() if el.get("data-role") == "node"
++             and el.tag.split("}")[-1] == "circle"}
+     out = []
+     for el in root.iter():
+-        if el.get("data-role") == "structure-edge":
+-            out.append((el.get("data-from"), el.get("data-to")))
++        if el.get("data-role") != "structure-edge":
++            continue
++        u, v = el.get("data-from"), el.get("data-to")
++        # This bounded fixture emits one M/L segment per edge. Validate its
++        # actual geometry against the actual node centers, not just labels.
++        # Unknown node IDs still fail the canonical edge-set comparison.
++        if u in nodes and v in nodes:
++            try:
++                toks = (el.get("d") or "").split()
++                valid = (el.tag.split("}")[-1] == "path" and len(toks) == 6
++                         and toks[0] == "M" and toks[3] == "L")
++                a = (float(toks[1]), float(toks[2]))
++                b = (float(toks[4]), float(toks[5]))
++                valid = (valid and all(math.isfinite(n) for n in (*a,*b))
++                         and math.dist(a,nodes[u]) <= .05
++                         and math.dist(b,nodes[v]) <= .05
++                         and math.dist(a,b) > .05
++                         and el.get("stroke") not in (None,"none","transparent")
++                         and float(el.get("stroke-width","1")) > 0
++                         and float(el.get("opacity","1")) > 0
++                         and el.get("display") != "none"
++                         and el.get("visibility") != "hidden")
++            except (ValueError,TypeError,IndexError):
++                valid = False
++            if not valid:
++                u = "invalid_geometry:" + str(u)
++        out.append((u,v))
+     return set(out), out
+ 
+ 
+@@ -270,6 +298,13 @@
+ 
+ 
+ def run_checks(outdir, imgs, neg):
++    # Read the serialized deliverables. In-memory author objects are not a
++    # substitute for the files a consumer receives.
++    outdir = Path(outdir) if Path(outdir).is_absolute() else HERE / outdir
++    imgs = {name: ((Path(neg) if name.startswith("F_") else outdir)
++                   .joinpath(name + ".svg").read_text(encoding="utf-8"),
++                  Image.open((Path(neg) if name.startswith("F_") else outdir)
++                   / (name + ".png")).convert("RGB")) for name in imgs}
+     checks = {}
+     cfg_names = ["flat_base", "persp_base", "persp_d18", "persp_code", "persp_d40"]
+     fault_names = ["F_pseudo_edge", "F_bad_VP", "F_wrong_z"]

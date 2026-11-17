@@ -1,0 +1,239 @@
+{
+  "measured_at_utc": "2026-11-17T23:02:41.224557+00:00",
+  "checker_sha256": "7911f56fbaf9b63db0f6f8556d2fec91de1253a43cf6d36047a678ccb641c148",
+  "plan_sha256": "5f6e6de4e6729dc973f12e96d846243fe3d36696be0f64916650b50fe92e8679",
+  "cases": [
+    {
+      "label": "A",
+      "png_size": [
+        960,
+        640
+      ],
+      "source_svg_fill_values": [
+        "#404040",
+        "#888888",
+        "#d0d0d0"
+      ],
+      "source_svg_stroke_nodes": [],
+      "source_svg_node_count": 23,
+      "png_unique_greys": 145,
+      "png_anti_aliasing_extra_greys": 142,
+      "nearest_grey_area_pixels": {
+        "64": 142845,
+        "136": 463974,
+        "208": 7581
+      },
+      "nearest_grey_area_fraction": {
+        "64": 0.2324951171875,
+        "136": 0.755166015625,
+        "208": 0.0123388671875
+      },
+      "focus_roi_xyxy": [
+        508,
+        282,
+        641,
+        352
+      ],
+      "focus_grey_fractions": {
+        "64": 0.42438238453276045,
+        "136": 0.32878625134264233,
+        "208": 0.24683136412459722
+      },
+      "focus_rgb_span": 144,
+      "lost_edge_samples": [
+        {
+          "id": "A_E1",
+          "pixel_row": 440,
+          "x_range_inclusive": [
+            662,
+            679
+          ],
+          "quantized_grey_values": [
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136
+          ],
+          "max_adjacent_rgb_step": 0,
+          "allowed_step": 0,
+          "error_code": null
+        }
+      ],
+      "specific_errors": [],
+      "local_checks_pass": true
+    },
+    {
+      "label": "B",
+      "png_size": [
+        960,
+        640
+      ],
+      "source_svg_fill_values": [
+        "#404040",
+        "#888888",
+        "#d0d0d0"
+      ],
+      "source_svg_stroke_nodes": [],
+      "source_svg_node_count": 24,
+      "png_unique_greys": 144,
+      "png_anti_aliasing_extra_greys": 141,
+      "nearest_grey_area_pixels": {
+        "64": 44709,
+        "136": 565715,
+        "208": 3976
+      },
+      "nearest_grey_area_fraction": {
+        "64": 0.0727685546875,
+        "136": 0.9207600911458333,
+        "208": 0.006471354166666667
+      },
+      "focus_roi_xyxy": [
+        297,
+        222,
+        443,
+        314
+      ],
+      "focus_grey_fractions": {
+        "64": 0.5195801072066706,
+        "136": 0.29444609886837403,
+        "208": 0.18597379392495533
+      },
+      "focus_rgb_span": 144,
+      "lost_edge_samples": [
+        {
+          "id": "B_E1",
+          "pixel_row": 348,
+          "x_range_inclusive": [
+            676,
+            692
+          ],
+          "quantized_grey_values": [
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136
+          ],
+          "max_adjacent_rgb_step": 0,
+          "allowed_step": 0,
+          "error_code": null
+        }
+      ],
+      "specific_errors": [],
+      "local_checks_pass": true
+    },
+    {
+      "label": "A_bad_outline",
+      "png_size": [
+        960,
+        640
+      ],
+      "source_svg_fill_values": [
+        "#404040",
+        "#888888",
+        "#d0d0d0"
+      ],
+      "source_svg_stroke_nodes": [
+        "deliberately-restored-forbidden-edge"
+      ],
+      "source_svg_node_count": 24,
+      "png_unique_greys": 145,
+      "png_anti_aliasing_extra_greys": 142,
+      "nearest_grey_area_pixels": {
+        "64": 143425,
+        "136": 463394,
+        "208": 7581
+      },
+      "nearest_grey_area_fraction": {
+        "64": 0.23343912760416666,
+        "136": 0.7542220052083334,
+        "208": 0.0123388671875
+      },
+      "focus_roi_xyxy": [
+        508,
+        282,
+        641,
+        352
+      ],
+      "focus_grey_fractions": {
+        "64": 0.42438238453276045,
+        "136": 0.32878625134264233,
+        "208": 0.24683136412459722
+      },
+      "focus_rgb_span": 144,
+      "lost_edge_samples": [
+        {
+          "id": "A_E1",
+          "pixel_row": 440,
+          "x_range_inclusive": [
+            662,
+            679
+          ],
+          "quantized_grey_values": [
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            136,
+            64,
+            64,
+            64,
+            64,
+            64,
+            64,
+            136,
+            136,
+            136,
+            136,
+            136
+          ],
+          "max_adjacent_rgb_step": 72,
+          "allowed_step": 0,
+          "error_code": "LOST_EDGE_A_E1_ADJACENCY_BROKEN"
+        }
+      ],
+      "specific_errors": [
+        "UNEXPECTED_OUTLINE_STROKE",
+        "LOST_EDGE_A_E1_ADJACENCY_BROKEN"
+      ],
+      "local_checks_pass": false
+    }
+  ],
+  "bad_example_expected_rejection": {
+    "required_error": "LOST_EDGE_A_E1_ADJACENCY_BROKEN",
+    "observed": true,
+    "actual_errors": [
+      "UNEXPECTED_OUTLINE_STROKE",
+      "LOST_EDGE_A_E1_ADJACENCY_BROKEN"
+    ]
+  },
+  "scope": "Only frozen local composition checks. RGB is not CIELAB L; mechanical local checks are not visual attention, sfumato, aesthetics, or learning validation."
+}

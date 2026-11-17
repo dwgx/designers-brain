@@ -1,0 +1,24 @@
+C2 Stage B check runner
+argv: check_runner.py --input-dir cases/neg_budget --out runs_fresh_20261118/neg_budget.out.txt
+input_dir: ROOT\candidate\experiments\consumer_skill\C2\stage-B\cases\neg_budget
+observed_at_utc: 2026-11-17T21:42:29.707637+00:00
+input sha256: layout.json=86a02b915a567eb0e35efac59556c15458208cae697fabecc0557dc0670aebd1 layout.html=767e9b2743eceb34111af772bb7f653dad3a44f9359794e3cfaa8e215bd1281b
+expectation flags: {"salience_budget_cap": 0.8, "require_role_ownership_table": true}
+[PASS] flicker_zero_elements | flashing=0 animated=0 max_hz=0
+[PASS] flicker_max_hz_le_3 | max_frequency_hz=0 (<=3)
+[PASS] html_has_no_banned_temporal_tokens | banned tokens found in HTML: none
+[PASS] html_has_no_script | script tag present: False
+[PASS] salience_formula_matches_declared | computed={'S1': 1.0, 'S2': 0.69, 'S3': 0.45} declared={'S1': 1.0, 'S2': 0.69, 'S3': 0.45}
+[PASS] top_salience_slot_is_S1 | top slot=S1
+[PASS] role_based_top_role_is_data | role_based S1 role=readable_data_value
+[PASS] pure_style_top_role_is_decoration | pure_style S1 role=illustrative_decoration
+[PASS] variants_differ_only_in_binding | binding A={'S1': 'readable_data_value', 'S2': 'illustrative_decoration', 'S3': 'no_label_baseline'} binding B={'S1': 'illustrative_decoration', 'S2': 'readable_data_value', 'S3': 'no_label_baseline'}
+[PASS] style_layer_declared_constant | single shared style_layer_held_constant block present
+[PASS] anchor_present_twice_in_html | end_copy 'TIDE 4.2 m — RISING' occurrences=2
+[PASS] slot_class_present_s1 | class 's1' count=2
+[PASS] slot_class_present_s2 | class 's2' count=2
+[PASS] slot_class_present_s3 | class 's3' count=2
+[PASS] role_ownership_table_complete | each variant binds all 3 roles exactly once (N3 L315)
+[FAIL] salience_within_budget_cap | cap=0.8 computed={'S1': 1.0, 'S2': 0.69, 'S3': 0.45} over=['S1']
+TOTAL: 16 checks, 1 failed
+RESULT: FAIL  (exit=1)

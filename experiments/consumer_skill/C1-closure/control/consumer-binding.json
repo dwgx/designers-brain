@@ -1,0 +1,48 @@
+{
+  "status": "bound",
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "candidate_root": "FROZEN_INPUT",
+  "final_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "final_tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "observed_at_utc": "2026-11-17T22:38:26.515654+00:00",
+  "entries": [
+    {
+      "path": "knowledge/INDEX.md",
+      "bytes": 6834,
+      "sha256": "d4688562f5975fae9b4366b26dc536379f5db55bc0923f1bbdd224f58a91533e"
+    },
+    {
+      "path": "knowledge/LEARNING-INDEX.json",
+      "bytes": 201763,
+      "sha256": "e6f801219dc3ab08a05b5a3b6a68a7e967f2d1dc3a2bc53e7c3fea3c5c74de73"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/INDEX.md",
+      "bytes": 13423,
+      "sha256": "c24e16e7cbdca9b44bdc9143979ec9e18785a961b05d6fa3c92e3e95b8eb80fd"
+    },
+    {
+      "path": "knowledge/domains/painters/modules/README.md",
+      "bytes": 17492,
+      "sha256": "e98da3bceeda223521c52592ffa0c4e4a2d30ccc8c63d98bf75ba8c18a3663a3"
+    },
+    {
+      "path": "skills/designers-brain/SKILL.md",
+      "bytes": 12531,
+      "sha256": "5043ac6f7daeaa6d067a26866efbc20c3bed79226573106f89d8253e41cf5362"
+    },
+    {
+      "path": "skills/designers-brain/references/painter-modules.md",
+      "bytes": 2143,
+      "sha256": "96a83b91abed8cde77e26bd77b1328f2f810f5f5b8304f84f3c98f4ce46a0787"
+    }
+  ],
+  "scope": "Isolated frozen input snapshot; current release compatibility must be checked against every consumed blob. No claim of final-release HEAD execution.",
+  "consumer_output": "AUDIT_C1/consumer",
+  "root_control": "AUDIT_C1/control",
+  "requested_model": "native_subagent_inherited_parent",
+  "served_model": "unknown",
+  "max_attempt_seconds": 1800,
+  "stage_a_scope": "Autonomous public-text retrieval and first-topic actual SVG/JSON. Image pixels are not exposed until a sealed Stage A; source docs may contain public examples, to be recorded."
+}

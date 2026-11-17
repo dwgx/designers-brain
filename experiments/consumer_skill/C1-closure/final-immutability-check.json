@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-11-17T23:06:10.734790+00:00",
+  "stage_a_file_count": 15,
+  "stage_a_all_bytes_unchanged": true,
+  "stage_a_manifest_sha256": "71aca3c882baec41f95ab0ba4d318d53de55531afe1eab2765b22b3135a13f73",
+  "stage_a_ready_sha256": "41215c41202eae35a89f674b4480c0bfcceb10eedbf4f54c39a73017c8fd829b",
+  "pre_holdout_locked_file_count": 5,
+  "pre_holdout_files_unchanged_after_LS": true,
+  "elapsed_seconds": 1580.102311,
+  "within_1800_seconds": true
+}

@@ -1,0 +1,109 @@
+{
+  "schema": "seed-fresh-run-1.0",
+  "ran_at_utc": "2026-11-17T22:08:43.124983+00:00",
+  "environment": {
+    "python": "3.14.7",
+    "pillow": "12.3.0",
+    "system": "Windows"
+  },
+  "command": [
+    "python",
+    "-B",
+    "build.py",
+    "outputs"
+  ],
+  "cwd": "prototype",
+  "exit_code": 0,
+  "source_and_outputs": [
+    {
+      "path": "prototype/build.py",
+      "bytes": 13898,
+      "sha256": "1e96f82ab9a04e176fc8a27d9feb1aa2c7e901cd9672cf04873646e4f56365c0"
+    },
+    {
+      "path": "prototype/config.json",
+      "bytes": 3610,
+      "sha256": "166fb121bf50a80571aef344650c5faa4172c2804d6625f5984e34ac530d1f24"
+    },
+    {
+      "path": "prototype/outputs/C1_no_label.png",
+      "bytes": 2593,
+      "sha256": "f8e5fa3cbe6ca230dc119d6b678b9f319c2c289d27482dee094831dee8daeee5"
+    },
+    {
+      "path": "prototype/outputs/C1_no_label.svg",
+      "bytes": 437,
+      "sha256": "2db0ac9374c884dcd8810fd1bf8173f36865f7e47a449e17b2be8f724257b0ba"
+    },
+    {
+      "path": "prototype/outputs/C2_readable_synthetic.png",
+      "bytes": 12174,
+      "sha256": "9cc3ed8ce7c9bdc3f20a34c0076205010906a4a21d192c4e3d8765e2273f29c9"
+    },
+    {
+      "path": "prototype/outputs/C2_readable_synthetic.svg",
+      "bytes": 1365,
+      "sha256": "f573d826651145cfa1a788aedb8bbd5faf6da70f2f09505a199c0317deddb8e3"
+    },
+    {
+      "path": "prototype/outputs/C3_decorative_marked.png",
+      "bytes": 10651,
+      "sha256": "3ee39a01f022cf2d040093fef2cec5d55be329c4394e376cb0bbce8118e2f52a"
+    },
+    {
+      "path": "prototype/outputs/C3_decorative_marked.svg",
+      "bytes": 1343,
+      "sha256": "3454fd79e56054a23de6016ab20c0694b3960c8caa5b44941915bc122539a9fa"
+    },
+    {
+      "path": "prototype/outputs/C4_annotation_removed.png",
+      "bytes": 7369,
+      "sha256": "ed9084a1b58a6a879930eb023bb4556db660dd52e54b2049b060478ddda4fddd"
+    },
+    {
+      "path": "prototype/outputs/C4_annotation_removed.svg",
+      "bytes": 1041,
+      "sha256": "f65bf4cfc2ec1f62c1a57be0f1647e356de2af8f74f1ae76d16a81616b13f582"
+    },
+    {
+      "path": "prototype/outputs/checks.json",
+      "bytes": 3262,
+      "sha256": "55795be5307a8d24637ce94a2f93e099c56d500b59df053803afb6cea33c6118"
+    },
+    {
+      "path": "prototype/outputs/fixture_ledger.json",
+      "bytes": 762,
+      "sha256": "0f09e485c3993ae1a39dab5330b9e03d6cac93afe9cf416c7c61558ec32a332d"
+    },
+    {
+      "path": "prototype/outputs/negatives/N_tamper_value.png",
+      "bytes": 12195,
+      "sha256": "bc38b248385802f30f1e4d7355648a4cd877d1625f86d2eeaf36fd729236ffde"
+    },
+    {
+      "path": "prototype/outputs/negatives/N_tamper_value.svg",
+      "bytes": 1449,
+      "sha256": "0d68423019e214ba175d3fbe58309baca6a01ab745f7d165da25b10638137b1c"
+    }
+  ],
+  "actual_checks_summary": {
+    "positive_checks": [
+      "R1_C2_readable_and_value_consistent",
+      "R2_C3_decorative_marker",
+      "R3_semantic_roles_distinct",
+      "R6_C1_no_label"
+    ],
+    "negative_controls": [
+      "R4_annotation_removed_DETECTED",
+      "R5_tampered_value_DETECTED"
+    ],
+    "cards": 4,
+    "card_cap": 4,
+    "all_positive_pass": true,
+    "all_negative_controls_detected": true,
+    "verifier_reads_actual_svg_text": true
+  },
+  "evidence_level_unchanged": "E1",
+  "not_human_review": true,
+  "source_review": "Root read original build/config, ran independent cloud reproduction; this is an additional actual relocated Windows run. No original files overwritten."
+}

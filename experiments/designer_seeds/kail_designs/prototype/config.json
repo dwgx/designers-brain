@@ -1,0 +1,54 @@
+{
+  "task_id": "SEED-EXPERIMENT-kail_designs/prototype",
+  "phase": "S05-SEED-PROTOTYPES",
+  "status": "candidate_mechanism_hypothesis_NOT_E3_NOT_validated_reproduction",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · single self-authored pass stack, NOT two product pages conflated into one proven shader pipeline]",
+  "recorded_before_run_utc": "2026-11-15T14:10:00Z",
+  "environment": {
+    "python": "3.14.7 (probed)", "pillow": "12.3.0 (probed)",
+    "stdlib_only_plus_pillow": true, "no_image_api": true, "no_browser_webgl": true,
+    "no_ffmpeg": true, "no_historical_media": true, "no_author_artwork": true, "no_credentials": true
+  },
+  "scope": "A small SELF-CREATED luminance field with EXPLICIT exposure and halo/grain toggles, at most FOUR output variants. This is a candidate local post-processing mechanism, NOT the ascii-magic / backgrounds.supply real kernel or a proven internal shader pipeline / pass order. The two product pages' feature labels are NOT merged into one claimed pipeline here.",
+  "color_units": {
+    "input": "8-bit grayscale code value 0..255 (self-created luminance field, NOT sRGB-encoded photography)",
+    "internal": "float luminance in 0..255 code-value units; exposure is a multiplicative gain on this value",
+    "output": "8-bit grayscale code value 0..255, CLAMPED at 0 and 255 (clipping recorded per variant)",
+    "note": "Deliberately declared as raw code values (no EOTF / no CIE L* here) to keep the operator simple and MEASURABLE. This is NOT the METRIC-PILOT sRGB->L* scale; that scale is used only in the enigmatriz prototype. Do not mix the two scales.",
+    "random_state": "coordinate-deterministic pattern: grain(x,y) = ((x*73 + y*151 + x*y*7) % 41) - 20, NO random module, NO global seed. This is a LOCAL deterministic pattern, NOT a website seed."
+  },
+  "field": {
+    "width": 64, "height": 48,
+    "base": "linear horizontal luminance ramp 20..235",
+    "bright_region": {"description": "known bright-region mask = axis-aligned rectangle (the 'halo source')", "x0": 22, "y0": 14, "x1": 42, "y1": 34, "value": 250},
+    "halo_region": {"description": "ring AROUND bright region where halo effect is measured (outside bright rect, within expanded rect)", "x0": 16, "y0": 8, "x1": 48, "y1": 40},
+    "flat_region": {"description": "a flat mid-luminance patch used for high-frequency (grain) measurement", "x0": 2, "y0": 2, "x1": 14, "y1": 12, "value": 120}
+  },
+  "toggles": {
+    "exposure": {"gain": 1.35, "description": "multiply every luminance code value by gain, then clamp to 0..255"},
+    "halo": {"radius_px": 4, "gain": 0.35, "description": "add a blurred bright-region contribution to the halo ring: for each halo-region pixel, add gain * mean(bright-region value) * falloff(distance to bright rect); a LOCAL box-mean approximation, deterministic"},
+    "grain": {"amplitude": 12, "description": "add coordinate-deterministic signed noise amplitude to every pixel (then clamp)"}
+  },
+  "variants_at_most_four": [
+    {"id": "v0_baseline", "exposure": false, "halo": false, "grain": false, "description": "self-created luminance field, no operator applied"},
+    {"id": "v1_exposure", "exposure": true, "halo": false, "grain": false, "description": "exposure gain only"},
+    {"id": "v2_halo", "exposure": false, "halo": true, "grain": false, "description": "halo toggle only (exposure off to isolate)"},
+    {"id": "v3_grain", "exposure": false, "halo": false, "grain": true, "description": "grain toggle only (exposure off to isolate)"}
+  ],
+  "difference_maps": "For each variant v1..v3, emit a PNG difference map |variant - baseline| (clamped 0..255) and a JSON diff stats: mean absolute diff overall, in bright region, in halo region, in flat region, plus clipping counts (px at 0 / px at 255).",
+  "intended_checks_before_run": [
+    "C1 exactly 4 variants (<=4) emitted, each 64x48 grayscale, dimensions UNCHANGED across all variants",
+    "C2 exposure variant: regional mean luminance rises; clipping count >0 (gain 1.35 on bright=250 -> 255 clip recorded); declared color units (0..255 code values) stated",
+    "C3 halo variant: halo-region mean luminance INCREASES relative to baseline while bright-region and far-field means stay ~unchanged (halo is localized); difference map shows energy in the halo ring",
+    "C4 grain variant: flat-region high-frequency difference (mean |diff| in flat patch) > 0 and overall low-frequency structure preserved (grain is high-frequency, deterministic)",
+    "C5 all variants + difference maps + raw arrays/config retained; coordinate-deterministic (no RNG), identical on rerun",
+    "C6 deterministic rerun: full second generation; per-file sha256 identical",
+    "C7 BOUNDARY: single self-authored pass stack; do NOT conflate two product pages; do NOT claim time continuity / website determinism / 4K / video export / real internal shader pipeline"
+  ],
+  "boundaries": [
+    "Candidate local post-processing mechanism only. NOT the real ascii-magic / backgrounds.supply kernel, NOT their default pass order, NOT a proven shader pipeline.",
+    "The two product pages' feature labels (post-processing list vs exposure/noise tag) are NOT merged into one claimed pipeline; this fixture implements ONE self-authored stack in a declared order.",
+    "Cannot claim time continuity, website determinism, 4K performance, or video export. Seed stays E1 (6 posts, 0 videos, 0 verified independent sources).",
+    "No image API, no WebGL, no author artwork, no ffmpeg/archive media, no credentials. No E2/E3/active promotion."
+  ]
+}

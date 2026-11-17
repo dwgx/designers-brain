@@ -1,0 +1,361 @@
+{
+ "schema_version": "1.0",
+ "goal_id": "Designers-Brain-Upgrade-20261115",
+ "task_id": "UI-03",
+ "dedup_key": "DB-20261115:UI-03",
+ "status": "accepted",
+ "baseline_id": "DB-20261115-baseline",
+ "input_hashes": [
+  {
+   "path_or_id": "https://playwright.dev/docs/test-snapshots",
+   "sha256": "0977d82a285b1d98c958e31fe9323a5f582e63250b5437a1188ddbc6696e9c63",
+   "binding_kind": "external",
+   "note": "external web reference reviewed at gate time; content sha as fetched then; not a local file"
+  },
+  {
+   "path_or_id": "https://storybook.js.org/docs/ai/mcp/overview.md",
+   "sha256": "6b8c694123f45d7d2223462c3b9296915fe38a51712af7d37661401dfb2e4422",
+   "binding_kind": "external",
+   "note": "external web reference reviewed at gate time; content sha as fetched then; not a local file"
+  },
+  {
+   "path_or_id": "https://webarena.dev/og/",
+   "sha256": "8ce5d7c9ed6b0eef761a3cf1c0d86e1fb34a73c650aeb44b6153ee1b3a917993",
+   "binding_kind": "external",
+   "note": "external web reference reviewed at gate time; content sha as fetched then; not a local file"
+  }
+ ],
+ "allowed_write_paths": [
+  "staging/UI-03/"
+ ],
+ "spawns_allowed": false,
+ "attempt": 1,
+ "repair_round": 0,
+ "model_route": {
+  "requested_model": "unknown",
+  "requested_effort": "unknown",
+  "observed_model": null,
+  "profile_sha256": "dc149ae16d54a4de33de00a0766a60a8106a17a0aabaaf12f7e4d6a98a52ffbe",
+  "omp_version": "unknown",
+  "token_usage": null,
+  "fallback": null
+ },
+ "artifacts": [
+  {
+   "path": "staging/UI-03/RESULT.md",
+   "sha256": "9c30bd5908359a697ee82fc454b84d3489655aff800a23b42683be4a5ced52c5",
+   "kind": "result_summary"
+  },
+  {
+   "path": "staging/UI-03/RESEARCH.md",
+   "sha256": "780561be80ef5c70214e282b489157d22e73553a855ff5ee7c1c480987dba613",
+   "kind": "result_summary"
+  },
+  {
+   "path": "staging/UI-03/VERIFICATION_MATRIX.md",
+   "sha256": "20634cdbbae60c0cd3a8cfce7cb98fcccf9e563551e92896d69bf8f759033ade",
+   "kind": "result_summary"
+  },
+  {
+   "path": "staging/UI-03/fixture/component.js",
+   "sha256": "14145c518ec36c3dfd261fa2c9c747a4d98b6a9c8bcc04ec19c1e091545397f7",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-03/fixture/index.html",
+   "sha256": "a7a8db851af04663a90f2e910f6b7d1eb9fd85f55313d5b230b8fc95c4a1cf65",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-03/fixture/run_checks.js",
+   "sha256": "a8d472a8740732e4228c7369e13100f64e1467f622c7f4d8ee667154581120f5",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-03/fixture/run_visual.js",
+   "sha256": "4ddd7ee23392528ae97ec534cc023026839e998cbb5d0ac5a334403de261aa2c",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-03/fixture/package.json",
+   "sha256": "bc47b906535720606dea1b28a72e2aa37c04fe9fafb3e8b95b82bfc8effb5b64",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-03/fixture/package-lock.json",
+   "sha256": "05524ffabfdab80f3ef0af8e88ed18fe35c2d5ed213903130d116621c2479467",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-03/raw/checks.json",
+   "sha256": "beaaebc586e30a987d0bcb455b30ac88f020da7d4356f903329487cfc1e0d764",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-03/raw/visual.json",
+   "sha256": "5c4cf0b82998ca1f1be5d810747612c7c3056e38f9cc8fccc948e4b5510eabf0",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-03/raw/visual.stdout",
+   "sha256": "fc9db78197f35a4d64196c775ae54c4404f0a0d7aa2d1f16ad5cf8c4554ae8ab",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-03/raw/checks.stderr",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-03/raw/visual.stderr",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-03/raw/shots/default.png",
+   "sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-03/raw/shots/hover.png",
+   "sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-03/raw/shots/dark.png",
+   "sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-03/raw/shots/default-recheck.png",
+   "sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-03/raw/shots/diff-default_vs_hover.png",
+   "sha256": "72976c126ebd48d255ba88ca12ea1bdc5b330898f12b57dbb581f0010c25ae32",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-03/raw/shots/diff-default_vs_dark.png",
+   "sha256": "49a9430571618ae1363c5084d758fb49328e74559a0d69eccdac0426973b82c8",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-03/raw/shots/diff-default_vs_default-recheck.png",
+   "sha256": "2e81392b82b42e9a1660b4766ed7313afdfc382c98333438a4cae13b299af53e",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-03/raw/playwright-snapshots.html",
+   "sha256": "0977d82a285b1d98c958e31fe9323a5f582e63250b5437a1188ddbc6696e9c63",
+   "kind": "source_cache"
+  },
+  {
+   "path": "staging/UI-03/raw/storybook-mcp.md",
+   "sha256": "6b8c694123f45d7d2223462c3b9296915fe38a51712af7d37661401dfb2e4422",
+   "kind": "source_cache"
+  },
+  {
+   "path": "staging/UI-03/raw/webarena-og.html",
+   "sha256": "8ce5d7c9ed6b0eef761a3cf1c0d86e1fb34a73c650aeb44b6153ee1b3a917993",
+   "kind": "source_cache"
+  },
+  {
+   "path": "staging/UI-03/raw/verify-receipt.out",
+   "sha256": "a4f11927dd12b2326d63192dd92c63277890d68c0dc548d57148a8a108abe668",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-03/raw/checks.json",
+   "sha256": "beaaebc586e30a987d0bcb455b30ac88f020da7d4356f903329487cfc1e0d764",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-03/raw/visual.json",
+   "sha256": "5c4cf0b82998ca1f1be5d810747612c7c3056e38f9cc8fccc948e4b5510eabf0",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-03/runner_receipt.json",
+   "sha256": "72ab7ea8ee2f24c8b4ed6bac7c0e39e11ed19f28fbdff51c62c27623fc36be12",
+   "kind": "runner_receipt"
+  },
+  {
+   "path": "staging/UI-03/build_receipt.py",
+   "sha256": "975b8a4917d4d02995e3b4340b9a56e2a5857cc1b1f56a7302e3e2fdc43cc90b",
+   "kind": "runner_script"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C1",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S14-playwright-snapshots",
+     "version": "docsearch:version=stable (no package version stated)",
+     "locator": "raw/playwright-snapshots.html L5 (Introduction: first run generates reference, later runs compare), L7 (same-environment warning), L40-44 (pixelmatch; threshold default 0.2; maxDiffPixels unset by default)",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "0977d82a285b1d98c958e31fe9323a5f582e63250b5437a1188ddbc6696e9c63",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C2",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S15-storybook-mcp",
+     "version": "Version 10.6; AI/MCP preview",
+     "locator": "raw/storybook-mcp.md L1 (version), L10 (preview), L19-35 (development/testing toolsets framework-free; docs toolset needs components manifest, framework-dependent)",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "6b8c694123f45d7d2223462c3b9296915fe38a51712af7d37661401dfb2e4422",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C3",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S16-webarena-og",
+     "version": "2023; arXiv:2307.13854",
+     "locator": "raw/webarena-og.html L206-207 (annotated programs programmatically validate functional correctness), L2327-2336 (Evaluating Functional Correctness: answer match + programmatic intermediate-state property checks)",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "8ce5d7c9ed6b0eef761a3cf1c0d86e1fb34a73c650aeb44b6153ee1b3a917993",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C4",
+   "claim_kind": "observation",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "UI-03-local-execution",
+     "version": null,
+     "locator": "staging/UI-03/raw/checks.json summary total=10 passed=10 failed=0; staging/UI-03/raw/visual.json interactions 3/3, diffs default_vs_hover=631/64000, default_vs_dark=59045/64000, default_vs_default-recheck=0/64000",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "5c4cf0b82998ca1f1be5d810747612c7c3056e38f9cc8fccc948e4b5510eabf0",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C5",
+   "claim_kind": "validated_rule",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "A3-honesty-rule",
+     "version": null,
+     "locator": "staging/UI-03/RESEARCH.md section 0 and VERIFICATION_MATRIX.md: pixel similarity != task completion != human aesthetic; props/objective metrics != quality improvement claims",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "20634cdbbae60c0cd3a8cfce7cb98fcccf9e563551e92896d69bf8f759033ade",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C6",
+   "claim_kind": "hypothesis",
+   "support_status": "not_applicable",
+   "source_refs": [
+    {
+     "source_id": "UI-03-untested-layers",
+     "version": null,
+     "locator": "staging/UI-03/VERIFICATION_MATRIX.md rows 4 and 5: model-aesthetic-judgment and human-judgment UNTESTED; no human validation claimed",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "20634cdbbae60c0cd3a8cfce7cb98fcccf9e563551e92896d69bf8f759033ade",
+     "access_status": "available"
+    }
+   ]
+  }
+ ],
+ "execution": {
+  "runner_id": "UI-03-runner",
+  "commands": [
+   "curl -sS -L https://playwright.dev/docs/test-snapshots -o raw/playwright-snapshots.html",
+   "curl -sS -L https://storybook.js.org/docs/ai/mcp/overview.md -o raw/storybook-mcp.md",
+   "curl -sS -L https://webarena.dev/og/ -o raw/webarena-og.html",
+   "npm install --no-audit --no-fund (fixture)",
+   "node fixture/run_checks.js",
+   "node fixture/run_visual.js"
+  ],
+  "cwd": "[original cwd scrubbed; relocated checkout]",
+  "started_at": "2026-11-15T11:21:00Z",
+  "ended_at": "2026-11-15T11:37:00Z",
+  "exit_code": 0,
+  "receipt_path": "staging/UI-03/runner_receipt.json",
+  "receipt_sha256": "72ab7ea8ee2f24c8b4ed6bac7c0e39e11ed19f28fbdff51c62c27623fc36be12",
+  "limitations": [
+   "observed_model is null: no tool output exposed the effective model.",
+   "Playwright Test/Storybook MCP/WebArena benchmark were NOT run; documented methods were read and mapped to a local fixture.",
+   "model-aesthetic-judgment and human-judgment layers are UNTESTED; no human validation claimed.",
+   "No quality-improvement claim is made; results are geometry/behavior/semantics only.",
+   "verify-receipt.py validates structure and local bytes, not source truth or runner authenticity."
+  ]
+ },
+ "review": {
+  "reviewer_actor_id": "ReviewGateUi03",
+  "independent_from_author": true,
+  "reviewed_artifact_hashes": [
+   "05524ffabfdab80f3ef0af8e88ed18fe35c2d5ed213903130d116621c2479467",
+   "0977d82a285b1d98c958e31fe9323a5f582e63250b5437a1188ddbc6696e9c63",
+   "14145c518ec36c3dfd261fa2c9c747a4d98b6a9c8bcc04ec19c1e091545397f7",
+   "20634cdbbae60c0cd3a8cfce7cb98fcccf9e563551e92896d69bf8f759033ade",
+   "2e81392b82b42e9a1660b4766ed7313afdfc382c98333438a4cae13b299af53e",
+   "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+   "49a9430571618ae1363c5084d758fb49328e74559a0d69eccdac0426973b82c8",
+   "4ddd7ee23392528ae97ec534cc023026839e998cbb5d0ac5a334403de261aa2c",
+   "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+   "5c4cf0b82998ca1f1be5d810747612c7c3056e38f9cc8fccc948e4b5510eabf0",
+   "6b8c694123f45d7d2223462c3b9296915fe38a51712af7d37661401dfb2e4422",
+   "72976c126ebd48d255ba88ca12ea1bdc5b330898f12b57dbb581f0010c25ae32",
+   "72ab7ea8ee2f24c8b4ed6bac7c0e39e11ed19f28fbdff51c62c27623fc36be12",
+   "780561be80ef5c70214e282b489157d22e73553a855ff5ee7c1c480987dba613",
+   "8ce5d7c9ed6b0eef761a3cf1c0d86e1fb34a73c650aeb44b6153ee1b3a917993",
+   "975b8a4917d4d02995e3b4340b9a56e2a5857cc1b1f56a7302e3e2fdc43cc90b",
+   "9c30bd5908359a697ee82fc454b84d3489655aff800a23b42683be4a5ced52c5",
+   "a4f11927dd12b2326d63192dd92c63277890d68c0dc548d57148a8a108abe668",
+   "a7a8db851af04663a90f2e910f6b7d1eb9fd85f55313d5b230b8fc95c4a1cf65",
+   "a8d472a8740732e4228c7369e13100f64e1467f622c7f4d8ee667154581120f5",
+   "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+   "bc47b906535720606dea1b28a72e2aa37c04fe9fafb3e8b95b82bfc8effb5b64",
+   "beaaebc586e30a987d0bcb455b30ac88f020da7d4356f903329487cfc1e0d764",
+   "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "fc9db78197f35a4d64196c775ae54c4404f0a0d7aa2d1f16ad5cf8c4554ae8ab"
+  ],
+  "verdict": "accepted",
+  "evidence_path": "staging/UI-03/review-evidence-v3.md"
+ },
+ "unresolved": [
+  {
+   "issue": "model-aesthetic-judgment and human-judgment layers were not executed (no model aesthetic prompt, no real human raters/protocol).",
+   "impact": "Those two matrix rows are UNTESTED; no product-level or quality-improvement conclusion can be published from this lane.",
+   "next_discriminating_action": "If required, run a separately scoped, blinded paired-stimulus study with fixed stimulus IDs and real reviewers; keep it out of this author lane (authors never self-accept)."
+  },
+  {
+   "issue": "Storybook MCP framework parity and WebArena benchmark are documented-only in this lane.",
+   "impact": "No claim that MCP existence or benchmark scores imply UI quality improvement; no dependency upgrades performed.",
+   "next_discriminating_action": "A separate integration lane with a real Storybook project and self-hosted WebArena environment would be required to measure those; not authorized here."
+  }
+ ],
+ "human_review": {
+  "status": "not_applicable",
+  "actual_reviewer": null,
+  "record_path": null
+ },
+ "execution_dedup_key": "bd9a0f0b21947200d0cbeacc97addf52ee2e5132118595099ecaf69725c3e4e4",
+ "author_actor_id": "UiAcceptanceLayers",
+ "reused_from": null,
+ "execution_kind": "leaf_work_item",
+ "blocked_by": []
+}

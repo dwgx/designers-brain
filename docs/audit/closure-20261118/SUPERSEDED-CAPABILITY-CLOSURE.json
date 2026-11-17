@@ -1,0 +1,247 @@
+{
+  "schema": "closure-superseded-capability-claims@1",
+  "source_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "reason": "Earlier closure metadata did not prove native 1080 rendering or measured seek. Retained as superseded evidence, not current capability.",
+  "rows": [
+    {
+      "card_no": "02",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 1,
+        "output_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "reused byte-identical media; fresh full decode of delivered bytes"
+      }
+    },
+    {
+      "card_no": "03",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 2,
+        "output_sha256": "e47d0ae332b8916143f902438c4b5babf936061baf42398024e3a0e57f0e84c3",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "new delivered bytes; frozen pure renderer + integer geometry scale"
+      }
+    },
+    {
+      "card_no": "04",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 3,
+        "output_sha256": "2ee12606fa60433348b1823b5370236389a2c734df69fa1d5120a4a19065fb52",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "new delivered bytes; frozen pure renderer + integer geometry scale"
+      }
+    },
+    {
+      "card_no": "05",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 3,
+        "output_sha256": "3d8914d101369cf9236f884b0941b934ce192c681f6052f849021e625410d95d",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "new delivered bytes; frozen pure renderer + integer geometry scale"
+      }
+    },
+    {
+      "card_no": "06",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 3,
+        "output_sha256": "677d4186dabc1266bc515504d5c40f6f6553ccbf646c65bb1611dbc4b1fa5405",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "new delivered bytes; frozen pure renderer + integer geometry scale"
+      }
+    },
+    {
+      "card_no": "07",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 3,
+        "output_sha256": "752224881f10c9f55ca4c5eea39b2685024decc66c85088f063edc1fed50b751",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "new delivered bytes; frozen pure renderer + integer geometry scale"
+      }
+    },
+    {
+      "card_no": "09",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 3,
+        "output_sha256": "aee1e1d19b76373037d3f72e627ba6346d811c9fd51205751a680a7cd4cf910f",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "new delivered bytes; frozen pure renderer + integer geometry scale"
+      }
+    },
+    {
+      "card_no": "10",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 1,
+        "output_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "reused byte-identical media; fresh full decode of delivered bytes"
+      }
+    },
+    {
+      "card_no": "12",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 1,
+        "output_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "reused byte-identical media; fresh full decode of delivered bytes"
+      }
+    },
+    {
+      "card_no": "13",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 1,
+        "output_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "reused byte-identical media; fresh full decode of delivered bytes"
+      }
+    },
+    {
+      "card_no": "14",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 2,
+        "output_sha256": "e8fc5d22e1810406b61191557925d0c2e68ec571cdca89ba5da78d34d28aca4a",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "new delivered bytes; frozen pure renderer + integer geometry scale"
+      }
+    },
+    {
+      "card_no": "15",
+      "closure_decode": {
+        "new_decode": true,
+        "observed_at_utc": "2026-11-17T22:02:49Z",
+        "decoded_frames": 300,
+        "dimensions_set": [
+          [
+            1920,
+            1080
+          ]
+        ],
+        "fps": 30,
+        "duration_seconds": 10,
+        "geometry_scale": 1,
+        "output_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+        "basis": "experiments/motion_closure/verify_all.py full decode (cap.read to EOF, per-frame dims) + fresh-process non-contiguous determinism; evidence lanes/MOTION/logs/",
+        "verification_scope": "reused byte-identical media; fresh full decode of delivered bytes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "C1_measured_glyph_ramp": {
+    "pass": true,
+    "n_glyphs": 10,
+    "ramp": " -.:=+*#%@",
+    "coverages": [
+      0.0,
+      0.0347,
+      0.0417,
+      0.0833,
+      0.0833,
+      0.1042,
+      0.125,
+      0.2569,
+      0.3333,
+      0.3681
+    ],
+    "assumed_at_darkest": false
+  },
+  "C2_outside_mask_diff_zero": {
+    "chart_vs_normal": 0,
+    "chart_vs_reversed": 0,
+    "normal_vs_reversed": 0,
+    "pass": true
+  },
+  "C3_ramp_reversal_effect": {
+    "in_mask_cells_with_changed_glyph": 15,
+    "pearson_lum_vs_coverage_normal": 0.879535,
+    "pearson_lum_vs_coverage_reversed": -0.899008,
+    "sign_flipped": true,
+    "pass": true,
+    "note": "Reversal is a CONTROL, not declared an aesthetic failure."
+  },
+  "C4_selected_region_checks": {
+    "in_mask_cells": 15,
+    "out_mask_cells": 35,
+    "total_cells": 50,
+    "mask_area_px": 2925,
+    "all_in_mask_have_glyph": true,
+    "no_out_mask_touched": true,
+    "pass": true
+  },
+  "C5_dimensions_unchanged": {
+    "chart": [
+      120,
+      60
+    ],
+    "normal": [
+      120,
+      60
+    ],
+    "reversed": [
+      120,
+      60
+    ],
+    "ascii_cols": 10,
+    "ascii_rows": 5,
+    "pass": true
+  },
+  "C6_deterministic_rerun": {
+    "note": "filled by run_evidence.json after two identical runs",
+    "pass": null
+  },
+  "C7_metricpilot_interface_reuse": {
+    "reused": true,
+    "functions": [
+      "srgb8_to_Lstar",
+      "lum_hist",
+      "lap_var"
+    ],
+    "lum_hist": {
+      "N": 2925,
+      "max_bin_share": 0.184615,
+      "midtone_share": 0.430769,
+      "bin_counts": [
+        225,
+        395,
+        226,
+        378,
+        495,
+        540,
+        225,
+        0,
+        0,
+        441
+      ]
+    },
+    "lap_var": {
+      "N": 2709,
+      "variance": 621.0324
+    },
+    "note": "computed on the SYNTHETIC chart; NO dossier threshold applied, NO artwork measured."
+  }
+}

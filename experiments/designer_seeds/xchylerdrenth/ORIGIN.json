@@ -1,0 +1,43 @@
+{
+  "schema": "seed-prototype-origin-1.0",
+  "seed": "xchylerdrenth",
+  "evidence_level": "E1",
+  "implementation_is_researcher_authored": true,
+  "sources": [
+    {
+      "original_logical_path": "SEED-EXPERIMENT-xchylerdrenth/prototype-s12/build.py",
+      "packaged_path": "prototype/build.py",
+      "sha256": "9026122aefb4afe0fb89de632be7110a6572ce2f80396f5377d428e1daf1ca09",
+      "unchanged": false,
+      "packaged_sha256": "cc3a554f5e119ad93bdc168fa706758d49ae46260898713ce5b4ea49cbf552a7"
+    },
+    {
+      "original_logical_path": "SEED-EXPERIMENT-xchylerdrenth/prototype-s12/config.json",
+      "packaged_path": "prototype/config.json",
+      "sha256": "01f3aecc0204dc0ed62ba60f3bdbd72b33fa319af39a235389ebb808f31096d0",
+      "unchanged": true,
+      "packaged_sha256": "01f3aecc0204dc0ed62ba60f3bdbd72b33fa319af39a235389ebb808f31096d0"
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-xchylerdrenth/prototype-s12/receipt.json",
+      "sha256": "b20c893da9f4f9a88ec1c89f9ad3fce68dca993baa90bafbe08748316af7d4e8",
+      "bytes": 11187,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-xchylerdrenth/review-evidence.md",
+      "sha256": "4837c9b5dd2bd1b0f6fd4952344d2dc281030ee152e2b37a5a57f73109438312",
+      "bytes": 5330,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-xchylerdrenth/review-gate-receipt.json",
+      "sha256": "c76c252e6b3ec37721e7a4770bd9e1f0cd5252c43c89d3534d4619d77de121a2",
+      "bytes": 3599,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    }
+  ]
+}

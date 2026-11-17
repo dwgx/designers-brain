@@ -1,0 +1,156 @@
+{
+  "R1_C2_readable_and_value_consistent": {
+    "passed": true,
+    "roles_present": [
+      "fig",
+      "n",
+      "note",
+      "source",
+      "title",
+      "unit",
+      "value"
+    ],
+    "value_from_svg_text": 14.0,
+    "recomputed_mean": 14.0,
+    "array_sha16_visible": "fa7e00f7c325d3cb",
+    "source_matches_array": true,
+    "read_from": "actual SVG <text data-role> bytes"
+  },
+  "R2_C3_decorative_marker": {
+    "passed": true,
+    "marker_text": "ILLUSTRATIVE / NOT PERFORMANCE DATA",
+    "data-decorative": "1",
+    "read_from": "actual SVG attribute + <text> bytes"
+  },
+  "R3_semantic_roles_distinct": {
+    "passed": true,
+    "fig_text": [
+      "FIG. 28"
+    ],
+    "n_text": [
+      "N=8 samples"
+    ],
+    "value_text": [
+      "mean = 14.0"
+    ],
+    "naive_regex_number_bag": [
+      "3.",
+      "2000",
+      "512",
+      "384",
+      "0",
+      "0",
+      "512",
+      "384",
+      "2",
+      "0",
+      "16",
+      "7",
+      "00",
+      "7",
+      "325",
+      "3",
+      "14.0000",
+      "0",
+      "0",
+      "512",
+      "384",
+      "6",
+      "6",
+      "4",
+      "52",
+      "40",
+      "16",
+      "1",
+      "2022",
+      "28",
+      "52",
+      "66",
+      "15",
+      "1",
+      "2022",
+      "52",
+      "262",
+      "15",
+      "1",
+      "2022",
+      "8",
+      "52",
+      "286",
+      "20",
+      "466",
+      "96",
+      "14.0",
+      "200",
+      "286",
+      "14",
+      "1",
+      "2022",
+      "52",
+      "310",
+      "13",
+      "1",
+      "2022",
+      "16",
+      "7",
+      "00",
+      "7",
+      "325",
+      "3",
+      "52",
+      "332",
+      "13",
+      "1",
+      "2022",
+      "40",
+      "250",
+      "432",
+      "110",
+      "3",
+      "3",
+      "40",
+      "2"
+    ],
+    "note": "verifier reads by data-role; a naive regex would mix FIG.28 / N=8 / mean=14.0 / sha hash digits into one unlabeled bag",
+    "read_from": "actual SVG data-role attributes"
+  },
+  "R6_C1_no_label": {
+    "passed": true,
+    "semantic_roles": [],
+    "read_from": "actual SVG <text> bytes"
+  },
+  "R4_annotation_removed_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "decorative_marker_present": false,
+    "note_present": false,
+    "verdict": "FAILED (annotation missing) -> label contract is absent, as required",
+    "note": "expected failure = missing LABEL CONTRACT, NOT an observed human misreading",
+    "detected_from_real_bytes": true
+  },
+  "R5_tampered_value_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "tampered_value_from_svg": 71.3,
+    "recomputed_mean": 14.0,
+    "verdict": "FAILED (value != source recomputation)",
+    "detected_from_real_bytes": true
+  },
+  "_summary": {
+    "positive_checks": [
+      "R1_C2_readable_and_value_consistent",
+      "R2_C3_decorative_marker",
+      "R3_semantic_roles_distinct",
+      "R6_C1_no_label"
+    ],
+    "negative_controls": [
+      "R4_annotation_removed_DETECTED",
+      "R5_tampered_value_DETECTED"
+    ],
+    "cards": 4,
+    "card_cap": 4,
+    "all_positive_pass": true,
+    "all_negative_controls_detected": true,
+    "verifier_reads_actual_svg_text": true
+  }
+}

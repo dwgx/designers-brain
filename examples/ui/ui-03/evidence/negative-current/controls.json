@@ -1,0 +1,228 @@
+{
+  "browser_executed": true,
+  "cases": [
+    {
+      "case": "positive",
+      "static_exit": 0,
+      "static": {
+        "behavior": [
+          {
+            "id": "B1_pointer_click_increments",
+            "ok": true,
+            "detail": "count 0->1, pressed=true"
+          },
+          {
+            "id": "B2_keyboard_activates",
+            "ok": true,
+            "detail": "count=1, pressed=true"
+          },
+          {
+            "id": "B3_disabled_blocks_activation",
+            "ok": true,
+            "detail": "state unchanged=true, count=0"
+          },
+          {
+            "id": "B4_reenable_restores_activation",
+            "ok": true,
+            "detail": "count=1, disabled=false"
+          },
+          {
+            "id": "B5_invalid_action_noop",
+            "ok": true,
+            "detail": "unchanged=true"
+          }
+        ],
+        "semantics": [
+          {
+            "id": "S1_role_button",
+            "ok": true,
+            "detail": "unique #counter count=1, tag=button, type=button"
+          },
+          {
+            "id": "S2_aria_pressed_present",
+            "ok": true,
+            "detail": "target aria-pressed=false"
+          },
+          {
+            "id": "S3_accessible_name_present",
+            "ok": true,
+            "detail": "target aria-label=Add one to the counter"
+          },
+          {
+            "id": "S4_live_output_present",
+            "ok": true,
+            "detail": "unique #count count=1, tag=output"
+          },
+          {
+            "id": "S5_visible_text_label",
+            "ok": true,
+            "detail": "parsed target text=Add one"
+          }
+        ],
+        "summary": {
+          "total": 10,
+          "passed": 10,
+          "failed": 0,
+          "behavior_total": 5,
+          "behavior_passed": 5,
+          "semantics_total": 5,
+          "semantics_passed": 5,
+          "node": "v24.19.0",
+          "cwd": "."
+        }
+      },
+      "ok": true,
+      "browser_exit": 0,
+      "browser_report": "positive/report.json"
+    },
+    {
+      "case": "comment_div",
+      "static_exit": 1,
+      "static": {
+        "behavior": [
+          {
+            "id": "B1_pointer_click_increments",
+            "ok": true,
+            "detail": "count 0->1, pressed=true"
+          },
+          {
+            "id": "B2_keyboard_activates",
+            "ok": true,
+            "detail": "count=1, pressed=true"
+          },
+          {
+            "id": "B3_disabled_blocks_activation",
+            "ok": true,
+            "detail": "state unchanged=true, count=0"
+          },
+          {
+            "id": "B4_reenable_restores_activation",
+            "ok": true,
+            "detail": "count=1, disabled=false"
+          },
+          {
+            "id": "B5_invalid_action_noop",
+            "ok": true,
+            "detail": "unchanged=true"
+          }
+        ],
+        "semantics": [
+          {
+            "id": "S1_role_button",
+            "ok": false,
+            "detail": "unique #counter count=1, tag=div, type=button"
+          },
+          {
+            "id": "S2_aria_pressed_present",
+            "ok": true,
+            "detail": "target aria-pressed=false"
+          },
+          {
+            "id": "S3_accessible_name_present",
+            "ok": true,
+            "detail": "target aria-label=Add one to the counter"
+          },
+          {
+            "id": "S4_live_output_present",
+            "ok": true,
+            "detail": "unique #count count=1, tag=output"
+          },
+          {
+            "id": "S5_visible_text_label",
+            "ok": false,
+            "detail": "parsed target text=Add one"
+          }
+        ],
+        "summary": {
+          "total": 10,
+          "passed": 8,
+          "failed": 2,
+          "behavior_total": 5,
+          "behavior_passed": 5,
+          "semantics_total": 5,
+          "semantics_passed": 3,
+          "node": "v24.19.0",
+          "cwd": "."
+        }
+      },
+      "ok": true,
+      "browser_exit": 1,
+      "browser_report": "comment_div/report.json"
+    },
+    {
+      "case": "missing_name",
+      "static_exit": 1,
+      "static": {
+        "behavior": [
+          {
+            "id": "B1_pointer_click_increments",
+            "ok": true,
+            "detail": "count 0->1, pressed=true"
+          },
+          {
+            "id": "B2_keyboard_activates",
+            "ok": true,
+            "detail": "count=1, pressed=true"
+          },
+          {
+            "id": "B3_disabled_blocks_activation",
+            "ok": true,
+            "detail": "state unchanged=true, count=0"
+          },
+          {
+            "id": "B4_reenable_restores_activation",
+            "ok": true,
+            "detail": "count=1, disabled=false"
+          },
+          {
+            "id": "B5_invalid_action_noop",
+            "ok": true,
+            "detail": "unchanged=true"
+          }
+        ],
+        "semantics": [
+          {
+            "id": "S1_role_button",
+            "ok": true,
+            "detail": "unique #counter count=1, tag=button, type=button"
+          },
+          {
+            "id": "S2_aria_pressed_present",
+            "ok": true,
+            "detail": "target aria-pressed=false"
+          },
+          {
+            "id": "S3_accessible_name_present",
+            "ok": false,
+            "detail": "target aria-label=undefined"
+          },
+          {
+            "id": "S4_live_output_present",
+            "ok": true,
+            "detail": "unique #count count=1, tag=output"
+          },
+          {
+            "id": "S5_visible_text_label",
+            "ok": true,
+            "detail": "parsed target text=Add one"
+          }
+        ],
+        "summary": {
+          "total": 10,
+          "passed": 9,
+          "failed": 1,
+          "behavior_total": 5,
+          "behavior_passed": 5,
+          "semantics_total": 5,
+          "semantics_passed": 4,
+          "node": "v24.19.0",
+          "cwd": "."
+        }
+      },
+      "ok": true,
+      "browser_exit": 1,
+      "browser_report": "missing_name/report.json"
+    }
+  ],
+  "ok": true
+}

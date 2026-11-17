@@ -1,0 +1,54 @@
+{
+  "prototype": "SEED-EXPERIMENT-ayushsoni_io/prototype-s12",
+  "phase": "S12-B",
+  "author_actor_id": "SeedDepsB",
+  "status": "submitted",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · pending_human reserved]",
+  "declared_before_run": true,
+  "notes": "PRE-RUN frozen config. All numbers below are engineering operationalisation, NOT author-published rules. Self-made geometry only; no author/client images, no network generation, no RNG.",
+  "canvas": {"W": 512, "H": 384, "background_rgb": [242, 243, 242]},
+  "atom_radius": 44,
+  "atom_center_y": 192,
+  "relations": ["separated", "connected", "overlap", "merged"],
+  "state_geometry": {
+    "separated": {"ax": 150, "bx": 362, "connector_width": 0, "fused": false},
+    "connected": {"ax": 170, "bx": 342, "connector_width": 18, "fused": false},
+    "overlap":   {"ax": 216, "bx": 296, "connector_width": 0, "fused": false},
+    "merged":    {"ax": 226, "bx": 286, "connector_width": 0, "fused": true}
+  },
+  "vocabularies": {
+    "beam":  {"atom": "circle+radial-inner", "connector": "tapered_light_band_polygon", "fused": "capsule"},
+    "stamp": {"atom": "diamond_polygon+emboss", "connector": "notched_bar_path", "fused": "octagon"}
+  },
+  "keyframes": "4 states x 2 vocabularies = 8 standalone SVG+PNG keyframes",
+  "transition": {
+    "label": "one 12-frame transition contact sheet (CAP = 12 frames)",
+    "from": "separated", "to": "connected", "vocab": "beam",
+    "frames": 12, "tiles": [4, 3], "tile_px": [128, 128],
+    "t_values": "i/11 for i in 0..11"
+  },
+  "selection_rect_px": [90, 110, 422, 274],
+  "connector_corridor_px": [216, 178, 296, 206],
+  "thresholds": {
+    "connector_corridor_min_nonbg_px": 120,
+    "position_step_max_px": 6.0,
+    "outside_selection_max_diff_px": 0,
+    "vocab_geometry_min_differing_elements": 3
+  },
+  "intended_checks": [
+    "P1: 8 keyframes exist as real SVG+PNG; each SVG root carries data-state/data-vocab; object correspondence (connector from=A to=B) and relation order preserved across vocabularies",
+    "P2: beam vs stamp CONNECTED keyframes have DIFFERENT geometry element signatures (>=3 differing elements) -> two vocabularies truly change form, not just label/color",
+    "P3: 12-frame transition atom-A positions are smooth (max consecutive step <= position_step_max_px) measured from real SVG data-ax AND real PNG tile centroids",
+    "P4: out-of-selection PNG diff between any two correct keyframes = 0",
+    "F1 (must-fail): missing-connector negative removes the real connector path+corridor pixels; verifier must DETECT it from SVG elements AND PNG corridor pixels (a state-JSON-only check would still wrongly pass)",
+    "F2 (must-fail): position-jump negative shifts one transition frame's atom A; verifier must DETECT the jump from real bytes",
+    "F3 (must-fail): out-of-selection-change negative paints a blob in the background; verifier must DETECT nonzero outside-selection diff"
+  ],
+  "negative_controls_are_real_files": true,
+  "rights_and_honesty": [
+    "HEX Composio/Fuser are studio self-descriptions with multiple co-credits; NOT single-author algorithm, NOT reproduced here.",
+    "All geometry, connectors, contact sheet, text are self-authored. No reference/client image copied into outputs.",
+    "Local prototype != parent E2/E3 success; seed stays E1; no promotion; failed checks recorded as failed.",
+    "No prewritten passed:true; verifier reads actual SVG text and actual PNG bytes."
+  ]
+}

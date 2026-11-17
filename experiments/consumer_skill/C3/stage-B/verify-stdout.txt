@@ -1,0 +1,5 @@
+[PASS] A_A_metadata_consistency
+[PASS] inflation_rejection
+[PASS] missing_field_failure
+[PASS] reuse_hash_verification
+VERDICT: PASS

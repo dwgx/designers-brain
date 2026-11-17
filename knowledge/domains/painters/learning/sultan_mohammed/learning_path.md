@@ -44,6 +44,7 @@
 | §3-4 | **戏剧性预置**：在平静场景中埋下张力——指向的手势、预兆性凝视、「濒临失去的天堂」（on the | `[归纳]` 操作规则，不冒充内心 |
 | §3-5 | **构图求「上升与越框」**：中心高置、山体上升、越出画框伸入页缘（三侧）；椭圆包络。`[研究]`  | `[归纳]` 操作规则，不冒充内心 |
 | §3-6 | **细节的慷慨**：微书级细节不计成本（毛皮、水花、砖饰、织物）——「细密」之名的兑现。`[研究]` | `[归纳]` 操作规则，不冒充内心 |
+- 本表抽样 §3 前 6 条；第 7–8 条见 `dossiers/sultan_mohammed.md` §3 L74–75。
 > 决策序是**研究者构造**（不是 苏丹·穆罕默德 的内心）；先选骨架、再定参数、后收细节，牺牲项与失效边界见 `mechanism_notes.md §D`。[LEARN-sultan_mohammed]
 
 <a id="db-source-line-42"></a>
@@ -73,7 +74,7 @@
 
 <a id="db-source-line-65"></a>
 ## 6. 边界
-- §4 六参数三档 + §8.2 8 条规则**全部 `[归纳]` 未经渲染实验校准**；near-miss/冲突交集如涉他卡，沿用 AUDIT 判定不重审（conflicts `sultan_mohammed` 命中 1：§4 #10 L356 苏丹·穆罕默德 × 克里姆特，C-15/N6 金层口径）。[LEARN-sultan_mohammed]
+- §4 六参数三档 + §8.2 8 条规则**全部 `[归纳]` 未经渲染实验校准**；near-miss/冲突交集如涉他卡，沿用 AUDIT 判定不重审（conflicts `sultan_mohammed` 命中 1：§4 #10 L359 苏丹·穆罕默德 × 克里姆特，C-15/N6 金层口径）。[LEARN-sultan_mohammed]
 - 未绑定 bound dispatch contract、`review:null` → status=submitted；作者不自接受，待独立审者 verdict。[LEARN-sultan_mohammed]
 
 ## 同一条目的附页

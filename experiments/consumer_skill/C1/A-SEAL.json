@@ -1,0 +1,29 @@
+{
+  "case_id": "C1",
+  "attempt_id": "P4R-C1-20261117T123432",
+  "final_commit": "c35d748e1cc9f23415fff0bf019a9c03234c421e",
+  "final_tree": "fb24565b02597057784cbeed23f70ba657711804",
+  "binding_sha256": "15e418fcec6746756136fd954a4962f30a0c38f8d84b7408a7666569bfd280cc",
+  "stage_a_manifest_sha256": "60447154d75996c1527f3876ba273134a57be6738eda37fb6612d2cc64a6bcca",
+  "observed_at_utc": "2026-11-17T12:40:05.143622Z",
+  "files": [
+    {
+      "path": "unaided-selection.json",
+      "sha256": "4977bf8124329a099d78d88cce26cf3f827d898d9564fdc45859dcb579869537",
+      "bytes": 8465
+    },
+    {
+      "path": "retrieval-log.md",
+      "sha256": "edaa1ed549d2dac10c2f9fdd5631619abfb472e6018dfaab85fb074ca5c59485",
+      "bytes": 6401
+    },
+    {
+      "path": "sketch-three-values.svg",
+      "sha256": "c17c2a0c061d27e5e4633ec10563131994d04541daf2f0fd34a72db7935039c0",
+      "bytes": 6441
+    }
+  ],
+  "native_event_evidence": null,
+  "native_event_limitation": "Root observed files directly (ls + sha256 within the consumer's cue-poll window); no native write-event stream captured; stage order from consumer ready timestamp + Root observation, not from hidden thinking.",
+  "root_note": "In-window seal: READY observed via event watcher during consumer cue-poll window; A-SEAL written before any CUE for this attempt."
+}

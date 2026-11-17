@@ -1,0 +1,81 @@
+== [T1] official DTCG 2025.10 format-schema validation ==
+  PASS tokens.tokens.json validates against official DTCG 2025.10 format.json
+  PASS tokens-cycle.tokens.json is STRUCTURALLY schema-valid (aliases are opaque strings)
+== [T2] alias resolution order + chained aliases (format 7.2.2) ==
+  PASS color.primary explicit value is the base color object
+  PASS color.brand = {color.primary} resolves to FULL $value of primary
+  PASS color.action = {color.brand} chained alias resolves through brand to primary
+  PASS color.text = {color.ink} resolves correctly
+  PASS layout.control = {size.controlHeight} dimension alias resolves
+  PASS alias token color.action keeps declared $type=color
+== [T3] cycle detection (format 7.2.3, resolver 6.3) ==
+  PASS cycle file triggers a DTCGError (not a successful resolution)
+  PASS error is a circular-reference error per format 7.2.3
+  PASS error names the full a->b->c->a chain ('affecting all tokens in the circular chain')
+  PASS direct self-cycle selfLoop.x also detected
+== [T4] resolver resolutionOrder override + input validation (6.2/6.1/5.2) ==
+  PASS empty inputs fall back to declared defaults (4.1.5.3)
+  PASS theme=light yields light ink
+  PASS density=comfortable yields 44px control height
+  PASS explicit inputs accepted
+  PASS theme=dark overrides base surface (resolutionOrder: theme later than base)
+  PASS density=compact overrides base 44px (resolutionOrder: density last)
+  PASS color.action alias resolves to brand AFTER ordering (resolver 6.3), dark keeps brand
+  PASS theme=hc overrides brand (last modifier wins on conflict)
+  PASS color.action chained alias re-resolves to the OVERRIDDEN brand (order before alias)
+  PASS resolver 6.1/5.2 rejects unknown modifier key
+  PASS resolver 6.1/5.2 rejects non-string input value
+  PASS resolver 6.1/5.2 rejects value not in contexts
+== [F] focus path — real-browser DOM dump (keyboard-only + roving tabindex) ==
+  chrome exit_code=0 dom_bytes=16019
+  PASS headless chrome --dump-dom exited 0
+  PASS fixture emitted #selftest-out (no fatal JS error)
+  trace keys: allReachableByKeyboard, focusRestoredAfterDialog, focusRingWidthPx, rovingSnapshots, shortcutFocusesCompose, tabSequence, targetSizeMinPx
+  PASS tab sequence is complete & keyboard-only: every control reachable by Tab in DOM order (toolbar is ONE tab stop; its items use roving tabindex per APG)
+  PASS keyboard-only completability asserted (every action has a Tab-reachable control)
+  PASS roving tabindex snapshots captured for each arrow-key step
+  PASS roving step 0: exactly ONE toolbar item has tabindex=0
+  PASS roving step 1: exactly ONE toolbar item has tabindex=0
+  PASS roving step 2: exactly ONE toolbar item has tabindex=0
+  PASS initial roving active = first item (APG)
+  PASS ArrowRight moves active to 2nd item
+  PASS ArrowRight wraps/moves to 3rd item
+  PASS focus returns to trigger after dialog close (APG persistence of focus)
+  PASS WCAG 2.5.8 (24x24 AA) + 2.4.13 (2px perimeter AAA) values wired from tokens
+== [I] composition gating — in-code assertion + real-browser CDP evidence ==
+  PASS fixture registers compositionstart/end handlers and checks isComposing
+  PASS send action is GATED by isComposing flag / composition session in keydown handler
+  PASS fixture also guards the legacy keyCode===229 IME-confirmation case
+  PASS ime_cdp_evidence.json present (real-browser CDP composition run)
+  PASS CDP evidence binds the current fixture bytes
+  PASS CDP evidence binds the current driver bytes
+  PASS CDP evidence binds the shared browser support code
+  PASS fresh CDP harness passed, not a historical/unbound receipt
+  PASS composition suppresses sending and the following Enter sends exactly once
+  PASS composition ended, same-page reset is consistent, and real Tab focus is visible
+  PASS evidence declares browser-level IME injection method (not JS dispatchEvent)
+  PASS evidence comes from real headless Chrome (UA recorded)
+  PASS genuine DOM compositionstart/compositionend fired
+  PASS Enter keydown DURING composition carries isComposing=true (UI Events 3.6.5)
+  PASS Enter keydown AFTER composition carries isComposing=false
+  PASS IME confirmation did NOT fire the send action (primary acceptance criterion)
+  PASS a real Enter AFTER composition DOES fire send (control: gate isn't a blanket block)
+  PASS evidence is NOT a synthetic JS KeyboardEvent dispatch
+  NOTE: headless Chrome CDP composition is a real browser composition session,
+        but no OS-level CJK IME (e.g. Microsoft Pinyin) was installed/tested.
+        Honest status: browser-level IME PASS; OS-IME/visual: UNTESTED.
+== [CJK] CLREQ 2026-11-04 line-break / 禁则 rules (CSS vs untested) ==
+  PASS cjk_layout.json rule matrix present
+  PASS at least 3 CLREQ rules mapped to CSS properties (line-break/word-break/etc)
+  PASS at least 1 CLREQ rule honestly marked untested (not CSS-implementable here)
+  PASS CSS rule R1-line-start-basic cites clreq locator + CSS property
+  PASS CSS rule R2-line-end-opening cites clreq locator + CSS property
+  PASS CSS rule R3-strict-dash-ellipsis cites clreq locator + CSS property
+  PASS CSS rule R4-none-loose-reference cites clreq locator + CSS property
+  PASS CSS rule R5-word-break-cjk cites clreq locator + CSS property
+  CSS-implemented: R1-line-start-basic, R2-line-end-opening, R3-strict-dash-ellipsis, R4-none-loose-reference, R5-word-break-cjk
+  Untested: R6-unbreakable-marks, R7-punctuation-width-adjustment, R8-hanging-punctuation, R9-line-adjustment-justification, R10-han-western-mixed-spacing
+
+RESULT: ALL MECHANICAL CHECKS PASSED (63 assertions).
+NOT TESTED: OS-level CJK IME (Microsoft Pinyin / candidate window), pixel/visual rendering,
+            审美/风格, WCAG full conformance audit, real human keyboard usability.

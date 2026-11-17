@@ -1,0 +1,30 @@
+{
+  "case": "ui-02",
+  "observed_at_utc": "2026-11-17T22:55:39.936860+00:00",
+  "fixture": "examples/ui/ui-02/fixture.html",
+  "fixture_sha256": "0fba917aeb90b6c505440ea0f0ac70db929599daa7fafedc80565e5dedfd623b",
+  "cdp_util_sha256": "35bf473e95c70a92f32e9a5b1d57830cd839772ae226e2e64ef41ded0a30c379",
+  "chrome_util_sha256": "ca1ef06d85f47c0afc24987b3f260c51f6c2f42688f3661d0e0b862873bbfeac",
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.79",
+    "revision": "@6dc9bc3bdaea5c35ed6d41fceab2f7a3a2227c4f",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.43"
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 900,
+    "dpr": 1
+  },
+  "full_page_clip": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 1236,
+    "scale": 1
+  },
+  "screenshot": "current-view.png",
+  "screenshot_sha256": "7eaedd0c7c919822c05ade19cdd03b1bb660808dd7613d5ee2073b873b092f5d",
+  "scope": "Actual default-state full-page screenshot from isolated Chrome; no human/aesthetic approval and no native-OS IME claim."
+}

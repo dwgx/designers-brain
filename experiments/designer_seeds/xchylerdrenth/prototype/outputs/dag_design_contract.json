@@ -1,0 +1,56 @@
+{
+  "V": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "E": [
+    [
+      "a",
+      "c"
+    ],
+    [
+      "b",
+      "c"
+    ],
+    [
+      "c",
+      "d"
+    ],
+    [
+      "c",
+      "e"
+    ],
+    [
+      "d",
+      "f"
+    ],
+    [
+      "e",
+      "f"
+    ],
+    [
+      "e",
+      "g"
+    ],
+    [
+      "f",
+      "h"
+    ],
+    [
+      "g",
+      "h"
+    ],
+    [
+      "c",
+      "g"
+    ]
+  ],
+  "edge_count": 10,
+  "note": "design contract; verifier independently parses OUTPUT SVG paths, not this file"
+}

@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-17T22:50:38.341724+00:00",
+  "reason": "Actual concurrent Chrome profile collision and cp1252 error-report crash observed; failed runs retained separately.",
+  "files": [
+    {
+      "path": "examples/ui/ui-01/_check.py",
+      "before_sha256": "37e0b707a9bb12db65e7fbc077ad0cef536bdc9cb3a100498ec7a3a1a887e33b",
+      "after_sha256": "3c82572bb416685ccab42642344797e7b05e837c5e0d8674a11d2aaca66eaff8",
+      "patch": "--- a/examples/ui/ui-01/_check.py\n+++ b/examples/ui/ui-01/_check.py\n@@ -16,7 +16,7 @@\n 真实 IME, 长期生产率. See RESULT.md honest-status section.\n \n Usage: python -X utf8 _check.py\n-Exit 0 = all mechanical assertions passed. Writes _check_output.txt (real output).\n+Exit 0 = all mechanical assertions passed. Prints real output; browser profile and diagnostic file use a per-run temporary directory.\n \"\"\"\n import html as _html\n import json\n@@ -32,8 +32,8 @@\n from chrome_util import find_chrome\n \n import tempfile\n-RUNTIME = Path(tempfile.gettempdir()) / \"designers-brain-ui01-check\"\n-RUNTIME.mkdir(parents=True, exist_ok=True)\n+_runtime_dir = tempfile.TemporaryDirectory(prefix=\"designers-brain-ui01-check-\", ignore_cleanup_errors=True)\n+RUNTIME = Path(_runtime_dir.name)\n HERE = Path(__file__).resolve().parent\n FIXTURE = HERE / \"fixture.html\"\n CHROME = find_chrome()\n"
+    },
+    {
+      "path": "examples/ui/ui-02/_check.py",
+      "before_sha256": "3ddcf271b02ae2ca41485430b3521f3faeee78dfcc831f33dd9cbcbd99c6b3d4",
+      "after_sha256": "9d7325381692458e28d884ca54309594d56318d6c8d3b9f4908fbfa1c859b070",
+      "patch": "--- a/examples/ui/ui-02/_check.py\n+++ b/examples/ui/ui-02/_check.py\n@@ -36,8 +36,8 @@\n import dtcg_resolver as R\n \n import tempfile\n-RUNTIME = Path(tempfile.gettempdir()) / \"designers-brain-ui02-check\"\n-RUNTIME.mkdir(parents=True, exist_ok=True)\n+_runtime_dir = tempfile.TemporaryDirectory(prefix=\"designers-brain-ui02-check-\", ignore_cleanup_errors=True)\n+RUNTIME = Path(_runtime_dir.name)\n HERE = Path(__file__).resolve().parent\n SCHEMA = HERE / \"schema\" / \"dtcg-format-schema.json\"\n TOKENS = HERE / \"tokens.tokens.json\"\n"
+    },
+    {
+      "path": "examples/ui/ui-01/check_negative.py",
+      "before_sha256": "5d583491ac33d37e37a4d3f3424999b34dc8d59e167f1e6fea5bfff6578bbc91",
+      "after_sha256": "0a14818a28b4331072477a69c39a2cad97fb077f8704c730938bd48fb02faacb",
+      "patch": "--- a/examples/ui/ui-01/check_negative.py\n+++ b/examples/ui/ui-01/check_negative.py\n@@ -111,21 +111,22 @@\n         return src.replace(needle, \"MAY synthesize RUN_FINISHED\", 1)\n \n     negatives = [\n-        (\"N1_scripted_extra_advance\", dup_completion),\n-        (\"N2_scripted_wrong_task\", out_of_order),\n-        (\"N3_relabelled_truncation\", reconnect_as_success),\n-        (\"N4_rule_text_altered\", unknown_event),\n+        (\"N1_scripted_extra_advance\", dup_completion, \"T2-after-1-advance/T2 data-state=waiting-for-input\"),\n+        (\"N2_scripted_wrong_task\", out_of_order, \"T3-after-1-advance/T3 data-state=waiting-for-input\"),\n+        (\"N3_relabelled_truncation\", reconnect_as_success, \"T3-after-2-advances/T3 data-state=stream-interrupted\"),\n+        (\"N4_rule_text_altered\", unknown_event, \"fixture records AG-UI truncation rule\"),\n     ]\n     with tempfile.TemporaryDirectory(prefix=\"ui01_neg_\") as td:\n         tmp = Path(td)\n-        for name, transform in negatives:\n+        for name, transform, expected_assertion in negatives:\n             d = make_case(tmp, name, transform)\n             rc, out = run_check(d)\n             log(\"%s _check exit=%d\" % (name, rc))\n             tail = [l for l in out.splitlines()\n                     if l.startswith(\"AssertionError\") or l.startswith(\"RESULT:\")]\n             log(\"  \" + (tail[-1] if tail else \"(no result line)\"))\n-            fail_if(rc == 0, \"%s must be DETECTED (real check exits nonzero)\" % name)\n+            fail_if(rc != 1 or \"AssertionError: \" + expected_assertion not in out,\n+                    \"%s must fail with its intended assertion, not a harness error\" % name)\n \n     log(\"\")\n     log(\"RESULT: ALL NEGATIVE CONTROLS DETECTED; positive control passed.\")\n"
+    },
+    {
+      "path": "tools/check_image_rights.py",
+      "before_sha256": "8e32c0d7189946a23667b245bb71ce41364c00887a370cecd81c838ce2b9a099",
+      "after_sha256": "8dd5c40489c27929bffe3b3ea5f314d3555d613fc82d5dee482b89a08108f636",
+      "patch": "--- a/tools/check_image_rights.py\n+++ b/tools/check_image_rights.py\n@@ -261,6 +261,10 @@\n \n \n def main(argv: list[str] | None = None) -> int:\n+    # Preserve diagnostic errors on Windows redirected consoles (default cp1252).\n+    for stream in (sys.stdout, sys.stderr):\n+        if hasattr(stream, \"reconfigure\"):\n+            stream.reconfigure(encoding=\"utf-8\")\n     ap = argparse.ArgumentParser(description=\"Check file-level image rights classification.\")\n     ap.add_argument(\"--json\", type=Path, default=DEFAULT_JSON)\n     ap.add_argument(\"--manifest\", type=Path, default=DEFAULT_MANIFEST)\n"
+    }
+  ]
+}

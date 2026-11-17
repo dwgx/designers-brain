@@ -1,0 +1,9 @@
+{
+  "name": "ui03-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI-03 fixture: Node reducer checks plus Python HTMLParser/CDP/Pillow geometry and live DOM checks.",
+  "scripts": {
+    "check": "node run_checks.js"
+  }
+}

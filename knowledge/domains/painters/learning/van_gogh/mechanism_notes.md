@@ -98,7 +98,7 @@
 
 > 「双账户」= 同一对象在记录里**两个并存、各自诚实、不合并**的状态。本卡携带三组，均来自 ACCEPTED 审计 / spec，不自行裁决。
 
-1. **903 封（知识层）**：`AVG-903-CLOSURE` = `supported`（2009 About 页 + Correspondents §2.1 两个 primary 都含「903」）／`AVG-903-CLOSURE-TEXTUAL-GAP` = `partial`（`AUDIT-van_gogh/receipt.json:275-327`）。dossier §10 **L252** 仍 `[UNVERIFIED]`、§11.3 note 2（`:390`）却写「可据此收口」。AUDIT `RESULT.md:20-21` 判「substantively evidenced but textually incomplete」。**两账户并存**：底层事实 supported、措辞 partial、文本未改。
+1. **903 封（知识层）**：`AVG-903-CLOSURE` = `supported`（2009 About 页 + Correspondents §2.1 两个 primary 都含「903」）／`AVG-903-CLOSURE-TEXTUAL-GAP` = `partial`（`AUDIT-van_gogh/receipt.json:275-327`）。dossier §10 **L252** 原 `[UNVERIFIED]`——**F33（2026-11-16）已收口**（删除线保留历史）；§11.3 note 2（`:390`）已核实。AUDIT `RESULT.md:20-21` 曾判「substantively evidenced but textually incomplete」。**历史双账户**：底层事实 supported、措辞 partial；现已收口。
 2. **gate 自洽（执行层）**：`review-gate-receipt.json` 的 `input_hashes` 锁定 `receipt.json@0bf134e2…`（author 提交版 `submitted`）→ `review.verdict=accepted`；当前 内部证据 7ae27b2a749f42b7（未公开；来源记录由维护者保留） 已升 `status=accepted`（本 lane `sha256sum` 实跑）。这是**同一任务的两个阶段状态**，不是矛盾；AUDIT `review-gate-runner-receipt.json` 记 verify-receipt 对 `submitted` 版 `ok:true`。
 3. **三类状态分离（spec 层）**：`05-RELEASE-ACCEPTANCE.md:34-38` 要求 `execution_status` / `knowledge_status` / `human_review` 分别保存、`submitted ≠ accepted`、无真人评价不得 `completed`。本 lane：`execution_status=submitted`、`review=null`（author 不自我验收）、`human_review=not_applicable`；练习为 `knowledge_status` 的 `[归纳]` 建议练习，非 `validated`。
 
