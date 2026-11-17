@@ -41,4 +41,3 @@ _agent-history/
 personal.env
 staging/
 **/*_session.jsonl
-!knowledge/cross/_image_probes/_evidence/sessions/*.jsonl
