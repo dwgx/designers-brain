@@ -1,6 +1,6 @@
 # 实验证据与缺口（指针）
 
-> 仓库根 `D:/Project/Designers_Brain`（REPO）；本文件只写「去哪读什么」，不复制内容。
+> REPO = the `repo` value returned by `python <skill-dir>/resolve_repo.py --json`; resolve the actual bundled skill directory, and stop if detached. This file contains pointers only; substantive content stays in the repository.
 
 - **实验设计 + 缺口**：`REPO/experiments/design.md` —— E 系列设计；E3 强度扫描「有设计、无结果」→ 涉及强度定量承诺必标 [UNVERIFIED]。
 - **E1 图像链**：`REPO/experiments/E1_t1b/`、`REPO/experiments/E1_t1c/` —— 题材偏置解除（7/7；各带 _verify 脚本）。

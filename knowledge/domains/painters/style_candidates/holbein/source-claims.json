@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "STYLE-holbein",
+  "source_receipt_sha256": "73868fa429fd323a4abf4b5d93adca56a1e2af9fc1b83bb35e383406a2ce72b4",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "STYLE-holbein-CARD-NO-81B",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:1372a2b8d2e8fc0d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:4ba5013f7ceaa739",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1af2ebe30b73bfd758aa4759f8f7f46223629d58789e33704cdc14f39b1214f5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-holbein-RULES-MAPPED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/holbein.md",
+          "version": null,
+          "locator": "§8.2 L207-214：8 条源规则原文转录（R1–R8），数量与主体文字受支持；§4 六参数经语义校准（见 style_only_draft.md §7）。收窄：旧「8 规则 + 六参数 → C1–C5 五条必要耦合」不并入 supported；形式子集 / 语义前提拆分、替代规则 R′、H-C* 组合假说是 [inference] 项目假说，supported observation 仅覆盖源规则转录与经校准的 R/P 映射",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "070cb50f570fbacd4646e3d0850cedec150bf9497a308c96b8f981b68b039aed",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/holbein.md",
+          "version": null,
+          "locator": "视觉指纹要点 + §8.1/§8.2/§4（原样，无 §8.1b）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "c175d2bfca1ace0ba5e9e48e6c0b190af713ab2ecb268feae3dc4252fbb61a83",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-holbein-THRESHOLDS-INDUCTION-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/holbein.md",
+          "version": null,
+          "locator": "§8.2 注 + §10 缺口：全部阈值 [归纳]，未对原作做像素测量（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "070cb50f570fbacd4646e3d0850cedec150bf9497a308c96b8f981b68b039aed",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-holbein-DRAFT-NOT-E4",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "A06：§8.1b 仅 11/76；存在性检查不是 E4 通过检查",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "02-EXECUTION-PLAN.md (execution package)",
+          "version": null,
+          "locator": "Lane C：新增风格段去默认题材泄漏、列正反例和 capability；草案完成/来源支持/E4 实测分别记录",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

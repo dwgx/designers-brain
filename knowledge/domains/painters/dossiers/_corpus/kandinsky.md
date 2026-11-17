@@ -68,7 +68,8 @@
 ### 9. 蓝越深，越召唤人走向无限
 > Je tiefer das Blau wird, desto mehr ruft es den Menschen in das Unendliche, weckt in ihm die Sehnsucht nach Reinem und schließlich Übersinnlichem. Es ist die Farbe des Himmels […].
 
-- 来源：同上（V. Die Wirkung der Farbe）；英译（Sadler）："The deeper the blue becomes, the more strongly it calls man towards the infinite, awakening in him a desire for the pure and, finally, for the supernatural."
+- 来源：同上（V. Die Wirkung der Farbe）；**英译（reported/译文，非逐字锚点）**："The deeper the blue becomes, the more strongly it calls man towards the infinite, awakening in him a desire for the pure and, finally, for the supernatural."
+  - 【出处注记 2026-11-16 · coordinator ruling F17】该英译句**未找到逐字原文锚点**（已查 PG #5321：实际段落措辞不同——该底本蓝段为 "The power of profound meaning is found in blue…The inclination of blue to depth is so strong…"（AUDIT-kandinsky WEB-EN L2144–2148），无 "infinite / supernatural" 句；另 PG #5321 版权页译者署名 **Michael Sadleir**（题名页拼写）vs 元数据 Sadler——译名拼写两存）。德文原句本身已在 PG #46203 逐字核过（L2063–2064，DE all-found）。**不重锚到其他段落**（避免把引文挂到不含它的来源上）；本条 EN 文本降标为 reported/译文，`[self-written]` 类型指德文原句、EN 句按转述对待。
 - 类型：[self-written]
 - 中文意译：蓝色越深，就越把人唤向无限，在他心中唤醒对纯净、乃至超感官之物的渴望。它是天空的颜色。
 

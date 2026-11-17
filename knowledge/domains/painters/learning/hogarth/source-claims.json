@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-hogarth",
+  "source_receipt_sha256": "522596943e7596fda7ff5bc8e6a3c146c145c2b3799f50215f57d34e9bd336ed",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LH-LINE-22",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "#22 L168-173 (waving line / the line of beauty, 原文逐字 [self-written])",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "dc513ae888a8c860019ec81c186d800e010f36bc00628a79ce0fe047efbc48ce",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-LINE-23",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "#23 L175-180 (serpentine line / line of grace, 细金属丝绕锥体)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "dc513ae888a8c860019ec81c186d800e010f36bc00628a79ce0fe047efbc48ce",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-LINE-NOT-GATE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.1 L32/L34 (--no idealised beauty / decorative abstraction); §8.2 L40-47 八规则无 S 曲线阈值",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "b76354c11d58d75e7bbd03ac72ed2e262cd824fb4df56e9789dc1a60d0f25ea8",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§12 #7 L411-414 (S 形曲线教具) + L114 用法注 (P2/P3 定是不是荷加斯)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-SEQ-1",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1-1 L35 (系列=叙事单位, 6/8/12 帧成套, 同一主角跨帧推进, 完整道德弧按序读)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L9 视觉指纹#1 + §8.1 正向 L27 / 负向 L35",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "b76354c11d58d75e7bbd03ac72ed2e262cd824fb4df56e9789dc1a60d0f25ea8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-SEQ-CRITERION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3.1 L89-101 (判据=帧间是否存在进度依赖; 分镜接口三条; Lane B 接口)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-OVERTURN-01",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "自审B #4 L444: 「荷加斯版画无交叉排线」OVERTURNED → 改为「交叉排线允许(与戈雅相反)」; 落地 §1-9 L43 / §2-3 L54 / §8.2-8 L241",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/goya.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L39/L52 无交叉排线原则(平行细线+平飞尘块) = 互斥轴",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a50f0d27231bb266e4892b1b8ad4157d2c59a27a76afec005c7cab5fa429ee73",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:ce582b75bd84967d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a514f00042c2707c4bc6e4734a2972d44ee8010a496ab8e66616037432e5f760",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-OVERTURN-BOUND",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:9adfc29da96ba2ca",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a514f00042c2707c4bc6e4734a2972d44ee8010a496ab8e66616037432e5f760",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-CE1-VERDICT",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:9143e55deefe3764",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "29ec7a4ac593111303cbb06e5e392d9e839067bc6ee3d708cfbddb09629135c1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-CE1-CARVEOUT",
+      "claim_kind": "design_candidate",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:7826a6b15ceff58f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "29ec7a4ac593111303cbb06e5e392d9e839067bc6ee3d708cfbddb09629135c1",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 P1 L107 弱档「小系列 3–6 帧(成对/三段)」+ L114 分工注(P1 工作流参数不进画面重叠计算)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-RIGHTS-COUNT",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:942a2c9ceaf32768",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "9d29b0af112f83e191336f3e045171648adafb1a83dd30f577dbd82d3db0d04c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:138f4221170ae87c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d86af208f5aece951231386cfb9b6bf40d3c59bf4a906c7696e7d88a9e1b2369",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-RIGHTS-BOUND",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:17b30bf1503dfddd",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d86af208f5aece951231386cfb9b6bf40d3c59bf4a906c7696e7d88a9e1b2369",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-THRESH-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L243: §8.2 阈值为本项目 [归纳], 未对原作做像素测量(分母=假想参考帧); L5 等级定义",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-GATE-P2P3",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 L107-112 (P1=8 / P2=70% / P3=65% / P4=50% / P5=30% / P6=2档) + 用法注 L114 (P2/P3 定是不是荷加斯)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L273: 练习效果尚未由人完成或评价时明确为建议练习, 不写『已证实学习收益』; 本 shard human_review.status=not_applicable",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LH-CANON-DRIFT",
+      "claim_kind": "fact",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:dbec460b393950e3",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a514f00042c2707c4bc6e4734a2972d44ee8010a496ab8e66616037432e5f760",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

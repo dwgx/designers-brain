@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-rembrandt",
+  "source_receipt_sha256": "9a120007342f40fc09cfe95034b4230934b5c7792ea0c9b221ba74be6f6ba5df",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LR-DIV",
+      "claim_kind": "validated_rule",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L6 / L70 / L108 分工写死：伦勃朗=连续衰减+心理 / 卡拉瓦乔=开关+物理；P1/P3 强档对方专属禁用",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f59aab6d36a7ee56b425c55a01877ca2424c765b30deae14afe3836e216ffce1",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:3557bd9464f0d91e",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9c078474aee91ecbd271ab42bb3c53d07f4a4b88763d225e9ca7043825a04304",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-FALLOFF-SPOT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1-2/3 L33-34 面部亮斑地图 + 眼窝留暗（[R1] NG 原话）；§4 P1/P2/P3 L78-91；§8.2-1/2/3 L256-260",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "f59aab6d36a7ee56b425c55a01877ca2424c765b30deae14afe3836e216ffce1",
+          "access_status": "available"
+        },
+        {
+          "source_id": "https://www.nationalgallery.org.uk/artists/rembrandt",
+          "version": "fetched 2026-11-15 (AUDIT RF1)",
+          "locator": "RF1 89994B sha 2a920f21…: 'patterns of light and shadow' / 'living, thinking mind' / 'hard to read a precise expression'",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "2a920f21afdcbbe02632041d12d98c4b7f548f3a52a225826d9905eed191e4d0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-GROUP-NARRATIVE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1-9 L40 / §3-3 L64 / §7-4 L204 / §12-4 L438-441 群像正在做事 + 光聚焦关键物；§9 CC-4 L309 单源标注",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f59aab6d36a7ee56b425c55a01877ca2424c765b30deae14afe3836e216ffce1",
+          "access_status": "available"
+        },
+        {
+          "source_id": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+          "version": "fetched 2026-11-15 (AUDIT RF2)",
+          "locator": "RF2 299117B sha 08721ed2…: 'first to paint figures in a group portrait actually doing something'（保持单源口径）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "08721ed2f8fc0415cc8a6acce3ecd80281b6c53d03c3ff53ac8ae84bf9b52676",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-SELF-VS-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "17 条语料；#4 `die meeste ende die naetuereelste beweechgelickheijt` [self-written]；卷首 L4 类型词表；L163 自计 17",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "031ad9a08836869f8480bf2088aa04c9ba0753ba5b86dd66a2f9037623a88976",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§5 L113-170 十条自述；§10-5 L320 / §8.2 L265 全部阈值 [归纳] 未对原作做像素测量",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f59aab6d36a7ee56b425c55a01877ca2424c765b30deae14afe3836e216ffce1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-NEAR-MISS-KNOWN-OPEN",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 L347-L357 = 11 编号 near-miss 行（#9-#11 带 2026-10-16 补）；grep rembrandt|伦勃朗 = 0 命中",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L107 'near-miss 8 对'（stale）；AUDIT R-CF-02 判 partial、review-evidence.md §4 确认 drift real 且 reported-not-fixed",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "a2108ab317914f7b993dece31494c3df0347255bd8c9b1316fc798b81dfc76df",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-RF-ACCEPTED-BASIS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:770bd167bebc5e82",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "f05b4ec6086c88506997fc93939c8a1500af1db3796177f75f1b16a390f2c7d5",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-RF4-TWO-CALENDARS",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§11.4-B1 L444-L445 婚期两历并记（1634-06-10 ondertrouw / 儒略历 6-22 = 公历 7-02）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f59aab6d36a7ee56b425c55a01877ca2424c765b30deae14afe3836e216ffce1",
+          "access_status": "available"
+        },
+        {
+          "source_id": "https://nl.wikipedia.org/wiki/Saskia_van_Uylenburgh",
+          "version": "fetched 2026-11-15 (AUDIT RF4)",
+          "locator": "RF4 159382B sha 683f8aa0…: '22 juni' / 'Juliaanse kalender' / '2 juli' / '10 juni' / 'ondertrouw'",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "683f8aa0bf172f7a0059d7e2637ec4c56148d3d22a2890d08550c7e52c48af48",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-COUNTER-INFERENCE",
+      "claim_kind": "model_judgment",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:56f7b001d9f47265",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9c078474aee91ecbd271ab42bb3c53d07f4a4b88763d225e9ca7043825a04304",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-PRACTICE-LADDER",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§12 L424-476 临摹/学习清单 10 件；本 shard 三段阶梯为建议练习，效果未经人评",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f59aab6d36a7ee56b425c55a01877ca2424c765b30deae14afe3836e216ffce1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LR-THRESHOLD-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/rembrandt.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "卷首 L4 分级定义；§4 节级声明 L76；§8.2 末注 L265；§10-5 L320 全部阈值 [归纳] 未实测（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f59aab6d36a7ee56b425c55a01877ca2424c765b30deae14afe3836e216ffce1",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

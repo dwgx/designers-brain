@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-turner",
+  "source_receipt_sha256": "973a1da0f5c7801abd458765231e4173695022a58d4ea7fa9cb0b82970e0a80f",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEARN-TURNER-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:e4b9486fcaf4a457",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:4ab0d025c7d86e9b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "bc6ee5be7c5706d26733b26115ee9730dddc7b83b9f6daeec51a821ff5c97d96",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:19d0d88d843ba1c4",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "f5e6e30f7a7c6731eb0f0ea85536952ad29f97ce63bc7a50f4bbd42fac2cfe98",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e8cbff6cac364d0f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c323dc5c33a106bb8025df0ccdb6314d8f24a1e80a91770579d62a68e7699b12",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-ATMOSPHERIC-LIGHT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/turner.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L48 §8.2-1 远景≤40%/R²≥0.8; L51 §8.2-4 单一亮核/径向剖面R²≥0.7/其他峰值≤80%; L50 §8.2-3 暗H[230,290]/亮H[20,60]; L49 §8.2-2 边缘梯度≤30%; L53 §8.2-6 高光S≤50%; L24-30 §8.1 radial glow/light from beneath",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e3a2dcb28c8211274753f54b2af51bd3b890ef990e790b7d1fca94440414b372",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:cc13b8abbafba52a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "fb8559c72985ad06af4207a79e73d34580c61b53b1059444d07d788c28225b62",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-WATER-REFLECTION-HONEST",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/turner.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L406 §12-3 以水面反射为主/留出火光与水光; L408-410 §12-4 水面构图≥50%/把场景写成光; L70 边界写死 静水波纹属莫奈",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3e26685f8930ef9923aa3b3fd263b64fa6664943f4578441987a88cdb7b1a2f4",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/turner.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L27 §8.1 light glowing from beneath the surface; L39 负向禁 calm static water; L75 P3注 静水波纹属莫奈§4 P5; L101 冲突注记; L51 §8.2-4 其他峰值≤80% (B2 借用)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e3a2dcb28c8211274753f54b2af51bd3b890ef990e790b7d1fca94440414b372",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:5fd178a5296d732c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "085047e28d6013f2e4875abdacb0af7c6c98e292f415d2caa82f7d7deb581dd1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-CC2-DUAL-ACCOUNT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/turner.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L308 A-59 marker v1抽取契约§4/§8.1/§8.2不受影响; L284 §9 CC-2 记录CONFIRMED/事实WEAKENED; L445 自审B1 WEAKENED 双说并存; L289-302 §10 Ariel未决/临终语未采信",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3e26685f8930ef9923aa3b3fd263b64fa6664943f4578441987a88cdb7b1a2f4",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/turner.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L85-91 q10 [reported speech] lashed for four hours + 注 Holcomb质疑/Kingsley坚持 两说并存",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "3de2032499e88c3c0c31546441720b0893510f1b6255dd4eff7bb1c9ebc7e142",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:0bf045fe497ae67b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3687f59872714d2a7dae2f10af58324bb5238dc8d46d5750fa534bc5e5c0532d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-C10-MONET-OWNERSHIP",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L41 C-10 莫奈×塞尚 深度衰减; L176-186 body 莫奈远景≤60%+单调梯度R²≥0.8 / 塞尚反大气透视; L180 边界外=透纳领域; L184 分层解; L186 E2c待补; L36/L109-122 C-05 Turner非party; L311-315 N3/N4",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:08d5d8f9b9d61ac0",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "114fbcb239be35e31db5679a63a6a9241665ade23873a3b88563d0873d31fa62",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-A30-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "§8.1 A-30 L271 八节形状; L273 练习须标建议练习、不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:07bb0cf7298fc9fa",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "085047e28d6013f2e4875abdacb0af7c6c98e292f415d2caa82f7d7deb581dd1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-HT-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d5825b4804b96137",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "f89ea485c3fd3e78ff454916d8177fd6851afadda1f9d140aff479c822ba157f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md (package)",
+          "version": null,
+          "locator": "L9 How to Think 必须区分作者可核实的自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-TURNER-PRACTICE-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "L273 练习效果尚未由人完成或评价时明确为建议练习，不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:077a56e34baaf98e",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "085047e28d6013f2e4875abdacb0af7c6c98e292f415d2caa82f7d7deb581dd1",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

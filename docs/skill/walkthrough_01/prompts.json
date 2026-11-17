@@ -2,7 +2,7 @@
   "task": "S-05 · 真实需求走查（演练版）·「拾光」咖啡馆开业主视觉",
   "date": "2026-10-15",
   "model": "grok-imagine-image-2.0",
-  "endpoint": "http://192.168.11.4:3000/v1/images/generations",
+  "endpoint": null,
   "size_requested": "1024x1536",
   "channel_notes": {
     "bare_model_name": true,
@@ -171,5 +171,7 @@
         "format": "JPEG"
       }
     }
-  ]
+  ],
+  "endpoint_disposition": "Historical endpoint redacted from public metadata; new generation requires explicit IMAGE_GEN_ENDPOINT and IMAGE_GEN_API_KEY.",
+  "runtime_endpoint_env": "IMAGE_GEN_ENDPOINT"
 }

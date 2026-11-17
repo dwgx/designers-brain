@@ -1,6 +1,6 @@
 # 管线（指针）
 
-> 仓库根 `D:/Project/Designers_Brain`（REPO）；本文件只写「去哪读什么」，不复制内容。
+> REPO = the `repo` value returned by `python <skill-dir>/resolve_repo.py --json`; resolve the actual bundled skill directory, and stop if detached. This file contains pointers only; substantive content stays in the repository.
 
 - **网页逐帧管线**：`REPO/knowledge/agent-art/html/workflow.md` —— HTML/WebGL 逐帧渲染工作流（含逐帧自查）。
 - **Blender 管线**：`REPO/knowledge/agent-art/blender/workflow.md` —— bpy 脚本工作流 + 实测探针。

@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-velazquez",
+  "source_receipt_sha256": "2383da1f908fa3a4ac4154715f6c14b32d9ef5dbdacce93cb2993b7de56b324d",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LV-LIGHT-3TIER",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3.1 L76：四持有者分工写死——卡拉瓦乔=光的开关+物理 / 伦勃朗=连续衰减+心理 / 维米尔=荷兰光学 / 委拉斯开兹=光的第三档：画室与空气；本模块固定为环境光（画室）+空气+银灰调，不得复制另三者签名机制",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "204c41028e879b7ebfc572b5e8c2f5f106553662156bbd81f99fa93f96d8a41e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:49ecd7b56bd82882",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "40679956136a307d5a78cdc958dffa1264aa010e254da18f71bad27687a3a03d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-AXIS-ABCD",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3.1 L78–L81：a vs 伦勃朗（单光斑/近黑/厚涂→伦；多光源弥散/银灰/空气→委）、b vs 维米尔（碎笔触亮灰 vs pointillé / 多层开口 vs 单室）、c vs 达·芬奇（笔触空气 vs sfumato 渐变，N3 空气轴单主）、d 卡拉瓦乔旁注（边界化开/背景空气填充）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "204c41028e879b7ebfc572b5e8c2f5f106553662156bbd81f99fa93f96d8a41e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "C-14 §1 L45 / 详 L229；N1 L305；N3 L311（轴所有权）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-NO-SELF-WRITTEN",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§0 L6：无任何自述留世（无书信/画论/日记）；全档无 [自述] 条；§5 与 20 条 corpus 全为他人转记/同时代记述/后世评价",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "204c41028e879b7ebfc572b5e8c2f5f106553662156bbd81f99fa93f96d8a41e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L6 口径：[self-written]=0 是结构性事实而非采集缺口",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "0fcd6baf3264a8b2509114e9e18b6ff01e49db97be0889b31f7988146be77e0a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:98a45600771e5d8d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "40679956136a307d5a78cdc958dffa1264aa010e254da18f71bad27687a3a03d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-PACHECO-SUBSTRATE",
+      "claim_kind": "fact",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:21bcb5d4e3b21907",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9ea6c9eb1d0bd3f1d1fed8b3550e5664b82a293db5a8b473e234218d01f7b335",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "#1 L10–L15 / #2 L17–L22 / #3 L24–L29：Pacheco 转引 [contemporary record]，来源 es.wikipedia 转引 Cátedra 1990 pp.527-528",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "0fcd6baf3264a8b2509114e9e18b6ff01e49db97be0889b31f7988146be77e0a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-PALOMINO-OCR-BYTEVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:061d37bc392f688a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9ea6c9eb1d0bd3f1d1fed8b3550e5664b82a293db5a8b473e234218d01f7b335",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:02c7a9f97d8b80ea",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "40679956136a307d5a78cdc958dffa1264aa010e254da18f71bad27687a3a03d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-OCR-NOISE-BOUND",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:00cac9ab4cb34931",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9ea6c9eb1d0bd3f1d1fed8b3550e5664b82a293db5a8b473e234218d01f7b335",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-BODEGONES-CE-SCOPED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:3064b6affc119aed",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9ea6c9eb1d0bd3f1d1fed8b3550e5664b82a293db5a8b473e234218d01f7b335",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 P6 弱档 L96「单一侧光、深暗背景（tenebrist 早期）」；§8.1 L190 塞维利亚期 P6→30%；§8.1 负向约束 L193「其早期 bodegones 确有较暗背景」",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "204c41028e879b7ebfc572b5e8c2f5f106553662156bbd81f99fa93f96d8a41e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-RIGHTS-12-9PD-3CC0",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:fd0a65142d33f4ec",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "d50df29cf742a3110747aa1cd3dfab6856dd8877fb6b66ffd53d986818dd898c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:32a7c6f7085ff14e",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "40679956136a307d5a78cdc958dffa1264aa010e254da18f71bad27687a3a03d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-RIGHTS-BOUND",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:abb08196161660b5",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d50df29cf742a3110747aa1cd3dfab6856dd8877fb6b66ffd53d986818dd898c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-DRIFT-01-DANGLING-31",
+      "claim_kind": "fact",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L79/L80/L81/L82「本卡 §3.1 分工条款」×4（另 L57/L73 共 6 处提及 §3.1）；模块卡 headers 无 §3.1 节（仅视觉指纹/图像 prompt/代码艺术规则/控制参数/冲突注记/来源）；§3.1 只存在于 dossiers/velazquez.md L74–L81",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "615a4d1e6067e05597608e1827e55f8e24a8544602fb473380ddb37dacee80d7",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:5a4b6293b17d6a57",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9ea6c9eb1d0bd3f1d1fed8b3550e5664b82a293db5a8b473e234218d01f7b335",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-DRIFT-02-8VS11",
+      "claim_kind": "fact",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L87：冲突清单「18 条 C + N1–N9 + near-miss 8 对」",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "615a4d1e6067e05597608e1827e55f8e24a8544602fb473380ddb37dacee80d7",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 L347–L357 实有 11 条编号 near-miss（#9–#11 于 2026-10-16 补）；AUDIT §7-2 L67 VL-DRIFT-02 conflict",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-THRESHOLD-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 说明 L206：全部阈值 [归纳]、未对原作做像素测量（分母＝假想参考帧）；L63/L87 项目归纳不冒充艺术家内心；第 1–4 条与 §3.1 判据同轴",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "204c41028e879b7ebfc572b5e8c2f5f106553662156bbd81f99fa93f96d8a41e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L57 原样同值（§8.2 八规则阈值 [归纳]、未做像素测量）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "615a4d1e6067e05597608e1827e55f8e24a8544602fb473380ddb37dacee80d7",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-AXES-SEPARABLE-NOT-EXPERIMENT",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "自审 B3 L403：三轴（光源数/高光形态/过渡带做法）逐对检验 CONFIRMED（轴可分离），但组合实验未做——留待 A-12 系列验证；自审 D L449 未知项",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "204c41028e879b7ebfc572b5e8c2f5f106553662156bbd81f99fa93f96d8a41e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L273：练习效果尚未由人完成或评价时明确为建议练习，不写『已证实学习收益』；本 shard human_review.status=not_applicable",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LV-CE-C14-DRIFT",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/velazquez.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 注 L99：C-14「别做成：渐变」会误伤 P2 强档远景化开 → 改写句式「大气包络允许，但不得出现连续长渐变带」；§8.1 L193 同",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "204c41028e879b7ebfc572b5e8c2f5f106553662156bbd81f99fa93f96d8a41e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:8897c748fb10bc74",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9ea6c9eb1d0bd3f1d1fed8b3550e5664b82a293db5a8b473e234218d01f7b335",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

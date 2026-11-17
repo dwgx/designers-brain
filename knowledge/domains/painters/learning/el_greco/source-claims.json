@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-el_greco",
+  "source_receipt_sha256": "768c7200a3e901b3e4d1822d598fa26fac5b146206d734dae8e0ef50a6c21396",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEG-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:46500e0279881735",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e97411ab285d2163",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "7d3df8ea2b20ee8d7c4f85759ecd90bea767c1fb377f9f2b73a19d98c327b10d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:9428f08d50eeae69",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c348ccdd31cb06069a7047e9e8df439e62f1ce1da84cab29f5848649e128653b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:07615f13e227fd56",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4297ea4502e224011904bfad9b32d100231bd8100bd9b0874e1c0de35832e3cc",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-GRISAILLE-MECHANISM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/el_greco.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L51-53 §2-1/-2/-3 灰底+罩染+红底+单层覆色; L209 §8.1 brush 行; L229 §8.2-2 无厚涂",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "44d2b2b9213b368dee821533494fd400bbd638711d9294bbf63dffc7459fe007",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/el_greco.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L222-227 Q29 Taubes Studio Secrets 1943 (grisaille/glazes/red ground/one layer) [later reception]",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e5a7efcce2c83eb3e9b04732a05fbeab9ca9a7dc0b9edf734c5390979baacfd1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-DISTORTION-MECHANISM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/el_greco.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L34 §1-1 纵向拉长; L39 §1-6 蛇形; L57 §2-7 载体; L96 §4 P1; L228 §8.2-1; L233 §8.2-6 形体连续性",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "44d2b2b9213b368dee821533494fd400bbd638711d9294bbf63dffc7459fe007",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/el_greco.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L45 §8.2-1; L50 §8.2-6; L60 §4 P1; L68 越界警报 (与 dossier 逐字一致)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "068fb227fb93a346ddbb8bac1f8652595b9eb3fa216c5cdbb37223c980cea935",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-MASTER-CRITERION-COUNTEREXAMPLE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/el_greco.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L79-83 §3.1 vs 蒙克: ① 扭曲方向 主判据 / ② 题材域 辅判据 + L82 边界注「世俗题材不越界、冲突时以①为准」",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "44d2b2b9213b368dee821533494fd400bbd638711d9294bbf63dffc7459fe007",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:b53894bd370b968d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3b36a5ae412faa97cc7ebf45df0126ffa5d0609446f3023e6cab28dd98933eee",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:9b698ff315cf988a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4297ea4502e224011904bfad9b32d100231bd8100bd9b0874e1c0de35832e3cc",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-MUNCH-L84-INTERLOCK",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/munch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L84 §3.1 vs 埃尔·格列柯（扭曲两路）: 判据=题材域+扭曲方向 (对称互锁)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d989485182ee33ed4e6601ba6b61edbb6a0afbb3d383b8f044a5c5e04b3e79f9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:7245a04ab96bdfb2",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "87d9a323e6411b426ce04707817e9ad889b7eb9eaf96aa6aff90d424d521a12f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-LAPINTURA-CORPUS-GAP",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/el_greco.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L68 §3-1; L124-127 §5-4 西语 'La pintura…se hace especulativa' (转引 Brown 1982 pp.134-139)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "44d2b2b9213b368dee821533494fd400bbd638711d9294bbf63dffc7459fe007",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:2af6dd17216142fd",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "87d9a323e6411b426ce04707817e9ad889b7eb9eaf96aa6aff90d424d521a12f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-A30-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "§8.1 A-30 L269-273 八节形状 + L273 练习须标建议练习、不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:df3c2ca68214d6da",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "932caac0e9a1f6bb3f8722df18f1c9a29253228a872cf2abff065647221cd819",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-HT-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d5a9dc8aaadf0fcd",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "39a3665de74cb2e9d989f2496966204bb1064bf4a10a5634d2095ec99e2b9db5",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md (package)",
+          "version": null,
+          "locator": "L9 How to Think 必须区分作者可核实的自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3799710118a32d6aeaf2f2fdc9524f779ba4d1132318e1a7422413df44fbfa81",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-CONFLICTS-ZERO-HIT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "全文 grep el_greco/格列柯/Greco=0; L32/36/40/43 C-01/C-05/C-09/C-12 总表; L305/311/323 N1/N3/N6",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:b404a6115306b0e3",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "87d9a323e6411b426ce04707817e9ad889b7eb9eaf96aa6aff90d424d521a12f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-PRACTICE-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (package)",
+          "version": null,
+          "locator": "L273 练习效果尚未由人完成或评价时明确为建议练习，不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:c01591d247b7cedd",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "932caac0e9a1f6bb3f8722df18f1c9a29253228a872cf2abff065647221cd819",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEG-LOCATOR-DRIFTS",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:c3edfbc93fa7524a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "3b36a5ae412faa97cc7ebf45df0126ffa5d0609446f3023e6cab28dd98933eee",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/el_greco.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L354 §11.3『13 条』vs L356-359 实测 14 个 R-id; L365 自审 A『8 条』vs conflicts.md L347-357 实测 11 行",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "44d2b2b9213b368dee821533494fd400bbd638711d9294bbf63dffc7459fe007",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

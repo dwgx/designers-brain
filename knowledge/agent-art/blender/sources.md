@@ -227,7 +227,7 @@ blades to enable the bokeh effect is 3, resulting in a triangular-shaped blur.
 
 命令：
 ```bash
-cd "D:/Project/Designers_Brain/knowledge/agent-art/blender"
+cd "<repo>/knowledge/agent-art/blender"
 echo "S- rows: $(grep -c '^| S-' sources.md)"
 echo "L- rows: $(grep -c '^| L-' sources.md)"
 echo "unique URLs: $(grep -oE 'https?://[^ )|>]+' sources.md | sort -u | wc -l)"

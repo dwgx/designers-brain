@@ -249,7 +249,7 @@ composition, depth of field, HDR, lens flare, fine detail miniature work
 
 - **未找到**：梵高信中直接描述 MoMA《星月夜》创作过程的句子；信 777 中 `the starry night` 所指作品未定（已查: let777 全文、MoMA 对象页）。[UNVERIFIED]
 - **浮世绘三件临摹的馆藏编号未核实**：VGM 页面经 browser 已可读全页（R18 已升 ✅，_review.md VG-12），但三件临摹（Eisen《花魁》/ 广重 ×2）的藏品页尚未逐一读取，现依据为 R17（二手）。[UNVERIFIED]
-- **「903 封」计数**：未在已读页面直接出现（已查: 首页、About 页、letters 目录；目录编号至 902 + RM01–RM25）。本档案写「900 余封」。[UNVERIFIED]
+- **「903 封」计数**：未在已读页面直接出现（已查: 首页、About 页、letters 目录；目录编号至 902 + RM01–RM25）。本档案写「900 余封」。~~[UNVERIFIED]~~ → **已收口**（2026-11-16 · F33）：§自审 B「2.『903 封』口径已核实——About 页原文『the 903 surviving letters』」（本文件 L390 区），stale UNVERIFIED 状态解除；正文「900 余封」表述不变（保守口径仍准确）。
 - **米勒临摹总数（21）单一来源**（Met）；信 805 只证 7/10 时点。
 - **流行文化影响链**（Don McLean 1972 歌曲、Loving Vincent 电影等）未核 → 未写入正文。[未核]
 - 搜索通道限流（web_search 429）时改用 read 直连与站点检索端点；MoMA/Met 直连被拒时用 Wayback 快照——快照时间见各条。
@@ -394,7 +394,7 @@ composition, depth of field, HDR, lens flare, fine detail miniature work
 
 ## 12. 临摹/学习清单
 
-> wave14 加固（A-33，2026-10-15）：10 件（组）代表作，各含「看什么 / 学什么 / 怎么练（可执行练习）」。作品信息 `[史料]/[研究]`；练习条目为 `[归纳]`（本项目设计，可并入学习路径卡；与 §4 控制参数、§8.2 自查规则联动）。顺序：纽南 1 → 巴黎 1 → 阿尔勒 4 → 圣雷米 3 → 临摹法 1。★＝图库已有 PD 高清（`_images/van_gogh/`）。
+> wave14 加固（A-33，2026-10-15）：10 件（组）代表作，各含「看什么 / 学什么 / 怎么练（可执行练习）」。作品信息 `[史料]/[研究]`；练习条目为 `[归纳]`（本项目设计，可并入学习路径卡；与 §4 控制参数、§8.2 自查规则联动）。顺序：纽南 1 → 巴黎 1 → 阿尔勒 4 → 圣雷米 3 → 临摹法 1。★＝**该作品图像文件**在图库已有公版/开放许可高清（`_images/van_gogh/`，Met Open Access CC0 等，权利以 `dossiers/_images/manifest.md` 逐行 License 列为准）——【PD 简写修正 2026-11-16 · F33（AUDIT-van_gogh flag）】：★仅指图像文件权利；本节所引 vangoghletters 文本/英译为 Van Gogh Museum & Huygens Institute 版权所有（**非 public domain**，dossier §5 按许可引用），不得因★标记推定文字内容为 PD。
 
 **1. 《吃土豆的人》（The Potato Eaters，1885，布面油画；Van Gogh Museum s0005V1962）**
 - 看什么：单光源（油灯）室内；土褐-绿灰的暗调；五个人物的脸与手被同一盏灯照亮——「手」是画的主题（他画了一整个冬天的头与手习作）；画面没有叙事高潮，把日常画成纪念碑。

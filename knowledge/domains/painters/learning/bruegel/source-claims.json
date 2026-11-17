@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-bruegel",
+  "source_receipt_sha256": "8948e5e54b530795ff838f8f3c39002a1ef4d4b0349a862968603a5e10f15123",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LB-01",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:9,109,406",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:2955edac87f718a8",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "3d5540c891c50f7422e7185ba4a60049c4df832418591d3b88a98c703510f484",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-02",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:34,53,191",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "bruegel-corpus",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/_corpus/bruegel.md Q17 :128-133 (KHM x-321 bird's-eye)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e0bc5f612dfbb97510fd9d1bfe925072f9c15e6ccfeaa56069eb71848c29c79c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-06",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:35,55,192",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "bruegel-corpus",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/_corpus/bruegel.md Q17 encyclopaedia / Q22 embedded",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e0bc5f612dfbb97510fd9d1bfe925072f9c15e6ccfeaa56069eb71848c29c79c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-17",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:17,81,129,257,280,401 (Large Landscapes / Cock / 40+)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:d4e9c7be71323c35",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f0eef6940ee1a2c2513b03adf8ec2dcd5c483cfb52ca2b7a8a56546a7cc95ea8",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:10c3ab8fcf5db9eb",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "3d5540c891c50f7422e7185ba4a60049c4df832418591d3b88a98c703510f484",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-18",
+      "claim_kind": "hypothesis",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:0dbb1057a069a8fc",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "3d5540c891c50f7422e7185ba4a60049c4df832418591d3b88a98c703510f484",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:24e4a5dc6e5faac2",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "b83b6d626a23ff0f3d1ac16d0019ed00d193fc2c8c7f97046ea9383bc5c71495",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-21",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:133,232,265 (127 copies of Winter Landscape with Bird Trap)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:6eee085b3185f49b",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f0eef6940ee1a2c2513b03adf8ec2dcd5c483cfb52ca2b7a8a56546a7cc95ea8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-22",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:15,261,265,293 (1569-09-09 / buried Kapellekerk)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:2e234193262cabd8",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f0eef6940ee1a2c2513b03adf8ec2dcd5c483cfb52ca2b7a8a56546a7cc95ea8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-25",
+      "claim_kind": "observation",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md",
+          "version": null,
+          "locator": "01-AUDIT.md:273 §8.1 A-30 建议练习不写已证实学习收益",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738d6a5a7dde17e444a594c1116da7322f2b0b127cc000c43c835f7f4e65aacf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:330-384 §12 练习清单 [归纳]",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-26",
+      "claim_kind": "observation",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "bruegel-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/bruegel.md:200,239 (§4/§8.2 阈值未像素测量)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "49ae33376fcb75357bcdef950cc766ce4acc495d3534dc008140d7b70c515aa0",
+          "access_status": "partial"
+        }
+      ]
+    },
+    {
+      "claim_id": "LB-28",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:ac299d45ffe4c3cb",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "3d5540c891c50f7422e7185ba4a60049c4df832418591d3b88a98c703510f484",
+          "access_status": "available"
+        },
+        {
+          "source_id": "conflicts-md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/cross/conflicts.md:258-271,341-357",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

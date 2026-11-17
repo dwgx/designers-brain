@@ -34,3 +34,10 @@ _private/
 # --- Worker scratch/temp (local only) ---
 /_scratch/
 /_tmp_*
+_agent-history/
+# --- Secrets/env hygiene + session traces (G7 B2 hardening, 2026-11-17) ---
+.env
+*.local
+personal.env
+staging/
+**/*_session.jsonl

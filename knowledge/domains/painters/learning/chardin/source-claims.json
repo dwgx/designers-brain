@@ -1,0 +1,352 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-chardin",
+  "source_receipt_sha256": "6cf6d1f919022405c714ef7431714a56e4f4d788a454b7049c7100a13ac762a2",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LC-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/chardin.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/chardin.md (81 lines; §8.1/§8.2/§4 verbatim with dossier; C:44-51 §8.2, C:59-64 §4, C:67 越界警报); 开工 sha256sum 实测",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "df57eb65bcc51889105ab76f2e9b0d1bf3e1990ce014b36ed7049e7bcee8c640",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/chardin.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/chardin.md (559 行 v2: §0-§12 + 自审 A-D; L478 引文抽查 37 条表头 / L516 --- 37/37 --- / L548 复跑; L85-97 §3.1 分工; L105-110 §4; L203-210 §8.2; L281 §10-7 阈值未实测; L379-433 §12 练习清单)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "323f72f30f1b490b0dd2c8d361e7ec628f67d7fb95e61870d559180fc703a832",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/chardin.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/chardin.md (28 条 ### ; Q1 L11-16 sentiment, Q10 L76-81 Raynal, Q11 L83-88 Diderot 物的实体, Q12 L90-95 远近检验, Q13 L97-102 大魔法师, Q18 L134-139 Goncourt 反光, Q25 L185-190 Démoris temps mort, Q26 L192-197 Rosenberg, Q27 L199-204 Met, Q28 L206-211 NGL; 类型 2/4/1/10/11=28)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "7b11679f2fe454e9694121ae3d999074de4b037830867eb88fcf177c65b66495",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_images/manifest.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "manifest.md L564-580 = 17 chardin/…jpg rows; 机构拆分 卢浮宫 11 / The Met 3 / NGL 3",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5698124daf47c989fd26232a686ec54cda2658b623e1a302ddb5806ebf95b470",
+          "access_status": "available"
+        },
+        {
+          "source_id": "ops/GOALS.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "GOALS.md L44 (A-30 学习产物) / L88 (A-92: 语料 28 条 Cochin/Diderot 闭环 + 图库 17 张全 PD/CC0 卢浮宫 11 + 引文 37/37)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:aa32910bc3b500bc",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6e304471e124f654244e8b85c180024576614b30e78599da52d67d5c24ba9bad",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:39e8a3c332f62543",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c36f91a87302feb984c24e971c0a78b57ed0fb446c7b83fff11a49f1374752b8",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:ed757f46f70d0c9f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "dc588fed4353a7e760de9f400b8555792d4fd10b0adc0459e0fd91d9e061cc15",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-MECHANISM-STILL-LIFE-LAYERING-SOFT-LIGHT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:c09b5ddcc75083c9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "504f838b4b4be4f3ae5b1e145d9eb05d0fed88fceebd4ecdb9a4f69a591a4bfb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/chardin.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "Q10 L76-81 (Raynal mosaïque/point carré), Q12 L90-95 (Diderot 远近检验), Q27 L199-204 (Met rough texture), Q11 L83-88 (substance/air et lumière), Q18 L134-139 (Goncourt reflets)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "7b11679f2fe454e9694121ae3d999074de4b037830867eb88fcf177c65b66495",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:406b9e237b611454",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "4e883992b4e1845c01b2206cc6831f9775f361df07586e96c3febef0d723c9a1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-COCHIN-DIDEROT-LOOP-VERBATIM",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:eed157865e3b39a8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "504f838b4b4be4f3ae5b1e145d9eb05d0fed88fceebd4ecdb9a4f69a591a4bfb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:4be5f9bcf78732ff",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "13fb3d619b87fd03f0d6f5da4dc366002abed0a5a75a9f5131822bbd62a1d02c",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e68ff294559650e9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "65af849e4f32748fed2aeb25c84cc7596df58931377ecc2c643019483aba5e91",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-DENOMINATOR-37VS28",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:016be727903f15c5",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "504f838b4b4be4f3ae5b1e145d9eb05d0fed88fceebd4ecdb9a4f69a591a4bfb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/chardin.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/chardin.md L478『引文抽查（37 条 vs 本机源文件，归一化后逐字命中）』 / L479-515 HIT 行 / L516『--- 37/37 ---』 / L548 自审 D 复跑『引文复抽（归一化）: 37/37』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "323f72f30f1b490b0dd2c8d361e7ec628f67d7fb95e61870d559180fc703a832",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:56148f476f02d7ed",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c36f91a87302feb984c24e971c0a78b57ed0fb446c7b83fff11a49f1374752b8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-IMAGE-SPLIT-17-11-3-3",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b8158f072ec84336",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "504f838b4b4be4f3ae5b1e145d9eb05d0fed88fceebd4ecdb9a4f69a591a4bfb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:8b7ea94aca6da692",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "65af849e4f32748fed2aeb25c84cc7596df58931377ecc2c643019483aba5e91",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f5e0435301991c4b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "c36f91a87302feb984c24e971c0a78b57ed0fb446c7b83fff11a49f1374752b8",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-SEVEN-FILE-CONTRACT",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:0d4b97c2def39eb4",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "a4b3b02864c4eea7e0b75a2925fbfb328be9525a3f437988a6ade8845fbf5159",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:ce276d486cf7567a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-GRADING-RED-LINE",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:f6e7c1715ef98b48",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:4c5444fea7723c40",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "4e883992b4e1845c01b2206cc6831f9775f361df07586e96c3febef0d723c9a1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-THRESHOLDS-UNMEASURED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:380a8485ce4e01db",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "97aa52829252257b8e5dd7558f46fc4edfd97714b9d6dfed15e6401856bf2c10",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/chardin.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/chardin.md L212 (§8.2 阈值为本项目 [归纳]，未对原作做像素测量，分母=假想参考帧) + L281 (§10-7 量化阈值未实测)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "323f72f30f1b490b0dd2c8d361e7ec628f67d7fb95e61870d559180fc703a832",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-VERBATIM-TRANSCRIPTION-LIMIT",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:56e22def9a40c504",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6e304471e124f654244e8b85c180024576614b30e78599da52d67d5c24ba9bad",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:c4be87cd64409a74",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "13fb3d619b87fd03f0d6f5da4dc366002abed0a5a75a9f5131822bbd62a1d02c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-OPEN-COUNTEREXAMPLES-AND-DRIFT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d88febc44ff3e14d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "65af849e4f32748fed2aeb25c84cc7596df58931377ecc2c643019483aba5e91",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e7ea1de33e301495",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "a4b3b02864c4eea7e0b75a2925fbfb328be9525a3f437988a6ade8845fbf5159",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LC-EXERCISES-NO-LEARNING-OUTCOME",
+      "claim_kind": "model_judgment",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:9ce212e6d1e99100",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:3f9514d901167825",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "504f838b4b4be4f3ae5b1e145d9eb05d0fed88fceebd4ecdb9a4f69a591a4bfb",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

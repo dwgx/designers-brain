@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-ravi_varma",
+  "source_receipt_sha256": "91d237f7285d1636479e8adc0eff7b0c0f3367a8f1d50adf743026b7c19bb4bb",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LRV-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:e1b5730070c9a573",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:906da85e6c26f629",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "3c4b0f9e9463755762c3d17ff8201e0362be4bc5a374bdbddf99f27b134fb862",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRV-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:f9232656ffe5853d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "a65108cc19dd87804c60522edca700493af8972141b888422e5184786fb49891",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:35a07f59859e28b7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "ed9c1fff94de931d892ec1dad4215e54024c67752a6374955a22c4f8383d89bd",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRV-WESTERN-MYTH-MECHANISM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/ravi_varma.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3.7 L85-93 / §3.8 L95-104 / §3.9 L108: 技术输入→本土化转译, 柔光均匀化, 浅舞台, 达显正面性",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a531171d41743515a4b92a69b25c0a2e9bd7c0c6c48742216012492674a92992",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/ravi_varma.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L73-75 冲突注记 分工条款; L13 oleograph-ready",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "53a7835ea1b239389070e3c9e2e4530657d54615cd91581d1ffb231a9683f2c4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRV-OLEOGRAPH-AXIS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/ravi_varma.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§2-10 L66 石版彩印转译 / §11.1 L322-324 Press 史 / §4 L126 P5强+P6强=Press图像志 / §8.2-8 L238 复制适配",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a531171d41743515a4b92a69b25c0a2e9bd7c0c6c48742216012492674a92992",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/ravi_varma.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "Q11 L82-87 Madhava Rao 信 / Q27 L196-201 统一宗教图像进家庭 / Q28 L203-208 人形神像",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "c0c8825f898c2c260cb8a00bc0ef54b5de6da4f755c7e07e39625524dea8f983",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRV-RIGHTS-5-PDART-12-PD",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:f7adbfaa83739b17",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "b43ac2ebaeeea980ca37b3664c1f82765fcc2084c11ca4725c899242e45f9cb0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:c5badaa433fb284b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "d6f61eb4b849e6455e43660e2e767b17028ec18a1ee672c49ef21f248fe4cde4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRV-KILIMANOOR-WEAKENED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/ravi_varma.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§9 交叉核 #1 L280 卒日 CONFIRMED 卒地 WEAKENED; §10 L290 Kilimanoor vs Attingal 异说",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a531171d41743515a4b92a69b25c0a2e9bd7c0c6c48742216012492674a92992",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:efc62a8ce1497ab6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "261d1feffe1371c75bb5035626cfb28933e9441ff429a3a9e574f684a02a3f2e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRV-DELIVERABLES-7-FILE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:08bc749593c48600",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "f60449dab4bde92354a3df50350ba06ff50670e0994865e088b9fda8cdaf2699",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:0459bad0dc93668a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "44bc16bc29215ead2829972077cbfa5157bd9f18089f59883fdc102bdb750732",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LRV-HONEST-BOUNDARY",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:6ff8bfb1da02289b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "188b8eccc377e573590401a278ba9c881b9713d6d79fbe6d585bf57834f69294",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md",
+          "version": null,
+          "locator": "L9 How to Think 区分自述与推断、不编造作者心理; 01-AUDIT.md §8.1 L273 建议练习不写已证实学习收益",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

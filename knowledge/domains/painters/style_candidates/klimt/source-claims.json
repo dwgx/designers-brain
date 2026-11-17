@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "STYLE-klimt",
+  "source_receipt_sha256": "2c057a138aa66a52de5f49572ed7e29e8db887675579ea4579dc3a06f8e22e4f",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "STYLE-klimt-CARD-NO-81B",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:5d0a74ab786fd112",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:20531b3edba410d7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f06702dc4a2433b0bb3f7c4506b953a8a3175834ef1a1388c52f99667e359e3c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-klimt-RULES-MAPPED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/klimt.md",
+          "version": null,
+          "locator": "§8.2 L237-243：7 条源规则原文转录（R1-R7），数量与主体文字受支持；§4 P1 L83/P2 L88/P3 L94/P4 L99/P5 L104/P6 L109 + 用法 L114：R2→P2+P4（明度动态硬约束）、R4→P5（渲染落差，旧版误配 P4）、R5/R6/R7 无直接对应（P5 是渲染落差不是透视、P6 是象征负载、无宽高比/包围盒/动画项）。收窄：旧「7 规则 + 六参数 → C1-C5 五条必要耦合」不并入 supported；耦合假说 H-C1..H-C5、替代规则 R4′、迁移论证是 [inference] 项目假说，supported observation 仅覆盖源规则转录与经校准的 R/P 映射（STYLEB4 复审修复）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5f023be5c17193e32c539550ae86836516cbaee053109bb8ac10c4ba112b4175",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/klimt.md",
+          "version": null,
+          "locator": "视觉指纹要点 + §8.1/§8.2/§4（原样，无 §8.1b）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "e9abb8274c1f7830b6d709844b54ef92057b6d296041e578936c98986011ed1a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-klimt-THRESHOLDS-INDUCTION-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/klimt.md",
+          "version": null,
+          "locator": "§8.2 注 + §10 缺口：全部阈值 [归纳]，未对原作做像素测量（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5f023be5c17193e32c539550ae86836516cbaee053109bb8ac10c4ba112b4175",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "STYLE-klimt-DRAFT-NOT-E4",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "A06：§8.1b 仅 11/76；存在性检查不是 E4 通过检查",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "02-EXECUTION-PLAN.md (execution package)",
+          "version": null,
+          "locator": "Lane C：新增风格段去默认题材泄漏、列正反例和 capability；草案完成/来源支持/E4 实测分别记录",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

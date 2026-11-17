@@ -229,4 +229,4 @@
 
 ---
 
-> 条目合计：**26 条**（[self-written] 5 · [self-spoken] 19 · [reported speech] 1 · [contemporary record] 1）。转引件均已注明转引链；未直读件（Ogbechie 2008 原书、*Présence Africaine* 原刊、Drum 1963 全文、Ophelia 1982 访谈）见档案 §10。
+> 条目合计：**26 条**（[self-written] 4 · [self-spoken] 20 · [reported speech] 1 · [contemporary record] 1）【F25 更正 2026-11-16：原「5 · 19 · 1 · 1」类型归计有误，按逐条类型实测更正；总条数 26 不变】。转引件均已注明转引链；未直读件（Ogbechie 2008 原书、*Présence Africaine* 原刊、Drum 1963 全文、Ophelia 1982 访谈）见档案 §10。

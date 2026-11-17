@@ -260,7 +260,7 @@ cluttered micro-detail, symmetrical centred layout, crosshatching
 
 **七、身后（1954– ）。** 1963 年尼斯马蒂斯博物馆开馆；1965 年 12 月 28 日旺斯礼拜堂列入历史古迹；1970 年巴黎大皇宫首次法国回顾展；1971 年 Aragon《Henri Matisse, roman》出版 [S3][S12]。1998 年 Spurling《The Unknown Matisse》、2005 年《Matisse the Master》先后出版（后者获 2005 惠特布莱德年度图书奖；书评界评其"揭示了任何人都未能揭示的亲密信息"、"注定长期保持标准传记地位"）`[研究]`[S1][S2][S9]；2002 年 Tate/巴黎/MoMA「Matisse Picasso」联展；2014 年 Tate/MoMA「The Cut-Outs」剪纸大展 [S5][S6]。
 
-### 11.2 年份表（46 行）
+### 11.2 年份表（54 行）【F35 更正 2026-11-16：原标「46 行」与表内实数不符，实测数据行 54（1869–2002/2014）】
 
 | 年份 | 事件 | 类别 | 来源 |
 |---|---|---|---|

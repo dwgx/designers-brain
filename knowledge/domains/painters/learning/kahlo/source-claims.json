@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-kahlo",
+  "source_receipt_sha256": "a4a54bd11df9bef96372679fb3b1e94af69eec557958d439bc86be5caf15a96f",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LK-AUDIT-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:6a3164d19cc314e8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a18e286fd2ef7fcbacc4181c5b0579b5d3d0a2248a644abe39a4c552b8bc7ee4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-SYM-HUMMINGBIRD",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L54 §2-8 符号编制清单含「蜂鸟」; L218 §8.1 正向 a hummingbird pendant; L387–390 §12 #2 蜂鸟坠饰（悬停的生死双重符号）; L20 §0 作品名 Self-Portrait with Thorn Necklace and Hummingbird",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2a238801778873d3af7a7987e7eadda324b053619bef85442a46f6613f844f34",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L26 §8.1 正向 a hummingbird pendant (卡侧逐字一致)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "738045da3831678544eafcf7327dae2b37ce071202ec6b5e775a3868b0fa35da",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-SYM-MONOBROW-EXTERNAL",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/_scratch/kahlo/pages/wiki_kahlo.wiki",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L282 2018 Mattel Barbie 争议 'noticeably missing [[unibrow]]' (NYT 2018-03-09 转引) — 本机唯一逐字命中 monobrow/unibrow",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "4859c54aced3a87266c2cdf82b10ee02cbc9fd49f27135f83aac87f107c91238",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1 十二条视觉指纹 L31–42 未逐字列 monobrow; §4 六参数 L92–97 / §8.1 正向 L212–223 / §8.2 八规则 L247–256 均无它 — 诚实降级为 [史料-转引] 外部文化标志，不冒充档案内已证符号",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2a238801778873d3af7a7987e7eadda324b053619bef85442a46f6613f844f34",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-MIRROR",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L32 §1-2 正面凝视＋镜像构图（病床上方装镜、以镜作画，MoMA 'alter and extend her field of vision'）; L49 §2-3 镜像工作法; L331 §11 卧床装镜→1926 第一幅自画像; L213 §8.1 staring directly at the viewer",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2a238801778873d3af7a7987e7eadda324b053619bef85442a46f6613f844f34",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-DIV-RIVERA",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L80–84 §3.1 vs 里维拉（写死 [归纳]，可被组合实验推翻）: 私密小幅 vs 公共巨幅; L81 MoMA 'intimate scale… sharply contrasted with the Mexican Muralists'; L83 四条判据（尺度/题材域/构图/功能）≥3 归判; L84 显式分区不得互相吞并; L101 §4 分工注禁公共巨幅+群像+历史叙事同档",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2a238801778873d3af7a7987e7eadda324b053619bef85442a46f6613f844f34",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-P6-EXCEPTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L97 §4-P6 强档『例外：《Las dos Fridas》式双身巨幅须显式标注为「例外档」』; L39 §1-9 约 173×173 cm / Trotsky 约 76 cm; L81 §3.1 个别例外仍属近观/私密语义档; L437 §自审 B3 WEAKENED→增设例外档、判据改语义非绝对尺寸",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2a238801778873d3af7a7987e7eadda324b053619bef85442a46f6613f844f34",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:4da21999d8a61e65",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a18e286fd2ef7fcbacc4181c5b0579b5d3d0a2248a644abe39a4c552b8bc7ee4",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1811566e1c4bc814",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ff994f96a6a83fdc8a626f06fb546000792f4cb167cfa6171d694c43209da6bd",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-IMG-PUBLIC-0",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_images/manifest.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L7 / L3161 / L3185: kahlo 公开 0 / 私有 13 / 全部版权未清 © Fideicomiso/ARS — 公开 0 张是事实非缺陷",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5698124daf47c989fd26232a686ec54cda2658b623e1a302ddb5806ebf95b470",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:fabae00ab12a633e",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "0fffd120087e67c2ada7bbdad11af22ad5faf7cef51df6627ef80a13a4304b12",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-NMWA-RIGHTS-LINE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:baf6607ac5ea698c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "d6d8fdb21f1171cc51883f715133188f720a21b6d45007d1d2346a892800ea59",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:973f8c1fde6074e9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2dd5a257de046204c3aeb416250a35cca6f987da2ee232d48c8650a442e4e448",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:35625183b16de6b6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "a18e286fd2ef7fcbacc4181c5b0579b5d3d0a2248a644abe39a4c552b8bc7ee4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-SELF-INTENT",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L33–38 #4「我常独处，所以我画自己」[self-written]; L24–29 #3「我自己最坦率的表达」[self-written] — 支持自画像意图，不提供符号清单数值",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "04fa85c61e8ecb0a3e344a3a1dac8cc9c7bae693d72247ffdec0921aa2d27ae0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-PARAM-6",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L92–97 §4 六参数 P1–P6; L99 用法 P1/P4 定是不是卡罗 / P3/P5 定符号强度 / P2/P6 定底盘; L100 档位划分本身为 [归纳]; L320 §10-8 全部量化阈值未实测",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2a238801778873d3af7a7987e7eadda324b053619bef85442a46f6613f844f34",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-PRACTICE-LADDER",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/kahlo.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L380–418 §12 九件临摹/学习清单（看什么/学什么/怎么练）; 三段阶梯由现有清单组织，全部为建议练习",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "2a238801778873d3af7a7987e7eadda324b053619bef85442a46f6613f844f34",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L273: 练习效果尚未由人完成或评价时明确为建议练习，不写『已证实学习收益』; 本 shard human_review.status=not_applicable",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LK-CONFLICTS-ZERO",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/cross/conflicts.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "全文 grep -ic 'kahlo|卡罗|弗里达' = 0 (exit 1); 相关 C 仅为卡片 L80 指针 C-05(L109)/C-12(L203)/C-14(L229); D1/D2 near-miss 计数漂移(卡 L85 '8 对' vs 实际 11 行、§C L365 仍写 8) AUDIT 只报告不修",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

@@ -75,3 +75,22 @@
 
 - D-02：**已完成**——33 张代表作图 + `knowledge/domains/painters/dossiers/_images/manifest.md`（282 行，逐张 license）。
 - D-03：15 卡样片关键帧对照（源片已备；仓库 15 支参考帧已抽至 `knowledge/domains/motion-graphics/sources/refs/`，样式↔卡片映射注记待补）。
+
+<!-- DB-PUBLIC-KNOWLEDGE:BEGIN -->
+
+## 学习与纯风格候选
+
+- [76学习路径与总路线](domains/painters/learning/INDEX.md)
+- [65纯风格候选与反例](domains/painters/style_candidates/INDEX.md)
+
+这些入口保留来源与证据边界；accepted执行记录不代表学习收益、E4或输出通道可用。
+
+<!-- DB-PUBLIC-KNOWLEDGE:END -->
+
+<!-- G5-CAPABILITIES:BEGIN -->
+
+## 能力边界
+
+- [当前 CAPABILITIES 矩阵](CAPABILITIES.md)：76 位画家、12 个本轮 motion、3 个历史项与7个 seed 的输出路线和证据边界。
+
+<!-- G5-CAPABILITIES:END -->

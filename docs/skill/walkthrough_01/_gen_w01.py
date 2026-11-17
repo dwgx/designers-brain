@@ -28,7 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PROMPTS = os.path.join(HERE, "prompts.json")
 LOG = os.path.join(HERE, "run_log.jsonl")
 
-ENDPOINT = "http://192.168.11.4:3000/v1/images/generations"
+ENDPOINT = (os.environ.get("IMAGE_GEN_ENDPOINT") or "").strip()
 MODEL = "grok-imagine-image-2.0"
 SIZE = "1024x1536"
 MAX_RETRIES = 2          # 重试次数上限（总尝试 = 1 + MAX_RETRIES）
@@ -40,19 +40,17 @@ _OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
 
 def load_key():
-    key = (os.environ.get("BUDDYFARM_API_KEY") or "").strip()
-    if key:
-        return key
-    env_path = r"C:\Users\dwgx1\.omp\agent\.env"
-    with open(env_path, encoding="utf-8") as fh:
-        for line in fh:
-            line = line.strip()
-            if line.startswith("BUDDYFARM_API_KEY="):
-                return line.split("=", 1)[1].strip()
-    raise SystemExit("FATAL: BUDDYFARM_API_KEY not found")
+    if not ENDPOINT:
+        raise SystemExit("FATAL: IMAGE_GEN_ENDPOINT must be set explicitly")
+    key = (os.environ.get("IMAGE_GEN_API_KEY") or "").strip()
+    if not key:
+        raise SystemExit("FATAL: IMAGE_GEN_API_KEY must be set explicitly; no credential-file fallback")
+    return key
 
 
 def post_json(body_str, key):
+    if not ENDPOINT or not (key or "").strip():
+        raise SystemExit("FATAL: explicit IMAGE_GEN_ENDPOINT and IMAGE_GEN_API_KEY are required")
     req = urllib.request.Request(
         ENDPOINT, data=body_str.encode("utf-8"),
         headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},

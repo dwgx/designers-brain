@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-tarsila",
+  "source_receipt_sha256": "33e1c1aa5dc8e965332be6fc2ccf2e16c49eabed28256beb2ff093a88f7ef04b",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LT-CORE-MECHANISM",
+      "claim_kind": "design_candidate",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1-1 L34 / §1-2 L35 / §1-3 L36 / §1-5 L38 / §1-8 L41 (色块扁平 + 乡土人物变形机制)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L9-13 视觉指纹浓缩 5 条; L43-49 §8.2 七规则",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "b174859b35eddd246a86cf5d61f71f2659d56721bb76be1c518f7a513cc10319",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-DIVISION-MATISSE-4CRITERIA",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3.1 L78 (①色板来源 ②图案系统 ③色的组织 ④空间与尺度 + ≥2 轴联合尤其①③); L79 边界注; L80 组合纪律",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:859574af75c87253",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d41d3390c5fd33f0e6cd58b85175a29ff1e4b0805a2a5f9da980ac90364258a6",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-DIVISION-PICASSO-4CRITERIA",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3.1 L84 (①来源方向 ②碎裂度 ③色彩 ④题材主体性 + ≥2 轴联合尤其①④); L85 边界注; L86/L88 组合纪律",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:79ac2ddb0175ae7b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d41d3390c5fd33f0e6cd58b85175a29ff1e4b0805a2a5f9da980ac90364258a6",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-IMAGES-PUBLIC-ZERO",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:fce7a81a84c19862",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "9cfeba3a527d184aca7b8714e55744cd5858128b3156a434fb7e52555dfc47e7",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:d2c8995e815077d9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "7de2e2ab48e573975b5768488de957d51e3a64ecf7d26e76ab2f016d17e9d328",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f94e5d89e278c388",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "76131a5d50b509653ebea5c8c3d9673552f18684d07230f7ccd2eb88f704dc8f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-R20-LETTER-1923-04-19",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L5 底本声明 + L10/L13/L17/L24/L31 语料第 1-4 条 (1923-04-19 致家人信影印 [R20])",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "6c307af3e5f73f5cdd36ba0d6802eea08b25448fbbfdb140ddc3626a1f4eb9bf",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:a6cb3aaf1a757109",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "dc3a857b987f42c65b66dc09cefae815a51a9a5ad596d91fa7822d9c693012e6",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:74d9f6892725ee01",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d41d3390c5fd33f0e6cd58b85175a29ff1e4b0805a2a5f9da980ac90364258a6",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-BOUNDARY-NOTES-CARRIED",
+      "claim_kind": "design_candidate",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§3.1 L79 (马蒂斯异域/塔西拉近装饰 边界注) / L85 (毕加索后度高饱和/塔西拉近抽象 边界注); L87 其余模块",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-JUDGMENT-PRIORITY-DRIFT",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:782ab45ce0eb6576",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "6d95f109ace70a4f7588550ca47759e9b90c15e91168aa799df1168a9f3e524b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 L102 越界警报 5 条; §3.1 L78/L84 ≥2 轴联合",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-PRACTICE-LADDER-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§12 L352-406 学习清单 + §8.2 L190-196 自查方法; L1/L2/L3/收口 三段阶梯为建议练习",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-PRACTICE-EFFECT-UNVERIFIED",
+      "claim_kind": "model_judgment",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L273 练习效果尚未由人完成或评价时明确为建议练习, 不写已证实学习收益; 本 shard human_review.status=not_applicable",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-THRESHOLDS-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L51 全部阈值 [归纳] 未经渲染实验校准 (分母＝假想参考帧); L64 档位划分 [归纳]",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "b174859b35eddd246a86cf5d61f71f2659d56721bb76be1c518f7a513cc10319",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§10-7 L255 量化阈值为归纳、未实测",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-CONFLICTS-DRIFT-REPORT-ONLY",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:7bf71af2ab31627d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "73fabddf59ff51fe54c21d9896925f8463c4de681c3ce36a1c0fc845200b5a8a",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-SELF-STATEMENT-SEPARATION",
+      "claim_kind": "design_candidate",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "00-GOAL.md (execution package)",
+          "version": null,
+          "locator": "L9 How-to-Think 必须区分作者可核实的自述与研究者推断, 不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/tarsila.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§5 L108/L121 无画论专著; 决策序全部 [归纳] 操作程序不冒充作者思考顺序",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4a26f9a772bf8d0f0176283cc01cd5bedbd4788af75674ce956b93cf55bdbb3f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LT-ACCEPTED-AUDIT-REUSED",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:36b62bb9ee4dc7bd",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "d41d3390c5fd33f0e6cd58b85175a29ff1e4b0805a2a5f9da980ac90364258a6",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:6507d0dc315e396a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "76131a5d50b509653ebea5c8c3d9673552f18684d07230f7ccd2eb88f704dc8f",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

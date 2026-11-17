@@ -1,6 +1,6 @@
 # 视觉方向协议（指针）
 
-> 仓库根 `D:/Project/Designers_Brain`（REPO）；本文件只写「去哪读什么」，不复制内容。
+> REPO = the `repo` value returned by `python <skill-dir>/resolve_repo.py --json`; resolve the actual bundled skill directory, and stop if detached. This file contains pointers only; substantive content stays in the repository.
 
 - **正本**：`REPO/docs/skill/skill_ecosystem.md` §4.3 —— 三方向硬门 / 选择无效铁律 / 展示后必须停 / 两步法。
 - **原文摘录**：`REPO/docs/skill/refs/design-packs/huashu-design_consultant_excerpts.md` —— 设计方向顾问模式（含 Gate 文件）。

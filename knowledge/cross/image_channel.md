@@ -2,10 +2,10 @@
 
 > 任务：盘点本机可用的「图像生成通道」（供 E 系列风格实验用），逐个实测并留档。
 > 方法：omp CLI 探针 ×6 + 直连网关探针 D1–D8 + D3b + 本机只读扫描（2026-10-15 晚，全部实测；原始输出全量留档在 `knowledge/cross/_image_probes/`）。
-> 环境：omp v18.10.4 · 网关 `http://192.168.11.4:3000/v1`（公网同实例 `https://api.skiapi.dev`）· RTX 5070 Ti Laptop · Python 3.14（Pillow 12.3）。
+> 环境：omp v18.10.4 · 网关（【G7-S6 sanitize 2026-11-16】私网地址 `<IMAGE_GEN_ENDPOINT>` 以占位符 `<IMAGE_GEN_ENDPOINT>` 表示，公网同实例 `https://api.skiapi.dev`）· RTX 5070 Ti Laptop · Python 3.14（Pillow 12.3）。
 > 证据分级：`[实测]`=本次跑过/读过（命令与输出在案）；`[自述]`=他方文档原话（SKIAPI/BuddyFarm，2026-10-12/13 版）；`[归纳]`=本次总结；`[UNVERIFIED]`=未跑未核。
-> 姊妹材料：`D:/Project/SKIAPI/docs/operations/media-models-console.md`（同题矩阵，10-12/10-13 测，本卡 10-15 复测互证）· `D:/Project/BuddyFarm/docs/ANALYST-2026-10-12.md`（池 403 噪声口径）。
-> 合规口径：全程**未碰任何账号/浏览器登录页**（唯一一次浏览器访问是 omp 回退模型的自动行为，匿名态、被登录墙挡下，见 §2.4）；对网关的调用使用本机既有 `BUDDYFARM_API_KEY`（与 omp 同源），只读盘点未改任何配置。
+> 姊妹材料：SKIAPI 仓 `docs/operations/media-models-console.md`（同题矩阵，10-12/10-13 测，本卡 10-15 复测互证）· BuddyFarm 仓 `docs/ANALYST-2026-10-12.md`（池 403 噪声口径）。（【G7-S6 2026-11-16】原机器绝对路径以仓库相对指称替代。）
+> 合规口径：全程**未碰任何账号/浏览器登录页**（唯一一次浏览器访问是 omp 回退模型的自动行为，匿名态、被登录墙挡下，见 §2.4）；对网关的调用使用运行时环境变量中的 API key（与 omp 同源），只读盘点未改任何配置。
 
 ## 0. 结论速览（先看这）
 
@@ -43,10 +43,12 @@
 命令模板（逐模型执行；工作目录=各自探针目录，产物即落于此）：
 
 ```bash
-cd "D:/Project/Designers_Brain/knowledge/cross/_image_probes/<pN>_<模型>"
-"C:/Users/dwgx1/AppData/Local/omp/omp.exe" -p --no-title --max-time 120s --model buddyfarm/<模型id> \
+cd "<repo>/knowledge/cross/_image_probes/<pN>_<模型>"
+omp -p --no-title --max-time 120s --model buddyfarm/<模型id> \
   "Generate one image: a red circle on a white background. Save it to ./red_circle.png in the current working directory, then reply with the saved path or explain what you produced."
 ```
+
+> 【G7-S6 sanitize 2026-11-16】上方命令模板原稿为机器专属写法（硬编码 `D:/...` 工作目录与 `C:/Users/<user>/...` 可执行文件路径）；已改为可移植形式（`<repo>` = 仓库根、`omp` = PATH 上的 omp CLI）。原始命令字节保留于 git 历史。
 
 | 探针 | 模型（--model 实参） | exit | 耗时 | 产物文件 | 产物格式 | stdout/stderr |
 |---|---|---|---|---|---|---|
@@ -74,7 +76,7 @@ Working...
                       ^
 error: No API key found for zenmux.
 
-Use /login, set an API key environment variable, or create C:\Users\dwgx1\.omp\agent\agent.db
+Use /login, set an API key environment variable, or create <private authentication store>.
       at #Qs (B:/~BUN/root/chunks/cli-ah31rv0s.js:46417:15)
       at async #io (B:/~BUN/root/chunks/cli-ah31rv0s.js:46163:26)
 
@@ -101,7 +103,7 @@ the model provider refused this request; retry later or change the request - req
 [4] MODEL_CHANGE: buddyfarm/deepseek-v4.1-flash  (role=fallback, resolvedModelIsFallback=true)
 [6] assistant ERROR(400): 400 图片生成模型不支持 tools
     图片生成模型不支持 tools (type=invalid_request_error param=upstream_error)
-    raw-http-request=C:\Users\dwgx1\.omp\logs\http-400-requests\1792056847020-ddf77s23lex1.json
+    raw-http-request=<private capture retained outside the public tree>
 [8] assistant TOOL eval: { Pillow 画圆脚本 }        ← 回退模型（deepseek）写的代码
 [10] toolResult: saved red_circle.png | 12399 bytes | verify: (512,512) center px (255,0,0)
 [11] assistant ERROR(403): 403 ... content policy ...
@@ -153,7 +155,7 @@ Deadline exceeded
 1. **第一层：图像模型拒收 tools。** omp 是 agent 框架，请求体默认带 11 个工具 schema（`body.tools` 有 11 项，见 raw 记录）。网关把 `grok-imagine-image` 路由到**真正的图像生成模型**，该模型不支持 tools → 上游直接 400：`图片生成模型不支持 tools`。原始记录（`_evidence/http400/p1_grok-imagine-image_400.json`）：
    ```jsonc
    { "provider":"buddyfarm", "model":"grok-imagine-image",
-     "url":"http://192.168.11.4:3000/v1/chat/completions",
+     "url":"<IMAGE_GEN_ENDPOINT>/chat/completions",
      "body": { "model":"grok-imagine-image", "stream":true, "tools":[11 项], "messages":[…] },
      "errorResponse": { "status":400, "message":"400 图片生成模型不支持 tools\n图片生成模型不支持 tools (type=invalid_request_error param=upstream_error)" } }
    ```
@@ -174,14 +176,14 @@ Deadline exceeded
 
 ### 3.1 拓扑与凭据（只读说明）
 
-- 网关：`http://192.168.11.4:3000/v1`（本机 omp `models.yml` 中 buddyfarm 的 baseUrl；= 公网 `https://api.skiapi.dev` 同一实例）。`[实测]`（`_gateway_models.json`：33 个模型，含 5 个 grok-imagine 系）
-- 凭据：`BUDDYFARM_API_KEY`（从 `~/.omp/agent/.env` 读取，**未写入任何产物**）。`[实测]`
+- 网关：`<IMAGE_GEN_ENDPOINT>`（本机 omp `models.yml` 中 buddyfarm 的 baseUrl；= 公网 `https://api.skiapi.dev` 同一实例）。`[实测]`（`_gateway_models.json`：33 个模型，含 5 个 grok-imagine 系）
+- 凭据：`BUDDYFARM_API_KEY`（从运行时凭据配置读取，**未写入任何产物**）。`[实测]`
 - 调用形态：OpenAI 兼容。图像三条路：chat（markdown 图链）/ generations / edits；视频走任务式 `/v1/videos`。媒体文件托管在 `api.skiapi.dev/v1/media/images/<id>`，**公网直达（无需额外鉴权）**。`[实测]`
 
 ### 3.2 chat 路径（D1/D2/D3b：三模型全通；D3：-edit 指路）
 
 ```bash
-curl -sS "http://192.168.11.4:3000/v1/chat/completions" -H "Authorization: Bearer $BUDDYFARM_API_KEY" \
+curl -sS "<IMAGE_GEN_ENDPOINT>/chat/completions" -H "Authorization: Bearer $BUDDYFARM_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"model":"grok-imagine-image","messages":[{"role":"user","content":"Generate an image: a red circle on a white background."}],"stream":false}'
 ```
@@ -276,24 +278,24 @@ curl -sS "http://192.168.11.4:3000/v1/chat/completions" -H "Authorization: Beare
 
 ### 4.1 stable-diffusion / ComfyUI —— 结论：现在都没有
 
-- **ComfyUI：曾装、已删。** 证据链：① `AppData/Local/comfy-cli/config.ini` 指向 `D:\LLM_Model\ComfyUI-MiniMax-H3\ComfyUI_windows_portable\ComfyUI`；② comfy-cli 的 54 个任务记录（2026-09-30，全部 completed，输出均为 `output\video\*.mp4`，i2v/t2v 视频向）；③ 现状核查：该目录**已不存在**（`D:/LLM_Model/` 只剩 RWKV 文本模型；多轮全盘搜索零命中：D:/ 至 8 层、C:/Users 至 5 层、Program Files/ProgramData 至 4 层）；④ 无 8188 端口监听、无相关进程。`[实测]`
+- **ComfyUI：曾装、已删。** 证据链：① `<user-appdata>/comfy-cli/config.ini` 指向 `<machine-local>\ComfyUI-MiniMax-H3\ComfyUI_windows_portable\ComfyUI`；② comfy-cli 的 54 个任务记录（2026-09-30，全部 completed，输出均为 `output\video\*.mp4`，i2v/t2v 视频向）；③ 现状核查：该目录**已不存在**（`D:/LLM_Model/` 只剩 RWKV 文本模型；多轮全盘搜索零命中：D:/ 至 8 层、C:/Users 至 5 层、Program Files/ProgramData 至 4 层）；④ 无 8188 端口监听、无相关进程。`[实测]`
 - **stable-diffusion 系：未发现。** `*stable-diffusion* / *sd-webui* / *automatic1111* / *invokeai* / *fooocus*` 全盘零命中；无 `*.safetensors/*.ckpt` 模型文件；Python 环境无 torch/diffusers（仅 Pillow/imageio/scikit-image）；HuggingFace 缓存只有 OCR/whisper 模型。`[实测]`
 
 ### 4.2 其它图像 API key 配置 —— 结论：未发现（负结果，已查处如下）
 
 - 环境变量（进程 + 注册表）：除 `BUDDYFARM_API_KEY` 外，`OPENAI/STABILITY/REPLICATE/FAL/TOGETHER/HF/DASHSCOPE/ARK/VOLC/SILICONFLOW/GEMINI/XAI…` 全部未设置。`[实测]`
-- 本机各配置：`~/.omp/agent/.env` 仅 1 个 key（BUDDYFARM）；`D:/Project/*` 扫描命中的全是参考仓库的 `.env.example` 模板（无真 key）；WindsurfAPI 的 `.env` 仅面板密码。`[实测]`
+- 本机各配置：运行时凭据仅 1 个 key（BUDDYFARM）；本机仓库扫描命中的全是参考仓库的 `.env.example` 模板（无真 key）；WindsurfAPI 的 `.env` 仅面板密码。`[实测]`
 - 提示：**`BUDDYFARM_API_KEY` 本身就是「图像通道的钥匙」**（grok-imagine 系由它解锁）——不算「缺 key」，算「已有但仅此一条」。`[归纳]`
 
 ### 4.3 omp 其它 provider / 其它 CLI
 
 - omp 全量模型表（`_omp_models_full.txt`，250 行）核查：**图像生成模型只在 buddyfarm 出现**（grok-imagine ×5）；deepseek / google-antigravity / opencode-go / opencode-zen / rwkv-local 均无出图模型。`[实测]`
 - `google-antigravity`（Gemini 系）等**未做出图探针**——属 Owner 账号资源，本轮只读盘点、不碰；如后续要用需 Owner 明确（见 §5）。`[归纳]`
-- `~/.grok/bin/grok.exe` = 「Grok Build TUI」文本 agent，帮助无图像相关选项；`D:/opt/grok/farm` = 账号池基建（grok2api 上游）。均未动用。`[实测]`
+- grok CLI（机器本地安装）= 「Grok Build TUI」文本 agent，帮助无图像相关选项；grok 账号池基建（机器本地目录）（grok2api 上游）。均未动用。`[实测]`
 
 ### 4.4 端口与服务
 
-- 监听端口排查：无 8188/7860（ComfyUI/SD 常用）；未见本地出图服务。网关侧 `192.168.11.4:3000`（LAN）与 `api.skiapi.dev`（公网）即本卡所有通道的宿主。`[实测]`
+- 监听端口排查：无 8188/7860（ComfyUI/SD 常用）；未见本地出图服务。网关侧 `<IMAGE_GEN_HOST>`（LAN；占位符）与 `api.skiapi.dev`（公网）即本卡所有通道的宿主。`[实测]`
 
 ## 5. 需要 Owner 提供什么（清单）
 
@@ -311,10 +313,10 @@ curl -sS "http://192.168.11.4:3000/v1/chat/completions" -H "Authorization: Beare
 
 ```bash
 # 1) 取 key（本机已配置，读取即可；不要打印到日志/产物）
-BFKEY=$(grep -o 'BUDDYFARM_API_KEY=.*' "C:/Users/dwgx1/.omp/agent/.env" | cut -d= -f2- | tr -d '\r\n')
+BFKEY="$IMAGE_GEN_API_KEY"  # G7-S6 2026-11-16：原稿为「从个人 .env 提取 key」的命令（原始字节见 git 历史）；现改为运行时环境变量占位，凭据不入库
 
 # 2) 出图（LAN；公网把域名换成 https://api.skiapi.dev 亦可）
-curl -sS "http://192.168.11.4:3000/v1/images/generations" \
+curl -sS "<IMAGE_GEN_ENDPOINT>/images/generations" \
   -H "Authorization: Bearer $BFKEY" -H "Content-Type: application/json" \
   -d '{"model":"grok-imagine-image-2.0","prompt":"a lighthouse on a rocky coast in a storm, oil painting style","n":1}'
 # → {"created":...,"data":[{"mime_type":"image/jpeg","url":"https://api.skiapi.dev/v1/media/images/img_..."}]}
@@ -364,11 +366,11 @@ _image_probes/
 
 ```bash
 # 复现 omp CLI 现象（30~40s，会在 cwd 落一张「代码绘图」PNG）：
-"C:/Users/dwgx1/AppData/Local/omp/omp.exe" -p --no-title --max-time 120s \
+omp -p --no-title --max-time 120s \
   --model buddyfarm/grok-imagine-image "Generate one image: a red circle on a white background. Save it to ./red_circle.png ..."
 
 # 复现直连出图（6s 出 URL）：
-curl -sS "http://192.168.11.4:3000/v1/images/generations" -H "Authorization: Bearer $BFKEY" \
+curl -sS "<IMAGE_GEN_ENDPOINT>/images/generations" -H "Authorization: Bearer $BFKEY" \
   -H "Content-Type: application/json" -d '{"model":"grok-imagine-image","prompt":"a red circle on a white background","n":1}'
 
 # 机械校验（全部产物可打开 + 规格）：

@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-behzad",
+  "source_receipt_sha256": "c7fed031eaff3ede36ea8d738c042386f729e3d4a70932e17d1688bffc957696",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LM-BEHZAD-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "behzad-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/behzad.md:sha256 1515666b73ab64ccff1b9ef9614b67f56f6ab77a32ff673fbb884623a87772c0",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "1515666b73ab64ccff1b9ef9614b67f56f6ab77a32ff673fbb884623a87772c0",
+          "access_status": "available"
+        },
+        {
+          "source_id": "behzad-card",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/modules/behzad.md:sha256 0133ab7b80a19a02b7dfa7a8c3fcfb3a5e79044fa657181dfb4a0c68baf25438",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "0133ab7b80a19a02b7dfa7a8c3fcfb3a5e79044fa657181dfb4a0c68baf25438",
+          "access_status": "available"
+        },
+        {
+          "source_id": "behzad-corpus",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/_corpus/behzad.md:sha256 6ded267c75af1e518e7d416501567fbb96aacd2b9767c926f31a500ec8280083",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "6ded267c75af1e518e7d416501567fbb96aacd2b9767c926f31a500ec8280083",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-BEHZAD-ACCEPTED-DEPENDENCY",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:95f2f2516f794d9f",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "f1701999dceb221e188037ad93f5f96d8c6ebbf63300975357898c8f559c4ea0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-BEHZAD-S82-RULE-COUNT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "behzad-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/behzad.md:§8.2:L201-212 (8 rules, ids §8.2-1..§8.2-8)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1515666b73ab64ccff1b9ef9614b67f56f6ab77a32ff673fbb884623a87772c0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-BEHZAD-CLAIMMAP-ROWS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d10c510b8428c0f2",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "8b8f0ea38e964a64048c83e7f5b2fc204e94e37716937957598ec7de8008395e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-BEHZAD-COUNTERS-VERBATIM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:5f13d170347f2496",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "4c998fa51c474f3612e9afaf5cbdaf6bebd43f8837f8d082726900f1c3945d7e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "behzad-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/behzad.md:§8.2:L202..L209",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1515666b73ab64ccff1b9ef9614b67f56f6ab77a32ff673fbb884623a87772c0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-BEHZAD-THRESHOLDS-UNMEASURED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "behzad-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/behzad.md:§8.2 尾注 (> 以上阈值为本项目 `[归纳]`，**未对原作做像素测量**（分母 = 假想参考帧）；1–2 条与 §3.1 分工判据)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "1515666b73ab64ccff1b9ef9614b67f56f6ab77a32ff673fbb884623a87772c0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-BEHZAD-NO-VERIFIED-BENEFIT",
+      "claim_kind": "model_judgment",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT-md",
+          "version": "package",
+          "locator": "01-AUDIT.md:273 (练习效果须标建议练习，未由人评价)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        },
+        {
+          "source_id": "internal-evidence:db8f52671034d6af",
+          "version": "attempt-1",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

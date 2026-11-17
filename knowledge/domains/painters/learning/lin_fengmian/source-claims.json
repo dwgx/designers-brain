@@ -1,0 +1,368 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-lin_fengmian",
+  "source_receipt_sha256": "fa79d031505e3f75a7fe7059ec4ec5fe6bcc300e8d37fdfc9ef296bb122b51a2",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LLFM-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/lin_fengmian.md (full 75 lines; §1 浓缩 5 条 / §8.1 / §8.2 / §4 / 冲突注记); 开工 sha256sum 实测 9675d108…",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "9675d108d923b6cbc7feea3bc9ad56a6b0bc574e321105c2dd6291dfe390d0a9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/lin_fengmian.md (518 lines; §0-§12 + 自审四段; §3.1 分工写死 / §4 六参数 / §8.2 八规则 / §12 十件练习)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "cabe2e6d1394ce9eb9625cffd521d5280d9f7fe02ac03a1f62e2dcd4822c6a3e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/lin_fengmian.md (30 条 ### ; #1 L10-13 / #5 L34-38 / #16 L104-107 / #21 L136-140; 繁体照录)",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "e31d0ca0890575a00a33443ba81bcc7d9a16a8bc7d54761155ca0063aa3f896b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1ad70ba9fdc87777",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "9b45e13d385afbbaff4d2b1b5e6592329be2166add55f960be8aea6afd9c6ba4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-DEPENDENCY-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:7acd33185ce2d7b3",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "cc9590c56f6a8f5adaf3d072a4800764649b0e9e907f6ade70801fe8a82f95b8",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:aa419f60652247f8",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "cc3d2b2d933d07bcc467cceee050bbac483e06b873c94e24a4ea899bd54bfb14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:74a4983632648c35",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "69aab099db6bc580bebb6dce3954b1a35e1bba58271e88ddaede5a44599e2308",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-A30-EIGHT-SECTION-SHAPE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "package/01-AUDIT.md",
+          "version": null,
+          "locator": "01-AUDIT.md:271 (§8.1 A-30 八节: 前置知识/重点作品及来源/要观察的机制/具体练习/可观察结果/常见失败/下一步及使用边界); :273 建议练习不写已证实学习收益",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:8e5c0fe2f754785d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "0955f706f0b88b3cf1e6f17009d781256cfb05f55205b1925fc119e4c116fd6b",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-SEVEN-FILE-CONTRACT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:b83704fcb6920836",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f2f38fd3ea8f085c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "9b45e13d385afbbaff4d2b1b5e6592329be2166add55f960be8aea6afd9c6ba4",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-EMPHASIS-SINO-WEST-SQUARE-FORMAT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/lin_fengmian.md:22 一句话能力定位（把西方现代主义形色结构转译为水墨彩墨抒情语言）; :38 方纸布阵（正方形满幅 1:1±5%）; :40 墨彩调合; :217 两阶段「取→炼」状态机 [归纳]",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "cabe2e6d1394ce9eb9625cffd521d5280d9f7fe02ac03a1f62e2dcd4822c6a3e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/lin_fengmian.md:34-38 #5 短長相補; :136-140 #21 介绍西洋艺术…四句话; :10-13 #1 无所谓派别也无所谓中西",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e31d0ca0890575a00a33443ba81bcc7d9a16a8bc7d54761155ca0063aa3f896b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:c83c831ba22565a2",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "9314b4bb8d307a19fc4b3b3e93e9ab0c0007aae07ad4c0113caf0f35dc9675d0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-EMPHASIS-OPERA-FIGURE-DEFORMATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "_corpus/lin_fengmian.md:104-107 #16 折叠: 一場一場的故事人物…折疊在畫面上…不是求體積感而是求綜合的連續感; :107 版本差异 體積感/體質感",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "e31d0ca0890575a00a33443ba81bcc7d9a16a8bc7d54761155ca0063aa3f896b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/lin_fengmian.md:44 戏曲折叠（平面化叠加/时空交错/无叙事时间线）; :64 关良/皮影几何/速写小本; :75 借戏曲重认立体主义时空自由; :95 vs 徐四轴①造型; :116 越界警报⑤; :411-424 §12 第4/5/6件折叠练习",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "cabe2e6d1394ce9eb9625cffd521d5280d9f7fe02ac03a1f62e2dcd4822c6a3e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1eaf6bffb58abc27",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "9314b4bb8d307a19fc4b3b3e93e9ab0c0007aae07ad4c0113caf0f35dc9675d0",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-IMAGES-PUBLIC-ZERO-FACT",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:7d38b613f6a4e63b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "8c7434b7b7d068a06879c9075a9c9679817ec99b03d50a9bfdd9478f01e79cec",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:9978b53286af4013",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "ccc6848ad48e80a10efc772260eed988453605930fb63cb9029db63f54f24335",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:b93041599a567d45",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "cc3d2b2d933d07bcc467cceee050bbac483e06b873c94e24a4ea899bd54bfb14",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-TWO-METRIC-RECONCILIATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:ee0cb34f93fcc650",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "69aab099db6bc580bebb6dce3954b1a35e1bba58271e88ddaede5a44599e2308",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:a5488690e748d98c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "cc3d2b2d933d07bcc467cceee050bbac483e06b873c94e24a4ea899bd54bfb14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:090d03b0855b5d63",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "ccc6848ad48e80a10efc772260eed988453605930fb63cb9029db63f54f24335",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-D1-DANGLING-CREFS-OPEN",
+      "claim_kind": "observation",
+      "support_status": "conflict",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "modules/lin_fengmian.md:46 §8.2 组合预检重点 C-01/C-05/C-06/C-12/C-17/C-18; :69 冲突注记重复引用; :74 near-miss 8 对",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "9675d108d923b6cbc7feea3bc9ad56a6b0bc574e321105c2dd6291dfe390d0a9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/lin_fengmian.md:99 §3.1 次级 组合时按 conflicts.md 预检（重点 C-01…C-18）; :210 §8.2 重复",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "cabe2e6d1394ce9eb9625cffd521d5280d9f7fe02ac03a1f62e2dcd4822c6a3e",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:14a013484e501fa4",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "69aab099db6bc580bebb6dce3954b1a35e1bba58271e88ddaede5a44599e2308",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:f88ba1c6e3966939",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "cc3d2b2d933d07bcc467cceee050bbac483e06b873c94e24a4ea899bd54bfb14",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:afb270bc3f8433d3",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "7843b036410b3582f2dae12ae0662a3c49ad24b85ae5abe4c33a297821bbca91",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-HOW-TO-THINK-GRADE-SEPARATION",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8d395c07fc181f55",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "14596a8f908bc71c91bc7de7e98319af487054f2d0a7012b60de259aa505b2cb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/lin_fengmian.md:5 证据分级定义; :122 无大部头画论专著, 声音集中于三类文本",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "cabe2e6d1394ce9eb9625cffd521d5280d9f7fe02ac03a1f62e2dcd4822c6a3e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-PRACTICE-UNVERIFIED-AND-THRESHOLDS",
+      "claim_kind": "observation",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:8c655a894e86c951",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "0955f706f0b88b3cf1e6f17009d781256cfb05f55205b1925fc119e4c116fd6b",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/lin_fengmian.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "dossiers/lin_fengmian.md:210 §8.2 阈值为本项目 [归纳] 未对原作做像素测量; :284 §10-13 量化阈值为归纳、未实测（分母＝假想参考帧）",
+          "read_scope": "citation_context",
+          "retrieved_bytes_sha256": "cabe2e6d1394ce9eb9625cffd521d5280d9f7fe02ac03a1f62e2dcd4822c6a3e",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LLFM-DRIFT-AND-FETCH-CARRIED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:219fa0888e0191a6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "69aab099db6bc580bebb6dce3954b1a35e1bba58271e88ddaede5a44599e2308",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:e69e5fa7b08d43d9",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "cc3d2b2d933d07bcc467cceee050bbac483e06b873c94e24a4ea899bd54bfb14",
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

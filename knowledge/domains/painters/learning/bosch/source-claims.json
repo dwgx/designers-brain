@@ -1,0 +1,358 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-bosch",
+  "source_receipt_sha256": "5c1b60d26310a6a4f0c2450081e951b7772e876da203d6859a911c0d1aa1adf4",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LBOS-A46-ZERO-SELF",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L7 卷首特殊性：博斯无任何存世文字、本档案不存在任何 [自述] 条目；§10-1 L306 同声明；§0 L5 证据分级定义；L61 口径提醒「本档案不写他心里想的」",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "fd4bc602e71a5631a28cfd8ac5e49a981035c26ef2c51ff89671fb30f290be3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:3ed95c6be4ba9cd6",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "22e9e9107faf766f03c5c18769ac31f5cc2efbe8f6f0fc5552e69c3477cb5c9d",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L4 / L211 无自述声明；26 条 ### header（L13–L202）全为关于他及其作品的转写/转引/文献",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "bf58f6ac7eb5bbc8e5958b2d6e98edff882e92def568f461bf02ea412b280f91",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-SELF-VS-INFERENCE-STRICT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:01bbd6e1baa84661",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "c54cbe7ff03dfded3ff35ad1f3bad5b88ebaf72762669418ed2a53de98189716",
+          "access_status": "available"
+        },
+        {
+          "source_id": "00-GOAL.md (execution package)",
+          "version": null,
+          "locator": "L9：How to Think 必须区分作者可核实的自述与研究者推断，不能编造作者心理",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§2 口径提醒 L61；§2-2/§2-3 L51–L52 标 [史料-转记]（范·曼德 1604 目击转记，非自述）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fd4bc602e71a5631a28cfd8ac5e49a981035c26ef2c51ff89671fb30f290be3f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-AXIS-TRIPTYCH-HYBRID-MORAL",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§0 L18 能力定位「混合生物语法 + 全景道德叙事（天堂—人间—地狱多幕 + 单帧多事件编目）」；L19 能力标签；§12-1 L389–L392 人间乐园三幕；§2-7 L56 生物拼装法；§3-1 L67 道德编码优先",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fd4bc602e71a5631a28cfd8ac5e49a981035c26ef2c51ff89671fb30f290be3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L9–L13 视觉指纹 5 条；§8.1 正向段 L19–L33；§4 P1 L61 / P2 L62 / P4 L64",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "66a06edd111e0f0f2417f8e9cb9797491269b8a9b69e304f109249f76f1037c2",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-CE-A-CONJUNCTION",
+      "claim_kind": "hypothesis",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:885981ae0d70ed2c",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "af7686c2afb4b530424f3eb2af44d8328439a3a84d5735431f2e52e8614ff52a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 用法行 L106「P1/P2/P4 三条同时 ≥ 中档才成立」；分工注 L107；§8.2 阈值 L233–L240；注 L242「3/5 条与 §3.1 分工判据同轴」",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fd4bc602e71a5631a28cfd8ac5e49a981035c26ef2c51ff89671fb30f290be3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:41beb6a702cad101",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "22e9e9107faf766f03c5c18769ac31f5cc2efbe8f6f0fc5552e69c3477cb5c9d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-ID-GATE-NOT-FALSIFIED",
+      "claim_kind": "design_candidate",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:6814319d0c4c9c0a",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "af7686c2afb4b530424f3eb2af44d8328439a3a84d5735431f2e52e8614ff52a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:612715b3dcd23edc",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ce429907ccf8411100fa6f45230b4196b6c080d8abed8e708251d097d1241ea9",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/dossiers/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§4 L106 逐字；§10-9 L314「量化阈值为归纳、未实测，组合实验可按 §8.2 自查表回改」；§8.2 L242 分母＝假想参考帧",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fd4bc602e71a5631a28cfd8ac5e49a981035c26ef2c51ff89671fb30f290be3f",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-RIGHTS-10-ROWS-2-DISPUTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:87b6ad4a579dde3d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "0c5d82870fc6e2ad6e219e2d41fc2a939758e7fe892f07a3d738e2db6e4d7942",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:678c4da900251f0d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "22e9e9107faf766f03c5c18769ac31f5cc2efbe8f6f0fc5552e69c3477cb5c9d",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:1201080aeba97d0b",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "ce429907ccf8411100fa6f45230b4196b6c080d8abed8e708251d097d1241ea9",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-THRESHOLDS-INDUCTION-UNVERIFIED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 注 L242「以上阈值为本项目 [归纳]，未对原作做像素测量（分母＝假想参考帧）」；§10-9 L314「量化阈值为归纳、未实测」",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "fd4bc602e71a5631a28cfd8ac5e49a981035c26ef2c51ff89671fb30f290be3f",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 末注 L55 同口径",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "66a06edd111e0f0f2417f8e9cb9797491269b8a9b69e304f109249f76f1037c2",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-CROWS-NO-BOSCH-OWN",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:0eb7bad6a0c90338",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "af7686c2afb4b530424f3eb2af44d8328439a3a84d5735431f2e52e8614ff52a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:addbf1163d46a2c1",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "22e9e9107faf766f03c5c18769ac31f5cc2efbe8f6f0fc5552e69c3477cb5c9d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-DRIFT-7-REPORT-ONLY",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:c4d3f04eeb554c9d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "9791a048dff779416c03539c013553d20491d2c95716a3db1c4c42ac2abfd911",
+          "access_status": "available"
+        },
+        {
+          "source_id": "knowledge/domains/painters/modules/bosch.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "L78 组合预检 4 条 C 行；L83「near-miss 8 对」历史口径",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "66a06edd111e0f0f2417f8e9cb9797491269b8a9b69e304f109249f76f1037c2",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-AUDIT-ACCEPTED-DEPENDENCY",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:ac4620319a3329be",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "d768aea206e09b4743faf5b1f34cdb08c29e4d6cab582f17b1229f6ed9a331f1",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-PRACTICE-LADDER-3RUNG",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:84e1c304cb4429ed",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "5c3a4d1cdad3a32f0aea3840afbed224a00f2e38256269f5805ab2068d7eeec7",
+          "access_status": "available"
+        },
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L269–L273：A-30 八节形状 + 练习效果未由人评价时明确为建议练习，不写已证实学习收益；§8.4 L308–L310 禁止模拟人评",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-NO-VERIFIED-BENEFIT",
+      "claim_kind": "model_judgment",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 L273 / §8.4 L308–L310：练习效果须标建议练习，未由人评价；本 shard human_review.status=not_applicable / review:null",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        },
+        {
+          "source_id": "internal-evidence:0b2779f3677a1030",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-NO-NEW-FETCH-READONLY",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:2f6b9687b559204e",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "af7686c2afb4b530424f3eb2af44d8328439a3a84d5735431f2e52e8614ff52a",
+          "access_status": "available"
+        },
+        {
+          "source_id": "ops/GOALS.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "A-46 历史行 L129（505 行 v2 档案 + 26 条语料 + 10 张图 + 分工 vs 戈雅写死）",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LBOS-SUBMITTED-GATE",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:3dc83e49ddd7f37d",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

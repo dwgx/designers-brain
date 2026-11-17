@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-enwonwu",
+  "source_receipt_sha256": "564fa20f56f1cb9e9906d4ae9572549ec9a44e67c68b5b8fe36f285c59744df9",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LM-ENWONWU-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "enwonwu-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/enwonwu.md:sha256 7391423e3286333098499dc28dc348eed02429fa5f5ae97918da1fe29946fbdb",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "7391423e3286333098499dc28dc348eed02429fa5f5ae97918da1fe29946fbdb",
+          "access_status": "available"
+        },
+        {
+          "source_id": "enwonwu-card",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/modules/enwonwu.md:sha256 c2fc7876e29c87074d04d20155618940d8d6afad3c8d6bf7db904de9790bb209",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "c2fc7876e29c87074d04d20155618940d8d6afad3c8d6bf7db904de9790bb209",
+          "access_status": "available"
+        },
+        {
+          "source_id": "enwonwu-corpus",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/_corpus/enwonwu.md:sha256 00cdc569ad7ae5b3968a512358f5ac92d09238795fa546b96fa35e544b366772",
+          "read_scope": "metadata",
+          "retrieved_bytes_sha256": "00cdc569ad7ae5b3968a512358f5ac92d09238795fa546b96fa35e544b366772",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ENWONWU-ACCEPTED-DEPENDENCY",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:6e80035b1c49d222",
+          "version": "ACCEPTED",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "7f78ca372c2cdfb36037856ffa16291e4da3fc2147518f817713c95664793821",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ENWONWU-S82-RULE-COUNT",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "enwonwu-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/enwonwu.md:§8.2:L223-234 (8 rules, ids §8.2-1..§8.2-8)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "7391423e3286333098499dc28dc348eed02429fa5f5ae97918da1fe29946fbdb",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ENWONWU-CLAIMMAP-ROWS",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:98459e88068058e6",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "21f8b6b3737b9a4928f9875c813ec9a7f974744f804f746b4c25309f3dfa2a5c",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ENWONWU-COUNTERS-VERBATIM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:d3688db2333851dc",
+          "version": "submitted",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "f36dbc20fdcb3e0dcfd0c572017c1a8da3d891e855045b4369159c502d39c272",
+          "access_status": "available"
+        },
+        {
+          "source_id": "enwonwu-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/enwonwu.md:§8.2:L224..L231",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "7391423e3286333098499dc28dc348eed02429fa5f5ae97918da1fe29946fbdb",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ENWONWU-THRESHOLDS-UNMEASURED",
+      "claim_kind": "observation",
+      "support_status": "partial",
+      "source_refs": [
+        {
+          "source_id": "enwonwu-dossier",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "knowledge/domains/painters/dossiers/enwonwu.md:§8.2 尾注 (> 以上阈值为本项目 `[归纳]`，**未对原作做像素测量**（分母＝假想参考帧）；1–8 条与 §3.1 分工判据同轴)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "7391423e3286333098499dc28dc348eed02429fa5f5ae97918da1fe29946fbdb",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LM-ENWONWU-NO-VERIFIED-BENEFIT",
+      "claim_kind": "model_judgment",
+      "support_status": "unverified",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT-md",
+          "version": "package",
+          "locator": "01-AUDIT.md:273 (练习效果须标建议练习，未由人评价)",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        },
+        {
+          "source_id": "internal-evidence:379236bb972a769f",
+          "version": "attempt-1",
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": null,
+          "access_status": "unknown"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

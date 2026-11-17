@@ -74,11 +74,11 @@ impasto energy fields, complementary-colour vibration over the whole canvas, dec
 - **分工（vs 莫奈）**（× 莫奈；本卡 §3.1 分工条款）：光与序列两条路写死：人工/室内光＋轮廓保持＋姿态机位变量 vs 自然光＋边缘溶解＋时刻变量——四轴判据，同用选主导轴（70/30）
 - **分工（vs 修拉）**（× 修拉；本卡 §3.1 分工条款）：颗粒与瞬间：方向性粉彩手势层叠＋抓拍失衡 vs 点阵光学混合＋去瞬间——四轴互斥（同用须分区/取值）
 - **分工（vs 米开朗基罗）**（× 米开朗基罗；本卡 §3.1 分工条款）：G11 定义句：抓拍瞬间（被截断的过程态）vs 雕塑式定格（完成态）；非理想化 vs 理想化
-- **备查互引**（× 喜多川歌麿 / 佐恩（future）；本卡 §3.1 备查）：歌麿「定格美 vs 抓拍」、佐恩「蚀刻：不同目标」——对方入系统时生效
+- **备查互引**（× 喜多川歌麿 / 佐恩（已入系统——原标 future 已失效：`dossiers/kitagawa_utamaro.md` / `zorn.md` 均已落盘，2026-11-16 F13-c 更正）；本卡 §3.1 备查）：歌麿「定格美 vs 抓拍」、佐恩「蚀刻：不同目标」——对照已生效
 - **组合预检（Lane B）**（× Lane B；本卡 §3.1 组合注记）：重点：C-05 笔触 / C-08·C-09 运动预算 / C-12 色相预算
 
 ## 来源
 
 - 档案（唯一正本）：`knowledge/domains/painters/dossiers/degas.md` —— 本卡抽取自其 §1（浓缩 5 条）、§8.1、§8.2、§4
-- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 8 对）
+- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 11 对；#9–11 为 2026-10-16 补，2026-11-16 F01 计数更正）
 - 模块库说明：`knowledge/domains/painters/modules/README.md`

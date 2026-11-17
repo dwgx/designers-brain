@@ -87,12 +87,12 @@ contemplative, quiet, mysterious mood
 - **C-02**（× 米开朗基罗；本卡 §8.2-1/-2）：明暗过渡带宽度（≥1.5% vs ≤0.6% 短边）
 - **C-03**（× 卡拉瓦乔；本卡 §8.2-3）：直方图/中间调（≥55% vs ≤25%）
 - **C-05**（× 梵高 / 莫奈 / 塞尚；本卡 §8.2-7）：笔触可见度（只有渐变 vs ≥95% 笔触覆盖）
-- **C-06**（× 马蒂斯；本卡 §8.2-4，同侧旁证组）：饱和度（每块 ≥70% vs 全帧 ≤35%）
+- **C-06**（× 马蒂斯；本卡 §8.2-4，同侧旁证组）：饱和度（每块 ≥70% vs 全帧均值型上限组：本卡 HSV ≤0.35 / 毕加索 HSL ≤0.35 / 米开朗基罗 ≤0.5 / 莫奈 ≤0.65——分述阈值不混同，见 conflicts.md C-06/N4；2026-11-16 F04-D4 色空间标注）
 - **C-14**（× Lane B 06/07/13 卡反约束；本卡 §8.2-2/-7）：渐变（禁令 vs sfumato/包络）
 - **near-miss（conflicts.md §4 表）**：#4（饱和度上限组：达·芬奇/毕加索/莫奈/米开朗基罗 → 取 ≤0.35）
 
 ## 来源
 
 - 档案（唯一正本）：`knowledge/domains/painters/dossiers/da_vinci.md` —— 本卡抽取自其 §1（浓缩 5 条）、§8.1、§8.2、§4
-- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 8 对）
+- 冲突清单：`knowledge/cross/conflicts.md`（18 条 C + N1–N9 + near-miss 11 对；#9–11 为 2026-10-16 补，2026-11-16 F01 计数更正）
 - 模块库说明：`knowledge/domains/painters/modules/README.md`

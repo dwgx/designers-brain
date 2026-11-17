@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "artifact": "public-source-claims",
+  "task_id": "LEARN-piero_della_francesca",
+  "source_receipt_sha256": "c5447fcc3bf0bb476eb54475d9142b618064b2df8fdef4f32791051c653cc13d",
+  "source_execution_status": "accepted",
+  "status_scope": "源执行记录；不是公共投影的独立接受，也不证明学习或输出效果。",
+  "access_scope": "access_status保留原读取事实，不代表公众可访问或拥有再分发权。",
+  "claims": [
+    {
+      "claim_id": "LEARN-piero_della_francesca-INPUT-HASHES",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/piero_della_francesca.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§1/§3/§4/§8.2/§12（开工 sha256sum 实测）",
+          "read_scope": "fulltext",
+          "retrieved_bytes_sha256": "70b2c87fd4b1575fa9c95467a8e02cd9a3033e7efeb828f5ade461db1433c01d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-piero_della_francesca-AUDIT-ACCEPTED",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:a816039a7a7bb3f7",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "a88d4c1e02f28828e4e22c261d7f03c01161035cbad7368dfdaca9ec4d40c558",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-piero_della_francesca-RULE-COUNTER",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/piero_della_francesca.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2 8 条可判定规则（rule ids 逐条照录），claim 图 §F 计 8 条与头部声明 8 条一致",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "70b2c87fd4b1575fa9c95467a8e02cd9a3033e7efeb828f5ade461db1433c01d",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-piero_della_francesca-QUOTE-DENOM",
+      "claim_kind": "observation",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/dossiers/_corpus/piero_della_francesca.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "grep -c '^### ' = 24 条引文，抽样 3 条均带出处",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "51ea842166616eeef5ba38a033d01d73e326223a4870b104eb193604a50f0dde",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-piero_della_francesca-CLAIM-MAP-TOTAL",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "internal-evidence:117467242ee7518f",
+          "version": null,
+          "locator": "内部来源由维护者保留，公众不可直接访问；原读取状态与源哈希按记录保留。",
+          "read_scope": "artifact",
+          "retrieved_bytes_sha256": "f65bc84bff7ae0a0f6b7bf6fa983d0dc42a2b2942ff05afd89b63ad803c57bce",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-piero_della_francesca-THRESH-INDUCTION",
+      "claim_kind": "fact",
+      "support_status": "supported",
+      "source_refs": [
+        {
+          "source_id": "knowledge/domains/painters/modules/piero_della_francesca.md",
+          "version": "f008952365a77e140cbda3f3959d43ef000f9a22",
+          "locator": "§8.2/§4 阈值 [归纳] 未经渲染实验校准，未做像素测量（分母＝假想参考帧）",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": "54bba5ba13736cf3b668450b6f8677c87cf92b553aa02f325653f687b136dc24",
+          "access_status": "available"
+        }
+      ]
+    },
+    {
+      "claim_id": "LEARN-piero_della_francesca-PRACTICE-SUGGESTED",
+      "claim_kind": "design_candidate",
+      "support_status": "not_applicable",
+      "source_refs": [
+        {
+          "source_id": "01-AUDIT.md (execution package)",
+          "version": null,
+          "locator": "§8.1 A-30：练习未由人完成/评价时为建议练习，不写『已证实学习收益』",
+          "read_scope": "sections",
+          "retrieved_bytes_sha256": null,
+          "access_status": "available"
+        }
+      ]
+    }
+  ],
+  "human_review": "not_applicable"
+}

@@ -16,8 +16,8 @@ description: >
 
 # Designers_Brain 设计顾问
 
-> v0.2（2026-10-15；v0.1 初稿 + R1 并入 SkillEcosystem）｜落位：`D:/Project/Designers_Brain/skills/designers-brain/SKILL.md`｜规格：`D:/Project/Designers_Brain/docs/skill/skill_spec.md`
-> 仓库根：`D:/Project/Designers_Brain`（下称 REPO）。本 skill 不复制内容，只做路由与协议；一切细节读 REPO 原文件。
+> v0.2（2026-10-15；2026-11-15 补入学习与能力路由；历史规格保留）｜落位：`<repo>/skills/designers-brain/SKILL.md`｜规格：`<repo>/docs/skill/skill_spec.md`
+> 仓库根 REPO 的可移植定位：运行本 skill 目录内的 `resolve_repo.py --json`，使用返回的 `repo`。等价路径关系为 `skill_dir = Path(<实际 SKILL.md 路径>).resolve().parent; REPO = skill_dir.parent.parent`。解析失败或脱离仓库时报错停用，不回退机器绝对路径。本 skill 只做路由与协议，具体内容从 REPO 读取。
 
 把 REPO 既有资产（76 画家模块卡 / 15 MG 卡 / 冲突清单 / 确定性契约）转成可执行的设计推荐：**先问 → 再选 → 后出稿**。
 
@@ -58,6 +58,8 @@ description: >
 
 ## 怎么选
 
+**先读当前证据**：使用 `REPO/knowledge/CAPABILITIES.md` 及需要的 JSON 行，核对所选实体与 image / web10s / blender 路线。`conditional` 要带出条件，`untested` 不承诺已实现，`unsupported` 表示该条目声明的非适用路线。历史实验、文字规则、本地光栅视频及完整浏览器管线分别处理。学习入口在 `REPO/knowledge/domains/painters/learning/INDEX.md`；新纯风格候选与反例在 `REPO/knowledge/domains/painters/style_candidates/INDEX.md`，候选不自动升级为已验证的 E4 规则。
+
 1. **域过滤**（读 `REPO/knowledge/domains/painters/modules/README.md` 的 76 卡能力定位；15 卡读 `REPO/knowledge/domains/motion-graphics/origin/提示词全文.md`）：
    - 情绪张力 → 梵高；宁静光感 → 莫奈 / 维米尔；戏剧冲突 → 卡拉瓦乔；力量 / 人体 → 米开朗基罗；解构 → 毕加索；结构 → 塞尚；色彩海报 → 马蒂斯；东方线韵 → 北斋；版画工艺 → 丢勒。
    - 科技感 → MG 07 / 03；数据科普 → 14 / 13；复古 → 04 / 15；极简 → 06 / 13；手工温情 → 12 / 10；像素 → 11。
@@ -83,9 +85,9 @@ description: >
 - **换风格不换骨架（B）**：✅ 风格段整段替换（§8.1 ↔ §8.1b 按场景选；渲染器按新卡切换：01↔网页）；🔒 内容段、规格、流程不动。不许两段并存 / 混写（双模块走 70/30 组合规则）。
 - **调强度（C）**：§4 档位 / §8.1b；缺口见上。
 
-**三种输出形态（各形态必带字段）**：
+**三种输出形态（各形态必带字段）**：以下是交付目标与 brief 规格；实际执行是否满足须按当前能力、运行记录和输出核验判断。
 
-1. **图像 prompt**：主题句 + 风格段（§8.1 或 §8.1b 逐字）+ 强度档 + 融合句（70/30 时）+ 分区句（可拆冲突时）+ 负向段（留档；通道无负向、不发送）+ 通道口径（裸模型名 `grok-imagine-image-2.0`、尺寸实回 768×1152）。留档契约：req / resp + sha256；可追溯不承诺可复现。通道细节：`REPO/knowledge/cross/image_channel.md`。
+1. **图像 prompt**：主题句 + 风格段（§8.1 或 §8.1b 逐字）+ 强度档 + 融合句（70/30 时）+ 分区句（可拆冲突时）+ 负向段（留档；通道无负向、不发送）+ 通道口径（记录当前已授权通道的模型、参数与实回尺寸；旧实验的模型和尺寸只作历史证据）。留档契约：req / resp + sha256；可追溯不承诺可复现。通道细节：`REPO/knowledge/cross/image_channel.md`。
 2. **网页动画 brief**：任务头（10 秒 / 1920×1080 / 30 帧 / 网页逐帧 / 音效代码合成 / 先 6 关键帧）+ 画风段 S# + 内容段 + 反约束段 F#（判例式）+ 输出规格块（exactly 10.000 s / 300 帧 / −14 LUFS ±1 / ≤−1 dBTP）+ 确定性条款 + 6 关键帧（0/45/90/150/225/285，末帧含收尾文案）+ 2 个验收帧号 + 交付清单。契约要点：C1–C8 + C10 + **①b 乱序重渲**（逐帧 SHA256 全等）。模板：`REPO/templates/style_card.md`、`REPO/templates/determinism_contract.md`。
 3. **Blender brief**：任务头（Blender Python 搭场景）+ 画风段（材质 / 光照 / 物理）+ 内容段 + 反约束段 + C9 条款（`blender -b --factory-startup -P`、显式 `--range`、物理预计算、PNG 序列）+ C10 + 输出规格 + 自查（P1 口径：EEVEE 像素差 ≤0.05%、max 5/255，非位级）。管线细节：`REPO/knowledge/agent-art/blender/workflow.md`。
 
@@ -95,6 +97,9 @@ description: >
 
 | 要什么 | 读 |
 |---|---|
+| 学习路径、进阶与替代分支 | `REPO/knowledge/domains/painters/learning/INDEX.md`、`REPO/knowledge/LEARNING-INDEX.json` |
+| 新纯风格候选、反例及既有11节 | `REPO/knowledge/domains/painters/style_candidates/INDEX.md` |
+| 逐实体、逐输出能力与证据 | `REPO/knowledge/CAPABILITIES.md`、`REPO/knowledge/CAPABILITIES.json` |
 | 76 卡索引 + 组合速查 | `REPO/knowledge/domains/painters/modules/README.md` |
 | 15 卡全文 + 结构 | `REPO/knowledge/domains/motion-graphics/origin/提示词全文.md`、`REPO/knowledge/domains/motion-graphics/cards/structure.md` |
 | 冲突清单 + N1–N9 | `REPO/knowledge/cross/conflicts.md` |
