@@ -1,0 +1,206 @@
+{
+  "ok": true,
+  "schema": "motion-public-verification@2.0.0",
+  "cards": 12,
+  "release_pins_sha256": "08197a51b14034ec1544b8943f3273c97ca86ea32d27f28484f72038e94db627",
+  "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+  "browser": {
+    "cards": 12,
+    "scope": "Recorded Chrome load, measured seeks/canvas, real playhead advance; no new browser session"
+  },
+  "media": {
+    "02": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 299,
+      "decoded_frame_md5_ledger_sha256": "9a70600e8f7b6f0ef9d1f5b11b2f13f7821fd4d1a369cfa44f59eb7f9463dd18",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "03": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 300,
+      "decoded_frame_md5_ledger_sha256": "5a18b675723ec9845e82c02c0b24ba616998907a32143cda08b7381c8cda783c",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "04": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 286,
+      "decoded_frame_md5_ledger_sha256": "083cef490b3ed67061f35f9305833b8a67188a1428b611902c565ee106befcc6",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "05": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 276,
+      "decoded_frame_md5_ledger_sha256": "f185afb10ea9666e2d484e27a19db53394724c583c747a31a0b8a0180521fd88",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "06": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 242,
+      "decoded_frame_md5_ledger_sha256": "6d103b03e2a67ac768fb077212348e059106ade08fffba1a85d76bdb41239194",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "07": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 279,
+      "decoded_frame_md5_ledger_sha256": "fc3e00153d7b85eec7c0eb23b6f22bfc2524543306fb8e71a7ab0dba04175ce9",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "09": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 300,
+      "decoded_frame_md5_ledger_sha256": "3ed3787a85e8f5d84eeff927d24f6a8dcf83542fe486ca0555176fc4b2fd2a6d",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "10": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 293,
+      "decoded_frame_md5_ledger_sha256": "e14d9ff7edb6fb06b6fee1951dc8eebeee5a136941db34fd074805254997edac",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "12": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 295,
+      "decoded_frame_md5_ledger_sha256": "104bcacf028c5117d68b888e388a5ed55d280816c5512e85e7bac0f092209da7",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "13": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": false,
+      "distinct_decoded_frames": 255,
+      "decoded_frame_md5_ledger_sha256": "3cca5d227beb6ad0a1e4b12c49a58d5aca67dafe2b923a14da106b9f9e720341",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "14": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": true,
+      "distinct_decoded_frames": 300,
+      "decoded_frame_md5_ledger_sha256": "b2adb3e1deed4216802ae0a5974fcf66b95c427d7f9a235dbf62407cfe435fda",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    },
+    "15": {
+      "decoded_frames": 300,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "duration_sec": 10,
+      "codec": "h264",
+      "codec_tag": "avc1",
+      "pixel_format": "yuv420p",
+      "faststart": false,
+      "distinct_decoded_frames": 268,
+      "decoded_frame_md5_ledger_sha256": "ed1c7ca28ccee62f5c993b68835b52507d3c66074fbc87696b9066aeba33c8c1",
+      "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+    }
+  },
+  "scope": "Fresh full decode and file/receipt binding. Does not rerender, rerun Chrome, or assign human aesthetic scores."
+}

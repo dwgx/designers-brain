@@ -1,0 +1,12 @@
+{
+  "schema": "public-count-repair-projection@1",
+  "observed_at_utc": "2026-11-18T00:08:06.327273+00:00",
+  "original_validation_sha256": "2332d9857a8e75f45d22d6b05a1e870bb035742b28177e65bf1d409091a0b99c",
+  "original_validation_bytes": 24494,
+  "public_validation_sha256": "e8a5234f91fd52fd3a154fba3542d564f532fbb3677de83743d386a5b2b1c850",
+  "public_validation_bytes": 24354,
+  "transformation": "Replace private checkout/workspace/home prefixes with labels; normalize CRLF to LF only. Verdicts, fields, measured counts and source hashes are unchanged.",
+  "rejected_proposal_sha256": "938117719a6a64191a1a19c8e9a28319a77e51b267a0aa5649b61a24b6913f27",
+  "rejected_proposal_reason": "-76 and 1.76 painter dossiers were both parsed as 76; caught before integration",
+  "final_checker_sha256": "9278fa5889afb27fad5173f20b25720c7c8100b325c2d20ddc319f9f020fd166"
+}

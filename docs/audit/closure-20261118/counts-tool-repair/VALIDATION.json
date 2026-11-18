@@ -1,0 +1,824 @@
+{
+  "status": "PASS",
+  "checker_sha256": "9278fa5889afb27fad5173f20b25720c7c8100b325c2d20ddc319f9f020fd166",
+  "repository": "REVIEW_CHECKOUT",
+  "source_hash_guards": {
+    "tools/check_library_counts.py": "b1756046aee9c3ddc1d742cfd598623333eab3fb055bf227f3592734daf4d22b",
+    "README.ja.md": "6940a4f46e733f5d4e571863a5cd2f0b8f2f88ca5dca8a4eae5986fb3aa50a0f",
+    "README.md": "5672a63b891be91e5f543df63156a238f9ea498e70ecd5a8000b905dff4ede36",
+    "README.zh-CN.md": "da5687d5f1c3c723bb3233962d61874261c495700cfbabd9eb2b8c28eebc70ab",
+    "knowledge/domains/painters/dossiers/_images/rights-file-level.json": "e2378bdec79210e95fbc37e7519a319b94f95e38fd199a0ffe358fe83801a701"
+  },
+  "scope": "Actual repository counters and unchanged main() for every case; only README parse input redirected to real temporary copies for mutations. No source/rights/image/README in candidate or publication clone changed.",
+  "results": [
+    {
+      "id": "actual_repository_positive",
+      "exit": 0,
+      "actual_exit": 0,
+      "failed_checks": [],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": {
+        "root": "REVIEW_CHECKOUT",
+        "measured": {
+          "dossiers": 76,
+          "modules": 76,
+          "mg_cards": 15,
+          "citations": 2044,
+          "images": 739,
+          "license_pd": 572,
+          "license_cc0": 129,
+          "license_pd_cc0": 701,
+          "license_open": 38,
+          "license_total": 739,
+          "rights_attribution_required": 39,
+          "rights_pd_cc0_no_stated_attribution": 699,
+          "rights_jurisdiction_dependent": 1,
+          "rights_unknown": 0,
+          "rights_rows_total": 739
+        },
+        "baseline": {
+          "dossiers": 76,
+          "modules": 76,
+          "citations": 2044,
+          "images": 735,
+          "mg_cards": 15,
+          "license_pd": 568,
+          "license_cc0": 129,
+          "license_open": 38
+        },
+        "declared": {
+          "README.md": {
+            "dossiers": 76,
+            "modules": 76,
+            "mg_cards": 15,
+            "citations": 2044,
+            "images": 739,
+            "license_pd_cc0": 701,
+            "license_open": 38,
+            "rights_attribution_required": 39,
+            "rights_pd_cc0_no_stated_attribution": 699,
+            "rights_jurisdiction_dependent": 1,
+            "license_section_attribution_required": 39,
+            "license_section_pd_cc0_no_stated_attribution": 699
+          },
+          "README.zh-CN.md": {
+            "dossiers": 76,
+            "modules": 76,
+            "mg_cards": 15,
+            "citations": 2044,
+            "images": 739,
+            "license_pd_cc0": 701,
+            "license_open": 38,
+            "rights_attribution_required": 39,
+            "rights_pd_cc0_no_stated_attribution": 699,
+            "rights_jurisdiction_dependent": 1,
+            "license_section_attribution_required": 39,
+            "license_section_pd_cc0_no_stated_attribution": 699
+          },
+          "README.ja.md": {
+            "dossiers": 76,
+            "modules": 76,
+            "mg_cards": 15,
+            "citations": 2044,
+            "images": 739,
+            "license_pd_cc0": 701,
+            "license_open": 38,
+            "rights_attribution_required": 39,
+            "rights_pd_cc0_no_stated_attribution": 699,
+            "rights_jurisdiction_dependent": 1,
+            "license_section_attribution_required": 39,
+            "license_section_pd_cc0_no_stated_attribution": 699
+          }
+        },
+        "checks": [
+          {
+            "item": "dossiers",
+            "measured": 76,
+            "declared": 76,
+            "source": "README.md",
+            "baseline": 76,
+            "ok": true
+          },
+          {
+            "item": "modules",
+            "measured": 76,
+            "declared": 76,
+            "source": "README.md",
+            "baseline": 76,
+            "ok": true
+          },
+          {
+            "item": "mg_cards",
+            "measured": 15,
+            "declared": 15,
+            "source": "README.md",
+            "baseline": 15,
+            "ok": true
+          },
+          {
+            "item": "citations",
+            "measured": 2044,
+            "declared": 2044,
+            "source": "README.md",
+            "baseline": 2044,
+            "ok": true
+          },
+          {
+            "item": "images",
+            "measured": 739,
+            "declared": 739,
+            "source": "README.md",
+            "baseline": 735,
+            "ok": true
+          },
+          {
+            "item": "license_pd_cc0",
+            "measured": 701,
+            "declared": 701,
+            "source": "README.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_open",
+            "measured": 38,
+            "declared": 38,
+            "source": "README.md",
+            "baseline": 38,
+            "ok": true
+          },
+          {
+            "item": "rights_attribution_required",
+            "measured": 39,
+            "declared": 39,
+            "source": "README.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights_pd_cc0_no_stated_attribution",
+            "measured": 699,
+            "declared": 699,
+            "source": "README.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights_jurisdiction_dependent",
+            "measured": 1,
+            "declared": 1,
+            "source": "README.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_section_attribution_required",
+            "measured": 39,
+            "declared": 39,
+            "source": "README.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_section_pd_cc0_no_stated_attribution",
+            "measured": 699,
+            "declared": 699,
+            "source": "README.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "dossiers",
+            "measured": 76,
+            "declared": 76,
+            "source": "README.zh-CN.md",
+            "baseline": 76,
+            "ok": true
+          },
+          {
+            "item": "modules",
+            "measured": 76,
+            "declared": 76,
+            "source": "README.zh-CN.md",
+            "baseline": 76,
+            "ok": true
+          },
+          {
+            "item": "mg_cards",
+            "measured": 15,
+            "declared": 15,
+            "source": "README.zh-CN.md",
+            "baseline": 15,
+            "ok": true
+          },
+          {
+            "item": "citations",
+            "measured": 2044,
+            "declared": 2044,
+            "source": "README.zh-CN.md",
+            "baseline": 2044,
+            "ok": true
+          },
+          {
+            "item": "images",
+            "measured": 739,
+            "declared": 739,
+            "source": "README.zh-CN.md",
+            "baseline": 735,
+            "ok": true
+          },
+          {
+            "item": "license_pd_cc0",
+            "measured": 701,
+            "declared": 701,
+            "source": "README.zh-CN.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_open",
+            "measured": 38,
+            "declared": 38,
+            "source": "README.zh-CN.md",
+            "baseline": 38,
+            "ok": true
+          },
+          {
+            "item": "rights_attribution_required",
+            "measured": 39,
+            "declared": 39,
+            "source": "README.zh-CN.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights_pd_cc0_no_stated_attribution",
+            "measured": 699,
+            "declared": 699,
+            "source": "README.zh-CN.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights_jurisdiction_dependent",
+            "measured": 1,
+            "declared": 1,
+            "source": "README.zh-CN.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_section_attribution_required",
+            "measured": 39,
+            "declared": 39,
+            "source": "README.zh-CN.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_section_pd_cc0_no_stated_attribution",
+            "measured": 699,
+            "declared": 699,
+            "source": "README.zh-CN.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "dossiers",
+            "measured": 76,
+            "declared": 76,
+            "source": "README.ja.md",
+            "baseline": 76,
+            "ok": true
+          },
+          {
+            "item": "modules",
+            "measured": 76,
+            "declared": 76,
+            "source": "README.ja.md",
+            "baseline": 76,
+            "ok": true
+          },
+          {
+            "item": "mg_cards",
+            "measured": 15,
+            "declared": 15,
+            "source": "README.ja.md",
+            "baseline": 15,
+            "ok": true
+          },
+          {
+            "item": "citations",
+            "measured": 2044,
+            "declared": 2044,
+            "source": "README.ja.md",
+            "baseline": 2044,
+            "ok": true
+          },
+          {
+            "item": "images",
+            "measured": 739,
+            "declared": 739,
+            "source": "README.ja.md",
+            "baseline": 735,
+            "ok": true
+          },
+          {
+            "item": "license_pd_cc0",
+            "measured": 701,
+            "declared": 701,
+            "source": "README.ja.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_open",
+            "measured": 38,
+            "declared": 38,
+            "source": "README.ja.md",
+            "baseline": 38,
+            "ok": true
+          },
+          {
+            "item": "rights_attribution_required",
+            "measured": 39,
+            "declared": 39,
+            "source": "README.ja.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights_pd_cc0_no_stated_attribution",
+            "measured": 699,
+            "declared": 699,
+            "source": "README.ja.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights_jurisdiction_dependent",
+            "measured": 1,
+            "declared": 1,
+            "source": "README.ja.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_section_attribution_required",
+            "measured": 39,
+            "declared": 39,
+            "source": "README.ja.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license_section_pd_cc0_no_stated_attribution",
+            "measured": 699,
+            "declared": 699,
+            "source": "README.ja.md",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "license rows total",
+            "measured": 739,
+            "declared": 739,
+            "source": "manifest vs files",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "manifest rows",
+            "measured": 739,
+            "declared": 739,
+            "source": "manifest vs files",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights rows total",
+            "measured": 739,
+            "declared": 739,
+            "source": "file-level rights vs files",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights path differences",
+            "measured": 0,
+            "declared": 0,
+            "source": "file-level rights vs files",
+            "baseline": null,
+            "ok": true
+          },
+          {
+            "item": "rights_unknown",
+            "measured": 0,
+            "declared": 0,
+            "source": "README three-state classification coverage",
+            "baseline": null,
+            "ok": true
+          }
+        ],
+        "corpus_files": 76,
+        "rights_scope": "Artwork-level manifest labels and file-level attribution states are separate classifications. A false attribution flag is a recognized PD/CC0 label with no stated attribution condition; a jurisdiction-dependent null remains conditional. This recount is not a global legal judgment.",
+        "ignore": {
+          "gitignore_has_entry": true,
+          "check_ignore": "ignored",
+          "untracked": 0,
+          "check_ignore_rule": ".gitignore:37:_agent-history/\t_agent-history/HANDOFF.md"
+        },
+        "pass": true
+      },
+      "passed_expected_result": true
+    },
+    {
+      "id": "comma_and_bold_equivalent_positive",
+      "exit": 0,
+      "file": "README.zh-CN.md",
+      "old": "2044 条带来源引文",
+      "new": "**2,044** 条带来源引文",
+      "actual_exit": 0,
+      "failed_checks": [],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "en_citations_changed",
+      "exit": 1,
+      "file": "README.md",
+      "field": "citations",
+      "old": "2,044 source-linked quotations",
+      "new": "2,043 source-linked quotations",
+      "actual_exit": 1,
+      "failed_checks": [
+        {
+          "item": "citations",
+          "measured": 2044,
+          "declared": 2043,
+          "source": "README.md",
+          "baseline": 2044,
+          "ok": false
+        }
+      ],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "zh_modules_changed_other_76_preserved",
+      "exit": 1,
+      "file": "README.zh-CN.md",
+      "field": "modules",
+      "old": "76 张可组合模块卡",
+      "new": "75 张可组合模块卡",
+      "actual_exit": 1,
+      "failed_checks": [
+        {
+          "item": "modules",
+          "measured": 76,
+          "declared": 75,
+          "source": "README.zh-CN.md",
+          "baseline": 76,
+          "ok": false
+        }
+      ],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "ja_dossiers_changed_other_76_preserved",
+      "exit": 1,
+      "file": "README.ja.md",
+      "field": "dossiers",
+      "old": "画家ドシエ76件",
+      "new": "画家ドシエ75件",
+      "actual_exit": 1,
+      "failed_checks": [
+        {
+          "item": "dossiers",
+          "measured": 76,
+          "declared": 75,
+          "source": "README.ja.md",
+          "baseline": 76,
+          "ok": false
+        }
+      ],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "en_historical_label_pd_cc0_changed",
+      "exit": 1,
+      "file": "README.md",
+      "field": "license_pd_cc0",
+      "old": "historical 701/38",
+      "new": "historical 700/38",
+      "actual_exit": 1,
+      "failed_checks": [
+        {
+          "item": "license_pd_cc0",
+          "measured": 701,
+          "declared": 700,
+          "source": "README.md",
+          "baseline": null,
+          "ok": false
+        }
+      ],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "zh_file_attribution_changed",
+      "exit": 1,
+      "file": "README.zh-CN.md",
+      "field": "rights_attribution_required",
+      "old": "文件级保守分类为：**39 件需署名",
+      "new": "文件级保守分类为：**38 件需署名",
+      "actual_exit": 1,
+      "failed_checks": [
+        {
+          "item": "rights_attribution_required",
+          "measured": 39,
+          "declared": 38,
+          "source": "README.zh-CN.md",
+          "baseline": null,
+          "ok": false
+        }
+      ],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "ja_conditional_changed",
+      "exit": 1,
+      "file": "README.ja.md",
+      "field": "rights_jurisdiction_dependent",
+      "old": "法域によって条件が異なる1点",
+      "new": "法域によって条件が異なる2点",
+      "actual_exit": 1,
+      "failed_checks": [
+        {
+          "item": "rights_jurisdiction_dependent",
+          "measured": 1,
+          "declared": 2,
+          "source": "README.ja.md",
+          "baseline": null,
+          "ok": false
+        }
+      ],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "en_license_footer_count_changed",
+      "exit": 1,
+      "file": "README.md",
+      "field": "license_section_pd_cc0_no_stated_attribution",
+      "old": "699 carry recognized PD/CC0 labels",
+      "new": "698 carry recognized PD/CC0 labels",
+      "actual_exit": 1,
+      "failed_checks": [
+        {
+          "item": "license_section_pd_cc0_no_stated_attribution",
+          "measured": 699,
+          "declared": 698,
+          "source": "README.md",
+          "baseline": null,
+          "ok": false
+        }
+      ],
+      "stderr": "",
+      "measured": {
+        "dossiers": 76,
+        "modules": 76,
+        "mg_cards": 15,
+        "citations": 2044,
+        "images": 739,
+        "license_pd": 572,
+        "license_cc0": 129,
+        "license_pd_cc0": 701,
+        "license_open": 38,
+        "license_total": 739,
+        "rights_attribution_required": 39,
+        "rights_pd_cc0_no_stated_attribution": 699,
+        "rights_jurisdiction_dependent": 1,
+        "rights_unknown": 0,
+        "rights_rows_total": 739
+      },
+      "checks_count": 41,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "en_citation_declaration_missing",
+      "exit": 2,
+      "file": "README.md",
+      "field": "citations",
+      "old": "**2,044 source-linked quotations** and ",
+      "new": "",
+      "actual_exit": 2,
+      "failed_checks": [],
+      "stderr": "ERROR: README.md: declaration missing or ambiguous for 'citations' (matches=0)\n",
+      "measured": null,
+      "checks_count": null,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "ja_attribution_false_declaration_missing",
+      "exit": 2,
+      "file": "README.ja.md",
+      "field": "rights_pd_cc0_no_stated_attribution",
+      "old": "帰属条件が記載されていない既知のPD/CC0ラベル699点、",
+      "new": "",
+      "actual_exit": 2,
+      "failed_checks": [],
+      "stderr": "ERROR: README.ja.md: declaration missing or ambiguous for 'rights_pd_cc0_no_stated_attribution' (matches=0)\n",
+      "measured": null,
+      "checks_count": null,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "en_negative_dossiers_rejected",
+      "exit": 2,
+      "file": "README.md",
+      "field": "dossiers",
+      "old": "76 painter dossiers",
+      "new": "-76 painter dossiers",
+      "actual_exit": 2,
+      "failed_checks": [],
+      "stderr": "ERROR: README.md: declaration missing or ambiguous for 'dossiers' (matches=0)\n",
+      "measured": null,
+      "checks_count": null,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    },
+    {
+      "id": "en_decimal_dossiers_rejected",
+      "exit": 2,
+      "file": "README.md",
+      "field": "dossiers",
+      "old": "76 painter dossiers",
+      "new": "1.76 painter dossiers",
+      "actual_exit": 2,
+      "failed_checks": [],
+      "stderr": "ERROR: README.md: declaration missing or ambiguous for 'dossiers' (matches=0)\n",
+      "measured": null,
+      "checks_count": null,
+      "actual_repository_json_output": null,
+      "passed_expected_result": true
+    }
+  ]
+}

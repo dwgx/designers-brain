@@ -1,0 +1,20 @@
+{
+  "schema": "closure-binding-check@1",
+  "ok": true,
+  "groups": {
+    "current19": 58,
+    "corpus-delivery": 11,
+    "corpus-source": 35,
+    "seed-package": 202,
+    "runtime-projection": 72,
+    "C1-public-projection": 34,
+    "historical-consumer": 44,
+    "historical-consumer-projection": 32,
+    "preserved-central-manifest": 1,
+    "preserved-images": 739,
+    "preserved-motion": 5,
+    "closure-delivery": 708
+  },
+  "errors": [],
+  "scope": "Current public bytes only. Historical claim/original-source hashes and human or learning outcomes are not upgraded. Motion full decode is a separate gate."
+}

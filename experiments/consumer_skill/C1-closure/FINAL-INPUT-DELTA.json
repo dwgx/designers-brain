@@ -64,7 +64,7 @@
     {
       "path": "skills/designers-brain/references/painter-modules.md",
       "frozen_sha256": "96a83b91abed8cde77e26bd77b1328f2f810f5f5b8304f84f3c98f4ce46a0787",
-      "current_sha256": "20a5b97a82745d8059a1785bcccc4b6b2fb0f9e877ebb93964adfebf2d0871d7",
+      "current_sha256": "38c812dbf64b7a7076476a65c168498686906ea513f6a05b961cde0b55ac11ab",
       "whole_blob_unchanged": false,
       "content_exposed": true,
       "consumed_line_ranges": [
@@ -104,6 +104,6 @@
       "consumed_ranges_unchanged": true
     }
   ],
-  "observed_at_utc": "2026-11-17T23:42:49.497358+00:00",
+  "observed_at_utc": "2026-11-18T00:08:22.146744+00:00",
   "current_scope": "Current closure includes seven new how-to-think documents and navigation edits after the frozen e0 consumer input. No new consumer run or validation of these additions is claimed."
 }

@@ -1,0 +1,111 @@
+== 文件 ==
+  docs/skill/skill_spec.md  refs(unique)=58
+  docs/skill/draft/SKILL.md  refs(unique)=16
+  skills/designers-brain/SKILL.md  refs(unique)=21
+  skills/designers-brain/domains.yaml  refs(unique)=9
+  skills/designers-brain/agents/openai.yaml  refs(unique)=0
+  templates/design_brief.md  refs(unique)=3
+  skills/designers-brain/references/painter-modules.md  refs(unique)=8
+  skills/designers-brain/references/mg-cards.md  refs(unique)=4
+  skills/designers-brain/references/conflicts.md  refs(unique)=2
+  skills/designers-brain/references/output-forms.md  refs(unique)=5
+  skills/designers-brain/references/pipelines.md  refs(unique)=3
+  skills/designers-brain/references/evidence.md  refs(unique)=7
+  skills/designers-brain/references/review.md  refs(unique)=1
+  skills/designers-brain/references/question-bank.md  refs(unique)=1
+  skills/designers-brain/references/direction-protocol.md  refs(unique)=3
+
+== 路径核验（仓库既有 + 包内）==
+  checked=58 ok=58 fail=1
+  （目录 12 / 文件 43 / 通配符 3）
+    ok   agents/openai.yaml  [file]
+    ok   docs/skill/_selfcheck.py  [file]
+    ok   docs/skill/draft/SKILL.md  [file]
+    ok   docs/skill/refs/design-packs/huashu-design_consultant_excerpts.md  [file]
+    ok   docs/skill/refs/spec/  [dir]
+    ok   docs/skill/refs/spec/claude-code_plugin_manifest_excerpt.md  [file]
+    ok   docs/skill/refs/spec/codex_plugin_manifest_spec.md  [file]
+    ok   docs/skill/refs/superpowers/brainstorming_SKILL.md  [file]
+    ok   docs/skill/refs/superpowers/manifest_samples.md  [file]
+    ok   docs/skill/skill_ecosystem.md  [file]
+    ok   docs/skill/skill_spec.md  [file]
+    ok   domains.yaml  [file]
+    ok   experiments/E1_t1b/  [dir]
+    ok   experiments/E1_t1c/  [dir]
+    ok   experiments/E2_t1/  [dir]
+    ok   experiments/anim_test_01/  [dir]
+    ok   experiments/anim_test_02/  [dir]
+    ok   experiments/anim_test_03_blender/  [dir]
+    ok   experiments/design.md  [file]
+    ok   knowledge/CAPABILITIES.json  [file]
+    ok   knowledge/CAPABILITIES.md  [file]
+    ok   knowledge/LEARNING-INDEX.json  [file]
+    ok   knowledge/agent-art/blender/workflow.md  [file]
+    ok   knowledge/agent-art/html/workflow.md  [file]
+    ok   knowledge/cross/conflicts.md  [file]
+    ok   knowledge/cross/image_channel.md  [file]
+    ok   knowledge/cross/review_rubric.md  [file]
+    ok   knowledge/cross/transfer_guide.md  [file]
+    ok   knowledge/domains/motion-graphics/cards/author_tutorial.md  [file]
+    ok   knowledge/domains/motion-graphics/cards/mg-styles-15_handbook.md  [file]
+    ok   knowledge/domains/motion-graphics/cards/structure.md  [file]
+    ok   knowledge/domains/motion-graphics/origin/  [dir]
+    ok   knowledge/domains/motion-graphics/origin/提示词全文.md  [file]
+    ok   knowledge/domains/painters/dossiers/  [dir]
+    ok   knowledge/domains/painters/learning/INDEX.md  [file]
+    ok   knowledge/domains/painters/modules/  [dir]
+    ok   knowledge/domains/painters/modules/*.md  [glob(77)]
+    ok   knowledge/domains/painters/modules/README.md  [file]
+    ok   knowledge/domains/painters/modules/_extract.py  [file]
+    ok   knowledge/domains/painters/style_candidates/INDEX.md  [file]
+    ok   references/*.md  [glob(9)]
+    ok   references/conflicts.md  [file]
+    ok   references/direction-protocol.md  [file]
+    ok   references/evidence.md  [file]
+    ok   references/mg-cards.md  [file]
+    ok   references/output-forms.md  [file]
+    ok   references/painter-modules.md  [file]
+    ok   references/pipelines.md  [file]
+    ok   references/question-bank.md  [file]
+    ok   references/review.md  [file]
+    ok   skills/*/SKILL.md  [glob(1)]
+    ok   skills/designers-brain  [dir]
+    ok   skills/designers-brain/  [dir]
+    ok   skills/designers-brain/SKILL.md  [file]
+    ok   skills/designers-brain/agents/openai.yaml  [file]
+    ok   templates/design_brief.md  [file]
+    ok   templates/determinism_contract.md  [file]
+    ok   templates/style_card.md  [file]
+
+== 失败 ==
+    FAIL docs/skill/consumer-evidence.md#readability-after-local-checks  [not found]  ← ['skills/designers-brain/references/painter-modules.md']
+
+== 规划路径（备选布局，不计失败）== planned=1
+    ⏳ docs/skill/designers-brain/
+
+== 机器级/打包件路径（--repo-only：跳过用户级安装检查）== SKIPPED
+
+== 示意形态（占位符，跳过）== schematic=6
+    ~ experiments/<E-id>/design-brief.md
+    ~ knowledge/...
+    ~ references/...
+    ~ skills/...
+    ~ skills/<name>/SKILL.md
+    ~ templates/...
+
+== frontmatter ==
+  -- 落位版（skills/designers-brain/SKILL.md）--
+  OK: name='designers-brain' (len=15, 小写/连字符=True, 首尾/连续连字符=True)
+  OK: name 与父目录同名：'designers-brain' vs 'designers-brain' = True
+  OK: description 长度=622 (≤1024)
+  -- 草案（docs/skill/draft/SKILL.md；临时位，父目录同名要求以落位版为准）--
+  OK: name='designers-brain' (len=15, 小写/连字符=True, 首尾/连续连字符=True)
+  OK: description 长度=294 (≤1024)
+
+== junction 解析（4 条；--repo-only：跳过用户级安装检查）== SKIPPED
+
+== domains.yaml 校验（count == cards 目录实际数）==
+      ok [painter] count=76 actual=76（knowledge/domains/painters/modules/*.md − README.md）
+      ok [mg-motion] count=15 actual=15（knowledge/domains/motion-graphics/origin/ 01–15 号卡截图）
+
+RESULT: FAIL  (mode=repo-only · checked=58 fail=1 planned=1 · junctions=skipped · domains=ok · harness_fail=skipped)

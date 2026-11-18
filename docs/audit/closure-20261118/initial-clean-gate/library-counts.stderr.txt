@@ -1,0 +1,1 @@
+ERROR: README.md: declaration pattern not found for 'citations' ('(\\d+) sourced quotes')

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "scope": "Only read-only tools/check_library_counts.py compatibility and field-correct comparisons; README/rights data/historical baseline unchanged",
+  "observed_head": "2e79911ba777c116fa5c8cd3a32e9c5fb2843c67",
+  "source_guards": [
+    {
+      "path": "README.ja.md",
+      "sha256": "6940a4f46e733f5d4e571863a5cd2f0b8f2f88ca5dca8a4eae5986fb3aa50a0f",
+      "bytes": 8809
+    },
+    {
+      "path": "README.md",
+      "sha256": "5672a63b891be91e5f543df63156a238f9ea498e70ecd5a8000b905dff4ede36",
+      "bytes": 7679
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "da5687d5f1c3c723bb3233962d61874261c495700cfbabd9eb2b8c28eebc70ab",
+      "bytes": 6760
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/_images/rights-file-level.json",
+      "sha256": "e2378bdec79210e95fbc37e7519a319b94f95e38fd199a0ffe358fe83801a701",
+      "bytes": 433068
+    }
+  ],
+  "files": [
+    {
+      "path": "tools/check_library_counts.py",
+      "before_sha256": "b1756046aee9c3ddc1d742cfd598623333eab3fb055bf227f3592734daf4d22b",
+      "before_bytes": 13046,
+      "after_sha256": "9278fa5889afb27fad5173f20b25720c7c8100b325c2d20ddc319f9f020fd166",
+      "after_bytes": 17952,
+      "operation": "replace_guarded"
+    }
+  ],
+  "revision": 2,
+  "revision_reason": "Reject negative/decimal numeric tails; preserve v1 artifacts and original baseline"
+}

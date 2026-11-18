@@ -16,7 +16,7 @@
 | 图像权利 | 739 个文件分类：39 明确需署名、699 本清单未标需署名、1 条件不确定 | [NOTICE](../../../NOTICE.md)、[逐文件清单](../../../knowledge/domains/painters/dossiers/_images/rights-file-level.json) | 画作权利与照片文件许可分别判断；条件项保持 null；不是所有法域通用许可结论 |
 | 7 个 seed | 7 个本地包均实际构建；新补4包；原3包第二新进程与第一新进程47个输出全同 | [seed 入口](../../../experiments/designer_seeds/README.md)、[成对运行](runtime/seed-determinism-final/RESULT.json) | 全部 E1；作者算法、E2/E3、active、图像服务及人评未被证明 |
 | 19 项历史绑定 | 107 个原始 artifact、15 个 receipt、47 个投影头核对；当前交付映射覆盖58个不同文件，均存在并绑定，文本修订16处文件 | [当前映射](../current19/CURRENT-DELIVERY-MAPPING.json)、[有界审阅](../current19/CURRENT-DELIVERY-REVIEW.md) | 历史接收不自动覆盖修改后版本；当前仅研究交付接收，非 E4/人评 |
-| 76 位学习组织 | 原41份独立思考稿＋新增7份决策顺序＋28份既有等价组织路径；矩阵列和 B3 导航已纠正 | [覆盖矩阵](../../../knowledge/domains/painters/learning/COVERAGE-MATRIX.md)、[阅读范围](../corpus/CORPUS-LANES-SUMMARY.md) | 家族 A/B/C 是原分类，非质量等级；不声称76份所有正文和2044外部来源均重验 |
+| 76 位学习组织 | 原41份独立思考稿＋新增7份决策顺序＋28份既有等价组织路径；矩阵列和 B3 导航已纠正 | [覆盖矩阵](../../../knowledge/domains/painters/learning/COVERAGE-MATRIX.md)、[阅读范围](../corpus/CORPUS-LANES-SUMMARY.md) | 家族 A/B/C 是原分类，非质量等级；不声称76位全部相关正文或2044条带来源引文及对应来源均已逐条重验 |
 | 新 C1 消费者 | 一次新上下文、有封存 A/B、延迟参考揭示和真实 SVG/PNG负控；过程完成，案例失败 | [试验](../../../experiments/consumer_skill/C1-closure/)、[Root 视觉裁决](../../../experiments/consumer_skill/C1-closure/control/ROOT-REVIEW.md) | H1 partial、H2 limited；A 布袋像罐，B 车尾辨识丢失；不能声称学习效果通过 |
 | 真人评价 | 23个位置均可直接进入图片；22个实验位置＋1个可选基线，主要分数留空 | [查看指引](../../HUMAN-REVIEW-VIEWING.md)、[空白评分表](../../HUMAN-REVIEW-SCORES.md) | 需要真人输入；未代填分数 |
 
@@ -32,7 +32,7 @@ Motion-03 修正六本书的侧面/顶面和遮挡关系、中文地面文字与
 
 ## 历史阅读覆盖
 
-原网页导出包含1899个节点：21条用户消息、1191条 assistant、686条 tool。主审读完169段叙事及21条用户决定；独立审阅建立1360条操作账：674项 assistant 工具请求与686项工具返回。
+原网页导出包含1899个节点：21条用户消息、1191条 assistant、686条 tool，另含1个根节点。主审读完169段叙事及21条用户决定；独立审阅建立1360条操作账：674项 assistant 工具请求与686项工具返回。
 
 686项工具返回只有141项有正文，545项为空；至少26处截断。5个嵌入ZIP完成解码、CRC与哈希核对，但并未宣称所有成员、407个 OMP子日志或所有外部引文全文均已重新阅读。无法恢复的历史输出仍未知，报告中的成功语句没有代替当前运行验证。
 
@@ -57,3 +57,9 @@ Motion-03 修正六本书的侧面/顶面和遮挡关系、中文地面文字与
 独立分支复核发现的三项说明／谱系问题现已修正：五份 UI 文档更新为真实 Windows 结果并保留22:14与22:48的区别；consumer 32份历史材料以20原字节＋12精确LF投影披露，当前44条SHA全部绑定实际仓库字节；xchylerdrenth build.py恢复几何补丁前的original pin，并保留导入字节身份。源码不因这三项说明修正而重渲。[应用前独立审阅](RELEASE-BRANCH-REVIEW.md)、[资源保全](PRESERVATION.json)、[consumer投影](../../../experiments/consumer_skill/HISTORICAL32-PROJECTION.json)分别记录依据。
 
 UI03的missing_name负例删除的是项目要求的aria-label；可见按钮文本仍在，实际检查没有测量浏览器计算出的可访问名称。该结果仅证明所声明的显式标签契约被拦截。
+
+## 首次干净克隆发现的两项门审故障
+
+实际隔离检出 659259521d3321ec0eafb36903ad5131f0d656c9 的第一次门审失败，原始结论保留在 [initial-clean-gate](initial-clean-gate/RESULT.json)。自检把新 Markdown 章节片段当作文件名；现链接到同一文档，自检实际复跑59/59。另一个故障是计数脚本仍期待旧README措辞；修补后逐字段核对三语，并重算历史作品标签701/38与实际文件分类39/699/1，保留两种口径的区别。
+
+计数修补经两个真实输入正例、七个定字段篡改和四个结构反例验证。反证审阅发现的负数/小数尾部匹配已在集成前修复；原历史baseline及README并未为迎合工具而修改。完整有限回执及复现入口见 [counts-tool-repair](counts-tool-repair/README.md)。修复后的独立检出技术门结果由 FINAL-GATE.json 单独记录，未把旧失败改成通过。

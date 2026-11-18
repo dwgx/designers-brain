@@ -1,11 +1,11 @@
 {
   "baseline_public_commit": "560ec8eab9221c6144def3fed9d3177c2f4b9d73",
-  "tracked_files": 3203,
-  "untracked_files": 4,
-  "changed_or_new_paths": 709,
-  "text_files_scanned": 577,
+  "tracked_files": 3207,
+  "untracked_files": 24,
+  "changed_or_new_paths": 734,
+  "text_files_scanned": 602,
   "privacy_findings": [],
-  "selected_markdown_links_checked": 218,
+  "selected_markdown_links_checked": 220,
   "broken_links": [],
   "consumer_delta": [
     {

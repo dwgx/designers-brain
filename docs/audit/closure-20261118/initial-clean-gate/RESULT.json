@@ -1,0 +1,173 @@
+{
+  "schema": "designers-brain-final-clean-gate@1",
+  "started_utc": "2026-11-17T23:47:12.168111+00:00",
+  "ended_utc": "2026-11-17T23:47:24.701767+00:00",
+  "tested_commit": "659259521d3321ec0eafb36903ad5131f0d656c9",
+  "tested_tree": "d8f16fd9a0be9eafc69e1e10b52a3a8617727ca5",
+  "clone_method": "git clone --no-hardlinks --branch fix/closure-publish-20261118; independent working tree from exact publication candidate",
+  "commands": [
+    {
+      "name": "skill-repo-only",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "docs/skill/_selfcheck.py",
+        "--repo-only"
+      ],
+      "started_utc": "2026-11-17T23:47:12.317577+00:00",
+      "ended_utc": "2026-11-17T23:47:12.375823+00:00",
+      "exit_code": 1,
+      "expected_exit": 0,
+      "passed": false,
+      "stdout_raw_sha256": "7732ee382cc30865bc5360b9421bc520cd72f1f45ccc1f197826ce2b11e12ab0",
+      "stdout_public_sha256": "37e5b91e2002ce07038062bc41b101d962d6d299d6047f0d4854628260c0ad44",
+      "stdout_public_file": "skill-repo-only.stdout.txt",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_file": "skill-repo-only.stderr.txt"
+    },
+    {
+      "name": "module-extract",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "knowledge/domains/painters/modules/_extract.py",
+        "--check"
+      ],
+      "started_utc": "2026-11-17T23:47:12.317791+00:00",
+      "ended_utc": "2026-11-17T23:47:12.373750+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "8fa38987afb8dfd60661a20ca9dc425a9c206ac618b0984025a5560470240567",
+      "stdout_public_sha256": "c70d29d72f70b4f71c8750c1ca7da859a02dc8f3b4c393475349aa76333790fa",
+      "stdout_public_file": "module-extract.stdout.txt",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_file": "module-extract.stderr.txt"
+    },
+    {
+      "name": "library-counts",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_library_counts.py",
+        "--json"
+      ],
+      "started_utc": "2026-11-17T23:47:12.317988+00:00",
+      "ended_utc": "2026-11-17T23:47:12.390929+00:00",
+      "exit_code": 2,
+      "expected_exit": 0,
+      "passed": false,
+      "stdout_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_public_file": "library-counts.stdout.txt",
+      "stderr_raw_sha256": "b30af4d80a6e957eea52ee1dac90008284b5a88579c1c0f799ece45af0b60859",
+      "stderr_public_sha256": "ec8541c8e07e4110b1b33ecf4a6ad449fa86890632fead8adc27b845a45bfa44",
+      "stderr_public_file": "library-counts.stderr.txt"
+    },
+    {
+      "name": "rights",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_image_rights.py"
+      ],
+      "started_utc": "2026-11-17T23:47:12.375991+00:00",
+      "ended_utc": "2026-11-17T23:47:12.448969+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "e4b7052be7a8300578a0d1bf598cb87de67520485fe91b890f9ad269195122ca",
+      "stdout_public_sha256": "634f58e36edfe4bb1ca807a1467aa2fa52853d7b85e47d8676d92b9c63f4bfc7",
+      "stdout_public_file": "rights.stdout.txt",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_file": "rights.stderr.txt"
+    },
+    {
+      "name": "closure-bindings",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_closure_bindings.py",
+        "--report",
+        "CLOSURE_WORKSPACE\\web-review\\final-clean-gate\\bindings.json"
+      ],
+      "started_utc": "2026-11-17T23:47:12.377091+00:00",
+      "ended_utc": "2026-11-17T23:47:12.802792+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "0b65a605ddb8802a4fa30e5149fdcae7783348c8d86fa09b29c0fbc54f579289",
+      "stdout_public_sha256": "3f467faad30a3b17204b6b7ad7db2233668c711a25feef78266ac740f57faba5",
+      "stdout_public_file": "closure-bindings.stdout.txt",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_file": "closure-bindings.stderr.txt"
+    },
+    {
+      "name": "motion-full-decode",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "experiments/motion_closure/verify_all.py",
+        "--root",
+        "FRESH_CLONE\\experiments\\motion_closure",
+        "--ffmpeg",
+        "CLOSURE_WORKSPACE\\web-runtime\\ffmpeg\\ffmpeg-win-x86_64-v9.0.2.exe",
+        "--report",
+        "CLOSURE_WORKSPACE\\web-review\\final-clean-gate\\motion.json"
+      ],
+      "started_utc": "2026-11-17T23:47:12.392033+00:00",
+      "ended_utc": "2026-11-17T23:47:24.670244+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "2df6828d14df58ff37e87142ed3501383daf27c6bff3e5ab58ea798936203ecd",
+      "stdout_public_sha256": "27f35229a256f2be88e7aa25489efb0913e5995b61bc5f8439dfb35ec7287539",
+      "stdout_public_file": "motion-full-decode.stdout.txt",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_file": "motion-full-decode.stderr.txt"
+    },
+    {
+      "name": "ui-gate-contracts",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "examples/ui/check_gate_contracts.py"
+      ],
+      "started_utc": "2026-11-17T23:47:12.449990+00:00",
+      "ended_utc": "2026-11-17T23:47:12.508549+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "fdc8036fe761aba8c8740112bab7839d576f804649154d8efa2f292f8d8ece30",
+      "stdout_public_sha256": "bf533dce01499d9d90ad15a16290eb596b199f2a5e6f1c7e256d91512fcc65ab",
+      "stdout_public_file": "ui-gate-contracts.stdout.txt",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_file": "ui-gate-contracts.stderr.txt"
+    }
+  ],
+  "clean_before": true,
+  "clean_after": true,
+  "dirty_paths_after": [],
+  "passed": false,
+  "scope": "Actual clean-clone technical gates. Earlier browser/seed/negative runs are independently bound to these same relevant inputs. No new human score, E4, consumer success or OS IME claim."
+}
