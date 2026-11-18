@@ -1,0 +1,13 @@
+{
+ "diff_map": "diff_v3_grain.png",
+ "stats": {
+  "mean_abs_diff_overall": 6.0361,
+  "mean_abs_diff_bright_region": 4.9773,
+  "mean_abs_diff_halo_region": 6.3503,
+  "mean_abs_diff_flat_region": 5.8671
+ },
+ "dims": [
+  64,
+  48
+ ]
+}

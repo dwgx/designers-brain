@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "basis": "7 current targets absent at source read; no historical receipts amended",
+  "files": [
+    {
+      "artist": "friedrich",
+      "path": "knowledge/domains/painters/learning/friedrich/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "9cd5eb3ef88cb5fe8d9d51a80725ef602b79b0b42e78bd625b388015c041f76a",
+      "after_bytes": 10814,
+      "operation": "create_if_absent",
+      "status": "scoped_review_complete",
+      "independent_review": "completed_for_current_organization",
+      "new_inference": "把原有原则、参数与反例重排为凝视目标→观看位置→空间层带→光色→象征→对照检查；显式分开无人物／有背影、象征关闭／开启、弱层带／严格规则三种适用分支。",
+      "remaining": [
+        "§4／§8.2 阈值未对原作像素测量；该序列未经过 E4 或真人学习成效验证。",
+        "无人物、弱层带、象征关闭与强规则之间的适用差异是本稿明确记录的学习分支，不是重写原档案的历史结论。",
+        "德文原刊／书页及若干馆藏直读缺口沿用 dossier §10；本轮未外部回源，也未重验图版权利。"
+      ]
+    },
+    {
+      "artist": "gauguin",
+      "path": "knowledge/domains/painters/learning/gauguin/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "7cd7cd936e30ce3c58cb1c35170a2bbd22191beab143fd7cb81284bfa97f63e9",
+      "after_bytes": 10718,
+      "operation": "create_if_absent",
+      "status": "scoped_review_complete",
+      "independent_review": "completed_for_current_organization",
+      "new_inference": "把已修订 G-E1／G-E2／G-E3 与原则、参数组织为目标范围→来源工作流→空间简化→颜色关系→轮廓和图案→局部比较；保留形式练习、语义关系和不可由静态图证明的 P6 三类证据边界。",
+      "remaining": [
+        "本稿没有执行 G-E1／G-E2／G-E3，也没有新增原作像素测量、E4 或真人学习结果。",
+        "P6 的方法判断需要实际过程材料；颜色—主题关系可做记录核对，不能由记录齐备推出观者情绪或文化解释正确。",
+        "dossier §10 的原信、文本版本、馆藏直读和殖民语境来源限制照旧保留；本轮未重访外部来源。"
+      ]
+    },
+    {
+      "artist": "hopper",
+      "path": "knowledge/domains/painters/learning/hopper/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "f292084559537b7d62709a51182b68fae06b89a994d8616436c50812b725ceea",
+      "after_bytes": 10581,
+      "operation": "create_if_absent",
+      "status": "scoped_review_complete",
+      "independent_review": "completed_for_current_organization",
+      "new_inference": "将光的任务、昼夜分支、几何简化、画中框、人烟与时间条件串成六步；显式处理一个夜间光源仍满足≤3、无人分支与有主体位置条件、参数弱档与严格规则的差别。",
+      "remaining": [
+        "量化档位与规则未经原作像素／渲染校准，新的顺序未经 E4 或真人学习效果验证。",
+        "多源夜光与 R2 单一投影方向若同时启用，必须说明适用区域和剩余冲突；本稿不给未经裁决的局部规则冒充原规范。",
+        "外部引文、书信原图、馆藏可达性与图像权利沿用 dossier §10 的未决范围；本稿不含私有图像。"
+      ]
+    },
+    {
+      "artist": "ito_jakuchu",
+      "path": "knowledge/domains/painters/learning/ito_jakuchu/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "da3c7392c4dbc73534be7d2d09a3f409946e01415a646a31e802e03b25c1d467",
+      "after_bytes": 10887,
+      "operation": "create_if_absent",
+      "status": "scoped_review_complete",
+      "independent_review": "completed_for_current_organization",
+      "new_inference": "将浓彩／水墨、写生／升目、单主体／群体三个既有分支前置，随后组织色面、密度、材料代理与姿态；避免把浓彩八条规则强加给全部作品，也不把数字暖白效果冒称真实裏彩工艺。",
+      "remaining": [
+        "参数与八条规则均未对原作像素实测；本序列未做 E4、动画实验或真人学习成效检验。",
+        "真实裏彩、颜料层次与图像代理是不同证据；本轮只读文字，不宣称看过原作或完成材料实验。",
+        "dossier §10 的原典、日历／献上年差异、分析报告与筋目描き资料等缺口照旧；本稿不为这些未知补造事实。"
+      ]
+    },
+    {
+      "artist": "kitagawa_utamaro",
+      "path": "knowledge/domains/painters/learning/kitagawa_utamaro/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "5f7c36e9ec06473d012f702555729ee122e64356f352e97826658b9d964e31cd",
+      "after_bytes": 11171,
+      "operation": "create_if_absent",
+      "status": "scoped_review_complete",
+      "independent_review": "completed_for_current_organization",
+      "new_inference": "将构图范围、线系统、微差、手势、背景与静帧／序列六项排成实际决策顺序；区分单人大首规则与原档案其他构图，区分视觉代理与真实空摺工艺，不把表情或相学读法当真实性格判断。",
+      "remaining": [
+        "原七条规则与参数均未对原作像素校准；本稿未执行 E4、真实版印或真人审美／学习评估。",
+        "R3 的背景方差阈值、R5 的参考帧与相似度方法仍未充分定义；本稿明确记录未知，不补造数值。",
+        "ColBase 等具体图像的来源与 credit 仍由权利记录逐件承载；本稿未重访许可页，也不把本地文字一致性当作全球许可结论。"
+      ]
+    },
+    {
+      "artist": "kngwarreye",
+      "path": "knowledge/domains/painters/learning/kngwarreye/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "3c0ed49f96503e41a1f5027c956d66dfafe372c534ab2ad9143681603e9c1e35",
+      "after_bytes": 11366,
+      "operation": "create_if_absent",
+      "status": "scoped_review_complete",
+      "independent_review": "completed_for_current_organization",
+      "new_inference": "把知识／素材边界、点线选档、多尺度、全幅观看、分层及证据结算排成六步；保留 Country 与社群解释权的已有来源边界，显式指出 0 锚点预算不等于满足另一处≥1身份口径，旋转后的全局直方图相同也不足以证明全幅无方向。",
+      "remaining": [
+        "本稿不解码未公开仪式知识，不宣称社群认可、素材授权或文化真实性；来源／同意状态未知的项仍未决。",
+        "R3 的统计方法与 R7／§3 的锚点适用口径需要精确定义；本稿提供明确记录方法，不回写历史规范或捏造统一验收。",
+        "原作量化、E4、真人学习效果、实际时间指标都未由本稿验证；图像权利及外部书目限制沿用当前记录。"
+      ]
+    },
+    {
+      "artist": "li_keran",
+      "path": "knowledge/domains/painters/learning/li_keran/how-to-think.md",
+      "before_sha256": null,
+      "before_bytes": null,
+      "after_sha256": "6bc1a34905691ae0f5904fab43bb635c80ee4fddbbde1075e1a25d4df38c673b",
+      "after_bytes": 10855,
+      "operation": "create_if_absent",
+      "status": "scoped_review_complete",
+      "independent_review": "completed_for_current_organization",
+      "new_inference": "将观察提炼、逆光／亮口、满构图、积墨层次、色域与点景比较排成六步；区分亮口形态各分支、画面明度层与真实积染遍数，以及批评界归纳与作者自述。",
+      "remaining": [
+        "原参数与八条规则未像素实测；新顺序没有新增 E4、真人学习收益或审美接收。",
+        "亮度层次不等于积染遍数，数字代理不等于材料工艺；部分分支与强规则的适用差异已明列。",
+        "引文载体、版本谱系、单向分工与具体图像权利限制沿用现行记录；不导出私有图像，也不把旧结论改成新的外部核验。"
+      ]
+    }
+  ]
+}

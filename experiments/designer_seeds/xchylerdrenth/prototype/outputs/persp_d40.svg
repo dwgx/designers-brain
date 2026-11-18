@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-config="persp_d40" data-perspective="1" data-deco="40" data-code="0">
+  <rect x="0" y="0" width="512" height="384" fill="#f4f4f1" data-role="background" />
+  <path d="M 30.00 372.00 L 206.28 136.44" stroke="#96b4d2" stroke-width="2" fill="none" data-role="depth-line" data-index="0" />
+  <path d="M 120.00 372.00 L 226.08 136.44" stroke="#96b4d2" stroke-width="2" fill="none" data-role="depth-line" data-index="1" />
+  <path d="M 210.00 372.00 L 245.88 136.44" stroke="#96b4d2" stroke-width="2" fill="none" data-role="depth-line" data-index="2" />
+  <path d="M 300.00 372.00 L 265.68 136.44" stroke="#96b4d2" stroke-width="2" fill="none" data-role="depth-line" data-index="3" />
+  <path d="M 390.00 372.00 L 285.48 136.44" stroke="#96b4d2" stroke-width="2" fill="none" data-role="depth-line" data-index="4" />
+  <path d="M 480.00 372.00 L 305.28 136.44" stroke="#96b4d2" stroke-width="2" fill="none" data-role="depth-line" data-index="5" />
+  <path d="M 99.20 86.00 L 191.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="a" data-to="c" />
+  <path d="M 99.20 246.00 L 191.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="b" data-to="c" />
+  <path d="M 191.20 166.00 L 291.20 86.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="c" data-to="d" />
+  <path d="M 191.20 166.00 L 291.20 246.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="c" data-to="e" />
+  <path d="M 291.20 86.00 L 379.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="d" data-to="f" />
+  <path d="M 291.20 246.00 L 379.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="e" data-to="f" />
+  <path d="M 291.20 246.00 L 291.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="e" data-to="g" />
+  <path d="M 379.20 166.00 L 431.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="f" data-to="h" />
+  <path d="M 291.20 166.00 L 431.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="g" data-to="h" />
+  <path d="M 191.20 166.00 L 291.20 166.00" stroke="#282c32" stroke-width="3" fill="none" data-role="structure-edge" data-from="c" data-to="g" />
+  <circle cx="99.20" cy="86.00" r="13" fill="#466e96" data-role="node" data-node="a" />
+  <text x="96.20" y="90.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">a</text>
+  <circle cx="99.20" cy="246.00" r="13" fill="#466e96" data-role="node" data-node="b" />
+  <text x="96.20" y="250.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">b</text>
+  <circle cx="191.20" cy="166.00" r="13" fill="#466e96" data-role="node" data-node="c" />
+  <text x="188.20" y="170.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">c</text>
+  <circle cx="291.20" cy="86.00" r="13" fill="#466e96" data-role="node" data-node="d" />
+  <text x="288.20" y="90.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">d</text>
+  <circle cx="291.20" cy="246.00" r="13" fill="#466e96" data-role="node" data-node="e" />
+  <text x="288.20" y="250.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">e</text>
+  <circle cx="379.20" cy="166.00" r="13" fill="#466e96" data-role="node" data-node="f" />
+  <text x="376.20" y="170.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">f</text>
+  <circle cx="291.20" cy="166.00" r="13" fill="#466e96" data-role="node" data-node="g" />
+  <text x="288.20" y="170.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">g</text>
+  <circle cx="431.20" cy="166.00" r="13" fill="#466e96" data-role="node" data-node="h" />
+  <text x="428.20" y="170.00" font-family="monospace" font-size="12" fill="#ffffff" data-role="node-label">h</text>
+  <circle cx="24" cy="30" r="3" fill="#c8aa5a" data-role="deco" data-index="0" />
+  <circle cx="84" cy="34" r="3" fill="#c8aa5a" data-role="deco" data-index="1" />
+  <circle cx="144" cy="38" r="3" fill="#c8aa5a" data-role="deco" data-index="2" />
+  <circle cx="204" cy="30" r="3" fill="#c8aa5a" data-role="deco" data-index="3" />
+  <circle cx="264" cy="34" r="3" fill="#c8aa5a" data-role="deco" data-index="4" />
+  <circle cx="324" cy="38" r="3" fill="#c8aa5a" data-role="deco" data-index="5" />
+  <circle cx="384" cy="30" r="3" fill="#c8aa5a" data-role="deco" data-index="6" />
+  <circle cx="444" cy="34" r="3" fill="#c8aa5a" data-role="deco" data-index="7" />
+  <circle cx="32" cy="64" r="3" fill="#c8aa5a" data-role="deco" data-index="8" />
+  <circle cx="92" cy="56" r="3" fill="#c8aa5a" data-role="deco" data-index="9" />
+  <circle cx="152" cy="60" r="3" fill="#c8aa5a" data-role="deco" data-index="10" />
+  <circle cx="212" cy="64" r="3" fill="#c8aa5a" data-role="deco" data-index="11" />
+  <circle cx="272" cy="56" r="3" fill="#c8aa5a" data-role="deco" data-index="12" />
+  <circle cx="332" cy="60" r="3" fill="#c8aa5a" data-role="deco" data-index="13" />
+  <circle cx="392" cy="64" r="3" fill="#c8aa5a" data-role="deco" data-index="14" />
+  <circle cx="452" cy="56" r="3" fill="#c8aa5a" data-role="deco" data-index="15" />
+  <circle cx="40" cy="86" r="3" fill="#c8aa5a" data-role="deco" data-index="16" />
+  <circle cx="100" cy="90" r="3" fill="#c8aa5a" data-role="deco" data-index="17" />
+  <circle cx="160" cy="82" r="3" fill="#c8aa5a" data-role="deco" data-index="18" />
+  <circle cx="220" cy="86" r="3" fill="#c8aa5a" data-role="deco" data-index="19" />
+  <circle cx="280" cy="90" r="3" fill="#c8aa5a" data-role="deco" data-index="20" />
+  <circle cx="340" cy="82" r="3" fill="#c8aa5a" data-role="deco" data-index="21" />
+  <circle cx="400" cy="86" r="3" fill="#c8aa5a" data-role="deco" data-index="22" />
+  <circle cx="460" cy="90" r="3" fill="#c8aa5a" data-role="deco" data-index="23" />
+  <circle cx="48" cy="108" r="3" fill="#c8aa5a" data-role="deco" data-index="24" />
+  <circle cx="108" cy="112" r="3" fill="#c8aa5a" data-role="deco" data-index="25" />
+  <circle cx="168" cy="116" r="3" fill="#c8aa5a" data-role="deco" data-index="26" />
+  <circle cx="228" cy="108" r="3" fill="#c8aa5a" data-role="deco" data-index="27" />
+  <circle cx="288" cy="112" r="3" fill="#c8aa5a" data-role="deco" data-index="28" />
+  <circle cx="348" cy="116" r="3" fill="#c8aa5a" data-role="deco" data-index="29" />
+  <circle cx="408" cy="108" r="3" fill="#c8aa5a" data-role="deco" data-index="30" />
+  <circle cx="468" cy="112" r="3" fill="#c8aa5a" data-role="deco" data-index="31" />
+  <circle cx="56" cy="142" r="3" fill="#c8aa5a" data-role="deco" data-index="32" />
+  <circle cx="116" cy="134" r="3" fill="#c8aa5a" data-role="deco" data-index="33" />
+  <circle cx="176" cy="138" r="3" fill="#c8aa5a" data-role="deco" data-index="34" />
+  <circle cx="236" cy="142" r="3" fill="#c8aa5a" data-role="deco" data-index="35" />
+  <circle cx="296" cy="134" r="3" fill="#c8aa5a" data-role="deco" data-index="36" />
+  <circle cx="356" cy="138" r="3" fill="#c8aa5a" data-role="deco" data-index="37" />
+  <circle cx="416" cy="142" r="3" fill="#c8aa5a" data-role="deco" data-index="38" />
+  <circle cx="476" cy="134" r="3" fill="#c8aa5a" data-role="deco" data-index="39" />
+  <rect x="30" y="250" width="120" height="90" fill="#648cb4" stroke="#282c32" stroke-width="1" data-role="card-back" />
+  <rect x="100" y="290" width="120" height="90" fill="#d2783c" stroke="#282c32" stroke-width="1" data-role="card-front" />
+</svg>

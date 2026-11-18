@@ -1,0 +1,58 @@
+{
+  "case_id": "C3",
+  "attempt_id": "P4R-C3-20261117T123432",
+  "stage": "B",
+  "controls": [
+    {
+      "control": "A_A_metadata_consistency",
+      "expected": {
+        "case_id": "C3",
+        "attempt_id": "P4R-C3-20261117T123432",
+        "final_commit": "c35d748e1cc9f23415fff0bf019a9c03234c421e",
+        "final_tree": "fb24565b02597057784cbeed23f70ba657711804"
+      },
+      "actual": {
+        "case_id": "C3",
+        "attempt_id": "P4R-C3-20261117T123432",
+        "final_commit": "c35d748e1cc9f23415fff0bf019a9c03234c421e",
+        "final_tree": "fb24565b02597057784cbeed23f70ba657711804"
+      },
+      "passed": true
+    },
+    {
+      "control": "inflation_rejection",
+      "expected": "real accepted; supported-inflation rejected",
+      "actual": "real=True(accepted as conditional (preserved fields intact)); inflated=False(inflation: conditional must NOT be upgraded to supported)",
+      "passed": true
+    },
+    {
+      "control": "missing_field_failure",
+      "expected": "reject row with determinism_scope removed",
+      "actual": "accepted=False; reason=missing required field: determinism_scope",
+      "passed": true
+    },
+    {
+      "control": "reuse_hash_verification",
+      "expected": "4 reuse SHAs match matrix; wrong hash rejected",
+      "actual": {
+        "expected": {
+          "checks.md": "df2436deeb7d962fba6144d6d7afc4218269635192d603ab73fd3810b5726b5b",
+          "out.mp4": "b9c7ac4352629d6d88c988142e5432329d40a8067b88aceb7adddca592fe5007",
+          "build_scene.py": "01690dc7411d184e4733927c81c28c1455fe630ad85aec262e8d53b9da4bfcbb",
+          "scene.blend": "5690abf1935dca2a82c21a1005ddc1670c3865be77bb9d79c087fdf8f8c7cf63"
+        },
+        "actual": {
+          "checks.md": "df2436deeb7d962fba6144d6d7afc4218269635192d603ab73fd3810b5726b5b",
+          "out.mp4": "b9c7ac4352629d6d88c988142e5432329d40a8067b88aceb7adddca592fe5007",
+          "build_scene.py": "01690dc7411d184e4733927c81c28c1455fe630ad85aec262e8d53b9da4bfcbb",
+          "scene.blend": "5690abf1935dca2a82c21a1005ddc1670c3865be77bb9d79c087fdf8f8c7cf63"
+        },
+        "wrong_hash_accepted": false
+      },
+      "passed": true
+    }
+  ],
+  "verdict": "PASS",
+  "exit_code_semantics": "process exit code forced 0; verdict line is authoritative",
+  "candidate_head": "c35d748e1cc9f23415fff0bf019a9c03234c421e"
+}

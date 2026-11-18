@@ -1,0 +1,12 @@
+{
+  "source_sha256": "cc3a554f5e119ad93bdc168fa706758d49ae46260898713ce5b4ea49cbf552a7",
+  "normal_positive_pass": true,
+  "existing_negative_controls_detected": true,
+  "serialized_geometry_mutant": {
+    "changed_paths": 10,
+    "labels_unchanged": true,
+    "T1_passed": false,
+    "whole_positive_suite_passed": false
+  },
+  "scope": "Bounded M/L fixture path geometry and serialized files; no general SVG security or human readability verdict"
+}

@@ -1,0 +1,52 @@
+{
+  "baseline_public_commit": "560ec8eab9221c6144def3fed9d3177c2f4b9d73",
+  "tracked_files": 3207,
+  "untracked_files": 24,
+  "changed_or_new_paths": 734,
+  "text_files_scanned": 602,
+  "privacy_findings": [],
+  "selected_markdown_links_checked": 220,
+  "broken_links": [],
+  "consumer_delta": [
+    {
+      "path": "knowledge/INDEX.md",
+      "whole_blob_unchanged": true,
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "knowledge/LEARNING-INDEX.json",
+      "whole_blob_unchanged": false,
+      "consumed_ranges_unchanged": null
+    },
+    {
+      "path": "knowledge/domains/painters/learning/INDEX.md",
+      "whole_blob_unchanged": false,
+      "consumed_ranges_unchanged": false
+    },
+    {
+      "path": "knowledge/domains/painters/modules/README.md",
+      "whole_blob_unchanged": false,
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "skills/designers-brain/SKILL.md",
+      "whole_blob_unchanged": true,
+      "consumed_ranges_unchanged": null
+    },
+    {
+      "path": "skills/designers-brain/references/painter-modules.md",
+      "whole_blob_unchanged": false,
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+      "whole_blob_unchanged": true,
+      "consumed_ranges_unchanged": true
+    },
+    {
+      "path": "knowledge/domains/painters/modules/da_vinci.md",
+      "whole_blob_unchanged": true,
+      "consumed_ranges_unchanged": true
+    }
+  ]
+}

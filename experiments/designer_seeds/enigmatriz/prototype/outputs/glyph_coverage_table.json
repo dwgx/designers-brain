@@ -1,0 +1,106 @@
+{
+  "method": "For each candidate glyph, render it with the declared font into a cell_w x cell_h binary tile (fill=255 ink on 0 background) using ImageDraw.text; ink_px = count of pixels >0; coverage = ink_px/(cell_w*cell_h). Sort ASCENDING by coverage to build the ramp. NO assumption that '@' is darkest - the ramp is MEASURED.",
+  "font_used": "consola.ttf @12px",
+  "declared_font_sha256": "cf00b507b3286870cc5064ebd0633c303f70b491a4af25eec2d32df413db0179",
+  "font_redistributed": false,
+  "candidates": [
+    " ",
+    ".",
+    ":",
+    "-",
+    "=",
+    "+",
+    "*",
+    "#",
+    "%",
+    "@"
+  ],
+  "n_glyphs": 10,
+  "ramp_measured_ascending_coverage": [
+    " ",
+    "-",
+    ".",
+    ":",
+    "=",
+    "+",
+    "*",
+    "#",
+    "%",
+    "@"
+  ],
+  "ramp_coverage_values": [
+    0.0,
+    0.034722,
+    0.041667,
+    0.083333,
+    0.083333,
+    0.104167,
+    0.125,
+    0.256944,
+    0.333333,
+    0.368056
+  ],
+  "table": [
+    {
+      "rank": 0,
+      "glyph": " ",
+      "ink_px": 0,
+      "coverage": 0.0
+    },
+    {
+      "rank": 1,
+      "glyph": "-",
+      "ink_px": 5,
+      "coverage": 0.034722
+    },
+    {
+      "rank": 2,
+      "glyph": ".",
+      "ink_px": 6,
+      "coverage": 0.041667
+    },
+    {
+      "rank": 3,
+      "glyph": ":",
+      "ink_px": 12,
+      "coverage": 0.083333
+    },
+    {
+      "rank": 4,
+      "glyph": "=",
+      "ink_px": 12,
+      "coverage": 0.083333
+    },
+    {
+      "rank": 5,
+      "glyph": "+",
+      "ink_px": 15,
+      "coverage": 0.104167
+    },
+    {
+      "rank": 6,
+      "glyph": "*",
+      "ink_px": 18,
+      "coverage": 0.125
+    },
+    {
+      "rank": 7,
+      "glyph": "#",
+      "ink_px": 37,
+      "coverage": 0.256944
+    },
+    {
+      "rank": 8,
+      "glyph": "%",
+      "ink_px": 48,
+      "coverage": 0.333333
+    },
+    {
+      "rank": 9,
+      "glyph": "@",
+      "ink_px": 53,
+      "coverage": 0.368056
+    }
+  ],
+  "note": "@ is NOT assumed darkest; ramp order comes from measured ink pixels."
+}

@@ -91,7 +91,7 @@
 | **L46** | observation | `[归纳]` | §8.1 强度旋钮（色数 P2/平涂 P3/剪纸感 P5）与退化修补（扁平插画/矢量干净追加词） | S01:L180-181 | sections | available | path §6/§7.4；mech A |
 | **L47** | observation | `[归纳]` | §8.1 `--no` 原文（gradient/airbrush/soft edges/blur/glow/outline stroke/drop shadow/3D/realistic lighting/more than 8 hues/texture noise…） | S01:L170-176 / S02:L29-35 / S05:L254 | sections | available | path §4 B/§6/§8.4；mech B/C/E；等同 L45 的护栏原文 |
 | **L48** | observation | `[史料]`（本机素材） | §8.3 拼贴反例卡「影子+噪点+照片」三条；用于 D4/阶梯 C 反例对照 | S01:L198-201 | sections | available | path §4 C/§6（与 L38 同段，分列引用） |
-| **L49** | hypothesis | `[归纳]` `[UNVERIFIED]` | §8.2 的 7 条量化阈值未经真实渲染器/像素实测；dossier §10-6 + 自审 D 声明；只能当自查靶值 | S01:L239,L466-467 / S08:§5 CE-4 / S09:C14 / S10:honest_limits | sections | available | path 卷首/§4 B/§5/§8.5；mech F.1；think ⟨H-UNV⟩ |
+| **L49** | hypothesis | `[归纳]` `[UNVERIFIED]` | §8.2 的 8 条量化阈值未经真实渲染器/像素实测；dossier §10-6 + 自审 D 声明；只能当自查靶值 | S01:L239,L466-467 / S08:§5 CE-4 / S09:C14 / S10:honest_limits | sections | available | path 卷首/§4 B/§5/§8.5；mech F.1；think ⟨H-UNV⟩ |
 | **L50** | observation | `[自述]`原则 + 量化`[归纳]` | §1-9 缩略图可读：缩至 64px 仍可辨主体与色块布局 | S01:L37 / S02:L12 | sections | available | path §3 M8/§4 A/§5 |
 | **L51** | observation | `[归纳]`（规范） | 练习效果未经真人完成或评价 → 建议练习，不写已证实学习收益；模型/脚本自查≠人评 | S12:L271-273,L308 / S11:L9 / S13:L64-66 | sections | available | path 卷首/§4/§8.7；mech F.3；think 卷首 |
 | **L52** | observation | `[归纳]` | P4 边界注可被 wave2 实验推翻；C-15 实测阈值待克里姆特档案落地回填 | S01:L88 / S04:L256 / S05:L252 | sections | available | path §8.1；mech F.5 |

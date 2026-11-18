@@ -1,0 +1,299 @@
+{
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.79",
+    "revision": "@6dc9bc3bdaea5c35ed6d41fceab2f7a3a2227c4f",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.43"
+  },
+  "videos": [
+    {
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 0,
+          "readyState": 4
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7038,
+        "paused": true,
+        "quality": 26
+      },
+      "canPlayH264": "probably",
+      "card": "03",
+      "mp4_sha256": "2a48c5564f950443a694413434b59cb4d957dca5e4e78fcaadb8f19dbfa1df34",
+      "utc": "2026-11-17T22:38:49.638412+00:00",
+      "passed": true
+    },
+    {
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 0,
+          "readyState": 4
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7059,
+        "paused": true,
+        "quality": 26
+      },
+      "canPlayH264": "probably",
+      "card": "04",
+      "mp4_sha256": "7c2cb752f390629abf32ffdcfdeb133a7134473c75f4486c9bcd9f6844195d80",
+      "utc": "2026-11-17T22:38:50.356745+00:00",
+      "passed": true
+    },
+    {
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 0,
+          "readyState": 4
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.705,
+        "paused": true,
+        "quality": 26
+      },
+      "canPlayH264": "probably",
+      "card": "05",
+      "mp4_sha256": "ca7a6f7e0b3a11b8ac71de02e09015ff8be19c6dcaa75c6c656753c588745ae1",
+      "utc": "2026-11-17T22:38:51.072822+00:00",
+      "passed": true
+    },
+    {
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 0,
+          "readyState": 4
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7104,
+        "paused": true,
+        "quality": 26
+      },
+      "canPlayH264": "probably",
+      "card": "06",
+      "mp4_sha256": "d37d758a87c6fe064999519b92f45a3f85650e385414cfb64aaf54cb38ffd976",
+      "utc": "2026-11-17T22:38:51.795492+00:00",
+      "passed": true
+    },
+    {
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 0,
+          "readyState": 4
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7079,
+        "paused": true,
+        "quality": 26
+      },
+      "canPlayH264": "probably",
+      "card": "07",
+      "mp4_sha256": "ef955281b1a5ef82c3cf97b6cfc74476552ac707038c03ed8b6f8c7b2d1b7e42",
+      "utc": "2026-11-17T22:38:52.520564+00:00",
+      "passed": true
+    },
+    {
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 0,
+          "readyState": 4
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.706,
+        "paused": true,
+        "quality": 26
+      },
+      "canPlayH264": "probably",
+      "card": "09",
+      "mp4_sha256": "553e3335f20571a561800cbd8e208b26af945d2ee39e2e23743797d776bd5e57",
+      "utc": "2026-11-17T22:38:53.244685+00:00",
+      "passed": true
+    },
+    {
+      "load": {
+        "width": 1920,
+        "height": 1080,
+        "duration": 10,
+        "readyState": 4
+      },
+      "seeks": [
+        {
+          "requested": 0.5,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 4,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 7.7666666667,
+          "observed": 0,
+          "readyState": 4
+        },
+        {
+          "requested": 9.9666666667,
+          "observed": 0,
+          "readyState": 4
+        }
+      ],
+      "playback": {
+        "start": 0,
+        "end": 0.7113,
+        "paused": true,
+        "quality": 26
+      },
+      "canPlayH264": "probably",
+      "card": "14",
+      "mp4_sha256": "763bd4a5d7e1cf986bf8d0d337ddb3f8e5e366a5d9bb9640e3dbb94ed52452a3",
+      "utc": "2026-11-17T22:38:53.971705+00:00",
+      "passed": true
+    }
+  ],
+  "scope": "Actual isolated Chrome local-HTTP load, four seeks, real playhead advance. No human/aesthetic/audio claim."
+}

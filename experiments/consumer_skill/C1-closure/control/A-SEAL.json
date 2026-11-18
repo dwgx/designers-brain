@@ -1,0 +1,90 @@
+{
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "binding_sha256": "5e0bdad6fad5c3186a97b5ca0cb0f7c70aa06c36cbbf8cb4f0e2e8e045aa8744",
+  "head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "a_manifest_sha256": "71aca3c882baec41f95ab0ba4d318d53de55531afe1eab2765b22b3135a13f73",
+  "a_ready_sha256": "41215c41202eae35a89f674b4480c0bfcceb10eedbf4f54c39a73017c8fd829b",
+  "observed_at_utc": "2026-11-17T22:56:41.646901+00:00",
+  "observed_files": [
+    {
+      "path": "01-focus-plan.json",
+      "bytes": 527,
+      "sha256": "fb77ed894fa37da79e734d427c7d07788caea1e1c7040fd8c883cc2f5392a11a"
+    },
+    {
+      "path": "01-focus-plan.svg",
+      "bytes": 604,
+      "sha256": "c84875952890d5397c7f16d9c65cbd642402ccd9497ba1e4b1397192fe2e237c"
+    },
+    {
+      "path": "02-sketch-spec.json",
+      "bytes": 3541,
+      "sha256": "7db116b3c8aa58f85eefe118a035fe5e2cc3dcb951233da9bc7b2dd62ad33dc0"
+    },
+    {
+      "path": "02-three-value-sketch.svg",
+      "bytes": 2507,
+      "sha256": "2d6888407a2b239fd9508610e5913996a2be6506973c590d9997ced9a9e41a5c"
+    },
+    {
+      "path": "artifact-validation.json",
+      "bytes": 493,
+      "sha256": "7913f01c8061183ccc060d891c1692d02b9612a1155a9eb658e0bcaaf2eac9c4"
+    },
+    {
+      "path": "build-stage-a.py",
+      "bytes": 20017,
+      "sha256": "f785be48bd4ed325e6808d9af0f28e97f1e0638118bc433029ed2bc5baddb0dd"
+    },
+    {
+      "path": "public-read-1-command.py",
+      "bytes": 813,
+      "sha256": "5f1d4a481b3b843bdbcd33de010dc7e4d9ffdea5bb6f244ecbb6507b22785abb"
+    },
+    {
+      "path": "public-read-1-tool-result.json",
+      "bytes": 17611,
+      "sha256": "a0782d19969048c21bb320992c9a77093a474e013141d07d5403d1db57900488"
+    },
+    {
+      "path": "public-read-2-command.py",
+      "bytes": 1038,
+      "sha256": "7124638dea7d0cc9662671fb7acf1e1ed58fb807de6c719446e80a35277aaa70"
+    },
+    {
+      "path": "public-read-2-tool-result.json",
+      "bytes": 43090,
+      "sha256": "23f741a6ac5f705333c788786b69801487d66be9cd4245dd5042229f74bb9b83"
+    },
+    {
+      "path": "retrieval-log.md",
+      "bytes": 4384,
+      "sha256": "4ff79d3f52d553236160639c121e02e486ca7071018231dd1ec7163eddfeca91"
+    },
+    {
+      "path": "snapshot-verification-command.py",
+      "bytes": 3023,
+      "sha256": "1c42c57d4df3c8a05cf1010f097e0ea5fc448c1d904733f18c40e6c569be9435"
+    },
+    {
+      "path": "snapshot-verification-tool-result.json",
+      "bytes": 10314,
+      "sha256": "3dc7e18262b5089a37bc042c955373d121c41db8191c55b0c7b7c254647769a1"
+    },
+    {
+      "path": "source-read-ledger.json",
+      "bytes": 4508,
+      "sha256": "bec60b377d6ca63ef38a32687cd216e5e1e430b2b39555172ce896130e3a360b"
+    },
+    {
+      "path": "unaided-selection.json",
+      "bytes": 5119,
+      "sha256": "f5f189b7908817dac7e4f3aa798b1bb8d8d2b96c79130f507c7a1caf446cfa68"
+    }
+  ],
+  "observed_file_count": 15,
+  "review_scope": "Root independently read every A file bytes for SHA/size, read selection/retrieval/first SVG/focus/spec semantically; other operational blobs are sealed as raw evidence, not claimed fully semantically audited. A remains immutable."
+}

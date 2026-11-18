@@ -1,0 +1,708 @@
+{
+ "schema_version": "1.0",
+ "goal_id": "Designers-Brain-Upgrade-20261115",
+ "task_id": "UI-02",
+ "dedup_key": "DB-20261115:UI-02",
+ "status": "accepted",
+ "baseline_id": "DB-20261115-baseline",
+ "input_hashes": [
+  {
+   "path_or_id": "ledger/artist-shards.json",
+   "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+  },
+  {
+   "path_or_id": "ledger/seed-inputs.json",
+   "sha256": "e1715c5e14b68dd6951095b1f5c124c1f2fa38ff5b55e585a90bcde0f4e18bfb"
+  },
+  {
+   "path_or_id": "ledger/ledger registry.json",
+   "sha256": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374"
+  },
+  {
+   "path_or_id": "ledger/execution-snapshot.json",
+   "sha256": "16fed28f486d5eae787afd712c5044d4c787d1f459fd8fccee7ce41a2091c825"
+  },
+  {
+   "path_or_id": "package/templates/receipt.schema.json",
+   "sha256": "6ebd84383b79b64da529b3399f4d6f606763e450b05a51e0578531dd50bc3fba",
+   "binding_kind": "local",
+   "rebound_at": "2026-11-15T18:03:38+00:00",
+   "rebound_note": "schema widened 2026-11-16 at promotion pass-2 normalization; gate-time hash c553112d336e66e03639f7a569abd8f9b8ddc0707a5b3667ecd9d355a9a1fb31 preserved here; evolution = main-owned campaign infra; provenance: staging/ACCEPT-FIX/promo-norm-pass2-SCHEMA-WIDENING.md; re-bind to current bytes",
+   "note": "original declared path_or_id: 'package/templates/receipt.schema.json'"
+  },
+  {
+   "path_or_id": "package/tools/verify-receipt.py",
+   "sha256": "00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0"
+  },
+  {
+   "path_or_id": "package/03-RESEARCH-AGENDA.md",
+   "sha256": "8da2ef1cce7a4090ec45de82a98c9a6d5e17af68cff849f66c381b67beeaefd9"
+  },
+  {
+   "path_or_id": "package/tasks-plan.json",
+   "sha256": "e8bea08b995f3711befe90f3fd5fb126a2414545954d258b2c7d5bae7884e3cb"
+  }
+ ],
+ "allowed_write_paths": [
+  "staging/UI-02/"
+ ],
+ "spawns_allowed": false,
+ "attempt": 1,
+ "repair_round": 1,
+ "model_route": {
+  "requested_model": "unknown",
+  "requested_effort": "unknown",
+  "observed_model": null,
+  "profile_sha256": "dc149ae16d54a4de33de00a0766a60a8106a17a0aabaaf12f7e4d6a98a52ffbe",
+  "omp_version": "unknown",
+  "token_usage": null,
+  "fallback": null
+ },
+ "artifacts": [
+  {
+   "path": "staging/UI-02/RESULT.md",
+   "sha256": "f41eb9882f9f83dc2bc577c0178cd9d8958a87181f99aa71e141b7ca373a7dcb",
+   "kind": "result_summary"
+  },
+  {
+   "path": "staging/UI-02/dtcg_resolver.py",
+   "sha256": "ff8665dc3aceb275027d02e8738eb2107d5150028b2d52a69ccc260e22dd5aa7",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/_check.py",
+   "sha256": "b1bbc7e8017b064f70fde0940d3f5fefde5d12155451fe2c2b40f3b664aa4bbb",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/cdp_ime_test.py",
+   "sha256": "def8f10305eeb21752b8ada9997116920b123f2f3f89580277fdc017ef31a14c",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/capture_visual.py",
+   "sha256": "fbc12b2e1f387a07a904c6fddbf8b9be5f6cfc9b1d13ca856d49cdfea7eb03e3",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/fixture.html",
+   "sha256": "7ff774a18350a5c2f01824d39b78994572c958f636848f46189707e1678eef2e",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/tokens.tokens.json",
+   "sha256": "f29a75c482e3f9b19b98873ef3fe5dbb6c4be54e85c9b2b25524c9a515b4cf4d",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/tokens-cycle.tokens.json",
+   "sha256": "3e87018a74b4623bd35cad5f5c69abcbb6a0f04830a38fc1f9ce61ab4dbc5bb6",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/themes.resolver.json",
+   "sha256": "a2f5c5acd987a2140e77079cd89b6e51e229ab0cf363897dee4f2eeeebfc22f0",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/cjk_layout.json",
+   "sha256": "13b340f5a6d2ce349a0ff40b881b31a3eadab78db49d3462448243e977411cb7",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/write_receipt.py",
+   "sha256": "343fd192f675a7fb9a0ae30cf713bb9876f5e255a2f77023e81551ca0144f9b2",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/_check_output.txt",
+   "sha256": "e2ab65282a7195719f453aae3b41dc952d54928630d07ce8a01e229ed7f70312",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/ime_cdp_evidence.json",
+   "sha256": "8b3742bd829ea5969f635f3abd3d6298627e5bb077267237ec963b2d3cc4f518",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/ime_cdp_console.txt",
+   "sha256": "d4e314c99b27a164f6f10188d4ca9295eb9cd8387c91f4831fb319ce152f9711",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/_verify_receipt_output.txt",
+   "sha256": "5476c163348110248fe581bc027963c96459c6ba7acd5c912bfbc5113e9212f3",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/visual/fixture.png",
+   "sha256": "b8137a3022f8654eab7a5b8f366b50f24ec0ad7e0ede3ef920a95167abd8bc4f",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-02/visual/fixture-after-ime.png",
+   "sha256": "4ccb9c16a508dd4ab6a9a568f626d8ee621872f9de7c7c83265b9cfdb86c812f",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-02/visual/dom-snapshot.txt",
+   "sha256": "93c35bc5ed206b05466e9f74398791d50c406df24fe4a426cf0269961c25dee2",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-02/raw/wcag22-full.html",
+   "sha256": "6e3c5fe397257cae509a2fb4752b73062cf8cbeb92c2cec618989b17e4cf7057",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/wcag22-full.txt",
+   "sha256": "5a06f14c3a699c643a801ab713d720d3da203d4f52ceb1ed9326ce15fdbe522a",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/uievents-full.html",
+   "sha256": "8ded5eaf4f190b13c59582d5e92b81d3585112dde963d71d65d8e5991212b918",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/uievents-full.txt",
+   "sha256": "a3c867ad82ce6a21ada7b8abd487f1f1906e48340e0d13a22aa553d216c93609",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/clreq-full.html",
+   "sha256": "94fca95d8d2dc1415411bd4666226bd86427a97202535dc17ad6db201f4887fb",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/clreq-full.txt",
+   "sha256": "727f6b80ba4699ce656d7c57240ae758edf9ea04c3c1e19d9d72436049a76479",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/dtcg-format-full.html",
+   "sha256": "f6fd3708336e7d0c0aa840bee9313b47ca335d04521cb032393a37597894a6e6",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/dtcg-format-full.txt",
+   "sha256": "e16b7a9baddea66fa6f63de7ab1b8657e42e36f23bbdf245974f9f60424c8ecb",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/dtcg-resolver-full.html",
+   "sha256": "add0f88ccbf5d7f972aa5ed111b17c5038783487bd99a34f34e4bc1ccdf29328",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/dtcg-resolver-full.txt",
+   "sha256": "b8bb2e741bce58cf31679b9032107fb0a9070bd39b26c42599cdba00dd2ac84c",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/apg-keyboard-full.html",
+   "sha256": "54506c9a8456f543c34a14fad652e5ce33e4b28458c70a972d534e5dc34a6f48",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/apg-keyboard-full.txt",
+   "sha256": "fcb25b5cb82aa64cad2135fe278d34070402d4792bda56356419cc367dff7470",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/dtcg-format-schema.json",
+   "sha256": "32e93b780e4e4bca778d0780cb797a560deedc470c608af16576223f7e42915f",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/dtcg-resolver-schema.json",
+   "sha256": "a5acd14318f3c347ea2d12b4ab0f873d1340e74e957c454d112672e58b1da977",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/raw/html_to_text.py",
+   "sha256": "ce14ba5c34dad1acd69499c38647b1b3cfdbef31485dc73e6b584d7d8abed668",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-02/event_gate_probe.py",
+   "sha256": "a59f7a056ce7d24ea46d8a2ed9c77d8243e50e8b231cf78b50e362fb76b003ec",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/s13_event_gate_runner.py",
+   "sha256": "c5e28c91887d8a77980104ef0269958a3054086f4139d1556763c05de1e4e0a8",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/EVENT-GATE-EVIDENCE.md",
+   "sha256": "6ae876a382fecf23260516bfcf82cfe351237678652ed37b4cef88ee3b3c46fc",
+   "kind": "result_summary"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/PROVENANCE-CORRECTION-20261116.md",
+   "sha256": "c1c24fe0a0a45289155b8fd6312de806a1cca4653f51ebd3392d75d05c2d9dbf",
+   "kind": "result_summary"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/paired-control.json",
+   "sha256": "5dd28b35c27ae1a02ba9b5a065b4bb9b867fc37c354a03f010fbee5e3e662b10",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/mutation-manifest.json",
+   "sha256": "fed5dec4ee670b9187ba9c9167433783f76cc9c9f9ffa0023eef5311ae4cf013",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/positive/result.json",
+   "sha256": "20b2e14160da81aaa6d15ad871eb17bb70559b76874242d9aab18fe8aba31546",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/positive.stdout.txt",
+   "sha256": "44dc47d6d93f33d9cc6b9e58253b9659002ba01ab0459cb203f19a349e92a417",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/positive/fixture.html",
+   "sha256": "7ff774a18350a5c2f01824d39b78994572c958f636848f46189707e1678eef2e",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/fault-disabled-arrow-handler/result.json",
+   "sha256": "b114a3fc007af03a18b2d5f30332dc908d96557f740e67678aecce1530edcc52",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/fault-disabled-arrow-handler.stdout.txt",
+   "sha256": "fc97aaf92f6163cc2c6380d838da948a8a55607516f396b880a5003d36d8985c",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-02/_s13-controls/fault-disabled-arrow-handler/fixture.html",
+   "sha256": "6d7ed0d0a50b7e1e8cd1fafcd6255b96cae12dcb5cb0aed9bdfd0f31bb3bca0e",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/s13_finalize_docs.py",
+   "sha256": "a792447b8c70e6bc4f5661c4e0cbd4b7fd2af4b9339d11602679142478e0d7ab",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-02/s13_build_receipt.py",
+   "sha256": "38dae457fab994ab72005898782e3859bd51da9df6efe812cdfa3bb43510bc88",
+   "kind": "source_code"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "UI-02-DTCG-FORMAT-VALID",
+   "claim_kind": "validated_rule",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "raw/dtcg-format-schema.json",
+     "version": "2025.10 (official draft-07 schema)",
+     "locator": "$defs: token.json / values/color.json / values/dimension.json / tokenType.json",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "32e93b780e4e4bca778d0780cb797a560deedc470c608af16576223f7e42915f",
+     "access_status": "available"
+    },
+    {
+     "source_id": "_check.py",
+     "version": "n/a (local check)",
+     "locator": "[T1] official DTCG 2025.10 format-schema validation: 0 errors",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "b1bbc7e8017b064f70fde0940d3f5fefde5d12155451fe2c2b40f3b664aa4bbb",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-DTCG-ALIAS-ORDER-AND-CYCLE",
+   "claim_kind": "validated_rule",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "https://www.designtokens.org/tr/2025.10/format/",
+     "version": "2025.10 Final CG Report 2025-10-28",
+     "locator": "§7.2.1 resolution algorithm (step 6 cycle stack); §7.2.2 chained references; §7.2.3 circular references MUST be detected",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "e16b7a9baddea66fa6f63de7ab1b8657e42e36f23bbdf245974f9f60424c8ecb",
+     "access_status": "available"
+    },
+    {
+     "source_id": "_check_output.txt",
+     "version": "n/a (observed)",
+     "locator": "[T2]/[T3] 10 PASS assertions on chained aliases + cycle detection",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "e2ab65282a7195719f453aae3b41dc952d54928630d07ce8a01e229ed7f70312",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-RESOLVER-ORDERING",
+   "claim_kind": "validated_rule",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "https://www.designtokens.org/tr/2025.10/resolver/",
+     "version": "2025.10 Final CG Report 2025-10-28",
+     "locator": "§6.2 ordering (later overrides); §6.3 aliases resolved after ordering; §6.1/§5.2 input validation",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "b8bb2e741bce58cf31679b9032107fb0a9070bd39b26c42599cdba00dd2ac84c",
+     "access_status": "available"
+    },
+    {
+     "source_id": "_check_output.txt",
+     "version": "n/a (observed)",
+     "locator": "[T4] 12 PASS assertions on resolutionOrder / defaults / input validation",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "e2ab65282a7195719f453aae3b41dc952d54928630d07ce8a01e229ed7f70312",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-WCAG-2.2-CRITERIA",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/",
+     "version": "W3C Recommendation 2024-12-12",
+     "locator": "SC 2.4.11 Focus Not Obscured (Minimum) AA; SC 2.4.13 Focus Appearance AAA (>=2 CSS px perimeter, >=3:1 contrast); SC 2.5.8 Target Size (Minimum) AA (>=24x24 CSS px)",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "5a06f14c3a699c643a801ab713d720d3da203d4f52ceb1ed9326ce15fdbe522a",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-APG-ROVING-KEYBOARD",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/",
+     "version": "informative guidance (no single release date)",
+     "locator": "'Fundamental Keyboard Navigation Conventions'; 'Managing Focus Within Components Using a Roving tabindex'; 'Keyboard Shortcuts' (shortcuts must not replace navigation); 'Persistence of focus'",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "fcb25b5cb82aa64cad2135fe278d34070402d4792bda56356419cc367dff7470",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-FOCUS-PATH-KEYBOARD-ONLY",
+   "claim_kind": "observation",
+   "support_status": "partial",
+   "source_refs": [
+    {
+     "source_id": "_check_output.txt",
+     "version": "n/a (observed real-browser dump-dom of the setRoving helper selftest)",
+     "locator": "[F] INTERNAL STRUCTURE / UNIT CHECK: the rovingSnapshots come from direct setRoving(1,false)/setRoving(2,false) calls, NOT from a real keydown; snapshot.active is items[rovingIndex].id, NOT document.activeElement. This check passed even with the toolbar keydown listener disabled, so it does NOT prove a real ArrowRight event-layer works. The real-key event gate is a separate claim (UI-02-ARROWRIGHT-EVENT-GATE-*).",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "e2ab65282a7195719f453aae3b41dc952d54928630d07ce8a01e229ed7f70312",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-UIEVENTS-ISCOMPOSING",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "https://www.w3.org/TR/2026/WD-uievents-20260221/",
+     "version": "W3C Working Draft 2026-02-21",
+     "locator": "§3.6 Composition Events; §3.6.5 Key Events During Composition (isComposing MUST be true); §3.6.6 InputEvent.isComposing; IDL KeyboardEvent.isComposing / InputEvent.isComposing",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "a3c867ad82ce6a21ada7b8abd487f1f1906e48340e0d13a22aa553d216c93609",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-IME-CONFIRMATION-GATED-REAL-BROWSER",
+   "claim_kind": "observation",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "ime_cdp_evidence.json",
+     "version": "n/a (real-browser CDP evidence)",
+     "locator": "sendFiredDuringComposition=false; enterDuringComposition_isComposing=true; compositionStart/EndFired=true; sendFiredAfterComposition=true; isSyntheticJsKeydown=false",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "8b3742bd829ea5969f635f3abd3d6298627e5bb077267237ec963b2d3cc4f518",
+     "access_status": "available"
+    },
+    {
+     "source_id": "cdp_ime_test.py",
+     "version": "n/a (harness)",
+     "locator": "CDP Input.imeSetComposition + Input.dispatchKeyEvent (no JS dispatchEvent)",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "def8f10305eeb21752b8ada9997116920b123f2f3f89580277fdc017ef31a14c",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-OS-LEVEL-CJK-IME",
+   "claim_kind": "observation",
+   "support_status": "unverified",
+   "source_refs": [
+    {
+     "source_id": "ime_cdp_evidence.json",
+     "version": "n/a",
+     "locator": "untested: OS-level CJK IME (Microsoft Pinyin / candidate window / real preedit) NOT exercised",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "8b3742bd829ea5969f635f3abd3d6298627e5bb077267237ec963b2d3cc4f518",
+     "access_status": "partial"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-CLREQ-LINE-BREAK-RULES",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "https://www.w3.org/TR/2026/DNOTE-clreq-20261104/",
+     "version": "W3C Group Note Draft 2026-11-04 (NOT a Recommendation)",
+     "locator": "§6.1.1 four strictness levels none/basic/GB-style/strict + line-start/line-end prohibitions; §6.1.2 unbreakable marks; §6.1.3 hanging punctuation; §6.2 line adjustment; §6.3.2 punctuation width adjustment",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "727f6b80ba4699ce656d7c57240ae758edf9ea04c3c1e19d9d72436049a76479",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-CLREQ-CSS-VS-UNTESTED",
+   "claim_kind": "observation",
+   "support_status": "partial",
+   "source_refs": [
+    {
+     "source_id": "cjk_layout.json",
+     "version": "n/a (rule matrix)",
+     "locator": "5 css_implemented (R1-R5, locator+CSS property each); 5 untested (R6-R10) honestly not claimed",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "13b340f5a6d2ce349a0ff40b881b31a3eadab78db49d3462448243e977411cb7",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-DTCG-NOT-W3C-STANDARD-DRAFT-STATUS",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "https://www.designtokens.org/tr/2025.10/format/",
+     "version": "2025.10 Final CG Report",
+     "locator": "'It is not a W3C Standard nor is it on the W3C Standards Track'",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "e16b7a9baddea66fa6f63de7ab1b8657e42e36f23bbdf245974f9f60424c8ecb",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-ARROWRIGHT-EVENT-GATE-POSITIVE",
+   "claim_kind": "observation",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "_s13-controls/positive/result.json",
+     "version": "standalone rerun (Run B) 2026-11-15T16:15:53.651Z by GLM reviewer ReviewGateUiEvent executing author scripts in-dir (real headless Chrome CDP run, Chrome/157.0.8103.51); author-sealed bytes 65144b38... not preserved; provenance: _s13-controls/PROVENANCE-CORRECTION-20261116.md",
+     "locator": "real trusted ArrowRight keydown (isTrusted=true, target=toolbar-bold) -> document.activeElement toolbar-bold -> toolbar-italic; unique roving tabindex=0 changed toolbar-bold -> toolbar-italic; gate exit_code=0; 8/8 gate assertions computed from fresh DOM/events.",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "20b2e14160da81aaa6d15ad871eb17bb70559b76874242d9aab18fe8aba31546",
+     "access_status": "available"
+    },
+    {
+     "source_id": "event_gate_probe.py",
+     "version": "n/a (per-case checker)",
+     "locator": "Input.dispatchKeyEvent rawKeyDown+keyUp ArrowRight; decision from Runtime.evaluate of document.activeElement + tabIndex, never a prewritten trace.",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "a59f7a056ce7d24ea46d8a2ed9c77d8243e50e8b231cf78b50e362fb76b003ec",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-ARROWRIGHT-EVENT-GATE-NEGATIVE-CONTROL",
+   "claim_kind": "observation",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "_s13-controls/fault-disabled-arrow-handler/result.json",
+     "version": "standalone rerun (Run B) 2026-11-15T16:15:54.648Z by GLM reviewer ReviewGateUiEvent executing author scripts in-dir (real headless Chrome CDP run, Chrome/157.0.8103.51); author-sealed bytes 0d80138c... not preserved; provenance: _s13-controls/PROVENANCE-CORRECTION-20261116.md",
+     "locator": "single-fault copy (toolbar keydown listener event name disabled): the SAME trusted ArrowRight delivered, but document.activeElement stays toolbar-bold and unique tabindex=0 stays toolbar-bold; 4 gate assertions FAIL -> gate passed=false, process_exit_code=1 (fault rejected).",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "b114a3fc007af03a18b2d5f30332dc908d96557f740e67678aecce1530edcc52",
+     "access_status": "available"
+    },
+    {
+     "source_id": "_s13-controls/paired-control.json",
+     "version": "paired runner invocation (Run A) 2026-11-15T16:15:45.367Z by GLM reviewer ReviewGateUiEvent executing author runner in-dir; author-sealed bytes 962e0f7d... not preserved; embedded per-case results and the standalone result files are separate runs; provenance: _s13-controls/PROVENANCE-CORRECTION-20261116.md",
+     "locator": "pair_expectations all true; positive exit0, fault exit1; fault fixture SHA 6d7ed0d0... equals the supervision paired-control single-fault pin; author fixture/checker SHAs unchanged; unit structure check passed on BOTH cases, proving it is NOT a real-key gate.",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "5dd28b35c27ae1a02ba9b5a065b4bb9b867fc37c354a03f010fbee5e3e662b10",
+     "access_status": "available"
+    },
+    {
+     "source_id": "_s13-controls/mutation-manifest.json",
+     "version": "n/a (single-fault manifest)",
+     "locator": "toolbar.addEventListener(\"keydown\",...) renamed to \"__independent_disabled_keydown\"; anchor occurs exactly 1 time; setRoving helper + selftest unchanged.",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "fed5dec4ee670b9187ba9c9167433783f76cc9c9f9ffa0023eef5311ae4cf013",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "UI-02-EVENT-GATE-UNTESTED-BOUNDARIES",
+   "claim_kind": "observation",
+   "support_status": "unverified",
+   "source_refs": [
+    {
+     "source_id": "_s13-controls/EVENT-GATE-EVIDENCE.md",
+     "version": "repair-round evidence + honest boundaries; 2026-11-16 provenance addendum (section 8) appended by UISealFix; historical pre-addendum bytes 176a6be4...",
+     "locator": "UNTESTED and NOT claimed: OS-level CJK IME / candidate window, full Tab sequence, real dialog event chain, WCAG focus-ring 3:1 pixel contrast, CLREQ pixel line-breaks, assistive technology, human usability; the other 57 [F]-set mechanical items NOT re-run. Tokens/IME evidence UNTOUCHED by SHA.",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "6ae876a382fecf23260516bfcf82cfe351237678652ed37b4cef88ee3b3c46fc",
+     "access_status": "partial"
+    }
+   ]
+  }
+ ],
+ "execution": {
+  "runner_id": "UI-02-runner",
+  "commands": [
+   "python -X utf8 cdp_ime_test.py",
+   "python -X utf8 capture_visual.py",
+   "python -X utf8 _check.py",
+   "python -X utf8 s13_event_gate_runner.py",
+   "python -X utf8 <package>/tools/verify-receipt.py staging/UI-02/receipt.json --schema <package>/templates/receipt.schema.json --workspace-root <RUN_ROOT>"
+  ],
+  "cwd": "[original cwd scrubbed; relocated checkout]",
+  "started_at": "2026-11-15T15:52:00+00:00",
+  "ended_at": "2026-11-15T15:58:00+00:00",
+  "exit_code": 0,
+  "receipt_path": "staging/UI-02/runner_receipt.json",
+  "receipt_sha256": "e989ed4b46e8a801da1ad642a0a739e42a17a8ab094a63734705f8f4efe441ba",
+  "limitations": [
+   "CDP composition is browser-level IME emulation; OS-level CJK IME UNTESTED.",
+   "Screenshots are existence/layout evidence, not pixel or aesthetic judgement.",
+   "WCAG full conformance / contrast measurement / real-human keyboard usability NOT done.",
+   "dtcg_resolver.py is a subset processor (no JSON Pointer $ref / $extends / 11 other types).",
+   "No repo edits, no git ops, no subagent spawns, no credentials in artifacts.",
+   "S13 repair round: adds a real ArrowRight keydown event-layer gate (positive + single-fault negative control); does NOT rewrite the UI component, re-run the other 57 [F] items, or claim OS-level CJK IME / full Tab sequence / real dialog event chain.",
+   "Acceptance/promotion via accept_receipt_v2.py is PAUSED (S09); receipt stays status=submitted and review=null; author does not self-accept.",
+   "2026-11-16 provenance correction (UISealFix, S28 §4 / S20 §2 residual): three _s13-controls claim source_refs re-bound to the selected actual bytes (Run A paired 16:15:45Z -> 5dd28b35...; Run B standalone 16:15:53-55Z -> 20b2e141.../b114a3fc...; both produced by GLM reviewer ReviewGateUiEvent executing author scripts in-dir; author-sealed 962e0f7d/65144b38/0d80138c bytes NOT preserved). execution.receipt_sha256 verified unchanged vs runner_receipt.json (e989ed4b...). Status re-submitted because the prior acceptance bound different receipt bytes (d2ad18a2...); re-earn via the normal acceptance chain. See _s13-controls/PROVENANCE-CORRECTION-20261116.md."
+  ]
+ },
+ "review": {
+  "reviewer_actor_id": "ReviewGateUiFix2",
+  "independent_from_author": true,
+  "reviewed_artifact_hashes": [
+   "13b340f5a6d2ce349a0ff40b881b31a3eadab78db49d3462448243e977411cb7",
+   "20b2e14160da81aaa6d15ad871eb17bb70559b76874242d9aab18fe8aba31546",
+   "32e93b780e4e4bca778d0780cb797a560deedc470c608af16576223f7e42915f",
+   "343fd192f675a7fb9a0ae30cf713bb9876f5e255a2f77023e81551ca0144f9b2",
+   "38dae457fab994ab72005898782e3859bd51da9df6efe812cdfa3bb43510bc88",
+   "3e87018a74b4623bd35cad5f5c69abcbb6a0f04830a38fc1f9ce61ab4dbc5bb6",
+   "44dc47d6d93f33d9cc6b9e58253b9659002ba01ab0459cb203f19a349e92a417",
+   "4ccb9c16a508dd4ab6a9a568f626d8ee621872f9de7c7c83265b9cfdb86c812f",
+   "54506c9a8456f543c34a14fad652e5ce33e4b28458c70a972d534e5dc34a6f48",
+   "5476c163348110248fe581bc027963c96459c6ba7acd5c912bfbc5113e9212f3",
+   "5a06f14c3a699c643a801ab713d720d3da203d4f52ceb1ed9326ce15fdbe522a",
+   "5dd28b35c27ae1a02ba9b5a065b4bb9b867fc37c354a03f010fbee5e3e662b10",
+   "6ae876a382fecf23260516bfcf82cfe351237678652ed37b4cef88ee3b3c46fc",
+   "6d7ed0d0a50b7e1e8cd1fafcd6255b96cae12dcb5cb0aed9bdfd0f31bb3bca0e",
+   "6e3c5fe397257cae509a2fb4752b73062cf8cbeb92c2cec618989b17e4cf7057",
+   "727f6b80ba4699ce656d7c57240ae758edf9ea04c3c1e19d9d72436049a76479",
+   "7ff774a18350a5c2f01824d39b78994572c958f636848f46189707e1678eef2e",
+   "8b3742bd829ea5969f635f3abd3d6298627e5bb077267237ec963b2d3cc4f518",
+   "8ded5eaf4f190b13c59582d5e92b81d3585112dde963d71d65d8e5991212b918",
+   "93c35bc5ed206b05466e9f74398791d50c406df24fe4a426cf0269961c25dee2",
+   "94fca95d8d2dc1415411bd4666226bd86427a97202535dc17ad6db201f4887fb",
+   "a2f5c5acd987a2140e77079cd89b6e51e229ab0cf363897dee4f2eeeebfc22f0",
+   "a3c867ad82ce6a21ada7b8abd487f1f1906e48340e0d13a22aa553d216c93609",
+   "a59f7a056ce7d24ea46d8a2ed9c77d8243e50e8b231cf78b50e362fb76b003ec",
+   "a5acd14318f3c347ea2d12b4ab0f873d1340e74e957c454d112672e58b1da977",
+   "a792447b8c70e6bc4f5661c4e0cbd4b7fd2af4b9339d11602679142478e0d7ab",
+   "add0f88ccbf5d7f972aa5ed111b17c5038783487bd99a34f34e4bc1ccdf29328",
+   "b114a3fc007af03a18b2d5f30332dc908d96557f740e67678aecce1530edcc52",
+   "b1bbc7e8017b064f70fde0940d3f5fefde5d12155451fe2c2b40f3b664aa4bbb",
+   "b8137a3022f8654eab7a5b8f366b50f24ec0ad7e0ede3ef920a95167abd8bc4f",
+   "b8bb2e741bce58cf31679b9032107fb0a9070bd39b26c42599cdba00dd2ac84c",
+   "c1c24fe0a0a45289155b8fd6312de806a1cca4653f51ebd3392d75d05c2d9dbf",
+   "c5e28c91887d8a77980104ef0269958a3054086f4139d1556763c05de1e4e0a8",
+   "ce14ba5c34dad1acd69499c38647b1b3cfdbef31485dc73e6b584d7d8abed668",
+   "d4e314c99b27a164f6f10188d4ca9295eb9cd8387c91f4831fb319ce152f9711",
+   "def8f10305eeb21752b8ada9997116920b123f2f3f89580277fdc017ef31a14c",
+   "e16b7a9baddea66fa6f63de7ab1b8657e42e36f23bbdf245974f9f60424c8ecb",
+   "e2ab65282a7195719f453aae3b41dc952d54928630d07ce8a01e229ed7f70312",
+   "f29a75c482e3f9b19b98873ef3fe5dbb6c4be54e85c9b2b25524c9a515b4cf4d",
+   "f41eb9882f9f83dc2bc577c0178cd9d8958a87181f99aa71e141b7ca373a7dcb",
+   "f6fd3708336e7d0c0aa840bee9313b47ca335d04521cb032393a37597894a6e6",
+   "fbc12b2e1f387a07a904c6fddbf8b9be5f6cfc9b1d13ca856d49cdfea7eb03e3",
+   "fc97aaf92f6163cc2c6380d838da948a8a55607516f396b880a5003d36d8985c",
+   "fcb25b5cb82aa64cad2135fe278d34070402d4792bda56356419cc367dff7470",
+   "fed5dec4ee670b9187ba9c9167433783f76cc9c9f9ffa0023eef5311ae4cf013",
+   "ff8665dc3aceb275027d02e8738eb2107d5150028b2d52a69ccc260e22dd5aa7"
+  ],
+  "verdict": "accepted",
+  "evidence_path": "staging/UI-02/review-evidence-v3.md"
+ },
+ "unresolved": [
+  {
+   "issue": "OS-level CJK IME (Microsoft Pinyin / candidate window / real preedit) not exercised; only browser-level CDP composition validated.",
+   "impact": "Cannot claim full real-Chinese-IME behavior; candidate-window UX and locale quirks unverified.",
+   "next_discriminating_action": "On a desktop with a CJK IME, drive the same fixture.html with real preedit keystrokes (nihao -> Space -> Enter) and compare the composition event log to ime_cdp_evidence.json."
+  },
+  {
+   "issue": "CLREQ line-break rules only declared via CSS; pixel-level CJK line-break positions not measured.",
+   "impact": "Cannot assert Blink actually honors every 禁则 for every CJK punctuation codepoint.",
+   "next_discriminating_action": "Fixed font/width CDP screenshots annotated with first/last char per line, compared against CLREQ basic/strict punctuation sets."
+  },
+  {
+   "issue": "WCAG 2.4.13 focus-indicator 3:1 contrast not measured; 2.5.8 target size not measured by real pointer.",
+   "impact": "CSS values are wired from tokens but AA/AAA criteria are not certified.",
+   "next_discriminating_action": "Compute contrast ratio on :focus-visible pixels and measure rendered target bounding boxes."
+  },
+  {
+   "issue": "independent review not performed (author does not self-accept)",
+   "impact": "Receipt stays status=submitted; acceptance requires a separate reviewer.",
+   "next_discriminating_action": "Main/independent reviewer runs verify-receipt.py with bound contract and reviews the 5 artifact kinds + claims' source locators."
+  },
+  {
+   "issue": "UI-02 [F] focus gate was a coverage gap: the setRoving helper selftest does not dispatch a real keydown, so it passed even with the toolbar keydown handler disabled.",
+   "impact": "The original [F] PASS cannot prove a real ArrowRight event-layer works; this repair round adds a dedicated real-key gate and relabels the helper check as internal structure/unit only.",
+   "next_discriminating_action": "Independent reviewer re-runs the paired runner and the brief's verify-receipt.py; confirms positive exit0 / fault exit1 from fresh DOM."
+  },
+  {
+   "issue": "Real-key gate covers exactly ONE interaction (toolbar ArrowRight). Full Tab sequence, real dialog event chain, OS-level CJK IME / candidate window, focus-ring 3:1 pixel contrast, CLREQ pixel line-breaks, assistive tech and human usability remain untested.",
+   "impact": "These boundaries must NOT be generalized from this single event-layer result; the other 57 [F]-set mechanical items were not re-run in this repair round.",
+   "next_discriminating_action": "Out of S13 scope; only expand with an explicitly-authorized, separate testing task."
+  },
+  {
+   "issue": "Provenance conflation corrected 2026-11-16: earlier summaries implied one author run, but the current _s13-controls bytes come from two reviewer-stage runs (Run A paired 16:15:45.367Z, Run B standalone 16:15:53.651Z/54.648Z, 2026-11-15 UTC) by GLM reviewer ReviewGateUiEvent executing author scripts in-dir; author-sealed bytes (962e0f7d/65144b38/0d80138c) were overwritten and not preserved; old full-JSON diff cannot be exhaustively classified (stdout/sub-SHA consistency is not full-file equality).",
+   "impact": "Claim source_refs, EVENT-GATE-EVIDENCE.md, and review-gate-s13-evidence.md wording were historically overstated (single-run/actor/date/write-scope); corrected by versioned correction file plus dated addenda; raw observations untouched (frozen hashes verified).",
+   "next_discriminating_action": "Normal acceptance chain re-reviews the re-sealed receipt; reviewer-side items (date_utc 2026-11-16 vs actual 2026-11-15 UTC; write-scope statement) are corrected by the correction file, not by rewriting reviewer originals; original author-stage clock times remain unknown."
+  }
+ ],
+ "human_review": {
+  "status": "not_applicable",
+  "actual_reviewer": null,
+  "record_path": null
+ },
+ "execution_dedup_key": "719aaf487ff08ced02487a4ca1e171836e04ba6eb2476c5dcac0dc39af4fd51e",
+ "author_actor_id": "UiTokensCjk",
+ "reused_from": null,
+ "execution_kind": "leaf_work_item",
+ "blocked_by": []
+}

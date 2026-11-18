@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-vocab="stamp" data-state="merged" data-ax="226.00" data-bx="286.00" data-connector-width="0.00">
+  <rect x="0" y="0" width="512" height="384" fill="#f2f3f2" data-role="background" />
+  <g data-role="objects">
+    <polygon points="306.07,206.52 276.74,227.05 235.26,227.05 205.93,206.52 205.93,177.48 235.26,156.95 276.74,156.95 306.07,177.48" fill="#786046" data-role="fused" data-from="A" data-to="B" />
+    <circle cx="226.00" cy="192" r="4" fill="#ffffff" data-role="fused-mark" data-atom="A" />
+    <circle cx="286.00" cy="192" r="4" fill="#ffffff" data-role="fused-mark" data-atom="B" />
+  </g>
+</svg>

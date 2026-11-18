@@ -1,0 +1,22 @@
+{
+  "action": "continue",
+  "case_id": "C1",
+  "attempt_id": "P4R-C1-20261117T123432",
+  "final_commit": "c35d748e1cc9f23415fff0bf019a9c03234c421e",
+  "final_tree": "fb24565b02597057784cbeed23f70ba657711804",
+  "binding_sha256": "15e418fcec6746756136fd954a4962f30a0c38f8d84b7408a7666569bfd280cc",
+  "stage_a_manifest_sha256": "60447154d75996c1527f3876ba273134a57be6738eda37fb6612d2cc64a6bcca",
+  "root_seal_sha256": "6f75252a577a9c136e2a1f79a800ef0064549164beb4d51807fe2c66f94c4282",
+  "issued_at_utc": "2026-11-17T12:40:44.139172Z",
+  "source_snapshot": [
+    {
+      "path": "knowledge/LEARNING-INDEX.json",
+      "sha256": "e6f801219dc3ab08a05b5a3b6a68a7e967f2d1dc3a2bc53e7c3fea3c5c74de73"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+      "sha256": "00a7010818682d14c14003f8e2ef06949ff25fb1bcc4ef1deca76986dde22730"
+    }
+  ],
+  "instructions": "依据你已封存的 StageA 选择（LEARN-da_vinci 三阶：灰阶梯度/空气透视/边缘链≤40px；迁移题材=黄昏山地远眺）继续：1) 重开所选学习路径文件核对其反馈/检查点/边缘-明暗关系与使用边界是否支持你的三值草图与「弱化导视牌背光侧边缘」判定；路径内任何未验证限制/量规如实标 [UNVERIFIED]。2) 完成必要的实际三值 JSON（三值定义+视觉重心+弱化边缘+依据 locator）与迁移记录（同一 光—灰阶—边缘 关系用于山脊/层叠远山）。3) 有限控制，用同一实际判定函数并记录真实判定：(a) 同一判定的 A/A 复核；(b) 破坏关键关系（构造 >40px 连续硬边链，应判轮廓线泄漏）；(c) 破坏内容（视觉重心错置到背光面）。4) 诚实留出：若公共资料中不存在真实的训练/对照/留出作品族，保持 holdout 子项 blocked，不编造 family ID；此时 C1 全契约不判 success。只写 B/ 与最终 RESULT.md+receipt.json；A/ 已封存不可改。"
+}

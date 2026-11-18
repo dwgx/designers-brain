@@ -1,0 +1,464 @@
+{
+  "schema_version": 1,
+  "scope": "current19 bounded proposal; no live writes; old receipts unchanged",
+  "observed_base_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "files": [
+    {
+      "path": "experiments/design.md",
+      "before_sha256": "b247fb83e386a6c3e3e2f8648dec12814dc02ab5a79cd4fbf68cad7f425a9991",
+      "before_bytes": 4486,
+      "after_sha256": "43efba140aa4c4075f54dce17e2be27922029044e3cc6129cd0a3a0938d252db",
+      "after_bytes": 4842,
+      "findings": [
+        "C04-DIRECTION-B",
+        "N1-FOUR-COPIES"
+      ],
+      "edits": [
+        {
+          "old": "| E2d | 塞尚 + 卡拉瓦乔（冲突清单 C-04；2026-11-16 · F06-D7 注册为 **planned-configuration**——生成通道 DOWN，登记不执行） | masked-histogram 假设的检验：直方图轴二选一处置下的边界与桶口径（CONFLICT-04 delta D4/D5 规格） |",
+          "new": "| E2d | 塞尚 + 卡拉瓦乔（冲突清单 C-04；2026-11-16 · F06-D7 登记的 **planned-configuration**；本次仅修正文义，未执行） | 现行方向 B：固定主模块全帧桶口径，检验直方图轴二选一处置与条件冲突边界。原 masked-histogram 方向 A 留作历史方案；重开需独立预注册。 |",
+          "occurrences": 1
+        },
+        {
+          "old": "- 【2026-11-16 · F06-D5 注记】CONFLICT-04 delta D5 的「双掩膜直方图自查脚本规格」（输入=帧 PNG+背景掩膜+桶规格；输出=bucket_counts/shares/max_single_bucket_share/midband_share/darkband_share；判定=塞尚 max_single_bucket_share≤0.20 仅非背景掩膜、卡拉瓦乔 darkband≥0.40/midband≤0.25 全帧；负例夹具=「背景 45% 近黑+人物暗部深棕 15%」）为 **E2d 执行前的待建项**，本文件不实现脚本。C-04 现行处置 = 二选一（conflicts.md C-04 方向 B，2026-11-16）。",
+          "new": "- **C-04 现行方向 B（2026-11-18 口径修正）**：E2d 只按持有者的原全帧直方图规则判分，执行前明确坐标系、桶边界、全帧分母与阈值。2026-11-16 F06-D5 的「双掩膜直方图自查脚本规格」属于已弃用的方向 A，不是方向 B 的待建前置；保留原 CONFLICT-04 delta D5 作为历史方案。若以后独立预注册重开方向 A，才为新试验定义掩膜、输入/输出、判定式与负例，并同步 conflicts.md §1/§5.D。本次不声称 E2d 已运行或双掩膜脚本已实现。",
+          "occurrences": 1
+        },
+        {
+          "old": "- 组合前先跑 **N1 反约束一致性检查**（逐条反约束 × 逐条画风规则，标 `一致/冲突`），冲突项按 N5 句式改写。",
+          "new": "- **N1 反约束一致性检查**：单卡与组合卡均须检查：每条反约束不得与任何同一适用域内的正向规则矛盾；先核对象、掩膜、单位与阈值口径，再逐条反约束 × 逐条画风规则标 `一致/冲突/不适用`。引入新模块时必须重算反约束段；与新模块正向规则冲突的默认禁令须删除或改写，不许冲突规则同时生效。 冲突项可按 N5 句式改写。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/cross/conflicts.md",
+      "before_sha256": "a5718276ff612c55586a99760cfe7416fae8a706b89b677b442c92dd6ec06cfa",
+      "before_bytes": 66241,
+      "after_sha256": "ea5a03ee3361dd9f7b0f1647be03b524ed27f1b504b7cec584f660fabfcd7271",
+      "after_bytes": 66445,
+      "findings": [
+        "C02-SHORT-SIDE",
+        "C04-CONSTRUCTED-COUNTEREXAMPLE",
+        "C04-DIRECTION-B",
+        "N1-FOUR-COPIES"
+      ],
+      "edits": [
+        {
+          "old": "（1920 宽下 = ≥28.8 px vs ≤11.5 px）",
+          "new": "（1920×1080 帧的短边是 1080 px：≥16.2 px vs ≤6.48 px）",
+          "occurrences": 1
+        },
+        {
+          "old": "（约 20 px）",
+          "new": "（例如 10 px）",
+          "occurrences": 1
+        },
+        {
+          "old": "换算 1920 宽：≥28.8 px vs ≤11.5 px → 交集为空",
+          "new": "按 1920×1080 帧短边 1080 px 换算：≥16.2 px vs ≤6.48 px → 交集为空（2026-11-18 更正原宽边算例）",
+          "occurrences": 1
+        },
+        {
+          "old": "暗带 ≥40% 均摊时单桶上界 40%/3≈13.3%",
+          "new": "暗带恰为 40% 且在三桶均摊这一可行构造中，每桶约占全帧 40%/3≈13.3%（这不是任意分布的单桶上界）",
+          "occurrences": 1
+        },
+        {
+          "old": "  3. **验收**：以主模块的直方图规则为唯一验收标准（N9：冲突轴上只保留持有者一行）。CONFLICT-04 delta D5 的「双掩膜直方图自查脚本规格」（输入/输出/判定式/负例夹具）登记为 E2 执行前的待建项（见 `experiments/design.md` §5b 注记；本次不实现脚本——全仓现无直方图自查实现，CONFLICT-04 RESULT 实测）。",
+          "new": "  3. **验收**：以主模块的原全帧直方图规则为唯一验收标准（N9：冲突轴上只保留持有者一行）；执行前固定该主模块的坐标系、桶边界、分母与判定式。CONFLICT-04 delta D5 的「双掩膜直方图自查脚本规格」是原方向 A 的历史方案，**不是现行方向 B 或 E2d 的前置条件**。只有另行预注册重开方向 A、明确掩膜与规则变更并同步 §1/§5.D 后，才按该新试验另建双掩膜检查（见 `experiments/design.md` §5b）。本次没有运行 E2d。",
+          "occurrences": 1
+        },
+        {
+          "old": "**N3 · 轴所有权表（对 C-02/C-03/C-05/C-06/C-07/C-09/C-10）**",
+          "new": "**N3 · 轴所有权表（对 C-02/C-03/C-04/C-05/C-06/C-07/C-09/C-10）**",
+          "occurrences": 1
+        },
+        {
+          "old": "> 「反约束段中每一条，必须与画风段的某条正向规则**不矛盾**。组合卡（引入第二个模块）时，必须**重算反约束段**：凡与新模块正向规则冲突的默认禁令，删除或改写——不许两条并存。自查表加一项：逐条反约束 × 逐条画风规则，标 `一致/冲突`。」",
+          "new": "> 「单卡与组合卡均须检查：每条反约束不得与任何同一适用域内的正向规则矛盾；先核对象、掩膜、单位与阈值口径，再逐条反约束 × 逐条画风规则标 `一致/冲突/不适用`。引入新模块时必须重算反约束段；与新模块正向规则冲突的默认禁令须删除或改写，不许冲突规则同时生效。」",
+          "occurrences": 1
+        },
+        {
+          "old": "> **采纳状态（2026-10-15，回执已核）**：**N1 / N3 / N6** 已内联进 `templates/style_card.md` 文末「组合卡注记」节（采纳时文件为 v0.2，现文件已演进至 v0.3、注记沿用；~~措辞照录~~【F09 更正 2026-11-16：RULE-01 复核证伪「措辞照录」——模板侧内联措辞与正本存在差异，本项状态改判 `needs_update`，差异明细见 RULE-01 lineage；触发条件=本卡×画家模块/另一张卡，单独用卡时不适用，整节标 `[归纳]` 待 E2 组合实验（本 campaign EXP-E2/E34）验证】）；**N4 / N9** 已并入 `experiments/design.md` §5b，**E2b/E2c 已补入该文件 §2 矩阵**；其余条（N2/N5/N7/N8）在模板侧以指针列出。→ **本节是 N1–N9 的正本（single source of truth）**，模板侧与实验侧为落地副本；A-12 若推翻某条，三处需同步（明细见本节末「回链」行）。",
+          "new": "> **采纳状态与当前文本（2026-11-18）**：2026-10-15 已采纳 N1/N3/N6；2026-11-16 F09/RULE-01 发现措辞与作用域漂移，其历史 `needs_update` 裁决保留，不改判为 `overturned_candidate`。本轮将 N1 正本、`templates/style_card.md`、`knowledge/domains/painters/modules/README.md`、`experiments/design.md` 四处同步为「单卡也查内部一致性；引入新模块时重算」。这是文本修补，不是 E2 效果验证。N4/N9、E2b/E2c 的历史采纳记录保留。**本节是 N1–N9 正本（single source of truth）**；后续变更须同步四处的适用条款。",
+          "occurrences": 1
+        },
+        {
+          "old": "> **回链（2026-10-15 主脑执行）**：`templates/style_card.md` 文末「组合卡注记」节已采纳 **N1 / N3 / N6**（采纳时 v0.2，现文件 v0.3 注记沿用；2026-11-16 F13-d 版本标注更正）；**N4 / N9** 已并入 `experiments/design.md` §5b；**E2b / E2c 已补入 §2 矩阵**。本文件（conflicts.md）保持只给注记、不改模板；N8 帧级开关 canonical 措辞见本节 L329-330。",
+          "new": "> **回链（2026-11-18 当前副本）**：`templates/style_card.md` 的一致性与组合卡注记、`knowledge/domains/painters/modules/README.md` 的组合规则速查、`experiments/design.md` §5b 与本节共同承载 N1；四处必须同步。N3/N6 的模板与模块速查副本、N4/N9 的实验副本、E2b/E2c 的矩阵记录沿用原采纳记录。N8 帧级开关以本节 N8 条目为准，不依赖漂移的行号。",
+          "occurrences": 1
+        },
+        {
+          "old": "- **模板缺口**：现有 `style_card.md` 模板有「反约束段」但没有「反约束与画风段一致性检查」，也没有「轴所有权表」——两者是本清单最大的可落地产出（§3 N1/N3）。",
+          "new": "- **模板缺口（历史判断与当前状态）**：初版缺 N1 内部一致性检查与 N3 轴所有权表；其后已采纳。2026-11-18 本轮修复 N1 量词、单卡/组合触发域及四处副本漂移；规则有效性仍待相应实验，不把文本同步写成效果验证。",
+          "occurrences": 1
+        },
+        {
+          "old": "`conflicts.md` §3（正本）、`templates/style_card.md` 与 `design.md` 三处",
+          "new": "`conflicts.md` §3（正本）、`templates/style_card.md`、`knowledge/domains/painters/modules/README.md` 与 `experiments/design.md` 四处",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/learning/durer/learning_path.md",
+      "before_sha256": "07670adae66241ab221872dae95ad42ada60182ef0c0bd0b1f6debcb3e8d4f76",
+      "before_bytes": 19125,
+      "after_sha256": "62fa48e9c7bf7f8755935408aa2658a4cb165969a231eae526654f1d0df2a305",
+      "after_bytes": 19156,
+      "findings": [
+        "DURER-UNITS"
+      ],
+      "edits": [
+        {
+          "old": "相邻帧线距变化 ≤10°",
+          "new": "相邻帧同区域线距变化 ≤10%、方向变化 ≤10°",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/learning/sargent/claim_evidence_map.md",
+      "before_sha256": "18cbae117ef9ca57e537939a033a2f0733d2718b1584d50b141adb495031b1cf",
+      "before_bytes": 27748,
+      "after_sha256": "25a671ffc1d097df0cce1d6b7419a56a80600486e37d9565be23063427787ead",
+      "after_bytes": 27943,
+      "findings": [
+        "SARGENT-CLAIM-COUNT"
+      ],
+      "edits": [
+        {
+          "old": "按 support_status：`supported` 45 / `partial` 6（C-ZORN-* 系列 + C-DEP-02 的 upstream partial 携带）/ `not_applicable` 2（练习建议）。无 `unverified`/`conflict` 硬升级；2 次 HTTP 429 与 `image_seen=0` 记为诚实 partial/unknown，不推翻 dossier §9 的 2026-10-16 本机实测。",
+          "new": "按正文 53 个 `C-*` 条目逐条重数（2026-11-18 文本计数更正）：`supported` **39** / `partial` **9** / `not_applicable` **5**。这是历史条目标签的准确汇总，不重新裁决任何 claim；原摘要 45/6/2 未与正文对应。Zorn 条目的旧标签属于旧时点，其现行处置按本文件 F20-B 收口注记；2 次 HTTP 429 与 `image_seen=0` 也不升级为新回访/新看图。",
+          "occurrences": 1
+        },
+        {
+          "old": "> 完整 `source_refs`（含 `retrieved_bytes_sha256` / `read_scope` / `access_status` / `version`）见 `receipt.json` `claims[]`；本文件 53 行与 receipt 的精简 claims 一一对应（receipt 只登记代表性 claim，不逐行复刻）。所有 locator 为 `nl -ba` 实测行号 + 子串；AUDIT 产物以其 hash 固定（`RESULT.md`=`816d346b…1731c` 等），本 lane 不改写。",
+          "new": "> 源 receipt 的代表性 `claims[]` 与其公共投影 `source-claims.json` 含 **10** 个 claim；本文列 **53** 个细分条目，二者不是一一对应。细分条目保留各自 locator/basis；代表性 source_refs 的 `retrieved_bytes_sha256` / `read_scope` / `access_status` / `version` 见 `source-claims.json`，原 receipt 由维护者归档。原 locator 属源版本，不能自动证明当前文件同一行号仍命中；本轮未回写旧 AUDIT 或旧 receipt。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/modules/README.md",
+      "before_sha256": "e98da3bceeda223521c52592ffa0c4e4a2d30ccc8c63d98bf75ba8c18a3663a3",
+      "before_bytes": 17492,
+      "after_sha256": "f7754c00749546b204b7ba6557622e2f36838872a6ac6109bdad0ea909879fa1",
+      "after_bytes": 17616,
+      "findings": [
+        "N1-FOUR-COPIES"
+      ],
+      "edits": [
+        {
+          "old": "- **N1 · 反约束一致性检查**：反约束段中每一条，必须与画风段的某条正向规则**不矛盾**；组合卡（引入第二个模块）时**必须重算反约束段**——凡与新模块正向规则冲突的默认禁令，删除或改写，不许两条并存。",
+          "new": "- **N1 · 反约束一致性检查**：单卡与组合卡均须检查：每条反约束不得与任何同一适用域内的正向规则矛盾；先核对象、掩膜、单位与阈值口径，再逐条反约束 × 逐条画风规则标 `一致/冲突/不适用`。引入新模块时必须重算反约束段；与新模块正向规则冲突的默认禁令须删除或改写，不许冲突规则同时生效。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/goya/capability_delta.md",
+      "before_sha256": "6bd1e3e646e0775d7becc87c3ceddd3fc2f89f31fa51766166a94a6c72ea841f",
+      "before_bytes": 5461,
+      "after_sha256": "cb6ae75436723b319337f771c65f424d53536af32258813726037d66e511dcd0",
+      "after_bytes": 5128,
+      "findings": [
+        "GOYA-SEMANTIC-SCOPE"
+      ],
+      "edits": [
+        {
+          "old": "## 2. §8.1b 草案新增的跨场景路由能力",
+          "new": "## 2. §8.1b 草案的候选关系与未完成语义映射",
+          "occurrences": 1
+        },
+        {
+          "old": "| 介质/语义无关的关系量 | §8.1 绑定行刑队、白衬衫受害者、提灯、城镇剪影、女巫巨人 | 拆成 R1–R8：光源(计数/位置/亮度质心/组亮度比)、构图(裁切组数/前景带)、面孔(计数)、队列(三态计数)、色彩(饱和面积/黑土占比/高光连通域)、表面(镜面斑/高频粗糙度)、版画(方向族/飞尘面积/方差)、怪诞(同框计数)——全是光度/计数/掩膜统计量 |",
+          "new": "| 候选关系量（仍含语义依赖） | §8.1 绑定行刑队、白衬衫受害者、提灯、城镇剪影、女巫巨人 | R1–R8 写出计数/位置/亮度/掩膜形式，但阵营、生死状态、伤口与怪诞对象分类尚无通用映射；不将其记为语义无关能力 |",
+          "occurrences": 1
+        },
+        {
+          "old": "| 默认题材泄漏剥离表 | 无 | §1 表把阵营身份/提灯器物/城镇夜景/怪兽清单/色名逐项降级；给「迁移判据」：撤掉专名后 §8.2 自查仍可算 = 纯风格；R4/R8 只保留「计数/同框/分类」，事件与讽喻语义不迁 |",
+          "new": "| 默认题材泄漏剥离表 | 无 | 已列出作品/人物专名与规则的关系；只完成部分剥离。R1/R3/R4/R5/R8 的语义掩膜仍未实现，不能因使用计数/分类一词即判纯风格迁移完成 |",
+          "occurrences": 1
+        },
+        {
+          "old": "**路由收益（一句话）**：从「认出处决/奇想集题材 → 套 §8.1 prompt」升级为「读出 R1–R8 关系 → 判断任意事件/告警帧是否满足画内证据光×裁切构图、面孔预算×哑光暗调等耦合，并按 P3/P6 档位决定是否带怪诞/版画附加层」；跨场景判定**不再依赖行刑队或提灯**。",
+          "new": "**路由收益（一句话）**：可把新题材与规则逐项对照，识别尚缺的语义映射；目前是候选研究入口，不是任意内容纯风格路由已实现。",
+          "occurrences": 1
+        },
+        {
+          "old": "- **能力矩阵口径**：「§8.1b 候选草案存在 + 跨场景路由判定规则已写」= 是；「可迁移已实测通过」= 否；「card 含 §8.1b」= 否；「E4 passed」= 否。 [STYLE-goya]",
+          "new": "- **能力矩阵口径**：「§8.1b 候选草案存在」= 是；「任意内容纯风格迁移实现」= 否，状态 `partial_semantic_transfer`；「可迁移已实测通过」= 否；「card 含 §8.1b」= 否；「E4 passed」= 否。 [STYLE-goya]",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/goya/style_only_draft.md",
+      "before_sha256": "e21a0b03478944b64d01bbaf2218020d421f158da80eb042d82d88e91611c5fa",
+      "before_bytes": 13263,
+      "after_sha256": "860116655574ceab6c524edc5fbd959db74cf149c9f7b0da9a86167e2f948fb5",
+      "after_bytes": 13575,
+      "findings": [
+        "GOYA-SEMANTIC-SCOPE"
+      ],
+      "edits": [
+        {
+          "old": "# §8.1b 纯风格段（候选草案）",
+          "new": "# §8.1b 风格迁移候选（保留语义依赖的草案）",
+          "occurrences": 1
+        },
+        {
+          "old": "仅保留**可迁移视觉关系**；把 行刑队/五月三日处决/起义者与士兵/提灯/奇想集女巫巨人等题材对象 降为可选内容基底，不作风格前提。",
+          "new": "本稿尝试剥离作品专名，但 R1/R3/R4/R5/R8 仍含阵营、面孔、生死状态、伤口/血迹或怪诞对象的语义依赖；**尚未实现任意内容上的纯风格迁移**。以下保留这些原规则以便审计，不将改名后的对象自动视为等价掩膜。",
+          "occurrences": 1
+        },
+        {
+          "old": "**迁移判据**：撤掉阵营身份、处决事件、提灯器物、城镇夜景、怪兽清单后，§8.2 的 8 条自查（亮度质心/光源定位、画框裁切 + 前景带、人脸检测计数、姿态分类 + 空间排序、HSV 掩膜 + 连通域、高光检测 + 高频能量图、方向场 + 区域方差、对象检测 + 面容关键点）仍可逐帧计算 → 纯风格。按此判据 1/2/3/5/6/7 全可迁；4（队列三态）与 8（怪诞同框）只保留其**计数/同框/分类**关系，事件与讽喻语义不迁。",
+          "new": "**迁移判据与未完成范围（2026-11-18）**：撤去作品/人物专名只完成第一步。还须为新题材明确每条规则的对象分类、区域掩膜及对应关系，并在适用规则上验证；像素量可计算不等于语义依赖已消除。R1/R3 的阵营分组、R4 的生死状态、R5 的伤口/血迹及高光对象、R8 的怪诞分类目前没有给出通用等价定义，因此保持 `partial_semantic_transfer`，不声称八条全可迁。",
+          "occurrences": 1
+        },
+        {
+          "old": "## 2. 可迁移视觉关系（",
+          "new": "## 2. 候选视觉关系（保留语义依赖；",
+          "occurrences": 1
+        },
+        {
+          "old": "| ID (goya) | 可迁移关系 |",
+          "new": "| ID (goya) | 候选关系（语义依赖须另定义） |",
+          "occurrences": 1
+        },
+        {
+          "old": "## 3. 正例（跨场景，逐帧可自查）",
+          "new": "## 3. 条件迁移设想（语义映射尚未实现）",
+          "occurrences": 1
+        },
+        {
+          "old": "**正例 1 — 抽象新闻版式 / 事故信息图（无处决、无士兵、无提灯器物）**",
+          "new": "**条件迁移设想 1 — 抽象新闻版式 / 事故信息图（语义对应未实现）**",
+          "occurrences": 1
+        },
+        {
+          "old": "**八条自查全是亮度质心/裁切检测/人脸计数/HSV 掩膜/连通域/方向场统计量，无需认出 1808 年的行刑队** → 纯风格成立。",
+          "new": "**此例不能据此判为纯风格成立**：「受众组」不是已定义的受害者掩膜，「已停/将停/运行中」也不是已证明等价的生死三态；R5 的伤口/血迹与四类高光相交条件没有落实。保留为未实现的语义映射设想，非八条通过。",
+          "occurrences": 1
+        },
+        {
+          "old": "**正例 2 — 监控截帧 / UI 告警态（内容全换）**",
+          "new": "**条件迁移设想 2 — 监控截帧 / UI 告警态（语义对应未实现）**",
+          "occurrences": 1
+        },
+        {
+          "old": "R1–R8 仍逐条可算。仅声明视觉关系可迁",
+          "new": "R1/R3/R4/R5/R8 仍需定义并验证语义掩膜；本例尚未落实八条完整自查。仅提出迁移设想",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/hogarth/style_only_draft.md",
+      "before_sha256": "42dc6390df83e63d8d691b346cb622fe45be3c0658e258fda5b81d0a98e49647",
+      "before_bytes": 13330,
+      "after_sha256": "831ec26003abdd4ac18b9b5810c5c66a0e901270ce09c41cd91bc5965ca8db8a",
+      "after_bytes": 13573,
+      "findings": [
+        "HOGARTH-TWO-PANELS"
+      ],
+      "edits": [
+        {
+          "old": "主角可追踪元素（同一图标/配色）每帧出现率 100%、跨帧 ≥2 次状态变化（R2）",
+          "new": "本例是两幅静态对位面板，P1 取单幅起步档，**不启用 R2 系列进度**；若启用 R2，须另提供 ≥6 帧且 ≥2 次跨帧状态变化的序列",
+          "occurrences": 1
+        },
+        {
+          "old": "**八条自查全是 OCR/直方图/关键点/结构相似度/动作计数/方向场统计量，无需认出 18 世纪伦敦浪子** → 纯风格成立。",
+          "new": "**本例只检查已启用的关系；R2 未启用，R7/R8 仅在印品/版画档启用。**这是一份纸面迁移设想，不是八条全部通过，也不证明图标已具备面孔关键点的等价掩膜；没有 E4 实测。",
+          "occurrences": 1
+        },
+        {
+          "old": "R1–R8 仍逐条可算。仅声明视觉关系可迁",
+          "new": "只检查适用关系；成对静态卡不启用 R2，流程若启用系列档则须另满足 ≥6 帧和 ≥2 次变化。仅保留视觉关系迁移设想",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/hopper/style_only_draft.md",
+      "before_sha256": "08d300edc200b74e2491aeac458fee9708f85bc2321eab307323e83db9b738ec",
+      "before_bytes": 12740,
+      "after_sha256": "00e82fbad4bd7d1e7b128c3570d507b7475c3aa530f62ff627698efac3073b80",
+      "after_bytes": 12865,
+      "findings": [
+        "HOPPER-ONE-LE-THREE"
+      ],
+      "edits": [
+        {
+          "old": "- **C5 ⟨R6 ∧ R5⟩「光源数受控 × 夜档光池」**：昼档 1 个太阳 / 夜档 ≤3 个可见光源且各有照射面，与「夜档暖光池 ≤25% 且集中」耦合；若改成「单一烛光 + 近黑背景」的戏剧光源（§8.1 越界警报 vs 卡拉瓦乔），R6 的 ≤3 实用光源与 R5 的冷暗域细节（not black）同时失效。",
+          "new": "- **C5 ⟨R6 ∧ R5⟩「光源数受控 × 夜档光池」**：昼档 1 个太阳 / 夜档 ≤3 个可见光源且各有照射面，与「夜档暖光池 ≤25% 且集中」耦合。单一可见烛光满足 1≤3，不能仅因改成烛光判 R6 失败；须分别检查其照射面、R5 光池预算，以及 §8.1 冷暗域有细节（not black）的风格边界。",
+          "occurrences": 1
+        },
+        {
+          "old": "**强反例 3 — 改单一烛光近黑背景**：题材不变，把夜档 ≤3 个实用光源改成「单一烛光 + 近黑背景 + 戏剧聚光」。破 R6（≤3 个可见光源各带照射面 → 单烛光结构不同）、R5（冷暗域须有细节 not black）；§8.1 越界警报（vs 卡拉瓦乔）。",
+          "new": "**条件反例 3 — 单一烛光且暗域细节被抹去**：若在纸面夹具中明确撤去 §8.1 要求的冷暗域细节，或令 R5 暖光池面积 >25%，才得到相应条款的反例；「单一烛光」本身满足 R6 的 ≤3 上限，画内可见且有照射面时不违反 R6。未给出这些额外条件时不能断言失败；越界警报与数值约束分别记录。",
+          "occurrences": 1
+        },
+        {
+          "old": "⑤ 需要**单一烛光 + 近黑背景戏剧光源**的场景（破 R5/R6，越界卡拉瓦乔）",
+          "new": "⑤ 单一烛光且**明确丢失冷暗域细节或超出 R5 光池预算**的场景（按具体被破坏条款判定；1≤3 本身不破 R6）",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/ogata_korin/style_only_draft.md",
+      "before_sha256": "a51a0d2e941cf46921d28bebc0e0ff3caea681cad76addc96b58e9b8e840518f",
+      "before_bytes": 12761,
+      "after_sha256": "300f445e9f9eb0c68bb8934c77264c5591c56173e31126baf8b3417ea9e6d34c",
+      "after_bytes": 12823,
+      "findings": [
+        "KORIN-DISJOINT-AREA"
+      ],
+      "edits": [
+        {
+          "old": "金地占 72%",
+          "new": "金地占 70%",
+          "occurrences": 1
+        },
+        {
+          "old": "蓝 18%/绿 12%(R2)",
+          "new": "蓝 18%/绿 10%(R2；三个互斥色相区合计 98%，余下 2% 留作其他色)",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/okeeffe/counterexamples.md",
+      "before_sha256": "22ea3e5b3285614ab3860e5f397f33480937ef1a62cbb1be722ff5c4f6326c43",
+      "before_bytes": 3274,
+      "after_sha256": "4e45022ba8ac483ce281febf59d9aad14a9679be8e3fee479553cf3698420c24",
+      "after_bytes": 3333,
+      "findings": [
+        "OKEEFFE-OFFFRAME-LIGHT"
+      ],
+      "edits": [
+        {
+          "old": "R4(§8.2-4 L199 投影≤2%、光源=0、对比≤120/255)直接 fail",
+          "new": "在本纸面反例明确投影>2%或全帧对比>120/255时，R4(§8.2-4 L199)失败；画外光源本身仍满足画内光源=0",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/okeeffe/style_only_draft.md",
+      "before_sha256": "22138396710884253a85c10a181f3a12ed9940f1d7026b6049fe4a538b570e79",
+      "before_bytes": 11792,
+      "after_sha256": "8edf75314cd50c9e23484f7d294b935e88a6903d0f7bc8b873d79988e42e0f2a",
+      "after_bytes": 11930,
+      "findings": [
+        "OKEEFFE-OFFFRAME-LIGHT"
+      ],
+      "edits": [
+        {
+          "old": "**强反例 2 — 保留渐变但引入硬光戏剧**：题材不变，引入 chiaroscuro/画外单光源/近黑背景/可见笔触与投影 → 破 R4(投影>2%、光源>0)、R2(纹理能量>30%)、R3(带纹/笔触)、拆 C2/C3；§8.1 负向 L182、越界警报③。",
+          "new": "**强反例 2 — 保留渐变但引入硬光戏剧**：在纸面夹具中明确引入投影面积>2%或全帧对比>120/255，则破 R4；若另有纹理能量>30%或带纹/笔触，分别按 R2/R3 判定。画外单光源不增加画内可见光源计数，不能据此写光源>0。这里按具体条件拆 C2/C3，不将所有硬光必然视为同时破坏三条；§8.1 负向 L182、越界警报③。",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/capability_delta.md",
+      "before_sha256": "2cf064e5cdd68c10d19e2735a55b5b2ce9f9428871db723362f141e490698c6e",
+      "before_bytes": 6043,
+      "after_sha256": "e31bbcebedbf55a320ad2b310ce1d44a35230a40abeeba66cdbeb2694facc2fd",
+      "after_bytes": 6043,
+      "findings": [
+        "PIERO-PERSPECTIVE"
+      ],
+      "edits": [
+        {
+          "old": "等距",
+          "new": "透视",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/counterexamples.md",
+      "before_sha256": "74451b2a5bd8c006a226ef89e417f919d376d528f81f3e247db26c234f6a5777",
+      "before_bytes": 3529,
+      "after_sha256": "20951764514c89bc3795169343166185e4df8cbca7cc164ff534630486d96fd8",
+      "after_bytes": 3529,
+      "findings": [
+        "PIERO-PERSPECTIVE"
+      ],
+      "edits": [
+        {
+          "old": "等距",
+          "new": "透视",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/style_only_draft.md",
+      "before_sha256": "c3262a10455edda1a103efe1b010a8416fa32d3c33b1cae6448c9c33cc035c90",
+      "before_bytes": 12733,
+      "after_sha256": "b4357495a272e2de4a313e2cb5aacbd15b48cc187cc3c21f21e72fdc872818a3",
+      "after_bytes": 12962,
+      "findings": [
+        "PIERO-PERSPECTIVE"
+      ],
+      "edits": [
+        {
+          "old": "等距",
+          "new": "透视",
+          "occurrences": 3
+        },
+        {
+          "old": "① 建筑/透视/透视类输出",
+          "new": "① 建筑/单点或双点透视类输出",
+          "occurrences": 1
+        },
+        {
+          "old": "## 4. 强反例",
+          "new": "> **投影边界（2026-11-18）**：纯等距/正交投影的平行线不收敛到有限消失点，进深尺度不递减，不能作为 R2 的正例。此处修正例名，不改变 R2，也不声称渲染已通过。\n\n## 4. 强反例",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "path": "templates/style_card.md",
+      "before_sha256": "f2cc36a75eba2135d4fa5d58331bf0e293ebbbbd482dbc4e701beee929bd9fed",
+      "before_bytes": 17696,
+      "after_sha256": "25fa26b69bcf946797e925799193ebb561be895acb6a4513cd70b7375a2db5c7",
+      "after_bytes": 17934,
+      "findings": [
+        "N1-FOUR-COPIES",
+        "N1-SCOPE"
+      ],
+      "edits": [
+        {
+          "old": "- **N1 反约束一致性检查**：反约束段每一条，必须与画风段的某条正向规则**不矛盾**；组合时**重算反约束段**——凡与新模块正向规则冲突的默认禁令，删除或改写，不许两条并存。自查加一项：逐条反约束 × 逐条画风规则（`F#` × `S#`），标 `一致/冲突`。",
+          "new": "- **N1 反约束一致性检查**：单卡与组合卡均须检查：每条反约束不得与任何同一适用域内的正向规则矛盾；先核对象、掩膜、单位与阈值口径，再逐条反约束 × 逐条画风规则标 `一致/冲突/不适用`。引入新模块时必须重算反约束段；与新模块正向规则冲突的默认禁令须删除或改写，不许冲突规则同时生效。",
+          "occurrences": 1
+        },
+        {
+          "old": "> 状态：`[归纳]`，待 A-12 组合实验验证（可被推翻）。单独用本卡时以下不适用；完整 N1–N9 与 18 条冲突明细见 `conflicts.md`。",
+          "new": "> 状态：`[归纳]`，待 E2 组合实验验证（可被推翻）。N1 的内部一致性检查也适用于单卡；N1 的重算动作及本节 N3/N6 组合注记在引入第二模块时触发。完整 N1–N9 与 18 条冲突明细见 `conflicts.md`。",
+          "occurrences": 1
+        },
+        {
+          "old": "> 触发条件：本卡 × 画家模块（§8.2）/ 本卡 × 另一张卡，组合使用时。",
+          "new": "> 触发条件：单卡也执行 N1 内部一致性检查；本卡 × 画家模块（§8.2）/ 本卡 × 另一张卡时，另执行重算与组合条款。",
+          "occurrences": 1
+        },
+        {
+          "old": "## 组合卡注记（v0.2 追加 · 与第二个模块组合时用；来源：B-12 `knowledge/cross/conflicts.md` §3）",
+          "new": "## 一致性与组合卡注记（v0.2 追加；N1 基础检查含单卡，组合时重算；来源：B-12 `knowledge/cross/conflicts.md` §3）",
+          "occurrences": 1
+        }
+      ]
+    }
+  ]
+}

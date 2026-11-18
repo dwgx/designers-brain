@@ -1,0 +1,180 @@
+{
+  "task_id": "SEED-EXPERIMENT-kail_designs/prototype",
+  "phase": "S05-SEED-PROTOTYPES",
+  "status": "submitted",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · single self-authored pass stack, NOT two product pages conflated into one proven shader pipeline]",
+  "recorded_after_run_utc": "2026-11-15T14:10:46.930868+00:00",
+  "config_sha256": "856a6e1d376bd2c0c4841244efab9d7df3f93b390c36f3719fa36c1eba72d7f2",
+  "build_py_sha256": "c74f27b94bb381f27d74f4e2545f358e34f9d7dafd3dc8afe58ff5f812a3101b",
+  "intended_checks_before_run": [
+    "C1 exactly 4 variants (<=4) emitted, each 64x48 grayscale, dimensions UNCHANGED across all variants",
+    "C2 exposure variant: regional mean luminance rises; clipping count >0 (gain 1.35 on bright=250 -> 255 clip recorded); declared color units (0..255 code values) stated",
+    "C3 halo variant: halo-region mean luminance INCREASES relative to baseline while bright-region and far-field means stay ~unchanged (halo is localized); difference map shows energy in the halo ring",
+    "C4 grain variant: flat-region high-frequency difference (mean |diff| in flat patch) > 0 and overall low-frequency structure preserved (grain is high-frequency, deterministic)",
+    "C5 all variants + difference maps + raw arrays/config retained; coordinate-deterministic (no RNG), identical on rerun",
+    "C6 deterministic rerun: full second generation; per-file sha256 identical",
+    "C7 BOUNDARY: single self-authored pass stack; do NOT conflate two product pages; do NOT claim time continuity / website determinism / 4K / video export / real internal shader pipeline"
+  ],
+  "actual_checks_after_run": {
+    "C1_four_variants_unchanged_dims": {
+      "n_variants": 4,
+      "at_most_four": true,
+      "dims_all": [
+        [
+          64,
+          48
+        ],
+        [
+          64,
+          48
+        ],
+        [
+          64,
+          48
+        ],
+        [
+          64,
+          48
+        ]
+      ],
+      "pass": true
+    },
+    "C2_exposure_effect_and_clipping": {
+      "gain": 1.35,
+      "baseline_bright_mean": 250.0,
+      "exposure_bright_mean": 337.5,
+      "baseline_clip_255": 0,
+      "exposure_clip_255": 1113,
+      "clipping_increased": true,
+      "color_units": "raw 8-bit grayscale code value 0..255 (declared, NOT sRGB EOTF / NOT CIE L*)",
+      "pass": true
+    },
+    "C3_halo_localized_effect": {
+      "halo_ring_mean_baseline": 129.206,
+      "halo_ring_mean_v2": 155.132,
+      "halo_ring_increased": true,
+      "bright_region_mean_baseline": 250.0,
+      "bright_region_mean_v2": 250.0,
+      "bright_region_unchanged": true,
+      "halo_diff_map_mean": 25.9614,
+      "pass": true
+    },
+    "C4_grain_high_frequency_effect": {
+      "flat_region_mean_abs_diff": 5.8671,
+      "overall_mean_abs_diff": 6.0361,
+      "flat_diff_positive": true,
+      "coordinate_deterministic": true,
+      "rng_used": false,
+      "pass": true
+    },
+    "C5_evidence_retained": {
+      "input_field_json": true,
+      "input_field_png": true,
+      "variant_pngs": [
+        "v0_baseline.png",
+        "v1_exposure.png",
+        "v2_halo.png",
+        "v3_grain.png"
+      ],
+      "variant_jsons": [
+        "v0_baseline.json",
+        "v1_exposure.json",
+        "v2_halo.json",
+        "v3_grain.json"
+      ],
+      "diff_maps": [
+        "diff_v1_exposure.png",
+        "diff_v2_halo.png",
+        "diff_v3_grain.png"
+      ],
+      "pass": true
+    },
+    "C6_deterministic_rerun": {
+      "note": "filled by run_evidence.json after two identical runs",
+      "pass": null
+    },
+    "C7_boundary_single_stack": {
+      "pass": true,
+      "label": "ONE self-authored operator stack (exposure->halo->grain) in declared order; two product pages NOT conflated; NO time-continuity / website-determinism / 4K / video-export / real-shader-pipeline claim"
+    }
+  },
+  "all_declared_checks_passed": true,
+  "deterministic_rerun": {
+    "run1_dir": "outputs/",
+    "run2_dir": "rerun_20261115/",
+    "run1_file_count": 18,
+    "run2_file_count": 18,
+    "per_file_hashes_run1": {
+      "outputs/checks.json": "248d5f62db786bf7c36fb4cd496f5a097d5f4ad1b37d3481c5f409733a671020",
+      "outputs/diff_v1_exposure.json": "6db05fa23b1eff9cf2428de438e55dca70f71efabaa15a0f7a0db0325d83c6bb",
+      "outputs/diff_v1_exposure.png": "c58a8dae5107ead072e32c5c67671dcc5cde7ead17145179589e4b1d4e6b8cd8",
+      "outputs/diff_v2_halo.json": "877da428eec030c612640bd5c5d7413cb62da565e810219180a3504ee467377e",
+      "outputs/diff_v2_halo.png": "1f9e613ce5658dd8b6c4d123e547836f9151eacc45f0810206e2f7420ef468cd",
+      "outputs/diff_v3_grain.json": "2e845d95a1f4bce62a6ec0fbcddc38abb7bad65644c2b12207d2d53b6f6c4c2a",
+      "outputs/diff_v3_grain.png": "e64f9b707aa1c6a6be4ea9871903ca8e98011a91c2d6cef695ddbe210d039f62",
+      "outputs/input_field.json": "ac002e61ae02b06c1aa149661887861b645d9a32c993bb367c208ab9f6f836a8",
+      "outputs/input_field.png": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+      "outputs/run_config_snapshot.json": "bbed5ce0730c67fa6ea34b43380f5488666baf5019eb90a10c25d0322032ef3f",
+      "outputs/v0_baseline.json": "a8170a9906f8bb62ed65fc6468ac475e12f2e9dfb3dc5b680b039d107ac58cd6",
+      "outputs/v0_baseline.png": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+      "outputs/v1_exposure.json": "7d962bdf72bd4703c6af3390d7851e680d11b00cc622e2ffe414991d865b5f23",
+      "outputs/v1_exposure.png": "523a0fbe79b19029a8cc1262888799c3e386c0c711e7cba03861c2dfbf373939",
+      "outputs/v2_halo.json": "24f034c5a78064dc6c31a6e3df8c88ada07f174f0f577c26f39d2a8b5876c5dd",
+      "outputs/v2_halo.png": "ff8bd37cc1b31212f3ec203a331de0dcd0578d3848b82679d39b8dc4f7f74640",
+      "outputs/v3_grain.json": "bfdf1fe2ca798038ec84b453216b820a2b1116608856417e2a158b3a72e5e33b",
+      "outputs/v3_grain.png": "b283613b1aeda81f2e6535631596a57b7f7326b8bd3559984c05a910c64392be"
+    },
+    "per_file_hashes_run2": {
+      "rerun_20261115/checks.json": "248d5f62db786bf7c36fb4cd496f5a097d5f4ad1b37d3481c5f409733a671020",
+      "rerun_20261115/diff_v1_exposure.json": "6db05fa23b1eff9cf2428de438e55dca70f71efabaa15a0f7a0db0325d83c6bb",
+      "rerun_20261115/diff_v1_exposure.png": "c58a8dae5107ead072e32c5c67671dcc5cde7ead17145179589e4b1d4e6b8cd8",
+      "rerun_20261115/diff_v2_halo.json": "877da428eec030c612640bd5c5d7413cb62da565e810219180a3504ee467377e",
+      "rerun_20261115/diff_v2_halo.png": "1f9e613ce5658dd8b6c4d123e547836f9151eacc45f0810206e2f7420ef468cd",
+      "rerun_20261115/diff_v3_grain.json": "2e845d95a1f4bce62a6ec0fbcddc38abb7bad65644c2b12207d2d53b6f6c4c2a",
+      "rerun_20261115/diff_v3_grain.png": "e64f9b707aa1c6a6be4ea9871903ca8e98011a91c2d6cef695ddbe210d039f62",
+      "rerun_20261115/input_field.json": "ac002e61ae02b06c1aa149661887861b645d9a32c993bb367c208ab9f6f836a8",
+      "rerun_20261115/input_field.png": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+      "rerun_20261115/run_config_snapshot.json": "bbed5ce0730c67fa6ea34b43380f5488666baf5019eb90a10c25d0322032ef3f",
+      "rerun_20261115/v0_baseline.json": "a8170a9906f8bb62ed65fc6468ac475e12f2e9dfb3dc5b680b039d107ac58cd6",
+      "rerun_20261115/v0_baseline.png": "e05fbe10449a9d7125b90a82277264125b48be1c77eec296582edf8c07995dc5",
+      "rerun_20261115/v1_exposure.json": "7d962bdf72bd4703c6af3390d7851e680d11b00cc622e2ffe414991d865b5f23",
+      "rerun_20261115/v1_exposure.png": "523a0fbe79b19029a8cc1262888799c3e386c0c711e7cba03861c2dfbf373939",
+      "rerun_20261115/v2_halo.json": "24f034c5a78064dc6c31a6e3df8c88ada07f174f0f577c26f39d2a8b5876c5dd",
+      "rerun_20261115/v2_halo.png": "ff8bd37cc1b31212f3ec203a331de0dcd0578d3848b82679d39b8dc4f7f74640",
+      "rerun_20261115/v3_grain.json": "bfdf1fe2ca798038ec84b453216b820a2b1116608856417e2a158b3a72e5e33b",
+      "rerun_20261115/v3_grain.png": "b283613b1aeda81f2e6535631596a57b7f7326b8bd3559984c05a910c64392be"
+    },
+    "all_byte_identical": true,
+    "verdict": "PASS"
+  },
+  "actual_outcomes": {
+    "n_variants": 4,
+    "dims": [
+      64,
+      48
+    ],
+    "exposure_clip_255": [
+      0,
+      1113
+    ],
+    "halo_ring_mean": [
+      129.206,
+      155.132
+    ],
+    "bright_region_unchanged": true,
+    "grain_flat_diff": 5.8671,
+    "rng_used": false
+  },
+  "preserved_parent_records": [
+    "state.md",
+    "runner_receipt.json",
+    "receipt.json",
+    "review-evidence.md",
+    "review-gate-receipt.json",
+    "review-gate-runner-receipt.json"
+  ],
+  "no_e2_e3_active_change": true,
+  "no_image_api_call": true,
+  "no_credentials": true,
+  "spawns_allowed": false
+}

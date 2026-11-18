@@ -137,7 +137,7 @@
 | 漂移 | 定位（repo 实测） | AUDIT 判定 | 处置 |
 |---|---|---|---|
 | **VL-DRIFT-01** | [velazquez.md](../../modules/velazquez.md) L79/L80/L81/L82「**本卡 §3.1 分工条款**」×4（另 L57/L73 共 6 处提及 §3.1）；但模块卡 headers = 视觉指纹 / 图像 prompt / 代码艺术规则 / 控制参数 / 冲突注记 / 来源，**无 §3.1 节**。§3.1 只存在于 [velazquez.md](../../dossiers/velazquez.md) L74–L81 | `conflict`（[claim_evidence_map.md](claim_evidence_map.md) VL-DRIFT-01，`module.md:L79`） | 规则文本无错，**仅指针悬空**；本 shard 引用时一律改指 dossier §3.1 L74–L81，并在 learning_path §6 / how-to-think D6 注明；**不改模块卡** |
-| **VL-DRIFT-02** | [velazquez.md](../../modules/velazquez.md) L87 写「near-miss **8 对**」；`conflicts.md` §4 实有 **11** 条编号 near-miss（L347–L357，#9–#11 于 2026-10-16 补） | `conflict`（VL-DRIFT-02） | 同 8-vs-11 漂移亦由 AUDIT-durer lane 记录；报告不修 |
+| **VL-DRIFT-02** | [velazquez.md](../../modules/velazquez.md) L87 写「near-miss **8 对**」；`conflicts.md` §4 实有 **11** 条编号 near-miss（L347–L357，#9–#11 于 2026-10-16 补）——**2026-11-18 收口核验：module L87 已按 F01 更正为「11 对」，漂移已消除；本行保留为历史登记** | `conflict`（VL-DRIFT-02） | 同 8-vs-11 漂移亦由 AUDIT-durer lane 记录；报告不修 |
 | 可解析项（非漂移） | C-14 §1 行 L45 / 详 L229、N1 L305、N3 L311；velazquez §3.1c L80、§4 注 L99 引用 | AUDIT §7-3 确认 **能解析** | 不在此列 |
 
 > 全部为 AUDIT `REPORT ONLY (do NOT fix; repo read-only)`（RESULT §7）。本 shard 不碰 repo、不碰 conflicts.md、不碰 AUDIT 产物；只在自己 5 文件里记录并把引用落到可解析的 dossier/conflicts 行号。velazquez 在 conflicts.md 的**直接 C/near-miss 行 = 0**（§D）。

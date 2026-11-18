@@ -1,0 +1,43 @@
+{
+  "schema": "seed-prototype-origin-1.0",
+  "seed": "AnnasXechoes",
+  "evidence_level": "E1",
+  "implementation_is_researcher_authored": true,
+  "sources": [
+    {
+      "original_logical_path": "SEED-EXPERIMENT-AnnasXechoes/prototype-s12/build.py",
+      "packaged_path": "prototype/build.py",
+      "sha256": "d7f9587d6fba7348ef9a6ea66027e557b5dc9bd1f3d4f9b599eefc0a09a2f73a",
+      "unchanged": true,
+      "packaged_sha256": "d7f9587d6fba7348ef9a6ea66027e557b5dc9bd1f3d4f9b599eefc0a09a2f73a"
+    },
+    {
+      "original_logical_path": "SEED-EXPERIMENT-AnnasXechoes/prototype-s12/config.json",
+      "packaged_path": "prototype/config.json",
+      "sha256": "8605fc2f18026a113ba9dcfc61fb3655316d773b91451f298919189c768188c3",
+      "unchanged": true,
+      "packaged_sha256": "8605fc2f18026a113ba9dcfc61fb3655316d773b91451f298919189c768188c3"
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-AnnasXechoes/prototype-s12/receipt.json",
+      "sha256": "690a6e3889c6efc2a3a95b0c93be6629ec4f6e379c5bbd2e6341518fc1637733",
+      "bytes": 9768,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-AnnasXechoes/review-evidence.md",
+      "sha256": "2082879e8eb27de7e0044f8572956a25a04ddfcec878b73de433ab32951706d7",
+      "bytes": 5420,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-AnnasXechoes/review-gate-receipt.json",
+      "sha256": "2a97540b1f6b8e86323ae18e398bb4fa9f838fe76dd21d98293eeb4668adcd09",
+      "bytes": 3662,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    }
+  ]
+}

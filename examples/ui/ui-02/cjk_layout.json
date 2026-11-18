@@ -1,0 +1,80 @@
+{
+  "source": "CLREQ — Requirements for Chinese Text Layout, W3C DNOTE 2026-11-04 (Group Note Draft, NOT a Recommendation); fetched 2026-11-15 via /TR/2026/DNOTE-clreq-20261104/. Status: draft; clause 6.1.1 explicitly says 'Prohibition rules for line start and line end are styling issues. The user agent can choose or customize the rules'.",
+  "read_scope": "sections 6.1, 6.1.1, 6.1.2, 6.1.3, 6.2, 6.3 (fulltext of those sections) + appendix punctuation tables; NOT a full compliance audit and NOT a claim that browsers implement every rule.",
+  "environment_note": "This fixture is rendered in headless Chrome 157 (Blink). CSS values are declared in fixture.html; whether Blink actually applies each specific 禁则 to every CJK punctuation was NOT pixel-verified here. 'css_implemented' means: a standard CSS property is the correct mechanism and is set in the fixture. 'untested' means: no faithful CSS-only mechanism, so behavior is deliberately not asserted.",
+  "rules": [
+    {
+      "id": "R1-line-start-basic",
+      "clreqLocator": "§6.1.1 (prohibition-rules-basic): pause/stop punctuation (顿号、逗号、句号、冒号、分号、叹号、问号), closing quotes/brackets/angle brackets, connector marks, interpuncts, solidi should NOT appear at line start; 'This is the most recommended method'",
+      "cssProperty": "line-break: strict (CSS Text Module Level 3) + word-break: normal",
+      "status": "css_implemented",
+      "note": "line-break:strict is the closest standard mapping for forbidding forbidden punctuation at line start/end. Declared in .cjk-strict. Exact codepoint coverage is engine-dependent; not pixel-verified."
+    },
+    {
+      "id": "R2-line-end-opening",
+      "clreqLocator": "§6.1.1 (prohibition-rules-basic): 'Opening quotation marks, opening parentheses, and opening angle brackets should not appear at the line end.'",
+      "cssProperty": "line-break: strict",
+      "status": "css_implemented",
+      "note": "Same CSS mechanism; opening brackets kept off line end."
+    },
+    {
+      "id": "R3-strict-dash-ellipsis",
+      "clreqLocator": "§6.1.1 (prohibition-rules-strict): 'two-em dashes and ellipses should not appear at the line start' (additive over GB-style)",
+      "cssProperty": "line-break: strict",
+      "status": "css_implemented",
+      "note": "CSS line-break: strict covers the strict set where the engine supports it; not pixel-verified."
+    },
+    {
+      "id": "R4-none-loose-reference",
+      "clreqLocator": "§6.1.1 (prohibition-rules-none): 'Ignore all prohibition against line breaks. Commonly used in newspapers in Taiwan and Hong Kong.'",
+      "cssProperty": "line-break: loose / auto (CSS Text 3)",
+      "status": "css_implemented",
+      "note": "Rendered as the .cjk-loose comparison paragraph. Demonstrates the 'none' end of CLREQ's four strictness levels."
+    },
+    {
+      "id": "R5-word-break-cjk",
+      "clreqLocator": "§6.1 Line breaking & hyphenation (general CJK line breaking between Han characters)",
+      "cssProperty": "word-break: normal; overflow-wrap: normal",
+      "status": "css_implemented",
+      "note": "Standard CJK line-breaking control; declared explicitly to avoid break-all."
+    },
+    {
+      "id": "R6-unbreakable-marks",
+      "clreqLocator": "§6.1.2 Prohibition rules for unbreakable marks (符号分离禁则): 'certain punctuation marks ... take up 2 em of space. They should not be broken across two lines.' (e.g. two-em dash / ellipsis pairs)",
+      "cssProperty": null,
+      "status": "untested",
+      "note": "No faithful CSS-only mechanism keeps a specific 2-em punctuation unit unbroken across lines in all engines; would need engine-level line breaking or JS measurement. NOT asserted."
+    },
+    {
+      "id": "R7-punctuation-width-adjustment",
+      "clreqLocator": "§6.3.2 Punctuation Width Adjustment / compression of adjacent punctuation marks (标点挤压); §6.1.1 notes compression MUST be processed BEFORE prohibition rules",
+      "cssProperty": null,
+      "status": "untested",
+      "note": "Punctuation compression/挤压 has no interoperable CSS equivalent; text-spacing-trim is not broadly supported. NOT asserted."
+    },
+    {
+      "id": "R8-hanging-punctuation",
+      "clreqLocator": "§6.1.3 Hanging punctuation at line end (行尾点号悬挂): 'Most Chinese publications do not use hanging punctuation at line end'; only certain pause/stop marks may overhang",
+      "cssProperty": "hanging-punctuation: allow-end (limited support; deliberately NOT applied)",
+      "status": "untested",
+      "note": "CLREQ itself says most Chinese publications do NOT use hanging punctuation; support is limited and locale-dependent. Left unimplemented/untested rather than faking compliance."
+    },
+    {
+      "id": "R9-line-adjustment-justification",
+      "clreqLocator": "§6.2.2 Line adjustment / reduction and expansion of inter-character spacing (挤压与拉伸/均排), §6.3.1.2 Even inter-character spacing",
+      "cssProperty": "text-align: justify (partial, not equivalent)",
+      "status": "untested",
+      "note": "CSS text-align:justify is NOT equivalent to CLREQ's priority-ordered inter-character reduction/expansion + '先挤进，后推出'. NOT asserted."
+    },
+    {
+      "id": "R10-han-western-mixed-spacing",
+      "clreqLocator": "§6.1.4 / §6.2.1: Han-Western mixed text spacing; 'the spacing made available during line adjustment processing'",
+      "cssProperty": "text-autospace (not widely supported), not applied",
+      "status": "untested",
+      "note": "Automatic Han/Western spacing is not interoperably supported in the test engine; NOT asserted."
+    }
+  ],
+  "css_implemented_count": 5,
+  "untested_count": 5,
+  "version": "CLREQ DNOTE 2026-11-04"
+}

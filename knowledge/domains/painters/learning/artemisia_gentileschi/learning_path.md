@@ -26,7 +26,7 @@
 <a id="db-source-line-21"></a>
 ## 2. 重点作品及来源（沿用 AUDIT 逐行记录）
 
-- （见 dossier §0「关键作品」逐条带馆藏与 URL）
+- 重点作品 5 件（沿用 dossier §0）：那不勒斯《朱迪斯斩首荷罗孚尼》（Capodimonte）· 乌菲齐版《朱迪斯斩首荷罗孚尼》（inv. 1890 n. 1567）· 底特律《朱迪斯与女仆》（52.253）· 《圣卡特琳娜自画像》（National Gallery）· 《绘画的寓言自画像 La Pittura》（Royal Collection RCIN 405551）——馆藏与 URL 逐条见 dossier §0。
 
 > 权利信息沿用现有记录，本片不逐站复核许可页（`image_seen=0`, `read_scope=metadata`）。
 

@@ -15,6 +15,7 @@
 > **等级口径（全文一致）**：`[自述]` = corpus 标 `[self-written]` 的书信/信稿；`[reported speech]`/`[contemporary record]` = 转记/课堂记录/同时代评述；`[史料]`/`[研究]` = 馆方与艺术史研究；`[归纳]` = 本项目从作品与文字推得的可判定操作规则/参数（**不是史料、不是作者自述、不是原图像素实测**）；`[推测]` 本路径**不使用**。萨金特**无理论著作**（`dossiers/sargent.md:L7,L130`、`_corpus/sargent.md:L5`）——凡「他内心如何」一律降级为可执行操作规则（`dossiers/sargent.md:L7`）。
 >
 > **本片强调（brief 指定，逐节落地）**：① **布上湿上光即兴 + 预写锚点机制**（§1 K2/K3、§3 M1/M2、§4 阶梯一/二、[how-to-think.md](how-to-think.md)、[mechanism_notes.md](mechanism_notes.md)）；② **Zorn 收口 pending NOT closed，作为 open 项携带**（§1 K6、§7、§8 B4）；③ **Charteris 1927 全文 OCR 证据底本**（§2、§8 B5、`how-to-think.md §0`）；④ **KB 图像尺寸漂移已登记**（§2 注、§8 B5）。
+> **2026-11-18 收口核验**：② 所记「Zorn pending NOT closed」为收口前状态——dossier §4 L124、module L66/L72/L74、zorn dossier §3.1 L81 均已于 2026-11-16 按 coordinator ruling **F20-B** 收口（对齐完成；zorn 自审 L454 CONFIRMED）。下文各处「附 open 注记 / 以 open 项携带」的实操指令随之解除；历史记录保留不改。
 >
 > **练习状态（硬边界）**：以下所有练习均为 **建议练习**（`[归纳]`，本项目设计）。学习收益**尚未由人完成或评价**，不写「已证实学习收益」「已验证有效」（`01-AUDIT.md:273`）。每条练习只给「可操作动作 / 自查 / 完成定义」，不声称经过学习实验。
 

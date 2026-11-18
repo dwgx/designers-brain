@@ -1,0 +1,7 @@
+roktim___ checks: POS= True NEG_DETECTED= True
+  R1_C2_readable_and_value_consistent: passed=True
+  R2_C3_decorative_marker: passed=True
+  R3_semantic_roles_distinct: passed=True
+  R6_C1_no_label: passed=True
+  R4_annotation_removed_DETECTED: passed=True
+  R5_tampered_value_DETECTED: passed=True

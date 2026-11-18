@@ -1,0 +1,8 @@
+xchylerdrenth checks: POS= True NEG_DETECTED= True
+  T1_structure_edges_from_svg_paths: passed=True
+  T2_VP_only_on_depth_parallel_lines: passed=True
+  T3_occlusion_from_png_overlap: passed=True
+  T4_pseudo_edge_DETECTED: passed=True
+  T5_bad_VP_DETECTED: passed=True
+  T6_wrong_z_DETECTED: passed=True
+  T7_positive_configs_not_all_rejected: passed=True

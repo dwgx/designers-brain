@@ -1,0 +1,332 @@
+{
+ "schema_version": "1.0",
+ "goal_id": "Designers-Brain-Upgrade-20261115",
+ "task_id": "UI-01",
+ "dedup_key": "DB-20261115:UI-01",
+ "status": "accepted",
+ "baseline_id": "DB-20261115-baseline",
+ "input_hashes": [
+  {
+   "path_or_id": "ledger/artist-shards.json",
+   "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+  },
+  {
+   "path_or_id": "ledger/ledger registry.json",
+   "sha256": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374"
+  },
+  {
+   "path_or_id": "ledger/execution-snapshot.json",
+   "sha256": "16fed28f486d5eae787afd712c5044d4c787d1f459fd8fccee7ce41a2091c825"
+  },
+  {
+   "path_or_id": "package/03-RESEARCH-AGENDA.md",
+   "sha256": "8da2ef1cce7a4090ec45de82a98c9a6d5e17af68cff849f66c381b67beeaefd9"
+  },
+  {
+   "path_or_id": "package/templates/receipt.schema.json",
+   "sha256": "c553112d336e66e03639f7a569abd8f9b8ddc0707a5b3667ecd9d355a9a1fb31"
+  },
+  {
+   "path_or_id": "package/tools/verify-receipt.py",
+   "sha256": "00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0"
+  },
+  {
+   "path_or_id": "staging/UI-01/_schema.json (S11 AG-UI 1.0 schema.json copy)",
+   "sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a"
+  },
+  {
+   "path_or_id": "staging/UI-01/_vscode.md (S13 VS Code manage-sessions.md copy)",
+   "sha256": "0eba990cf1f440d5c2734b81ec5677151096c003581b133b589f38e1dba481cd"
+  },
+  {
+   "path_or_id": "staging/UI-01/_magentic.pdf (S12 Magentic-UI report copy)",
+   "sha256": "dd2c7db57d8f69379589ef94767911f7ab2f2edef5a1c9626143f41df9b84e5a"
+  }
+ ],
+ "allowed_write_paths": [
+  "staging/UI-01/"
+ ],
+ "spawns_allowed": false,
+ "attempt": 1,
+ "repair_round": 0,
+ "model_route": {
+  "requested_model": "hy4free",
+  "requested_effort": null,
+  "observed_model": "buddyfarm/hy4free",
+  "profile_sha256": "147baa7b4a21123ea9cc4dbad25037ac2b01156e6f6d66573bdd5cf46efc62f5",
+  "omp_version": "18.20.2",
+  "token_usage": null,
+  "fallback": null
+ },
+ "artifacts": [
+  {
+   "path": "staging/UI-01/RESULT.md",
+   "sha256": "39a29d08021c8ba304cbf40db23e833233b569b9716d47b02b4397ee34e96fec",
+   "kind": "result_summary"
+  },
+  {
+   "path": "staging/UI-01/RESEARCH-NOTES.md",
+   "sha256": "02ac6569968e32898fd87ea946c79b23751107860d6b381fc7ea64fd093bc51d",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-01/fixture.html",
+   "sha256": "83bdf27179f12a9cd30682abc6d9c54598a980b397d667b9795ff45df56b0222",
+   "kind": "source_code"
+  },
+  {
+   "path": "staging/UI-01/_check.py",
+   "sha256": "a21f2179c4de06ea5a462fca12bea6a6d8b6e6ecbcfb5587aa022c60740085cf",
+   "kind": "semantic_checks"
+  },
+  {
+   "path": "staging/UI-01/_check_output.txt",
+   "sha256": "c215afe65c6a7dd9a094af051afe01f9133e8d783fc3ce8f0fe815e4f03e7eb7",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-01/_check_console.txt",
+   "sha256": "c215afe65c6a7dd9a094af051afe01f9133e8d783fc3ce8f0fe815e4f03e7eb7",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-01/visual_evidence.png",
+   "sha256": "ac81ac97fa8af4d101fddd892649c61464fe14439a486808a9f335d23f3db638",
+   "kind": "visual_evidence"
+  },
+  {
+   "path": "staging/UI-01/_schema.json",
+   "sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-01/_vscode.md",
+   "sha256": "0eba990cf1f440d5c2734b81ec5677151096c003581b133b589f38e1dba481cd",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-01/_magentic.pdf",
+   "sha256": "dd2c7db57d8f69379589ef94767911f7ab2f2edef5a1c9626143f41df9b84e5a",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-01/_dump_dom.html",
+   "sha256": "699f20b1662cffa6f29ae4e41fea9e644b8c51af1db8bf2284e01041d2529e4b",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-01/_trace.json",
+   "sha256": "8f5112da7d2acd8ca2161488a350dd8479d3083cdc53e6aa35324ea2bd3dbb38",
+   "kind": "interaction_receipts"
+  },
+  {
+   "path": "staging/UI-01/runner_receipt.json",
+   "sha256": "d81175b16fe6a0a7701cf93111c9a3577403e1658043615aabd5b07a3d101bfd",
+   "kind": "interaction_receipts"
+  }
+ ],
+ "claims": [
+  {
+   "claim_id": "C1",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S11",
+     "version": "1.0",
+     "locator": "AG-UI 1.0 schema.json $defs.RunFinishedOutcome / RunFinishedSuccessOutcome / RunFinishedInterruptOutcome / RunFinishedCancelledOutcome",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+     "access_status": "available"
+    },
+    {
+     "source_id": "S11",
+     "version": "1.0",
+     "locator": "AG-UI 1.0 spec/1.0/events/lifecycle (The run / Cancelled runs / RUN_ERROR / After a run closes)",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C2",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S11",
+     "version": "1.0",
+     "locator": "AG-UI 1.0 spec/1.0/basic/transports.md#truncation (A truncated run has no outcome; MUST NOT synthesize RUN_FINISHED; MUST NOT report success; re-run is a NEW runId)",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+     "access_status": "available"
+    },
+    {
+     "source_id": "S11",
+     "version": "1.0",
+     "locator": "AG-UI 1.0 spec/1.0/events/lifecycle#cancelled-runs (consumer abandoning a stream = truncated run, not cancelled)",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C3",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S11",
+     "version": "1.0",
+     "locator": "AG-UI 1.0 spec/1.0/basic/patterns/interrupt-resume.md#interrupting (run ends with interrupt outcome, waits for outside input; resume is a new run)",
+     "read_scope": "fulltext",
+     "retrieved_bytes_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C4",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S12",
+     "version": "2025-07",
+     "locator": "Magentic-UI report Appendix A (p36): three session status indicators (red glowing circle = needs input; spinning = active; green check = final answer ready)",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "dd2c7db57d8f69379589ef94767911f7ab2f2edef5a1c9626143f41df9b84e5a",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C5",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S12",
+     "version": "2025-07",
+     "locator": "Magentic-UI report §7.4 Qualitative User Study: 12 users, hour-long, English, not long-term; SUS 74.58; latency main pain point",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "dd2c7db57d8f69379589ef94767911f7ab2f2edef5a1c9626143f41df9b84e5a",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C6",
+   "claim_kind": "fact",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "S13",
+     "version": "ms.date 11/11/2026",
+     "locator": "VS Code manage-sessions §Monitor progress and switch conversations: progress+unread per chat; each chat retains its messages and unsent draft when you switch",
+     "read_scope": "sections",
+     "retrieved_bytes_sha256": "0eba990cf1f440d5c2734b81ec5677151096c003581b133b589f38e1dba481cd",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C7",
+   "claim_kind": "observation",
+   "support_status": "supported",
+   "source_refs": [
+    {
+     "source_id": "ART",
+     "version": "fixture",
+     "locator": "_check.py real run: 117 mechanical assertions, exit 0; 10 DOM snapshots; 3 concurrent cards",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "c215afe65c6a7dd9a094af051afe01f9133e8d783fc3ce8f0fe815e4f03e7eb7",
+     "access_status": "available"
+    }
+   ]
+  },
+  {
+   "claim_id": "C8",
+   "claim_kind": "design_candidate",
+   "support_status": "partial",
+   "source_refs": [
+    {
+     "source_id": "ART",
+     "version": "fixture",
+     "locator": "fixture.html: 6 states each with distinct text label + icon glyph + border shape + data-state + data-aria (not color alone)",
+     "read_scope": "artifact",
+     "retrieved_bytes_sha256": "83bdf27179f12a9cd30682abc6d9c54598a980b397d667b9795ff45df56b0222",
+     "access_status": "available"
+    }
+   ]
+  }
+ ],
+ "execution": {
+  "runner_id": "hy4free-UiAgentLifecycle",
+  "commands": [
+   "python -X utf8 _check.py (117 mechanical assertions, exit 0)",
+   "chrome.exe --headless --dump-dom file:///.../fixture.html?selftest=1 -> _dump_dom.html / _trace.json",
+   "chrome.exe --headless --screenshot=visual_evidence.png file:///.../fixture.html?showcase=1",
+   "python -X utf8 <package>/tools/verify-receipt.py receipt.json --schema <package>/templates/receipt.schema.json --workspace-root <RUN_ROOT>"
+  ],
+  "cwd": "[original cwd scrubbed; relocated checkout]",
+  "started_at": "2026-11-15T11:20:00Z",
+  "ended_at": "2026-11-15T11:29:00Z",
+  "exit_code": 0,
+  "receipt_path": "staging/UI-01/runner_receipt.json",
+  "receipt_sha256": "d81175b16fe6a0a7701cf93111c9a3577403e1658043615aabd5b07a3d101bfd",
+  "limitations": [
+   "Mechanical DOM/aria + state-machine checks only; NO visual/human/aesthetic judgment; human_review.status=not_applicable; no human-validated claim.",
+   "Fixture is a scripted state machine, NOT a real AG-UI event stream or real network drop/recovery; no SDK compatibility tested.",
+   "S11 has no publication date (2026-11-15 doc snapshot; not mixed with old SDK); S13 has preview/harness conditions (Local harness removal Feb 2027); S12 PDF not page-by-page visually verified, anomalous chart values not trusted.",
+   "Magentic-UI 12-user ~1-hour qualitative study does NOT prove long-term productivity; no quality/usability gain claimed.",
+   "Screenshot is deterministic rendering evidence, NOT a pixel baseline comparison, NOT a human visual validation.",
+   "All writes confined to staging/UI-01/; repo [repo path scrubbed] @ f008952 read-only; no git ops; no subagent spawns; no credentials."
+  ]
+ },
+ "review": {
+  "reviewer_actor_id": "ReviewGateUI-01(glm-5.3-flash)",
+  "independent_from_author": true,
+  "reviewed_artifact_hashes": [
+   "39a29d08021c8ba304cbf40db23e833233b569b9716d47b02b4397ee34e96fec",
+   "02ac6569968e32898fd87ea946c79b23751107860d6b381fc7ea64fd093bc51d",
+   "83bdf27179f12a9cd30682abc6d9c54598a980b397d667b9795ff45df56b0222",
+   "a21f2179c4de06ea5a462fca12bea6a6d8b6e6ecbcfb5587aa022c60740085cf",
+   "c215afe65c6a7dd9a094af051afe01f9133e8d783fc3ce8f0fe815e4f03e7eb7",
+   "c215afe65c6a7dd9a094af051afe01f9133e8d783fc3ce8f0fe815e4f03e7eb7",
+   "ac81ac97fa8af4d101fddd892649c61464fe14439a486808a9f335d23f3db638",
+   "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+   "0eba990cf1f440d5c2734b81ec5677151096c003581b133b589f38e1dba481cd",
+   "dd2c7db57d8f69379589ef94767911f7ab2f2edef5a1c9626143f41df9b84e5a",
+   "699f20b1662cffa6f29ae4e41fea9e644b8c51af1db8bf2284e01041d2529e4b",
+   "8f5112da7d2acd8ca2161488a350dd8479d3083cdc53e6aa35324ea2bd3dbb38",
+   "d81175b16fe6a0a7701cf93111c9a3577403e1658043615aabd5b07a3d101bfd"
+  ],
+  "verdict": "accepted",
+  "evidence_path": "staging/UI-01/review-evidence.md"
+ },
+ "unresolved": [
+  {
+   "issue": "Visual/human judgment of state distinguishability and user-goal recovery usability is not performed.",
+   "impact": "A1 success criteria on usability/recovery remain pending_human; cannot claim human-validated.",
+   "next_discriminating_action": "Independent human evaluation (fixed stimulus IDs, paired/blind, allow uncertain) + glm review gate; see agenda §5 A1 / §6."
+  },
+  {
+   "issue": "No real AG-UI transport / stream-drop / resume integration test.",
+   "impact": "Fixture only demonstrates scripted state semantics; real truncation/cancel/resume behavior unverified.",
+   "next_discriminating_action": "Wire a real AG-UI 1.0 event stream (SSE) with dropped-connection and cancelled-outcome cases in an isolated harness."
+  }
+ ],
+ "human_review": {
+  "status": "not_applicable",
+  "actual_reviewer": null,
+  "record_path": null
+ },
+ "execution_dedup_key": "f92aa4074b797835dd4368a2dbe0b2310aa4751148e62f3fb4d03ca63eaeba3e",
+ "author_actor_id": "UiAgentLifecycle",
+ "reused_from": null,
+ "execution_kind": "leaf_work_item",
+ "blocked_by": []
+}

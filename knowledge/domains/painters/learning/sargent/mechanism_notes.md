@@ -101,6 +101,8 @@
 
 <a id="db-source-line-92"></a>
 ### ② Zorn 收口 pending NOT closed（open 项，不收口）
+
+> **2026-11-18 收口核验**：本节为收口前状态——F20-B（2026-11-16）已收口（dossier §4 L124 / module L66-74 / zorn §3.1 L81）。下行「作为 open 项携带」的指令解除；记录保留。
 - **内容已对齐、状态未收口**：四轴（色板宽度/炫技位置/题材·社会装置/光）sargent §3.1 `L95-L100` ↔ zorn §3.1 `L82-L87` 同名；dossier `L94` 记「2026-10-16 收口」、GOALS A-109(`L105`)/A-117(`L113`) 记「sargent×zorn 收口」、自审 `L545,L550` 记「已按四轴同名对齐」。
 - **残留标记（四点互读，AUDIT `RESULT.md §4③` + 审者 `review-evidence.md §3`）**：module `L66`「佐恩档（**预写**）」、`L72/L74`「（**future**）…佐恩档案落地后按 wave 规程回改对齐」、dossier §4 `L124`「佐恩档（**预写**）」、`L117` 冻结区例外；`zorn.md:L81` 把「预写→对齐回改」收口**外派**给「主脑/萨金特侧」。
 - **判定**：AUDIT [claim_evidence_map.md](claim_evidence_map.md) SA-3.1-03 / SA-4-BOUND / SA-PEND-03 **均 partial**、`RESULT.md §8-1` 列 unresolved；独立审者四点互读确认 **Zorn pending NOT closed**。本片在 `learning_path.md K6,§4 阶梯三,§6 F6,§7,§8 B4`、`how-to-think.md D8,§3.5,§5`、[claim_evidence_map.md](claim_evidence_map.md)、`RESULT.md` **作为 open 项携带**，不改写 AUDIT/仓库、不升级为「已完成」。

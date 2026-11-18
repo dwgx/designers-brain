@@ -77,7 +77,7 @@
 ## §G 状态 / 边界 / 未决（5 行）
 | claim_id | 内容 | grade | 定位 (source : locator) | support_status |
 |---|---|---|---|---|
-| THRESH-INDUCTION | §8.2 全 7 条 + §4 六参数阈值 [归纳] 未做像素测量（分母＝假想参考帧） | [归纳] 口径 | dossiers/zhao_mengfu.md §10 缺口；modules/zhao_mengfu.md 阈值注 | supported |
+| THRESH-INDUCTION | §8.2 全 7 条 + §4 六参数阈值 [归纳] 未做像素测量（分母＝假想参考帧） | [归纳] 口径 | dossiers/zhao_mengfu.md §10 缺口 + §8.2 L196–204；modules/zhao_mengfu.md §4 P1–P6（各标 [归纳]）+ §8.2 | supported |
 | PRACTICE-SUGGESTED | 练习是建议练习，非「已证实学习收益」 | design_candidate | 01-AUDIT.md §8.1 L273；human_review.status=not_applicable | not_applicable |
 | REVIEW-NULL | review:null / status=submitted / 作者不自接受 | submitted 口径 | 本 shard receipt.json | supported |
 | EXT-UNVERIFIED | 外部原文/[R#] URL/扫描件未逐字回源（离线只读本机） | unverified（外部） | AUDIT-zhao_mengfu/RESULT.md §2 / unresolved | unverified |

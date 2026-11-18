@@ -1,0 +1,656 @@
+{
+  "at_utc": "2026-11-17T23:09:25.772996+00:00",
+  "files": [
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/RESULT.json",
+      "source_sha256": "fb9a8da908372a0fda6b3762b22c3b35946aeb11221be03dcd9f4eb5eaa654ae",
+      "source_bytes": 57289,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+      "public_sha256": "145210fc0c2673f4b178c2434b7b1e6ebc80e5106ed8cf2c38275fa19001b10b",
+      "public_bytes": 63893,
+      "transformation": "private path redaction, LF and explicit public/original log hash separation; final interpreter-prefix redaction",
+      "prior_public_sha256": "43979785c1c3b9fa8261905fde2be2b53e05fa0d2b57cffd6c7864d7943dde84"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-bad-count.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-bad-count.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-bad-count.stdout.txt",
+      "source_sha256": "8f7577066c8d1c207e9d0c85296d62cd416dec2c246484e0cee855f39b99c433",
+      "source_bytes": 1809,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-bad-count.stdout.txt",
+      "public_sha256": "a9fb42d6afeb7d2a9fc2b86fb5013ea6b65111c63b5cc7b6d25e4e4bdebda0ed",
+      "public_bytes": 1806,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-conditional-to-false.stderr.txt",
+      "source_sha256": "007e2bfa8914cf1507e1eb22f6566ded859d9cd5a08dc7c5cb354659757be688",
+      "source_bytes": 748,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-conditional-to-false.stderr.txt",
+      "public_sha256": "8c01283fd09a8853c65ed71a7fbe166f663b0a653710cdd9978a733cfab3b9e9",
+      "public_bytes": 572,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning; final interpreter-prefix redaction",
+      "prior_public_sha256": "7308c9e63e8010b743196cfcffe4a88f0916042bccbf23b353586c9117cea96b"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-conditional-to-false.stdout.txt",
+      "source_sha256": "b964ed6ec93eeeee947feba5e2fc771ea330a4cc0e0ad784cf9ccf2a803db3c1",
+      "source_bytes": 1721,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-conditional-to-false.stdout.txt",
+      "public_sha256": "a9de4a3236bb01596315696f294bfa022990ffaa27bd99edc770655ada7fd720",
+      "public_bytes": 1718,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-positive.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-positive.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-positive.stdout.txt",
+      "source_sha256": "ed82d64976bfb6d5effc41646cef485c2e175676e3bb62bd376fa4e3f8523b09",
+      "source_bytes": 1797,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-positive.stdout.txt",
+      "public_sha256": "fcf9ac326b895fa93de457385cc322c2404f79cbf78f37bf008629ceccce7468",
+      "public_bytes": 1795,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-wrong-path.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-wrong-path.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/rights-wrong-path.stdout.txt",
+      "source_sha256": "c810f8ba5fdb92334ed9766afae34557d8440a47f5a4e81177303ebe40f3cbf3",
+      "source_bytes": 1945,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-wrong-path.stdout.txt",
+      "public_sha256": "e584c5db2f823c370ae6eb88215b3e16f144bac6606d8886b6ad9d6de0b2951e",
+      "public_bytes": 1940,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-AnnasXechoes.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-AnnasXechoes.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-AnnasXechoes.stdout.txt",
+      "source_sha256": "828b3cc1a90efa5cc23fdfcf9664a6906ac38f4fa22a87545531652308bb3998",
+      "source_bytes": 375,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-AnnasXechoes.stdout.txt",
+      "public_sha256": "cfff66d9e9463b564fc4ee40a6b1d2a8c57bbd7b0be7881057a6b873e7cb319d",
+      "public_bytes": 367,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-ayushsoni_io.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-ayushsoni_io.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-ayushsoni_io.stdout.txt",
+      "source_sha256": "d0d6ad5742dc74d6e354dd4ed294d58894a41bfbe54bc2582da3aeb30ef676e6",
+      "source_bytes": 367,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-ayushsoni_io.stdout.txt",
+      "public_sha256": "49374336f5d134209e7cd9b0cfb7959e02637bb538deab1a8f1265e8e2a373dd",
+      "public_bytes": 359,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-enigmatriz.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-enigmatriz.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-enigmatriz.stdout.txt",
+      "source_sha256": "7a8c25de88fcdc6c041357596cef9161ba9a29dcc8e2b83adb7354c31ff8d8be",
+      "source_bytes": 331,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-enigmatriz.stdout.txt",
+      "public_sha256": "219ec33cecdd6e8a56e9bc09eb6e924b0de7afde95a8f6be2d36c52752666853",
+      "public_bytes": 263,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-kail_designs.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-kail_designs.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-kail_designs.stdout.txt",
+      "source_sha256": "c33db443dda3d7de6f8f761c0a727827acba33fb85977059953c27266adc07a2",
+      "source_bytes": 247,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-kail_designs.stdout.txt",
+      "public_sha256": "e66713c602887ec2e5038f57cbb97b4e6e0bb54954f131132f03968558deb2fb",
+      "public_bytes": 180,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-openprest.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-openprest.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-openprest.stdout.txt",
+      "source_sha256": "aba26389a08de3f1b085516dfef903d7b9eb1123cfd09cf77367f7036b874e79",
+      "source_bytes": 240,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-openprest.stdout.txt",
+      "public_sha256": "119c0a29c4bf1ede2287c263bc4dd160d7a954a638f0f80943539234200b6fa8",
+      "public_bytes": 174,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-roktim___.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-roktim___.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-roktim___.stdout.txt",
+      "source_sha256": "fc0491156d97034419d5f89f2972860c25236ab17fcee05ff4feca0599b52cc0",
+      "source_bytes": 304,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-roktim___.stdout.txt",
+      "public_sha256": "5f5717e2f05d06650a879c6c745bb06da0944b56ce126e3493cb021e1d701960",
+      "public_bytes": 297,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-xchylerdrenth.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-xchylerdrenth.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/seed-xchylerdrenth.stdout.txt",
+      "source_sha256": "a3173e3535f6afcd7af3917ac8ae3be716a28f4fb79b97893bc99ca818b882aa",
+      "source_bytes": 363,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/seed-xchylerdrenth.stdout.txt",
+      "public_sha256": "f585f0200a65918cc57e2339043a1ec54e93e48e4a9f70758cefc551257fcaf8",
+      "public_bytes": 355,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui-gates.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui-gates.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui-gates.stdout.txt",
+      "source_sha256": "fdc8036fe761aba8c8740112bab7839d576f804649154d8efa2f292f8d8ece30",
+      "source_bytes": 66,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui-gates.stdout.txt",
+      "public_sha256": "bf533dce01499d9d90ad15a16290eb596b199f2a5e6f1c7e256d91512fcc65ab",
+      "public_bytes": 65,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui01-main.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui01-main.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui01-main.stdout.txt",
+      "source_sha256": "a09b46cb0bbaddb50676ef6810e76336bae11016a1a9ac37db36a516fd33b7cd",
+      "source_bytes": 7341,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui01-main.stdout.txt",
+      "public_sha256": "2e30a16f860f92cc3d382bdf2fe6651a3f87e62b8fcf7a5e71444d46349d1b1b",
+      "public_bytes": 7199,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui01-negative.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui01-negative.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui01-negative.stdout.txt",
+      "source_sha256": "a60dbbf161899e39269e849460f06ec0af9972510eb013e1e2fcf477341f7f66",
+      "source_bytes": 279,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui01-negative.stdout.txt",
+      "public_sha256": "23a5b054c089de3f1ab7f283c93b87c72071f5e74df306d3dd35c560669b9bba",
+      "public_bytes": 273,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui02-cdp.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-cdp.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui02-cdp.stdout.txt",
+      "source_sha256": "c34a9b4dc9c780c73f8c9ad43e2f177818cc9ac54b08a67b803f68586aa35a35",
+      "source_bytes": 229,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-cdp.stdout.txt",
+      "public_sha256": "39aa5effcc130bdebfa3c4566b00909bad6ef90c7417bb8a30690f070fff6a4d",
+      "public_bytes": 227,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui02-ime.json",
+      "source_sha256": "a8c60eb11e17a2a652269a475e69158d077f9dbea3e841044299f33479349860",
+      "source_bytes": 2821,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-ime.json",
+      "public_sha256": "09f244b1486b4f9741bfc5141705c2581ea1b7047866e4cae0ee834c2fc863ff",
+      "public_bytes": 2756,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui02-main.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-main.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui02-main.stdout.txt",
+      "source_sha256": "3179bbe280384f82dffe07852d142aea5c4c7e8f537577227e400e97c479e1a1",
+      "source_bytes": 5851,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-main.stdout.txt",
+      "public_sha256": "6f16b058430579151678b92a83915e3d630844c2959ecd6785794e70641aa554",
+      "public_bytes": 5770,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui02-resolver.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-resolver.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui02-resolver.stdout.txt",
+      "source_sha256": "b9a29a46ef177c779f57b4935a508b3f8fec39d7d1f5c030853c9fb29c0ae973",
+      "source_bytes": 771,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui02-resolver.stdout.txt",
+      "public_sha256": "e0b82ac4c29efab433e27a0a93d3a0db97dc74afcf610767c387a1d8b591533d",
+      "public_bytes": 750,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui03-browser.stderr.txt",
+      "source_sha256": "b5702b3876daee26145e948a36adb0b8f6d520e2bd783b6d272c7a4184b16045",
+      "source_bytes": 348,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui03-browser.stderr.txt",
+      "public_sha256": "fee452fcf4f432f028faf225925e55312c10d5a08f54b1b4e032fc2486010879",
+      "public_bytes": 272,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui03-browser.stdout.txt",
+      "source_sha256": "3ea252af702da7213689118daa1ebf124755f012d0995a23ee4551ba8f4fd7e9",
+      "source_bytes": 186,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui03-browser.stdout.txt",
+      "public_sha256": "5605810f7d887c1bc3ed264f6dc6c1a3df130659c5d4e6b83fd3a1f7a72fa079",
+      "public_bytes": 185,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui03-negatives.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui03-negatives.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui03-negatives.stdout.txt",
+      "source_sha256": "3a8b1055f8e2e820acb810b53ffdee1d1fdd8b8d5899a973a89f776a2b12bef2",
+      "source_bytes": 214,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui03-negatives.stdout.txt",
+      "public_sha256": "bfdefe622e13b080177b0d5106b4597630bbe7981864c7bdf98136db15aa13bb",
+      "public_bytes": 213,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui03-node.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui03-node.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/foundation-final-run/ui03-node.stdout.txt",
+      "source_sha256": "7d4b4743bc07eb9ca86c45587f8bdfb62844a40c14bf17643d9987254c7b9be6",
+      "source_bytes": 1438,
+      "public_path": "docs/audit/closure-20261118/runtime/foundation-final-run/ui03-node.stdout.txt",
+      "public_sha256": "7d4b4743bc07eb9ca86c45587f8bdfb62844a40c14bf17643d9987254c7b9be6",
+      "public_bytes": 1438,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/RESULT.json",
+      "source_sha256": "e3bec9cbe008ead53979ad6d6838c120a6160159fefd6365bad331efd2134238",
+      "source_bytes": 16890,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/RESULT.json",
+      "public_sha256": "ef20d91d3d1b35633d4a344de3f4ca1e1d556571dd9a68cf5e3659963daaadc1",
+      "public_bytes": 20000,
+      "transformation": "private path redaction, LF and explicit public/original log hash separation"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-bad-count.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-bad-count.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-bad-count.stdout.txt",
+      "source_sha256": "ca9ff9f43f6aa639bf2de90ff3dc84fcc4d7ae5c8b0af81ad00788da8a3bd7b9",
+      "source_bytes": 1811,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-bad-count.stdout.txt",
+      "public_sha256": "6d69171a5b16c1e54fef128f76e54fc6acb378d457d7fc3e1d28553b1035af5e",
+      "public_bytes": 1806,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-conditional-to-false.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-conditional-to-false.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-conditional-to-false.stdout.txt",
+      "source_sha256": "2d69e5f2c5884d45b19bd9588d1dad022a40ce6b653ff6a495895088f12afc53",
+      "source_bytes": 1991,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-conditional-to-false.stdout.txt",
+      "public_sha256": "3617a833b6f8774eb3900051487c1b3232f705fec717c06b68b43c3438c667fd",
+      "public_bytes": 1986,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-positive.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-positive.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-positive.stdout.txt",
+      "source_sha256": "e4b7052be7a8300578a0d1bf598cb87de67520485fe91b890f9ad269195122ca",
+      "source_bytes": 1799,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-positive.stdout.txt",
+      "public_sha256": "634f58e36edfe4bb1ca807a1467aa2fa52853d7b85e47d8676d92b9c63f4bfc7",
+      "public_bytes": 1795,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-wrong-path.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-wrong-path.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/rights-wrong-path.stdout.txt",
+      "source_sha256": "20b7bf428f533434d0abea7cbbbfcd5fdf89acd608f340b4731c1c0d23d9fa46",
+      "source_bytes": 1947,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/rights-wrong-path.stdout.txt",
+      "public_sha256": "9ad6b94d509ffc56519f12fa1ace6ad935015deebe431f4b282cc300cb19f90d",
+      "public_bytes": 1940,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui01-main.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-main.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui01-main.stdout.txt",
+      "source_sha256": "24809cc9d1cffd5d56bfa6b48beceab0d743d08f5746dde6f2d474d6b1f0b99c",
+      "source_bytes": 7350,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-main.stdout.txt",
+      "public_sha256": "85577e95841956a0d24edd5a27989a32a80b792f65bb2a4dcc6cccf28fbb36ae",
+      "public_bytes": 7208,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui01-negative.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-negative.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui01-negative.stdout.txt",
+      "source_sha256": "dbcf73564a1f3d912968a9a70cc08dce0c39d7ae39dc7eab2ac9c56bb0340bcd",
+      "source_bytes": 1293,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui01-negative.stdout.txt",
+      "public_sha256": "01aca9f6013fbb3ea3e577f5d352557faf5c0d07aee67e262eaec54870e31864",
+      "public_bytes": 1272,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui02-concurrent.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-concurrent.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui02-concurrent.stdout.txt",
+      "source_sha256": "3179bbe280384f82dffe07852d142aea5c4c7e8f537577227e400e97c479e1a1",
+      "source_bytes": 5851,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-concurrent.stdout.txt",
+      "public_sha256": "6f16b058430579151678b92a83915e3d630844c2959ecd6785794e70641aa554",
+      "public_bytes": 5770,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui02-main.stderr.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-main.stderr.txt",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_bytes": 0,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-rerun/ui02-main.stdout.txt",
+      "source_sha256": "3179bbe280384f82dffe07852d142aea5c4c7e8f537577227e400e97c479e1a1",
+      "source_bytes": 5851,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-rerun/ui02-main.stdout.txt",
+      "public_sha256": "6f16b058430579151678b92a83915e3d630844c2959ecd6785794e70641aa554",
+      "public_bytes": 5770,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-repair/examples_ui_ui-01__check.py.patch",
+      "source_sha256": "b942f5e63623230929e459c5f12e348167d84f55d15da8fde1abed022d480a8e",
+      "source_bytes": 877,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-repair/examples_ui_ui-01__check.py.patch",
+      "public_sha256": "b942f5e63623230929e459c5f12e348167d84f55d15da8fde1abed022d480a8e",
+      "public_bytes": 877,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-repair/examples_ui_ui-01_check_negative.py.patch",
+      "source_sha256": "ceac2345b1eddad01a1206ced32120280174b08e765c408b8b8f0afa22c0060c",
+      "source_bytes": 1732,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-repair/examples_ui_ui-01_check_negative.py.patch",
+      "public_sha256": "ceac2345b1eddad01a1206ced32120280174b08e765c408b8b8f0afa22c0060c",
+      "public_bytes": 1732,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-repair/examples_ui_ui-02__check.py.patch",
+      "source_sha256": "e743cc4fef0d60c150d9539da6c738b08f64b4f08b4f3f2d89093b793e254d53",
+      "source_bytes": 523,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-repair/examples_ui_ui-02__check.py.patch",
+      "public_sha256": "e743cc4fef0d60c150d9539da6c738b08f64b4f08b4f3f2d89093b793e254d53",
+      "public_bytes": 523,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-repair/PATCHES.json",
+      "source_sha256": "1230822a59d650a3e86670c2ba4f2696e25b5f8c5ad936b36ee467d28ad8e451",
+      "source_bytes": 5115,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-repair/PATCHES.json",
+      "public_sha256": "1230822a59d650a3e86670c2ba4f2696e25b5f8c5ad936b36ee467d28ad8e451",
+      "public_bytes": 5115,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "ROOT/web-review/runtime-harness-repair/tools_check_image_rights.py.patch",
+      "source_sha256": "23105a2920d4647981b69be7bbe442d40b1261ba8fe7361c18158ba655a2dbf1",
+      "source_bytes": 595,
+      "public_path": "docs/audit/closure-20261118/runtime/runtime-harness-repair/tools_check_image_rights.py.patch",
+      "public_sha256": "23105a2920d4647981b69be7bbe442d40b1261ba8fe7361c18158ba655a2dbf1",
+      "public_bytes": 595,
+      "transformation": "private path redaction and canonical LF; source hashes in archived receipt retain original meaning"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/missing.out.txt",
+      "source_sha256": "c8e4f2e2a7b8697c1091148d5fa1b7e3a3f758a80c4cf4bcfa211e4ec9c37419",
+      "source_bytes": 438,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/missing.out.txt",
+      "public_sha256": "d3f2e738467a1987e4c0a92a818fd9dd05867f53a9905b06ffc3d41c0803f696",
+      "public_bytes": 375,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/missing.stdout.txt",
+      "source_sha256": "c8e4f2e2a7b8697c1091148d5fa1b7e3a3f758a80c4cf4bcfa211e4ec9c37419",
+      "source_bytes": 438,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/missing.stdout.txt",
+      "public_sha256": "d3f2e738467a1987e4c0a92a818fd9dd05867f53a9905b06ffc3d41c0803f696",
+      "public_bytes": 375,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_budget.out.txt",
+      "source_sha256": "6d1cb4a18a348f75a46a505707e2e890efb8116b119d184bd8bc2c3e468e1b9d",
+      "source_bytes": 1969,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_budget.out.txt",
+      "public_sha256": "7b1c1cd9a0cade3c3284103c96f04f2aa6b28e85d26dc6a29a9c5c76c0eb41a7",
+      "public_bytes": 1906,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_budget.stdout.txt",
+      "source_sha256": "6d1cb4a18a348f75a46a505707e2e890efb8116b119d184bd8bc2c3e468e1b9d",
+      "source_bytes": 1969,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_budget.stdout.txt",
+      "public_sha256": "7b1c1cd9a0cade3c3284103c96f04f2aa6b28e85d26dc6a29a9c5c76c0eb41a7",
+      "public_bytes": 1906,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_role.out.txt",
+      "source_sha256": "951fe78a63be5bcc94b9199320a7449b875075f7fb23c82c0001ffdfabaf667e",
+      "source_bytes": 1830,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_role.out.txt",
+      "public_sha256": "6403b6c7af3c0268e11bc26e6380886c89481670824cf781522154a7636b5bb6",
+      "public_bytes": 1767,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_role.stdout.txt",
+      "source_sha256": "951fe78a63be5bcc94b9199320a7449b875075f7fb23c82c0001ffdfabaf667e",
+      "source_bytes": 1830,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/neg_role.stdout.txt",
+      "public_sha256": "6403b6c7af3c0268e11bc26e6380886c89481670824cf781522154a7636b5bb6",
+      "public_bytes": 1767,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/positive.out.txt",
+      "source_sha256": "76175bf439ef0ebb5fcbcec07907b8cac54b8d874d6824248f6390c9e8ac23ad",
+      "source_bytes": 1961,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/positive.out.txt",
+      "public_sha256": "e5fbca1838c435687842cf7f1de9afcc727259f3d1b631e3a614dcbc59f20d3f",
+      "public_bytes": 1898,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    },
+    {
+      "source_logical_path": "e0:experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/positive.stdout.txt",
+      "source_sha256": "76175bf439ef0ebb5fcbcec07907b8cac54b8d874d6824248f6390c9e8ac23ad",
+      "source_bytes": 1961,
+      "public_path": "experiments/consumer_skill/C2/stage-B/runs_fresh_20261118/positive.stdout.txt",
+      "public_sha256": "e5fbca1838c435687842cf7f1de9afcc727259f3d1b631e3a614dcbc59f20d3f",
+      "public_bytes": 1898,
+      "transformation": "private path redaction and canonical LF; historical decision outputs are unchanged"
+    }
+  ],
+  "note": "Original records remain in owner-held audit storage. Publication records explicitly distinguish original and projected bytes."
+}

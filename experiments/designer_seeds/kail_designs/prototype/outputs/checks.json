@@ -1,0 +1,83 @@
+{
+  "C1_four_variants_unchanged_dims": {
+    "n_variants": 4,
+    "at_most_four": true,
+    "dims_all": [
+      [
+        64,
+        48
+      ],
+      [
+        64,
+        48
+      ],
+      [
+        64,
+        48
+      ],
+      [
+        64,
+        48
+      ]
+    ],
+    "pass": true
+  },
+  "C2_exposure_effect_and_clipping": {
+    "gain": 1.35,
+    "baseline_bright_mean": 250.0,
+    "exposure_bright_mean": 337.5,
+    "baseline_clip_255": 0,
+    "exposure_clip_255": 1113,
+    "clipping_increased": true,
+    "color_units": "raw 8-bit grayscale code value 0..255 (declared, NOT sRGB EOTF / NOT CIE L*)",
+    "pass": true
+  },
+  "C3_halo_localized_effect": {
+    "halo_ring_mean_baseline": 129.206,
+    "halo_ring_mean_v2": 155.132,
+    "halo_ring_increased": true,
+    "bright_region_mean_baseline": 250.0,
+    "bright_region_mean_v2": 250.0,
+    "bright_region_unchanged": true,
+    "halo_diff_map_mean": 25.9614,
+    "pass": true
+  },
+  "C4_grain_high_frequency_effect": {
+    "flat_region_mean_abs_diff": 5.8671,
+    "overall_mean_abs_diff": 6.0361,
+    "flat_diff_positive": true,
+    "coordinate_deterministic": true,
+    "rng_used": false,
+    "pass": true
+  },
+  "C5_evidence_retained": {
+    "input_field_json": true,
+    "input_field_png": true,
+    "variant_pngs": [
+      "v0_baseline.png",
+      "v1_exposure.png",
+      "v2_halo.png",
+      "v3_grain.png"
+    ],
+    "variant_jsons": [
+      "v0_baseline.json",
+      "v1_exposure.json",
+      "v2_halo.json",
+      "v3_grain.json"
+    ],
+    "diff_maps": [
+      "diff_v1_exposure.png",
+      "diff_v2_halo.png",
+      "diff_v3_grain.png"
+    ],
+    "pass": true
+  },
+  "C6_deterministic_rerun": {
+    "note": "filled by run_evidence.json after two identical runs",
+    "pass": null
+  },
+  "C7_boundary_single_stack": {
+    "pass": true,
+    "label": "ONE self-authored operator stack (exposure->halo->grain) in declared order; two product pages NOT conflated; NO time-continuity / website-determinism / 4K / video-export / real-shader-pipeline claim"
+  }
+}

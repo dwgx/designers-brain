@@ -1,0 +1,92 @@
+{
+  "Q1_six_stimuli_and_fixed_composition": {
+    "passed": true,
+    "all_six_exist": true,
+    "fixed_composition_outside_diff_px": 0,
+    "read_from": "actual PNG bytes"
+  },
+  "Q2_outside_mask_diff_zero": {
+    "passed": true,
+    "outside_diff_px": {
+      "v1_G0_S0": 0,
+      "v1_G0_S1": 0,
+      "v1_G1_S0": 0,
+      "v1_G1_S1": 0,
+      "v2_baseline": 0,
+      "v2_full": 0
+    },
+    "threshold_px": 0,
+    "read_from": "actual PNG bytes outside union of registered part masks"
+  },
+  "Q3_geometry_separately_localizable": {
+    "passed": true,
+    "form_pixel_delta_per_part": {
+      "handle": 810,
+      "clasp": 80,
+      "body": 0
+    },
+    "surface_pixel_delta_when_only_geometry_changed": {
+      "handle": 0,
+      "clasp": 0,
+      "body": 0
+    },
+    "note": "form changes in handle+clasp, body form unchanged, surface channel unchanged",
+    "read_from": "actual PNG bytes (disjoint FORM/SURFACE colors)"
+  },
+  "Q4_surface_separately_localizable": {
+    "passed": true,
+    "surface_pixel_delta_per_part": {
+      "handle": 1439,
+      "clasp": 492,
+      "body": 2799
+    },
+    "form_pixel_delta_when_only_surface_changed": {
+      "handle": 0,
+      "clasp": 0,
+      "body": 0
+    },
+    "note": "surface channel changes, FORM channel unchanged",
+    "read_from": "actual PNG bytes (disjoint colors)"
+  },
+  "Q5_vessel2_transfer_stimulus": {
+    "passed": true,
+    "form_delta_total": 890,
+    "surface_delta_total": 4353,
+    "outside_mask_diff_px": 0,
+    "read_from": "actual PNG bytes"
+  },
+  "N1_wrong_mask_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "verdict": "FAILED (wrong mask: surface texture applied outside registered part masks -> nonzero outside-mask diff)",
+    "outside_diff_px_vs_correct_S1": 4270,
+    "note": "surface texture applied at shifted mask; verifier reads real outside-mask diff",
+    "detected_from_real_bytes": true
+  },
+  "N2_role_field_only_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "declared_geometry_in_config": "G1_ceremonial",
+    "verdict": "FAILED (role-field-only: a config claim says ceremonial but ZERO pixels changed -> no mechanism)",
+    "note": "DELIBERATELY byte-identical to v1_G0_S0.png: only a false JSON role claim was written. Printing a material/part name does NOT touch the visual mechanism; verifier reads real PNG form bytes, not the claim.",
+    "detected_from_real_bytes": true
+  },
+  "_summary": {
+    "positive_checks": [
+      "Q1_six_stimuli_and_fixed_composition",
+      "Q2_outside_mask_diff_zero",
+      "Q3_geometry_separately_localizable",
+      "Q4_surface_separately_localizable",
+      "Q5_vessel2_transfer_stimulus"
+    ],
+    "negative_controls": [
+      "N1_wrong_mask_DETECTED",
+      "N2_role_field_only_DETECTED"
+    ],
+    "image_count": 6,
+    "image_cap": 6,
+    "all_positive_pass": true,
+    "all_negative_controls_detected": true,
+    "verifier_reads_real_png_bytes": true
+  }
+}

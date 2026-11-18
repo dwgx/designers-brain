@@ -1,0 +1,13 @@
+{
+  "case_id": "C2",
+  "attempt_id": "P4R-C2-20261117T123432",
+  "stage": "A_READY_seal",
+  "manifest_path": "A/manifest.json",
+  "manifest_sha256": "fd1c777075d8a03706b2df7ac1508e2c822828bc990e929323db5f9b90a6993a",
+  "final_commit": "c35d748e1cc9f23415fff0bf019a9c03234c421e",
+  "final_tree": "fb24565b02597057784cbeed23f70ba657711804",
+  "binding_sha256": "075913f4571eecdc3194227d576cc4a37c76228e6c4bbb5a6d4fea9f44bfa351",
+  "ready_at_utc": "2026-11-17T12:39:46.671194+00:00",
+  "clock_source": "local python datetime.now(timezone.utc); author self-reported UTC, not a Root observation",
+  "note": "A is now immutable history. All 6 A files pre-existed this seal and their on-disk SHA/bytes matched the manifest at seal time."
+}

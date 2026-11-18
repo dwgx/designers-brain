@@ -1,0 +1,1920 @@
+{
+  "schema": "closure-foundation-provenance/v1",
+  "base_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "observed_at_utc": "2026-11-17T22:47:00.780702+00:00",
+  "scope": "Imported audited UI proposals, four missing E1 seed packages, and three-state rights correction. Historical receipt status is not current acceptance. Public copies normalize line endings and redact machine paths when noted.",
+  "files": [
+    {
+      "path": "examples/ui/cdp_util.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "35bf473e95c70a92f32e9a5b1d57830cd839772ae226e2e64ef41ded0a30c379",
+      "input_bytes": 6316,
+      "before_sha256": null,
+      "packaged_sha256": "35bf473e95c70a92f32e9a5b1d57830cd839772ae226e2e64ef41ded0a30c379",
+      "packaged_bytes": 6316,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/check_gate_contracts.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "646cc627aa45d2af2b759c20ab5a8338d8b0108e0347a618c21cbfcb8e53afea",
+      "input_bytes": 1633,
+      "before_sha256": null,
+      "packaged_sha256": "646cc627aa45d2af2b759c20ab5a8338d8b0108e0347a618c21cbfcb8e53afea",
+      "packaged_bytes": 1633,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/chrome_util.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "ca1ef06d85f47c0afc24987b3f260c51f6c2f42688f3661d0e0b862873bbfeac",
+      "input_bytes": 2384,
+      "before_sha256": "ca1ef06d85f47c0afc24987b3f260c51f6c2f42688f3661d0e0b862873bbfeac",
+      "packaged_sha256": "ca1ef06d85f47c0afc24987b3f260c51f6c2f42688f3661d0e0b862873bbfeac",
+      "packaged_bytes": 2384,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/README.md",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "1d4a27b981d29b2efc99c9c6d053c88810faedb0b6c57becdc9bfd034c60a0df",
+      "input_bytes": 2300,
+      "before_sha256": "d4a865d39d53ab883ea108d34e8e4a860f8114234df488e04e4f8b03317eb75f",
+      "packaged_sha256": "1d4a27b981d29b2efc99c9c6d053c88810faedb0b6c57becdc9bfd034c60a0df",
+      "packaged_bytes": 2300,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-01/_check.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "0bed8a82d74b445c20db9c0e147054de4b8ac2af5ae0db92dd241b51305fe534",
+      "input_bytes": 10905,
+      "before_sha256": "5c9dd8ee9ef4c883a2a757ed94fa68be277ac00201a38ef110c9db31f4843fb1",
+      "packaged_sha256": "37e0b707a9bb12db65e7fbc077ad0cef536bdc9cb3a100498ec7a3a1a887e33b",
+      "packaged_bytes": 10695,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-01/_schema.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+      "input_bytes": 94359,
+      "before_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+      "packaged_sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+      "packaged_bytes": 94359,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-01/check_negative.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "5d583491ac33d37e37a4d3f3424999b34dc8d59e167f1e6fea5bfff6578bbc91",
+      "input_bytes": 6116,
+      "before_sha256": "99b4f41cac83ce9f3e2a5357eedf2689029e35c06f0cf0bc406d6759d2aa7040",
+      "packaged_sha256": "5d583491ac33d37e37a4d3f3424999b34dc8d59e167f1e6fea5bfff6578bbc91",
+      "packaged_bytes": 6116,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-01/evidence/receipt.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "308dfeaa7c7e4903b8efe8b68bf1bae23488c6f0d8f61f2c9ed46326b7fa89cf",
+      "input_bytes": 12788,
+      "before_sha256": "308dfeaa7c7e4903b8efe8b68bf1bae23488c6f0d8f61f2c9ed46326b7fa89cf",
+      "packaged_sha256": "308dfeaa7c7e4903b8efe8b68bf1bae23488c6f0d8f61f2c9ed46326b7fa89cf",
+      "packaged_bytes": 12788,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-01/fixture.html",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "ba7865621db1dda6cf41daf71a23ebde53e3bb26c24e134bf61a629f4ebaaf03",
+      "input_bytes": 22146,
+      "before_sha256": "06a7ec42fc16f8962f9dab3c02a7dc0009ac9f4b2553443fe58fe9ab1134116c",
+      "packaged_sha256": "ba7865621db1dda6cf41daf71a23ebde53e3bb26c24e134bf61a629f4ebaaf03",
+      "packaged_bytes": 22146,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-01/README.md",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "557a47b23d018deb30fe92afae0f4900462c8933573c932de0747b30d8172ea6",
+      "input_bytes": 1754,
+      "before_sha256": "32f58d5f6a0a48bb5f4e4cd28844c8f5f71de806083035f56b85088aed91121d",
+      "packaged_sha256": "557a47b23d018deb30fe92afae0f4900462c8933573c932de0747b30d8172ea6",
+      "packaged_bytes": 1754,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/_check.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "1e5edb4e2ba50e456958e37df8b5f09bca6da6d37cc515aa4a9a63e911fcd27b",
+      "input_bytes": 15085,
+      "before_sha256": "6dbf7cfc9cc944e0a89294f9cd44f30c9d4613e065bd184ae14be43ffa54ee37",
+      "packaged_sha256": "3ddcf271b02ae2ca41485430b3521f3faeee78dfcc831f33dd9cbcbd99c6b3d4",
+      "packaged_bytes": 14812,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-02/cdp_ime_test.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "edffc887ce3e635e047583d5a8fda69b211bca63e8fd626ebe63d5b8e3e00bd5",
+      "input_bytes": 7104,
+      "before_sha256": "902766779e6a77cc60cbd5343fae872c3a51124c2b2ba10f90d26bb82aff4df7",
+      "packaged_sha256": "edffc887ce3e635e047583d5a8fda69b211bca63e8fd626ebe63d5b8e3e00bd5",
+      "packaged_bytes": 7104,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/cjk_layout.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "13b340f5a6d2ce349a0ff40b881b31a3eadab78db49d3462448243e977411cb7",
+      "input_bytes": 5753,
+      "before_sha256": "13b340f5a6d2ce349a0ff40b881b31a3eadab78db49d3462448243e977411cb7",
+      "packaged_sha256": "13b340f5a6d2ce349a0ff40b881b31a3eadab78db49d3462448243e977411cb7",
+      "packaged_bytes": 5753,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/dtcg_resolver.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "d535937f7922f2a7a5c954a98051e06d07b2e6f318b5caa883e3e013127b475b",
+      "input_bytes": 10251,
+      "before_sha256": "ff8665dc3aceb275027d02e8738eb2107d5150028b2d52a69ccc260e22dd5aa7",
+      "packaged_sha256": "d535937f7922f2a7a5c954a98051e06d07b2e6f318b5caa883e3e013127b475b",
+      "packaged_bytes": 10251,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/evidence/history/ime_cdp_evidence-original.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "8b3742bd829ea5969f635f3abd3d6298627e5bb077267237ec963b2d3cc4f518",
+      "input_bytes": 1798,
+      "before_sha256": null,
+      "packaged_sha256": "9c5bb068e743d1bd618bd23514290a1f93964a6aa9a9e0316bed15154eb92410",
+      "packaged_bytes": 1771,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-02/evidence/ime_cdp_evidence.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4b6731141032a85d0bd034eb3db9acc3812ecf4a7dc114b952e8000b11b42883",
+      "input_bytes": 2821,
+      "before_sha256": "9c5bb068e743d1bd618bd23514290a1f93964a6aa9a9e0316bed15154eb92410",
+      "packaged_sha256": "e83a2aa4d9572f76608a4e2baf9f219898ae864f432a4d5e51ada647038dab61",
+      "packaged_bytes": 2756,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-02/evidence/receipt.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "1076a68b499c5c3232654240a9ba29d0d91f8fc9612f9a67ca5d941a0b36cd93",
+      "input_bytes": 33348,
+      "before_sha256": "1076a68b499c5c3232654240a9ba29d0d91f8fc9612f9a67ca5d941a0b36cd93",
+      "packaged_sha256": "1076a68b499c5c3232654240a9ba29d0d91f8fc9612f9a67ca5d941a0b36cd93",
+      "packaged_bytes": 33348,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/fixture.html",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "0fba917aeb90b6c505440ea0f0ac70db929599daa7fafedc80565e5dedfd623b",
+      "input_bytes": 16286,
+      "before_sha256": "7ff774a18350a5c2f01824d39b78994572c958f636848f46189707e1678eef2e",
+      "packaged_sha256": "0fba917aeb90b6c505440ea0f0ac70db929599daa7fafedc80565e5dedfd623b",
+      "packaged_bytes": 16286,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/README.md",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "e9c2df87e8d76d9f6fc1f611ec6f2dd9bedb8b5bbacb95d7d941780e2a4433ab",
+      "input_bytes": 2574,
+      "before_sha256": "79c284622b064d3fbfbf5ad30bde85e7033562d05bca209165bd5dbf1c560d40",
+      "packaged_sha256": "e9c2df87e8d76d9f6fc1f611ec6f2dd9bedb8b5bbacb95d7d941780e2a4433ab",
+      "packaged_bytes": 2574,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/resolver_negative.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "21c06ecac55ac6de7d2ac60b8f48fea4eda07d54d510f8d7c3504aef7c3527df",
+      "input_bytes": 4278,
+      "before_sha256": "01f16bf48562579d74fd553ab05376253d27e0cdfd41358fc4149ea3ef58b531",
+      "packaged_sha256": "21c06ecac55ac6de7d2ac60b8f48fea4eda07d54d510f8d7c3504aef7c3527df",
+      "packaged_bytes": 4278,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/schema/dtcg-format-schema.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "32e93b780e4e4bca778d0780cb797a560deedc470c608af16576223f7e42915f",
+      "input_bytes": 56523,
+      "before_sha256": "32e93b780e4e4bca778d0780cb797a560deedc470c608af16576223f7e42915f",
+      "packaged_sha256": "32e93b780e4e4bca778d0780cb797a560deedc470c608af16576223f7e42915f",
+      "packaged_bytes": 56523,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/themes.resolver.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "a2f5c5acd987a2140e77079cd89b6e51e229ab0cf363897dee4f2eeeebfc22f0",
+      "input_bytes": 3460,
+      "before_sha256": "a2f5c5acd987a2140e77079cd89b6e51e229ab0cf363897dee4f2eeeebfc22f0",
+      "packaged_sha256": "a2f5c5acd987a2140e77079cd89b6e51e229ab0cf363897dee4f2eeeebfc22f0",
+      "packaged_bytes": 3460,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/tokens-cycle.tokens.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "3e87018a74b4623bd35cad5f5c69abcbb6a0f04830a38fc1f9ce61ab4dbc5bb6",
+      "input_bytes": 906,
+      "before_sha256": "3e87018a74b4623bd35cad5f5c69abcbb6a0f04830a38fc1f9ce61ab4dbc5bb6",
+      "packaged_sha256": "3e87018a74b4623bd35cad5f5c69abcbb6a0f04830a38fc1f9ce61ab4dbc5bb6",
+      "packaged_bytes": 906,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-02/tokens.tokens.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "f29a75c482e3f9b19b98873ef3fe5dbb6c4be54e85c9b2b25524c9a515b4cf4d",
+      "input_bytes": 3202,
+      "before_sha256": "f29a75c482e3f9b19b98873ef3fe5dbb6c4be54e85c9b2b25524c9a515b4cf4d",
+      "packaged_sha256": "f29a75c482e3f9b19b98873ef3fe5dbb6c4be54e85c9b2b25524c9a515b4cf4d",
+      "packaged_bytes": 3202,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/check_negative.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "9483372c3310ea738fc42e9de3015a9047efd34d3b8cadb14becd5d4d57bdb7e",
+      "input_bytes": 3537,
+      "before_sha256": null,
+      "packaged_sha256": "9483372c3310ea738fc42e9de3015a9047efd34d3b8cadb14becd5d4d57bdb7e",
+      "packaged_bytes": 3537,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+      "input_bytes": 2701,
+      "before_sha256": null,
+      "packaged_sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+      "packaged_bytes": 2701,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "input_bytes": 2740,
+      "before_sha256": null,
+      "packaged_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "packaged_bytes": 2740,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/default.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "input_bytes": 2740,
+      "before_sha256": null,
+      "packaged_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "packaged_bytes": 2740,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/diff-default-dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "d3b87dfc00f2351831cf5149eb37efb37a5724293b45a246d2652ef9502b9620",
+      "input_bytes": 2086,
+      "before_sha256": null,
+      "packaged_sha256": "d3b87dfc00f2351831cf5149eb37efb37a5724293b45a246d2652ef9502b9620",
+      "packaged_bytes": 2086,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/diff-default-default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "input_bytes": 265,
+      "before_sha256": null,
+      "packaged_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "packaged_bytes": 265,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/diff-default-hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "f0168eff5469f87ace39ff90b43f0ab0c48e7b1658735bb32940f675cf95b048",
+      "input_bytes": 3831,
+      "before_sha256": null,
+      "packaged_sha256": "f0168eff5469f87ace39ff90b43f0ab0c48e7b1658735bb32940f675cf95b048",
+      "packaged_bytes": 3831,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+      "input_bytes": 4048,
+      "before_sha256": null,
+      "packaged_sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+      "packaged_bytes": 4048,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/browser-current/report.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "cca6c53ccad743e7736f578109dff8c695fc7d50558b0916990dd6899d76a188",
+      "input_bytes": 5780,
+      "before_sha256": null,
+      "packaged_sha256": "434877b66c87c73c9985ad6887c2179e9c1e052e16e5a82eec7dc78db3a4a168",
+      "packaged_bytes": 5592,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/history/VERIFICATION_MATRIX-original.md",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "20634cdbbae60c0cd3a8cfce7cb98fcccf9e563551e92896d69bf8f759033ade",
+      "input_bytes": 5397,
+      "before_sha256": null,
+      "packaged_sha256": "20634cdbbae60c0cd3a8cfce7cb98fcccf9e563551e92896d69bf8f759033ade",
+      "packaged_bytes": 5397,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "e95a8078ddb72bbb2502558bd8c73736a63f9a82aed67832281c68bdc4e548f2",
+      "input_bytes": 2938,
+      "before_sha256": null,
+      "packaged_sha256": "e95a8078ddb72bbb2502558bd8c73736a63f9a82aed67832281c68bdc4e548f2",
+      "packaged_bytes": 2938,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "51b29b94401263f9719158a1fbb7a57282cf26862d46a95501c4800597ce63e4",
+      "input_bytes": 2979,
+      "before_sha256": null,
+      "packaged_sha256": "51b29b94401263f9719158a1fbb7a57282cf26862d46a95501c4800597ce63e4",
+      "packaged_bytes": 2979,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/default.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "51b29b94401263f9719158a1fbb7a57282cf26862d46a95501c4800597ce63e4",
+      "input_bytes": 2979,
+      "before_sha256": null,
+      "packaged_sha256": "51b29b94401263f9719158a1fbb7a57282cf26862d46a95501c4800597ce63e4",
+      "packaged_bytes": 2979,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/diff-default-dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "c116e6e67fc9a6c4172a9a71335f3f1a44513367b4bdf30469639116464078c0",
+      "input_bytes": 2089,
+      "before_sha256": null,
+      "packaged_sha256": "c116e6e67fc9a6c4172a9a71335f3f1a44513367b4bdf30469639116464078c0",
+      "packaged_bytes": 2089,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/diff-default-default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "input_bytes": 265,
+      "before_sha256": null,
+      "packaged_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "packaged_bytes": 265,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/diff-default-hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "32ff564468b8e01b7a3c2de718558171c75c118b66281f9e1777754b4199d583",
+      "input_bytes": 4014,
+      "before_sha256": null,
+      "packaged_sha256": "32ff564468b8e01b7a3c2de718558171c75c118b66281f9e1777754b4199d583",
+      "packaged_bytes": 4014,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "978451ef0878277a03bb2ec873f7ef8d0030563ad8fbd56e5149c9b4e1303fe4",
+      "input_bytes": 4380,
+      "before_sha256": null,
+      "packaged_sha256": "978451ef0878277a03bb2ec873f7ef8d0030563ad8fbd56e5149c9b4e1303fe4",
+      "packaged_bytes": 4380,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/comment_div/report.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "7a4cc65bc384d06da5f9b3d13a60fa9236da6243db323d29bd9a65d0e34cba46",
+      "input_bytes": 5777,
+      "before_sha256": null,
+      "packaged_sha256": "a0982b1a01e8409bc7aa9321eea47f48636fb075afc01e81cb56306369732667",
+      "packaged_bytes": 5589,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/controls.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "9c1b196ddb8997e48d648380570c955116016796191547c575dc77d54f8ab490",
+      "input_bytes": 6299,
+      "before_sha256": null,
+      "packaged_sha256": "b714e6f6eaaf486f1a6fe6e3632e6879f9e13a152ca873eed584b5a0effe098c",
+      "packaged_bytes": 6072,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+      "input_bytes": 2701,
+      "before_sha256": null,
+      "packaged_sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+      "packaged_bytes": 2701,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "input_bytes": 2740,
+      "before_sha256": null,
+      "packaged_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "packaged_bytes": 2740,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/default.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "input_bytes": 2740,
+      "before_sha256": null,
+      "packaged_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "packaged_bytes": 2740,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/diff-default-dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "d3b87dfc00f2351831cf5149eb37efb37a5724293b45a246d2652ef9502b9620",
+      "input_bytes": 2086,
+      "before_sha256": null,
+      "packaged_sha256": "d3b87dfc00f2351831cf5149eb37efb37a5724293b45a246d2652ef9502b9620",
+      "packaged_bytes": 2086,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/diff-default-default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "input_bytes": 265,
+      "before_sha256": null,
+      "packaged_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "packaged_bytes": 265,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/diff-default-hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "f0168eff5469f87ace39ff90b43f0ab0c48e7b1658735bb32940f675cf95b048",
+      "input_bytes": 3831,
+      "before_sha256": null,
+      "packaged_sha256": "f0168eff5469f87ace39ff90b43f0ab0c48e7b1658735bb32940f675cf95b048",
+      "packaged_bytes": 3831,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+      "input_bytes": 4048,
+      "before_sha256": null,
+      "packaged_sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+      "packaged_bytes": 4048,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/missing_name/report.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "dd0aa83a5dd3f5f8f95bcb53a674d50e6848a38b59d4b9048ab2ab1512b8dcd1",
+      "input_bytes": 5761,
+      "before_sha256": null,
+      "packaged_sha256": "29ca992e777421e743a5627e3ce3c2f64a218039e89f0478ecce3e8a5833c6de",
+      "packaged_bytes": 5573,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+      "input_bytes": 2701,
+      "before_sha256": null,
+      "packaged_sha256": "423d0e10c03f5c0b59a4149a1af9fb832ba346ba6555ea22f37f84c37070ee34",
+      "packaged_bytes": 2701,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "input_bytes": 2740,
+      "before_sha256": null,
+      "packaged_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "packaged_bytes": 2740,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/default.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "input_bytes": 2740,
+      "before_sha256": null,
+      "packaged_sha256": "4f7590e221ed38ad9e9d8196945dcfe42644b5b2aaf6ee3663e2850e6e05298d",
+      "packaged_bytes": 2740,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/diff-default-dark.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "d3b87dfc00f2351831cf5149eb37efb37a5724293b45a246d2652ef9502b9620",
+      "input_bytes": 2086,
+      "before_sha256": null,
+      "packaged_sha256": "d3b87dfc00f2351831cf5149eb37efb37a5724293b45a246d2652ef9502b9620",
+      "packaged_bytes": 2086,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/diff-default-default-recheck.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "input_bytes": 265,
+      "before_sha256": null,
+      "packaged_sha256": "7063f0faeb9ccf29385b4ed72426c4f553658a4c10d2c6413d7cc7af7f6f58cd",
+      "packaged_bytes": 265,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/diff-default-hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "f0168eff5469f87ace39ff90b43f0ab0c48e7b1658735bb32940f675cf95b048",
+      "input_bytes": 3831,
+      "before_sha256": null,
+      "packaged_sha256": "f0168eff5469f87ace39ff90b43f0ab0c48e7b1658735bb32940f675cf95b048",
+      "packaged_bytes": 3831,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/hover.png",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+      "input_bytes": 4048,
+      "before_sha256": null,
+      "packaged_sha256": "b6a135134675987203ccfc8deacee95b51b1be3e73f51b4970caaecd3f192c39",
+      "packaged_bytes": 4048,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/negative-current/positive/report.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "9978230bce325325bf57bef58d6427df24825479d861f39cd01618a5f4b36203",
+      "input_bytes": 5779,
+      "before_sha256": null,
+      "packaged_sha256": "b99ae2daf17f212c009850994af7c30a80939a6cacc2f84d99a4628b663d6792",
+      "packaged_bytes": 5591,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "examples/ui/ui-03/evidence/receipt.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "012c400752a87386a8ac47129e60555fb1de3109910af30171bac87b4517ce23",
+      "input_bytes": 14327,
+      "before_sha256": "012c400752a87386a8ac47129e60555fb1de3109910af30171bac87b4517ce23",
+      "packaged_sha256": "012c400752a87386a8ac47129e60555fb1de3109910af30171bac87b4517ce23",
+      "packaged_bytes": 14327,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/fixture/component.js",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "14145c518ec36c3dfd261fa2c9c747a4d98b6a9c8bcc04ec19c1e091545397f7",
+      "input_bytes": 2261,
+      "before_sha256": "14145c518ec36c3dfd261fa2c9c747a4d98b6a9c8bcc04ec19c1e091545397f7",
+      "packaged_sha256": "14145c518ec36c3dfd261fa2c9c747a4d98b6a9c8bcc04ec19c1e091545397f7",
+      "packaged_bytes": 2261,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/fixture/index.html",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "a7a8db851af04663a90f2e910f6b7d1eb9fd85f55313d5b230b8fc95c4a1cf65",
+      "input_bytes": 3581,
+      "before_sha256": "a7a8db851af04663a90f2e910f6b7d1eb9fd85f55313d5b230b8fc95c4a1cf65",
+      "packaged_sha256": "a7a8db851af04663a90f2e910f6b7d1eb9fd85f55313d5b230b8fc95c4a1cf65",
+      "packaged_bytes": 3581,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/fixture/package.json",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "45cea3bb6aa893a62104090cf89a5beaf5bc848fb5233a53fa782f45eec2ffa8",
+      "input_bytes": 243,
+      "before_sha256": "bc47b906535720606dea1b28a72e2aa37c04fe9fafb3e8b95b82bfc8effb5b64",
+      "packaged_sha256": "45cea3bb6aa893a62104090cf89a5beaf5bc848fb5233a53fa782f45eec2ffa8",
+      "packaged_bytes": 243,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/fixture/run_checks.js",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "dadef76ae43beee320d7021e2068b612a60ec09548bc437a46cb1e517651fc58",
+      "input_bytes": 6628,
+      "before_sha256": "7ef31674c90fe376b11aabaa70a4c351c739274bdd38a8ce99f1e7a02d2116ee",
+      "packaged_sha256": "dadef76ae43beee320d7021e2068b612a60ec09548bc437a46cb1e517651fc58",
+      "packaged_bytes": 6628,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/fixture/run_visual.py",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "ba383f0ccebed9a69aae5e3e9069647f9b9a57d59b3284af6206b209d5ee3c5f",
+      "input_bytes": 9171,
+      "before_sha256": null,
+      "packaged_sha256": "ba383f0ccebed9a69aae5e3e9069647f9b9a57d59b3284af6206b209d5ee3c5f",
+      "packaged_bytes": 9171,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/README.md",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "87d4b92d21de88f71e6ac19ae549a4d6000b790aee82cd0a28f98eb3bb1b0b1d",
+      "input_bytes": 2626,
+      "before_sha256": "3347e6c60fec321e114d7288b9024d210286d73158e38b53948988c3fe9b2bf8",
+      "packaged_sha256": "87d4b92d21de88f71e6ac19ae549a4d6000b790aee82cd0a28f98eb3bb1b0b1d",
+      "packaged_bytes": 2626,
+      "transformation": "none"
+    },
+    {
+      "path": "examples/ui/ui-03/VERIFICATION_MATRIX.md",
+      "input_role": "ui-final-windows-proposal",
+      "input_sha256": "7534844e98b0930efb178e42831c4565efc426f79bd2eed30468e613724e30ff",
+      "input_bytes": 2168,
+      "before_sha256": "20634cdbbae60c0cd3a8cfce7cb98fcccf9e563551e92896d69bf8f759033ade",
+      "packaged_sha256": "7534844e98b0930efb178e42831c4565efc426f79bd2eed30468e613724e30ff",
+      "packaged_bytes": 2168,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/FRESH-RUN-stdout.txt",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "d0d6ad5742dc74d6e354dd4ed294d58894a41bfbe54bc2582da3aeb30ef676e6",
+      "input_bytes": 367,
+      "before_sha256": null,
+      "packaged_sha256": "49374336f5d134209e7cd9b0cfb7959e02637bb538deab1a8f1265e8e2a373dd",
+      "packaged_bytes": 359,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/FRESH-RUN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "f1c07dddb769139e0cb6cf090a2e065868109ce8ae25185c492cea463ab0305b",
+      "input_bytes": 10210,
+      "before_sha256": null,
+      "packaged_sha256": "f0942f299f3d68dae3d4ce5fd78ef760d757c4aded5f289e333090f86b3a5a86",
+      "packaged_bytes": 9912,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/ORIGIN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "a9d4e408b45a6465d1db7e365a304674fd5f552d308e72bcbf690120e1d8a6bb",
+      "input_bytes": 2301,
+      "before_sha256": null,
+      "packaged_sha256": "a9d4e408b45a6465d1db7e365a304674fd5f552d308e72bcbf690120e1d8a6bb",
+      "packaged_bytes": 2301,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/build.py",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "7ee7e09b95f6046f026864ae91dd03ea7aa5473ba2114a58abe3e1f82a2e6e54",
+      "input_bytes": 19829,
+      "before_sha256": null,
+      "packaged_sha256": "7ee7e09b95f6046f026864ae91dd03ea7aa5473ba2114a58abe3e1f82a2e6e54",
+      "packaged_bytes": 19829,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/config.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "0940e60cfe8cae25233742551e6ca8cb09600a9510e6ff355f9c7eeca9e50d9b",
+      "input_bytes": 3470,
+      "before_sha256": null,
+      "packaged_sha256": "0940e60cfe8cae25233742551e6ca8cb09600a9510e6ff355f9c7eeca9e50d9b",
+      "packaged_bytes": 3470,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/checks.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "cd6cc511990ca2573e270d242311dbfccdbdc2ee4cc92f5ac107ba71743720a5",
+      "input_bytes": 2919,
+      "before_sha256": null,
+      "packaged_sha256": "bf2eb0b1f53554bcbccb24b863b54d09458bfc37d2232c05c3bcfd526efeaef5",
+      "packaged_bytes": 2816,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_connected.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "c6dfabeb3cf3ba6e53e36faa7294bc2519443909a0692c0fa899f667726effe6",
+      "input_bytes": 2440,
+      "before_sha256": null,
+      "packaged_sha256": "c6dfabeb3cf3ba6e53e36faa7294bc2519443909a0692c0fa899f667726effe6",
+      "packaged_bytes": 2440,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_connected.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "d090c946e20dff2d2fae534df262cb182c6585e617a1aa7a343cc59ee73d5ad4",
+      "input_bytes": 875,
+      "before_sha256": null,
+      "packaged_sha256": "11c9a1bae41956c2aa971cd6374ae57be5c127faa480503483236bd92782324b",
+      "packaged_bytes": 866,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_merged.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "475a95185e4e5edc65ec975544e483a651e40cdc702520da6667184ac07a8f09",
+      "input_bytes": 1743,
+      "before_sha256": null,
+      "packaged_sha256": "475a95185e4e5edc65ec975544e483a651e40cdc702520da6667184ac07a8f09",
+      "packaged_bytes": 1743,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_merged.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "d9e43e59dc3f34258fd1b711dd2253ff4dea2574682d5f035361af7b23f22f4a",
+      "input_bytes": 642,
+      "before_sha256": null,
+      "packaged_sha256": "3981f339806c84c4a478751110efb526764e825cd5bfe842e79eaf74f44bf08e",
+      "packaged_bytes": 635,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_overlap.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "1d0f9006770597489fad3a8eb90fe927809ebd15d19835e7d4f0facac0bb7802",
+      "input_bytes": 2133,
+      "before_sha256": null,
+      "packaged_sha256": "1d0f9006770597489fad3a8eb90fe927809ebd15d19835e7d4f0facac0bb7802",
+      "packaged_bytes": 2133,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_overlap.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "8f6ea17e4e706393e7f41efb9d167e4406c2395343b1a96980d70a5c7b00c080",
+      "input_bytes": 708,
+      "before_sha256": null,
+      "packaged_sha256": "df418dfcc066f6cd9a819160562edaf0efb33ddfe1b583b00c2ee825e794f4b2",
+      "packaged_bytes": 700,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_separated.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "6306450a1c80f5dfcfbd59cb670755255ad6a14f28b86688e481fd0fa3ca8057",
+      "input_bytes": 2272,
+      "before_sha256": null,
+      "packaged_sha256": "6306450a1c80f5dfcfbd59cb670755255ad6a14f28b86688e481fd0fa3ca8057",
+      "packaged_bytes": 2272,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_beam_separated.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "801358d7e0e31468846075f20217e7c8ab564e137f904be1df248faf4ab685ff",
+      "input_bytes": 710,
+      "before_sha256": null,
+      "packaged_sha256": "78889a84e577db5b2764722051172c590cd34e0cc8e7a1c125eae0db723a154d",
+      "packaged_bytes": 702,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_connected.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "80955a8ff36e30c5b6c27f827a56099b28be3c752ad4a68f251f0e1ffc44bb8b",
+      "input_bytes": 2410,
+      "before_sha256": null,
+      "packaged_sha256": "80955a8ff36e30c5b6c27f827a56099b28be3c752ad4a68f251f0e1ffc44bb8b",
+      "packaged_bytes": 2410,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_connected.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "430a0913fa13f156679b5f622077ec3cf35888229014c68376253b10e452dedc",
+      "input_bytes": 1108,
+      "before_sha256": null,
+      "packaged_sha256": "dbae842615c3a7b10f32bcd65b1b5252c58a5c565e2c985c42d5bc6881857444",
+      "packaged_bytes": 1099,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_merged.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "445e65be0022c870c589020e477410683d8647d97b396a556add7eee793f4274",
+      "input_bytes": 1827,
+      "before_sha256": null,
+      "packaged_sha256": "445e65be0022c870c589020e477410683d8647d97b396a556add7eee793f4274",
+      "packaged_bytes": 1827,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_merged.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "13dc8fb319f03d1142c06319c398e10c54e9fb4e42152a658ee50c38f3ce9703",
+      "input_bytes": 705,
+      "before_sha256": null,
+      "packaged_sha256": "ad5b5835fc43ded4673bd9a1dba4423dc9f9dac8c8ff167bf3ee21eef16560f2",
+      "packaged_bytes": 698,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_overlap.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "8abbc6e8b16f0a9d61cc4ac6066201bdfe52121db831fc0ec1c3e806b0fb2e86",
+      "input_bytes": 2250,
+      "before_sha256": null,
+      "packaged_sha256": "8abbc6e8b16f0a9d61cc4ac6066201bdfe52121db831fc0ec1c3e806b0fb2e86",
+      "packaged_bytes": 2250,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_overlap.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "32ca47abb97795c86f60ab240e16974ef2b80e937a4bee6566bc2b433519f830",
+      "input_bytes": 843,
+      "before_sha256": null,
+      "packaged_sha256": "df7bbfc699a4f59542601b7426cf33b2d42db8a42cfd6cf724a3990ea6388344",
+      "packaged_bytes": 835,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_separated.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "acb60e9255b2f150091540c74af835e29fd2f041f6143a934a5d799f513a2ad1",
+      "input_bytes": 2142,
+      "before_sha256": null,
+      "packaged_sha256": "acb60e9255b2f150091540c74af835e29fd2f041f6143a934a5d799f513a2ad1",
+      "packaged_bytes": 2142,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/key_stamp_separated.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "917ac9e6556961c5e525fbb045436a26a70bcfed7e778c0ba8ee3e30db0d7e33",
+      "input_bytes": 845,
+      "before_sha256": null,
+      "packaged_sha256": "302faf3a7e56482c4704820da396d8da19dabe48da18ceb3d8381ffa5871cfc6",
+      "packaged_bytes": 837,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/negatives/F1_missing_connector.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "01c672bf377f56778fef39431b00e8f097e1cde347ececd5b34d350087ee7aa0",
+      "input_bytes": 2355,
+      "before_sha256": null,
+      "packaged_sha256": "01c672bf377f56778fef39431b00e8f097e1cde347ececd5b34d350087ee7aa0",
+      "packaged_bytes": 2355,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/negatives/F1_missing_connector.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "201a67587114c780aa14c91c289fcc7c444c9581ec142da34166b94a0ea0a94a",
+      "input_bytes": 751,
+      "before_sha256": null,
+      "packaged_sha256": "f31e81853d90218ac3f4ce008c0b30ca2d5102924bb6a7fcb28494479c2ca66b",
+      "packaged_bytes": 743,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/negatives/F1_state.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "ef5d688e51c4ee7977e8021c6264c7b45692538ef8ce9088287986ca6b881a0e",
+      "input_bytes": 145,
+      "before_sha256": null,
+      "packaged_sha256": "fa6b2ca6bb7a4943094ce52a8f924a60c53d57b257064c4e9679656cc7f99e93",
+      "packaged_bytes": 141,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/negatives/F2_position_jump.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "6eb952f5f3d088d38864e5ebb06fe06f689855b9577dc1688239abddbb8bf48b",
+      "input_bytes": 2372,
+      "before_sha256": null,
+      "packaged_sha256": "6eb952f5f3d088d38864e5ebb06fe06f689855b9577dc1688239abddbb8bf48b",
+      "packaged_bytes": 2372,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/negatives/F2_position_jump.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "2eb12a1183014e4c5a4f5c7d23c6dcce1790676c776059db1967e7e44659c4fc",
+      "input_bytes": 917,
+      "before_sha256": null,
+      "packaged_sha256": "71ef3896b1e007e3b04019561f910ee03f05d1155c72a7ea880699886fcc6b1e",
+      "packaged_bytes": 908,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/negatives/F3_out_of_selection_change.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "977a99dce2928cfc6fe3a1effa9d486d91ba7655f97d8631d850e0179639dd18",
+      "input_bytes": 2463,
+      "before_sha256": null,
+      "packaged_sha256": "977a99dce2928cfc6fe3a1effa9d486d91ba7655f97d8631d850e0179639dd18",
+      "packaged_bytes": 2463,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/negatives/F3_out_of_selection_change.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "211720bacddff1a496a0fb03ef14f807140f9a2a30186403b1e2f99e6a7118dc",
+      "input_bytes": 796,
+      "before_sha256": null,
+      "packaged_sha256": "a177ca5dca1ae9a765456b09522c077abbf1b891bfff74e2045282b299c8c923",
+      "packaged_bytes": 787,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/state_ledger.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "19317d15001a826cf192accd8a89879f57083a50018582edf70c1cc1e2ee9027",
+      "input_bytes": 2116,
+      "before_sha256": null,
+      "packaged_sha256": "049344d72b63952e9f4af2327d36c607209e599afa714bee9807ca34837a5a6d",
+      "packaged_bytes": 1985,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_00.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "6306450a1c80f5dfcfbd59cb670755255ad6a14f28b86688e481fd0fa3ca8057",
+      "input_bytes": 2272,
+      "before_sha256": null,
+      "packaged_sha256": "6306450a1c80f5dfcfbd59cb670755255ad6a14f28b86688e481fd0fa3ca8057",
+      "packaged_bytes": 2272,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_00.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "5999536a07e882c46f2be39440731c331fe15bd76d9255a60975cfb8dd5697b4",
+      "input_bytes": 710,
+      "before_sha256": null,
+      "packaged_sha256": "1eb6f9b488334147a0091b81e24415c4dc488de55e327be10fbc806ea290df7b",
+      "packaged_bytes": 702,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_01.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "89b621ee95b780e63c76c3aee15236293338e35e5ccbfa6f260b77473b06c07d",
+      "input_bytes": 2366,
+      "before_sha256": null,
+      "packaged_sha256": "89b621ee95b780e63c76c3aee15236293338e35e5ccbfa6f260b77473b06c07d",
+      "packaged_bytes": 2366,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_01.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "2317898cdaee54d0ff2e1a313ef6e056830dd966058475d150b32b2be5a1c3a6",
+      "input_bytes": 873,
+      "before_sha256": null,
+      "packaged_sha256": "a76b564f869f11469211eb0a9fd9150acde9731b4eb4aa7c3a04fbc188a7ccc5",
+      "packaged_bytes": 864,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_02.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "908a0720823f19a66d2ce84a351c2ddb2f4bb1340275b7ea73afb1a0c09703b8",
+      "input_bytes": 2323,
+      "before_sha256": null,
+      "packaged_sha256": "908a0720823f19a66d2ce84a351c2ddb2f4bb1340275b7ea73afb1a0c09703b8",
+      "packaged_bytes": 2323,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_02.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "ea6fc84c8ae3a1cb32858114aa45094ba63787f51c669788e2b4e69efb0db089",
+      "input_bytes": 873,
+      "before_sha256": null,
+      "packaged_sha256": "a95d5e492ffc2a57a34dda7b89b7301b0b1a4f39642549992f90b39abc59ecb1",
+      "packaged_bytes": 864,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_03.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "c00779f56f017810bf8c759451c9c9caaf59e0a57f152f02543456d6f92922f1",
+      "input_bytes": 2338,
+      "before_sha256": null,
+      "packaged_sha256": "c00779f56f017810bf8c759451c9c9caaf59e0a57f152f02543456d6f92922f1",
+      "packaged_bytes": 2338,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_03.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "1bde66f1d14662a26ccc9f056373efa257abb5338f6b5cc8f60365b4b5e6628e",
+      "input_bytes": 873,
+      "before_sha256": null,
+      "packaged_sha256": "939aa6a827423184deb1f89aa681ce4bc0cb127489a0c29382aae97dd025e633",
+      "packaged_bytes": 864,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_04.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "eb21629235c20d00235ff8346073ed66d070f40c1c39d9df22296e4d1f1499a0",
+      "input_bytes": 2347,
+      "before_sha256": null,
+      "packaged_sha256": "eb21629235c20d00235ff8346073ed66d070f40c1c39d9df22296e4d1f1499a0",
+      "packaged_bytes": 2347,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_04.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "ab2096332d9bce534ae69b357cea7ccf45775d2917b18cf715f18ee4101a544e",
+      "input_bytes": 873,
+      "before_sha256": null,
+      "packaged_sha256": "660d5a28fcefb5a396173d2843bd59719206726640f79d342f9a9b184972191d",
+      "packaged_bytes": 864,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_05.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "94472444b486a2fea897094bd06db8c6264a80385b44d471e22d4a8e6fd0b181",
+      "input_bytes": 2433,
+      "before_sha256": null,
+      "packaged_sha256": "94472444b486a2fea897094bd06db8c6264a80385b44d471e22d4a8e6fd0b181",
+      "packaged_bytes": 2433,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_05.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "6de57e496c20da0329b0475c2bd0bb1496cb76ad3b6e872a89b8c12d7109301d",
+      "input_bytes": 873,
+      "before_sha256": null,
+      "packaged_sha256": "d3ac75964bb25de9a6f8ee127edb076c5a8a6aa23a918b6c31b4401d3f3d724d",
+      "packaged_bytes": 864,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_06.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "b5ad249215af4b2a05c533ab0fdb8e7b425e5f85007fb4a1261576febc1b45f1",
+      "input_bytes": 2421,
+      "before_sha256": null,
+      "packaged_sha256": "b5ad249215af4b2a05c533ab0fdb8e7b425e5f85007fb4a1261576febc1b45f1",
+      "packaged_bytes": 2421,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_06.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "e7551994fbc4beb9f29d77a9765e7ab02dac1204dd0271b5fe80388a2452aa40",
+      "input_bytes": 873,
+      "before_sha256": null,
+      "packaged_sha256": "3cb2cb4c183e6fe241309be217be358ac9ee0d6a669f5c4cc611dda7c3b03836",
+      "packaged_bytes": 864,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_07.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "d25fbd807e89cdbd6eb1f26d30e4b2b6389f7d3e7020ebf5f9f65e745b7bd03a",
+      "input_bytes": 2398,
+      "before_sha256": null,
+      "packaged_sha256": "d25fbd807e89cdbd6eb1f26d30e4b2b6389f7d3e7020ebf5f9f65e745b7bd03a",
+      "packaged_bytes": 2398,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_07.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "f80a0094b39c5a36b5aaad1cb40330dbb1d7229c35fd73ca4a54d90189ee37a7",
+      "input_bytes": 875,
+      "before_sha256": null,
+      "packaged_sha256": "b96cdc0d6602fc6a59a8f5d0836a9aaee723a29701fb109ce7d340e75bd88bd7",
+      "packaged_bytes": 866,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_08.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "8ac2a722bd1df70795f04ab03d7c869d5b93a1028e59abdcca6b8bb367f17c87",
+      "input_bytes": 2410,
+      "before_sha256": null,
+      "packaged_sha256": "8ac2a722bd1df70795f04ab03d7c869d5b93a1028e59abdcca6b8bb367f17c87",
+      "packaged_bytes": 2410,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_08.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "96755465d82d001faa886a94740b8b384e8ae4f45584eb95c91cbbd4a86bc2ca",
+      "input_bytes": 875,
+      "before_sha256": null,
+      "packaged_sha256": "becf2f81167d90fa8c3441adf0ecedeb45d1509d53b3d88e4f01ae526d4ee2ac",
+      "packaged_bytes": 866,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_09.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "dc72352a5389a4442a0d7f23e108141cafee37a8a4b997fc0a31e73ff8333c4a",
+      "input_bytes": 2434,
+      "before_sha256": null,
+      "packaged_sha256": "dc72352a5389a4442a0d7f23e108141cafee37a8a4b997fc0a31e73ff8333c4a",
+      "packaged_bytes": 2434,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_09.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "3e574afb0a153a19d9dfd540ed0e74153860d3c29aea7557e7533443e45d2171",
+      "input_bytes": 875,
+      "before_sha256": null,
+      "packaged_sha256": "ccf148e68192d70cef14fa6755eb58d7d2fbc664bd33e32aef4d749e34de5679",
+      "packaged_bytes": 866,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_10.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "1a53915cf6e86063a0c4910f92ae5b0edd5aed750351b34ce140d5c715f20ab6",
+      "input_bytes": 2482,
+      "before_sha256": null,
+      "packaged_sha256": "1a53915cf6e86063a0c4910f92ae5b0edd5aed750351b34ce140d5c715f20ab6",
+      "packaged_bytes": 2482,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_10.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "825a2b1a50782a681d4bb4da6d44b81a06cb736434a11009db75586cc60d619a",
+      "input_bytes": 875,
+      "before_sha256": null,
+      "packaged_sha256": "df2617946187b6f399edd811b3b0ad4cd685aca415a69edc7e6537585e9b8ec1",
+      "packaged_bytes": 866,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_11.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "c6dfabeb3cf3ba6e53e36faa7294bc2519443909a0692c0fa899f667726effe6",
+      "input_bytes": 2440,
+      "before_sha256": null,
+      "packaged_sha256": "c6dfabeb3cf3ba6e53e36faa7294bc2519443909a0692c0fa899f667726effe6",
+      "packaged_bytes": 2440,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/trans_11.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "d090c946e20dff2d2fae534df262cb182c6585e617a1aa7a343cc59ee73d5ad4",
+      "input_bytes": 875,
+      "before_sha256": null,
+      "packaged_sha256": "11c9a1bae41956c2aa971cd6374ae57be5c127faa480503483236bd92782324b",
+      "packaged_bytes": 866,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/prototype/outputs/transition_contact_sheet.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "737b131b9039c239d664b375d67a5511909848c33b150c0e2b3c33584c35edde",
+      "input_bytes": 22042,
+      "before_sha256": null,
+      "packaged_sha256": "737b131b9039c239d664b375d67a5511909848c33b150c0e2b3c33584c35edde",
+      "packaged_bytes": 22042,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/ayushsoni_io/README.md",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "a6af2e0dbfa1fc7e9afa49b8034c81157167fc6485c1f4ee132dcc35ecb55cca",
+      "input_bytes": 1442,
+      "before_sha256": null,
+      "packaged_sha256": "a6af2e0dbfa1fc7e9afa49b8034c81157167fc6485c1f4ee132dcc35ecb55cca",
+      "packaged_bytes": 1442,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/FRESH-RUN-stdout.txt",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "828b3cc1a90efa5cc23fdfcf9664a6906ac38f4fa22a87545531652308bb3998",
+      "input_bytes": 375,
+      "before_sha256": null,
+      "packaged_sha256": "cfff66d9e9463b564fc4ee40a6b1d2a8c57bbd7b0be7881057a6b873e7cb319d",
+      "packaged_bytes": 367,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/FRESH-RUN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "be06228153d1a8dd605a24bd21bf6dc7d67cda95a339cd8754d2089c229911da",
+      "input_bytes": 3562,
+      "before_sha256": null,
+      "packaged_sha256": "d94c5965a60ba4a77d20e34179ffaa4dd1d89686b7ed758e6bced882103c5467",
+      "packaged_bytes": 3452,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/ORIGIN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "47a6a454483241379d5a9034860f2b70e35eb6a56f6812609d96e135b7ecb6e0",
+      "input_bytes": 1930,
+      "before_sha256": null,
+      "packaged_sha256": "47a6a454483241379d5a9034860f2b70e35eb6a56f6812609d96e135b7ecb6e0",
+      "packaged_bytes": 1930,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/build.py",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "d7f9587d6fba7348ef9a6ea66027e557b5dc9bd1f3d4f9b599eefc0a09a2f73a",
+      "input_bytes": 15897,
+      "before_sha256": null,
+      "packaged_sha256": "d7f9587d6fba7348ef9a6ea66027e557b5dc9bd1f3d4f9b599eefc0a09a2f73a",
+      "packaged_bytes": 15897,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/config.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "8605fc2f18026a113ba9dcfc61fb3655316d773b91451f298919189c768188c3",
+      "input_bytes": 4083,
+      "before_sha256": null,
+      "packaged_sha256": "8605fc2f18026a113ba9dcfc61fb3655316d773b91451f298919189c768188c3",
+      "packaged_bytes": 4083,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/checks.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "3920eb492c98ca51f9f4b1bc1fa48454957d840704e38f2568ea85a309d024ea",
+      "input_bytes": 3015,
+      "before_sha256": null,
+      "packaged_sha256": "cd032111dea87ecb390c8dbd2b97e9b5c5e7864709b714e92a49d0663a1cdb91",
+      "packaged_bytes": 2924,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/negatives/N1_wrong_mask.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "97e2daa4166692a0c10d23c52049eb81661f649b70b3c0bf58651a639cbb348e",
+      "input_bytes": 3163,
+      "before_sha256": null,
+      "packaged_sha256": "97e2daa4166692a0c10d23c52049eb81661f649b70b3c0bf58651a639cbb348e",
+      "packaged_bytes": 3163,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/negatives/N2_role_field_claim.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "0a449ba5cc69b62a78d99326cacdd121c2ea224159d2ceb4bd5bc941846b2d20",
+      "input_bytes": 160,
+      "before_sha256": null,
+      "packaged_sha256": "2894842b8dc28fcf21c054110902a7a2117605e07bcf9a70c98803f964bde187",
+      "packaged_bytes": 156,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/negatives/N2_role_field_only.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "4647f82b10ea4d5f690e227d6357141bdd38519aa156057c93d1bafd1d602364",
+      "input_bytes": 2611,
+      "before_sha256": null,
+      "packaged_sha256": "4647f82b10ea4d5f690e227d6357141bdd38519aa156057c93d1bafd1d602364",
+      "packaged_bytes": 2611,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/part_masks.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "1a6b16952e681815b821cf77e9ea4515b8be3edd9616f56764c2a49c2b230ced",
+      "input_bytes": 960,
+      "before_sha256": null,
+      "packaged_sha256": "1a6b16952e681815b821cf77e9ea4515b8be3edd9616f56764c2a49c2b230ced",
+      "packaged_bytes": 960,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/prediction_only.md",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "a345da01034af22f30391419bfea647d22078df2424e75c0a8c33fa35fd34da8",
+      "input_bytes": 476,
+      "before_sha256": null,
+      "packaged_sha256": "d9d591b7d687d4ca2197b417e4f2711eb1a77d2bf8be752d456795c5d3376ceb",
+      "packaged_bytes": 473,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/v1_G0_S0.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "4647f82b10ea4d5f690e227d6357141bdd38519aa156057c93d1bafd1d602364",
+      "input_bytes": 2611,
+      "before_sha256": null,
+      "packaged_sha256": "4647f82b10ea4d5f690e227d6357141bdd38519aa156057c93d1bafd1d602364",
+      "packaged_bytes": 2611,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/v1_G0_S1.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "c11d93df876594c02476e6784cadac0deb67eb77334576340f08506551935f30",
+      "input_bytes": 3194,
+      "before_sha256": null,
+      "packaged_sha256": "c11d93df876594c02476e6784cadac0deb67eb77334576340f08506551935f30",
+      "packaged_bytes": 3194,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/v1_G1_S0.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "777c64b424ebf7dee9925c2accb371201f6c903e63fea1ec2a9e7f993c799317",
+      "input_bytes": 2886,
+      "before_sha256": null,
+      "packaged_sha256": "777c64b424ebf7dee9925c2accb371201f6c903e63fea1ec2a9e7f993c799317",
+      "packaged_bytes": 2886,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/v1_G1_S1.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "6a4c67d9608afa7db6b1b8fb86ba1b9257550c2b82bc4918e2df6c412c1874b3",
+      "input_bytes": 3500,
+      "before_sha256": null,
+      "packaged_sha256": "6a4c67d9608afa7db6b1b8fb86ba1b9257550c2b82bc4918e2df6c412c1874b3",
+      "packaged_bytes": 3500,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/v2_baseline.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "993d0efb821ebc6b60daed6f2ed86233f7d0310e79211cb0c2d2038bfa86856b",
+      "input_bytes": 2314,
+      "before_sha256": null,
+      "packaged_sha256": "993d0efb821ebc6b60daed6f2ed86233f7d0310e79211cb0c2d2038bfa86856b",
+      "packaged_bytes": 2314,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/prototype/outputs/v2_full.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "91bdea7f38c8cde1506e57e0c089e079683b0c3e1c98533b080798a6fb8e3ec0",
+      "input_bytes": 3149,
+      "before_sha256": null,
+      "packaged_sha256": "91bdea7f38c8cde1506e57e0c089e079683b0c3e1c98533b080798a6fb8e3ec0",
+      "packaged_bytes": 3149,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/AnnasXechoes/README.md",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "2f04118d5db376b3f4a58330ec0369e6315ae35b95dca2027e90c9420700e9ad",
+      "input_bytes": 1440,
+      "before_sha256": null,
+      "packaged_sha256": "2f04118d5db376b3f4a58330ec0369e6315ae35b95dca2027e90c9420700e9ad",
+      "packaged_bytes": 1440,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/FRESH-RUN-stdout.txt",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "fc0491156d97034419d5f89f2972860c25236ab17fcee05ff4feca0599b52cc0",
+      "input_bytes": 304,
+      "before_sha256": null,
+      "packaged_sha256": "5f5717e2f05d06650a879c6c745bb06da0944b56ce126e3493cb021e1d701960",
+      "packaged_bytes": 297,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/FRESH-RUN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "14d98a72d8e434caf7289cf4781b29a0449a395e081ef6a9e4a6bfdeae854010",
+      "input_bytes": 3552,
+      "before_sha256": null,
+      "packaged_sha256": "440bd0140b5ca95752fd968de1794eb4fee6c0875adb049439a1ba55153cc4b9",
+      "packaged_bytes": 3443,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/ORIGIN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "b603d2a925ddcfc0f562d4b8f13a4982157f51a400b2d16d8bfbbdc962e86ff6",
+      "input_bytes": 1912,
+      "before_sha256": null,
+      "packaged_sha256": "b603d2a925ddcfc0f562d4b8f13a4982157f51a400b2d16d8bfbbdc962e86ff6",
+      "packaged_bytes": 1912,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/build.py",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "1e96f82ab9a04e176fc8a27d9feb1aa2c7e901cd9672cf04873646e4f56365c0",
+      "input_bytes": 13898,
+      "before_sha256": null,
+      "packaged_sha256": "1e96f82ab9a04e176fc8a27d9feb1aa2c7e901cd9672cf04873646e4f56365c0",
+      "packaged_bytes": 13898,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/config.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "166fb121bf50a80571aef344650c5faa4172c2804d6625f5984e34ac530d1f24",
+      "input_bytes": 3610,
+      "before_sha256": null,
+      "packaged_sha256": "166fb121bf50a80571aef344650c5faa4172c2804d6625f5984e34ac530d1f24",
+      "packaged_bytes": 3610,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C1_no_label.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "f8e5fa3cbe6ca230dc119d6b678b9f319c2c289d27482dee094831dee8daeee5",
+      "input_bytes": 2593,
+      "before_sha256": null,
+      "packaged_sha256": "f8e5fa3cbe6ca230dc119d6b678b9f319c2c289d27482dee094831dee8daeee5",
+      "packaged_bytes": 2593,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C1_no_label.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "2db0ac9374c884dcd8810fd1bf8173f36865f7e47a449e17b2be8f724257b0ba",
+      "input_bytes": 437,
+      "before_sha256": null,
+      "packaged_sha256": "9e6d314899965eca09c002a9603abba65921cd69a34de684b122ec7aa7d7b542",
+      "packaged_bytes": 433,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C2_readable_synthetic.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "9cc3ed8ce7c9bdc3f20a34c0076205010906a4a21d192c4e3d8765e2273f29c9",
+      "input_bytes": 12174,
+      "before_sha256": null,
+      "packaged_sha256": "9cc3ed8ce7c9bdc3f20a34c0076205010906a4a21d192c4e3d8765e2273f29c9",
+      "packaged_bytes": 12174,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C2_readable_synthetic.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "f573d826651145cfa1a788aedb8bbd5faf6da70f2f09505a199c0317deddb8e3",
+      "input_bytes": 1365,
+      "before_sha256": null,
+      "packaged_sha256": "3406f8dd0b6525cad12062a012a79bf2cb39e5edbce56870ca97efc4fb8b6256",
+      "packaged_bytes": 1353,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C3_decorative_marked.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "3ee39a01f022cf2d040093fef2cec5d55be329c4394e376cb0bbce8118e2f52a",
+      "input_bytes": 10651,
+      "before_sha256": null,
+      "packaged_sha256": "3ee39a01f022cf2d040093fef2cec5d55be329c4394e376cb0bbce8118e2f52a",
+      "packaged_bytes": 10651,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C3_decorative_marked.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "3454fd79e56054a23de6016ab20c0694b3960c8caa5b44941915bc122539a9fa",
+      "input_bytes": 1343,
+      "before_sha256": null,
+      "packaged_sha256": "80eea66c06c6171ccd5f1d05a392f946649bb59e37e800101fbd7115b5da2888",
+      "packaged_bytes": 1331,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C4_annotation_removed.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "ed9084a1b58a6a879930eb023bb4556db660dd52e54b2049b060478ddda4fddd",
+      "input_bytes": 7369,
+      "before_sha256": null,
+      "packaged_sha256": "ed9084a1b58a6a879930eb023bb4556db660dd52e54b2049b060478ddda4fddd",
+      "packaged_bytes": 7369,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/C4_annotation_removed.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "f65bf4cfc2ec1f62c1a57be0f1647e356de2af8f74f1ae76d16a81616b13f582",
+      "input_bytes": 1041,
+      "before_sha256": null,
+      "packaged_sha256": "9d42d34ddae3ddf0e99ae1d9300944e40506d785676c6794cd82d87e235b9552",
+      "packaged_bytes": 1031,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/checks.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "55795be5307a8d24637ce94a2f93e099c56d500b59df053803afb6cea33c6118",
+      "input_bytes": 3262,
+      "before_sha256": null,
+      "packaged_sha256": "b40437eae02e3e9e2fff8cd83f1424bf0a6955fedfa22ac5bc463ec4a46920a3",
+      "packaged_bytes": 3107,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/fixture_ledger.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "0f09e485c3993ae1a39dab5330b9e03d6cac93afe9cf416c7c61558ec32a332d",
+      "input_bytes": 762,
+      "before_sha256": null,
+      "packaged_sha256": "4b6cf3af0c67b6a52bc3a519fb1895e8a0fcfa33d907cefe537a2f8e8ecad858",
+      "packaged_bytes": 736,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/negatives/N_tamper_value.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "bc38b248385802f30f1e4d7355648a4cd877d1625f86d2eeaf36fd729236ffde",
+      "input_bytes": 12195,
+      "before_sha256": null,
+      "packaged_sha256": "bc38b248385802f30f1e4d7355648a4cd877d1625f86d2eeaf36fd729236ffde",
+      "packaged_bytes": 12195,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/prototype/outputs/negatives/N_tamper_value.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "0d68423019e214ba175d3fbe58309baca6a01ab745f7d165da25b10638137b1c",
+      "input_bytes": 1449,
+      "before_sha256": null,
+      "packaged_sha256": "f15d9ca27afd983dea2b682192ccc1b04eab872c137060aee6078998ff0ac353",
+      "packaged_bytes": 1437,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/roktim___/README.md",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "6a5060116229a97b9bbd1c1571c3c09b030e45c748e396ce817489dda9f99608",
+      "input_bytes": 1439,
+      "before_sha256": null,
+      "packaged_sha256": "6a5060116229a97b9bbd1c1571c3c09b030e45c748e396ce817489dda9f99608",
+      "packaged_bytes": 1439,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/FRESH-RUN-stdout.txt",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "a3173e3535f6afcd7af3917ac8ae3be716a28f4fb79b97893bc99ca818b882aa",
+      "input_bytes": 363,
+      "before_sha256": null,
+      "packaged_sha256": "f585f0200a65918cc57e2339043a1ec54e93e48e4a9f70758cefc551257fcaf8",
+      "packaged_bytes": 355,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/FRESH-RUN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "8431edf50d15b007aafbf850317be7956afa8de38d5e0646f6b49405d78e3e13",
+      "input_bytes": 4655,
+      "before_sha256": null,
+      "packaged_sha256": "1a7b7b5a88b85660689d3cc37499501b63418c01fb3359536c2885baaf9873cd",
+      "packaged_bytes": 4513,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/GEOMETRY-CHECK.patch",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "f479cf291c197c3e9a97ff950e9fe06b888a09e0d3a74f79fdc83728c1c7e255",
+      "input_bytes": 2818,
+      "before_sha256": null,
+      "packaged_sha256": "f479cf291c197c3e9a97ff950e9fe06b888a09e0d3a74f79fdc83728c1c7e255",
+      "packaged_bytes": 2818,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/GEOMETRY-REPAIR-TEST.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "8c319a497340482c49e57d03583690963d0c100829938072f081a55ab86149c8",
+      "input_bytes": 451,
+      "before_sha256": null,
+      "packaged_sha256": "8c319a497340482c49e57d03583690963d0c100829938072f081a55ab86149c8",
+      "packaged_bytes": 451,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/ORIGIN.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "504d4908fa8bd1d07d4918dcd183e4d51a7c9b18008d156cb30be886662c25e3",
+      "input_bytes": 1938,
+      "before_sha256": null,
+      "packaged_sha256": "504d4908fa8bd1d07d4918dcd183e4d51a7c9b18008d156cb30be886662c25e3",
+      "packaged_bytes": 1938,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/build.py",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "cc3a554f5e119ad93bdc168fa706758d49ae46260898713ce5b4ea49cbf552a7",
+      "input_bytes": 19812,
+      "before_sha256": null,
+      "packaged_sha256": "cc3a554f5e119ad93bdc168fa706758d49ae46260898713ce5b4ea49cbf552a7",
+      "packaged_bytes": 19812,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/config.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "01f3aecc0204dc0ed62ba60f3bdbd72b33fa319af39a235389ebb808f31096d0",
+      "input_bytes": 4571,
+      "before_sha256": null,
+      "packaged_sha256": "01f3aecc0204dc0ed62ba60f3bdbd72b33fa319af39a235389ebb808f31096d0",
+      "packaged_bytes": 4571,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/checks.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "5ae822d0cf28d5f4e09c2c500081b6c98b2700ff1c8117ba402dc764cd5599c4",
+      "input_bytes": 4648,
+      "before_sha256": null,
+      "packaged_sha256": "73bce287eb25944494eba467188b2b268d4b0a0ef242d5a66f95c3b23765989e",
+      "packaged_bytes": 4472,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/dag_design_contract.json",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "82e63e2633ee6f09e4f2bee6bc96c781c6c376ff8f876e10589646a47d631494",
+      "input_bytes": 607,
+      "before_sha256": null,
+      "packaged_sha256": "ceefd6db4e1123f960f89b3f2b2c96a54dcd064c53f52d2f2baf17a2c5742d09",
+      "packaged_bytes": 552,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/flat_base.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "cde91f345b7b0d5503cf253b2549a51f2040d3da090795c58cfbad9cdf073e4c",
+      "input_bytes": 4739,
+      "before_sha256": null,
+      "packaged_sha256": "cde91f345b7b0d5503cf253b2549a51f2040d3da090795c58cfbad9cdf073e4c",
+      "packaged_bytes": 4739,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/flat_base.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "87eeafb0130e0105e4c8827ef176944332f7c42f7dbebd985a5fc8d5cdfd7567",
+      "input_bytes": 3622,
+      "before_sha256": null,
+      "packaged_sha256": "b3395986ebad79c0a8f19f3c5bfe468495e0ec9c0f9ba512aa6ed53e7ebfbe06",
+      "packaged_bytes": 3592,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/negatives/F_bad_VP.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "c70afa55e84e7976153188d27249f819e7b09d8ead2d2a3e321007fd99bafdf0",
+      "input_bytes": 6662,
+      "before_sha256": null,
+      "packaged_sha256": "c70afa55e84e7976153188d27249f819e7b09d8ead2d2a3e321007fd99bafdf0",
+      "packaged_bytes": 6662,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/negatives/F_bad_VP.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "256b4570acbf85e1e902bc806ef82cf2af10b0cc7594b5f69857182ba4754dfe",
+      "input_bytes": 4412,
+      "before_sha256": null,
+      "packaged_sha256": "7919b05949d51d14c5cef53ecb3082265c5a32da973778277b430620b92aa26d",
+      "packaged_bytes": 4376,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/negatives/F_pseudo_edge.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "2eb8b72d4bd77926d9629475ec52a7873c4b5c5c86bb36b5fed967212b15043d",
+      "input_bytes": 7001,
+      "before_sha256": null,
+      "packaged_sha256": "2eb8b72d4bd77926d9629475ec52a7873c4b5c5c86bb36b5fed967212b15043d",
+      "packaged_bytes": 7001,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/negatives/F_pseudo_edge.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "934d07ca051afd7164ddf5a452a53082991c4a176308654e503f6d44ef21f22b",
+      "input_bytes": 4566,
+      "before_sha256": null,
+      "packaged_sha256": "f5922a09437726fbd429b8d2a0b39a4aa9c6906bdec17e1c5a83abc530253f90",
+      "packaged_bytes": 4529,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/negatives/F_wrong_z.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "d7abc3b5b61d5625403248f2770eb6220d1c985c267c9d6075cd0423a3652847",
+      "input_bytes": 6549,
+      "before_sha256": null,
+      "packaged_sha256": "d7abc3b5b61d5625403248f2770eb6220d1c985c267c9d6075cd0423a3652847",
+      "packaged_bytes": 6549,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/negatives/F_wrong_z.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "e813c0ea5a464a85d8de49d50c1b2d764e040ea508f6ee1ab31864549e192a53",
+      "input_bytes": 4413,
+      "before_sha256": null,
+      "packaged_sha256": "dd75d1a7e31125fd7b5b9eaa782c63ee627bdd3466a261562900549a70ac167e",
+      "packaged_bytes": 4377,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_base.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "3e65ef6a85c4b46f8b73d16d3b8e46c554080030d68b824584ab4c3a703ef4fe",
+      "input_bytes": 6550,
+      "before_sha256": null,
+      "packaged_sha256": "3e65ef6a85c4b46f8b73d16d3b8e46c554080030d68b824584ab4c3a703ef4fe",
+      "packaged_bytes": 6550,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_base.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "f07c4ff3b191a9ad84df3664a378827b4716ef2ff9a9eeaadb15740477a40e51",
+      "input_bytes": 4414,
+      "before_sha256": null,
+      "packaged_sha256": "b9d7bc856895c01aa2d948b8c276f25ab74438ebb5f4830a4634d6030c1b11ed",
+      "packaged_bytes": 4378,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_code.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "baaac15ace1c4ea69693a45bd6aab22eb2eff45011faa9dcecdf545b0e8b6db0",
+      "input_bytes": 8443,
+      "before_sha256": null,
+      "packaged_sha256": "baaac15ace1c4ea69693a45bd6aab22eb2eff45011faa9dcecdf545b0e8b6db0",
+      "packaged_bytes": 8443,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_code.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "37c608c8ad4ae7b375c4a111c9e1e7267aa15c9d5f5d4cf322b22713b0816aef",
+      "input_bytes": 5011,
+      "before_sha256": null,
+      "packaged_sha256": "0936dad733adbf66f2a16315f64f46e463093fae483f398984e7188831f78d57",
+      "packaged_bytes": 4970,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_d18.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "604d85da69d80c3c31b4c30bbd5a28fcb51d3fa14db9cc0af9066df95058774b",
+      "input_bytes": 6862,
+      "before_sha256": null,
+      "packaged_sha256": "604d85da69d80c3c31b4c30bbd5a28fcb51d3fa14db9cc0af9066df95058774b",
+      "packaged_bytes": 6862,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_d18.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "a7b8d54d5d13b6c446c1a7333af96996deda97d14618cc24097be206b284d7ef",
+      "input_bytes": 5929,
+      "before_sha256": null,
+      "packaged_sha256": "b9a30af9b254637114e259c23f9811b02468f2aa1535178191f47d5c5aa9cd8d",
+      "packaged_bytes": 5875,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_d40.png",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "794142961b4f9e60fc5e85a80cc7c4402547064b56739cfd60cf5febc6a8ea0b",
+      "input_bytes": 7278,
+      "before_sha256": null,
+      "packaged_sha256": "794142961b4f9e60fc5e85a80cc7c4402547064b56739cfd60cf5febc6a8ea0b",
+      "packaged_bytes": 7278,
+      "transformation": "none"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/prototype/outputs/persp_d40.svg",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "3bda637c8333407bb5617734aca1271249c273a13b79dc7dc7846d0e5f538f01",
+      "input_bytes": 7813,
+      "before_sha256": null,
+      "packaged_sha256": "59a17d8a5cfc85413636534bc0795964323231edfe681caaf7e73eda708dd457",
+      "packaged_bytes": 7737,
+      "transformation": "UTF-8 LF normalization and private-path redaction; original input hash preserved"
+    },
+    {
+      "path": "experiments/designer_seeds/xchylerdrenth/README.md",
+      "input_role": "seed4-windows-run",
+      "input_sha256": "212a406af24c85d447476b2c3f9cd0debdb4b4897c10087882f5462c1d5adfde",
+      "input_bytes": 1688,
+      "before_sha256": null,
+      "packaged_sha256": "212a406af24c85d447476b2c3f9cd0debdb4b4897c10087882f5462c1d5adfde",
+      "packaged_bytes": 1688,
+      "transformation": "none"
+    },
+    {
+      "path": "tools/check_image_rights.py",
+      "input_role": "independently-reviewed-three-state-classification",
+      "input_sha256": "8e32c0d7189946a23667b245bb71ce41364c00887a370cecd81c838ce2b9a099",
+      "input_bytes": 13630,
+      "before_sha256": "b8e7d087edd8516b7dfb9096e67a1a0bd70f03863cfc2b27daa989ca601050e7",
+      "packaged_sha256": "8e32c0d7189946a23667b245bb71ce41364c00887a370cecd81c838ce2b9a099",
+      "packaged_bytes": 13630,
+      "transformation": "none"
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/_images/rights-file-level.json",
+      "input_role": "independently-reviewed-three-state-classification",
+      "input_sha256": "e2378bdec79210e95fbc37e7519a319b94f95e38fd199a0ffe358fe83801a701",
+      "input_bytes": 433068,
+      "before_sha256": "94e05c2bd6b0f4c76a1a8f27380e7e4b13a2cd0bfa61e06aefa24916f2bd8357",
+      "packaged_sha256": "e2378bdec79210e95fbc37e7519a319b94f95e38fd199a0ffe358fe83801a701",
+      "packaged_bytes": 433068,
+      "transformation": "none"
+    },
+    {
+      "path": "NOTICE.md",
+      "input_role": "root-reviewed-document-correction",
+      "before_sha256": "e4505251d37db15285b01006e77a8847f626a3a9a545c4ed7cc0bffeecccf0c3",
+      "packaged_sha256": "39256d36bd9fc63f1913dc0d1d5932be94b8ba2dd5f364a1fc6ed9dc3cfacf55"
+    },
+    {
+      "path": "NOTICE.md",
+      "input_role": "root-reviewed-document-correction",
+      "before_sha256": "39256d36bd9fc63f1913dc0d1d5932be94b8ba2dd5f364a1fc6ed9dc3cfacf55",
+      "packaged_sha256": "4eb0f140fa634583ca414f14ff8b0f6534f1f7fe28f3fdcbb6e8d8bf4283eb01"
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/_images/klimt/MANIFEST.md",
+      "input_role": "root-reviewed-document-correction",
+      "before_sha256": "525865c368d7aaabba7600fa640d3ae5864b07e3cb4a0de5c6f0faf1b63c8ea8",
+      "packaged_sha256": "ce6a95e96a8ef89d3fb087d191b37465328a341080021b2b338a2291d9c9fa4b"
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/_images/klimt/MANIFEST.md",
+      "input_role": "root-reviewed-document-correction",
+      "before_sha256": "ce6a95e96a8ef89d3fb087d191b37465328a341080021b2b338a2291d9c9fa4b",
+      "packaged_sha256": "ad8d3396213f0d295a73a6cd4e1879c4d44c186c92a4cd78658c3064548da1cd"
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/_images/klimt/MANIFEST.md",
+      "input_role": "root-reviewed-document-correction",
+      "before_sha256": "ad8d3396213f0d295a73a6cd4e1879c4d44c186c92a4cd78658c3064548da1cd",
+      "packaged_sha256": "1422279bd7487170c9664fd747e9991f0916d5bfba7e43df54c9128f54d1f7f4"
+    },
+    {
+      "path": "knowledge/domains/painters/dossiers/_images/klimt/MANIFEST.md",
+      "input_role": "root-reviewed-document-correction",
+      "before_sha256": "1422279bd7487170c9664fd747e9991f0916d5bfba7e43df54c9128f54d1f7f4",
+      "packaged_sha256": "cd87331ba755d528306551b55b97a1e7cfa0733effe9b199a144904f21b366fa"
+    },
+    {
+      "path": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+      "before_sha256": "6d62012b7c075985d1400eb740af0d25688a22adff9464e25380d39e46706d73",
+      "packaged_sha256": "eb117665f729adb2e1c6b5ee294a47a3d29b4fc3550319cc9e8f44207e9296bb",
+      "input_role": "seven-package-current-binding"
+    }
+  ]
+}

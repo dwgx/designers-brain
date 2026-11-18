@@ -9,16 +9,16 @@ English · [中文](i18n/zh-CN/WORKFLOW.md) · [日本語](i18n/ja/WORKFLOW.md)
 
 - **Main brain** (the top-level agent session): sets direction, slices work, dispatches, accepts results (reads artifacts + runs acceptance), synthesizes, and maintains `ops/GOALS.md`, this file, and `docs/`.
 - **Research workers** (in-session subagents): write to the **exclusive paths** given in their briefs. Named (`agent://<Name>`); may cross-check each other by message. Sub-sub-agents only when a brief explicitly allows a read-only child.
-- **Cross-harness workers** (`dispatch.ps1` — claude / codex / omp): large, long-running, out-of-process work. Flow: `board.py open` (claim the write path) → brief passes `briefcheck` → dispatch → read `last.md` + verify artifacts → `board.py close --verify`.
+- **Cross-harness workers** (out-of-process, **versioned job directories** — the historical `dispatch.ps1` + `board.py` flow is retired): a brief lands in a versioned job dir; the worker plans → executes → verifies → reports via files (`last.md` + `receipt.json`); every claim carries a path+key or the command that produced it. In-process work uses named subagents (below).
 
 ## 2. Lanes
 
 | Lane | Content | State |
 |---|---|---|
-| **A — Painter distillation** | 62 painter dossiers + quote corpus (1613 sourced quotes) + image library + 62 composable module cards | Core done; second-batch candidates queued |
+| **A — Painter distillation** | 76 painter dossiers + quote corpus (2044 sourced quotes) + image library (739 sourced artworks) + 76 composable module cards (228/228 verbatim checks) | Done |
 | **B — Agent code-art** | 15-card anatomy (MG styles), HTML/Blender pipelines, prompt corpus, GitHub/Opus-5.5 evidence | Done |
 | **C — Cross-harness dispatch** | Slicing + bookkeeping + receipt reconciliation for external workers | All entries closed |
-| **D — Web / browser** | Sources, image library (618 PD works), reference-frame mapping, video archive | Done |
+| **D — Web / browser** | Sources, image library (739 sourced works — 701 PD/CC0 + 38 attribution-required, see `NOTICE.md`), reference-frame mapping, video archive | Done |
 | **S — Skill** | `skills/designers-brain/` package: ecosystem study → spec → build → blind test → walkthrough | Done (PRE milestone) |
 | **E — Experiments** (cross-lane) | Image experiments (E1/E2 series) + end-to-end animation tests (web ×2, Blender ×1) | Batch 1 done; E3/E4 queued |
 
@@ -50,9 +50,8 @@ English · [中文](i18n/zh-CN/WORKFLOW.md) · [日本語](i18n/ja/WORKFLOW.md)
 | `web_search` / `read`(URL) | general retrieval & static fetch |
 | eval `browser` / chrome-devtools MCP | JS-heavy pages, interactions, screenshots |
 | `task` subagents | in-process research fan-out (named, IRC-addressable) |
-| `dispatch.ps1` | cross-harness dispatch (claude / codex / omp) with board + briefcheck gates |
+| versioned job dirs (cross-process) | out-of-process dispatch: brief in → `last.md` + `receipt.json` out (the retired `dispatch.ps1` + `board.py` board flow is history — recorded in `ops/OPS-LOG.md`) |
 | `sessq` / `archive` | historical sessions & old measurements |
-| `board.py` | dispatch bookkeeping (open / close / reconcile) |
 
 ## 7. Reporting shape (to the Owner)
 

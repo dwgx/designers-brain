@@ -142,7 +142,7 @@
 ## §6 dangling 「本卡 §3.1」 指针（brief 强调点 ④，照录 AUDIT §7，不修）
 
 - [velazquez.md](../../modules/velazquez.md) 的「冲突注记」L79/L80/L81/L82 四处写「**本卡 §3.1 分工条款**」（另 L57/L73 引用「§3.1 判据/判分轴」共 6 处提到 §3.1），但**模块卡根本没有 §3.1 节**（headers：视觉指纹 / 图像 prompt / 代码艺术规则 / 控制参数 / 冲突注记 / 来源）。§3.1 分工条款**只存在于 dossier** 的 L74–L81。→ `VL-DRIFT-01`（support_status=conflict），规则文本本身无错，**只有指针悬空**。
-- [velazquez.md](../../modules/velazquez.md) L87 写 `conflicts.md` =「18 条 C + N1–N9 + near-miss **8 对**」，但 `conflicts.md` §4 现有 **11** 条编号 near-miss（L347–L357，#9–#11 于 2026-10-16 补）。→ `VL-DRIFT-02`（conflict）。同 8-vs-11 漂移亦由 AUDIT-durer lane 记录。
+- [velazquez.md](../../modules/velazquez.md) L87 写 `conflicts.md` =「18 条 C + N1–N9 + near-miss **8 对**」，但 `conflicts.md` §4 现有 **11** 条编号 near-miss（L347–L357，#9–#11 于 2026-10-16 补）。→ `VL-DRIFT-02`（2026-11-18 收口核验：module L87 已按 F01 更正为「11 对」，漂移已消除；本行保留为历史登记）（conflict）。同 8-vs-11 漂移亦由 AUDIT-durer lane 记录。
 - C-14 / N1 / N3 的行号引用（velazquez §3.1c L80、§4 注 L99）**能解析**：C-14 §1 行 L45 / 详 L229、N1 L305、N3 L311（AUDIT §7-3）。velazquez 在 conflicts.md §1/§4 的**直接 C/near-miss 行 = 0**（AUDIT §7-4，诚实）。
 - **处置**：本 shard 只在自己的产物里「指向 dossier §3.1 / conflicts.md」并注明「模块卡『本卡 §3.1』为悬空指针，应读作 dossier §3.1」；**不改模块卡、不改 conflicts.md、不改 AUDIT 产物**（repo READ-ONLY，AUDIT 为 ACCEPTED 依赖）。报告，不修复。
 

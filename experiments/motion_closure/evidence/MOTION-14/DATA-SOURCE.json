@@ -1,0 +1,35 @@
+{
+  "publisher": "U.S. Geological Survey, Water Science School",
+  "url": "https://www.usgs.gov/water-science-school/science/how-much-water-there-earth",
+  "page_title": "How Much Water is There on Earth?",
+  "page_date": "2019-11-13",
+  "accessed_date_utc": "2026-11-17",
+  "basis": "Percent of total water column; rounded estimates of water stored, not freshwater-only percentages or usable supply.",
+  "underlying_table_reference": "Igor Shiklomanov, World fresh water resources, in Peter H. Gleick (ed.), Water in Crisis, 1993, Oxford University Press.",
+  "selected_groups": {
+    "ocean": {
+      "category": "Oceans, seas and bays",
+      "percent_total": "96.54"
+    },
+    "glacier": {
+      "category": "Ice caps, glaciers and permanent snow",
+      "percent_total": "1.74"
+    },
+    "ground": {
+      "category": "Groundwater, fresh plus saline",
+      "percent_total": "1.69"
+    },
+    "lake": {
+      "category": "Freshwater lakes plus rivers",
+      "percent_total_approximate": "0.0072",
+      "derived_from_rounded_percentages": [
+        "0.007",
+        "0.0002"
+      ],
+      "derivation": "0.007% + 0.0002% = approximately 0.0072%; sum of already-rounded table percentages, not recalculated from volumes."
+    }
+  },
+  "coverage": "Four selected groups, not the whole distribution. Saline lakes and other table categories are omitted; values are not normalized to 100%.",
+  "rounding": "All source percentages are rounded estimates. Retain two displayed decimals for the first three groups and four for the combined small group, marked approximate.",
+  "interpretation_limit": "Stored water quantity does not measure usable water, accessibility, drinking-water safety or sustainable extraction."
+}

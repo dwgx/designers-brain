@@ -114,7 +114,7 @@
 <a id="db-source-line-103"></a>
 ## §6 known-open 携带（本次点名，不作缺陷关闭）
 
-1. **near-miss 11 行 reality vs L107「8 对」stale**：`conflicts.md` §4 L347-L357 实为 **11 编号行**（#9/#10/#11 带 2026-10-16 补）；模块卡 L107 仍写「near-miss 8 对」（AUDIT R-CF-02 `partial`）。本 shard 作为 **known-open** 携带，不修正、不关闭、不改 repo / AUDIT 文件（repo READ-ONLY；AUDIT 为 ACCEPTED 依赖）。订正属 CONFLICT / MODULE-CARD owner 与 INVENTORY lane（AUDIT unresolved #1 已交出 action）。**对学习路径影响 = 无**：11 行中 0 行涉及 rembrandt，§4/§8.2/分工条款保持 `supported`，练习阶梯不引用 near-miss 数值端点。
+1. **near-miss 11 行 reality vs L107「8 对」stale**：`conflicts.md` §4 L347-L357 实为 **11 编号行**（#9/#10/#11 带 2026-10-16 补）；模块卡 L107 仍写「near-miss 8 对」（AUDIT R-CF-02 `partial`）。本 shard 作为 **known-open** 携带，不修正、不关闭、不改 repo / AUDIT 文件（repo READ-ONLY；AUDIT 为 ACCEPTED 依赖）。订正属 CONFLICT / MODULE-CARD owner 与 INVENTORY lane（AUDIT unresolved #1 已交出 action）。**对学习路径影响 = 无**：11 行中 0 行涉及 rembrandt，§4/§8.2/分工条款保持 `supported`，练习阶梯不引用 near-miss 数值端点。（**2026-11-18 收口核验**：模块卡 L107 已于 2026-11-16 F01 更正为「11 对」——本 known-open 已解决；本段保留为当时记录。）
 2. **另两处同属 known-open 的漂移**：INDEX L31 `17|12|3|6` vs corpus 实测 11/2/5（#11 双标，AUDIT R-CF-03）；dossier §9 [R22] L301「4 文件」vs 清单、内部台账与文件系统记录均为 6 文件。均 `partial`、报告不修，本 shard 不处理。
 3. **反例未决**：§4 P1 强档 × 《夜巡》黑衣队长的具体反例为 AUDIT RESULT §7 已接受的 `[inference]`；原作像素级真值 `unverified`，判别动作属 **A-12 组合实验 lane**（dossier §10 L320 / §8.2 L265）。本 shard 不跑像素测量、不升级为已推翻。
 4. **RF 边界**：RF1-RF4 为 accepted basis，只提供外部文本定性佐证；不把「文本命中」升级为「原作像素真值」，不把 CC-4 单源升级为定论。

@@ -1,0 +1,2 @@
+REPO\examples\ui\ui-03\fixture\run_visual.py:73: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  changed = sum(any(channel != 0 for channel in pixel) for pixel in difference.getdata())

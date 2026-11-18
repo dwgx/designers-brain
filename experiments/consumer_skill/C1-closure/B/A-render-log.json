@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-17T23:00:03.275055+00:00",
+  "renderer": "PyMuPDF/MuPDF",
+  "version": "1.26.6",
+  "source": "AUDIT_C1/consumer/A/02-three-value-sketch.svg",
+  "output": "AUDIT_C1/consumer/B/A-render.png",
+  "size": [
+    960,
+    640
+  ],
+  "pixels_viewed": false,
+  "cairosvg_default_and_primary_runtime": "unavailable; no file written by failed imports"
+}

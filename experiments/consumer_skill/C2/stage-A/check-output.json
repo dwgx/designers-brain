@@ -1,0 +1,91 @@
+{
+  "checker": "A/check_layout.py (Stage A unaided local structural checker)",
+  "case_id": "C2",
+  "attempt_id": "P4R-C2-20261117T123432",
+  "observed_at_utc": "2026-11-17T12:39:32.193458+00:00",
+  "scope": "STRUCTURAL/DECLARED only. No rendering, no perceptual or human measurement, no image channel.",
+  "inputs": {
+    "layout.json": {
+      "sha256": "a63161154c1bd631a1b77268ac13afb1949572b2e7f00e1e57a39400a7230f52",
+      "bytes": 3328
+    },
+    "layout.html": {
+      "sha256": "fe9f83c85435619a4bd1596dce755d7ed811aa520472cff8ec65fbd6ae2af5e0",
+      "bytes": 4022
+    }
+  },
+  "checks": [
+    {
+      "check": "flicker_zero_elements",
+      "pass": true,
+      "detail": "flashing=0 animated=0 max_hz=0"
+    },
+    {
+      "check": "flicker_max_hz_le_3",
+      "pass": true,
+      "detail": "max_frequency_hz=0 (<=3)"
+    },
+    {
+      "check": "html_has_no_banned_temporal_tokens",
+      "pass": true,
+      "detail": "banned tokens found in HTML: none"
+    },
+    {
+      "check": "html_has_no_script",
+      "pass": true,
+      "detail": "script tag present: False"
+    },
+    {
+      "check": "salience_formula_matches_declared",
+      "pass": true,
+      "detail": "computed={'S1': 1.0, 'S2': 0.69, 'S3': 0.45} declared={'S1': 1.0, 'S2': 0.69, 'S3': 0.45}"
+    },
+    {
+      "check": "top_salience_slot_is_S1",
+      "pass": true,
+      "detail": "top slot=S1 (salience=1.0)"
+    },
+    {
+      "check": "role_based_top_role_is_data",
+      "pass": true,
+      "detail": "role_based S1 role=readable_data_value"
+    },
+    {
+      "check": "pure_style_top_role_is_decoration",
+      "pass": true,
+      "detail": "pure_style S1 role=illustrative_decoration"
+    },
+    {
+      "check": "variants_differ_only_in_binding",
+      "pass": true,
+      "detail": "binding A={'S1': 'readable_data_value', 'S2': 'illustrative_decoration', 'S3': 'no_label_baseline'} binding B={'S1': 'illustrative_decoration', 'S2': 'readable_data_value', 'S3': 'no_label_baseline'}"
+    },
+    {
+      "check": "style_layer_declared_constant",
+      "pass": true,
+      "detail": "single shared style_layer_held_constant block present (one vocabulary for both variants)"
+    },
+    {
+      "check": "anchor_present_twice_in_html",
+      "pass": true,
+      "detail": "end_copy 'TIDE 4.2 m — RISING' occurrences=2"
+    },
+    {
+      "check": "slot_class_present_s1",
+      "pass": true,
+      "detail": "class 's1' count=2"
+    },
+    {
+      "check": "slot_class_present_s2",
+      "pass": true,
+      "detail": "class 's2' count=2"
+    },
+    {
+      "check": "slot_class_present_s3",
+      "pass": true,
+      "detail": "class 's3' count=2"
+    }
+  ],
+  "all_pass": true,
+  "summary": "role-based variant PASSes the top-salience-role check; the pure-style counter-example FAILs it under an identical style vocabulary. This is a mechanical contrast that can refute a 'pure style' account at the level of declared salience ownership; it is NOT a human reading test and NOT an image comparison. Flicker count = 0 (<=3 Hz)."
+}

@@ -85,7 +85,7 @@ sources ──▶ dossiers ──▶ modules / cards ──▶ skill (pointers o
 - **分发**：插件清单（`.claude-plugin/plugin.json`、`.codex-plugin/plugin.json`、`.agents/plugins/marketplace.json`）。
 - **交互协议**（全文在 skill 中）：第一个动作是**首问包**（业务 / 受众 / 素材 / 风格意图 / 替换轴——3+2 填空，默认项明确说出）；对话不超过 3 轮；视觉决策必须有*可见*候选，展示后即停；`design-brief.md` gate 文件记录意图、假设与批准范围。
 - **替换语义**：换内容（保留骨架）/ 换风格（保留内容）/ 调节强度——每种模式都有明确的锁定区段。
-- **输出形态**：图像提示词（通道：`grok-imagine-image-2.0` 网关直连；无负向通道；768×1152）、10 秒网页动画任务书（确定性契约 C1–C10 + 乱序重渲检查）、Blender 任务书（C9 + P1 确定性说明）。
+- **输出形态**：图像提示词（历史通道：`grok-imagine-image-2.0` 网关直连，无负向提示参数，768×1152；当前可用性未验证——先探测）、10 秒网页动画任务书（确定性契约 C1–C10 + 乱序重渲检查）、Blender 任务书（C9 + P1 确定性说明）。
 
 ## 5. 实验
 
@@ -120,5 +120,5 @@ sources ──▶ dossiers ──▶ modules / cards ──▶ skill (pointers o
 ## 9. 非目标
 
 - 不是模型训练项目（不做微调、不做 LoRA 训练——蒸馏知识停留在提示词/代码层面）。
-- 不二次分发第三方媒体（视频、参考片均不收录；见 `.gitignore` 与 `NOTICE.md`）。
+- 不二次分发**未获许可的**第三方媒体（视频、参考片均不收录；见 `.gitignore` 与 `NOTICE.md`）。已随库分发的博物馆图像集（739 件）按逐文件记录的开放许可条款提供——见 `NOTICE.md` 与 `_images/` 清单。
 - 没有证据分级就没有论断；没有可运行的检查就没有「完成」。

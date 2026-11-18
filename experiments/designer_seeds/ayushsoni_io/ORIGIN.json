@@ -1,0 +1,50 @@
+{
+  "schema": "seed-prototype-origin-1.0",
+  "seed": "ayushsoni_io",
+  "evidence_level": "E1",
+  "implementation_is_researcher_authored": true,
+  "sources": [
+    {
+      "original_logical_path": "SEED-EXPERIMENT-ayushsoni_io/prototype-s12/build.py",
+      "packaged_path": "prototype/build.py",
+      "sha256": "7ee7e09b95f6046f026864ae91dd03ea7aa5473ba2114a58abe3e1f82a2e6e54",
+      "unchanged": true,
+      "packaged_sha256": "7ee7e09b95f6046f026864ae91dd03ea7aa5473ba2114a58abe3e1f82a2e6e54"
+    },
+    {
+      "original_logical_path": "SEED-EXPERIMENT-ayushsoni_io/prototype-s12/config.json",
+      "packaged_path": "prototype/config.json",
+      "sha256": "0940e60cfe8cae25233742551e6ca8cb09600a9510e6ff355f9c7eeca9e50d9b",
+      "unchanged": true,
+      "packaged_sha256": "0940e60cfe8cae25233742551e6ca8cb09600a9510e6ff355f9c7eeca9e50d9b"
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-ayushsoni_io/prototype-s12/receipt.json",
+      "sha256": "5f21c69e367f8f832ad62be8b685587e0f29c40be5b4f0ad4a1f8cddf20e76b3",
+      "bytes": 18605,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-ayushsoni_io/prototype-s12/review-evidence-s12.md",
+      "sha256": "d285ae83b09204c8b2328407523cb775c5ae54f184036758ffc5dcd135e1a32e",
+      "bytes": 8633,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-ayushsoni_io/review-evidence.md",
+      "sha256": "d70c5c015d32ab9268dbce222b326b8259743164cb035d41d1bf0ce06cf065f7",
+      "bytes": 4407,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-ayushsoni_io/review-gate-receipt.json",
+      "sha256": "93bdd7cb4abca5b113ecfe4f7270e74e1497e8bd544c066cdfa74dcf83ededd1",
+      "bytes": 5098,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    }
+  ]
+}

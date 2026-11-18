@@ -1,0 +1,179 @@
+{
+  "base_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "base_tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "files": [
+    {
+      "canonical_lf_sha256": "868b628994fc694e1f83d9cc7fb50f5d18a933235ecc1008f0c03f5ac7a36321",
+      "git_blob_sha256": "868b628994fc694e1f83d9cc7fb50f5d18a933235ecc1008f0c03f5ac7a36321",
+      "original_working_endings": "LF",
+      "original_working_sha256": "868b628994fc694e1f83d9cc7fb50f5d18a933235ecc1008f0c03f5ac7a36321",
+      "path": "experiments/motion_closure/README.md"
+    },
+    {
+      "canonical_lf_sha256": "12f9d7dedeaa2a0ec4a1d9642b34e9e1d5d7d0339b583cc065cb832127a69866",
+      "git_blob_sha256": "12f9d7dedeaa2a0ec4a1d9642b34e9e1d5d7d0339b583cc065cb832127a69866",
+      "original_working_endings": "CRLF",
+      "original_working_sha256": "25142a0391ec54b791f2420b4829dbe1a1c70409e740ecbfd17c57ac495ced32",
+      "path": "experiments/motion_closure/manifest.json"
+    },
+    {
+      "canonical_lf_sha256": "97e653e5e04bfa909fdac598bf2d0ce7cfd19037482c6ad97415991e4998d9bc",
+      "git_blob_sha256": "97e653e5e04bfa909fdac598bf2d0ce7cfd19037482c6ad97415991e4998d9bc",
+      "original_working_endings": "LF",
+      "original_working_sha256": "97e653e5e04bfa909fdac598bf2d0ce7cfd19037482c6ad97415991e4998d9bc",
+      "path": "experiments/motion_closure/provenance.json"
+    },
+    {
+      "canonical_lf_sha256": "deb103ed4f0e60dcf7fce3d7849ccd48dc1b0f26af3827bbaff094e200ed54e0",
+      "git_blob_sha256": "deb103ed4f0e60dcf7fce3d7849ccd48dc1b0f26af3827bbaff094e200ed54e0",
+      "original_working_endings": "LF",
+      "original_working_sha256": "deb103ed4f0e60dcf7fce3d7849ccd48dc1b0f26af3827bbaff094e200ed54e0",
+      "path": "experiments/motion_closure/tools/build_manifest.py"
+    },
+    {
+      "canonical_lf_sha256": "b1ac42ae2ed0af0b41420b797a857208d9271fd031fe7fc6808d547937123c82",
+      "git_blob_sha256": "b1ac42ae2ed0af0b41420b797a857208d9271fd031fe7fc6808d547937123c82",
+      "original_working_endings": "LF",
+      "original_working_sha256": "b1ac42ae2ed0af0b41420b797a857208d9271fd031fe7fc6808d547937123c82",
+      "path": "experiments/motion_closure/tools/check_determinism.py"
+    },
+    {
+      "canonical_lf_sha256": "3fdb26e94e87a0af08c2cfac25b0475dfaabefcd6d2c83b4b7ee7089589c0585",
+      "git_blob_sha256": "3fdb26e94e87a0af08c2cfac25b0475dfaabefcd6d2c83b4b7ee7089589c0585",
+      "original_working_endings": "LF",
+      "original_working_sha256": "3fdb26e94e87a0af08c2cfac25b0475dfaabefcd6d2c83b4b7ee7089589c0585",
+      "path": "experiments/motion_closure/tools/encode_frames.py"
+    },
+    {
+      "canonical_lf_sha256": "0d31631abecd2a8cf1f77a8a70be2c6878b80c69d861895d801c9071cc4ab3ff",
+      "git_blob_sha256": "0d31631abecd2a8cf1f77a8a70be2c6878b80c69d861895d801c9071cc4ab3ff",
+      "original_working_endings": "LF",
+      "original_working_sha256": "0d31631abecd2a8cf1f77a8a70be2c6878b80c69d861895d801c9071cc4ab3ff",
+      "path": "experiments/motion_closure/tools/fresh_decode.py"
+    },
+    {
+      "canonical_lf_sha256": "d66e3dfbbedefa59fec9eeb4c2b4952f12cf37867fc9b28261eec36ab18c4bea",
+      "git_blob_sha256": "d66e3dfbbedefa59fec9eeb4c2b4952f12cf37867fc9b28261eec36ab18c4bea",
+      "original_working_endings": "LF",
+      "original_working_sha256": "d66e3dfbbedefa59fec9eeb4c2b4952f12cf37867fc9b28261eec36ab18c4bea",
+      "path": "experiments/motion_closure/tools/make_card_readmes.py"
+    },
+    {
+      "canonical_lf_sha256": "361751b99c86cc5655a3ea7889795275f9790af6581945674d94eda1caf4e97a",
+      "git_blob_sha256": "361751b99c86cc5655a3ea7889795275f9790af6581945674d94eda1caf4e97a",
+      "original_working_endings": "LF",
+      "original_working_sha256": "361751b99c86cc5655a3ea7889795275f9790af6581945674d94eda1caf4e97a",
+      "path": "experiments/motion_closure/tools/make_contact_sheet.py"
+    },
+    {
+      "canonical_lf_sha256": "57b2ce5e42174d8cdf407265d7b1b8a807e06112dcc6bee78d030306f3a2d02d",
+      "git_blob_sha256": "57b2ce5e42174d8cdf407265d7b1b8a807e06112dcc6bee78d030306f3a2d02d",
+      "original_working_endings": "LF",
+      "original_working_sha256": "57b2ce5e42174d8cdf407265d7b1b8a807e06112dcc6bee78d030306f3a2d02d",
+      "path": "experiments/motion_closure/tools/make_gallery.py"
+    },
+    {
+      "canonical_lf_sha256": "7acf26daf0ffa18a7b4f7fefce6b8e01b3049e2e3498f2517a9dbe52f7e1f64c",
+      "git_blob_sha256": "7acf26daf0ffa18a7b4f7fefce6b8e01b3049e2e3498f2517a9dbe52f7e1f64c",
+      "original_working_endings": "LF",
+      "original_working_sha256": "7acf26daf0ffa18a7b4f7fefce6b8e01b3049e2e3498f2517a9dbe52f7e1f64c",
+      "path": "experiments/motion_closure/tools/native_scale_render.py"
+    },
+    {
+      "canonical_lf_sha256": "581b72b8afb4e37137f6afcb5506ac89f5aacac251d6331a48287a77503f3962",
+      "git_blob_sha256": "581b72b8afb4e37137f6afcb5506ac89f5aacac251d6331a48287a77503f3962",
+      "original_working_endings": "LF",
+      "original_working_sha256": "581b72b8afb4e37137f6afcb5506ac89f5aacac251d6331a48287a77503f3962",
+      "path": "experiments/motion_closure/verify_all.py"
+    }
+  ],
+  "normalization": "Only CRLF-to-LF is recognized; original working SHA and exact e0 Git blob/canonical LF SHA are bound separately. Arbitrary whitespace, BOM, mixed-ending or content changes are not accepted.",
+  "schema": "motion-baseline-text-guard@2.0.0",
+  "snapshot": "analysis/local-snapshot/motion-public-e0.json",
+  "source_files": [
+    {
+      "canonical_lf_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+      "git_blob_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+      "original_working_endings": "LF",
+      "original_working_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+      "path": "experiments/motion_closure/sources/MOTION-02/render.mjs"
+    },
+    {
+      "canonical_lf_sha256": "d6493df994d176ccc2c60c321cabc273047ef4e6564360313ad6029216138289",
+      "git_blob_sha256": "d6493df994d176ccc2c60c321cabc273047ef4e6564360313ad6029216138289",
+      "original_working_endings": "LF",
+      "original_working_sha256": "d6493df994d176ccc2c60c321cabc273047ef4e6564360313ad6029216138289",
+      "path": "experiments/motion_closure/sources/MOTION-03/render.py"
+    },
+    {
+      "canonical_lf_sha256": "ad87c3a756f85cc8dfdf2ba3affee5224c039bb276903a97b53511d9b7fb154e",
+      "git_blob_sha256": "ad87c3a756f85cc8dfdf2ba3affee5224c039bb276903a97b53511d9b7fb154e",
+      "original_working_endings": "LF",
+      "original_working_sha256": "ad87c3a756f85cc8dfdf2ba3affee5224c039bb276903a97b53511d9b7fb154e",
+      "path": "experiments/motion_closure/sources/MOTION-04/render.js"
+    },
+    {
+      "canonical_lf_sha256": "2706ae15ee60f0488e81dac9257dbcd3db016b8e53b7658341fed4ae0bd5f53e",
+      "git_blob_sha256": "2706ae15ee60f0488e81dac9257dbcd3db016b8e53b7658341fed4ae0bd5f53e",
+      "original_working_endings": "LF",
+      "original_working_sha256": "2706ae15ee60f0488e81dac9257dbcd3db016b8e53b7658341fed4ae0bd5f53e",
+      "path": "experiments/motion_closure/sources/MOTION-05/render.js"
+    },
+    {
+      "canonical_lf_sha256": "e8a4c1dc91523382a0eec6374f28b2fd611d931bfecaae4563c21be282fb03ca",
+      "git_blob_sha256": "e8a4c1dc91523382a0eec6374f28b2fd611d931bfecaae4563c21be282fb03ca",
+      "original_working_endings": "LF",
+      "original_working_sha256": "e8a4c1dc91523382a0eec6374f28b2fd611d931bfecaae4563c21be282fb03ca",
+      "path": "experiments/motion_closure/sources/MOTION-06/render.js"
+    },
+    {
+      "canonical_lf_sha256": "7f43ffef07f2d3d29335d82b5789978b4522d90d80fec478239c40ff8e1c4077",
+      "git_blob_sha256": "7f43ffef07f2d3d29335d82b5789978b4522d90d80fec478239c40ff8e1c4077",
+      "original_working_endings": "LF",
+      "original_working_sha256": "7f43ffef07f2d3d29335d82b5789978b4522d90d80fec478239c40ff8e1c4077",
+      "path": "experiments/motion_closure/sources/MOTION-07/render.js"
+    },
+    {
+      "canonical_lf_sha256": "8c4d4a07ac77d4b1dc6fc5cbaf2dcca2d9cb19e546cf2ddbeeb063d2f247eb8b",
+      "git_blob_sha256": "8c4d4a07ac77d4b1dc6fc5cbaf2dcca2d9cb19e546cf2ddbeeb063d2f247eb8b",
+      "original_working_endings": "LF",
+      "original_working_sha256": "8c4d4a07ac77d4b1dc6fc5cbaf2dcca2d9cb19e546cf2ddbeeb063d2f247eb8b",
+      "path": "experiments/motion_closure/sources/MOTION-09/render.js"
+    },
+    {
+      "canonical_lf_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+      "git_blob_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+      "original_working_endings": "LF",
+      "original_working_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+      "path": "experiments/motion_closure/sources/MOTION-10/render.js"
+    },
+    {
+      "canonical_lf_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+      "git_blob_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+      "original_working_endings": "LF",
+      "original_working_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+      "path": "experiments/motion_closure/sources/MOTION-12/render.py"
+    },
+    {
+      "canonical_lf_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+      "git_blob_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+      "original_working_endings": "LF",
+      "original_working_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+      "path": "experiments/motion_closure/sources/MOTION-13/render.js"
+    },
+    {
+      "canonical_lf_sha256": "88a26cf3a72ab47359ee22b1c06596dfbec0ec197a1630a8165959dbacf58d27",
+      "git_blob_sha256": "88a26cf3a72ab47359ee22b1c06596dfbec0ec197a1630a8165959dbacf58d27",
+      "original_working_endings": "LF",
+      "original_working_sha256": "88a26cf3a72ab47359ee22b1c06596dfbec0ec197a1630a8165959dbacf58d27",
+      "path": "experiments/motion_closure/sources/MOTION-14/render.py"
+    },
+    {
+      "canonical_lf_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+      "git_blob_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+      "original_working_endings": "LF",
+      "original_working_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+      "path": "experiments/motion_closure/sources/MOTION-15/render.py"
+    }
+  ]
+}

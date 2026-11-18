@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-PROTOTYPE-openprest-REVIEW",
+  "kind": "independent_review_runner",
+  "dedup_key": "DB-20261115:SEED-PROTOTYPE-openprest-REVIEW:runner",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "author_actor_id": "ReviewGateSeedProto",
+  "reviewed_task_id": "SEED-EXPERIMENT-openprest/prototype",
+  "independent_from_author": true,
+  "execution_kind": "leaf_work_item",
+  "spawns_allowed": false,
+  "r2_refresh": {
+    "marker": "r2",
+    "refreshed_at": "2026-11-15T16:18:38Z",
+    "refreshed_by": "ReviewGateSeedProto",
+    "supersedes": "review-gate-runner-receipt.r1.bak.json"
+  },
+  "input_hashes": [
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype (dir manifest, 47 non-gate files, recipe '<relpath>  <sha256>' sorted-by-path LF-joined, review-gate-* excluded)", "sha256": "557dc185caac5d7d5c1eff50f24a9998624c61a7422a4ecada72965425bd1196" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/receipt.json", "sha256": "3d4f976822ee851aa4fa06eafe11846c68aeccd11d769cd32e551f98960ee1ad" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/runner_receipt.json", "sha256": "22b68b5cd789e36114a749e2b600d3141e35aee34d72503c960c57e586d8b228" }
+  ],
+  "commands": [
+    "r1 session (2026-11-15T13:58-14:27Z, see review-gate-runner-receipt.r1.bak.json): manifest recompute 44 files d14462e6… MATCH; build.py fresh rerun byte-identical 18/18; primitives_s1 recompute 35 A=18 H=17; bad-grid detected out_of_grid=35 unregistered=35; small_size_limitation cell_px=4; font mentions all negations; promotion/active grep all negations",
+    "r2: sha256(receipt.json) recomputed from bytes -> 3d4f976822ee851aa4fa06eafe11846c68aeccd11d769cd32e551f98960ee1ad == SeedDepsRevisit closure value == verify-receipt.out FINAL-RECEIPT-SHA256 (MATCH)",
+    "r2: python -X utf8 <PKG>/tools/verify-receipt.py receipt.json --schema receipt.schema.json --workspace-root <RUN_ROOT> -> {ok:true,status:submitted,errors:[]} exit 0; tool sha256 00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0 recomputed",
+    "r2: receipt.json internals re-validated on current bytes -> artifacts 25/25 MATCH, input_hashes 4/4 MATCH (config.json, build.py, staging/METRIC-PILOT/fixtures/metrics.py, parent state.md), claim source_refs 3/3 MATCH (outputs/checks.json, run_evidence.json, rerun_20261115/checks.json)",
+    "r2: refreshed dependency hashes recomputed from bytes -> runner_receipt.json 22b68b5c…, RESULT.md d4155eef…, README.md 3e0e8182…, run_evidence.json 689f628d…, config.json c30619cf…, build.py 37ccd7d8… (all changed by calibrated closure vs r1), S11B-CALIBRATION.md 1660f3c0… new",
+    "r2: non-gate dir manifest recompute (n=47, review-gate-* excluded) -> 557dc185… (stable binding across gate-file refreshes)",
+    "r2: parent state.md sha256 -> 3586aea09bee9f4491992469d5584b630f3c60c428fa9923f69cf5bf9f527c91 == expected 3586aea0 (MATCH; E2/E3/active untouched)",
+    "r2: S11B-CALIBRATION.md read + calibration check -> outputs/checks.json C4_small_size_render_recorded note reads 'connectivity/counter (enclosed-hole) topology and readability NOT measured … unmeasured / pending_human'; bounded-language scan over receipt claims: no promotion/spectrum/validated-reproduction/combined-pass language"
+  ],
+  "cwd": "SOURCE@designers-brain (read-only source repo) read-only @ f008952365a77e140cbda3f3959d43ef000f9a22; reviewer writes confined to staging/SEED-EXPERIMENT-openprest/prototype/review-gate-* files only",
+  "started_at": "2026-11-15T16:05:00Z",
+  "ended_at": "2026-11-15T16:19:00Z",
+  "exit_code": 0,
+  "receipt_path": "staging/SEED-EXPERIMENT-openprest/prototype/review-gate-runner-receipt.json",
+  "limitations": [
+    "r2 does NOT re-run build.py or the supervisor's pixel-topology reads; r1 evidence stands for the 14 byte-identical outputs, and the calibrated closure itself re-ran the two deterministic fixture generations 18/18 byte-identical (author-recorded, S11B-CALIBRATION.md §3).",
+    "Small-size connectivity/counter topology and readability remain UNMEASURED / pending_human — out of gate scope, not a defect."
+  ],
+  "review": null,
+  "human_review": { "status": "not_applicable", "actual_reviewer": null, "record_path": null },
+  "timestamp": "2026-11-15T16:19:00Z"
+}

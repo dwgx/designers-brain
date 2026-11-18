@@ -1,0 +1,600 @@
+{
+  "scope": "finite text/arithmetic/provenance/apply-guard checks; no E4, no human, no live writes",
+  "ok": true,
+  "checks": [
+    {
+      "id": "task_composition",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "historical_107_hashes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "public_claim_receipts_15",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "original_body_projection_headers_47",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:experiments/design.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/cross/conflicts.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/learning/durer/learning_path.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/learning/sargent/claim_evidence_map.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/modules/README.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/goya/capability_delta.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/goya/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/hogarth/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/hopper/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/ogata_korin/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/okeeffe/counterexamples.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/okeeffe/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/piero_della_francesca/capability_delta.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/piero_della_francesca/counterexamples.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:knowledge/domains/painters/style_candidates/piero_della_francesca/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "payload_hash:templates/style_card.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "N1_four_exact_normative_copies",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "C02_short_side_math",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "C04_no_directionA_gate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "Korin_disjoint_color_sum",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "Hogarth_series_not_counted",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "Hopper_one_not_over_three",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "Piero_parallel_boundary",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "Goya_partial_scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "Durer_units",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "Sargent_actual_status_counts",
+      "ok": true,
+      "detail": {
+        "supported": 39,
+        "partial": 9,
+        "not_applicable": 5
+      }
+    },
+    {
+      "id": "Sargent_representative_not_one_to_one",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "guard_dry_run",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "guard_rejects_drift_before_any_write",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/cross/conflicts.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/learning/durer/learning_path.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/learning/sargent/claim_evidence_map.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/modules/README.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/goya/capability_delta.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/goya/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/hogarth/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/hopper/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/ogata_korin/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/okeeffe/counterexamples.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/okeeffe/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/piero_della_francesca/capability_delta.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/piero_della_francesca/counterexamples.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:knowledge/domains/painters/style_candidates/piero_della_francesca/style_only_draft.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "no_other_file_written_on_reject:templates/style_card.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "guard_apply",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "all_after_hashes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "id": "guard_idempotent",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "REVIEW_PACKAGE/apply_guarded.py",
+        "--target",
+        "<temporary-checkout>"
+      ],
+      "exit": 0,
+      "result": {
+        "ok": true,
+        "mode": "dry_run",
+        "writes": 0,
+        "ready": 16,
+        "statuses": [
+          {
+            "path": "experiments/design.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/cross/conflicts.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/durer/learning_path.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/sargent/claim_evidence_map.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/modules/README.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/capability_delta.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hogarth/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hopper/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/ogata_korin/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/counterexamples.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/capability_delta.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/counterexamples.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "templates/style_card.md",
+            "status": "ready"
+          }
+        ]
+      }
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "REVIEW_PACKAGE/apply_guarded.py",
+        "--target",
+        "<temporary-checkout>",
+        "--apply"
+      ],
+      "exit": 2,
+      "result": {
+        "ok": false,
+        "writes": 0,
+        "errors": [
+          {
+            "path": "experiments/design.md",
+            "reason": "source changed; manually rebase this bounded delta",
+            "expected": "b247fb83e386a6c3e3e2f8648dec12814dc02ab5a79cd4fbf68cad7f425a9991",
+            "actual": "0690ac95aef8386810afcedfb4ae46ea274ee4cdcfc749d6b73a688cc0d44084"
+          }
+        ],
+        "statuses": [
+          {
+            "path": "knowledge/cross/conflicts.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/durer/learning_path.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/sargent/claim_evidence_map.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/modules/README.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/capability_delta.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hogarth/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hopper/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/ogata_korin/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/counterexamples.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/capability_delta.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/counterexamples.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "templates/style_card.md",
+            "status": "ready"
+          }
+        ]
+      }
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "REVIEW_PACKAGE/apply_guarded.py",
+        "--target",
+        "<temporary-checkout>",
+        "--apply"
+      ],
+      "exit": 0,
+      "result": {
+        "ok": true,
+        "mode": "apply",
+        "writes": 16,
+        "ready": 16,
+        "statuses": [
+          {
+            "path": "experiments/design.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/cross/conflicts.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/durer/learning_path.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/sargent/claim_evidence_map.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/modules/README.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/capability_delta.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hogarth/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hopper/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/ogata_korin/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/counterexamples.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/capability_delta.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/counterexamples.md",
+            "status": "ready"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/style_only_draft.md",
+            "status": "ready"
+          },
+          {
+            "path": "templates/style_card.md",
+            "status": "ready"
+          }
+        ]
+      }
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "REVIEW_PACKAGE/apply_guarded.py",
+        "--target",
+        "<temporary-checkout>",
+        "--apply"
+      ],
+      "exit": 0,
+      "result": {
+        "ok": true,
+        "mode": "apply",
+        "writes": 0,
+        "ready": 0,
+        "statuses": [
+          {
+            "path": "experiments/design.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/cross/conflicts.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/durer/learning_path.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/learning/sargent/claim_evidence_map.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/modules/README.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/capability_delta.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/goya/style_only_draft.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hogarth/style_only_draft.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/hopper/style_only_draft.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/ogata_korin/style_only_draft.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/counterexamples.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/okeeffe/style_only_draft.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/capability_delta.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/counterexamples.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "knowledge/domains/painters/style_candidates/piero_della_francesca/style_only_draft.md",
+            "status": "already_exact_target"
+          },
+          {
+            "path": "templates/style_card.md",
+            "status": "already_exact_target"
+          }
+        ]
+      }
+    }
+  ]
+}

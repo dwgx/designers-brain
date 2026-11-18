@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "status": "submitted",
+  "errors": [],
+  "scope": "schema, declared actor separation, cross-references and local bytes; independent source/runner/human verification still required"
+}
+
+EXIT_CODE=0
+FINAL-RECEIPT-SHA256=3d4f976822ee851aa4fa06eafe11846c68aeccd11d769cd32e551f98960ee1ad

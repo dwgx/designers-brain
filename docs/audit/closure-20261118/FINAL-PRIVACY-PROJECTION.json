@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-11-17T23:30:12.980635+00:00",
+  "scope": "Additional public-path redaction only; raw originals retained privately, original failures preserved.",
+  "changes": [
+    {
+      "path": "docs/audit/closure-20261118/runtime/foundation-final-run/rights-conditional-to-false.stderr.txt",
+      "prior_public_sha256": "7308c9e63e8010b743196cfcffe4a88f0916042bccbf23b353586c9117cea96b",
+      "public_sha256": "8c01283fd09a8853c65ed71a7fbe166f663b0a653710cdd9978a733cfab3b9e9",
+      "transformation": "Private interpreter install prefix replaced with PYTHON_RUNTIME; exception and all diagnostic semantics preserved."
+    },
+    {
+      "path": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+      "prior_public_sha256": "43979785c1c3b9fa8261905fde2be2b53e05fa0d2b57cffd6c7864d7943dde84",
+      "public_sha256": "145210fc0c2673f4b178c2434b7b1e6ebc80e5106ed8cf2c38275fa19001b10b",
+      "transformation": "Matching redaction inside diagnostic tail and current public stderr SHA rebound; original raw hash fields retained."
+    },
+    {
+      "path": "docs/audit/current19/verification.json",
+      "prior_public_sha256": "c27eb3a3d2e6003aaa2738389296a7500bd760c98ab08416f715ecb7814acf0a",
+      "public_sha256": "1c7d8e08bca64fd8dde5678888294477c6d838000ab04796cfa8ebc981bba714",
+      "transformation": "Private local review-package prefix replaced by logical REVIEW_PACKAGE; original check outcomes retained."
+    }
+  ],
+  "current19_references_rebound": 0
+}

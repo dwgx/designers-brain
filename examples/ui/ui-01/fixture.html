@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>UI-01 · Agent 任务/会话生命周期 fixture</title>
+<!--
+  UI-01 isolated research fixture (Designers-Brain-Upgrade-20261115).
+  Single HTML + inline JS. No build step, no network, no repo writes.
+
+  STATE MODEL (derived from AG-UI 1.0 "Runs and Steps" lifecycle spec,
+  schema.json RunFinishedOutcome, "Interrupts and Resume", "Transports/Truncation";
+  cross-checked with Magentic-UI report Appendix A p36 and VS Code
+  "Manage agent sessions" ms.date 11/11/2026):
+    running             RUN_STARTED, run still active
+    waiting-for-input   RUN_FINISHED outcome=interrupt (paused, waits for outside input)
+    cancelled           RUN_FINISHED outcome=cancelled (stopped on purpose, did NOT fail)
+    failed              RUN_ERROR (producer reported its own failure)
+    stream-interrupted  truncated run (stream ended with NO terminal event, NO outcome)
+    completed           RUN_FINISHED outcome=success / outcome absent
+
+  CRITICAL SEMANTIC BOUNDARY (AG-UI 1.0):
+    cancelled != stream-interrupted != completed.
+      * cancelled            = producer deliberately stops, closes cleanly with a
+                               cancelled outcome; partial work delivered, no resume.
+      * stream-interrupted   = consumer's stream ends WITHOUT a terminal event;
+                               "A truncated run has no outcome. A consumer MUST NOT
+                               synthesize a RUN_FINISHED for it and MUST NOT report it
+                               as having succeeded" (transports.md#truncation).
+                               It is NOT cancellation (cancellation is a producer's
+                               report) and NOT success. Re-run is a NEW runId.
+      * completed            = terminal RUN_FINISHED success outcome.
+    Each of these three states therefore has a DIFFERENT text label, icon, border
+    shape, data-state value and aria-* value. Color is NEVER the only channel.
+
+  Each state is expressed by >=3 non-color channels: text label, unicode icon glyph,
+  border shape/style, plus aria-label + data-state + data-aria. This is deliberate:
+  Magentic-UI's three indicators are color-coded (red/spinning/green), and the
+  research agenda A1 requires "状态不用颜色独占表达" (state not by color alone).
+-->
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, "Segoe UI", "Microsoft YaHei", sans-serif;
+         background:#f4f5f7; color:#1b1d20; padding:20px; }
+  header { max-width:1080px; margin:0 auto 16px; }
+  h1 { font-size:18px; margin:0 0 4px; }
+  .sub { font-size:12px; color:#555; line-height:1.5; }
+  .legend { max-width:1080px; margin:12px auto 16px; display:flex; flex-wrap:wrap;
+            gap:8px; font-size:11px; }
+  .legend .chip { border:2px solid #888; padding:4px 8px; border-radius:6px;
+                  background:#fff; white-space:nowrap; }
+  .board { max-width:1080px; margin:0 auto; display:grid;
+           grid-template-columns:repeat(3,1fr); gap:14px; }
+  .card { background:#fff; border-radius:10px; padding:12px; box-shadow:0 1px 3px #0002; }
+  .card h2 { font-size:14px; margin:0 0 2px; }
+  .scenario { font-size:11px; color:#666; margin:0 0 10px; min-height:30px; }
+
+  /* ---- state badge: text + icon + shape + aria, color is only supplementary ---- */
+  .badge { display:inline-flex; align-items:center; gap:8px; padding:6px 10px;
+           background:#fff; font-size:13px; font-weight:600; margin-bottom:8px; }
+  .badge .glyph { font-size:15px; width:18px; text-align:center; }
+  .badge .lbl { letter-spacing:.2px; }
+  /* distinct SHAPES per state (not color-only) */
+  .badge[data-state="running"]            { border:2px solid #2b6cb0; border-radius:6px; }
+  .badge[data-state="waiting-for-input"]  { border:2px dashed #b7791f; border-radius:6px; }
+  .badge[data-state="cancelled"]          { border:2px dotted #4a5568; border-radius:14px; }
+  .badge[data-state="failed"]             { border:4px double #c53030; border-radius:4px; }
+  .badge[data-state="stream-interrupted"] { border:2px dashed #6b46c1; border-left:6px wavy #6b46c1;
+                                            border-radius:3px 12px 3px 12px; }
+  .badge[data-state="completed"]          { border:2px solid #2f855a; border-radius:18px; }
+
+  /* per-task ownership badges */
+  .ownership { display:flex; gap:6px; flex-wrap:wrap; font-size:11px; margin-bottom:8px; }
+  .ownership span { border:1px solid #bbb; border-radius:4px; padding:2px 6px; }
+  .unread { background:#fff3cd; font-weight:700; }
+  .draft-flag { font-style:italic; }
+
+  .step { font-size:11px; color:#444; margin:6px 0; min-height:16px; }
+  .summary { font-size:12px; background:#fafafa; border:1px solid #eee;
+             border-radius:6px; padding:6px 8px; margin:6px 0; }
+  details { font-size:11px; margin:6px 0; }
+  details summary { cursor:pointer; }
+  details .ev { font-family: ui-monospace, Consolas, monospace; white-space:pre-wrap;
+                background:#f7f7f9; padding:6px; border-radius:4px; }
+
+  label.draft-label { display:block; font-size:11px; margin:8px 0 2px; }
+  textarea.draft { width:100%; min-height:52px; font-size:12px; padding:6px;
+                   border:1px solid #ccc; border-radius:6px; resize:vertical; }
+  .ctrls { margin-top:8px; display:flex; gap:6px; flex-wrap:wrap; }
+  button { font-size:11px; padding:5px 9px; border:1px solid #888; border-radius:6px;
+           background:#fff; cursor:pointer; }
+  button:focus { outline:3px solid #2b6cb0; outline-offset:1px; }
+  .switchbar { max-width:1080px; margin:16px auto 0; display:flex; gap:8px;
+               align-items:center; flex-wrap:wrap; font-size:12px; }
+  .status { font-size:12px; }
+  footer { max-width:1080px; margin:18px auto 0; font-size:11px; color:#777; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Agent 任务/会话生命周期 — 3 并行任务状态机 fixture (UI-01)</h1>
+  <div class="sub">
+    6 种终止/运行状态均映射自 AG-UI 1.0。断流 (stream-interrupted / truncated run)
+    既不是取消也不是成功：它没有 outcome，且按规范不得伪造 RUN_FINISHED。
+    每个状态由 <b>文字 + 图标 + 边框形状 + aria</b> 区分，颜色仅为补充。
+  </div>
+</header>
+
+<div class="legend" aria-label="state legend">
+  <span class="chip" data-state="running">▶ 运行中 Running</span>
+  <span class="chip" data-state="waiting-for-input">‖ 待输入 Waiting for input</span>
+  <span class="chip" data-state="cancelled">⊘ 已取消 Cancelled</span>
+  <span class="chip" data-state="failed">✕ 失败 Failed</span>
+  <span class="chip" data-state="stream-interrupted">⚡ 断流 Stream interrupted</span>
+  <span class="chip" data-state="completed">✓ 已完成 Completed</span>
+</div>
+
+<div class="board" id="board"></div>
+
+<div class="switchbar">
+  <span>当前选中任务：</span>
+  <select id="taskSelect" aria-label="switch active task"></select>
+  <span class="status" id="switchStatus" role="status" aria-live="polite"></span>
+  <span class="sub">切换任务不清空各任务 textarea 草稿（对应 VS Code「Each chat retains its messages and unsent draft when you switch」）。</span>
+</div>
+
+<footer>
+  fixture.html · 单文件、无构建、无网络、不写仓库。脚本化场景仅演示状态机与 DOM/aria 断言；
+  机械检查见 _check.py。视觉/人因判断（任务恢复易用性、审美）明确未做，留待人评。
+</footer>
+
+<script>
+"use strict";
+
+/* ---- State catalogue. Each entry carries the discriminating channels. ---- */
+const STATES = {
+  "running": {
+    label: "运行中 Running", glyph: "▶", shape: "solid rounded rect",
+    agui: "RUN_STARTED; run Active, no terminal event yet",
+    aria: "running"
+  },
+  "waiting-for-input": {
+    label: "待输入 Waiting for input", glyph: "‖", shape: "dashed rect",
+    agui: "RUN_FINISHED outcome=interrupt (paused, waits for outside input; carries interrupts[])",
+    aria: "waiting-for-input"
+  },
+  "cancelled": {
+    label: "已取消 Cancelled", glyph: "⊘", shape: "dotted pill",
+    agui: "RUN_FINISHED outcome=cancelled (stopped on purpose; did NOT fail; no resume)",
+    aria: "cancelled"
+  },
+  "failed": {
+    label: "失败 Failed", glyph: "✕", shape: "double border",
+    agui: "RUN_ERROR (producer reported its own failure)",
+    aria: "failed"
+  },
+  "stream-interrupted": {
+    label: "断流 Stream interrupted", glyph: "⚡", shape: "wavy-left asymmetric",
+    agui: "truncated run: stream ended with NO terminal event, NO outcome (transports.md#truncation)",
+    aria: "stream-interrupted"
+  },
+  "completed": {
+    label: "已完成 Completed", glyph: "✓", shape: "rounded pill",
+    agui: "RUN_FINISHED outcome=success (or absent outcome = success)",
+    aria: "completed"
+  }
+};
+
+/* ---- Scripted scenarios. Three concurrent cards, each walks a distinct path. ----
+   T1 success, T2 cancel, T3 stream-drop + waiting-for-input.
+   failed is reached on T1 via the "inject failure" control.
+   Every step records a (state, evidence) pair so the DOM at each step is assertable. */
+const TASKS = [
+  {
+    id: "T1", title: "任务一 · 文献摘要",
+    scenario: "脚本：成功路径（running → completed）；可注入失败（failed）。",
+    steps: [
+      { state:"running", note:"启动 run，进入 Active。",
+        ev:"RUN_STARTED {threadId:'t1',runId:'r1'}\nSTEP_STARTED {stepName:'collect'}" },
+      { state:"completed", note:"干净终止，success outcome。",
+        ev:"STEP_FINISHED {stepName:'collect'}\nRUN_FINISHED {outcome:'success',result:'12 papers'}" }
+    ],
+    failStep: { state:"failed", note:"注入 RUN_ERROR（生产者自报失败）。",
+      ev:"RUN_ERROR {message:'tool timeout',code:'E_TOOL'}" }
+  },
+  {
+    id: "T2", title: "任务二 · 数据整理",
+    scenario: "脚本：取消路径（running → waiting-for-input → cancelled）。",
+    steps: [
+      { state:"running", note:"启动 run。",
+        ev:"RUN_STARTED {threadId:'t2',runId:'r2'}\nTEXT_MESSAGE_START ..." },
+      { state:"waiting-for-input", note:"ask for input：以 interrupt outcome 结束并等待回答。",
+        ev:"RUN_FINISHED {outcome:'interrupt',interrupts:[{id:'int-1',message:'哪些列需要排序?'}]}" },
+      { state:"cancelled", note:"用户主动停止：cancelled outcome，不是失败，也不等待。",
+        ev:"RUN_FINISHED {outcome:'cancelled'}\n(next run is an ordinary NEW run, not a resume)" }
+    ]
+  },
+  {
+    id: "T3", title: "任务三 · 网页抓取",
+    scenario: "脚本：断流路径（running → waiting-for-input → stream-interrupted）。断流无 outcome，不得伪造成功/取消。",
+    steps: [
+      { state:"running", note:"启动 run，流式输出中。",
+        ev:"RUN_STARTED {threadId:'t3',runId:'r3'}\nTEXT_MESSAGE_CONTENT {delta:'...'}" },
+      { state:"waiting-for-input", note:"agent 暂停等待外部确认（interrupt）。",
+        ev:"RUN_FINISHED {outcome:'interrupt',interrupts:[{id:'int-2',message:'确认翻页?'}]}" },
+      { state:"stream-interrupted", note:"连接在无终止事件的情况下断开：truncated run，无 outcome。",
+        ev:"[connection closed WITHOUT RUN_FINISHED/RUN_ERROR]\n=> NO outcome; MUST NOT synthesize RUN_FINISHED; MUST NOT report success;\n   re-run would be a NEW runId. This is NOT cancel and NOT success." }
+    ]
+  }
+];
+
+/* ---- Model: per-task runtime state (draft/unread/result ownership). ---- */
+const model = TASKS.map(t => ({
+  id: t.id, stepIndex: 0, failed: false,
+  draft: "", unread: false, resultOwner: "—", summary: "尚未产生结果。"
+}));
+let activeId = "T1";
+
+function stateOf(task) {
+  const m = model.find(x => x.id === task.id);
+  if (m.failed) return task.failStep ? "failed" : "running";
+  return task.steps[Math.min(m.stepIndex, task.steps.length - 1)].state;
+}
+function currentStep(task) {
+  const m = model.find(x => x.id === task.id);
+  if (m.failed && task.failStep) return task.failStep;
+  return task.steps[Math.min(m.stepIndex, task.steps.length - 1)];
+}
+
+function el(tag, attrs, text) {
+  const e = document.createElement(tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+/* ---- Render one card. Rebuild body but PRESERVE draft by writing from model. ---- */
+function renderCard(task) {
+  const m = model.find(x => x.id === task.id);
+  const s = stateOf(task), def = STATES[s], step = currentStep(task);
+  const card = el("section", { class:"card", id:"card-"+task.id,
+                               "data-taskid":task.id,
+                               "aria-label":"task "+task.id });
+
+  card.appendChild(el("h2", {}, task.title));
+  card.appendChild(el("p", { class:"scenario" }, task.scenario));
+
+  /* ownership line: draft / unread / result belong to EACH task */
+  const own = el("div", { class:"ownership", "aria-label":"per-task ownership" });
+  own.appendChild(el("span", { class:"draft-flag", id:"draftflag-"+task.id },
+    "草稿 draft:" + (m.draft ? " 有内容" : " 空")));
+  const un = el("span", { id:"unread-"+task.id,
+    class: m.unread ? "unread" : "" }, m.unread ? "● 未读 unread" : "○ 已读 read");
+  own.appendChild(un);
+  own.appendChild(el("span", { id:"result-"+task.id },
+    "结果归属 result:" + m.resultOwner));
+  card.appendChild(own);
+
+  /* the state badge: text + icon + shape + data-state + aria */
+  const badge = el("div", { class:"badge", id:"badge-"+task.id,
+    "data-state": s, "data-aria": def.aria,
+    role:"status", "aria-live":"polite",
+    "aria-label": def.label + " — " + def.agui });
+  badge.appendChild(el("span", { class:"glyph", "aria-hidden":"true" }, def.glyph));
+  badge.appendChild(el("span", { class:"lbl", id:"label-"+task.id }, def.label));
+  card.appendChild(badge);
+
+  card.appendChild(el("div", { class:"step", id:"step-"+task.id }, "步骤：" + step.note));
+  card.appendChild(el("div", { class:"summary", id:"summary-"+task.id }, m.summary));
+
+  /* summary vs expandable evidence */
+  const det = el("details", { id:"evidence-"+task.id });
+  det.appendChild(el("summary", {}, "展开证据 expandable evidence（" + s + "）"));
+  det.appendChild(el("div", { class:"ev", id:"ev-"+task.id },
+    "AG-UI: " + def.agui + "\n\n" + step.ev));
+  card.appendChild(det);
+
+  /* draft textarea — value always sourced from the model, so switching keeps text */
+  card.appendChild(el("label", { class:"draft-label", for:"draft-"+task.id },
+    "本任务草稿 textarea（切换任务不清空）"));
+  const ta = el("textarea", { class:"draft", id:"draft-"+task.id,
+    "aria-label":"draft for "+task.id, "data-taskid":task.id });
+  ta.value = m.draft;
+  ta.addEventListener("input", () => {
+    m.draft = ta.value;
+    const f = document.getElementById("draftflag-"+task.id);
+    if (f) f.textContent = "草稿 draft:" + (m.draft ? " 有内容" : " 空");
+  });
+  card.appendChild(ta);
+
+  /* controls */
+  const ctrls = el("div", { class:"ctrls" });
+  const next = el("button", { id:"next-"+task.id, type:"button" }, "下一步 ▶");
+  if (m.failed || m.stepIndex >= task.steps.length - 1) next.disabled = true;
+  next.addEventListener("click", () => {
+    // Scripted fixture: no new step means no new unread notification.
+    // Guard the handler too, so direct event dispatch cannot repeat a terminal.
+    if (m.failed || m.stepIndex >= task.steps.length - 1) return;
+    m.stepIndex += 1;
+    const ns = stateOf(task);
+    m.unread = (ns === "completed" || ns === "waiting-for-input" || ns === "stream-interrupted");
+    if (ns === "completed") { m.resultOwner = task.id + " · final"; m.summary = "结果就绪：12 papers（summary）。"; }
+    else if (ns === "stream-interrupted") { m.resultOwner = "— 无最终结论"; m.summary = "连接中断，未收到终止事件；保留已收片段。"; }
+    else if (ns === "waiting-for-input") { m.summary = "等待外部输入（需回答 interrupt）。"; }
+    else if (ns === "cancelled") { m.resultOwner = "— 取消无结果"; m.summary = "被主动停止；已交付片段保留，无最终结果。"; }
+    renderCard(task); renderSelect();
+  });
+  ctrls.appendChild(next);
+  if (task.failStep) {
+    const fb = el("button", { id:"fail-"+task.id, type:"button" }, "注入失败 ✕");
+    fb.addEventListener("click", () => {
+      m.failed = true; m.unread = true; m.resultOwner = "— 失败无结果";
+      m.summary = "生产者自报失败（RUN_ERROR）；已交付事件仍保留。";
+      renderCard(task); renderSelect();
+    });
+    ctrls.appendChild(fb);
+  }
+  const rb = el("button", { id:"read-"+task.id, type:"button" }, "标记已读");
+  rb.addEventListener("click", () => { m.unread = false; renderCard(task); });
+  ctrls.appendChild(rb);
+  card.appendChild(ctrls);
+  /* Replace the existing card in place so re-render immediately updates the DOM. */
+  const existing = document.getElementById("card-"+task.id);
+  if (existing && existing.parentNode) existing.parentNode.replaceChild(card, existing);
+  return card;
+}
+
+function renderSelect() {
+  const sel = document.getElementById("taskSelect");
+  sel.innerHTML = "";
+  for (const t of TASKS) {
+    const o = el("option", { value:t.id }, t.id + " · " + t.title);
+    if (t.id === activeId) o.setAttribute("selected","selected");
+    sel.appendChild(o);
+  }
+}
+
+function renderAll() {
+  const board = document.getElementById("board");
+  board.innerHTML = "";
+  for (const t of TASKS) board.appendChild(renderCard(t));
+  renderSelect();
+}
+
+/* ---- Task switching: draft lives in the model, so value survives re-render. ---- */
+document.getElementById("taskSelect").addEventListener("change", (e) => {
+  activeId = e.target.value;
+  const m = model.find(x => x.id === activeId);
+  const ta = document.getElementById("draft-"+activeId);
+  if (ta) ta.focus();
+  document.getElementById("switchStatus").textContent =
+    "已切换到 " + activeId + "；草稿保留 " + (m.draft ? "(" + m.draft.length + " 字符)" : "(空)");
+});
+
+/* ---- Headless / mechanical hook: drive scenarios deterministically. ----
+   Exposed so _check.py (via node, jsdom-free: we parse + use a tiny DOM shim)
+   or a headless browser can assert each (state, label, aria) at each step. */
+const FIXTURE_API = {
+  STATES, TASKS, model,
+  stateOf, currentStep,
+  advance(taskId) { const t = TASKS.find(x=>x.id===taskId); if(t) document.getElementById("next-"+taskId).click(); },
+  fail(taskId) { const b=document.getElementById("fail-"+taskId); if(b) b.click(); },
+  setDraft(taskId, v) { const m=model.find(x=>x.id===taskId); if(m){m.draft=v;} const ta=document.getElementById("draft-"+taskId); if(ta) ta.value=v; },
+  getDraft(taskId) { const m=model.find(x=>x.id===taskId); return m?m.draft:null; },
+  switchTo(taskId) { const sel=document.getElementById("taskSelect"); sel.value=taskId; sel.dispatchEvent(new Event("change")); },
+  snapshot() {
+    return model.map(m => {
+      const b = document.getElementById("badge-"+m.id);
+      return { id:m.id, state:b.getAttribute("data-state"),
+               aria:b.getAttribute("data-aria"),
+               label:document.getElementById("label-"+m.id).textContent,
+               draft:document.getElementById("draft-"+m.id).value,
+               unread:document.getElementById("unread-"+m.id).textContent,
+               result:document.getElementById("result-"+m.id).textContent };
+    });
+  },
+  reset() {
+    for (const m of model) { m.stepIndex=0; m.failed=false; m.draft=""; m.unread=false;
+                             m.resultOwner="—"; m.summary="尚未产生结果。"; }
+    activeId="T1"; renderAll();
+  }
+};
+window.FIXTURE_API = FIXTURE_API;
+
+renderAll();
+
+/* ---- Gated headless selftest driver (only with ?selftest=1). ----
+   Produces a deterministic JSON trace of (state,label,aria,draft) at each
+   scenario step. Headless Chrome dumps it via --dump-dom; _check.py asserts it.
+   This is a MECHANICAL check of the state machine + DOM/aria, not a visual one. */
+if (new URLSearchParams(location.search).get("selftest") === "1") {
+  const A = FIXTURE_API, trace = [];
+  const snap = (tag) => trace.push({ tag, cards: A.snapshot() });
+  A.reset(); snap("initial");
+  A.advance("T1"); snap("T1-after-1-advance");                       // success -> completed
+  document.getElementById("read-T1").click(); snap("T1-marked-read");
+  A.advance("T1"); snap("T1-after-repeat-terminal");                // no new step -> no-op
+  A.advance("T2"); snap("T2-after-1-advance");                        // -> waiting-for-input
+  A.advance("T2"); snap("T2-after-2-advances");                       // -> cancelled
+  A.advance("T3"); snap("T3-after-1-advance");                        // -> waiting-for-input
+  A.advance("T3"); snap("T3-after-2-advances");                       // -> stream-interrupted
+  A.setDraft("T1", "draft-alpha-未发送"); snap("T1-draft-set");
+  A.switchTo("T3"); snap("after-switch-to-T3");
+  A.switchTo("T1"); snap("after-switch-back-to-T1");
+  A.fail("T1"); snap("T1-after-fail");                               // failed state
+  /* emit as a non-rendered <script type="application/json">: --dump-dom keeps
+     the text, but it is never painted (clean screenshot). _check.py parses it. */
+  const out = document.createElement("script");
+  out.type = "application/json";
+  out.id = "selftest-out";
+  out.textContent = JSON.stringify(trace);
+  document.body.appendChild(out);
+}
+
+/* ---- Clean showcase mode (?showcase=1): drive the 3 NON-CONFLATABLE endings
+   (completed / cancelled / stream-interrupted) for the screenshot; no JSON dump.
+   Visual evidence only — not an assertion. Human judgment still not claimed. ---- */
+if (new URLSearchParams(location.search).get("showcase") === "1") {
+  const A = FIXTURE_API;
+  A.reset();
+  A.advance("T1");                       // completed
+  A.advance("T2"); A.advance("T2");      // cancelled
+  A.advance("T3"); A.advance("T3");      // stream-interrupted
+  A.setDraft("T1", "draft-alpha-未发送（切换任务后保留）");
+  A.setDraft("T3", "任务三自己的草稿，与任务一互不覆盖");
+}
+</script>
+</body>
+</html>

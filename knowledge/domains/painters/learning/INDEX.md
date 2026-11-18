@@ -49,6 +49,22 @@
 | chardin | [vermeer：高光形态、表面与阴影色相](vermeer/learning_path.md#db-source-line-42) | [来源下一步](chardin/learning_path.md#db-source-line-145)；原文要求至少两轴比较；不以一处相似替代边界。 |
 | wu_guanzhong | [kandinsky：抽象的两条路径](kandinsky/learning_path.md#db-source-line-50) | [来源下一步](wu_guanzhong/learning_path.md#db-source-line-118)；原文保留待组合实验验证，不是 E 系列接受。 |
 
+## 本轮新增的七份决策序组织稿
+
+以下七份从现有原则、参数、练习与边界组织出 D1–D6；每步回答先选、愿意牺牲、何时失效与如何自查，并附当前源路径/章节和 SHA。它们是本轮 `[归纳]` 组织稿，已完成仅限操作组织的独立语义复核，无 E4、原作阈值实测或真人学习效果验证。原 LEARN 的历史接受与旧 C1 结果不自动覆盖新增稿。
+
+| Artist | 当前决策序入口 | 范围 |
+|---|---|---|
+| friedrich | [How to Think](friedrich/how-to-think.md) | 本轮新组织；原学习路径与证据等级保持 |
+| gauguin | [How to Think](gauguin/how-to-think.md) | 本轮新组织；原学习路径与证据等级保持 |
+| hopper | [How to Think](hopper/how-to-think.md) | 本轮新组织；原学习路径与证据等级保持 |
+| ito_jakuchu | [How to Think](ito_jakuchu/how-to-think.md) | 本轮新组织；原学习路径与证据等级保持 |
+| kitagawa_utamaro | [How to Think](kitagawa_utamaro/how-to-think.md) | 本轮新组织；原学习路径与证据等级保持 |
+| kngwarreye | [How to Think](kngwarreye/how-to-think.md) | 本轮新组织；原学习路径与证据等级保持 |
+| li_keran | [How to Think](li_keran/how-to-think.md) | 本轮新组织；原学习路径与证据等级保持 |
+
+完整结构为 **41 原有专篇 + 7 本轮新组织稿 + 28 原有分散等价内核**；等价内核沿用原 lane 定位，不宣称全部已按同一标准重新验证。详细阅读边界见[覆盖矩阵](COVERAGE-MATRIX.md)。
+
 ## 完整76条路径
 
 | Artist | 公共入口 | 章节依据 |
@@ -73,23 +89,23 @@
 | el_salahi | [打开](el_salahi/learning_path.md) | 12 个原文标题；来源与限制见正文 |
 | enwonwu | [打开](enwonwu/learning_path.md) | 12 个原文标题；来源与限制见正文 |
 | fan_kuan | [打开](fan_kuan/learning_path.md) | 13 个原文标题；来源与限制见正文 |
-| friedrich | [打开](friedrich/learning_path.md) | 12 个原文标题；来源与限制见正文 |
-| gauguin | [打开](gauguin/learning_path.md) | 15 个原文标题；来源与限制见正文 |
+| friedrich | [学习路径](friedrich/learning_path.md) · [本轮决策序](friedrich/how-to-think.md) | 12 个原文标题；来源与限制见正文 |
+| gauguin | [学习路径](gauguin/learning_path.md) · [本轮决策序](gauguin/how-to-think.md) | 15 个原文标题；来源与限制见正文 |
 | goya | [打开](goya/learning_path.md) | 12 个原文标题；来源与限制见正文 |
 | hiroshige | [打开](hiroshige/learning_path.md) | 19 个原文标题；来源与限制见正文 |
 | hogarth | [打开](hogarth/learning_path.md) | 15 个原文标题；来源与限制见正文 |
 | hokusai | [打开](hokusai/learning_path.md) | 12 个原文标题；来源与限制见正文 |
 | holbein | [打开](holbein/learning_path.md) | 13 个原文标题；来源与限制见正文 |
-| hopper | [打开](hopper/learning_path.md) | 12 个原文标题；来源与限制见正文 |
+| hopper | [学习路径](hopper/learning_path.md) · [本轮决策序](hopper/how-to-think.md) | 12 个原文标题；来源与限制见正文 |
 | huang_gongwang | [打开](huang_gongwang/learning_path.md) | 13 个原文标题；来源与限制见正文 |
-| ito_jakuchu | [打开](ito_jakuchu/learning_path.md) | 12 个原文标题；来源与限制见正文 |
+| ito_jakuchu | [学习路径](ito_jakuchu/learning_path.md) · [本轮决策序](ito_jakuchu/how-to-think.md) | 12 个原文标题；来源与限制见正文 |
 | kahlo | [打开](kahlo/learning_path.md) | 15 个原文标题；来源与限制见正文 |
 | kandinsky | [打开](kandinsky/learning_path.md) | 13 个原文标题；来源与限制见正文 |
-| kitagawa_utamaro | [打开](kitagawa_utamaro/learning_path.md) | 12 个原文标题；来源与限制见正文 |
+| kitagawa_utamaro | [学习路径](kitagawa_utamaro/learning_path.md) · [本轮决策序](kitagawa_utamaro/how-to-think.md) | 12 个原文标题；来源与限制见正文 |
 | klimt | [打开](klimt/learning_path.md) | 12 个原文标题；来源与限制见正文 |
-| kngwarreye | [打开](kngwarreye/learning_path.md) | 12 个原文标题；来源与限制见正文 |
+| kngwarreye | [学习路径](kngwarreye/learning_path.md) · [本轮决策序](kngwarreye/how-to-think.md) | 12 个原文标题；来源与限制见正文 |
 | lam | [打开](lam/learning_path.md) | 12 个原文标题；来源与限制见正文 |
-| li_keran | [打开](li_keran/learning_path.md) | 12 个原文标题；来源与限制见正文 |
+| li_keran | [学习路径](li_keran/learning_path.md) · [本轮决策序](li_keran/how-to-think.md) | 12 个原文标题；来源与限制见正文 |
 | lin_fengmian | [打开](lin_fengmian/learning_path.md) | 9 个原文标题；来源与限制见正文 |
 | manet | [打开](manet/learning_path.md) | 12 个原文标题；来源与限制见正文 |
 | matisse | [打开](matisse/learning_path.md) | 13 个原文标题；来源与限制见正文 |

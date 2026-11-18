@@ -45,9 +45,8 @@ English · [中文](i18n/zh-CN/PROTOCOLS.md) · [日本語](i18n/ja/PROTOCOLS.md
 
 ## 6. Image channel protocol
 
-- Channel: direct gateway API; **bare model name** `grok-imagine-image-2.0` (a `buddyfarm/` prefix 404s on this path — opposite of the CLI). Request 1024×1536; actual return 768×1152.
-- The channel has **no negative-prompt parameter**: negative segments are archived in the request record but never sent.
-- Archive contract: `req` / `resp` / image + `sha256` manifest. Traceable, not reproducible (no seed) — never promise reproducibility.
+- The direct gateway channel (bare model name `grok-imagine-image-2.0`, request 1024×1536 → actual return 768×1152, **no negative-prompt parameter**: negative segments are archived in the request record but never sent) is the **historical** channel of the 2026-10/11 campaign. Its documented outage (`503 model_not_found`) is historical evidence, not a statement about current availability — probe before relying on it, and never substitute programmatic image drawing (e.g., Pillow) for model image generation in experiments.
+- Archive contract unchanged for any future channel: `req` / `resp` / image + `sha256` manifest. Traceable, not reproducible (no seed) — never promise reproducibility.
 - Details and probe evidence: `knowledge/cross/image_channel.md`.
 
 ## 7. Skill interaction protocol
@@ -76,7 +75,7 @@ English · [中文](i18n/zh-CN/PROTOCOLS.md) · [日本語](i18n/ja/PROTOCOLS.md
 
 - No credentials in the repo, ever. Tokens found in captured material are redacted before publication.
 - Private infrastructure is described generically in public docs; probe evidence stays local-only when it embeds private endpoints.
-- Museum images: only public-domain / openly licensed sources; attribution recorded in `knowledge/INDEX.md` and image manifests.
+- Museum images: only public-domain / openly licensed sources, with recorded provenance. The shipped set is 739 files (701 PD/CC0 + 38 attribution-required by the manifest's license-column labels); **file-level** reuse obligations live in the per-artist `_images/<artist>/MANIFEST.md` files and the conservative file-level classification `knowledge/domains/painters/dossiers/_images/rights-file-level.json` (39 attribution-required, 699 recognized PD/CC0 labels with no stated attribution condition, and 1 jurisdiction-dependent file; null does not mean permission-free) — never treat the "PD/CC0 majority" as "no attribution for all files".
 
 ## 12. Provider-flap working method
 

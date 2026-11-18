@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-vocab="stamp" data-state="overlap" data-ax="216.00" data-bx="296.00" data-connector-width="0.00">
+  <rect x="0" y="0" width="512" height="384" fill="#f2f3f2" data-role="background" />
+  <g data-role="objects">
+    <polygon points="216.00,148.00 260.00,192.00 216.00,236.00 172.00,192.00" fill="#786046" data-role="atom" data-atom="A" />
+    <polygon points="216.00,170.00 238.00,192.00 216.00,214.00 194.00,192.00" fill="#c9b89c" data-role="atom-inner" data-atom="A" />
+    <polygon points="296.00,148.00 340.00,192.00 296.00,236.00 252.00,192.00" fill="#786046" data-role="atom" data-atom="B" />
+    <polygon points="296.00,170.00 318.00,192.00 296.00,214.00 274.00,192.00" fill="#c9b89c" data-role="atom-inner" data-atom="B" />
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+{"ok": true, "browser_executed": true, "cases": [{"case": "positive", "static_exit": 0, "ok": true}, {"case": "comment_div", "static_exit": 1, "ok": true}, {"case": "missing_name", "static_exit": 1, "ok": true}]}

@@ -17,7 +17,7 @@ Exit codes
 ----------
 0  every measured count matches the README declaration
 1  at least one count drifted from its declaration
-2  structural error (missing file or directory)
+2  structural error (missing file/directory, malformed data, or missing/ambiguous declaration)
 3  --strict-ignore and `_agent-history/` is not ignored
 
 Usage
@@ -41,6 +41,15 @@ PAINTERS = Path("knowledge/domains/painters")
 MOTION = Path("knowledge/domains/motion-graphics")
 META_DOSSIERS = {"_index.md", "_review.md", "_crosscheck.md", "expansion.md"}
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+RIGHTS_SCOPE = (
+    "Artwork-level manifest labels and file-level attribution states are separate classifications. "
+    "A false attribution flag is a recognized PD/CC0 label with no stated attribution condition; "
+    "a jurisdiction-dependent null remains conditional. This recount is not a global legal judgment."
+)
+
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8")
 
 # Audit baseline, ops/AUDIT-2026-10-26.md section 1.  Reference only: the
 # pass/fail comparison is measured-vs-README, so a deliberate update of both
@@ -56,34 +65,60 @@ BASELINE = {
     "license_open": 38,
 }
 
+# Strip Markdown bold before matching. Each capture remains attached to its
+# semantic declaration; a coincidental number elsewhere cannot satisfy it.
+NUMBER = r"(?:[0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)"
+# Do not salvage the integer tail of a signed/decimal/ASCII numeric token;
+# CJK unit/label characters may directly touch a valid count in Japanese.
+COUNT = rf"(?<![\dA-Za-z_.,+\-\u2212])({NUMBER})(?![\dA-Za-z_.,])"
 README_PATTERNS = {
     "README.md": {
-        "dossiers": r"\*\*(\d+) painter dossiers\*\*",
-        "modules": r"\*\*(\d+) composable module cards\*\*",
-        "mg_cards": r"\*\*(\d+) motion-graphics style cards\*\*",
-        "citations": r"(\d+) sourced quotes",
-        "images": r"(\d+) sourced artworks",
-        "license_pd_cc0": r"(\d+) public-domain/CC0 images",
-        "license_open": r"(\d+) openly licensed images",
+        "dossiers": rf"{COUNT} painter dossiers",
+        "modules": rf"{COUNT} composable module cards",
+        "mg_cards": rf"{COUNT} motion-graphics style cards",
+        "citations": rf"{COUNT} source-linked quotations",
+        "images": rf"{COUNT} distributed JPGs",
+        "license_pd_cc0": rf"The historical {COUNT}/{NUMBER} split counts artwork-level manifest labels",
+        "license_open": rf"The historical {NUMBER}/{COUNT} split counts artwork-level manifest labels",
+        "rights_attribution_required": rf"File-level reuse classification:\s*{COUNT} attribution-required",
+        "rights_pd_cc0_no_stated_attribution": rf"{COUNT} recognized PD/CC0 labels with no stated attribution condition",
+        "rights_jurisdiction_dependent": rf"{COUNT} jurisdiction-dependent case",
+        "license_section_attribution_required": rf"{COUNT} files require attribution",
+        "license_section_pd_cc0_no_stated_attribution": rf"{COUNT} carry recognized PD/CC0 labels with no stated attribution condition",
     },
     "README.zh-CN.md": {
-        "dossiers": r"\*\*(\d+) 份画家档案\*\*",
-        "modules": r"\*\*(\d+) 张可组合模块卡\*\*",
-        "mg_cards": r"\*\*(\d+) 张动态图形风格卡\*\*",
-        "citations": r"(\d+) 条带来源引文",
-        "images": r"(\d+) 件来源图像",
-        "license_pd_cc0": r"(\d+) 件公有领域 / CC0",
-        "license_open": r"(\d+) 件开放许可",
+        "dossiers": rf"{COUNT} 份画家档案",
+        "modules": rf"{COUNT} 张可组合模块卡",
+        "mg_cards": rf"{COUNT} 张动态图形风格卡",
+        "citations": rf"{COUNT} 条带来源引文",
+        "images": rf"{COUNT} 个分发 JPG 文件",
+        "license_pd_cc0": rf"历史 {COUNT}/{NUMBER} 是作品层 manifest 标签计数",
+        "license_open": rf"历史 {NUMBER}/{COUNT} 是作品层 manifest 标签计数",
+        "rights_attribution_required": rf"文件级保守分类为：\s*{COUNT} 件需署名",
+        "rights_pd_cc0_no_stated_attribution": rf"{COUNT} 件为未列署名条件的已识别 PD/CC0 标签",
+        "rights_jurisdiction_dependent": rf"{COUNT} 件取决于司法辖区",
+        "license_section_attribution_required": rf"{COUNT} 件需署名；",
+        "license_section_pd_cc0_no_stated_attribution": rf"{COUNT} 件带已识别 PD/CC0 标签且未列署名条件",
     },
     "README.ja.md": {
-        "dossiers": r"画家ドシエ（資料ファイル）(\d+) 件",
-        "modules": r"モジュールカード (\d+) 枚",
-        "mg_cards": r"スタイルカード (\d+) 枚",
-        "citations": r"出典付き引用 (\d+) 件",
-        "images": r"出典付き作品画像 (\d+) 点",
-        "license_pd_cc0": r"パブリックドメイン / CC0 が (\d+) 点",
-        "license_open": r"オープンライセンス画像 (\d+) 点",
+        "dossiers": rf"画家ドシエ\s*{COUNT}\s*件",
+        "modules": rf"合成可能なモジュールカード\s*{COUNT}\s*枚",
+        "mg_cards": rf"モーショングラフィックスのスタイルカード\s*{COUNT}\s*枚",
+        "citations": rf"出典付き引用\s*{COUNT}\s*件",
+        "images": rf"配布JPG\s*{COUNT}\s*点",
+        "license_pd_cc0": rf"従来の{COUNT}/{NUMBER}は作品レベルのラベル集計",
+        "license_open": rf"従来の{NUMBER}/{COUNT}は作品レベルのラベル集計",
+        "rights_attribution_required": rf"ファイル単位の保守的分類は、帰属表示必須{COUNT}点",
+        "rights_pd_cc0_no_stated_attribution": rf"帰属条件が記載されていない既知のPD/CC0ラベル{COUNT}点",
+        "rights_jurisdiction_dependent": rf"法域によって条件が異なる{COUNT}点",
+        "license_section_attribution_required": rf"では{COUNT}点が帰属表示必須",
+        "license_section_pd_cc0_no_stated_attribution": rf"{COUNT}点が帰属条件の記載のない既知のPD/CC0ラベル",
     },
+}
+
+DECLARATION_MEASURES = {
+    "license_section_attribution_required": "rights_attribution_required",
+    "license_section_pd_cc0_no_stated_attribution": "rights_pd_cc0_no_stated_attribution",
 }
 
 
@@ -156,7 +191,7 @@ def manifest_licenses(root: Path) -> list[str]:
 
 
 def classify_license(license_text: str) -> str:
-    """PD / CC0 / OPEN, reproducing ops/AUDIT-2026-10-26.md section 3."""
+    """Artwork-level PD / CC0 / OPEN labels; not file-level reuse permission."""
     s = license_text.replace("*", "").replace("`", "").strip()
     if s.startswith("摄影"):
         s = s[2:].strip()
@@ -173,17 +208,58 @@ def classify_license(license_text: str) -> str:
     return "OPEN"
 
 
+def count_file_rights(root: Path) -> tuple[dict[str, int], set[str]]:
+    """Recount actual file rows, not the JSON summary or worldwide legal status."""
+    p = root / PAINTERS / "dossiers" / "_images" / "rights-file-level.json"
+    if not p.is_file():
+        die(f"missing {p}")
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except (ValueError, UnicodeError) as exc:
+        die(f"rights-file-level.json: malformed JSON ({exc})")
+    if not isinstance(data, dict) or not isinstance(data.get("files"), list):
+        die("rights-file-level.json: missing files array")
+    counts = {
+        "rights_attribution_required": 0,
+        "rights_pd_cc0_no_stated_attribution": 0,
+        "rights_jurisdiction_dependent": 0,
+        "rights_unknown": 0,
+        "rights_rows_total": 0,
+    }
+    paths: set[str] = set()
+    for index, row in enumerate(data["files"]):
+        if not isinstance(row, dict) or not isinstance(row.get("path"), str) or not row["path"]:
+            die(f"rights-file-level.json: files[{index}] has no valid path")
+        if row["path"] in paths:
+            die(f"rights-file-level.json: duplicate path {row['path']!r}")
+        paths.add(row["path"])
+        if "requires_attribution" not in row:
+            die(f"rights-file-level.json: {row['path']}: missing requires_attribution")
+        state = row["requires_attribution"]
+        if state is True:
+            key = "rights_attribution_required"
+        elif state is False:
+            key = "rights_pd_cc0_no_stated_attribution"
+        elif state is None:
+            key = "rights_jurisdiction_dependent" if row.get("attribution_state") == "jurisdiction_dependent" else "rights_unknown"
+        else:
+            die(f"rights-file-level.json: {row['path']}: requires_attribution must be true/false/null")
+        counts[key] += 1
+        counts["rights_rows_total"] += 1
+    return counts, paths
+
+
 def parse_readme(root: Path, name: str) -> dict[str, int]:
     p = root / name
     if not p.is_file():
         die(f"missing {p}")
-    text = p.read_text(encoding="utf-8")
+    text = p.read_text(encoding="utf-8").replace("**", "")
     out: dict[str, int] = {}
     for key, pattern in README_PATTERNS[name].items():
-        m = re.search(pattern, text)
-        if not m:
-            die(f"{name}: declaration pattern not found for {key!r} ({pattern!r})")
-        out[key] = int(m.group(1))
+        matches = re.findall(pattern, text)
+        if len(matches) != 1:
+            die(f"{name}: declaration missing or ambiguous for {key!r} (matches={len(matches)})")
+        out[key] = int(matches[0].replace(",", ""))
     return out
 
 
@@ -242,8 +318,17 @@ def main() -> int:
     license_counts = Counter(classify_license(x) for x in licenses)
     measured["license_pd"] = license_counts.get("PD", 0)
     measured["license_cc0"] = license_counts.get("CC0", 0)
+    measured["license_pd_cc0"] = measured["license_pd"] + measured["license_cc0"]
     measured["license_open"] = license_counts.get("OPEN", 0)
     measured["license_total"] = sum(license_counts.values())
+    rights_counts, rights_paths = count_file_rights(root)
+    measured.update(rights_counts)
+    image_root = root / PAINTERS / "dossiers" / "_images"
+    image_paths = {
+        p.relative_to(image_root).as_posix()
+        for p in image_root.rglob("*")
+        if p.is_file() and p.suffix.lower() in IMAGE_EXTS
+    }
 
     declared = {name: parse_readme(root, name) for name in README_PATTERNS}
 
@@ -261,24 +346,15 @@ def main() -> int:
             }
         )
 
-    en = declared["README.md"]
-    add("dossiers", measured["dossiers"], en["dossiers"], "README.md", "dossiers")
-    add("module cards", measured["modules"], en["modules"], "README.md", "modules")
-    add("citations", measured["citations"], en["citations"], "README.md", "citations")
-    add("public images", measured["images"], en["images"], "README.md", "images")
-    add("motion-graphics cards", measured["mg_cards"], en["mg_cards"], "README.md", "mg_cards")
-    add("license PD+CC0", measured["license_pd"] + measured["license_cc0"], en["license_pd_cc0"], "README.md")
-    add("license open", measured["license_open"], en["license_open"], "README.md", "license_open")
+    for name, declarations in declared.items():
+        for field, expected in declarations.items():
+            key = DECLARATION_MEASURES.get(field, field)
+            add(field, measured[key], expected, name, key)
     add("license rows total", measured["license_total"], measured["images"], "manifest vs files")
     add("manifest rows", len(licenses), measured["images"], "manifest vs files")
-
-    # zh/ja must at least carry the same headline numbers as the English README.
-    for name in ("README.zh-CN.md", "README.ja.md"):
-        text = (root / name).read_text(encoding="utf-8")
-        for key in ("dossiers", "modules", "mg_cards", "citations", "images"):
-            token = str(measured[key])
-            found = re.search(rf"(?<!\d){re.escape(token)}(?!\d)", text) is not None
-            checks.append({"item": f"{name}:{key}", "measured": measured[key], "declared": measured[key], "source": name, "ok": found})
+    add("rights rows total", measured["rights_rows_total"], measured["images"], "file-level rights vs files")
+    add("rights path differences", len(rights_paths ^ image_paths), 0, "file-level rights vs files")
+    add("rights_unknown", measured["rights_unknown"], 0, "README three-state classification coverage")
 
     ignore = git_ignore_state(root)
     ignore_ok = bool(ignore["gitignore_has_entry"]) or ignore["check_ignore"] == "ignored"
@@ -291,6 +367,7 @@ def main() -> int:
         "declared": declared,
         "checks": checks,
         "corpus_files": corpus_files,
+        "rights_scope": RIGHTS_SCOPE,
         "ignore": ignore,
         "pass": not failed,
     }
@@ -301,23 +378,26 @@ def main() -> int:
         print("== Designers_Brain public-count audit (read-only) ==")
         print(f"root: {root}")
         print()
-        print(f"{'item':28} {'measured':>9} {'declared':>9} {'baseline':>9}  verdict")
+        print(f"{'source:field':70} {'measured':>9} {'declared':>9} {'baseline':>9}  verdict")
         for c in checks:
-            item = str(c["item"])
-            if item.startswith("README."):
-                verdict = "OK" if c["ok"] else "MISSING NUMBER"
-                print(f"{item:28} {c['measured']:>9} {'-':>9} {'-':>9}  {verdict}")
-                continue
+            item = f"{c['source']}:{c['item']}"
             base = c.get("baseline")
             base_s = str(base) if base is not None else "-"
             verdict = "OK" if c["ok"] else "DRIFT"
-            print(f"{item:28} {c['measured']:>9} {c['declared']:>9} {base_s:>9}  {verdict}")
+            print(f"{item:70} {c['measured']:>9} {c['declared']:>9} {base_s:>9}  {verdict}")
         print()
         print(
-            "license split: "
+            "artwork-level manifest label split: "
             f"PD {measured['license_pd']} / CC0 {measured['license_cc0']} / open {measured['license_open']} "
             f"(audit baseline {BASELINE['license_pd']}/{BASELINE['license_cc0']}/{BASELINE['license_open']})"
         )
+        print(
+            "file-level attribution states: "
+            f"required {measured['rights_attribution_required']} / "
+            f"recognized PD/CC0 label without stated attribution {measured['rights_pd_cc0_no_stated_attribution']} / "
+            f"jurisdiction-dependent {measured['rights_jurisdiction_dependent']} / unknown {measured['rights_unknown']}"
+        )
+        print(RIGHTS_SCOPE)
         print("git hygiene (warning-only)")
         print(f"  .gitignore has _agent-history/: {ignore['gitignore_has_entry']}")
         print(f"  git check-ignore: {ignore['check_ignore']}")

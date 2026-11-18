@@ -330,7 +330,7 @@ frame, borders, collage, 3D render, HDR, photorealistic photograph, glossy AI lo
 
 身后，他的位置经历了漫长沉浮：1970 年代 Papunya Tula"点画"运动一度掩盖了他；1990 年代起馆方系统重估——1992《The Heritage of Namatjira》巡展、2002–03 NGA《Seeing the Centre》（百年诞辰）、2017 NGA《Painting Country》（Darling 收藏 55+ 件捐赠）、2023 NGV《Watercolour Country》。1994 年，赫尔曼斯堡陶艺家（由其孙女 Elaine 领头）为他的墓碑制作陶土壁画——一幅三地合一的麦克唐奈山脉风景，正是他反复画过的那些山（ADB）。2013 年，他画中著名的两株桉树（Twin Gums）在申遗过程中被人纵火烧毁，被称为"文化破坏行为"（Wikipedia 转引 BBC）。他的后裔延续赫尔曼斯堡画派：儿子们与 Pareroultja、Inkamala 家族、Walter Ebatarinja 等第一代水彩画家；当代 Iltja Ntjarra（Many Hands）艺术中心的 Lenie Namatjira、Reinhold Inkamala 等；曾孙 Vincent Namatjira 以《Albert's Story》系列（2014）与 2020 年阿奇博尔德奖把家族叙事带进当代；2009 年起 Big hART 的"纳马吉拉计划"（剧院演出/纪录片/水彩教学）与 2017 年纪录片《Namatjira Project》把版权与传承议题推向公众。版权史同样漫长：1957 年他将部分版权以 12.5% 版税授权给 Legend Press；1959 年身后由 NT 公共受托人管理；1983 年公共受托人以 8,500 澳元把全部版权卖给 Legend Press——经手人多年后承认"这是个错误"；2017 年，在 Dick Smith 的调停下，Brackenreg 家族把版权以象征性 1 澳元转回家族，Namatjira Legacy Trust 成立并支持水彩教学与家族生计。他的作品权利（澳 life+70）将于 2029 年 8 月 8 日进入公有领域——而围绕他名字与画派的讲述，仍在家族与社群手中继续。
 
-### 11.2 关键年份表（24 行）
+### 11.2 关键年份表（27 行）
 
 | 年份 | 事件 | 来源 |
 |---|---|---|
@@ -501,7 +501,7 @@ python knowledge/domains/painters/modules/_extract.py --check
 
 ### D. 小结（≤14 行）
 
-- **已确立**：12 指纹 / 11 技法 / 9 原则（含 vs 康斯泰勃尔、vs 透纳**写死分工**各 4 判据）/ 6 参数（三档）/ §5 原话 12 条 / 影响链（Hermannsburg School 两代＋当代后裔）/ 9 条深度分析 / §8.1+§8.2（8 规则，含文化合规项）/ 32 条参考 / **§11（约 2,300 字叙述 + 28 行年表 + 15 条来源）** / **§12 临摹清单 10 件**；语料 22 条；私有图库 31 张 + MANIFEST + INVENTORY。
+- **已确立**：12 指纹 / 11 技法 / 9 原则（含 vs 康斯泰勃尔、vs 透纳**写死分工**各 4 判据）/ 6 参数（三档）/ §5 原话 12 条 / 影响链（Hermannsburg School 两代＋当代后裔）/ 9 条深度分析 / §8.1+§8.2（8 规则，含文化合规项）/ 32 条参考 / **§11（约 2,300 字叙述 + 27 行年表 + 15 条来源）** / **§12 临摹清单 10 件**；语料 22 条；私有图库 31 张 + MANIFEST + INVENTORY。
 - **已确立（接口）**：与康斯泰勃尔/透纳分工口径**写死**（§3.1；可判读判据：地点类型/天空角色/人物/色域 × 边缘/运动/形体/色彩）＋ §8.1 越界警报 ＋ §8.2-8 文化合规项；版权口径（2029）写死"公开侧零图"。
 - **已弱化/修正**：B3 公民权"第一"（改"有条件的'第一'/自动获得"）；B6 Battarbee 导师叙事（补张力注）；初见展览年份（三说保留）；服刑地点（Papunya/Areyonga 两说保留）；"600 人供养"（[UNVERIFIED] 不采用）。
 - **已推翻**：无（本档案未发现需删除的结论）。

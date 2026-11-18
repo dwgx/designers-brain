@@ -85,6 +85,11 @@ frame, borders, collage, 3D render, HDR, photorealistic photograph, glossy AI lo
 - **对照（vs 恩格瓦雷）**（× 恩格瓦雷；本卡 §3.1 次级注）：具象水彩风景 vs 全幅符号/大地抽象——默认不组合，如组合须显式分区（[推测] 级对照，仅记录）
 - **组合预检（Lane B）**（× Lane B；本卡 §3.1 组合注记）：重点：C-01（软边水彩、无硬阴影）/ C-09（站「静场」侧）/ C-05（淡染层、笔触弱于油画厚涂档）
 
+## 文化伦理护栏（必读，随模块分发；源自档案 §8.1 L233）
+
+- 本模块只蒸馏**公开描述过的视觉语汇**（水彩分层、远山转色、白干桉剪影、高地平线、静场光色），用于视觉语言学习与设计参考。**不得**用于：① 伪造、冒充或仿制纳马吉拉作品（含以假乱真的署名复制——负向段已含 `signature` 禁令）；② 复制、转用任何具体的神圣/仪式专属图式或故事（本模块不包含、也不解码此类内容）；③ 将产物宣称为原住民文化表达、或暗示与原住民社群/艺术家（家族）的关联。
+- **版权警示**：其作品在澳大利亚的版权期至 **2029-08-08**（life+70；权利方 `Namatjira Legacy Trust/Copyright Agency`）——2029 前的商业使用须向 Copyright Agency 取得许可；涉澳大利亚原住民主题的项目，建议咨询相关社群与机构（Namatjira Legacy Trust、Iltja Ntjarra/Many Hands Art Centre）。商业项目须评估 ICIP 风险（参考 Australia Council《Protocols for using First Nations Cultural and Intellectual Property in the Arts》）。公开侧零版权图像；本卡 §8.2-8 文化合规检查为本模块特有伦理验收项。
+
 ## 来源
 
 - 档案（唯一正本）：`knowledge/domains/painters/dossiers/namatjira.md` —— 本卡抽取自其 §1（浓缩 5 条）、§8.1、§8.2、§4

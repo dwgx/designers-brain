@@ -285,7 +285,7 @@ joyful saturated primaries everywhere, symmetry, cartoon, anime, 3D render, phot
 
 ## 11. 生平与年代轴（详细）
 
-> wave15 规格 v2 增项：叙述（约 2600 字）+ 年份表（29 行）+ 来源（12 条）。来源编号沿用 §9 的 [R1]–[R13]；证据级随句标注。
+> wave15 规格 v2 增项：叙述（约 2600 字）+ 年份表（38 行）+ 来源（11 条）。来源编号沿用 §9 的 [R1]–[R13]；证据级随句标注。
 
 ### 11.1 生平叙述
 
@@ -301,7 +301,7 @@ joyful saturated primaries everywhere, symmetry, cartoon, anime, 3D render, phot
 
 **六、身后与遗赠。** 蒙克无子女；1940 年遗嘱把全部在手作品遗赠奥斯陆市——1944 年清点时，作品散落在 Ekely 的屋里屋外（雪化后甚至在雪球里发现画布碎片）。这批遗赠成为**蒙克博物馆（1963 年开馆于 Tøyen）** 的基藏：约 26,724 件蒙克作品（近 1,200 油画、7,050 素描、18,322 版画/842 个母题、14 雕塑）＋照片、印版、数千文本与书信、约 10,000 件私人物品；eMunch 项目把这些文字全部数字化上线。此后：《尖叫》两度被盗（1994 国家美术馆 / 2004 蒙克博物馆，均追回）；2012 年 1895 年粉彩版拍出 1.199 亿美元；2021 年新馆 MUNCH 于 Bjørvika 开馆——「一人一馆」，全球最大单一艺术家收藏。艺术史家 Martha Tedeschi 2003 年指出：《尖叫》与《蒙娜丽莎》《美国哥特式》等极少数作品一样，「几乎立刻向几乎所有人传达一个具体含义」——从精英博物馆走进大众文化。`[史料/研究]`（[R2][R3][R4][R5][R10]）
 
-### 11.2 年份表（29 行）
+### 11.2 年份表（38 行）
 
 | 年份 | 事件 | 来源 |
 |---|---|---|
@@ -344,7 +344,7 @@ joyful saturated primaries everywhere, symmetry, cartoon, anime, 3D render, phot
 | 1994 / 2004 | 《尖叫》两次被盗（均追回） | [R10] |
 | 2012 / 2021 | 1895 粉彩版拍出 1.199 亿美元 / 新馆 MUNCH 开馆（Bjørvika） | [R3][R10] |
 
-### 11.3 来源（12 条，2026-10-15 本机复核）
+### 11.3 来源（11 条，2026-10-15 本机复核）
 
 - [R1] munch.no 艺术家页 ✅ ・ [R2] munch.no 年表 ✅ ・ [R4] munch.no《The Scream》专题与《5 things》 ✅ ・ [R5] munch.no 藏品页（遗赠数字） ✅ ・ [R9] munch.no 技术专题（Vampire/hectograph） ✅
 - [R3] Wikipedia《Edvard Munch》 ✅（三手，交叉用）・ [R10] Wikipedia《The Scream》 ✅（三手，交叉用）・ [R13] en.wikiquote ✅（转引载体：Prideaux 2007 / Hodin 1956 等）

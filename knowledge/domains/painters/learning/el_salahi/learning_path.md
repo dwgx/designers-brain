@@ -20,13 +20,13 @@
 
 - **必读**：[el_salahi.md](../../dossiers/el_salahi.md) §0 元信息、§1 视觉指纹（12 条）、§4 六控制参数、§8.2 8 条可判定规则（`L227–240`）。
 - **卡片**：[el_salahi.md](../../modules/el_salahi.md)（压缩卡，§4/§8.1/§8.2 抽取一致）。
-- **语料**：[el_salahi.md](../../dossiers/_corpus/el_salahi.md)（引文逐条带回源；`[自述]` / `[reported speech]` 分级照用）。
+- **语料**：[el_salahi.md](../../dossiers/_corpus/el_salahi.md)（引文逐条带回源；`[self-spoken]` / `[reported speech]` / `[process record]` / `[third-party]` 分级照用）。
 - **诚实前提**：§4/§8.2 数值为 `[归纳]`、未像素实测（分母＝假想参考帧）；本片 `[推测]`=0。
 
 <a id="db-source-line-21"></a>
 ## 2. 重点作品及来源（沿用 AUDIT 逐行记录）
 
-- （见 dossier §0「关键作品」逐条带馆藏与 URL）
+- 重点作品 6 件（沿用 dossier §0）：Reborn Sounds of Childhood Dreams I（Tate T13979）· The Mosque（MoMA 7.1965）· They Always Appear（Tate T14388）· Untitled（Guggenheim Abu Dhabi）· Prison Notebook（MoMA 319.2017）· The Inevitable（Johnson Museum, Cornell）——馆藏逐条见 dossier §0（版权原因不嵌图）。
 
 > 权利信息沿用现有记录，本片不逐站复核许可页（`image_seen=0`, `read_scope=metadata`）。
 

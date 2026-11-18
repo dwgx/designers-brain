@@ -12411,9 +12411,39 @@
             "verification_scope": "Existing author/gate record reused; no new independent decoding in G5.",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "preserved-original-bytes",
+            "output_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+            "media_path": "experiments/motion_closure/media/MOTION-02.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-02/render.mjs",
+            "renderer_source_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Original source and MP4 bytes preserved; no new renderer execution claimed for these five cards."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -12462,7 +12492,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -12570,6 +12600,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -12629,7 +12671,7 @@
           "current_review_verdict_label": "accepted",
           "actual_route": "local_procedural_raster",
           "media": {
-            "dimensions": "960x540",
+            "dimensions": "1920x1080",
             "frames": 300,
             "fps": 30,
             "duration_seconds": 10,
@@ -12642,9 +12684,39 @@
             "matching_video_sha256": "ae6b83b9b9868d9b2b1841b806ce5b9e8372e78607366bb6da406e676308f005",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "native-1920x1080-current",
+            "output_sha256": "2a48c5564f950443a694413434b59cb4d957dca5e4e78fcaadb8f19dbfa1df34",
+            "media_path": "experiments/motion_closure/media/MOTION-03.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-03/render.py",
+            "renderer_source_sha256": "8497f7d577c4d2c73791de8311f34893db62756d655c99a1bc17237790dce162",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Seven final renderers generated native 1920x1080 frames; Node/Python/Pillow and recorded font SHA dependencies required. Fresh-process non-contiguous frames matched."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -12693,7 +12765,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -12801,6 +12873,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -12860,7 +12944,7 @@
           "current_review_verdict_label": "accepted",
           "actual_route": "local_procedural_raster",
           "media": {
-            "dimensions": "640x360",
+            "dimensions": "1920x1080",
             "frames": 300,
             "fps": 30,
             "duration_seconds": 10,
@@ -12873,9 +12957,39 @@
             "matching_video_sha256": "1fe611fe20693709373ccddc9070cae8df509909beba0a5a0174208c4b386b5c",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "native-1920x1080-current",
+            "output_sha256": "7c2cb752f390629abf32ffdcfdeb133a7134473c75f4486c9bcd9f6844195d80",
+            "media_path": "experiments/motion_closure/media/MOTION-04.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-04/render.js",
+            "renderer_source_sha256": "53670d3ac6fde7ca9fc22488ce39b78eb5d65f87d7e9bc36865f5026d04042a8",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Seven final renderers generated native 1920x1080 frames; Node/Python/Pillow and recorded font SHA dependencies required. Fresh-process non-contiguous frames matched."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -12924,7 +13038,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -13032,6 +13146,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -13091,7 +13217,7 @@
           "current_review_verdict_label": "accepted",
           "actual_route": "local_procedural_raster",
           "media": {
-            "dimensions": "640x360",
+            "dimensions": "1920x1080",
             "frames": 300,
             "fps": 30,
             "duration_seconds": 10,
@@ -13104,9 +13230,39 @@
             "matching_video_sha256": "ce52aba1bf0870a5a7e93d220e277a99d45b819cf28a2a75283ec3206ae1b1c4",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "native-1920x1080-current",
+            "output_sha256": "ca7a6f7e0b3a11b8ac71de02e09015ff8be19c6dcaa75c6c656753c588745ae1",
+            "media_path": "experiments/motion_closure/media/MOTION-05.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-05/render.js",
+            "renderer_source_sha256": "882d2505eff9c525fa74cf93cd93ccad15d6adbe6a10d02fce9759505ed707ca",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Seven final renderers generated native 1920x1080 frames; Node/Python/Pillow and recorded font SHA dependencies required. Fresh-process non-contiguous frames matched."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -13155,7 +13311,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -13263,6 +13419,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -13322,7 +13490,7 @@
           "current_review_verdict_label": "accepted",
           "actual_route": "local_procedural_raster",
           "media": {
-            "dimensions": "640x360",
+            "dimensions": "1920x1080",
             "frames": 300,
             "fps": 30,
             "duration_seconds": 10,
@@ -13335,9 +13503,39 @@
             "matching_video_sha256": "b23a53013411c62e83cd76dc0635b5a1bd0058d0670fa97a27857543e5e10c94",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "native-1920x1080-current",
+            "output_sha256": "d37d758a87c6fe064999519b92f45a3f85650e385414cfb64aaf54cb38ffd976",
+            "media_path": "experiments/motion_closure/media/MOTION-06.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-06/render.js",
+            "renderer_source_sha256": "ec68f579afe1f7dbd588d8036b116865348bf50ebec23ec0d0ff01b815ad69ff",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Seven final renderers generated native 1920x1080 frames; Node/Python/Pillow and recorded font SHA dependencies required. Fresh-process non-contiguous frames matched."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -13386,7 +13584,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -13494,6 +13692,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -13553,7 +13763,7 @@
           "current_review_verdict_label": "accepted",
           "actual_route": "local_procedural_raster",
           "media": {
-            "dimensions": "640x360",
+            "dimensions": "1920x1080",
             "frames": 300,
             "fps": 30,
             "duration_seconds": 10,
@@ -13566,9 +13776,39 @@
             "matching_video_sha256": "772b26b5b3695e43a329e54f33287b48948bf4bfb9ce31e175ca5673f80010a9",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "native-1920x1080-current",
+            "output_sha256": "ef955281b1a5ef82c3cf97b6cfc74476552ac707038c03ed8b6f8c7b2d1b7e42",
+            "media_path": "experiments/motion_closure/media/MOTION-07.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-07/render.js",
+            "renderer_source_sha256": "8addb10cf26c18d0b4959b51c5bc1a96cbe614415d5f4b3feef8d4e2beb6f5f1",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Seven final renderers generated native 1920x1080 frames; Node/Python/Pillow and recorded font SHA dependencies required. Fresh-process non-contiguous frames matched."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -13617,7 +13857,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -13725,6 +13965,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -13784,7 +14036,7 @@
           "current_review_verdict_label": "accepted",
           "actual_route": "local_procedural_raster",
           "media": {
-            "dimensions": "640x360",
+            "dimensions": "1920x1080",
             "frames": 300,
             "fps": 30,
             "duration_seconds": 10,
@@ -13797,9 +14049,39 @@
             "matching_video_sha256": "e2c866bae3b5d37ee56431396b98e621c6e05438ed1d2e1231cd1287243bc67b",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "native-1920x1080-current",
+            "output_sha256": "553e3335f20571a561800cbd8e208b26af945d2ee39e2e23743797d776bd5e57",
+            "media_path": "experiments/motion_closure/media/MOTION-09.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-09/render.js",
+            "renderer_source_sha256": "dbff6af27a11ec3ad928fc7f633178ef06fb2453b115cda27d7c016773a010a0",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Seven final renderers generated native 1920x1080 frames; Node/Python/Pillow and recorded font SHA dependencies required. Fresh-process non-contiguous frames matched."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -13848,7 +14130,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -13956,6 +14238,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -14028,9 +14322,39 @@
             "matching_video_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "preserved-original-bytes",
+            "output_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+            "media_path": "experiments/motion_closure/media/MOTION-10.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-10/render.js",
+            "renderer_source_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Original source and MP4 bytes preserved; no new renderer execution claimed for these five cards."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -14079,7 +14403,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -14187,6 +14511,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -14260,9 +14596,39 @@
             "verification_scope": "Existing author/gate record reused; no new independent decoding in G5.",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "preserved-original-bytes",
+            "output_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+            "media_path": "experiments/motion_closure/media/MOTION-12.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-12/render.py",
+            "renderer_source_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Original source and MP4 bytes preserved; no new renderer execution claimed for these five cards."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -14311,7 +14677,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -14419,6 +14785,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -14491,9 +14869,39 @@
             "matching_video_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": false,
+            "generation": "preserved-original-bytes",
+            "output_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+            "media_path": "experiments/motion_closure/media/MOTION-13.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-13/render.js",
+            "renderer_source_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Original source and MP4 bytes preserved; no new renderer execution claimed for these five cards."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -14542,7 +14950,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -14650,6 +15058,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -14709,7 +15129,7 @@
           "current_review_verdict_label": "accepted",
           "actual_route": "local_procedural_raster",
           "media": {
-            "dimensions": "960x540",
+            "dimensions": "1920x1080",
             "frames": 300,
             "fps": 30,
             "duration_seconds": 10,
@@ -14722,10 +15142,39 @@
             "matching_video_sha256": "f68716774fbef245e598d05543eaaac7d767759b8c7dd44864576c251353defe",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "generation": "native-1920x1080-current",
+            "output_sha256": "763bd4a5d7e1cf986bf8d0d337ddb3f8e5e366a5d9bb9640e3dbb94ed52452a3",
+            "media_path": "experiments/motion_closure/media/MOTION-14.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-14/render.py",
+            "renderer_source_sha256": "9fe0628daaf02250b5f22b984101bde9a022dea1f39a675f87b6e7efb61e169d",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Seven final renderers generated native 1920x1080 frames; Node/Python/Pillow and recorded font SHA dependencies required. Fresh-process non-contiguous frames matched."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
-            "Metadata proportionality does not certify final viewport pixel lengths; tiny bars have a declared minimum visible width. End hold is 10/30 s, not 1 s."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -14774,7 +15223,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification. Metadata proportionality does not certify final viewport pixel lengths; tiny bars have a declared minimum visible width. End hold is 10/30 s, not 1 s.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -14882,6 +15331,18 @@
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
+                }
               ]
             },
             "blender": {
@@ -14954,10 +15415,39 @@
             "matching_video_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
             "new_decode": false
           },
+          "closure_decode": {
+            "scope": "Current delivered bytes; original G5 receipt fields above remain historical.",
+            "new_decode": true,
+            "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+            "decoded_frames": 300,
+            "dimensions_set": [
+              [
+                1920,
+                1080
+              ]
+            ],
+            "fps": 30,
+            "duration_seconds": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": false,
+            "generation": "preserved-original-bytes",
+            "output_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+            "media_path": "experiments/motion_closure/media/MOTION-15.mp4",
+            "renderer_path": "experiments/motion_closure/sources/MOTION-15/render.py",
+            "renderer_source_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+            "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+            "basis": "Full FFmpeg EOF decode with per-frame PTS/dimensions; actual Chrome playback and four measured seeks per card.",
+            "verification_report": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+            "browser_report": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+            "superseded_claim": "docs/audit/closure-20261118/SUPERSEDED-CAPABILITY-CLOSURE.json",
+            "native_renderer_reproduction": "Original source and MP4 bytes preserved; no new renderer execution claimed for these five cards."
+          },
           "limitations": [
-            "Local procedural raster output does not establish the browser/compositor web route.",
-            "Silent delivery and original card/content limitations are retained; full duration is not full-card certification.",
-            "S32 reviewed documentary interpretation covers V2/V3/V8 shared-predicate controls only; the other five historical checks are not newly certified as equivalent mutated-input controls. Original accepted bytes and execution times are preserved."
+            "Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos.",
+            "Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification.",
+            "New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered."
           ],
           "capabilities": {
             "image": {
@@ -15006,7 +15496,7 @@
             },
             "web10s": {
               "state": "conditional",
-              "basis": "A source-bound 10-second media output and existing technical verification are preserved. Local procedural raster output does not establish the browser/compositor web route. Silent delivery and original card/content limitations are retained; full duration is not full-card certification. S32 reviewed documentary interpretation covers V2/V3/V8 shared-predicate controls only; the other five historical checks are not newly certified as equivalent mutated-input controls. Original accepted bytes and execution times are preserved.",
+              "basis": "Current source-bound 1920x1080 H.264 delivery: 300 decoded frames at 30 fps, actual Chrome playhead advance and four measured seeks. Actual browser playback and seek do not establish browser/compositor authorship of these local procedural raster videos. Silent media and original card/content/control limits remain; full duration and decode are not full-card or human aesthetic certification. New native sources have recorded font/helper dependencies; the five preserved media files are not newly rendered.",
               "claim_kind": "model_judgment",
               "support_status": "partial",
               "evidence": [
@@ -15113,6 +15603,18 @@
                   "access_status": "available",
                   "public_accessible": false,
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
+                }
+              ],
+              "closure_evidence": [
+                {
+                  "path": "experiments/motion_closure/evidence/INTEGRATION-VERIFY.json",
+                  "sha256": "34049693f5cff8163cde166c670cb011de238c4368dd811dce6ecf556a67baf3",
+                  "public_accessible": true
+                },
+                {
+                  "path": "experiments/motion_closure/evidence/BROWSER-STRICT.json",
+                  "sha256": "ea81d7dbeb4d6886631696adbdd11bc650c1e4b68acca47c352c80be5d8db1a7",
+                  "public_accessible": true
                 }
               ]
             },
@@ -16610,6 +17112,15 @@
                 }
               ]
             }
+          },
+          "closure_engineering": {
+            "scope": "Local synthetic E1 prototype; no author-algorithm, E2/E3, active-domain, image-service or human-aesthetic promotion.",
+            "source_path": "experiments/designer_seeds/ayushsoni_io/prototype/build.py",
+            "source_sha256": "7ee7e09b95f6046f026864ae91dd03ea7aa5473ba2114a58abe3e1f82a2e6e54",
+            "package_manifest": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+            "package_manifest_sha256": "6b1e67d2cf29d18802928138f323040ddca65119737877ddb30538c2ebb163fe",
+            "fresh_build_report": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+            "fresh_build_exit": 0
           }
         },
         {
@@ -16912,6 +17423,21 @@
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
               ]
+            }
+          },
+          "closure_engineering": {
+            "scope": "Local synthetic E1 prototype; no author-algorithm, E2/E3, active-domain, image-service or human-aesthetic promotion.",
+            "source_path": "experiments/designer_seeds/enigmatriz/prototype/build.py",
+            "source_sha256": "c83db6e9f654767771549a9a3fd4ca7ecdada65a4af79339b667edfe5ac0c20d",
+            "package_manifest": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+            "package_manifest_sha256": "6b1e67d2cf29d18802928138f323040ddca65119737877ddb30538c2ebb163fe",
+            "fresh_build_report": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+            "fresh_build_exit": 0,
+            "paired_fresh_process": {
+              "report": "docs/audit/closure-20261118/runtime/seed-determinism-final/RESULT.json",
+              "report_sha256": "fcb9550fcb9af546e8002c26c2283692d36bb77875c609ccdeb8df08390040ad",
+              "matching_outputs": 11,
+              "original_C6_null_preserved": true
             }
           }
         },
@@ -17216,6 +17742,21 @@
                 }
               ]
             }
+          },
+          "closure_engineering": {
+            "scope": "Local synthetic E1 prototype; no author-algorithm, E2/E3, active-domain, image-service or human-aesthetic promotion.",
+            "source_path": "experiments/designer_seeds/openprest/prototype/build.py",
+            "source_sha256": "37ccd7d8dc48fea4ef636f068655398d9fdb3a2ac2de789953ce293b7596bc3a",
+            "package_manifest": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+            "package_manifest_sha256": "6b1e67d2cf29d18802928138f323040ddca65119737877ddb30538c2ebb163fe",
+            "fresh_build_report": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+            "fresh_build_exit": 0,
+            "paired_fresh_process": {
+              "report": "docs/audit/closure-20261118/runtime/seed-determinism-final/RESULT.json",
+              "report_sha256": "fcb9550fcb9af546e8002c26c2283692d36bb77875c609ccdeb8df08390040ad",
+              "matching_outputs": 18,
+              "original_C6_null_preserved": true
+            }
           }
         },
         {
@@ -17518,6 +18059,21 @@
                   "access_note": "Owner-held verification record; bytes were read locally; not publicly downloadable."
                 }
               ]
+            }
+          },
+          "closure_engineering": {
+            "scope": "Local synthetic E1 prototype; no author-algorithm, E2/E3, active-domain, image-service or human-aesthetic promotion.",
+            "source_path": "experiments/designer_seeds/kail_designs/prototype/build.py",
+            "source_sha256": "c74f27b94bb381f27d74f4e2545f358e34f9d7dafd3dc8afe58ff5f812a3101b",
+            "package_manifest": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+            "package_manifest_sha256": "6b1e67d2cf29d18802928138f323040ddca65119737877ddb30538c2ebb163fe",
+            "fresh_build_report": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+            "fresh_build_exit": 0,
+            "paired_fresh_process": {
+              "report": "docs/audit/closure-20261118/runtime/seed-determinism-final/RESULT.json",
+              "report_sha256": "fcb9550fcb9af546e8002c26c2283692d36bb77875c609ccdeb8df08390040ad",
+              "matching_outputs": 18,
+              "original_C6_null_preserved": true
             }
           }
         },
@@ -17822,6 +18378,15 @@
                 }
               ]
             }
+          },
+          "closure_engineering": {
+            "scope": "Local synthetic E1 prototype; no author-algorithm, E2/E3, active-domain, image-service or human-aesthetic promotion.",
+            "source_path": "experiments/designer_seeds/AnnasXechoes/prototype/build.py",
+            "source_sha256": "d7f9587d6fba7348ef9a6ea66027e557b5dc9bd1f3d4f9b599eefc0a09a2f73a",
+            "package_manifest": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+            "package_manifest_sha256": "6b1e67d2cf29d18802928138f323040ddca65119737877ddb30538c2ebb163fe",
+            "fresh_build_report": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+            "fresh_build_exit": 0
           }
         },
         {
@@ -18125,6 +18690,15 @@
                 }
               ]
             }
+          },
+          "closure_engineering": {
+            "scope": "Local synthetic E1 prototype; no author-algorithm, E2/E3, active-domain, image-service or human-aesthetic promotion.",
+            "source_path": "experiments/designer_seeds/roktim___/prototype/build.py",
+            "source_sha256": "1e96f82ab9a04e176fc8a27d9feb1aa2c7e901cd9672cf04873646e4f56365c0",
+            "package_manifest": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+            "package_manifest_sha256": "6b1e67d2cf29d18802928138f323040ddca65119737877ddb30538c2ebb163fe",
+            "fresh_build_report": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+            "fresh_build_exit": 0
           }
         },
         {
@@ -18428,6 +19002,15 @@
                 }
               ]
             }
+          },
+          "closure_engineering": {
+            "scope": "Local synthetic E1 prototype; no author-algorithm, E2/E3, active-domain, image-service or human-aesthetic promotion.",
+            "source_path": "experiments/designer_seeds/xchylerdrenth/prototype/build.py",
+            "source_sha256": "cc3a554f5e119ad93bdc168fa706758d49ae46260898713ce5b4ea49cbf552a7",
+            "package_manifest": "experiments/designer_seeds/PACKAGE-MANIFEST.json",
+            "package_manifest_sha256": "6b1e67d2cf29d18802928138f323040ddca65119737877ddb30538c2ebb163fe",
+            "fresh_build_report": "docs/audit/closure-20261118/runtime/foundation-final-run/RESULT.json",
+            "fresh_build_exit": 0
           }
         }
       ],
@@ -18564,10 +19147,17 @@
     }
   },
   "limitations": [
-    "No new media rendering, decoding, scientific experiment, image service probe or human aesthetic test in this build.",
+    "The original G5 generation did not render or decode media. The separate 2026-11-18 closure revision records actual local builds, full media decodes and browser probes; it does not establish human learning/aesthetic effects.",
     "Image-channel failures retain their original observation time; unrelated later text-route failures do not prove current image-channel availability.",
     "Private source IDs retain exact hashes and explicitly restricted accessibility; they are not public downloads.",
     "Pending documentary or integration gates are not converted to accepted.",
     "Natural-language learning effects, designer-algorithm attribution and rights are not upgraded."
-  ]
+  ],
+  "closure_revision": {
+    "reviewed_at_utc": "2026-11-17T23:26:38.631471+00:00",
+    "baseline": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+    "report": "docs/audit/closure-20261118/REVIEW.md",
+    "capability_states_unchanged": true,
+    "scope": "Engineering completion and corrected disclosure; not blanket E4, E2/E3 or human acceptance. Final commit and fresh-clone gate are recorded externally in the release and FINAL-GATE.json."
+  }
 }

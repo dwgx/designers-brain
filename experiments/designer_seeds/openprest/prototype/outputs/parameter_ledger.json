@@ -1,0 +1,196 @@
+{
+ "constant_across_all_settings": {
+  "glyph_masks": {
+   "A": [
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "H": [
+    [
+     0,
+     0
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     0,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ]
+  },
+  "grid_cell_px": 16,
+  "origins": {
+   "A": [
+    20,
+    14
+   ],
+   "H": [
+    120,
+    14
+   ]
+  },
+  "canvas": [
+   220,
+   140
+  ],
+  "primitive_family": "filled_circle_dot",
+  "n_settings": 3
+ },
+ "varied_dimension": "radius_px ONLY (one dot primitive family)",
+ "settings": [
+  {
+   "id": "s1",
+   "radius_px": 2
+  },
+  {
+   "id": "s2",
+   "radius_px": 4
+  },
+  {
+   "id": "s3",
+   "radius_px": 7
+  }
+ ],
+ "bad_case": {
+  "id": "bad_grid_offset",
+  "changed": [
+   "half-cell offset",
+   "unregistered radius"
+  ]
+ },
+ "small_size_case": {
+  "cell_px": 4,
+  "canvas": [
+   60,
+   40
+  ]
+ }
+}

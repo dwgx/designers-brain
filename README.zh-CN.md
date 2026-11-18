@@ -10,13 +10,17 @@ Translation update: 2026-11-15 — learning navigation, capability scope and hos
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE)
 
+## 当前收口审阅 — 2026-11-18
+
+[查看实际交付](docs/REVIEW-START-HERE.md) · [完整审计与剩余边界](docs/audit/closure-20261118/REVIEW.md)。当前包包含12段完整解码视频、3个可运行UI案例、7个E1原型和修正后的学习导航。新消费者试验过程完成、案例失败；23个人评位置仍留空。工程交付不等于学习效果或审美全面通过。
+
 ## 这是什么
 
 把这个仓库交给一个 AI agent，它就会变成一位设计顾问：先问对问题，从已蒸馏的库中推荐风格，组合前先查冲突，产出带证据的结果——图像提示词、10 秒网页动画，或 Blender 任务书。
 
 内容一览：
 
-- **76 份画家档案**（达·芬奇、米开朗基罗、梵高、莫奈、毕加索、塞尚、马蒂斯、葛饰北斋、卡拉瓦乔、维米尔、丢勒等）——每份约 300–600 行证据、2044 条带来源引文、739 件来源图像：**701 件公有领域 / CC0 ＋ 38 件开放许可、须逐张署名**（见 [NOTICE.md](NOTICE.md)）。*（PRE 里程碑口径，保留备查：62 份 / 1613 条 / 618 件——原先「图像全部为公有领域」的说法对其中 38 件不成立。）*
+- **76 份画家档案**、**2044 条带来源引文**及 **739 个分发 JPG 文件**。文件级保守分类为：**39 件需署名、699 件为未列署名条件的已识别 PD/CC0 标签、1 件取决于司法辖区**。历史 701/38 是作品层 manifest 标签计数，不能理解成免署名文件数。详见 [NOTICE](NOTICE.md#images) 和[逐文件权利清单](knowledge/domains/painters/dossiers/_images/rights-file-level.json)。
 - **76 张可组合模块卡** + **15 张动态图形风格卡**（10 秒动画骨架）。*（PRE：62 张。）*
 - **跨模块规则**：18 条冲突条目（C-01–C-18）+ 组合规则 N1–N9。
 - **一个 skill**（`skills/designers-brain/`），实现「先问再设计」的顾问协议。
@@ -92,4 +96,4 @@ templates/    module / style-card / determinism / design-brief templates
 
 内容与文档：[CC BY 4.0](LICENSE)。代码：[MIT](LICENSE-CODE)。第三方：见 [NOTICE.md](NOTICE.md)。
 
-图像许可**并不统一**：739 件来源图像中 701 件为公有领域或 CC0，38 件为开放许可（CC BY 3.0/4.0、CC BY-SA 3.0/4.0、ColBase 规约、台北故宫开放资料），再分发时**必须保留逐张署名行**。类别与署名要求见 [NOTICE.md](NOTICE.md#images-not-pdcc0-38)。
+图像许可**并不统一**：请按[逐文件权利清单](knowledge/domains/painters/dossiers/_images/rights-file-level.json)判断。39 件需署名；699 件带已识别 PD/CC0 标签且未列署名条件；`klimt/the_kiss.jpg` 保留司法辖区条件。画作与照片/扫描文件的权利须分别看待。本项目不替使用者选定辖区。详见 [NOTICE](NOTICE.md#images)。

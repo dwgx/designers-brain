@@ -6,7 +6,7 @@
 > **task_id:** LEARN-matisse · **lane:** learning · **repo:** READ-ONLY @ `f008952365a77e140cbda3f3959d43ef000f9a22`
 > **契约来源:** 00-GOAL.md §8.1（A-30）、02-EXECUTION-PLAN.md Lane B（L62-66）、本次交办（强调项、冲突行、P4 边界注、练习阶梯）
 > **底本:** dossier `matisse.md`（§4 L76-88 / §8.2 L184-194 / §8.1 L156-182 / §1 L25-38 / §2 L42-53 / §3 L57-67 / §12 L354-408）、module card `matisse.md`（同一内容逐字一致，AUDIT-matisse C01/C02）、`conflicts.md`、`expansion.md`。`⟨Lxx⟩` 对应 [claim_evidence_map.md](claim_evidence_map.md) 断言编号。
-> **级别纪律:** §4 六参数与 §8.2 八规则均为 `[归纳]`（dossier 表头与 AUDIT-matisse C14）；§8.2 的 7 条量化阈值额外标 `[UNVERIFIED]`（未做像素实测，dossier §10-6 L239 / 自审 D L467）。练习为**建议练习**，效果未经人评。
+> **级别纪律:** §4 六参数与 §8.2 八规则均为 `[归纳]`（dossier 表头与 AUDIT-matisse C14）；§8.2 的 8 条量化阈值额外标 `[UNVERIFIED]`（未做像素实测，dossier §10-6 L239 / 自审 D L467）。练习为**建议练习**，效果未经人评。
 
 ---
 
@@ -107,7 +107,7 @@
 <a id="db-source-line-97"></a>
 ## F. 诚实限制
 
-1. §4 / §8.2 全为 `[归纳]`；§8.2 的 7 条量化阈值 `[UNVERIFIED]`（未像素实测、未用真实渲染器跑过，dossier §10-6 L239 / 自审 D L466-467；AUDIT-matisse claims.csv C14）⟨L49⟩。
+1. §4 / §8.2 全为 `[归纳]`；§8.2 的 8 条量化阈值 `[UNVERIFIED]`（未像素实测、未用真实渲染器跑过，dossier §10-6 L239 / 自审 D L466-467；AUDIT-matisse claims.csv C14）⟨L49⟩。
 2. 本 leaf **未做视觉图像检视**（`image_seen=0`）、未重新抓取外部 URL、未复核外部许可有效性（AUDIT-matisse coverage-manifest.json honest_limits）⟨L22⟩⟨L55⟩。
 3. 练习效果**未经真人完成或评价**，全部为建议练习；模型/脚本自查不是人评（01-AUDIT.md §8.1 L271-273 / §8.4 L308）⟨L51⟩。
 4. 7/7 定位漂移、near-miss「8→11」计数漂移、§11.2 标题「46→54」漂移**由 AUDIT-matisse 报告、本 leaf 只读不修**（写权限仅 内部证据 8c2e6e145add7078（未公开；来源记录由维护者保留））⟨L32⟩⟨L33⟩⟨L34⟩。

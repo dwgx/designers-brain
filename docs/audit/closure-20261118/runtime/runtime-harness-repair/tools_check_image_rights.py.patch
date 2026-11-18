@@ -1,0 +1,13 @@
+--- a/tools/check_image_rights.py
++++ b/tools/check_image_rights.py
+@@ -261,6 +261,10 @@
+ 
+ 
+ def main(argv: list[str] | None = None) -> int:
++    # Preserve diagnostic errors on Windows redirected consoles (default cp1252).
++    for stream in (sys.stdout, sys.stderr):
++        if hasattr(stream, "reconfigure"):
++            stream.reconfigure(encoding="utf-8")
+     ap = argparse.ArgumentParser(description="Check file-level image rights classification.")
+     ap.add_argument("--json", type=Path, default=DEFAULT_JSON)
+     ap.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)

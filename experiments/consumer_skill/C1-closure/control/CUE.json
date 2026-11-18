@@ -1,0 +1,13 @@
+{
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "binding_sha256": "5e0bdad6fad5c3186a97b5ca0cb0f7c70aa06c36cbbf8cb4f0e2e8e045aa8744",
+  "head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "a_manifest_sha256": "71aca3c882baec41f95ab0ba4d318d53de55531afe1eab2765b22b3135a13f73",
+  "a_seal_sha256": "a55707e9e327905c3e3756640de306ffaea135e14c095c0a05da807246bc7efd",
+  "issued_at_utc": "2026-11-17T22:57:42.192840+00:00",
+  "hint_level": 2,
+  "instructions": "继续 Stage B，A 永不改写。先按原协议验证 A-SEAL/CUE、A全部SHA、binding与冻结输入；验证前不要读取本instructions。此CUE是root明确提示，hint_level=2（提供作品分组、限定评价范围与像素检查程序要求），不得写成无提示泛化。\n\n任务保持你的 Stage A 自主选择：把三值起稿中的“受光结构—背光失边—视觉重心”关系迁移到你自己选择的第二个新题材。先实际渲染已封存A SVG为PNG并目检；源A不可改。若有缺陷，在B说明。第二题材先写焦点/边缘位置与规格，再生成SVG并渲染为PNG。两图都要实际view_image或等价看图，不能用SVG存在替代看图。使用已有本地渲染库，无图像生成API。\n\n参考作品分组由root在像素验证前指定，family ID是本试验标识，不冒充馆方版本族：train ML（蒙娜丽莎、卢浮宫INV779），control VM（维特鲁威人、威尼斯学院228），holdout LS（最后的晚餐、米兰恩宠圣母修道院）。同作品裁切/调色/复制图保持同组，不用不同SHA证明独立；不声称基础模型从未见过名画。\n在冻结快照的 knowledge/domains/painters/dossiers/_images/da_vinci/ 下：\nmona_lisa.jpg SHA 7e9ae6a809b7db96c012d598cc8a557843628ba17a994900bf9dfde1b8a67510，1208x1800；\nvitruvian_man.jpg SHA 563efd63847227bc345bff2c736ef2ca81eb49afbb62aab4ea14a28161c1945b，1324x1800；\nlast_supper.jpg SHA a4d821e77ff39b9ace4bcc68bb4e44b10f61fdda079851086e98d7e5db317c2a，1800x944。\n请实际核SHA和查看ML、VM；在第二题材SVG与规格写定并记录其SHA后，才打开LS像素，随后不改二题SVG来迎合留出。LS摄影文件按既有manifest为LoganTheWatermelon/CC BY-SA4.0，保持来源与署名；不要复制到新的不明许可目录。可用原公共库路径作为证据，不需要再打包三图。\n\nH1只评两份真实产物中的关系实现与差异，H2评你是否把线描/不同材质/壁画损伤的适用范围讲清。LS是跨题材与材料的压力观察，未预标为同域sfumato正例。三张图不能支持全库、因果学习、作者心理或真人学习有效性。不能因照片或定义缺少现成family_id再次技术性blocked：上面的分组与未知范围已经明示。\n\n测量前先在B写并冻结measurement-plan.json与检查代码SHA。保持960x640和你已选的三个RGB灰值；区分源SVG三色与PNG抗锯齿新增色。可检查真实SVG的fill/stroke与节点，PNG按最近灰值量化后报告三类面积、预先标注焦点ROI内明暗像素与对比、预先标注失边位置的像素邻接变化。不把RGB叫CIELAB L，不把局部机械指标叫视觉注意力或sfumato全规则通过。不要为通过更换ROI/阈值。至少一个真实坏例（在B复制品加入你明确要求消失的外轮廓，或破坏标注亮暗关系）应被相应具体检查拒绝；失败需具体错误，不能只认任意非零。这只验证检查器，不替代作品留出。\n\n新提示、实际读取/渲染/观察顺序、源/工具/输出SHA和真实UTC都记录在B；所有结果可为partial/failed，禁止改判据保绿。最终RESULT/receipt分别给protocol_complete、case_verdict与范围，遗留未测项/人评仍空。剩余总时限截至约2026-11-17T23:09:50Z，一次attempt收束。Root将看两张真实PNG并独立裁决。"
+}

@@ -82,7 +82,7 @@
 | PRACTICE-SUGGESTED | 练习是建议练习，非「已证实学习收益」 | design_candidate | 01-AUDIT.md §8.1 L273；human_review.status=not_applicable | not_applicable |
 | REVIEW-NULL | review:null / status=submitted / 作者不自接受 | submitted 口径 | 本 shard receipt.json | supported |
 | EXT-UNVERIFIED | 外部原文/[R#] URL/扫描件未逐字回源（离线只读本机） | unverified（外部） | AUDIT-sultan_mohammed/RESULT.md §2 / unresolved | unverified |
-| CONFLICTS-0 | conflicts.md 对 sultan_mohammed 关键词命中 1（§4 #10 L356：苏丹·穆罕默德 × 克里姆特，C-15/N6 金层口径），不虚构跨卡冲突 | [史料]本机 | AUDIT-sultan_mohammed/RESULT.md L16/L60（conflicts_rows_checked = 1，sultan 仅出现于 §4 #10 L356）；conflicts.md §4 #10 L356 | supported |
+| CONFLICTS-0 | conflicts.md 对 sultan_mohammed 关键词命中 1（§4 #10 L359：苏丹·穆罕默德 × 克里姆特，C-15/N6 金层口径），不虚构跨卡冲突 | [史料]本机 | AUDIT-sultan_mohammed/RESULT.md L16/L60（conflicts_rows_checked = 1，sultan 仅出现于 §4 #10 L359）；conflicts.md §4 #10 L359 | supported |
 
 ---
 <a id="db-source-line-78"></a>
@@ -96,7 +96,7 @@
 <a id="db-source-line-85"></a>
 ## §I 定位方法（照 AUDIT locator 纪律）
 - 所有 `文件 : 条号` 以基线 `f008952365a7…` 的 live 文件为准；开工 `sha256sum` 复核（RESULT §3）。[LEARN-sultan_mohammed]
-- `conflicts.md` 对 `sultan_mohammed` 命中 1（§4 #10 L356：苏丹·穆罕默德 × 克里姆特，C-15/N6 金层口径；沿用 AUDIT 记录），不虚构跨卡冲突、不擅自改文件；外部原文真伪标 unverified（外部）。[LEARN-sultan_mohammed]
+- `conflicts.md` 对 `sultan_mohammed` 命中 1（§4 #10 L359：苏丹·穆罕默德 × 克里姆特，C-15/N6 金层口径；沿用 AUDIT 记录），不虚构跨卡冲突、不擅自改文件；外部原文真伪标 unverified（外部）。[LEARN-sultan_mohammed]
 - 证据底本 内部证据 e318d683b74dd8f2（未公开；来源记录由维护者保留）（accepted）——本图复用其 locator 与分级口径，未重新盘点，未把 `[归纳]` 升格为实测。[LEARN-sultan_mohammed]
 
 ## 同一条目的附页

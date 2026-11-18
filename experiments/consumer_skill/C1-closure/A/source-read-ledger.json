@@ -1,0 +1,133 @@
+{
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "binding_sha256": "5e0bdad6fad5c3186a97b5ca0cb0f7c70aa06c36cbbf8cb4f0e2e8e045aa8744",
+  "head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "created_at_utc": "2026-11-17T22:55:49.301331+00:00",
+  "image_pixels_read": 0,
+  "all_read_blobs": [
+    {
+      "path": "knowledge/INDEX.md",
+      "bytes": 6834,
+      "sha256": "d4688562f5975fae9b4366b26dc536379f5db55bc0923f1bbdd224f58a91533e",
+      "git_blob_oid": "ffe0d71d8a25f81dddf0ee8275e828c01ba8b1fa",
+      "worktree_equals_head_blob": true,
+      "content_exposed": true,
+      "content_read_ranges": [
+        [
+          1,
+          96
+        ]
+      ]
+    },
+    {
+      "path": "knowledge/LEARNING-INDEX.json",
+      "bytes": 201763,
+      "sha256": "e6f801219dc3ab08a05b5a3b6a68a7e967f2d1dc3a2bc53e7c3fea3c5c74de73",
+      "git_blob_oid": "d59bb95daade4c2e26d70fe41e547b5d628f3fed",
+      "worktree_equals_head_blob": true,
+      "content_exposed": false,
+      "content_read_ranges": []
+    },
+    {
+      "path": "knowledge/domains/painters/learning/INDEX.md",
+      "bytes": 13423,
+      "sha256": "c24e16e7cbdca9b44bdc9143979ec9e18785a961b05d6fa3c92e3e95b8eb80fd",
+      "git_blob_oid": "9ae0e846d943e7ffb0d22b8f372bd150df178cd8",
+      "worktree_equals_head_blob": true,
+      "content_exposed": true,
+      "content_read_ranges": [
+        [
+          1,
+          133
+        ]
+      ],
+      "utc": "2026-11-17T22:51:47.667570+00:00"
+    },
+    {
+      "path": "knowledge/domains/painters/modules/README.md",
+      "bytes": 17492,
+      "sha256": "e98da3bceeda223521c52592ffa0c4e4a2d30ccc8c63d98bf75ba8c18a3663a3",
+      "git_blob_oid": "340e5a8ee65cfc0c80df348376011f27ff71f6c1",
+      "worktree_equals_head_blob": true,
+      "content_exposed": true,
+      "content_read_ranges": [
+        [
+          1,
+          80
+        ]
+      ],
+      "lines_total": 137,
+      "read_from": 1,
+      "read_through": 80,
+      "utc": "2026-11-17T22:52:06.945402+00:00"
+    },
+    {
+      "path": "skills/designers-brain/SKILL.md",
+      "bytes": 12531,
+      "sha256": "5043ac6f7daeaa6d067a26866efbc20c3bed79226573106f89d8253e41cf5362",
+      "git_blob_oid": "f41d764e6b0252d9f491138f765d48e2ecbe5795",
+      "worktree_equals_head_blob": true,
+      "content_exposed": false,
+      "content_read_ranges": []
+    },
+    {
+      "path": "skills/designers-brain/references/painter-modules.md",
+      "bytes": 2143,
+      "sha256": "96a83b91abed8cde77e26bd77b1328f2f810f5f5b8304f84f3c98f4ce46a0787",
+      "git_blob_oid": "45df3bd7e4da5db7c8e69ee6f48b09087a49e36a",
+      "worktree_equals_head_blob": true,
+      "content_exposed": true,
+      "content_read_ranges": [
+        [
+          1,
+          20
+        ]
+      ],
+      "utc": "2026-11-17T22:51:47.685799+00:00"
+    },
+    {
+      "path": "knowledge/domains/painters/learning/da_vinci/learning_path.md",
+      "bytes": 20154,
+      "sha256": "00a7010818682d14c14003f8e2ef06949ff25fb1bcc4ef1deca76986dde22730",
+      "lines_total": 162,
+      "read_from": 1,
+      "read_through": 162,
+      "utc": "2026-11-17T22:52:06.969349+00:00",
+      "content_exposed": true,
+      "content_read_ranges": [
+        [
+          1,
+          162
+        ]
+      ],
+      "worktree_equals_head_blob": true
+    },
+    {
+      "path": "knowledge/domains/painters/modules/da_vinci.md",
+      "bytes": 7644,
+      "sha256": "e6ad4d1b24b25994bfc4cc467677d1f323545e28bba17f1efd7428f8dcc88cc3",
+      "lines_total": 98,
+      "read_from": 1,
+      "read_through": 98,
+      "utc": "2026-11-17T22:52:06.991764+00:00",
+      "content_exposed": true,
+      "content_read_ranges": [
+        [
+          1,
+          98
+        ]
+      ],
+      "worktree_equals_head_blob": true
+    }
+  ],
+  "reading_boundary": "Only the six public entries and actual relative links from them. No old consumer, author hidden answer, other agent report, or other workspace analysis was opened.",
+  "transport_note": "The public-read-2 response display truncated a middle span. Learning-path lines 60–80 were then explicitly displayed from the original buffered response. No new or hidden source was fetched.",
+  "route": {
+    "link_id": "REDACTED_LINK_ID",
+    "deviceId": "REDACTED_DEVICE_ID"
+  },
+  "source_execution": "None. Only consumer-authored read-only git/hash/text commands ran against the snapshot; no repository script ran."
+}

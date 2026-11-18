@@ -1,0 +1,4 @@
+kail_designs build OK -> ROOT/web-review\foundation-final-run\seeds\kail_designs
+variants: 4 | exposure clip255: 0 -> 1113
+halo ring mean: 129.21 -> 155.13
+grain flat diff: 5.8671

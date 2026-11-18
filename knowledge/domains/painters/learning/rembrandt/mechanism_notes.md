@@ -76,6 +76,8 @@
 <a id="db-source-line-67"></a>
 ## C. near-miss 11 行 reality 与 L107「8 对」stale — **known-open，不作为缺陷关闭**（本次点名）
 
+> **2026-11-18 收口核验**：模块卡 L107 已于 2026-11-16（F01 计数更正）改为「near-miss 11 对」——本 known-open 已解决；下表保留为当时漂移记录。
+
 > 这是 AUDIT 判 **R-CF-02 `partial`** 的跨文件计数漂移；review-evidence.md §4 已独立复现并确认「drift real, correctly reported, not fixed — read-only lane respected」。本 LEARN shard **作为 known-open 携带，不修正、不关闭、不改写任何 repo 或 AUDIT 文件**。
 
 | 事实 | 实测 / 定位 | 判定 |

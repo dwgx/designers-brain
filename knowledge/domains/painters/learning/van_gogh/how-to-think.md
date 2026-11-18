@@ -115,7 +115,7 @@
 2. **再重算反约束**：N1 逐条「反约束 × 正向规则」标一致/冲突（`:305-306`）；§8.2-7 的「平滑渐变填充」是**梵高卡级**失败项，不是全局常量。
 3. **最后查双标准**：N9（`:332-333`）；「记录两套数字」不等于裁决。
 4. **L207/208 行号漂移（携带登记，不改仓库）**：`conflicts.md:168` 把梵高 §8.2-4「漩涡运动」标 `L205`、§8.2-5「星体规则」标 `L206`；**实测 dossier = L207 / L208**（本 lane `nl -ba` 实跑）。同类：C-05 `:114` 引 `L204/L208` → 实测 **L206/L210**；C-12 `:209` 引 `L203` → 实测 **L205**。规则编号与引号文本正确，仅行号 +2 偏移。AUDIT `claim_evidence_map.md:97-99` 已用实测行号、`review-evidence.md:42` 归为「同其它 lane 的 drift class」。**本卡全部 locator 用实测行号 + 子串**；该漂移与 A-34「原刊页码 ±1」是不同对象，不混称。
-5. **dual-account 双账户（携带登记，不消解）**：① 903 事实 `supported`（AVG-903-CLOSURE）与「收口」措辞 `partial`（AVG-903-CLOSURE-TEXTUAL-GAP）两账户并存、§10 L252 `[UNVERIFIED]` 与 §11.3 note 2「可据此收口」同时在档；② gate 复核 `receipt.json@0bf134e2…`（author `submitted`）→ verdict=accepted，当前 `receipt.json@181ec23a…` 升 `accepted` 是**同任务两阶段状态**；③ 三类状态分别保存（`05-RELEASE-ACCEPTANCE.md:34-38`），本 lane `submitted` 不自验收。这三是**诚实记录**，不是待合并错误——决策序不为它们伪造单一裁决。
+5. **dual-account 双账户（历史账户，已收口）**：① 903 事实 `supported`（AVG-903-CLOSURE）与「收口」措辞 `partial`（AVG-903-CLOSURE-TEXTUAL-GAP）两账户曾在档、§10 L252 原 `[UNVERIFIED]` 与 §11.3 note 2「可据此收口」并存——**F33（2026-11-16）已收口**（删除线保留历史）、note 2 已核实；② gate 复核 `receipt.json@0bf134e2…`（author `submitted`）→ verdict=accepted，当前 `receipt.json@181ec23a…` 升 `accepted` 是**同任务两阶段状态**；③ 三类状态分别保存（`05-RELEASE-ACCEPTANCE.md:34-38`），本 lane `submitted` 不自验收。这三是**诚实记录**，不是待合并错误——决策序不为它们伪造单一裁决。
 
 ---
 

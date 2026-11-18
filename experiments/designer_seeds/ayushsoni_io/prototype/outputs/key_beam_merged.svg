@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-vocab="beam" data-state="merged" data-ax="226.00" data-bx="286.00" data-connector-width="0.00">
+  <rect x="0" y="0" width="512" height="384" fill="#f2f3f2" data-role="background" />
+  <g data-role="objects">
+    <rect x="208.40" y="164.72" width="95.20" height="54.56" rx="27.28" fill="#5664c4" data-role="fused" data-from="A" data-to="B" />
+    <circle cx="226.00" cy="192" r="4" fill="#ffffff" data-role="fused-mark" data-atom="A" />
+    <circle cx="286.00" cy="192" r="4" fill="#ffffff" data-role="fused-mark" data-atom="B" />
+  </g>
+</svg>

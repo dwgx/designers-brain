@@ -1,0 +1,79 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "UI-02 A2 themes+density",
+  "version": "2025.10",
+  "description": "DTCG Resolver Module 2025.10. Demonstrates resolutionOrder (4.1.6), sets (4.1.4), modifiers with contexts (4.1.5), inputs (5), and the 6-stage resolution logic (6). Aliases MUST NOT be resolved until after ordering (6.3).",
+  "sets": {
+    "base": {
+      "description": "Baseline token set; last source in array wins on conflict (4.1.4).",
+      "sources": [
+        {
+          "color": {
+            "$type": "color",
+            "ink": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [0.1, 0.1, 0.12], "alpha": 1, "hex": "#1a1a1f" } },
+            "surface": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [1, 1, 1], "alpha": 1, "hex": "#ffffff" } },
+            "action": { "$type": "color", "$value": "{color.brand}" },
+            "brand": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [0.0, 0.4, 0.8], "alpha": 1, "hex": "#0066cc" } }
+          },
+          "size": {
+            "$type": "dimension",
+            "controlHeight": { "$type": "dimension", "$value": { "value": 44, "unit": "px" } }
+          }
+        }
+      ]
+    }
+  },
+  "modifiers": {
+    "theme": {
+      "description": "Light / dark / high-contrast color contexts. SHOULD have >=2 contexts (4.1.5.1).",
+      "default": "light",
+      "contexts": {
+        "light": [
+          {
+            "color": {
+              "$type": "color",
+              "ink": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [0.1, 0.1, 0.12], "alpha": 1, "hex": "#1a1a1f" } },
+              "surface": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [1, 1, 1], "alpha": 1, "hex": "#ffffff" } }
+            }
+          }
+        ],
+        "dark": [
+          {
+            "color": {
+              "$type": "color",
+              "ink": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [0.95, 0.95, 0.97], "alpha": 1, "hex": "#f2f2f7" } },
+              "surface": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [0.07, 0.07, 0.09], "alpha": 1, "hex": "#121217" } }
+            }
+          }
+        ],
+        "hc": [
+          {
+            "color": {
+              "$type": "color",
+              "ink": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [1, 1, 1], "alpha": 1, "hex": "#ffffff" } },
+              "surface": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [0, 0, 0], "alpha": 1, "hex": "#000000" } },
+              "brand": { "$type": "color", "$value": { "colorSpace": "srgb", "components": [1, 1, 0], "alpha": 1, "hex": "#ffff00" } }
+            }
+          }
+        ]
+      }
+    },
+    "density": {
+      "description": "Compact vs comfortable control sizing. default MUST match a context key (4.1.5.3).",
+      "default": "comfortable",
+      "contexts": {
+        "comfortable": [
+          { "size": { "$type": "dimension", "controlHeight": { "$type": "dimension", "$value": { "value": 44, "unit": "px" } } } }
+        ],
+        "compact": [
+          { "size": { "$type": "dimension", "controlHeight": { "$type": "dimension", "$value": { "value": 24, "unit": "px" } } } }
+        ]
+      }
+    }
+  },
+  "resolutionOrder": [
+    { "$ref": "#/sets/base" },
+    { "$ref": "#/modifiers/theme" },
+    { "$ref": "#/modifiers/density" }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "method": "CDP Input.imeSetComposition + Input.dispatchKeyEvent",
+  "realBrowser": true,
+  "isSyntheticJsKeydown": false,
+  "harnessGate": true,
+  "recordedUtc": "2026-11-17T22:14:18.192209+00:00",
+  "fixtureSha256": "0fba917aeb90b6c505440ea0f0ac70db929599daa7fafedc80565e5dedfd623b",
+  "driverSha256": "edffc887ce3e635e047583d5a8fda69b211bca63e8fd626ebe63d5b8e3e00bd5",
+  "supportHashes": {
+    "cdp_util.py": "35bf473e95c70a92f32e9a5b1d57830cd839772ae226e2e64ef41ded0a30c379",
+    "chrome_util.py": "ca1ef06d85f47c0afc24987b3f260c51f6c2f42688f3661d0e0b862873bbfeac"
+  },
+  "untested": [
+    "OS-native CJK IME / candidate window",
+    "locale-specific IME quirks",
+    "human aesthetic judgement"
+  ],
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+  "browserVersion": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/157.0.8103.79",
+    "revision": "@6dc9bc3bdaea5c35ed6d41fceab2f7a3a2227c4f",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "jsVersion": "15.7.112.43"
+  },
+  "transport": "websocket-client",
+  "tabSequenceObserved": [
+    "field-name",
+    "field-email",
+    "toolbar-bold",
+    "compose"
+  ],
+  "focusObserved": {
+    "id": "compose",
+    "focusVisible": true,
+    "outline": "solid",
+    "width": 2
+  },
+  "tabFocusPassed": true,
+  "resetBefore": 1,
+  "resetAfter": 0,
+  "resetControlPassed": true,
+  "compositionStartFired": true,
+  "compositionEndFired": true,
+  "enterDuringComposition_isComposing": true,
+  "enterDuringComposition_keyCode": 13,
+  "enterAfterComposition_isComposing": false,
+  "compositionStateEnded": true,
+  "sendFiredDuringComposition": false,
+  "sendFiredAfterComposition": true,
+  "sendCountDuringComposition": 0,
+  "sendCountAfterComposition": 1,
+  "sendDeltaAfterComposition": 1,
+  "capturedKeydownDuring": {
+    "isComposing": true,
+    "key": "Enter",
+    "keyCode": 13
+  },
+  "capturedKeydownAfter": {
+    "isComposing": false,
+    "key": "Enter",
+    "keyCode": 13
+  },
+  "fixtureEventLog": "compositionstart data=\"\"\ncompositionupdate data=\"nihao\"\nbeforeinput isComposing=true data=\"nihao\"\ninput isComposing=true data=\"nihao\"\ncompositionupdate data=\"ni hao\"\nbeforeinput isComposing=true data=\"ni hao\"\ninput isComposing=true data=\"ni hao\"\nkeydown key=Enter isComposing=true keyCode=13 composing=true\n  -> GATED (IME confirmation; send NOT fired)\ncompositionupdate data=\"你好\"\nbeforeinput isComposing=true data=\"你好\"\ninput isComposing=true data=\"你好\"\ncompositionend data=\"你好\"\nkeydown key=Enter isComposing=false keyCode=13 composing=false\n",
+  "exitCode": 0
+}

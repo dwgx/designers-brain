@@ -1,0 +1,87 @@
+{
+  "case_id": "C2",
+  "attempt_id": "P4R-C2-20261117T123432",
+  "stage": "A_unaided_first_answer",
+  "author_clock_utc": "2026-11-17T12:36:20.568553+00:00",
+  "clock_source": "local python datetime.datetime.now(timezone.utc); author self-reported, NOT a Root observation",
+  "first_choice": {
+    "id": "no-flicker-annotation-role-hierarchy",
+    "summary": "Choose a settled (non-animated / non-flickering) information layout whose reading order is carried by explicit annotation ROLES (readable data value / illustrative decoration / no-label baseline) and a measurable static salience budget, not by style tokens and not by temporal blinking. Output a deterministic HTML layout plus a JSON spec and a small local self-check.",
+    "why_this_is_my_actual_first_choice": [
+      "The hard task constraints are a NEW subject, UNCLEAR information hierarchy, and a ban on high-frequency flicker. A no-flicker scheme satisfies the <=3 Hz rule with zero flashing elements (0 Hz everywhere), removing the need to budget a temporal frequency I cannot verify without a render channel.",
+      "The unclear-hierarchy problem is structural, not stylistic: conflicts.md N4 says rules acting on the same pixel statistic are non-separable, while separable object CLASSES can be split with an explicit ownership table (N3) and per-layer budgets (N8/C-09). The three annotation roles are exactly three separable object classes.",
+      "The roktim___ seed mechanism_summary in CAPABILITIES.json literally separates 'readable data values, illustrative decoration and no-label baseline' — a role-based (semantic) hierarchy, which is the natural counter-example to a 'pure style' verdict.",
+      "Determinism contract C1-C8 (no real-time clocks, pure function of time, no CSS transitions, seeded randomness only) is satisfiable with a STATIC layout without any capture harness or image-generation service, all of which are unavailable in Stage A."
+    ],
+    "mechanism": {
+      "name": "annotation-role salience ownership",
+      "source_locators": [
+        "knowledge/CAPABILITIES.json (roktim___ handle entry ~L17828-17841, mechanism_summary 'Synthetic SVG annotation roles separating readable data values, illustrative decoration and no-label baseline.')",
+        "knowledge/cross/conflicts.md C-09 L166-177 (event-region vs atmosphere-layer; 运动区域数; per-layer budget)",
+        "knowledge/cross/conflicts.md N3 L314-315 (axis ownership table), N4 L317-318 (separable by object class + explicit partition), N8 L332-333 (motion budget field)",
+        "templates/determinism_contract.md C1-C8 L12-30 (no clocks / pure function of t / seekable / seeded only)",
+        "knowledge/domains/motion-graphics/cards/structure.md L15-17, L23-27 (quantified rules + anti-degeneration constraints + verification anchor)"
+      ],
+      "definition": "Assign each visible element exactly one of three roles. Only the readable data value may hold the single highest-salience slot. Salience is a declared, computable function of static, per-slot numbers (contrast ratio, area fraction, weight, accent flag) — never of temporal frequency. Keeping style tokens (palette, typeface, spacing) IDENTICAL while changing only the semantic role-to-slot binding is the contrast that can refute a 'pure style' explanation."
+    },
+    "flicker_policy": {
+      "uses_flicker": false,
+      "flashing_elements": 0,
+      "max_frequency_hz": 0,
+      "constraint": "<= 3 Hz for every flashing element; satisfied by having NO flashing or animated element (all frequencies 0 Hz). No opacity toggling, no keyframe animation, no CSS transition, no requestAnimationFrame.",
+      "why_allowed": "The task explicitly allows choosing a no-flicker scheme."
+    },
+    "artifacts": [
+      "A/layout.json",
+      "A/layout.html",
+      "A/check_layout.py",
+      "A/check-output.json"
+    ],
+    "contrast_that_refutes_pure_style": {
+      "held_constant": "palette, type family, spacing scale, slot set (S1/S2/S3 with fixed contrast/area/weight/accent numbers)",
+      "changed": "only the binding of semantic role -> slot",
+      "role_based_variant": "readable data value -> S1 (top salience); illustration -> S2; no-label baseline -> S3",
+      "pure_style_variant": "illustration -> S1; readable data value -> S2; no-label baseline -> S3 (identical style vocabulary)",
+      "prediction": "If legibility were pure style, both variants would read identically. The check measures which ROLE occupies the top-salience slot: role_based => data_value (PASS); pure_style => illustration (FAIL). A legibility difference under constant style but changed role binding refutes 'pure style'. This is a MECHANICAL/declared contrast, NOT a human reading test."
+    }
+  },
+  "alternatives_considered_and_not_chosen": [
+    {
+      "id": "van_gogh_starfield_flicker",
+      "what": "Use C-09 / van Gogh star rule 'flicker period 0.8-1.5 s' (0.67-1.25 Hz, formally <=3 Hz) plus full-field swirl as the attention mechanism.",
+      "why_not": "Full-field motion is exactly what conflicts.md C-09 contrasts with a single event region; adding a field of moving stars to an ALREADY unclear hierarchy increases motion noise rather than clarifying read order. structure.md requires motion to serve the verification anchor, not obscure it. Needs a render channel I do not have in Stage A (CAPABILITIES: supported=0; van Gogh web10s=untested). Not chosen even though its period would pass 3 Hz."
+    },
+    {
+      "id": "hud_alert_state_color_flip",
+      "what": "07 sci-fi HUD style 'state change repaints whole scene cyan->warm' (mg-styles-15 compare L88).",
+      "why_not": "A state-driven repaint is a temporal event whose repeat rate is unspecified; enforcing <=3 Hz would require a frame budget and a capture harness I cannot verify here. It is also itself a style pattern, i.e. the very thing under test, so it cannot serve as the mechanism that refutes 'pure style'."
+    },
+    {
+      "id": "high_frequency_blink_to_grab_attention",
+      "what": "Blink the key value rapidly to make it salient.",
+      "why_not": "Explicitly disallowed (>3 Hz) and, per C-09/N8, temporal salience competes with a single-event motion budget; adds hierarchy noise."
+    }
+  ],
+  "materials_read_with_sha_and_locator": [
+    {"path": "knowledge/INDEX.md", "sha256": "d4688562f5975fae9b4366b26dc536379f5db55bc0923f1bbdd224f58a91533e", "bytes": 6834, "locator": "L79-95 (DB-PUBLIC-KNOWLEDGE / G5-CAPABILITIES pointers); L21-41 card overview"},
+    {"path": "knowledge/CAPABILITIES.json", "sha256": "0cfed044806dbde332d79ae837c6f9a3b01e9427ef5b1248a0c508ec04eac87e", "bytes": 981803, "locator": "roktim___ entry ~L17828-17841 (mechanism_summary, limitations)"},
+    {"path": "knowledge/CAPABILITIES.md", "sha256": "d928a281e4aa5e0f6272a795174c85a0adb32be71840f97aceb7167714d72e33", "bytes": 16612, "locator": "L3-16 (state legend, supported=0 conditional=28); L124-134 (7 designer seeds)"},
+    {"path": "knowledge/domains/painters/style_candidates/INDEX.md", "sha256": "23f73d35e4b847963ffedbfdde9b1f1609dc514e5b5a5fcae76cd73544b96bb9", "bytes": 7661, "locator": "L1-3 (candidate/反驳/能力增量 independent bodies; paper counter-example != image experiment); L71-93 (11 legacy entries)"},
+    {"path": "knowledge/domains/painters/learning/INDEX.md", "sha256": "c24e16e7cbdca9b44bdc9143979ec9e18785a961b05d6fa3c92e3e95b8eb80fd", "bytes": 13423, "locator": "L1-3 (suggested practice != verified learning effect); L39-50 cross-author comparison table"},
+    {"path": "knowledge/domains/motion-graphics/cards/structure.md", "sha256": "dd4321f35a8d3cbd670d28ce92de40b40899e9802bfa6cf1b7a3fcd439e80f63", "bytes": 4529, "locator": "L8-19 four-part skeleton; L21-29 why-it-works; L36-45 Lane A/B correspondence"},
+    {"path": "knowledge/cross/conflicts.md", "sha256": "a5718276ff612c55586a99760cfe7416fae8a706b89b677b442c92dd6ec06cfa", "bytes": 66241, "locator": "C-08 L151-164; C-09 L166-177; N3 L314-315; N4 L317-318; N8 L332-333; N9 L335-336; near-miss L344-360"},
+    {"path": "skills/designers-brain/references/output-forms.md", "sha256": "ea98a0bbbd98e7f3290b0b0d1f8be08e345b73ac2a4abb481dc741583050f60b", "bytes": 1208, "locator": "L3-8 pointers to templates; L12-17 learning/style-candidate pointers"},
+    {"path": "templates/determinism_contract.md", "sha256": "15628b051e78b0f95d96fb3c20003bfeb3f3c727db8db52390d9f840faeed4fe", "bytes": 11817, "locator": "L12-30 C1-C10; located from output-forms.md L6"},
+    {"path": "templates/style_card.md", "sha256": "f2cc36a75eba2135d4fa5d58331bf0e293ebbbbd482dbc4e701beee929bd9fed", "bytes": 17696, "locator": "headings only (L10-24 card structure, L188 combination notes); located from output-forms.md L5"},
+    {"path": "knowledge/domains/painters/style_candidates/aivazovsky/style_only_draft.md", "sha256": "b057479464eb12de863af22adbf0a902ead8a3af67d7a9d3b5221ff6b60bd153", "bytes": 23609, "locator": "L1-7 status=draft/E4-unexecuted; L22-52 relationized rules; located from style_candidates/INDEX.md L7"},
+    {"path": "skills/designers-brain/SKILL.md", "sha256": "f1c19ddc37534a999e54fa5eafd463df36f13da88d786c85129c94dc11633868", "bytes": 11550, "locator": "L80-94 '怎么出' three output forms; located from output-forms.md L8 pointer"}
+  ],
+  "still_missing_evidence": [
+    "No rendered image was generated or viewed; no image-generation channel is available (CAPABILITIES.md: supported=0; painters image=untested; roktim local prototype is synthetic engineering only).",
+    "Salience weights (contrast ratio / area / weight / accent multiplier) are declared design values, NOT perceptual measurements; no human reading-order or aesthetic test was run.",
+    "roktim limitations state fixture numbers are not product/performance measurements; reader misinterpretation and design quality are unmeasured.",
+    "The 'pure-style refutation' here is a mechanical/declared salience contrast; it does not prove how a human reader would actually parse either variant.",
+    "No browser/capture harness was run, so the HTML's visual rendering is unverified; only its static structure and the JSON check are verified."
+  ],
+  "disclosure_of_exposure": "All above material was read from the 8 bound public entrypoints plus files they genuinely link to within the same candidate. Public knowledge contains self-labels such as 'draft', 'not E4', '[归纳]', 'suggested practice != verified', 'paper counter-example != image experiment'; I record that these were visible. I did not read any Root Control directory, cue, old-consumer record, fixture, hidden answer, or reviewer verdict."
+}

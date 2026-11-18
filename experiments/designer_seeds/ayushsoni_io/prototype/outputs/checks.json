@@ -1,0 +1,104 @@
+{
+  "P1_keyframes_and_relation_order": {
+    "passed": true,
+    "pairs": 8,
+    "relation_order_preserved": true,
+    "connector_A_to_B_preserved": true,
+    "read_from": "actual .svg files (ET parse) + actual .png existence"
+  },
+  "P2_vocabularies_change_form": {
+    "passed": true,
+    "beam_sig": [
+      [
+        "circle",
+        "atom",
+        "rect/circle"
+      ],
+      [
+        "circle",
+        "atom-inner",
+        "rect/circle"
+      ],
+      [
+        "polygon",
+        "connector",
+        "points"
+      ]
+    ],
+    "stamp_sig": [
+      [
+        "path",
+        "connector",
+        "path"
+      ],
+      [
+        "polygon",
+        "atom",
+        "points"
+      ],
+      [
+        "polygon",
+        "atom-inner",
+        "points"
+      ]
+    ],
+    "differing_elements": 6,
+    "read_from": "actual SVG element tags/roles"
+  },
+  "P3_smooth_transition": {
+    "passed": true,
+    "max_step_png_px": 2.939,
+    "max_step_svg_px": 1.82,
+    "threshold_px": 6.0,
+    "read_from": "actual transition PNG centroids + actual SVG data-ax"
+  },
+  "P4_outside_selection_diff_zero": {
+    "passed": true,
+    "outside_diff_px": 0,
+    "read_from": "actual PNG bytes of key_beam_separated vs key_beam_connected"
+  },
+  "F1_missing_connector_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "verdict": "FAILED (missing connector: real SVG connector element removed + PNG corridor pixels gone)",
+    "note": "verifier reads real SVG connector element + real PNG corridor pixels; state-JSON alone says connector_present=true (wrong)",
+    "svg_connector_elements": 0,
+    "png_corridor_nonbg_px": 0,
+    "correct_corridor_nonbg_px": 1007,
+    "naive_state_json_would_pass": true,
+    "detected_from_real_bytes": true
+  },
+  "F2_position_jump_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "verdict": "FAILED (position jump: atom A shifted in real SVG data-ax + PNG centroid)",
+    "expected_ax": 160.91,
+    "fault_ax": 230.91,
+    "expected_png_centroid": 162.87,
+    "fault_png_centroid": 219.49,
+    "detected_from_real_bytes": true
+  },
+  "F3_out_of_selection_change_DETECTED": {
+    "must_fail": true,
+    "passed": true,
+    "verdict": "FAILED (out-of-selection background change painted outside registered selection)",
+    "outside_diff_px": 1581,
+    "detected_from_real_bytes": true
+  },
+  "_summary": {
+    "positive_checks": [
+      "P1_keyframes_and_relation_order",
+      "P2_vocabularies_change_form",
+      "P3_smooth_transition",
+      "P4_outside_selection_diff_zero"
+    ],
+    "negative_controls": [
+      "F1_missing_connector_DETECTED",
+      "F2_position_jump_DETECTED",
+      "F3_out_of_selection_change_DETECTED"
+    ],
+    "all_positive_pass": true,
+    "all_negative_controls_detected": true,
+    "verifier_never_uses_state_json_as_proof": true
+  }
+}

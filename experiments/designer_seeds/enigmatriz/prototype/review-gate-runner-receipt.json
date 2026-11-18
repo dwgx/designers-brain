@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-PROTOTYPE-enigmatriz-REVIEW",
+  "kind": "independent_review_runner",
+  "dedup_key": "DB-20261115:SEED-PROTOTYPE-enigmatriz-REVIEW:runner",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "author_actor_id": "ReviewGateSeedProto",
+  "reviewed_task_id": "SEED-EXPERIMENT-enigmatriz/prototype",
+  "independent_from_author": true,
+  "execution_kind": "leaf_work_item",
+  "spawns_allowed": false,
+  "r2_refresh": {
+    "marker": "r2",
+    "refreshed_at": "2026-11-15T16:18:38Z",
+    "refreshed_by": "ReviewGateSeedProto",
+    "supersedes": "review-gate-runner-receipt.r1.bak.json"
+  },
+  "input_hashes": [
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype (dir manifest, 33 non-gate files, recipe '<relpath>  <sha256>' sorted-by-path LF-joined, review-gate-* excluded)", "sha256": "5d37b6693b8d4c3a19fc78c9c2b79d2f867c6ede30a8aaf961acfc4db5cae16d" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/receipt.json", "sha256": "5563a6edd9be8e4f00b69661cede2c6a106c7fbad2c8f78c49104e587726431b" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-enigmatriz/prototype/runner_receipt.json", "sha256": "cdc8ad676373b1022d5f1aebd4810993346d39548afa072a05210b56973df215" }
+  ],
+  "commands": [
+    "r1 session (2026-11-15T13:58-14:27Z, see review-gate-runner-receipt.r1.bak.json): manifest recompute 30 files d12059fa… MATCH; build.py fresh rerun byte-identical 11/11 vs outputs/ and rerun_20261115/; pearson recompute +0.879535/-0.899008 sign flip; outside-mask diff 0/0/0; font consola.ttf cf00b507 not redistributed; MetricPilot lap_var/lum_hist re-import match checks.json C7; promotion/active grep all negations",
+    "r2: sha256(receipt.json) recomputed from bytes -> 5563a6edd9be8e4f00b69661cede2c6a106c7fbad2c8f78c49104e587726431b == SeedDepsRevisit closure value == verify-receipt.out FINAL-RECEIPT-SHA256 (MATCH)",
+    "r2: python -X utf8 <PKG>/tools/verify-receipt.py receipt.json --schema receipt.schema.json --workspace-root <RUN_ROOT> -> {ok:true,status:submitted,errors:[]} exit 0; tool sha256 00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0 recomputed",
+    "r2: receipt.json internals re-validated on current bytes -> artifacts 18/18 MATCH, input_hashes 4/4 MATCH (config.json, build.py, staging/METRIC-PILOT/fixtures/metrics.py, parent state.md), claim source_refs 3/3 MATCH (outputs/checks.json, run_evidence.json, rerun_20261115/checks.json)",
+    "r2: refreshed dependency hashes recomputed from bytes -> RESULT.md 9864c8da…, README.md b4d1a815… (both changed by calibrated closure), run_evidence/config/build.py unchanged vs r1, S11B-CALIBRATION.md dea3fce8… new",
+    "r2: non-gate dir manifest recompute (n=33, review-gate-* excluded) -> 5d37b669… (stable binding across gate-file refreshes)",
+    "r2: parent state.md sha256 -> 5b648dd44621b2df6bb3c8dcb6b97b19d746782c1cb32783c0d61aba03bacac8 == expected 5b648dd4 (MATCH; E2/E3/active untouched)",
+    "r2: S11B-CALIBRATION.md read + bounded-language scan over receipt claims -> no promotion/combined/spectrum/validated-reproduction language; build.py C4 'pass': True confirmed constant literal (single declared rectangle)"
+  ],
+  "cwd": "SOURCE@designers-brain (read-only source repo) read-only @ f008952365a77e140cbda3f3959d43ef000f9a22; reviewer writes confined to staging/SEED-EXPERIMENT-enigmatriz/prototype/review-gate-* files only",
+  "started_at": "2026-11-15T16:05:00Z",
+  "ended_at": "2026-11-15T16:19:00Z",
+  "exit_code": 0,
+  "receipt_path": "staging/SEED-EXPERIMENT-enigmatriz/prototype/review-gate-runner-receipt.json",
+  "limitations": [
+    "r2 does NOT re-run build.py or pixel recomputation; r1 evidence stands on unchanged config/build/outputs bytes (verified: run_evidence.json, config.json, build.py hashes unchanged since r1).",
+    "r2 receipt.json/RESULT.md/README.md bytes changed via the author's calibrated closure; r2 re-validated all receipt-internal hash bindings on the new bytes instead of re-deriving every r1 numeric check."
+  ],
+  "review": null,
+  "human_review": { "status": "not_applicable", "actual_reviewer": null, "record_path": null },
+  "timestamp": "2026-11-15T16:19:00Z"
+}

@@ -1,0 +1,8 @@
+ayushsoni_io checks: POS= True NEG_DETECTED= True
+  P1_keyframes_and_relation_order: passed=True
+  P2_vocabularies_change_form: passed=True
+  P3_smooth_transition: passed=True
+  P4_outside_selection_diff_zero: passed=True
+  F1_missing_connector_DETECTED: passed=True
+  F2_position_jump_DETECTED: passed=True
+  F3_out_of_selection_change_DETECTED: passed=True

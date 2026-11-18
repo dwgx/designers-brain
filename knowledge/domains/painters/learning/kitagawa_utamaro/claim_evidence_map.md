@@ -52,7 +52,7 @@
 | claim_id | locator（file:section:line + 子串） | grade | status | basis |
 |---|---|---|---|---|
 | LM-P01 | `dossiers/kitagawa_utamaro.md:§4`（六控制参数表） | [归纳] | partial | 六参数档位；阈值未实测 |
-| LM-P02 | `dossiers/kitagawa_utamaro.md:§8.2 尾注:L197`「3. **背景规则**：背景为均质场（局部方差 ≤ 阈值）或云母纹理；背景道具 ≤2 件；投影/阴影面积 ≤2%；无透视消失点（收敛点 ≤1 且不在画内）。`[归纳]`」 | [归纳] | supported | 明记未像素测量；本片据此不升级阈值 |
+| LM-P02 | `dossiers/kitagawa_utamaro.md:L426`（「我仍赌错的是什么」：§4 六参数与 §8.2 七规则均为**未实测参数**） | [归纳] | supported | 明记未像素测量；本片据此不升级阈值 |
 | LM-P03 | `LEARN-kitagawa_utamaro/mechanism_notes.md:§5`（7 条 counters，逐条回指 §8.2-1…§8.2-7） | [归纳] | partial | 反例为 [inference] 纸面推演，非已验证实验 |
 
 <a id="db-source-line-51"></a>

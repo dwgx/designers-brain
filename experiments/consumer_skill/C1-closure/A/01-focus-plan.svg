@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+  <title>Visual-center plan, committed before the value sketch</title>
+  <rect width="960" height="640" fill="#888888"/>
+  <rect x="508" y="282" width="133" height="70" fill="none" stroke="#404040" stroke-width="2" stroke-dasharray="7 5"/>
+  <circle cx="573" cy="317" r="16" fill="none" stroke="#d0d0d0" stroke-width="3"/>
+  <path d="M550 317H596 M573 294V340" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="478" y="263" fill="#404040" font-family="sans-serif" font-size="18">FOCUS: LIT SAMPLE-BAG RIM</text>
+</svg>

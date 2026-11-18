@@ -1,0 +1,31 @@
+--- a/examples/ui/ui-01/check_negative.py
++++ b/examples/ui/ui-01/check_negative.py
+@@ -111,21 +111,22 @@
+         return src.replace(needle, "MAY synthesize RUN_FINISHED", 1)
+ 
+     negatives = [
+-        ("N1_scripted_extra_advance", dup_completion),
+-        ("N2_scripted_wrong_task", out_of_order),
+-        ("N3_relabelled_truncation", reconnect_as_success),
+-        ("N4_rule_text_altered", unknown_event),
++        ("N1_scripted_extra_advance", dup_completion, "T2-after-1-advance/T2 data-state=waiting-for-input"),
++        ("N2_scripted_wrong_task", out_of_order, "T3-after-1-advance/T3 data-state=waiting-for-input"),
++        ("N3_relabelled_truncation", reconnect_as_success, "T3-after-2-advances/T3 data-state=stream-interrupted"),
++        ("N4_rule_text_altered", unknown_event, "fixture records AG-UI truncation rule"),
+     ]
+     with tempfile.TemporaryDirectory(prefix="ui01_neg_") as td:
+         tmp = Path(td)
+-        for name, transform in negatives:
++        for name, transform, expected_assertion in negatives:
+             d = make_case(tmp, name, transform)
+             rc, out = run_check(d)
+             log("%s _check exit=%d" % (name, rc))
+             tail = [l for l in out.splitlines()
+                     if l.startswith("AssertionError") or l.startswith("RESULT:")]
+             log("  " + (tail[-1] if tail else "(no result line)"))
+-            fail_if(rc == 0, "%s must be DETECTED (real check exits nonzero)" % name)
++            fail_if(rc != 1 or "AssertionError: " + expected_assertion not in out,
++                    "%s must fail with its intended assertion, not a harness error" % name)
+ 
+     log("")
+     log("RESULT: ALL NEGATIVE CONTROLS DETECTED; positive control passed.")

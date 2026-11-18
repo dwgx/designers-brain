@@ -1,0 +1,12 @@
+{
+  "face_index": 0,
+  "fallback_used": false,
+  "family": [
+    "SimHei",
+    "Regular"
+  ],
+  "file_name": "simhei.ttf",
+  "font_sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+  "missing_glyphs": [],
+  "required_text": "书归原位"
+}

@@ -1,0 +1,70 @@
+{
+  "task_id": "SEED-EXPERIMENT-enigmatriz/prototype",
+  "phase": "S05-SEED-PROTOTYPES",
+  "status": "candidate_mechanism_hypothesis_NOT_E3_NOT_validated_reproduction",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · pending_human aesthetic judgement reserved]",
+  "recorded_before_run_utc": "2026-11-15T14:00:00Z",
+  "environment": {
+    "python": "3.14.7 (probed on host)",
+    "pillow": "12.3.0 (probed on host, 8x8 in-memory mean=127.0)",
+    "stdlib_only_plus_pillow": true,
+    "no_image_api": true, "no_browser_webgl": true, "no_ffmpeg": true,
+    "no_historical_media": true, "no_author_artwork": true, "no_credentials": true
+  },
+  "font": {
+    "declared_path": "C:/Windows/Fonts/consola.ttf",
+    "declared_sha256": "cf00b507b3286870cc5064ebd0633c303f70b491a4af25eec2d32df413db0179",
+    "family": "Consolas (monospace, system font DECLARED BY PATH ONLY - NOT COPIED, NOT REDISTRIBUTED)",
+    "size_px": 12,
+    "fallback": "PIL.ImageFont.load_default() if declared path unavailable",
+    "note": "The .ttf bytes are never written into this prototype tree. Only a path + sha256 declaration is stored; Pillow opens it in-process to MEASURE glyph ink coverage."
+  },
+  "chart": {
+    "description": "self-created synthetic grayscale chart: horizontal linear ramp 0..255 + one bright disk + one dark disk, DETERMINISTIC (no RNG)",
+    "width": 120, "height": 60, "mode": "L",
+    "bright_disk": {"cx": 30, "cy": 30, "r": 12, "value": 245},
+    "dark_disk": {"cx": 90, "cy": 30, "r": 12, "value": 10}
+  },
+  "mask": {
+    "description": "explicit selected region: axis-aligned rectangle. ASCII substitution happens ONLY inside; outside pixels are left byte-identical to input_chart.",
+    "x0": 8, "y0": 8, "x1": 72, "y1": 52, "mode": "L", "inside_value": 255, "outside_value": 0
+  },
+  "grid": {
+    "cell_w": 12, "cell_h": 12, "cols": 10, "rows": 5,
+    "note": "cell (12x12 px) x cols 10 = 120, rows 5 = 60. A cell is 'inside' iff its CENTER is inside the mask rectangle."
+  },
+  "glyph_candidates": " .:-=+*#%@",
+  "measurement": {
+    "method": "For each candidate glyph, render it with the declared font into a cell_w x cell_h binary tile (fill=255 ink on 0 background) using ImageDraw.text; ink_px = count of pixels >0; coverage = ink_px/(cell_w*cell_h). Sort ASCENDING by coverage to build the ramp. NO assumption that '@' is darkest - the ramp is MEASURED.",
+    "normal_map": "cell mean luminance L (0..255) -> ramp index = round(L/255 * (n_glyphs-1)). Ramp is sorted ASCENDING by measured coverage, so BRIGHT cells get HIGH-coverage (dense) glyphs and DARK cells get LOW-coverage (sparse) glyphs. This is the implemented local mapping (a candidate hypothesis, NOT the artist's algorithm).",
+    "reversed_map": "ramp index = (n_glyphs-1) - normal_index; a CONTROL that inverts the measured order. Reversal is NOT declared an aesthetic failure."
+  },
+  "reused_metricpilot_interfaces": {
+    "module": "staging/METRIC-PILOT/fixtures/metrics.py",
+    "module_sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263",
+    "functions": ["srgb8_to_Lstar", "lum_hist", "lap_var", "EmptyMaskError"],
+    "use": "L* histogram (lum_hist over srgb8_to_Lstar of the in-mask chart) + Laplacian variance (lap_var) as declared color/scale-anchored checks; thresholds are NOT applied to any artwork.",
+    "note": "Reused as pure numeric interfaces only; no full metric platform dependency, no dossier threshold judgement."
+  },
+  "intended_checks_before_run": [
+    "C1 measured glyph coverage table is produced (n glyphs, ink_px, coverage) and the ramp is sorted by MEASURED coverage, not assumed",
+    "C2 outside-mask pixel difference = 0 for (input_chart vs render_normal), (input_chart vs render_reversed), (render_normal vs render_reversed)",
+    "C3 ramp-reversal effect: count of in-mask cells whose glyph changed; Pearson correlation of (cell luminance, chosen glyph coverage) flips sign between normal and reversed (observed +0.8795 / -0.8990). Either sign direction for 'normal' is acceptable; the check only requires the sign to flip.",
+    "C4 selected-region checks: in-mask cell count, out-mask cell count, mask coverage fraction, every in-mask cell has a valid glyph, no out-mask cell is touched",
+    "C5 outputs are W x H (120x60) unchanged dimensions; ASCII grids are 10 cols x 5 rows",
+    "C6 deterministic rerun: full second generation into a temp dir; per-file sha256 identical to run 1",
+    "C7 MetricPilot lum_hist + lap_var return finite results on the synthetic chart (interface reuse evidence); empty-mask behavior not triggered"
+  ],
+  "observed_after_run": {
+    "measured_ramp_ascending_coverage": " -.:=+*#%@",
+    "note_on_honesty": "The originally drafted 'normal expected negative / reversed expected positive' wording was corrected to match what the code actually implements (bright->dense). The check requires only a SIGN FLIP, which is what was observed. No expectation was silently kept that the run would contradict.",
+    "pearson_normal": 0.879535, "pearson_reversed": -0.899008, "sign_flipped": true,
+    "outside_mask_diff_all_zero": true, "changed_in_mask_glyphs": 15, "in_mask_cells": 15
+  },
+  "boundaries": [
+    "Only supports OUR implemented selected-region/quantization mechanism; does NOT prove the artist's real algorithm, automatic mask toolchain, full workflow, or human 'looks like enigmatriz' judgement.",
+    "Synthetic grayscale chart is NOT an artwork, not a captured post, not author media. No E2/E3/active promotion. Seed stays E1 (5/30 posts, 0 videos, 1 independent third-party source).",
+    "Reversal is a control, not automatically an aesthetic failure. Aesthetic/legibility judgement stays pending_human.",
+    "No new image API, no budget consumption, no ffmpeg/archive-media prerequisite."
+  ]
+}

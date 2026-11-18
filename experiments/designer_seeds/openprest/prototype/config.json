@@ -1,0 +1,61 @@
+{
+  "task_id": "SEED-EXPERIMENT-openprest/prototype",
+  "phase": "S05-SEED-PROTOTYPES",
+  "status": "candidate_mechanism_hypothesis_NOT_E3_NOT_validated_reproduction",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · NOT a full font · NOT a variable-font-axis claim]",
+  "recorded_before_run_utc": "2026-11-15T14:05:00Z",
+  "environment": {
+    "python": "3.14.7 (probed)", "pillow": "12.3.0 (probed)",
+    "stdlib_only_plus_pillow": true, "no_image_api": true, "no_font_engine": true,
+    "no_author_files": true, "no_historical_media": true, "no_credentials": true
+  },
+  "scope": "Two MANUALLY DEFINED simple glyph masks (A and H) on a fixed coordinate grid, drawn with ONE dot/primitive family (filled circles) at THREE density/size settings, plus ONE deliberately bad grid case. This is a self-authored geometry toy, NOT a typeface, NOT language coverage, NOT proof the artist used or did not use a variable font axis.",
+  "glyph_masks": {
+    "A": {"grid_cols": 5, "grid_rows": 7, "on_cells": [[1,0],[2,0],[3,0],[0,1],[4,1],[0,2],[4,2],[0,3],[1,3],[2,3],[3,3],[4,3],[0,4],[4,4],[0,5],[4,5],[0,6],[4,6]]},
+    "H": {"grid_cols": 5, "grid_rows": 7, "on_cells": [[0,0],[4,0],[0,1],[4,1],[0,2],[4,2],[0,3],[1,3],[2,3],[3,3],[4,3],[0,4],[4,4],[0,5],[4,5],[0,6],[4,6]]},
+    "note": "Each [col,row] is an ON grid cell (1 = primitive placed). Manually declared bitmaps, no font file parsed."
+  },
+  "grid": {
+    "canvas_w": 220, "canvas_h": 140, "cell_px": 16,
+    "glyph_origin_A": [20, 14], "glyph_origin_H": [120, 14],
+    "note": "5 cols x 16px = 80px glyph width; 7 rows x 16px = 112px glyph height; two glyphs side by side inside 220x140 canvas."
+  },
+  "primitive_family": {
+    "name": "filled_circle_dot",
+    "description": "One primitive family: a filled circle of radius r centered in each ON cell. Three settings vary ONLY r (dot size / density-of-ink). No other primitive family is introduced.",
+    "settings": [
+      {"id": "s1", "radius_px": 2, "label": "small dot"},
+      {"id": "s2", "radius_px": 4, "label": "medium dot"},
+      {"id": "s3", "radius_px": 7, "label": "large dot"}
+    ]
+  },
+  "bad_case": {
+    "id": "bad_grid_offset",
+    "description": "DELIBERATELY BAD control: shift ONE glyph's primitives by a half-cell offset (8px) AND mix in an UNREGISTERED radius (r=9). This must be detected by the in-bounds/uniform-scale check as a specific, named failure, NOT silently accepted.",
+    "offset_px": [8, 8], "unregistered_radius_px": 9,
+    "expected_failure": "primitives no longer centered on declared grid cells; radius not in the registered settings; check must report out_of_grid + unregistered_scale"
+  },
+  "small_size_limitation": {
+    "description": "S11-B calibrated: emit a downscaled cell_px=4 (quarter) render of the SAME A/H geometry and RETAIN the 35 declared primitives. Connectivity / counter (enclosed-hole) topology and readability are NOT measured by this fixture; the small-size case must NOT be described as demonstrating connectivity/counter loss or an 'A hole collapses'. Topology-readability loss stays UNMEASURED / pending_human.",
+    "cell_px": 4, "canvas_w": 60, "canvas_h": 40,
+    "expected": "small-size render EMITTED at 4px cells / r=1 with 35 primitives retained; C4 checks ONLY n_primitives == 35. No connectivity/counter/readability claim; those remain unmeasured / pending_human."
+  },
+  "outputs": ["SVG (text, stdlib-generated)"],
+  "svg_note": "Both SVG and PNG are produced: SVG from stdlib string generation, PNG via Pillow drawing the SAME primitives. Both are checked for identical primitive coordinate/count/bounds ledgers.",
+  "intended_checks_before_run": [
+    "C1 primitive ledger: for each of 3 settings, count of primitives == number of ON cells (A=18, H=17 per glyph, 35 total); every primitive coordinate lies within its cell bounds (no out-of-grid)",
+    "C2 changing the setting varies ONLY the registered radius dimension; glyph masks (ON cells) and grid centers are IDENTICAL across s1/s2/s3",
+    "C3 deliberately bad case is detected: out_of_grid=True and/or unregistered_scale=True reported, not silently accepted",
+    "C4 small-size render: a 4px-cell render is emitted with 35 primitives retained; connectivity/counter (enclosed-hole) topology and readability are NOT measured (C4 checks only n_primitives); unmeasured / pending_human (no readability / loss claim)",
+    "C5 SVG and PNG outputs both exist and have declared dimensions (220x140 main, 60x40 small)",
+    "C6 deterministic rerun: full second generation; per-file sha256 identical",
+    "C7 BOUNDARY: do NOT label a full font, do NOT claim variable-font axes proven/disproven, do NOT claim the artist's geometry"
+  ],
+  "boundaries": [
+    "This is a hand-declared 2-glyph geometry toy. It does NOT equal a complete font, language coverage, or readability at production sizes.",
+    "The 15 negative barcode decodes from the earlier SEED lane are NOT re-run here; no encoding/payload read-back is attempted, so NO 'usable encoding' claim is made in either direction.",
+    "'未找到 fvar/font-axis 来源' does NOT prove the artist did NOT use a variable font; it remains 未证实/unverified.",
+    "Synthetic geometry is NOT author artwork; no E2/E3/active promotion. Seed stays E1 (5/30 full posts, 20/30 ID-only, 0 videos, X unavailable).",
+    "No image API, no font engine, no author files, no credentials, no ffmpeg/archive media."
+  ]
+}

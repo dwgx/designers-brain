@@ -1,0 +1,13 @@
+{
+ "diff_map": "diff_v1_exposure.png",
+ "stats": {
+  "mean_abs_diff_overall": 32.987,
+  "mean_abs_diff_bright_region": 5.0,
+  "mean_abs_diff_halo_region": 45.2454,
+  "mean_abs_diff_flat_region": 42.0
+ },
+ "dims": [
+  64,
+  48
+ ]
+}

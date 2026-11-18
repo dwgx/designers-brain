@@ -1,0 +1,2 @@
+HARNESS_GATE=PASS
+{"sendCountDuringComposition": 0, "sendCountAfterComposition": 1, "sendDeltaAfterComposition": 1, "enterAfterComposition_isComposing": false, "tabFocusPassed": true, "resetControlPassed": true, "error": null}

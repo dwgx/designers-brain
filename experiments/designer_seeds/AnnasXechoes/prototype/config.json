@@ -1,0 +1,61 @@
+{
+  "prototype": "SEED-EXPERIMENT-AnnasXechoes/prototype-s12",
+  "phase": "S12-B",
+  "author_actor_id": "SeedDepsB",
+  "status": "submitted",
+  "label": "[LOCAL-MECHANISM-PROTOTYPE · NOT EVIDENCE · NOT E2/E3 · pending_human reserved]",
+  "declared_before_run": true,
+  "notes": "PRE-RUN frozen config. Self-drawn vessel, fixed composition. Engineering operationalisation, NOT author rules. No reference images copied; no network; no RNG.",
+  "canvas": {"W": 512, "H": 512, "background_rgb": [238, 236, 231]},
+  "fixed_composition": {
+    "center_px": [256, 256], "bounding_box_px": [120, 60, 392, 440],
+    "light_direction": "top-left (fixed)", "background_constant": true,
+    "note": "Byte-identical across all 6 stimuli; only registered part-mask interiors change."
+  },
+  "parts": ["handle", "clasp", "body"],
+  "part_masks_px": {"handle": [206, 70, 306, 160], "clasp": [222, 210, 290, 258], "body": [130, 262, 382, 430]},
+  "geometry_semantics": {
+    "G0_ordinary":   {"handle": "open_arc_stroked", "clasp": "filled_small_rect", "body": "rounded_rect_v1"},
+    "G1_ceremonial": {"handle": "closed_ring_stroked", "clasp": "seal_window_rect_with_cross", "body": "rounded_rect_v1"},
+    "note": "G1 changes INTERNAL GEOMETRY of handle+clasp (arc->ring, rect->seal-window). Body geometry identical. NOT a role-field change."
+  },
+  "surface_treatment": {
+    "S0_matte":   {"texture_lines": 0, "highlight_bands": 0},
+    "S1_opposed": {"texture_lines": 7, "highlight_bands": 2},
+    "note": "Adds local line纹 + highlight + roughness INSIDE masks only, with distinct light SURFACE colors; NOT a gold RGB swap."
+  },
+  "color_roles_rgb": {
+    "form_dark": [60, 55, 50], "surface_tex": [200, 180, 140], "surface_highlight": [235, 224, 198],
+    "note": "Disjoint color channels: FORM (dark) vs SURFACE (light) -> independently measurable from real PNG bytes."
+  },
+  "stimuli_6_images": [
+    "v1_G0_S0.png (vessel1 ordinary/matte)",
+    "v1_G0_S1.png (vessel1 ordinary/opposed)",
+    "v1_G1_S0.png (vessel1 ceremonial/matte)",
+    "v1_G1_S1.png (vessel1 ceremonial/opposed)",
+    "v2_baseline.png (NEW vessel2 everyday/baseline)",
+    "v2_full.png (NEW vessel2 ceremonial/full-treatment)"
+  ],
+  "vessel2": {"body": "tall_box_v2 (DIFFERENT self-drawn everyday container)",
+               "note": "Second self-drawn container for LIMITED transferability stimulus; not a generalization."},
+  "thresholds": {
+    "outside_mask_max_diff_px": 0, "form_count_change_min_px": 40, "surface_tex_change_min_px": 40,
+    "cross_attribution_max_form_delta_px": 25, "cross_attribution_max_surface_delta_px": 25
+  },
+  "intended_checks": [
+    "Q1: 6 real stimulus PNGs exist; fixed composition byte-identical across all 6",
+    "Q2: outside-mask diff between G0_S0 and each of the 3 other v1 configs = 0",
+    "Q3: geometry SEPARATELY localizable: G0_S0->G1_S0 changes form_pixels in handle+clasp masks (>thr) while body form_pixels unchanged AND surface_tex_pixels unchanged (<=cross thr)",
+    "Q4: surface SEPARATELY localizable: G0_S0->G0_S1 changes surface_tex_pixels (>thr) while form_pixels unchanged (<=cross thr)",
+    "Q5: vessel2 baseline->full changes BOTH form and surface; still outside-mask diff = 0",
+    "N1 must-fail: wrong-mask negative shifts surface texture outside registered masks; verifier MUST detect nonzero outside-mask diff -> FAIL",
+    "N2 must-fail: role-field-only negative claims 'ceremonial' but changes ZERO pixels; verifier MUST detect form_pixels did NOT change -> FAIL"
+  ],
+  "negative_controls_are_real_files": true,
+  "rights_and_honesty": [
+    "TzKT+IPFS may be ONE author metadata index+storage, not two independent sources; rights None / All Rights Reserved; no reference image copied in.",
+    "No answer text drawn into images; material/narrative intent is a PREDICTION table only, not a measured effect.",
+    "Local stimulus != parent E2/E3 success; does NOT prove sacredness/material realism/narrative/author style. Seed stays E1.",
+    "No prewritten passed:true; verifier reads actual PNG bytes; failed checks recorded as failed."
+  ]
+}

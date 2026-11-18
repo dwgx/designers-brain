@@ -1,0 +1,96 @@
+{
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "protocol_complete": true,
+  "case_verdict": "failed",
+  "case_verdict_scope": "有限两题材构图消费的充分性；H1局部关系可见但主体形体可读性未充分保留。不是技术阻塞。",
+  "h1_verdict": "partial",
+  "h2_verdict": "supported_within_three_observed_references",
+  "mechanical_local_checks": {
+    "A": true,
+    "B": true,
+    "bad_example_specific_rejection": true
+  },
+  "visual_limitations": [
+    "A布袋更像壶或罐，题材／材质辨识不足",
+    "B车体后部过度合灰导致形体不完整",
+    "两图均非连续灰阶sfumato成稿"
+  ],
+  "hint_level": 2,
+  "stage_a_public_text_examples_exposed": true,
+  "stage_a_image_pixels_read": 0,
+  "reference_families": {
+    "train": "ML",
+    "control": "VM",
+    "holdout": "LS",
+    "family_definition": "root-defined trial identifiers, not museum version families",
+    "foundation_model_prior_exposure": "unknown"
+  },
+  "second_topic_fixed_before_holdout_pixels": true,
+  "measurement_pre_registered": true,
+  "a_immutable": true,
+  "thresholds_and_rois_changed_after_result": false,
+  "started_at_utc": "2026-11-17T22:39:50.632479+00:00",
+  "finished_at_utc": "2026-11-17T23:06:10.740721+00:00",
+  "elapsed_seconds": 1580.108242,
+  "max_attempt_seconds": 1800,
+  "attempt_count": 1,
+  "binding_sha256": "5e0bdad6fad5c3186a97b5ca0cb0f7c70aa06c36cbbf8cb4f0e2e8e045aa8744",
+  "head": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "a_manifest_sha256": "71aca3c882baec41f95ab0ba4d318d53de55531afe1eab2765b22b3135a13f73",
+  "a_seal_sha256": "a55707e9e327905c3e3756640de306ffaea135e14c095c0a05da807246bc7efd",
+  "cue_sha256": "eac6ea90c2d6187a975ed015913a520b15d5466605843672c48113c614240eeb",
+  "artifact_manifest_sha256": "d15f02cdd57c89fa4f15278bfe4dbe6caea858a42c0cd5479736bc2efd94028e",
+  "artifact_manifest_bytes": 8243,
+  "artifact_file_count": 49,
+  "result_sha256": "c5d193c542548413fb5ccb84263cb87f6e46beacac883b1443716ebfbf9871dd",
+  "primary_outputs": [
+    {
+      "path": "A/02-three-value-sketch.svg",
+      "sha256": "2d6888407a2b239fd9508610e5913996a2be6506973c590d9997ced9a9e41a5c",
+      "bytes": 2507
+    },
+    {
+      "path": "B/A-render.png",
+      "sha256": "915b6e5d86268ef24b469f629e1b3aa4edee7c5e39d609e2ee7003f51142eae9",
+      "bytes": 17193
+    },
+    {
+      "path": "B/second-topic.svg",
+      "sha256": "ca3c94c450a784f530f23fcae1a5648430430c7949fb860baf66c5db38828175",
+      "bytes": 2036
+    },
+    {
+      "path": "B/B-render.png",
+      "sha256": "1d3bda2e3706ae417812a626db945280f23ee113205d9fd059100482ad5b05ce",
+      "bytes": 12538
+    },
+    {
+      "path": "B/measurement-plan.json",
+      "sha256": "5f6e6de4e6729dc973f12e96d846243fe3d36696be0f64916650b50fe92e8679",
+      "bytes": 2311
+    },
+    {
+      "path": "B/measurement-results.json",
+      "sha256": "55a5f05bf16a773719871d47123ce214c477eb64bf1c9736b98920a1e9fee41e",
+      "bytes": 5456
+    }
+  ],
+  "requested_model": "native_subagent_inherited_parent",
+  "served_model": "unknown",
+  "human_review": null,
+  "acceptance": null,
+  "root_independent_decision": "pending",
+  "unmeasured": [
+    "真人学习收益",
+    "审美接受",
+    "因果学习",
+    "全库泛化",
+    "完整sfumato数值规则",
+    "真实视觉注意",
+    "材质与空间充分表达"
+  ],
+  "completion_note": "Same consumer and one attempt throughout. No old answer, hidden author artifact or other analysis file was read. Root authored the post-seal CUE and later provided a visual-feedback message; no image or criterion changed in response."
+}

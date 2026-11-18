@@ -1,0 +1,150 @@
+{
+  "base_commit": "e0cfe964ed8b326721115630faf1e05b00de3f23",
+  "base_tree": "ae4a28ae66544c77d7a8938194d5d6f32f6bedcd",
+  "browser_probe_source_sha256": "8bad16eb97ef302dc2df23cbddbcd3ecddf3910d888259a32d1d78158cdcb4d9",
+  "cards": {
+    "02": {
+      "media_rel": "media/MOTION-02.mp4",
+      "output_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+      "previous_output_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+      "previous_source_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+      "renderer_source_rel": "sources/MOTION-02/render.mjs",
+      "renderer_source_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+      "size_bytes": 2415292
+    },
+    "03": {
+      "media_rel": "media/MOTION-03.mp4",
+      "output_sha256": "2a48c5564f950443a694413434b59cb4d957dca5e4e78fcaadb8f19dbfa1df34",
+      "previous_output_sha256": "e47d0ae332b8916143f902438c4b5babf936061baf42398024e3a0e57f0e84c3",
+      "previous_source_sha256": "d6493df994d176ccc2c60c321cabc273047ef4e6564360313ad6029216138289",
+      "renderer_source_rel": "sources/MOTION-03/render.py",
+      "renderer_source_sha256": "8497f7d577c4d2c73791de8311f34893db62756d655c99a1bc17237790dce162",
+      "size_bytes": 3748786
+    },
+    "04": {
+      "media_rel": "media/MOTION-04.mp4",
+      "output_sha256": "7c2cb752f390629abf32ffdcfdeb133a7134473c75f4486c9bcd9f6844195d80",
+      "previous_output_sha256": "2ee12606fa60433348b1823b5370236389a2c734df69fa1d5120a4a19065fb52",
+      "previous_source_sha256": "ad87c3a756f85cc8dfdf2ba3affee5224c039bb276903a97b53511d9b7fb154e",
+      "renderer_source_rel": "sources/MOTION-04/render.js",
+      "renderer_source_sha256": "53670d3ac6fde7ca9fc22488ce39b78eb5d65f87d7e9bc36865f5026d04042a8",
+      "size_bytes": 987236
+    },
+    "05": {
+      "media_rel": "media/MOTION-05.mp4",
+      "output_sha256": "ca7a6f7e0b3a11b8ac71de02e09015ff8be19c6dcaa75c6c656753c588745ae1",
+      "previous_output_sha256": "3d8914d101369cf9236f884b0941b934ce192c681f6052f849021e625410d95d",
+      "previous_source_sha256": "2706ae15ee60f0488e81dac9257dbcd3db016b8e53b7658341fed4ae0bd5f53e",
+      "renderer_source_rel": "sources/MOTION-05/render.js",
+      "renderer_source_sha256": "882d2505eff9c525fa74cf93cd93ccad15d6adbe6a10d02fce9759505ed707ca",
+      "size_bytes": 261139
+    },
+    "06": {
+      "media_rel": "media/MOTION-06.mp4",
+      "output_sha256": "d37d758a87c6fe064999519b92f45a3f85650e385414cfb64aaf54cb38ffd976",
+      "previous_output_sha256": "677d4186dabc1266bc515504d5c40f6f6553ccbf646c65bb1611dbc4b1fa5405",
+      "previous_source_sha256": "e8a4c1dc91523382a0eec6374f28b2fd611d931bfecaae4563c21be282fb03ca",
+      "renderer_source_rel": "sources/MOTION-06/render.js",
+      "renderer_source_sha256": "ec68f579afe1f7dbd588d8036b116865348bf50ebec23ec0d0ff01b815ad69ff",
+      "size_bytes": 82364
+    },
+    "07": {
+      "media_rel": "media/MOTION-07.mp4",
+      "output_sha256": "ef955281b1a5ef82c3cf97b6cfc74476552ac707038c03ed8b6f8c7b2d1b7e42",
+      "previous_output_sha256": "752224881f10c9f55ca4c5eea39b2685024decc66c85088f063edc1fed50b751",
+      "previous_source_sha256": "7f43ffef07f2d3d29335d82b5789978b4522d90d80fec478239c40ff8e1c4077",
+      "renderer_source_rel": "sources/MOTION-07/render.js",
+      "renderer_source_sha256": "8addb10cf26c18d0b4959b51c5bc1a96cbe614415d5f4b3feef8d4e2beb6f5f1",
+      "size_bytes": 197556
+    },
+    "09": {
+      "media_rel": "media/MOTION-09.mp4",
+      "output_sha256": "553e3335f20571a561800cbd8e208b26af945d2ee39e2e23743797d776bd5e57",
+      "previous_output_sha256": "aee1e1d19b76373037d3f72e627ba6346d811c9fd51205751a680a7cd4cf910f",
+      "previous_source_sha256": "8c4d4a07ac77d4b1dc6fc5cbaf2dcca2d9cb19e546cf2ddbeeb063d2f247eb8b",
+      "renderer_source_rel": "sources/MOTION-09/render.js",
+      "renderer_source_sha256": "dbff6af27a11ec3ad928fc7f633178ef06fb2453b115cda27d7c016773a010a0",
+      "size_bytes": 1678175
+    },
+    "10": {
+      "media_rel": "media/MOTION-10.mp4",
+      "output_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+      "previous_output_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+      "previous_source_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+      "renderer_source_rel": "sources/MOTION-10/render.js",
+      "renderer_source_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+      "size_bytes": 7018073
+    },
+    "12": {
+      "media_rel": "media/MOTION-12.mp4",
+      "output_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+      "previous_output_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+      "previous_source_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+      "renderer_source_rel": "sources/MOTION-12/render.py",
+      "renderer_source_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+      "size_bytes": 6406856
+    },
+    "13": {
+      "media_rel": "media/MOTION-13.mp4",
+      "output_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+      "previous_output_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+      "previous_source_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+      "renderer_source_rel": "sources/MOTION-13/render.js",
+      "renderer_source_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+      "size_bytes": 1100809
+    },
+    "14": {
+      "media_rel": "media/MOTION-14.mp4",
+      "output_sha256": "763bd4a5d7e1cf986bf8d0d337ddb3f8e5e366a5d9bb9640e3dbb94ed52452a3",
+      "previous_output_sha256": "e8fc5d22e1810406b61191557925d0c2e68ec571cdca89ba5da78d34d28aca4a",
+      "previous_source_sha256": "88a26cf3a72ab47359ee22b1c06596dfbec0ec197a1630a8165959dbacf58d27",
+      "renderer_source_rel": "sources/MOTION-14/render.py",
+      "renderer_source_sha256": "9fe0628daaf02250b5f22b984101bde9a022dea1f39a675f87b6e7efb61e169d",
+      "size_bytes": 829835
+    },
+    "15": {
+      "media_rel": "media/MOTION-15.mp4",
+      "output_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+      "previous_output_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+      "previous_source_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+      "renderer_source_rel": "sources/MOTION-15/render.py",
+      "renderer_source_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+      "size_bytes": 2836649
+    }
+  },
+  "data_sources": {
+    "evidence/MOTION-14/DATA-SOURCE.json": "4259a199cb8e47e462a881285d074b189ebb97a2e3e3562bc8bcf7d15a7dee65"
+  },
+  "helpers": {
+    "sources/cjk_text.js": "33b62f31b684405b2588554f81ef93215aa59cdc335fad0ee7a50238615b0053",
+    "sources/cjk_text.py": "afe9b78ef1b66a9429a0b4671c7d7d7c1cf936570b6e4498ecab005e2c166cf1"
+  },
+  "native_cards": [
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "09",
+    "14"
+  ],
+  "preserved_cards": [
+    "02",
+    "10",
+    "12",
+    "13",
+    "15"
+  ],
+  "raw_browser_sha256": "90b21b58c746de537036f8203acf83ea394c033c8ecc5926d3a28d86d2ee921e",
+  "raw_run_sha256": {
+    "03": "9c251cdb4566411333b470af75e2d844b8530720cdf76f8b27e2c6177b778197",
+    "04": "4a20ccb205e1ffaf16520d1813e21d507977cf7504fc1fdb01cf4c6f37292037",
+    "05": "c6501021a07a2f2d7c86a14e0be4c28ad2391650d5afb62416ae68ea6a4da060",
+    "06": "48090d2d7d550420138518c532fd7d81e284bdc9301897233a16425b820bd8df",
+    "07": "60cecc067a8db816ea5c69ea639b738320a62a4832f2b0c990628ad7b584b58b",
+    "09": "6e2c060097f4a56ff2f5c33f38e0778333500d50da1ad9100987dcd1b0f5023b",
+    "14": "788b87b5984f94ad553554b47ecc1cf24b5dcb42f716bc65ad3d5fe0a1a67f87"
+  },
+  "render_font_sha256": "9b1959db3b3abeb7efdaec26edf7dfe871a6039de8d614af7248575207be629e",
+  "schema": "motion-release-pins@2.0.0"
+}

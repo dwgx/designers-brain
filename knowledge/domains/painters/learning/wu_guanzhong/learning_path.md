@@ -123,7 +123,7 @@
 | F6 | 为练「乡土母题」把锚点画成写实主体、压过点线面 | §8.2-7 锚点总面积 0.5–15%（可辨但非写实主体）；§2 减法 | 锚点只作「线」的端点、不描细节；减到只剩点线面关系仍能读母题 | `dossiers/wu_guanzhong.md:58`（§8.2-7）、`:48`（§2-4 减法）、`:396-407`（§12-4/-5/-6） |
 | F7 | 引用作品/权利时另造来源、把外部 URL 说成「本轮已重访」、把 25 张私有图目检/公开传播 | 回源纪律 + 版权护栏（images_public=0 事实） | 沿用 §12 与 `_images/manifest.md`；外部来源本轮未重访；练习产物不得伪造「荼」款、不得对外复制原作 | AUDIT `rights_review.md §Verdict`；`dossiers/wu_guanzhong.md:4,232`；内部证据 4f4503ca0a86a4aa（未公开；来源记录由维护者保留） |
 
-> 另登记（不改仓库）：AUDIT 发现 **conflicts.md §4 near-miss 表现有 11 行，但 `modules/wu_guanzhong.md:90` 与 dossier §9 仍写「near-miss 8 对」**——下游卡计数漂移，报告不修。本路径全部 locator 用**实测行号 + 子串**。见 AUDIT `RESULT.md §Conflicts.md locator drift`、`coverage-manifest.json conflicts_near_miss_drift_reported`。
+> 另登记（不改仓库）：AUDIT 发现 **conflicts.md §4 near-miss 表现有 11 行，但 `modules/wu_guanzhong.md:90` 与 dossier §9 仍写「near-miss 8 对」**——下游卡计数漂移，报告不修。本路径全部 locator 用**实测行号 + 子串**。见 AUDIT `RESULT.md §Conflicts.md locator drift`、`coverage-manifest.json conflicts_near_miss_drift_reported`。（**2026-11-18 收口核验**：module L90 已按 F01 于 2026-11-16 更正为「11 对」，漂移已消除；本行保留为历史登记。）
 
 ---
 

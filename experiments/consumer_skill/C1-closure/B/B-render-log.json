@@ -1,0 +1,28 @@
+[
+  {
+    "utc": "2026-11-17T23:02:29.932967+00:00",
+    "source": "second-topic.svg",
+    "source_sha256": "ca3c94c450a784f530f23fcae1a5648430430c7949fb860baf66c5db38828175",
+    "output": "B-render.png",
+    "output_sha256": "1d3bda2e3706ae417812a626db945280f23ee113205d9fd059100482ad5b05ce",
+    "size": [
+      960,
+      640
+    ],
+    "renderer": "PyMuPDF/MuPDF",
+    "version": "1.26.6"
+  },
+  {
+    "utc": "2026-11-17T23:02:29.951138+00:00",
+    "source": "bad-outline.svg",
+    "source_sha256": "24877272ac7b1ed1211a70699d4d2ec0059062bec253ffa53b7d8dbcf77d832c",
+    "output": "bad-outline.png",
+    "output_sha256": "d8a59979540f241ce6ea23a20a6e0cccce80517c1ebb7d203f3389ae797178a1",
+    "size": [
+      960,
+      640
+    ],
+    "renderer": "PyMuPDF/MuPDF",
+    "version": "1.26.6"
+  }
+]

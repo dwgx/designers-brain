@@ -24,7 +24,7 @@
   3. *The White Horse*（白马）1819，The Frick Collection（1943.1.147；131.4×188.3 cm）— https://collections.frick.org/objects/80
   4. *The Cornfield*（麦田）1826，伦敦国家美术馆（NG130；143×122 cm）— https://www.nationalgallery.org.uk/paintings/john-constable-the-cornfield
   5. *Stonehenge*（巨石阵）1835，V&A（1629-1888；水彩 38.7×59.1 cm）— https://collections.vam.ac.uk/item/O74470
-- **语料 / 图库**：`_corpus/constable.md`（**28 条**：书信/讲稿 16 + 题记 7 + 转记/同时代 5，逐条注明转引链）；`_images/constable/`（**17 张**，全 PD：V&A 6 · NGL 2 · Tate 4 · RA 2 · Frick 1 · NGA 1 · YCBA 1；MANIFEST 逐张核验）。
+- **语料 / 图库**：`_corpus/constable.md`（**36 条**：self-written 22 + inscription 7 + reported speech 3 + contemporary record 2 + later reception 2，逐条注明转引链）；`_images/constable/`（**17 张**，16 PD + 1 CC0：V&A 6 · NGL 2 · Tate 4 · RA 2 · Frick 1 · NGA 1 · YCBA 1；MANIFEST 逐张核验）。
 
 ---
 
@@ -113,7 +113,7 @@
 
 ---
 
-## 5. 自述与原话（10 条；完整语料 28 条见 `_corpus/constable.md`）
+## 5. 自述与原话（10 条；完整语料 36 条见 `_corpus/constable.md`）
 
 > 口径：康斯泰勃尔没有画论专著；文字散在书信、讲稿与题记中。以下 10 条标注性质；英文条目按所引书刊逐字（转引链注明）。
 

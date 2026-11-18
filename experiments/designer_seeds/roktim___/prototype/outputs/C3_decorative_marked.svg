@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384" data-card="C3_decorative_marked" data-decorative="1" data-array-hash16="fa7e00f7c325d3cb" data-mean="14.0000">
+  <rect x="0" y="0" width="512" height="384" fill="#f6f6f4" data-role="background" />
+  <g data-role="text-layer">
+    <text x="52" y="40" font-family="monospace" font-size="16" fill="#1e2022" data-role="fig">FIG. 28</text>
+    <text x="52" y="66" font-family="monospace" font-size="15" fill="#1e2022" data-role="title">DECORATIVE VALUE CARD</text>
+    <text x="52" y="262" font-family="monospace" font-size="15" fill="#1e2022" data-role="n">N=8 samples</text>
+    <text x="52" y="286" font-family="monospace" font-size="20" fill="#466e96" data-role="value">value = 99.7</text>
+    <text x="200" y="286" font-family="monospace" font-size="14" fill="#1e2022" data-role="unit">ms (decorative)</text>
+    <text x="52" y="310" font-family="monospace" font-size="15" fill="#b44632" data-role="decorative-marker">ILLUSTRATIVE / NOT PERFORMANCE DATA</text>
+    <text x="52" y="332" font-family="monospace" font-size="13" fill="#1e2022" data-role="note">synthetic decoration only / no computed claim</text>
+  </g>
+  <rect x="40" y="250" width="432" height="110" fill="none" stroke="#3c3e40" stroke-width="2" data-role="label-frame" />
+</svg>

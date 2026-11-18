@@ -91,7 +91,7 @@ Active domains: `painter` (62 modules), `mg-motion` (15 style cards). New domain
 - **Distribution**: plugin manifests (`.claude-plugin/plugin.json`, `.codex-plugin/plugin.json`, `.agents/plugins/marketplace.json`).
 - **Interaction protocol** (full text in the skill): first action is the **first-ask package** (business / audience / materials / style intent / replacement axis — 3+2 fill-in, defaults spoken aloud); ≤3 conversation rounds; visual decisions require *visible* candidates and stop after showing; a `design-brief.md` gate file records intent, assumptions, and approval scope.
 - **Replacement semantics**: change content (keep skeleton) / change style (keep content) / tune intensity — with explicit locked sections per mode.
-- **Output forms**: image prompt (channel: `grok-imagine-image-2.0` direct gateway; no negative-prompt channel; 768×1152), 10-second web animation brief (determinism contract C1–C10 + out-of-order rerun check), Blender brief (C9 + P1 determinism note).
+- **Output forms**: image prompt (historical channel: `grok-imagine-image-2.0` direct gateway, no negative-prompt parameter, 768×1152; current availability unverified — probe first), 10-second web animation brief (determinism contract C1–C10 + out-of-order rerun check), Blender brief (C9 + P1 determinism note).
 
 ## 5. Experiments
 
@@ -126,5 +126,5 @@ This repo is **operated by AI agents**; the ops layer is first-class:
 ## 9. Non-goals
 
 - Not a model-training project (no fine-tunes, no LoRA training — distilled knowledge is prompt/code-level).
-- No redistribution of third-party media (videos, reference clips are excluded; see `.gitignore` and `NOTICE.md`).
+- No redistribution of **unlicensed** third-party media (videos, reference clips are excluded; see `.gitignore` and `NOTICE.md`). The shipped museum-image set (739 files) is openly licensed under recorded per-file terms — see `NOTICE.md` and the `_images/` manifests.
 - No claim without evidence grade; no "done" without a runnable check.

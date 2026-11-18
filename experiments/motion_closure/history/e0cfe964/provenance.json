@@ -1,0 +1,198 @@
+{
+  "_about": "Provenance and per-card contract data for the 12 delivered motion cards. 'original' records immutable staging author/source hashes (read-only); new output hashes are computed by tools/build_manifest.py into manifest.json and kept separate. Card slugs/mechanisms come from staging/INVENTORY/inventory-motion.json. Renderer source sha256 values are recomputed from the frozen copies in sources/. This file contains repo-relative locators only (no private absolute paths).",
+  "inventory_sha256": "bc96a457aeba50bb6bf278dc36ea95227fae465163f250474e0779297287508a",
+  "cards": {
+    "02": {
+      "origin": "staging/MOTION-02 (accepted old renderer + liquid.mp4)",
+      "slug": "07-liquid", "mechanism": "metaball 融合/次级液滴延迟 2-3 帧 (流体融合)",
+      "renderer_source_rel": "sources/MOTION-02/render.mjs",
+      "original": {
+        "renderer_file": "render.mjs",
+        "renderer_sha256": "b7fd90dd2312f9a7303ecaab671a4a0d14db8cbdb1442b8b7d4f7681508d64a1",
+        "mp4_file": "liquid.mp4",
+        "mp4_sha256": "6061960861018744aedac5abedac04fadb6ab8f688055a959b13a7b9aeb8c9c6",
+        "old_resolution": [1920, 1080],
+        "source_status": "accepted staging original"
+      },
+      "params": {"seed": 20261115, "schedule": "liquid metaball merge + 2-3 frame secondary droplet delay (original)", "renderer": "node render.mjs", "resolution": [1920, 1080], "fps": 30, "frames": 300},
+      "notes": "Reused: original 1920x1080 mp4 after fresh full decode (300 frames confirmed). No re-render, no scale. Media bytes are the immutable staging originals.",
+      "platform": {"target_renderer": "raster (node pure-JS procedural)", "executed_renderer": "same original render.mjs; media reused", "relation": "same", "audio": "not_applicable", "browser_native": false, "evidence": "verified: fresh full decode 300f/1920x1080/30fps"}
+    },
+    "03": {
+      "origin": "staging/MOTION-03 (accepted old renderer, low-res 960x540)",
+      "slug": "03-isometric", "mechanism": "30°等角投影/顶面延迟 2-3 帧 (几何等轴生长)",
+      "renderer_source_rel": "sources/MOTION-03/render.py",
+      "original": {
+        "renderer_file": "render.py",
+        "renderer_sha256": "d6493df994d176ccc2c60c321cabc273047ef4e6564360313ad6029216138289",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "ae6b83b9b9868d9b2b1841b806ce5b9e8372e78607366bb6da406e676308f005",
+        "old_resolution": [960, 540],
+        "source_status": "accepted staging original (low-res)"
+      },
+      "params": {"seed": 20261115, "schedule": "growth windows FOUND_DUR=30, WALL_DUR=60, ROOF_DELAY=2, ROOF_DUR=12; camera_pan -0.30/+0.10 px/frame (original)", "renderer": "python render.py + native_scale_render.py", "resolution": [1920, 1080], "fps": 30, "frames": 300, "geometry_scale": 2},
+      "notes": "Native re-render at 1920x1080 by calling frozen render_frame(n, seed) unchanged then applying integer geometry scale S=2 (x->2x, y->2y, 1px stroke->2x2 block, PIL NEAREST). Seed, growth schedule, 30-degree isometric basis and camera pan untouched. Mechanism preserved; geometry scaled. No upscaling of old video; every frame freshly rendered from the pure function.",
+      "platform": {"target_renderer": "raster (pure-python Pillow)", "executed_renderer": "frozen render_frame + integer geometry scale (raster)", "relation": "restricted_adaptation", "audio": "not_applicable", "browser_native": false, "evidence": "verified: 300 native frames + full decode; not a browser/WebGL native render"}
+    },
+    "04": {
+      "origin": "staging/MOTION-04 (accepted old renderer, low-res 640x360)",
+      "slug": "10-synthwave", "mechanism": "条纹太阳/铬字/RGB split 1-2px (VHS/合成波)",
+      "renderer_source_rel": "sources/MOTION-04/render.js",
+      "original": {
+        "renderer_file": "render.js",
+        "renderer_sha256": "ad87c3a756f85cc8dfdf2ba3affee5224c039bb276903a97b53511d9b7fb154e",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "1fe611fe20693709373ccddc9070cae8df509909beba0a5a0174208c4b386b5c",
+        "old_resolution": [640, 360],
+        "source_status": "accepted staging original (low-res)"
+      },
+      "params": {"seed": 20261115, "schedule": "BEAT=15 (120bpm), 18 beats, freeze>=270; SKIP_FRAME=256 repeats 255; VHS scanlines + RGB split 1-2px (original)", "renderer": "node render.js + native_scale_render.js", "resolution": [1920, 1080], "fps": 30, "frames": 300, "geometry_scale": 3},
+      "notes": "Native re-render at 1920x1080: frozen renderFrame(n) unchanged + integer geometry scale S=3 (x->3x, y->3y, RGB-split shift from the original 1-2 logical px becomes 3-6 native px). Seed, beat schedule, VHS skip and RGB-split method untouched. Mechanism preserved; geometry scaled. Encoder size ~11.7MiB (mp4v; H264 unavailable) — fidelity kept over artificial shrinkage.",
+      "platform": {"target_renderer": "raster (pure-JS procedural)", "executed_renderer": "frozen renderFrame + integer geometry scale (raster)", "relation": "restricted_adaptation", "audio": "not_applicable", "browser_native": false, "evidence": "verified: 300 native frames + full decode; not a browser/WebGL native render"}
+    },
+    "05": {
+      "origin": "staging/MOTION-05 (accepted old renderer, low-res 640x360)",
+      "slug": "08-morph", "mechanism": "收敛中介简形再展开/不打结 (链式拓扑形变)",
+      "renderer_source_rel": "sources/MOTION-05/render.js",
+      "original": {
+        "renderer_file": "render.js",
+        "renderer_sha256": "2706ae15ee60f0488e81dac9257dbcd3db016b8e53b7658341fed4ae0bd5f53e",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "ce52aba1bf0870a5a7e93d220e277a99d45b819cf28a2a75283ec3206ae1b1c4",
+        "old_resolution": [640, 360],
+        "source_status": "accepted staging original (low-res)"
+      },
+      "params": {"seed": 20261115, "schedule": "BEAT=15; MORPH_WINDOWS bg at 30/105/180/270; linear radial morph (no easing); FREEZE_AT=270 (original)", "renderer": "node render.js + native_scale_render.js", "resolution": [1920, 1080], "fps": 30, "frames": 300, "geometry_scale": 3},
+      "notes": "Native re-render: frozen renderFrame(n) unchanged + integer geometry scale S=3. Seed, morph windows, linear radial speed, freeze and palette untouched. Mechanism preserved; geometry scaled. Indexed palette read from the frozen renderer's RGB constant.",
+      "platform": {"target_renderer": "raster (pure-JS procedural)", "executed_renderer": "frozen renderFrame + integer geometry scale (raster)", "relation": "restricted_adaptation", "audio": "not_applicable", "browser_native": false, "evidence": "verified: 300 native frames + full decode; not a browser/WebGL native render"}
+    },
+    "06": {
+      "origin": "staging/MOTION-06 (accepted old renderer, low-res 640x360)",
+      "slug": "09-bauhaus", "mechanism": "quarter circles 90° 旋转/禁用 overshoot (机械几何网格)",
+      "renderer_source_rel": "sources/MOTION-06/render.js",
+      "original": {
+        "renderer_file": "render.js",
+        "renderer_sha256": "e8a4c1dc91523382a0eec6374f28b2fd611d931bfecaae4563c21be282fb03ca",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "b23a53013411c62e83cd76dc0635b5a1bd0058d0670fa97a27857543e5e10c94",
+        "old_resolution": [640, 360],
+        "source_status": "accepted staging original (low-res)"
+      },
+      "params": {"seed": 20261115, "schedule": "BEAT=15, beatOf clamped to 18, one actor per beat, CELL=40 grid, rotation only 90deg multiples, freeze 270..299 (original)", "renderer": "node render.js + native_scale_render.js", "resolution": [1920, 1080], "fps": 30, "frames": 300, "geometry_scale": 3},
+      "notes": "Native re-render: frozen renderFrame(n, seed) unchanged + integer geometry scale S=3 (40px grid -> 120px native cells). Seed phase, one-actor-per-beat schedule and 90deg-only rotations untouched. Mechanism preserved; geometry scaled.",
+      "platform": {"target_renderer": "raster (pure-JS procedural)", "executed_renderer": "frozen renderFrame + integer geometry scale (raster)", "relation": "restricted_adaptation", "audio": "not_applicable", "browser_native": false, "evidence": "verified: 300 native frames + full decode; not a browser/WebGL native render"}
+    },
+    "07": {
+      "origin": "staging/MOTION-07 (accepted old renderer, low-res 640x360)",
+      "slug": "22-hud", "mechanism": "cyan→orange 状态切换/锁定框 scale 1.4→1.0 (HUD 界面)",
+      "renderer_source_rel": "sources/MOTION-07/render.js",
+      "original": {
+        "renderer_file": "render.js",
+        "renderer_sha256": "7f43ffef07f2d3d29335d82b5789978b4522d90d80fec478239c40ff8e1c4077",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "772b26b5b3695e43a329e54f33287b48948bf4bfb9ce31e175ca5673f80010a9",
+        "old_resolution": [640, 360],
+        "source_status": "accepted staging original (low-res)"
+      },
+      "params": {"seed": 20261115, "schedule": "TICK=5 (60 ticks), FREEZE_T=54 clamped, hudState(t) cyan->orange + lock scale 1.4->1.0 (original)", "renderer": "node render.js + native_scale_render.js", "resolution": [1920, 1080], "fps": 30, "frames": 300, "geometry_scale": 3},
+      "notes": "Native re-render: frozen renderFrame(n, seed) unchanged + integer geometry scale S=3. Seed-bound speckle, tick schedule, reveal-by-stroke and lock scale untouched. Mechanism preserved; geometry scaled.",
+      "platform": {"target_renderer": "raster (pure-JS procedural)", "executed_renderer": "frozen renderFrame + integer geometry scale (raster)", "relation": "restricted_adaptation", "audio": "not_applicable", "browser_native": false, "evidence": "verified: 300 native frames + full decode; not a browser/WebGL native render"}
+    },
+    "09": {
+      "origin": "staging/MOTION-09 (accepted old renderer, low-res 640x360)",
+      "slug": "12-aurora-glass", "mechanism": "相邻色/backdrop blur ~30px+1px 高光 (毛玻璃)",
+      "renderer_source_rel": "sources/MOTION-09/render.js",
+      "original": {
+        "renderer_file": "render.js",
+        "renderer_sha256": "8c4d4a07ac77d4b1dc6fc5cbaf2dcca2d9cb19e546cf2ddbeeb063d2f247eb8b",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "e2c866bae3b5d37ee56431396b98e621c6e05438ed1d2e1231cd1287243bc67b",
+        "old_resolution": [640, 360],
+        "source_status": "accepted staging original (low-res)"
+      },
+      "params": {"seed": 20261115, "schedule": "HOLD=270, ACTIONS from beat_schedule, one sweep interval 180..210, APP_NAME_ONSET=216, DEPTH_AMPS=[2,4,7] (original)", "renderer": "node render.js + native_scale_render.js", "resolution": [1920, 1080], "fps": 30, "frames": 300, "geometry_scale": 3},
+      "notes": "Native re-render: frozen renderFrame(n, seed) unchanged + integer geometry scale S=3. Seed, sine ease, light-field blur, glass cards and depth amplitudes untouched; blur radius in logical px scales by S. Mechanism preserved; geometry scaled.",
+      "platform": {"target_renderer": "raster (pure-JS procedural)", "executed_renderer": "frozen renderFrame + integer geometry scale (raster)", "relation": "restricted_adaptation", "audio": "not_applicable", "browser_native": false, "evidence": "verified: 300 native frames + full decode; not a browser/WebGL native render"}
+    },
+    "10": {
+      "origin": "staging/MOTION-10 (accepted old renderer + collage.mp4)",
+      "slug": "06-collage", "mechanism": "2-4px 白描边/12fps ±2px 抖动/嘴巴替换帧 (剪纸拼贴)",
+      "renderer_source_rel": "sources/MOTION-10/render.js",
+      "original": {
+        "renderer_file": "render.js",
+        "renderer_sha256": "638e8d88e4b1e52bcb372e6f21a303c4536480fbd95386c6056778ee7fb01ec9",
+        "mp4_file": "collage.mp4",
+        "mp4_sha256": "854bd01a99523c59330b13415733dbede8631a78860269bcc0b7610083fcd7cc",
+        "old_resolution": [1920, 1080],
+        "source_status": "accepted staging original"
+      },
+      "params": {"seed": 20261115, "schedule": "12fps jitter +2px, mouth replacement frames (original)", "renderer": "node render.js", "resolution": [1920, 1080], "fps": 30, "frames": 300},
+      "notes": "Reused: original 1920x1080 mp4 after fresh full decode (300 frames confirmed). No re-render, no scale.",
+      "platform": {"target_renderer": "raster (pure-JS procedural)", "executed_renderer": "same original render.js; media reused", "relation": "same", "audio": "not_applicable", "browser_native": false, "evidence": "verified: fresh full decode 300f/1920x1080/30fps"}
+    },
+    "12": {
+      "origin": "staging/MOTION-12 (accepted old renderer + video.mp4)",
+      "slug": "05-cel-boil", "mechanism": "3-4 张微差线稿循环/一拍二 12fps/1 帧 smear (手绘 boil)",
+      "renderer_source_rel": "sources/MOTION-12/render.py",
+      "original": {
+        "renderer_file": "render.py",
+        "renderer_sha256": "595fd68cda9ed44097c0ae5f6931049ffaa1c342bc84f5bfc075cb678ed9d6cf",
+        "mp4_file": "video.mp4",
+        "mp4_sha256": "cf303968dfb198cedd0777fa5a767ddd637a4c62a728e59e8e15f2eb9780de98",
+        "old_resolution": [1920, 1080],
+        "source_status": "accepted staging original"
+      },
+      "params": {"seed": 20261115, "schedule": "3-4 near-identical line-art loop, 12fps on-twos, 1-frame smear (original)", "renderer": "python render.py", "resolution": [1920, 1080], "fps": 30, "frames": 300},
+      "notes": "Reused: original 1920x1080 mp4 after fresh full decode (300 frames confirmed). No re-render, no scale.",
+      "platform": {"target_renderer": "raster (pure-python Pillow)", "executed_renderer": "same original render.py; media reused", "relation": "same", "audio": "not_applicable", "browser_native": false, "evidence": "verified: fresh full decode 300f/1920x1080/30fps"}
+    },
+    "13": {
+      "origin": "staging/MOTION-13 (accepted old renderer + motion.mp4)",
+      "slug": "01-flat-vector", "mechanism": "stagger 2-4 帧/squash&stretch ~10% (矢量错帧)",
+      "renderer_source_rel": "sources/MOTION-13/render.js",
+      "original": {
+        "renderer_file": "render.js",
+        "renderer_sha256": "d1496a1be590b12734c7cb06497594654ec7138b56b638215c201d2317753fad",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "2812379040342f9491c5d54c57f113f247c2ec5f48f0b04e9940a78da0cdb046",
+        "old_resolution": [1920, 1080],
+        "source_status": "accepted staging original"
+      },
+      "params": {"seed": 20261115, "schedule": "stagger 2-4 frames, squash & stretch ~10% (original)", "renderer": "node render.js", "resolution": [1920, 1080], "fps": 30, "frames": 300},
+      "notes": "Reused: original 1920x1080 mp4 after fresh full decode (300 frames confirmed). No re-render, no scale.",
+      "platform": {"target_renderer": "raster (pure-JS procedural)", "executed_renderer": "same original render.js; media reused", "relation": "same", "audio": "not_applicable", "browser_native": false, "evidence": "verified: fresh full decode 300f/1920x1080/30fps"}
+    },
+    "14": {
+      "origin": "staging/MOTION-14 (accepted old renderer, low-res 960x540)",
+      "slug": "19-paperclip", "mechanism": "charts to scale/8-12px 白描边 (实物贴纸科普)",
+      "renderer_source_rel": "sources/MOTION-14/render.py",
+      "original": {
+        "renderer_file": "render.py",
+        "renderer_sha256": "88a26cf3a72ab47359ee22b1c06596dfbec0ec197a1630a8165959dbacf58d27",
+        "mp4_file": "motion.mp4",
+        "mp4_sha256": "f68716774fbef245e598d05543eaaac7d767759b8c7dd44864576c251353defe",
+        "old_resolution": [960, 540],
+        "source_status": "accepted staging original (low-res)"
+      },
+      "params": {"seed": 20261115, "schedule": "ADD_FRAMES sticker/chart additions, CAMERA_KEYS pan+zoom smoothstep, freeze 290..299 (original)", "renderer": "python render.py + native_scale_render.py", "resolution": [1920, 1080], "fps": 30, "frames": 300, "geometry_scale": 2},
+      "notes": "Native re-render at 1920x1080: frozen render_frame(n, seed) unchanged + integer geometry scale S=2 (x->2x, y->2y, PIL NEAREST). Seed, ADD schedule, camera pan/zoom series, proportional bar lengths and white outline width untouched. Mechanism preserved; geometry scaled. The renderer loads a system CJK font with a built-in fallback; no private asset copied.",
+      "platform": {"target_renderer": "raster (pure-python Pillow)", "executed_renderer": "frozen render_frame + integer geometry scale (raster)", "relation": "restricted_adaptation", "audio": "not_applicable", "browser_native": false, "evidence": "verified: 300 native frames + full decode; not a browser/WebGL native render"}
+    },
+    "15": {
+      "origin": "staging/MOTION-15 (accepted old renderer + video.mp4)",
+      "slug": "18-hanazi", "mechanism": "pop 0→1.15→1.0 ~8 帧/2-frame stagger (花字弹跳)",
+      "renderer_source_rel": "sources/MOTION-15/render.py",
+      "original": {
+        "renderer_file": "render.py",
+        "renderer_sha256": "cc49bd03db13d6eac626a0a922ac2d77c6d1f8fee4561234d2a95dff58340d05",
+        "mp4_file": "video.mp4",
+        "mp4_sha256": "edc7b4a55b2bde004f4663527d80fd81b4530d3f3fb80c9f67252da69d1a6461",
+        "old_resolution": [1920, 1080],
+        "source_status": "accepted staging original"
+      },
+      "params": {"seed": 20261115, "schedule": "pop 0->1.15->1.0 over ~8 frames, 2-frame stagger (original)", "renderer": "python render.py", "resolution": [1920, 1080], "fps": 30, "frames": 300},
+      "notes": "Reused: original 1920x1080 mp4 after fresh full decode (300 frames confirmed). No re-render, no scale.",
+      "platform": {"target_renderer": "raster (pure-python Pillow)", "executed_renderer": "same original render.py; media reused", "relation": "same", "audio": "not_applicable", "browser_native": false, "evidence": "verified: fresh full decode 300f/1920x1080/30fps"}
+    }
+  }
+}

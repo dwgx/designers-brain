@@ -1,0 +1,70 @@
+{
+  "registered_at_utc": "2026-11-17T23:02:29.909878+00:00",
+  "case_id": "C1",
+  "attempt_id": "C1-CLOSURE-20261118-001",
+  "version": "C1-CLOSURE-v1",
+  "checker_sha256": "7911f56fbaf9b63db0f6f8556d2fec91de1253a43cf6d36047a678ccb641c148",
+  "measurement_scope": "Predeclared local representation checks on our two artifacts and one deliberately damaged copy; no reference-art metric and no claim of visual attention or aesthetic acceptance.",
+  "size": [
+    960,
+    640
+  ],
+  "rgb_grey_values": [
+    64,
+    136,
+    208
+  ],
+  "svg_fill_values": [
+    "#404040",
+    "#888888",
+    "#d0d0d0"
+  ],
+  "quantization": "PNG RGB greys nearest to 64,136,208; antialias extra greys counted separately; RGB is not CIELAB L.",
+  "area_test": "Report all three quantized area fractions; no pass threshold for global area.",
+  "focus_min_fraction_each_extreme": 0.05,
+  "focus_min_rgb_span": 144,
+  "lost_edge_max_adjacent_step": 0,
+  "threshold_reason": "5% excludes a token speck of either extreme in the premarked ROI; 144 is the fixed palette endpoint span. Lost-edge sample is intentionally a same-value join, so any quantized adjacent step violates this narrow representation claim. None of these are source-artist numerical laws.",
+  "compositions": {
+    "A": {
+      "focus_roi_xyxy": [
+        508,
+        282,
+        641,
+        352
+      ],
+      "lost_edge_samples": [
+        {
+          "id": "A_E1",
+          "y": 440,
+          "x_start": 662,
+          "x_end_inclusive": 679
+        }
+      ]
+    },
+    "B": {
+      "focus_roi_xyxy": [
+        297,
+        222,
+        443,
+        314
+      ],
+      "lost_edge_samples": [
+        {
+          "id": "B_E1",
+          "y": 348,
+          "x_start": 676,
+          "x_end_inclusive": 692
+        }
+      ]
+    }
+  },
+  "bad_example": {
+    "base": "sealed A SVG copied into B",
+    "change": "Add dark #404040 stroke width 6 on the explicitly lost right-back contour, path M672 412 Q682 455 631 493.",
+    "required_rejection_code": "LOST_EDGE_A_E1_ADJACENCY_BROKEN",
+    "secondary_expected_code": "UNEXPECTED_OUTLINE_STROKE",
+    "no_threshold_or_roi_revision": true
+  },
+  "before_measurement": "No pixel statistics have run. A and reference ML/VM were visually inspected. Second topic and spec are written; LS pixels remain unopened."
+}

@@ -1,0 +1,3314 @@
+{
+  "schema": "binding-reconciliation-1.0",
+  "kind": "19-binding-pending-reconciliation",
+  "generated": "2026-11-18",
+  "authoritative_pointer": {
+    "path": "SUP/G8-FINAL-INPUTS-R3C-FINALHEAD2/dispositions-292.json",
+    "resolved_path": "SUP/designers-brain-20261115/G8-FINAL-INPUTS-R3C-FINALHEAD2/dispositions-292.json",
+    "sha256": "db521d01ad5e6ca2c9b3826cb10bf99c984f2721862bba2f2336dd0bd4091240",
+    "note": "supersedes OLD/staging/RELEASE/dispositions-292.json (stale, sha 001fe101...)",
+    "stale_sha256": "001fe101f3845a10b63fc13dd48c14bcac0342a4fe6a0398c8303e7bb66082c9"
+  },
+  "terminal_classes_for_context": {
+    "accepted_chain_preserved": 252,
+    "shared_accepted_chains_preserved": 2,
+    "pending_public_integration_and_final_G3_G5": 1,
+    "pending_domain_disposition_with_original_thresholds": 1,
+    "pending_actual_analysis_or_shared_section_mapping": 1,
+    "pending_original_experiment_disposition": 2,
+    "pending_public_integration_and_final_G3": 1,
+    "calibration_gate_preserved": 1,
+    "pending_final_candidate_install_and_portability_G6": 1,
+    "pending_final_public_integration_G3": 1,
+    "pending_review_final_and_actual_G9_publication": 1,
+    "pending_290_accounting_and_G0_G8": 1,
+    "original_experiment_disposition_pending": 7,
+    "pending_real_consumers_and_final_G6": 1
+  },
+  "rows": [
+    {
+      "task_id": "CONFLICT-02",
+      "lane": "conflicts",
+      "title": "既有冲突C-02逐项核验与精确迁移",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "claim_evidence_map",
+          "conflict_delta",
+          "result_summary"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/CONFLICT-02/receipt.json",
+        "sha256_actual": "7f329815896ae76f6759438ab2fdcbde1f98e59bfcbec8696577035b7cb83597",
+        "sha256_expected_in_disposition": "7f329815896ae76f6759438ab2fdcbde1f98e59bfcbec8696577035b7cb83597",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 17748
+      },
+      "contract": {
+        "path": "ledger/contracts/CONFLICT-02.contract.json",
+        "sha256": "47fcb38981c0673b5a98936c6c236704750bff56e7b75431640a37659af4e176"
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 12,
+        "count_present_on_disk": 12,
+        "count_hash_match": 12,
+        "artifact_kinds": [
+          "checker_raw_output",
+          "claim_evidence_map",
+          "conflict_delta",
+          "input_hash_evidence",
+          "receipt_verification_output",
+          "repo_head_evidence",
+          "result_summary",
+          "runner_receipt",
+          "runner_script"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/CONFLICT-02/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "5f4f990bba11b6678f6e41af2c4691693b11fab9f5b8f4fe7d924b4eb5d4ff0b",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/claim-evidence-map.md",
+            "kind": "claim_evidence_map",
+            "sha256": "da89d31220bf146376a69f0a99096c5f477d320f60cafb76cc62aef9410c1f5e",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/conflict-delta.md",
+            "kind": "conflict_delta",
+            "sha256": "036e6b8d8d0e1c953e6becc8fc2ed659ebb30206173ca2feda71b600aa6e82b0",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/verify_c02.py",
+            "kind": "runner_script",
+            "sha256": "418df4911ef7450780fd77374227277cd73232708ba2d85e868062c70194b68d",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/write_runner_receipt.py",
+            "kind": "runner_script",
+            "sha256": "77f272c71811487187bc24ac72ac9daa1d7379e469f1d4054629646de20ac537",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/runner_receipt.json",
+            "kind": "runner_receipt",
+            "sha256": "e2dd572126eb953c008c21ce2a4b87836b0e33cae3fb3906af6c31df014fd05a",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/raw/verify_c02.out",
+            "kind": "checker_raw_output",
+            "sha256": "cafae1cdbf5cb5aa55a8de34aae378e8a5eb601b0404c4a3b61aefdd28e234c7",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/raw/da_vinci_rule_line.out",
+            "kind": "checker_raw_output",
+            "sha256": "02d07fcde637040c22d8270901c4c00257d48145513514c118b0e3813d39506d",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/raw/michelangelo_rule_line.out",
+            "kind": "checker_raw_output",
+            "sha256": "768b2560705b34d31c9b4020670d5e1c452dfe20f321fab51316920df71bae20",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/raw/git-head.out",
+            "kind": "repo_head_evidence",
+            "sha256": "e39b2ed43c6da3787828e9946828d24f7a89a217eddd7e2ffc3e5979de2736c1",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/raw/input-sha256.out",
+            "kind": "input_hash_evidence",
+            "sha256": "51774378acb2a8321cc29d9c4570d1c9f12c5da913cc6d6001571f6004a95729",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-02/raw/verify-receipt.out",
+            "kind": "receipt_verification_output",
+            "sha256": "5476c163348110248fe581bc027963c96459c6ba7acd5c912bfbc5113e9212f3",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "ledger/task-registry.json",
+          "sha256": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374"
+        },
+        {
+          "path_or_id": "ledger/execution-snapshot.json",
+          "sha256": "16fed28f486d5eae787afd712c5044d4c787d1f459fd8fccee7ce41a2091c825"
+        },
+        {
+          "path_or_id": "ledger/seed-inputs.json",
+          "sha256": "e1715c5e14b68dd6951095b1f5c124c1f2fa38ff5b55e585a90bcde0f4e18bfb"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/da_vinci.md",
+          "sha256": "56b02e9b629636529f66524f74c6e46d32f1f8deee8364b5dad151d34f0e634c"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/michelangelo.md",
+          "sha256": "45ee9ceff18a63e3b699423b4b710f3645df821078420aed1d14d6f6e8eca83a"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/da_vinci.md",
+          "sha256": "34d85edb2ede277906a3e7ff70322ea594b2df7651e5315573f25a67f238e7ab"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/michelangelo.md",
+          "sha256": "9b50095e54c09d8acdde0e237ab6e92df159a62512061bddbd50a3d3ab1a2044"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/da_vinci.md",
+          "sha256": "15f0fd1d593f895e2371a72162398da5c5369b822622cc49f19d2c8ecc1b0765"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/michelangelo.md",
+          "sha256": "9a8888a58a68966a3ccfb115078bb7abc3dbc4133e488105f0fe0e1761bd8fee"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "templates/style_card.md",
+          "sha256": "2ac59f78448e611d8f14d561552d56dc4fab24c02ca62316e4fdc7d82a22609d"
+        },
+        {
+          "path_or_id": "templates/determinism_contract.md",
+          "sha256": "9ec814f310c5a4b04d76502f653a836e50aadcfa38c459e27ab76cb6cf10fb4f"
+        },
+        {
+          "path_or_id": "experiments/design.md",
+          "sha256": "64a58c0aa8a4262bb86d4b39a7f3c94a34459b7496e2ca1d4633ed42a965ea3e"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "ReviewGateCONFLICT-02(glm-5.3-flash)",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/CONFLICT-02/review-evidence.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "CONFLICT-02",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "stable_dir",
+        "status_class": "stable-gated-accepted-old-helper",
+        "receipt_status_claimed": "accepted",
+        "has_v2_reseal": false,
+        "candidate_target_path": "knowledge/cross/conflicts.md (正本; F01/F02/F04/F06/F07/F08/F09/F11/F13 + A/B-pending)",
+        "migration_status": "binding-ledger-only-provisional"
+      },
+      "bound_keyfile_checks": [
+        {
+          "path": "staging/CONFLICT-02/RESULT.md",
+          "bound_sha256": "5f4f990bba11b6678f6e41af2c4691693b11fab9f5b8f4fe7d924b4eb5d4ff0b",
+          "current_sha256": "5f4f990bba11b6678f6e41af2c4691693b11fab9f5b8f4fe7d924b4eb5d4ff0b",
+          "still_matches": true
+        },
+        {
+          "path": "staging/CONFLICT-02/receipt.json",
+          "bound_sha256": "7f329815896ae76f6759438ab2fdcbde1f98e59bfcbec8696577035b7cb83597",
+          "current_sha256": "7f329815896ae76f6759438ab2fdcbde1f98e59bfcbec8696577035b7cb83597",
+          "still_matches": true
+        },
+        {
+          "path": "staging/CONFLICT-02/runner_receipt.json",
+          "bound_sha256": "e2dd572126eb953c008c21ce2a4b87836b0e33cae3fb3906af6c31df014fd05a",
+          "current_sha256": "e2dd572126eb953c008c21ce2a4b87836b0e33cae3fb3906af6c31df014fd05a",
+          "still_matches": true
+        }
+      ],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "early accepted independent review, no canonical migration (CONFLICT-02/UI-01)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "CONFLICT-04",
+      "lane": "conflicts",
+      "title": "既有冲突C-04逐项核验与精确迁移",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "claim_evidence_map",
+          "conflict_delta",
+          "result_summary"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/CONFLICT-04/receipt.json",
+        "sha256_actual": "73fcafd8d0275754459abc1194e20c8e19e88b84ac1b26d05f2929fe11d4853f",
+        "sha256_expected_in_disposition": "73fcafd8d0275754459abc1194e20c8e19e88b84ac1b26d05f2929fe11d4853f",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 16803
+      },
+      "contract": {
+        "path": "ledger/contracts/CONFLICT-04.contract.json",
+        "sha256": "7964477ef524506f5012c7713c795e09a2ef28bf623bb93a8a1e5f55e49396ad"
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 10,
+        "count_present_on_disk": 10,
+        "count_hash_match": 10,
+        "artifact_kinds": [
+          "checker_output",
+          "checker_raw_output",
+          "claim_evidence_map",
+          "conflict_delta",
+          "input_hash_evidence",
+          "locator_evidence",
+          "result_summary",
+          "runner_receipt",
+          "runner_script"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/CONFLICT-04/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "df3a5bd584b7c1af2325b511beed5cee0e70a3c38c3571b76dcb039e19c515ae",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/claim_evidence_map.md",
+            "kind": "claim_evidence_map",
+            "sha256": "ad2ffd4fcfe2474cf4d5636fa83c178fc3117dd5950799b93a8b0fd8c472b536",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/conflict_delta.md",
+            "kind": "conflict_delta",
+            "sha256": "07d481cb018f4563190660eb23f7e6abad35dd813386ed1037b7cf770dce88ac",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/verify_c04.py",
+            "kind": "runner_script",
+            "sha256": "50b5bf861102a0798836d93757b9b959a2b4fe762b3bade45835722f2cfc1789",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/verify_c04.json",
+            "kind": "checker_output",
+            "sha256": "1f7dd995890b11b7a37c61f62abad80f88f9164179facb107e277f2c6715840e",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/raw/verify_c04.out",
+            "kind": "checker_raw_output",
+            "sha256": "ddcda5b39a1fadc6cc8610e735373a7589e28dbe6a38e4ec484123bd0102f5d4",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/raw/locators.out",
+            "kind": "locator_evidence",
+            "sha256": "25795bca594cc8859f6aded65668343c658f0009d13507d3d3a1f47447ac85b7",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/raw/input-sha256.out",
+            "kind": "input_hash_evidence",
+            "sha256": "7754b5ef29f8137343712c7b5bb5db2cd75b4f87e85b2f5f334064658a4a7834",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/raw/checker-search.out",
+            "kind": "checker_raw_output",
+            "sha256": "0f4ad655fa16e548d7556481504d384f62c45183290c118b24a709bd16465d4f",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/CONFLICT-04/runner_receipt.json",
+            "kind": "runner_receipt",
+            "sha256": "c3f0cff449dc447e6c4b5d6af639810c3f5b3ab6ad147a245a2f35333a4d7d5a",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/cezanne.md",
+          "sha256": "ccd429a97e41f4e36a05babeefef4a27b404dc3f91b75848b95f1ece52a15fc5"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/cezanne.md",
+          "sha256": "9029530427f859b6da42ecc1f9a9abc5c0a824d8bfc327615abc0ca5ee54c1de"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/caravaggio.md",
+          "sha256": "64bedbc40c1f36ed250bcbf79716e7cbca9dc4bae649ef9dc13c5cbba1a0ab76"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/caravaggio.md",
+          "sha256": "2d511d4aaaa63d0492e4963d2bb812f1c6a577d374f77a4ce479a256c8db4262"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/cezanne.md",
+          "sha256": "decdbaef4988179a52ffb1b6dde05f7d234bf9bada0751b2f2408191df4e2fa9"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/caravaggio.md",
+          "sha256": "ffea54b0e6314b0f7d08492c0c310428407bf773fa7dec277a32ff837c1331f3"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/_extract.py",
+          "sha256": "4afa31ec230aadca3dd3004b4df079bf7677b409a174195bf26f9a8565af44d4"
+        },
+        {
+          "path_or_id": "docs/PROTOCOLS.md",
+          "sha256": "159959f6ca428348211df0aa0c831e5e20d206a28a6e2d088e739ff7db044fbe"
+        },
+        {
+          "path_or_id": "docs/skill/skill_spec.md",
+          "sha256": "91463442fccd9cc274470289a77fe2eca6fd4fed66491bfaf7a289cf06f56238"
+        },
+        {
+          "path_or_id": "templates/style_card.md",
+          "sha256": "2ac59f78448e611d8f14d561552d56dc4fab24c02ca62316e4fdc7d82a22609d"
+        },
+        {
+          "path_or_id": "experiments/design.md",
+          "sha256": "64a58c0aa8a4262bb86d4b39a7f3c94a34459b7496e2ca1d4633ed42a965ea3e"
+        },
+        {
+          "path_or_id": "knowledge/domains/designers/media/extract_palette.py",
+          "sha256": "85f72b846c6e04cfe3ef82a6b880c471b4d33ee4a7fa6e922ec0c3aec18641a0"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "ledger/task-registry.json",
+          "sha256": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374"
+        },
+        {
+          "path_or_id": "ledger/execution-snapshot.json",
+          "sha256": "16fed28f486d5eae787afd712c5044d4c787d1f459fd8fccee7ce41a2091c825"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "ReviewGateCONFLICT-04(glm-5.3-flash)",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/CONFLICT-04/review-evidence.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "CONFLICT-04",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "stable_dir",
+        "status_class": "stable-gated-accepted-old-helper",
+        "receipt_status_claimed": "accepted",
+        "has_v2_reseal": false,
+        "candidate_target_path": "knowledge/cross/conflicts.md (正本; F01/F02/F04/F06/F07/F08/F09/F11/F13 + A/B-pending)",
+        "migration_status": "binding-ledger-only-provisional"
+      },
+      "bound_keyfile_checks": [
+        {
+          "path": "staging/CONFLICT-04/RESULT.md",
+          "bound_sha256": "df3a5bd584b7c1af2325b511beed5cee0e70a3c38c3571b76dcb039e19c515ae",
+          "current_sha256": "df3a5bd584b7c1af2325b511beed5cee0e70a3c38c3571b76dcb039e19c515ae",
+          "still_matches": true
+        },
+        {
+          "path": "staging/CONFLICT-04/receipt.json",
+          "bound_sha256": "73fcafd8d0275754459abc1194e20c8e19e88b84ac1b26d05f2929fe11d4853f",
+          "current_sha256": "73fcafd8d0275754459abc1194e20c8e19e88b84ac1b26d05f2929fe11d4853f",
+          "still_matches": true
+        },
+        {
+          "path": "staging/CONFLICT-04/runner_receipt.json",
+          "bound_sha256": "c3f0cff449dc447e6c4b5d6af639810c3f5b3ab6ad147a245a2f35333a4d7d5a",
+          "current_sha256": "c3f0cff449dc447e6c4b5d6af639810c3f5b3ab6ad147a245a2f35333a4d7d5a",
+          "still_matches": true
+        }
+      ],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "audit PASS of NOT_IMPLEMENTABLE_AS_STATED (CONFLICT-04)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "LEARN-durer",
+      "lane": "learning",
+      "title": "形成 durer 的学习路径、How to Think、机制与反例",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "claim_evidence_map",
+          "learning_path",
+          "mechanism_notes",
+          "result_summary"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/LEARN-durer/receipt.json",
+        "sha256_actual": "4ec2d77fe3e5382f3aac93ebabae87a8066a1832e7d6b2d763049ecd634ae8bc",
+        "sha256_expected_in_disposition": "4ec2d77fe3e5382f3aac93ebabae87a8066a1832e7d6b2d763049ecd634ae8bc",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 20303
+      },
+      "contract": {
+        "path": "ledger/contracts/LEARN-durer.contract.json",
+        "sha256": "69c6e8d87ee6c1bd4b61cd0de8086b3d124b598df1076e82e76126bf5a90641b"
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 6,
+        "count_present_on_disk": 6,
+        "count_hash_match": 6,
+        "artifact_kinds": [
+          "claim_evidence_map",
+          "how_to_think",
+          "learning_path",
+          "mechanism_notes",
+          "result_summary",
+          "runner_receipt"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/LEARN-durer/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "8018dc9303a8562dead88e8a068be5f3734dad1bfc4c217d53b5ca8179a95c3a",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-durer/learning_path.md",
+            "kind": "learning_path",
+            "sha256": "4bf49337511fdc2ed74741fe2ae05abdf15f21aa49b22e4b5730f43b93a3658d",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-durer/how-to-think.md",
+            "kind": "how_to_think",
+            "sha256": "6cf2982c5ae3c85072733d32e3994bf82ed8e7b74c16a25156423ee73c42b408",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-durer/mechanism_notes.md",
+            "kind": "mechanism_notes",
+            "sha256": "4bc3ea9ab85c651974caea7bc8de27dd5c31779150723ea519a31868ad8c06dd",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-durer/claim_evidence_map.md",
+            "kind": "claim_evidence_map",
+            "sha256": "b368f3a6448c816222e254877e8230a4de233aecaa5d0500996fb1a6474633ee",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-durer/runner_receipt.json",
+            "kind": "runner_receipt",
+            "sha256": "036de3c53d172a8b60c401eb277bbde8bcc92220d26c3246f608b2d0c2383a48",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/durer.md",
+          "sha256": "ad49cd7725dbbbbbc8fe18805f687c1d4ce5a0195a87e95588eb14654a55d988"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/durer.md",
+          "sha256": "4f5be577b7c98abc56e98573716aa4de68ac80891d50e4f9f51630ee13cb429e"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/durer.md",
+          "sha256": "7364a8eb34803f2042b4922fca077d2758184546964efbbaf1e546849bb5525a"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/hokusai.md",
+          "sha256": "d03a260ccb0eeab64cb6b008ff6ae4a247456dbb0891c87d172c3708de0e330f"
+        },
+        {
+          "path_or_id": "staging/AUDIT-durer/RESULT.md",
+          "sha256": "1ecfe5e83d809cfdd69345287255020645483c23fbb16ffd59983b6b096f2405"
+        },
+        {
+          "path_or_id": "staging/AUDIT-durer/claim_evidence_map.json",
+          "sha256": "8878411e49abec964af80fcf325a5a62f063f31c3206e0b65de32fd9d67f3e01"
+        },
+        {
+          "path_or_id": "staging/AUDIT-durer/coverage_manifest.json",
+          "sha256": "8bfc0ffaa882b0875e86473f7bc2890303220a3430a35cf50f35425eb730e088"
+        },
+        {
+          "path_or_id": "staging/AUDIT-durer/receipt.json",
+          "sha256": "539afcdccb5b524c371ba4f5e09a968994360e4d42ddd87a3e27087d94222bab",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 5940721a8d6e5a607ef891edd20e6d19eb65a11b65632cf7b4df95333b6e5d19 preserved here"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "ledger/task-registry.json",
+          "sha256": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindLearn",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/LEARN-durer/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "LEARN-durer",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "stable_dir",
+        "status_class": "stable-gated-v2-resealed",
+        "receipt_status_claimed": "accepted",
+        "has_v2_reseal": true,
+        "candidate_target_path": "knowledge/domains/painters/modules/<artist>.md (generator-first) + LEARNING-INDEX",
+        "migration_status": "binding-ledger-only-provisional"
+      },
+      "bound_keyfile_checks": [
+        {
+          "path": "staging/LEARN-durer/RESULT.md",
+          "bound_sha256": "8018dc9303a8562dead88e8a068be5f3734dad1bfc4c217d53b5ca8179a95c3a",
+          "current_sha256": "8018dc9303a8562dead88e8a068be5f3734dad1bfc4c217d53b5ca8179a95c3a",
+          "still_matches": true
+        },
+        {
+          "path": "staging/LEARN-durer/receipt.json",
+          "bound_sha256": "ffd21b3017b8884a12dc4d4a35472d6cbd5ec9a880e7cd158c1f681ea82ab1d0",
+          "current_sha256": "4ec2d77fe3e5382f3aac93ebabae87a8066a1832e7d6b2d763049ecd634ae8bc",
+          "still_matches": false
+        },
+        {
+          "path": "staging/LEARN-durer/runner_receipt.json",
+          "bound_sha256": "036de3c53d172a8b60c401eb277bbde8bcc92220d26c3246f608b2d0c2383a48",
+          "current_sha256": "036de3c53d172a8b60c401eb277bbde8bcc92220d26c3246f608b2d0c2383a48",
+          "still_matches": true
+        },
+        {
+          "path": "staging/LEARN-durer/review-evidence-v2.md",
+          "bound_sha256": "5d5a778a41ef79f5bef9cddd9cafa0d5c36a9f87401ab89e5d7f1223fc1800e0",
+          "current_sha256": "5d5a778a41ef79f5bef9cddd9cafa0d5c36a9f87401ab89e5d7f1223fc1800e0",
+          "still_matches": true
+        },
+        {
+          "path": "staging/LEARN-durer/review-gate-receipt-v2.json",
+          "bound_sha256": "8dcc07464a64628663cb13b80b6326da14d62a9154f2b6b2af3cb9ceaaa9fd08",
+          "current_sha256": "7b1ec7def4f05a564c192ecdf97dc4605040ec5de901d48dff58cd4230e12075",
+          "still_matches": false
+        },
+        {
+          "path": "staging/LEARN-durer/review-gate-runner-receipt-v2.json",
+          "bound_sha256": "3729f9c42277dbe463f150459e670dec4aa9fc7b77da5d030d8e34f7d420f5f0",
+          "current_sha256": "3729f9c42277dbe463f150459e670dec4aa9fc7b77da5d030d8e34f7d420f5f0",
+          "still_matches": true
+        }
+      ],
+      "correction_needed": [
+        {
+          "field": "binding_table.bound_keyfile_hashes",
+          "issue": "v2 reseal changed receipt/review-gate-receipt bytes after the binding ledger froze",
+          "stale_paths": [
+            "staging/LEARN-durer/receipt.json",
+            "staging/LEARN-durer/review-gate-receipt-v2.json"
+          ],
+          "resolution": "binding table entry is a frozen migration intent at batch time, not current bytes; CORRECTION: treat these bound hashes as stale; rebind required before final acceptance. Historic binding file is NOT edited."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "unknown",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "LEARN-sargent",
+      "lane": "learning",
+      "title": "形成 sargent 的学习路径、How to Think、机制与反例",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "claim_evidence_map",
+          "learning_path",
+          "mechanism_notes",
+          "result_summary"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/LEARN-sargent/receipt.json",
+        "sha256_actual": "613d98ee29846f7c8f7b46672b788bdd74d6f21d801dda5085d0ce5626bbf0a5",
+        "sha256_expected_in_disposition": "613d98ee29846f7c8f7b46672b788bdd74d6f21d801dda5085d0ce5626bbf0a5",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 28782
+      },
+      "contract": {
+        "path": "ledger/contracts/LEARN-sargent.contract.json",
+        "sha256": "249e55361da4c2c10a4e4659dad2867a6a7c7e37f35e588c72552c4650ebe1be"
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 5,
+        "count_present_on_disk": 5,
+        "count_hash_match": 5,
+        "artifact_kinds": [
+          "claim_evidence_map",
+          "how_to_think",
+          "learning_path",
+          "mechanism_notes",
+          "result_summary"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/LEARN-sargent/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "5c1546a208f8ba427568f263131e39a3d933437ca886a326f865f5b6d481ae66",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-sargent/learning_path.md",
+            "kind": "learning_path",
+            "sha256": "6db13f8169ddba47723dee13d0a775fbd3988cb0590f05a5a596113e1ca8ca0c",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-sargent/how-to-think.md",
+            "kind": "how_to_think",
+            "sha256": "871a362108aebd60955d1882ea46b96145b9da708f502ee13fc7a74974e5aa3f",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-sargent/mechanism_notes.md",
+            "kind": "mechanism_notes",
+            "sha256": "d3c6d367095ffa7ce5c2b03b5f1d6839491f1e48c0c74c673803991a53b69156",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/LEARN-sargent/claim_evidence_map.md",
+            "kind": "claim_evidence_map",
+            "sha256": "373d337987f7691d987fe16cd2b43747ecfb4dd1db74b228052b2d045a5e841d",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/sargent.md",
+          "sha256": "3f9df9adb0610e8c7bdff3f989cd0cb93f99ac4f7f44df9b798058c9a8e2bb62"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/sargent.md",
+          "sha256": "9d03a6f7733f8bed847148927de6c7339fddbdb12fbbe6e7b49c136d8d906272"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/sargent.md",
+          "sha256": "32bc85d5ed5f4f19c24e09f5ca60eb2a6452c9d30b5ab4c3d231dee235d90e68"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/zorn.md",
+          "sha256": "6ad27b472e743efbd2e8be2158793bbcec7370ae0831b1575712eb85b0650fca"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/zorn.md",
+          "sha256": "5302cd97a3ce3ccf37dee8ad97a7c550e34b46edfac5a4f8d7aecfdc1e0f0377"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "staging/AUDIT-sargent/receipt.json",
+          "sha256": "1ee9d9cfd6edd3c35d38d012d3e59df928c39602006cd930a59a4a66541ecb2c",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 8be5a3d1393f01a11863353f3e9ca252b02e09e316f22e4a8875f3154d0d3e3b preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-sargent/coverage-manifest.json",
+          "sha256": "c24c010deb9e78785f1c81854083d07f62b4c8fdffc2238f3fd78c79e5aa167d"
+        },
+        {
+          "path_or_id": "staging/AUDIT-sargent/RESULT.md",
+          "sha256": "816d346ba8e014fa29637cde92da0b1acb9c9f008f3c55ffdd85c6791741731c"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindLearn",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/LEARN-sargent/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "LEARN-sargent",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "stable_dir",
+        "status_class": "stable-gated-v2-resealed",
+        "receipt_status_claimed": "accepted",
+        "has_v2_reseal": true,
+        "candidate_target_path": "knowledge/domains/painters/modules/<artist>.md (generator-first) + LEARNING-INDEX",
+        "migration_status": "binding-ledger-only-provisional"
+      },
+      "bound_keyfile_checks": [
+        {
+          "path": "staging/LEARN-sargent/RESULT.md",
+          "bound_sha256": "5c1546a208f8ba427568f263131e39a3d933437ca886a326f865f5b6d481ae66",
+          "current_sha256": "5c1546a208f8ba427568f263131e39a3d933437ca886a326f865f5b6d481ae66",
+          "still_matches": true
+        },
+        {
+          "path": "staging/LEARN-sargent/receipt.json",
+          "bound_sha256": "2a475898e4c20a225346172b19d8ea1e6a74ae598e012d86676d3930478b1a8e",
+          "current_sha256": "613d98ee29846f7c8f7b46672b788bdd74d6f21d801dda5085d0ce5626bbf0a5",
+          "still_matches": false
+        },
+        {
+          "path": "staging/LEARN-sargent/runner_receipt.json",
+          "bound_sha256": "ecb10074b9d21c40741f0a774aa80cac0537145b675f86e77a34e037b9f3a3ae",
+          "current_sha256": "ecb10074b9d21c40741f0a774aa80cac0537145b675f86e77a34e037b9f3a3ae",
+          "still_matches": true
+        },
+        {
+          "path": "staging/LEARN-sargent/review-evidence-v2.md",
+          "bound_sha256": "3cdfc5a822e355abb2dce3e96c30bb5b679cd25be1f1a55826ce1c1104598d6c",
+          "current_sha256": "3cdfc5a822e355abb2dce3e96c30bb5b679cd25be1f1a55826ce1c1104598d6c",
+          "still_matches": true
+        },
+        {
+          "path": "staging/LEARN-sargent/review-gate-receipt-v2.json",
+          "bound_sha256": "56c13e2db0e1942eac60e8b54f3ca9e2fba0a0537b93c9e4b8760e2bc8eee60e",
+          "current_sha256": "063d3ff77f04b407dfba5aa6b4779a6d704e2b10f3ae28013021b97531f36ca3",
+          "still_matches": false
+        },
+        {
+          "path": "staging/LEARN-sargent/review-gate-runner-receipt-v2.json",
+          "bound_sha256": "0fb75510ffde0186224398d37d46925facc7baa82ad4c927ef3bb4970bfd1486",
+          "current_sha256": "0fb75510ffde0186224398d37d46925facc7baa82ad4c927ef3bb4970bfd1486",
+          "still_matches": true
+        }
+      ],
+      "correction_needed": [
+        {
+          "field": "binding_table.bound_keyfile_hashes",
+          "issue": "v2 reseal changed receipt/review-gate-receipt bytes after the binding ledger froze",
+          "stale_paths": [
+            "staging/LEARN-sargent/receipt.json",
+            "staging/LEARN-sargent/review-gate-receipt-v2.json"
+          ],
+          "resolution": "binding table entry is a frozen migration intent at batch time, not current bytes; CORRECTION: treat these bound hashes as stale; rebind required before final acceptance. Historic binding file is NOT edited."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "unknown",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "RULE-01",
+      "lane": "composition_rules",
+      "title": "既有组合规则N1条件、证据、反例审查",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "claim_evidence_map",
+          "counterexamples",
+          "result_summary",
+          "rule_delta"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/RULE-01/receipt.json",
+        "sha256_actual": "42e021ba857a30aa9261bc5cac057cdbb988da9539c2f040b971bb9913b9a76b",
+        "sha256_expected_in_disposition": "42e021ba857a30aa9261bc5cac057cdbb988da9539c2f040b971bb9913b9a76b",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 17428
+      },
+      "contract": {
+        "path": "ledger/contracts/RULE-01.contract.json",
+        "sha256": "e3fccfe953f060920fbce124bddda388dac022631fe56f7da6eaefd06cf5aeb0"
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 9,
+        "count_present_on_disk": 9,
+        "count_hash_match": 9,
+        "artifact_kinds": [
+          "checker_raw_output",
+          "claim_evidence_map",
+          "counterexamples",
+          "receipt_verification_output",
+          "result_summary",
+          "rule_delta",
+          "runner_receipt",
+          "runner_script"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/RULE-01/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "3051a77e86b0b6b8b646e1084e484b0f7865472440c5ce10de9878497d917b56",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/claim-evidence-map.md",
+            "kind": "claim_evidence_map",
+            "sha256": "b0866b44290f1af556cfe8727856d1fdce0814f589a9e674a715d530b193044b",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/rule-delta.md",
+            "kind": "rule_delta",
+            "sha256": "17a46307fad50c55443178c19f13e61c735829fe3d2a99450299870b4a7b92d8",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/rule-delta.json",
+            "kind": "rule_delta",
+            "sha256": "dfb9318e526950903654660df3bab6d33be47b1b3e65e69dc603feba3dca5471",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "e200435c1579d3b3b8ef37c52b4b02040ef3f1645262781a3d66f5f373faa56e",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/verify_n1.py",
+            "kind": "runner_script",
+            "sha256": "b41b285bf2509b95f2c5a5a694c79f6126e99b4cdb8edbd1eb4a2094aee1808d",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/raw/verify_n1.out",
+            "kind": "checker_raw_output",
+            "sha256": "cc6cf11cec8cad240fd996138a5d6e910f54282800db37ad32db20a195d4f08c",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/runner_receipt.json",
+            "kind": "runner_receipt",
+            "sha256": "6f1040cc03f0aeea6b5d0d84a1699768ec4c7c6e2d0a4beecdba3350f407d50b",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/RULE-01/raw/verify-receipt.out",
+            "kind": "receipt_verification_output",
+            "sha256": "5476c163348110248fe581bc027963c96459c6ba7acd5c912bfbc5113e9212f3",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "templates/style_card.md",
+          "sha256": "2ac59f78448e611d8f14d561552d56dc4fab24c02ca62316e4fdc7d82a22609d"
+        },
+        {
+          "path_or_id": "experiments/design.md",
+          "sha256": "64a58c0aa8a4262bb86d4b39a7f3c94a34459b7496e2ca1d4633ed42a965ea3e"
+        },
+        {
+          "path_or_id": "knowledge/domains/motion-graphics/origin/提示词全文.md",
+          "sha256": "7227cbf02572c5226c154f84ea3f0cc022c07112ee2518cb8072a7f2d1ad34e6"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/modules/README.md",
+          "sha256": "aca30d411f85a800747d67e5be71b7d90cad115ed749b8854426ed7a17e6280e"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "ledger/execution-snapshot.json",
+          "sha256": "16fed28f486d5eae787afd712c5044d4c787d1f459fd8fccee7ce41a2091c825"
+        },
+        {
+          "path_or_id": "ledger/seed-inputs.json",
+          "sha256": "e1715c5e14b68dd6951095b1f5c124c1f2fa38ff5b55e585a90bcde0f4e18bfb"
+        },
+        {
+          "path_or_id": "ledger/task-registry.json",
+          "sha256": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "ReviewGateN01(glm-5.3-flash)",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/RULE-01/review-evidence.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "RULE-01",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "stable_dir",
+        "status_class": "stable-gated-accepted-old-helper",
+        "receipt_status_claimed": "accepted",
+        "has_v2_reseal": false,
+        "candidate_target_path": "knowledge/cross/conflicts.md §3 N-rows + templates/style_card.md",
+        "migration_status": "binding-ledger-only-provisional"
+      },
+      "bound_keyfile_checks": [
+        {
+          "path": "staging/RULE-01/RESULT.md",
+          "bound_sha256": "3051a77e86b0b6b8b646e1084e484b0f7865472440c5ce10de9878497d917b56",
+          "current_sha256": "3051a77e86b0b6b8b646e1084e484b0f7865472440c5ce10de9878497d917b56",
+          "still_matches": true
+        },
+        {
+          "path": "staging/RULE-01/receipt.json",
+          "bound_sha256": "42e021ba857a30aa9261bc5cac057cdbb988da9539c2f040b971bb9913b9a76b",
+          "current_sha256": "42e021ba857a30aa9261bc5cac057cdbb988da9539c2f040b971bb9913b9a76b",
+          "still_matches": true
+        },
+        {
+          "path": "staging/RULE-01/runner_receipt.json",
+          "bound_sha256": "6f1040cc03f0aeea6b5d0d84a1699768ec4c7c6e2d0a4beecdba3350f407d50b",
+          "current_sha256": "6f1040cc03f0aeea6b5d0d84a1699768ec4c7c6e2d0a4beecdba3350f407d50b",
+          "still_matches": true
+        }
+      ],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "accepted_with_correction; CE-1 inference refuted, N1 needs_update holds (RULE-01)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-chardin",
+      "lane": "style_only",
+      "title": "补 chardin 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-chardin/receipt.json",
+        "sha256_actual": "f875db8aab6e7626ee5a94406594fc3219c818a70694ccbe426d4344b494e710",
+        "sha256_expected_in_disposition": "f875db8aab6e7626ee5a94406594fc3219c818a70694ccbe426d4344b494e710",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10685
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-chardin.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-chardin/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "ea1aa02b9cb8cc187388e5545caae1dc712fcea1d91ed987e27beea3943bbd2b",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-chardin/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "34ce81ed35e8d3bb7a12b43630945d539e1e8dabce861501a807645f289c76ab",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-chardin/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "260c52ab49feb87f17a3e0ca262b9e35d644a6db2421773c2a3a0a979e11a254",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-chardin/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "e60c2132a8119b593f5909c0b2097a9bfe7751ba205bd179795b524816c927e9",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/chardin.md",
+          "sha256": "df57eb65bcc51889105ab76f2e9b0d1bf3e1990ce014b36ed7049e7bcee8c640"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/chardin.md",
+          "sha256": "323f72f30f1b490b0dd2c8d361e7ec628f67d7fb95e61870d559180fc703a832"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/chardin.md",
+          "sha256": "7b11679f2fe454e9694121ae3d999074de4b037830867eb88fcf177c65b66495"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-chardin/RESULT.md",
+          "sha256": "65af849e4f32748fed2aeb25c84cc7596df58931377ecc2c643019483aba5e91"
+        },
+        {
+          "path_or_id": "staging/AUDIT-chardin/rights_review.md",
+          "sha256": "1b076fab4f3a23fa22dc2834737b602c3af6c47d1e038dc758483f60fd66e62c"
+        },
+        {
+          "path_or_id": "staging/AUDIT-chardin/receipt.json",
+          "sha256": "4925a0b202c09e8aa7a1a89c451ef8db5acc9450a99330bdf16dde43c65a750e",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 6e304471e124f654244e8b85c180024576614b30e78599da52d67d5c24ba9bad preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-chardin/claim_evidence_map.md",
+          "sha256": "13fb3d619b87fd03f0d6f5da4dc366002abed0a5a75a9f5131822bbd62a1d02c"
+        },
+        {
+          "path_or_id": "staging/AUDIT-chardin/coverage-manifest.json",
+          "sha256": "dc588fed4353a7e760de9f400b8555792d4fd10b0adc0459e0fd91d9e061cc15"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-chardin/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-chardin",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-el_greco",
+      "lane": "style_only",
+      "title": "补 el_greco 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-el_greco/receipt.json",
+        "sha256_actual": "17078fe630c20169cfa48b562ed28e8c01ca0cbcbc4f00d1607f3b498083d5fb",
+        "sha256_expected_in_disposition": "17078fe630c20169cfa48b562ed28e8c01ca0cbcbc4f00d1607f3b498083d5fb",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10722
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-el_greco.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-el_greco/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "881582cf3e0e4752daab4807c08800c151147bcc59519cfa1870588e239c960e",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-el_greco/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "9aa1b5697a0248893dcc458b4d0474f25c608a825b03cccaaa8a213f6be84d08",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-el_greco/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "b31b26daca5f0793768559dc8a0838fec78e2063fcecc5505a7f7f45b9525979",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-el_greco/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "e29dce2c5894a85958ee51186e32fd389d5b150fea530ff0e79285aef688f548",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/el_greco.md",
+          "sha256": "068fb227fb93a346ddbb8bac1f8652595b9eb3fa216c5cdbb37223c980cea935"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/el_greco.md",
+          "sha256": "44d2b2b9213b368dee821533494fd400bbd638711d9294bbf63dffc7459fe007"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/el_greco.md",
+          "sha256": "e5a7efcce2c83eb3e9b04732a05fbeab9ca9a7dc0b9edf734c5390979baacfd1"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-el_greco/RESULT.md",
+          "sha256": "3b36a5ae412faa97cc7ebf45df0126ffa5d0609446f3023e6cab28dd98933eee"
+        },
+        {
+          "path_or_id": "staging/AUDIT-el_greco/rights_review.md",
+          "sha256": "633f3e6518d8b4d54b5247ad1291996e48023a6b3e5d7a37d51e50c13c2a246c"
+        },
+        {
+          "path_or_id": "staging/AUDIT-el_greco/receipt.json",
+          "sha256": "228f1565481e278bcd8ba4d0f6ce0305b77dd08cede6108d33f1873e8b3c46c7",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash c348ccdd31cb06069a7047e9e8df439e62f1ce1da84cab29f5848649e128653b preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-el_greco/claim_evidence_map.md",
+          "sha256": "87d9a323e6411b426ce04707817e9ad889b7eb9eaf96aa6aff90d424d521a12f"
+        },
+        {
+          "path_or_id": "staging/AUDIT-el_greco/coverage_manifest.json",
+          "sha256": "c92f2c6e02917e9272ef0db775a88a799cf71d51de74854915d8e31a380f31b5"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-el_greco/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-el_greco",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-goya",
+      "lane": "style_only",
+      "title": "补 goya 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-goya/receipt.json",
+        "sha256_actual": "64e3cbed56bfc4cf4c6707c3e783a4189c5ae1a95eff8efe668be31db231e0e2",
+        "sha256_expected_in_disposition": "64e3cbed56bfc4cf4c6707c3e783a4189c5ae1a95eff8efe668be31db231e0e2",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 9680
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-goya.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-goya/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "2a9ee1cc860139acf2ced17b6e4ef73bbdb0e93c3b34dcb986249e7207fafa8e",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-goya/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "fb755f97fed4f0553fe1b6c91df0e60d9c687a2bd69b0a9379221fa5ef54e24a",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-goya/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "d3700ef6d8b231992665d58ba100c02fbf899de4ef1b8a9ff2d25d243d014ba6",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-goya/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "258d0f683b9d99b3c15de4208f57e18f5113e561742f6641228b9adec0754644",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/goya.md",
+          "sha256": "06076de8803f465ccb761dbfc254dda736b8b8ccfeb0216ca341f8908c929873"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/goya.md",
+          "sha256": "a50f0d27231bb266e4892b1b8ad4157d2c59a27a76afec005c7cab5fa429ee73"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/goya.md",
+          "sha256": "fd9efc7046151ed3875f325c6652a923c40695e99fe3bfe21eb31a9edab3fddd"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-goya/RESULT.md",
+          "sha256": "9cc03bbbbf6a5836b5fbe18210f177de575a4081064c05d194eaf1740a12fe4d"
+        },
+        {
+          "path_or_id": "staging/AUDIT-goya/receipt.json",
+          "sha256": "9a6fff593c41527bfad788fca9f0e5c1b07150f054f44fa922084c859cc676ca",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 4a7f779c11eff8d07ad074fda62bc072978572c30dfc071e143ae6ad69c9bddc preserved here"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-goya/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-goya",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-hogarth",
+      "lane": "style_only",
+      "title": "补 hogarth 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-hogarth/receipt.json",
+        "sha256_actual": "6b6c6ea56e73b69f143cad8a2d897beb7d75f0f1e3028878d3df720c8bff4b96",
+        "sha256_expected_in_disposition": "6b6c6ea56e73b69f143cad8a2d897beb7d75f0f1e3028878d3df720c8bff4b96",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 9774
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-hogarth.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-hogarth/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "70da8387b6cfcdad18e0f6ded0fb856f4583327681927e90c08a41b3390f5125",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-hogarth/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "d2abcbc727c21a575a915889c3d278591dea50e71a056ff1dc95d0841214bf0b",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-hogarth/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "c5b62c70cf03794ff375b8b18d550822976a4a2503f318fd08ca3f040d501eef",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-hogarth/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "cfb4c94f12d1c79aac7c920b3c67440373648899bfc6958f4cfc4f2df8846236",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/hogarth.md",
+          "sha256": "b76354c11d58d75e7bbd03ac72ed2e262cd824fb4df56e9789dc1a60d0f25ea8"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/hogarth.md",
+          "sha256": "b9509997fcd3a73c6e1efe4284869abcf314e74e59b7020f9bdb38b806b5ca3c"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/hogarth.md",
+          "sha256": "dc513ae888a8c860019ec81c186d800e010f36bc00628a79ce0fe047efbc48ce"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-hogarth/RESULT.md",
+          "sha256": "a514f00042c2707c4bc6e4734a2972d44ee8010a496ab8e66616037432e5f760"
+        },
+        {
+          "path_or_id": "staging/AUDIT-hogarth/receipt.json",
+          "sha256": "5ccc3cb3b738cfa2b489fb09adb356259b310f3ce3c4d423580ce54ded560b37",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 94a29aa4a7dc7bf331341db54de5fc19dd72c0da296b8cda87693be92ec40587 preserved here"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-hogarth/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-hogarth",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-hopper",
+      "lane": "style_only",
+      "title": "补 hopper 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-hopper/receipt.json",
+        "sha256_actual": "f5ff5cf06f261153b1ba3b5de23d813a1a538f3a3c0f6d1771e4b2cb7c5e88bd",
+        "sha256_expected_in_disposition": "f5ff5cf06f261153b1ba3b5de23d813a1a538f3a3c0f6d1771e4b2cb7c5e88bd",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 9741
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-hopper.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-hopper/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "2a170afe5a3099a43f042adbefa773559914dcfa27d5c128806da2dd25bf7b70",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-hopper/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "279ff8ed5e628e343a6c1cdc313c630f27ddabed15f4eb1351c55a9e24618c1b",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-hopper/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "694c121c8f1296e12407332f904c553258fd97aa03660d152ed41e32a1686c12",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-hopper/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "93c9676c60f8d3a5b1d82301c17b8da1e6f3c1e1749542f5b536689463d1edcc",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/hopper.md",
+          "sha256": "2b96411562be396a68092f38f08fb5d0d004b5e11f1da130c216090715f4b7b0"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/hopper.md",
+          "sha256": "b9db59fcedfe8a7f11f1736a49e40c21f8049f36354a77ba0aff962edd935d09"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/hopper.md",
+          "sha256": "5e59adb804abe76f361f012678c8f70d7a1f9ec03389ab1a3a76c77197e761f4"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-hopper/RESULT.md",
+          "sha256": "cee4278f1212150228f6e4655a720e13e7a498ba68d026d87d876de75b84414d"
+        },
+        {
+          "path_or_id": "staging/AUDIT-hopper/receipt.json",
+          "sha256": "7ede7cef2cd8bf2d716ccb4afd30df84a07601bce54130f383802ee582a07a1f",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash d1ca80979aa7c804dc6b3db475e1d30943f0a4f50cfc6426114cc14f0d19dec0 preserved here"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-hopper/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-hopper",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-ito_jakuchu",
+      "lane": "style_only",
+      "title": "补 ito_jakuchu 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-ito_jakuchu/receipt.json",
+        "sha256_actual": "ffc72d4980b804a8bf1feac76b551841b2d605221b5dc506b590150c7874e729",
+        "sha256_expected_in_disposition": "ffc72d4980b804a8bf1feac76b551841b2d605221b5dc506b590150c7874e729",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 9898
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-ito_jakuchu.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-ito_jakuchu/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "c9b5492b7453b9e37945e351d51cfbca6424e6a46cc4a45e2a9a21462c908faa",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ito_jakuchu/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "27d944ff36bc44c702059aaf886a7768c5536ce2282a038570c6baa02dac6f3f",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ito_jakuchu/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "8320bbf80a38e46751041f2ed6a6ce9c63d9c1f8beaa036196123194aac58f81",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ito_jakuchu/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "1ca95f8e3a60850e3d181a6b166dd9fe5ffb154195b28b4269b42ad03d2d15cb",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/ito_jakuchu.md",
+          "sha256": "7b07c0cf93d92b7eb2de39ed4f844ecdaefd74af49cb434e874b973eacf228df"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/ito_jakuchu.md",
+          "sha256": "0ed28b154198a0668f07a1df4b821909b679da0cc188f7b605133b789b82cac1"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/ito_jakuchu.md",
+          "sha256": "775898e51e1b1129bfa995e743b6bea0b3099d249710acd0f86ddda60a505d19"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ito_jakuchu/RESULT.md",
+          "sha256": "100e42b43218087bfe1a488c8b7a9c7f08f0637259773ff152afaa0479ea2ebd"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ito_jakuchu/receipt.json",
+          "sha256": "b67a53d3126eae748782e2f64bd54017dd4923ed094aa7387b473768f4f0ef5c",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash ea36032ddac0ccb174e4fad1832e4685e9cc10b2bdcffe30c133e6c578427e56 preserved here"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-ito_jakuchu/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-ito_jakuchu",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-manet",
+      "lane": "style_only",
+      "title": "补 manet 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-manet/receipt.json",
+        "sha256_actual": "f2989ac4bef3fe3ec9d016077d11b441bbe54e1827ddc5588427882142ebf423",
+        "sha256_expected_in_disposition": "f2989ac4bef3fe3ec9d016077d11b441bbe54e1827ddc5588427882142ebf423",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10608
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-manet.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-manet/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "43ee5c686fd5e3b3137b96045b84599584da1b4d00550fb6f366bf921b214883",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-manet/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "705aca28ee10b4d7177522e9304ac1135a6bf43307eb521ed2dde8fcb8489802",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-manet/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "96b779dee881f987f6f9819bd0968cfe04b74da759b9fddab68a19984ca0e0b5",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-manet/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "423f7e898413e997ddf0d7b527bcf0f6abc277bcad23c669e5a262b1acd20953",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/manet.md",
+          "sha256": "486ec9e11e2cb9122be9a52efed72ba0b1865bdf31d882a51683d20d51147b99"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/manet.md",
+          "sha256": "426f3d2e6febc8326ed07e50268eb3a3ead967da07a732a6616feebfc09ef53f"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/manet.md",
+          "sha256": "46fc8c8b0d0ceee73a123b3a3ef2938c346929032b8c39de5050d19f7c2b163a"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-manet/RESULT.md",
+          "sha256": "4d76e231fe1075cc30950d113a6b1e46c58b11bc4164578442bf2424b820e19f"
+        },
+        {
+          "path_or_id": "staging/AUDIT-manet/rights_review.md",
+          "sha256": "5a40fc0c741fc69b8c5cb19304195b64c7c6e90be3b5194ab002237f02d7bb27"
+        },
+        {
+          "path_or_id": "staging/AUDIT-manet/receipt.json",
+          "sha256": "3b435fb5fc05001396b955d02897ce2d996b7162c9805c1b1a4f8d28e245ee69",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash c78587b79bf9df21c12ae3fb914dc0824dabc19c62f8d61c76614d2e4c2a818d preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-manet/claim_evidence_map.md",
+          "sha256": "50a674d980ca53708235754051625dab0f2885e398f5f59ae50d675bab0ff02c"
+        },
+        {
+          "path_or_id": "staging/AUDIT-manet/coverage-manifest.json",
+          "sha256": "7351f587d48b898ef5c7700797180730a0cc1d9cfa8d8752bbfd8105c063f085"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-manet/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-manet",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-mir_sayyid_ali",
+      "lane": "style_only",
+      "title": "补 mir_sayyid_ali 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-mir_sayyid_ali/receipt.json",
+        "sha256_actual": "a2edc71e4ccbf294a539c1d4bee5af419a17e3dbbcc44067062caa4d127691b8",
+        "sha256_expected_in_disposition": "a2edc71e4ccbf294a539c1d4bee5af419a17e3dbbcc44067062caa4d127691b8",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10959
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-mir_sayyid_ali.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-mir_sayyid_ali/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "19e6d092b77a59251998424e0dcc95bd27ee435f051f555db99e798d9955034f",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-mir_sayyid_ali/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "521ad39363430d197dc738205aa8a2a0268dbaa03aaa2d05dadfc959c4e52aaf",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-mir_sayyid_ali/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "c40414ac1b5f448684327597945fcec7775eb7a844ea754cdf9e9626f39131a4",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-mir_sayyid_ali/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "64d531233e544c2d1652534be1af09c724a85af8d4624927eb34e8f5c8524622",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/mir_sayyid_ali.md",
+          "sha256": "1a18c2ba07fc122f0ddb9520348f68cd8407ee2c08d4d983e24c867940103585"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/mir_sayyid_ali.md",
+          "sha256": "4819e4f61163852b6355e48fa0575ce917c1f73016eab21235cfce795d228223"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/mir_sayyid_ali.md",
+          "sha256": "0db38d6aab5dd7a57c7e0e1dce338578ba7e5c9aeb39cd866c12b74dc34d1c9f"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-mir_sayyid_ali/RESULT.md",
+          "sha256": "cf2d8ead19bb2ed01b58f6c2d24d5cc6cfba6e9b01981b1115a200338a1b646a"
+        },
+        {
+          "path_or_id": "staging/AUDIT-mir_sayyid_ali/rights_review.md",
+          "sha256": "8fc64e0336352e9cb34f11fad79e7e4f521c99603e82dc28b3daa464ca525f70"
+        },
+        {
+          "path_or_id": "staging/AUDIT-mir_sayyid_ali/receipt.json",
+          "sha256": "e247b2510a87f8e8b8f9eaf0b707a7d8a301837f2da86b85fab5366ccf07f688",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash c0d5202af9765288b6bea7a31bd883d7622f23668ede20228d33bad0092bd24b preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-mir_sayyid_ali/claim_evidence_map.md",
+          "sha256": "501479e60a34b3c428fcc4e5e8d83736155936cce1fb1e78fb2fd6b71d01df35"
+        },
+        {
+          "path_or_id": "staging/AUDIT-mir_sayyid_ali/coverage-manifest.json",
+          "sha256": "2283df37e98e9b53b4349263fa7e01e7f27bb80aecfed51a65e8ded1887fd004"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-mir_sayyid_ali/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-mir_sayyid_ali",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-munch",
+      "lane": "style_only",
+      "title": "补 munch 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-munch/receipt.json",
+        "sha256_actual": "2b38da6789e8cfafa3795cb31638d23f40c45503fb232158b4a2aa948f690857",
+        "sha256_expected_in_disposition": "2b38da6789e8cfafa3795cb31638d23f40c45503fb232158b4a2aa948f690857",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10608
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-munch.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-munch/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "1d28cde3bd182779d16c6b15c7a94f61d0a72f5382fc45acf401297809ce9092",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-munch/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "4a521737fea4e5348cc21d6da9482010ffd2436d974252c6099ac919b56b45cc",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-munch/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "e6aabe451b7b4487a70d23f42b9609be1e6861cf495c849a0a81303caa2dfa67",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-munch/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "eb87c3f4f02bcf07d28b85d3441571e3ff77411d8742f56fb847905734be6b71",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/munch.md",
+          "sha256": "62f6a7479c764275ec5738f0b765959afd042dc186a7056f4057f4924d35bc7d"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/munch.md",
+          "sha256": "d989485182ee33ed4e6601ba6b61edbb6a0afbb3d383b8f044a5c5e04b3e79f9"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/munch.md",
+          "sha256": "dd1375549af77fae877ebc8cc1cd5488cabdc82673bb74b91443b8893cd2c6f2"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-munch/RESULT.md",
+          "sha256": "34698eb0593f1c1eedb931764a4329a1ab3aa78cc8564555a07a5a9e4fba7b4f"
+        },
+        {
+          "path_or_id": "staging/AUDIT-munch/rights_review.md",
+          "sha256": "4793a20e0fdc5676f4a0cb195941c189f2c582aa3f1d913047165cdebcca18df"
+        },
+        {
+          "path_or_id": "staging/AUDIT-munch/receipt.json",
+          "sha256": "ec6118e78775b25e617428c0230cf9fbf323e701e33b6515bc8ecb87c6890092",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 582e6231f5866423a11e1628f07abf82226c17e08ef7d2789f4e76bb77f004fd preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-munch/claim_evidence_map.md",
+          "sha256": "2600096de8351f4d5ea06509aa37190b354bc2f495b6a8e7dcebaeee165dbea9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-munch/coverage-manifest.json",
+          "sha256": "005684b1780de94a1a217c034bc8422b52c864c55448cec8241f513dfdaa1c5e"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-munch/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-munch",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-ni_zan",
+      "lane": "style_only",
+      "title": "补 ni_zan 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-ni_zan/receipt.json",
+        "sha256_actual": "8119afd0aff783ea340c25d2a8abd91c200b1ddd5f003409a85abfff9e13440b",
+        "sha256_expected_in_disposition": "8119afd0aff783ea340c25d2a8abd91c200b1ddd5f003409a85abfff9e13440b",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10647
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-ni_zan.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-ni_zan/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "e44372c94aa82a12a86063ada014efda8cb5de31f0db3c809d0a3b6117139c23",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ni_zan/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "3322492296037ffb9b91bde6836c1d48189c233d0a15ecf9d8fd3ac35a3726a9",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ni_zan/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "d1e1c0ebaa9e5ec137a7fc4f6dba183c26477c36b44229fa4a21f46cfa14626e",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ni_zan/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "b56cf619c1f3f54c3a201bf1b3d5f4b025cba20e5e368f2fe18f39fbbcda5e61",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/ni_zan.md",
+          "sha256": "5c4ecd39625aaf6f5b7993884fb31916d06baf110939adfd6800c5712d5a4c05"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/ni_zan.md",
+          "sha256": "64cdd3f903563edee7bf05996cb46d7a842d902d50216e13b2bb3cea30c9a757"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/ni_zan.md",
+          "sha256": "62fbccf3018ade2b01c6e361336280ae3ac8377296822cfd706272a23cdce870"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ni_zan/RESULT.md",
+          "sha256": "41b08ad1e03afd4a0d90996e5689181b89b7ddb1dddd7c5d9fd076e152399020"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ni_zan/rights_review.md",
+          "sha256": "73cef3b03ec1b02af21336720d30f6d34d726ba3d7033c99458ef6eac0e18b8b"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ni_zan/receipt.json",
+          "sha256": "20be0a8b93f2cebaec2b1d3a1af53238e1a5dd1f84c17bc59d8274dd050513e0",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 4da361eac8c2ee4a8308a61f8c76ab26069209521e96b7dd2b722edb64ec41a7 preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ni_zan/claim_evidence_map.md",
+          "sha256": "665963461220d3dc427b62f413ebbdce06fc48a722ef4b9d18e4032d95bc6a55"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ni_zan/coverage-manifest.json",
+          "sha256": "49495dfbdc19b98f79236ea207fe829fbc9e226cfe47c3973c58014ab9149037"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-ni_zan/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-ni_zan",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-ogata_korin",
+      "lane": "style_only",
+      "title": "补 ogata_korin 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-ogata_korin/receipt.json",
+        "sha256_actual": "fcc365147b437be0ef597be36db889e1da6514c1fd0b76d3344664a52361b048",
+        "sha256_expected_in_disposition": "fcc365147b437be0ef597be36db889e1da6514c1fd0b76d3344664a52361b048",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10845
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-ogata_korin.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-ogata_korin/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "afe494ca796b27d83e9b992d0c70ab654ed57d611871cf55c264ab8da9e43fea",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ogata_korin/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "0ea30eeea7ca19e6d982d57d05b330dd97d1e5634452a299283f5d7feed55e06",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ogata_korin/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "1d3a08fb0189c9355dfcd001bd46dcc014f817e57601f22973960f928047b9d5",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-ogata_korin/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "68ad897d9916b55ab303493ea95f0183052fdee2aedd2a498947126f32de5cb6",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/ogata_korin.md",
+          "sha256": "b5b852de23689dff62b27c741a27fae0e4e9d39291b3ac27e796359034aa2a96"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/ogata_korin.md",
+          "sha256": "35f073f3eee9fe27a56edfb83410291e86f4e161f67037d437613ad302ed84a5"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/ogata_korin.md",
+          "sha256": "cfae98c533a1975596738b822526d8d2056ce01b522b0f1dbaad51f936ddc62a"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ogata_korin/RESULT.md",
+          "sha256": "3fc506fee38eb96ed626b2acf748fe17d88cfc17ac10a24e74d7ead909a1677e"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ogata_korin/rights_review.md",
+          "sha256": "65d6482b8dc364ca409d155217065829662a35ccfdc11e91aa4e4932fcbc9b88"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ogata_korin/receipt.json",
+          "sha256": "d6fb9ec6497e30f1aace8e514bb6e5103511c6d7939150d05171f8bbad4d7e43",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash 047e5295e6e8224ee9d197e46bfba81868924be84354b47ce17a216ae2690a46 preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ogata_korin/claim_evidence_map.md",
+          "sha256": "6f2203c6c0ad5dbe6547d7b9e2d7c78ec909b252d1018a7a3967622610c147c8"
+        },
+        {
+          "path_or_id": "staging/AUDIT-ogata_korin/coverage-manifest.json",
+          "sha256": "795c038b8fd505ce28d62835003867031569db60385052a4d8f528cde750d559"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-ogata_korin/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-ogata_korin",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-okeeffe",
+      "lane": "style_only",
+      "title": "补 okeeffe 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-okeeffe/receipt.json",
+        "sha256_actual": "36bfb57635d5e21102e7d544c361938b21979056838e57a1dd1fa32f148c79d3",
+        "sha256_expected_in_disposition": "36bfb57635d5e21102e7d544c361938b21979056838e57a1dd1fa32f148c79d3",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 10686
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-okeeffe.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-okeeffe/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "c579314896b86e3349edd2f118a8fc8fadeb4ff3f25610ab6d759a9f49e06547",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-okeeffe/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "43a54a94cc9b12aafd6d217e77175e7a1766a37986a2c6347b66c25ed1ee922c",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-okeeffe/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "d4f1aa14431a7af67b27f5df48eeaaaca9a3cd23c3c4cbc9b4df4b8f8dfc8787",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-okeeffe/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "796b23bc6e144c4f4367752e4ae4cb66dc4c8dc6672556eb97aec508aec887be",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/okeeffe.md",
+          "sha256": "894ad800818f7f4463b4f4328dbe9127cf51aea38436a9ce8c9c2de0759a2d30"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/okeeffe.md",
+          "sha256": "1464ad5cbf4ea81f6a73444ce54975dbeb43f490b7e53d068d69d02040faf465"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/okeeffe.md",
+          "sha256": "9c4f1977cf2ee98dc87aaf6fb3d0b86a6c966bd8548c78f715a9edf8e5645358"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-okeeffe/RESULT.md",
+          "sha256": "9974e2b06c7d56c90d125b01542aa7eb59707900e37831acbb1ac726ff3fa912"
+        },
+        {
+          "path_or_id": "staging/AUDIT-okeeffe/rights_review.md",
+          "sha256": "8c38ca3262e1517e5e75455f1b38af8cbea5e32f7c47949eab993a3b2ff10829"
+        },
+        {
+          "path_or_id": "staging/AUDIT-okeeffe/receipt.json",
+          "sha256": "e11c70f4aca2f764c588e5caf69d5bee7c86f8ff2cf410ec119f65dfef83e8cd",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash fc5f1f57a48c5497f1777ff9e9032e4b873762ee2a596d307712110793d876d6 preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-okeeffe/claim_evidence_map.md",
+          "sha256": "3e7e38e885cdd4fa0b77a23a04c61bf156755c11d461208cc01c241b2f685481"
+        },
+        {
+          "path_or_id": "staging/AUDIT-okeeffe/coverage-manifest.json",
+          "sha256": "47c3b1ad0c088d0e335b18d73d9e743fc9ec344debc3bb23b356113f026e6515"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-okeeffe/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-okeeffe",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "STYLE-piero_della_francesca",
+      "lane": "style_only",
+      "title": "补 piero_della_francesca 的§8.1b候选、内容泄漏反例与能力边界",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/STYLE-piero_della_francesca/receipt.json",
+        "sha256_actual": "9d1765288acc6883df461b19c4fa0e787583e632dc0e88790e15e751fdebef77",
+        "sha256_expected_in_disposition": "9d1765288acc6883df461b19c4fa0e787583e632dc0e88790e15e751fdebef77",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 11232
+      },
+      "contract": {
+        "path": "ledger/contracts/STYLE-piero_della_francesca.contract.json",
+        "sha256": null
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 4,
+        "count_present_on_disk": 4,
+        "count_hash_match": 4,
+        "artifact_kinds": [
+          "capability_delta",
+          "counterexamples",
+          "result_summary",
+          "style_only_draft"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/STYLE-piero_della_francesca/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "8fcbda2c1d37908a2c1f3bd014a9b4c392ce5056415016979132df96fe3944a9",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-piero_della_francesca/style_only_draft.md",
+            "kind": "style_only_draft",
+            "sha256": "00c0937d5a73bdb667cdc1283a26a549a16f4475e737e77b8b2d88da36704b14",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-piero_della_francesca/counterexamples.md",
+            "kind": "counterexamples",
+            "sha256": "c65f9b5a231997b8d245dbc4d1eaac53ba50c23c258ae05d383a17b5f95593b8",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/STYLE-piero_della_francesca/capability_delta.md",
+            "kind": "capability_delta",
+            "sha256": "eebe88f32b51e6a5b761656a032c2c9f6cf4ebff798157991ef0bdd7ea6a4964",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "knowledge/domains/painters/modules/piero_della_francesca.md",
+          "sha256": "54bba5ba13736cf3b668450b6f8677c87cf92b553aa02f325653f687b136dc24"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/piero_della_francesca.md",
+          "sha256": "70b2c87fd4b1575fa9c95467a8e02cd9a3033e7efeb828f5ade461db1433c01d"
+        },
+        {
+          "path_or_id": "knowledge/domains/painters/dossiers/_corpus/piero_della_francesca.md",
+          "sha256": "51ea842166616eeef5ba38a033d01d73e326223a4870b104eb193604a50f0dde"
+        },
+        {
+          "path_or_id": "knowledge/cross/conflicts.md",
+          "sha256": "314a24da96ccf13e5f8ca2ab32f5689926627216a9471761e916f98427aabbef"
+        },
+        {
+          "path_or_id": "ops/GOALS.md",
+          "sha256": "2727d1f079e164ee05bba50fb63d281947fce9251339ae73be99acc8a5e91144"
+        },
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "staging/AUDIT-piero_della_francesca/RESULT.md",
+          "sha256": "59fc4363daf61b7b853f655d58c0146fc1667d7b72b5c1880b876e82d631e302"
+        },
+        {
+          "path_or_id": "staging/AUDIT-piero_della_francesca/rights_review.md",
+          "sha256": "5ca08b619aafb5ac3c740a1f3105a407060b2a6fa0d2489aa36b8920e035584f"
+        },
+        {
+          "path_or_id": "staging/AUDIT-piero_della_francesca/receipt.json",
+          "sha256": "efaa48ce4dcb5f430d1377987d5410251734a4e748b9afbb96ef11c655ddb5bf",
+          "binding_kind": "local",
+          "rebound_at": "2026-11-15T17:23:41Z",
+          "rebound_note": "AUDIT receipt normalized at promotion pass-2; old hash a88d4c1e02f28828e4e22c261d7f03c01161035cbad7368dfdaca9ec4d40c558 preserved here"
+        },
+        {
+          "path_or_id": "staging/AUDIT-piero_della_francesca/claim_evidence_map.md",
+          "sha256": "fbb8e6ea779e5c3e2ca90bb323b5e82d6a0a94078a7102b3b7dd5ba2cf9e61fc"
+        },
+        {
+          "path_or_id": "staging/AUDIT-piero_della_francesca/coverage-manifest.json",
+          "sha256": "15c1c36d0a22124b7dd5f7fe98086ec40e4f9f345c917a41a734f018ce1c7f70"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "RebindMisc",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/STYLE-piero_della_francesca/review-evidence-v2.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "STYLE-piero_della_francesca",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "held_back_dir",
+        "wait_reason": "STYLE-B4/B5 21+19 repairs in flight, re-gates pending"
+      },
+      "bound_keyfile_checks": [],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "AUDIT-parent receipt rebind without re-seal (15 STYLE rows)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    },
+    {
+      "task_id": "UI-01",
+      "lane": "ui_application",
+      "title": "Agent任务/聊天生命周期、状态与真实行为案例",
+      "original_disposition": {
+        "status": "materials_present_binding_pending",
+        "canonical_state_written": false,
+        "final_task_acceptance_by_mapper": false,
+        "original_required_kinds_not_covered": [
+          "interaction_receipts",
+          "result_summary",
+          "semantic_checks",
+          "source_code",
+          "visual_evidence"
+        ]
+      },
+      "receipt_status": {
+        "path": "staging/UI-01/receipt.json",
+        "sha256_actual": "55617a9163e8244dde00914a191861756c45397e6b160e2b712344156f4e1c6b",
+        "sha256_expected_in_disposition": "55617a9163e8244dde00914a191861756c45397e6b160e2b712344156f4e1c6b",
+        "sha256_matches": true,
+        "status_in_receipt": "accepted",
+        "status_observed_by_disposition": "accepted",
+        "bytes": 13156
+      },
+      "contract": {
+        "path": "ledger/contracts/UI-01.contract.json",
+        "sha256": "f5fc24c67263c6f67ee2711712171a92fe3891c3e3eba0361bfdf325a36e6ef7"
+      },
+      "artifact_evidence": {
+        "count_in_receipt": 13,
+        "count_present_on_disk": 13,
+        "count_hash_match": 13,
+        "artifact_kinds": [
+          "interaction_receipts",
+          "result_summary",
+          "semantic_checks",
+          "source_code",
+          "visual_evidence"
+        ],
+        "artifacts": [
+          {
+            "path": "staging/UI-01/RESULT.md",
+            "kind": "result_summary",
+            "sha256": "39a29d08021c8ba304cbf40db23e833233b569b9716d47b02b4397ee34e96fec",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/RESEARCH-NOTES.md",
+            "kind": "source_code",
+            "sha256": "02ac6569968e32898fd87ea946c79b23751107860d6b381fc7ea64fd093bc51d",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/fixture.html",
+            "kind": "source_code",
+            "sha256": "83bdf27179f12a9cd30682abc6d9c54598a980b397d667b9795ff45df56b0222",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_check.py",
+            "kind": "semantic_checks",
+            "sha256": "a21f2179c4de06ea5a462fca12bea6a6d8b6e6ecbcfb5587aa022c60740085cf",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_check_output.txt",
+            "kind": "interaction_receipts",
+            "sha256": "c215afe65c6a7dd9a094af051afe01f9133e8d783fc3ce8f0fe815e4f03e7eb7",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_check_console.txt",
+            "kind": "interaction_receipts",
+            "sha256": "c215afe65c6a7dd9a094af051afe01f9133e8d783fc3ce8f0fe815e4f03e7eb7",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/visual_evidence.png",
+            "kind": "visual_evidence",
+            "sha256": "ac81ac97fa8af4d101fddd892649c61464fe14439a486808a9f335d23f3db638",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_schema.json",
+            "kind": "interaction_receipts",
+            "sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_vscode.md",
+            "kind": "interaction_receipts",
+            "sha256": "0eba990cf1f440d5c2734b81ec5677151096c003581b133b589f38e1dba481cd",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_magentic.pdf",
+            "kind": "interaction_receipts",
+            "sha256": "dd2c7db57d8f69379589ef94767911f7ab2f2edef5a1c9626143f41df9b84e5a",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_dump_dom.html",
+            "kind": "interaction_receipts",
+            "sha256": "699f20b1662cffa6f29ae4e41fea9e644b8c51af1db8bf2284e01041d2529e4b",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/_trace.json",
+            "kind": "interaction_receipts",
+            "sha256": "8f5112da7d2acd8ca2161488a350dd8479d3083cdc53e6aa35324ea2bd3dbb38",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          },
+          {
+            "path": "staging/UI-01/runner_receipt.json",
+            "kind": "interaction_receipts",
+            "sha256": "d81175b16fe6a0a7701cf93111c9a3577403e1658043615aabd5b07a3d101bfd",
+            "exists_on_disk": true,
+            "hash_matches_receipt": true
+          }
+        ]
+      },
+      "input_hashes": [
+        {
+          "path_or_id": "ledger/artist-shards.json",
+          "sha256": "e1ec2d11ed3b3458a2e233a101319ffdf12d253b22562a97d4e25618b1158ce9"
+        },
+        {
+          "path_or_id": "ledger/task-registry.json",
+          "sha256": "7daf31bbac2826179f3d7beecb6e0ec30f9628acd638ce4b3bffc39bafc6c374"
+        },
+        {
+          "path_or_id": "ledger/execution-snapshot.json",
+          "sha256": "16fed28f486d5eae787afd712c5044d4c787d1f459fd8fccee7ce41a2091c825"
+        },
+        {
+          "path_or_id": "package/03-RESEARCH-AGENDA.md",
+          "sha256": "8da2ef1cce7a4090ec45de82a98c9a6d5e17af68cff849f66c381b67beeaefd9"
+        },
+        {
+          "path_or_id": "package/templates/receipt.schema.json",
+          "sha256": "c553112d336e66e03639f7a569abd8f9b8ddc0707a5b3667ecd9d355a9a1fb31"
+        },
+        {
+          "path_or_id": "package/tools/verify-receipt.py",
+          "sha256": "00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0"
+        },
+        {
+          "path_or_id": "staging/UI-01/_schema.json (S11 AG-UI 1.0 schema.json copy)",
+          "sha256": "4b5c93226838a0e72d88e6c5df20633c686c49fcb75d9be2815c6cbf9e48e71a"
+        },
+        {
+          "path_or_id": "staging/UI-01/_vscode.md (S13 VS Code manage-sessions.md copy)",
+          "sha256": "0eba990cf1f440d5c2734b81ec5677151096c003581b133b589f38e1dba481cd"
+        },
+        {
+          "path_or_id": "staging/UI-01/_magentic.pdf (S12 Magentic-UI report copy)",
+          "sha256": "dd2c7db57d8f69379589ef94767911f7ab2f2edef5a1c9626143f41df9b84e5a"
+        }
+      ],
+      "reviewer": {
+        "reviewer_actor_id": "ReviewGateUI-01(glm-5.3-flash)",
+        "independent_from_author": true,
+        "verdict": "accepted",
+        "evidence_path": "staging/UI-01/review-evidence.md"
+      },
+      "shared_evidence": [
+        {
+          "path": "SUP/designers-brain-20261115\\g8-nineteen-binding-root-cause.json",
+          "sha256": "434c1afe28cd01619a8a28a06e0e82b545a1467963ffe2fb0a3c201ec0e8aa58",
+          "bytes": 466048,
+          "locator": "UI-01",
+          "meaning": "explicit shared evidence locator; not an automatic verdict",
+          "reported_status": {
+            "schema": "g8-nineteen-binding-root-cause-1.0"
+          }
+        }
+      ],
+      "binding_claim": {
+        "mapping": "stable_dir",
+        "status_class": "stable-gated-accepted-old-helper",
+        "receipt_status_claimed": "accepted",
+        "has_v2_reseal": false,
+        "candidate_target_path": "n/a: UI raw caches excluded/isolated (G7 credential scan); sanitized public summary only",
+        "migration_status": "binding-ledger-only-provisional"
+      },
+      "bound_keyfile_checks": [
+        {
+          "path": "staging/UI-01/RESULT.md",
+          "bound_sha256": "39a29d08021c8ba304cbf40db23e833233b569b9716d47b02b4397ee34e96fec",
+          "current_sha256": "39a29d08021c8ba304cbf40db23e833233b569b9716d47b02b4397ee34e96fec",
+          "still_matches": true
+        },
+        {
+          "path": "staging/UI-01/receipt.json",
+          "bound_sha256": "55617a9163e8244dde00914a191861756c45397e6b160e2b712344156f4e1c6b",
+          "current_sha256": "55617a9163e8244dde00914a191861756c45397e6b160e2b712344156f4e1c6b",
+          "still_matches": true
+        },
+        {
+          "path": "staging/UI-01/runner_receipt.json",
+          "bound_sha256": "d81175b16fe6a0a7701cf93111c9a3577403e1658043615aabd5b07a3d101bfd",
+          "current_sha256": "d81175b16fe6a0a7701cf93111c9a3577403e1658043615aabd5b07a3d101bfd",
+          "still_matches": true
+        }
+      ],
+      "correction_needed": [],
+      "unresolved": [
+        {
+          "issue": "chain_verified=false / no_exact_attestation: current receipt bytes have no formal canonical attestation",
+          "root_cause_class": "early accepted independent review, no canonical migration (CONFLICT-02/UI-01)",
+          "still_true": true,
+          "note": "materials present and hash-verified; this is a metadata/attestation boundary, not content failure"
+        }
+      ]
+    }
+  ],
+  "ui02_correction": {
+    "task_id": "UI-02",
+    "note": "UI-02 is NOT one of the 19 materials_present_binding_pending rows; it is a separate current-correction item required by acceptance case A09.",
+    "original_disposition_status": [
+      "accepted_chain_preserved"
+    ],
+    "binding_claim": {
+      "file": "candidate/ops/candidate-prep/MIGRATION-BINDING-BATCH-1.json",
+      "location": "stable_dirs[staging_dir=staging/UI-02]",
+      "receipt_status_claimed": "submitted",
+      "status_class": "stable-gate-passed-submitted"
+    },
+    "actual_artifact_evidence": {
+      "receipt_path": "staging/UI-02/receipt.json",
+      "receipt_status_actual": "accepted",
+      "receipt_sha256": "94a970d7f286d20409fa531038c732f6426a9a7ac4836f3851a65f50dc24968b"
+    },
+    "correction_needed": [
+      {
+        "field": "binding_table.stable_dirs[UI-02].receipt_status",
+        "claimed": "submitted",
+        "actual": "accepted",
+        "resolution": "CONFIRMED from staging/UI-02/receipt.json: status=accepted, not submitted. Historic binding file is preserved unchanged; this correction lives only in this new file. Acceptance case A09 requires this explicit current correction."
+      }
+    ]
+  },
+  "provenance": {
+    "original_receipts_and_binding_table": "read-only; no original file edited",
+    "corrections_location": "this file only",
+    "unresolved_policy": "metadata/attestation boundary preserved; no auto-promotion; historic labels immutable"
+  }
+}

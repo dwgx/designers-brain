@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>UI-02 A2 · tokens / focus / shortcuts / 中文 IME demo</title>
+<!--
+  UI-02 A2 fixture (research artifact, isolated from LoomUI/Launcher/AwesomeUI).
+
+  Sources (versions + read_scope recorded in RESULT.md):
+   - DTCG Format 2025.10 / Resolver 2025.10 (designtokens.org, Final CG Report 2025-10-28)
+   - WCAG 2.2 REC 2024-12-12 : SC 2.4.11 (AA), 2.4.13 (AAA), 2.5.8 (AA), 2.5.5 (AAA)
+   - WAI APG "Developing a Keyboard Interface" : tab sequence, roving tabindex,
+     focus persistence, shortcuts must not replace navigation
+   - UI Events WD 2026-02-21 : §3.6 Composition Events, isComposing (InputEvent/KeyboardEvent)
+   - CLREQ DNOTE 2026-11-04 : §6.1.1 line start/end 禁则, 6.1.2, 6.3 text spacing
+
+  IMPORTANT / HONESTY:
+   The composition gate below is real DOM code. It is validated by a REAL
+   browser composition session driven over CDP (Input.imeSetComposition) in
+   cdp_ime_test.py / ime_cdp_evidence.json. That is a genuine browser-level
+   composition session (DOM CompositionEvents, isComposing on InputEvents),
+   NOT a synthetic `new KeyboardEvent()` dispatch. However, no OS-level CJK
+   IME (e.g. Microsoft Pinyin candidate window) was installed or tested: that
+   part is honestly UNTESTED.
+-->
+<style>
+  :root{
+    /* Wired from tokens.tokens.json (semantic aliases) */
+    --color-surface: #ffffff;
+    --color-ink: #1a1a1f;
+    --color-action: #0066cc;
+    --color-focusRing: #0066cc;
+    --size-targetMin: 24px;
+    --size-focusRingWidth: 2px;
+    --size-controlHeight: 44px;
+    --size-gap: 8px;
+  }
+  body{font-family:system-ui,"Microsoft YaHei",sans-serif;color:var(--color-ink);
+       background:var(--color-surface);margin:24px;line-height:1.6;max-width:760px}
+  h1{font-size:1.3rem}
+  label{display:block;margin:12px 0 4px}
+  input[type=text]{min-height:var(--size-controlHeight);font-size:1rem;padding:6px 10px;
+       box-sizing:border-box;border:1px solid #888;border-radius:4px;min-width:280px}
+  /* WCAG 2.4.13 (AAA): >=2px thick perimeter of unfocused component, >=3:1 contrast */
+  :focus-visible{outline:var(--size-focusRingWidth) solid var(--color-focusRing);
+       outline-offset:2px}
+  .btn{min-height:var(--size-controlHeight); /* >= WCAG 2.5.8 24x24 AA, also 2.5.5 44 AAA */
+       min-width:var(--size-controlHeight);font-size:1rem;cursor:pointer;
+       border:1px solid var(--color-action);border-radius:4px;background:#fff;
+       color:var(--color-action)}
+  .btn[aria-pressed=true]{background:var(--color-action);color:#fff}
+  .toolbar{display:flex;gap:var(--size-gap);margin:10px 0;
+       /* APG: composite widget; Tab enters once, arrows move inside via roving tabindex */}
+
+  /* ---- CLREQ 2026-11-04 §6.1.1 line-break rules implemented where CSS CAN ---- */
+  .cjk-strict{ line-break: strict; word-break: normal; overflow-wrap: normal;
+       max-width: 22em; border:1px dashed #bbb; padding:8px; margin:8px 0;
+       /* CLREQ §6.1.1 "strict": pause/stop punctuation, closing brackets,
+          two-em dashes and ellipses MUST NOT appear at line start; opening
+          brackets MUST NOT appear at line end. CSS `line-break: strict` is the
+          closest standard mapping (CSS Text 3). Full 禁则 (先挤进后推出),
+          标点挤压 (§6.3.2), 行尾点号悬挂 (§6.1.3), 均排/行内调整 (§6.2) are
+          NOT reliably CSS-implementable: recorded as UNTESTED, see cjk_layout.json */
+  }
+  .cjk-loose{ line-break: loose; word-break: normal; } /* CLREQ "none/basic" reference */
+
+  #send-log,#event-log{background:#f6f6f8;border:1px solid #ddd;padding:8px;
+       font-family:ui-monospace,Consolas,monospace;font-size:.85rem;white-space:pre-wrap;
+       max-height:220px;overflow:auto}
+  .hint{color:#555;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>UI-02 A2 · tokens / 焦点 / 快捷键 / 中文 IME</h1>
+<p class="hint">Tab 顺序、roving tabindex（方向键在工具栏内移动焦点）、中文输入法 composition
+  期间按 Enter 不得触发「发送」。本页为研究 fixture，非产品组件。</p>
+
+<!-- ============ Focus path demo (tab order + roving tabindex) ============ -->
+<form id="focus-form" autocomplete="off">
+  <label for="field-name">姓名</label>
+  <input type="text" id="field-name" name="name" tabindex="0">
+
+  <label for="field-email">邮箱</label>
+  <input type="text" id="field-email" name="email" tabindex="0">
+
+  <!-- APG composite: one tab stop, roving tabindex among items -->
+  <div class="toolbar" role="toolbar" aria-label="格式工具栏" id="toolbar">
+    <button type="button" class="btn" id="toolbar-bold" tabindex="0" aria-pressed="true">B</button>
+    <button type="button" class="btn" id="toolbar-italic" tabindex="-1" aria-pressed="false">I</button>
+    <button type="button" class="btn" id="toolbar-underline" tabindex="-1" aria-pressed="false">U</button>
+    <button type="button" class="btn" id="toolbar-clear" tabindex="-1" aria-pressed="false">Clear</button>
+  </div>
+
+  <label for="compose">中文消息（IME 输入）</label>
+  <input type="text" id="compose" name="compose" tabindex="0"
+         autocomplete="off" aria-describedby="ime-hint">
+  <div id="ime-hint" class="hint">在中文输入法下输入并用 Enter / 空格选字；确认候选时不应发送消息。</div>
+
+  <button type="button" class="btn" id="send" tabindex="0">发送 (Enter)</button>
+  <button type="button" class="btn" id="open-dialog" tabindex="0">打开对话框</button>
+</form>
+
+<h2>发送动作日志</h2>
+<div id="send-log"></div>
+<h2>Composition / 键盘事件日志</h2>
+<div id="event-log"></div>
+
+<h2>CLREQ 中文换行/标点示例</h2>
+<p class="cjk-strict">中文排版需求规定：点号（顿号、逗号、句号、冒号、分号、叹号、问号）、结束引号、结束括号不能出现在一行的开头；开始引号、开始括号不能出现在一行的结尾。这是「基本处理」禁则；严格处理还要求破折号、省略号不出现在行首。此处用 <code>line-break: strict</code> 近似实现可由 CSS 控制的部分，标点挤压与行内调整未实现（见 cjk_layout.json）。「他说：『你好，世界！』」然后大家都笑了，这是一段用于观察行首行尾禁则行为的示例文本，包含各类标点：逗号，句号。分号；冒号：问号？叹号！以及括号（内容）、引号「引用」、书名号《名称》、省略号……与破折号——以便测试断行位置是否符合禁则。</p>
+<p class="cjk-loose">对照（<code>line-break: loose</code>）：「他说：『你好，世界！』」然后大家都笑了，这是一段用于观察行首行尾禁则行为的示例文本，包含各类标点：逗号，句号。分号；冒号：问号？叹号！以及括号（内容）、引号「引用」、书名号《名称》、省略号……与破折号——以便测试断行位置是否符合禁则。</p>
+
+<!-- dialog for focus-restoration assertion -->
+<div id="dialog" role="dialog" aria-modal="true" aria-label="示例对话框" hidden>
+  <p>这是一个用于验证关闭后焦点恢复到触发按钮的对话框。</p>
+  <button type="button" class="btn" id="close-dialog">关闭</button>
+</div>
+
+<pre id="selftest-out" hidden></pre>
+
+<script>
+"use strict";
+(function(){
+  // ----- shared DOM refs -----
+  var compose = document.getElementById("compose");
+  var sendBtn = document.getElementById("send");
+  var sendLog = document.getElementById("send-log");
+  var eventLog = document.getElementById("event-log");
+  var out = document.getElementById("selftest-out");
+
+  // ----- SEND action + composition gating (the A2 acceptance core) -----
+  var sendCount = 0;
+  var composing = false;           // compositionstart..compositionend session flag
+  function send(){
+    sendCount++;
+    sendLog.textContent += "SEND fired (#" + sendCount + ") value=" + compose.value + "\n";
+    window.__sendCount = sendCount;
+  }
+
+  // UI Events 2026-02-21 §3.6: compositionstart / compositionupdate / compositionend
+  compose.addEventListener("compositionstart", function(e){
+    composing = true;
+    eventLog.textContent += "compositionstart data=" + JSON.stringify(e.data) + "\n";
+    window.__compStart = (window.__compStart||0) + 1;
+  });
+  compose.addEventListener("compositionupdate", function(e){
+    eventLog.textContent += "compositionupdate data=" + JSON.stringify(e.data) + "\n";
+  });
+  compose.addEventListener("compositionend", function(e){
+    composing = false;
+    eventLog.textContent += "compositionend data=" + JSON.stringify(e.data) + "\n";
+    window.__compEnd = (window.__compEnd||0) + 1;
+  });
+  // InputEvent.isComposing (UI Events §3.6.6) is observed during composition
+  compose.addEventListener("beforeinput", function(e){
+    eventLog.textContent += "beforeinput isComposing=" + e.isComposing + " data=" + JSON.stringify(e.data) + "\n";
+  });
+  compose.addEventListener("input", function(e){
+    eventLog.textContent += "input isComposing=" + e.isComposing + " data=" + JSON.stringify(e.data) + "\n";
+  });
+
+  // KEY GATE: IME confirmation (Enter/Space during composition) MUST NOT fire send.
+  // A real composition session is signalled by either:
+  //   (a) e.isComposing === true (KeyboardEvent.isComposing, UI Events §3.6.5), OR
+  //   (b) the explicit compositionstart..end window (composing flag), OR
+  //   (c) legacy keyCode === 229 (some IMEs emit 229 on the confirming Enter).
+  // Synthetic `new KeyboardEvent('keydown',{key:'Enter'})` has isComposing=false
+  // and keyCode=0, so it would NOT exercise this gate — that is why we validate
+  // with a genuine CDP composition session in cdp_ime_test.py instead.
+  compose.addEventListener("keydown", function(e){
+    eventLog.textContent += "keydown key=" + e.key + " isComposing=" + e.isComposing +
+                            " keyCode=" + e.keyCode + " composing=" + composing + "\n";
+    if (e.key !== "Enter") return;
+    if (e.isComposing || composing || e.keyCode === 229) {
+      eventLog.textContent += "  -> GATED (IME confirmation; send NOT fired)\n";
+      return; // IME confirmation: do not send
+    }
+    e.preventDefault();
+    send(); // genuine Enter AFTER composition commits: send exactly once
+  });
+  sendBtn.addEventListener("click", send);
+
+  // ----- roving tabindex (APG "Managing Focus Within Components Using a Roving tabindex") -----
+  var toolbar = document.getElementById("toolbar");
+  var items = Array.prototype.slice.call(toolbar.querySelectorAll(".btn"));
+  var rovingIndex = 0;
+  function setRoving(i, moveFocus){
+    rovingIndex = (i + items.length) % items.length;
+    items.forEach(function(it, idx){
+      it.setAttribute("tabindex", idx === rovingIndex ? "0" : "-1");
+      it.setAttribute("aria-pressed", idx === rovingIndex ? "true" : "false");
+    });
+    if (moveFocus) items[rovingIndex].focus();
+  }
+  toolbar.addEventListener("keydown", function(e){
+    if (e.key === "ArrowRight" || e.key === "ArrowDown"){ setRoving(rovingIndex+1, true); e.preventDefault(); }
+    else if (e.key === "ArrowLeft" || e.key === "ArrowUp"){ setRoving(rovingIndex-1, true); e.preventDefault(); }
+    else if (e.key === "Home"){ setRoving(0, true); e.preventDefault(); }
+    else if (e.key === "End"){ setRoving(items.length-1, true); e.preventDefault(); }
+  });
+  items.forEach(function(it, idx){
+    it.addEventListener("focus", function(){ setRoving(idx, false); });
+  });
+
+  // ----- focus restoration after dialog close (APG "Persistence of focus") -----
+  var dlg = document.getElementById("dialog");
+  var openBtn = document.getElementById("open-dialog");
+  var closeBtn = document.getElementById("close-dialog");
+  var restoreTo = null;
+  openBtn.addEventListener("click", function(){
+    restoreTo = document.activeElement;
+    dlg.hidden = false; closeBtn.focus();
+  });
+  closeBtn.addEventListener("click", function(){
+    dlg.hidden = true;
+    if (restoreTo) restoreTo.focus();
+    window.__focusRestored = (document.activeElement === restoreTo);
+  });
+
+  // ----- keyboard shortcut: Alt+M focuses compose (APG: shortcuts augment, NOT replace, navigation) -----
+  // All controls remain Tab-reachable; this only ADDS a shortcut.
+  document.addEventListener("keydown", function(e){
+    if (e.altKey && (e.key === "m" || e.key === "M")){
+      // avoid AT/OS conflicts note: Alt+letter is kept as a documented, single-key shortcut
+      compose.focus(); e.preventDefault();
+      window.__shortcutFired = true;
+    }
+  });
+
+  // ----- tab sequence introspection (DOM order; APG discourages positive tabindex) -----
+  function tabSequence(){
+    var sel = 'input[tabindex="0"], button[tabindex="0"], [tabindex="0"]';
+    return Array.prototype.slice.call(document.querySelectorAll(sel))
+      .filter(function(el){ return !el.hidden && el.offsetParent !== null; })
+      .map(function(el){ return el.id; });
+  }
+
+  // =====================================================================
+  // SELFTEST: deterministic in-page trace for _check.py (no IME here; the
+  // genuine composition gate is exercised in cdp_ime_test.py over CDP).
+  // =====================================================================
+  function snapshot(label){
+    return {
+      active: items[rovingIndex].id,
+      label: label,
+      items: items.map(function(it){
+        return { id: it.id, tabindex: parseInt(it.getAttribute("tabindex"),10) };
+      })
+    };
+  }
+  function runSelftest(){
+    var trace = {};
+    // tab sequence
+    trace.tabSequence = tabSequence();
+    // keyboard-only completability: every interactive control is either
+    // Tab-reachable (tabIndex>=0) OR inside an APG composite whose items are
+    // reachable by arrow keys (roving tabindex, tabIndex=-1 by design).
+    var reachable = document.querySelectorAll('#focus-form input, #focus-form button');
+    var toolbarItems = document.querySelectorAll('#toolbar .btn');
+    trace.allReachableByKeyboard = Array.prototype.every.call(reachable, function(el){
+      if (el.disabled) return false;
+      if (el.tabIndex >= 0) return true;
+      // roving-tabindex toolbar item: reachable via Arrow keys inside composite
+      return Array.prototype.indexOf.call(toolbarItems, el) !== -1;
+    });
+    // roving tabindex snapshots (exercise real arrow-key handler logic)
+    var snaps = [];
+    snaps.push(snapshot("initial"));          // bold active
+    setRoving(1, false); snaps.push(snapshot("after-ArrowRight"));   // italic
+    setRoving(2, false); snaps.push(snapshot("after-ArrowRight2"));  // underline
+    trace.rovingSnapshots = snaps;
+    // reset to first for a clean final DOM state
+    setRoving(0, false);
+    // focus restoration after dialog open/close (simulate the documented path)
+    openBtn.focus();
+    restoreTo = document.activeElement;
+    dlg.hidden = false; closeBtn.focus();
+    dlg.hidden = true;
+    restoreTo.focus();
+    trace.focusRestoredAfterDialog = (document.activeElement === restoreTo);
+    // token-derived WCAG numeric values wired into CSS
+    var cs = getComputedStyle(document.documentElement);
+    trace.targetSizeMinPx = parseInt(cs.getPropertyValue("--size-targetMin"),10);
+    trace.focusRingWidthPx = parseInt(cs.getPropertyValue("--size-focusRingWidth"),10);
+    trace.shortcutFocusesCompose = (function(){
+      // do not actually dispatch a synthetic shortcut as "validation"; record capability
+      return typeof window.__shortcutFired === "undefined" ? "wired" : "fired";
+    })();
+    out.textContent = JSON.stringify(trace);
+    out.hidden = false;
+  }
+  if (new URLSearchParams(location.search).get("selftest") === "1"){
+    runSelftest();
+  } else {
+    // Expose helpers for the CDP harness (real composition test).
+    window.__ui02 = {
+      send: send,
+      getSendCount: function(){ return window.__sendCount||0; },
+      getCompStart: function(){ return window.__compStart||0; },
+      getCompEnd: function(){ return window.__compEnd||0; },
+      isComposing: function(){ return composing; },
+      eventLog: function(){ return eventLog.textContent; },
+      reset: function(){
+        sendCount=0; composing=false;
+        window.__sendCount=0; window.__compStart=0; window.__compEnd=0;
+        compose.value=""; sendLog.textContent=""; eventLog.textContent="";
+      }
+    };
+  }
+})();
+</script>
+</body>
+</html>

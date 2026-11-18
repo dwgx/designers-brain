@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "goal_id": "Designers-Brain-Upgrade-20261115",
+  "task_id": "SEED-PROTOTYPE-openprest-REVIEW",
+  "kind": "independent_review",
+  "dedup_key": "DB-20261115:SEED-PROTOTYPE-openprest-REVIEW",
+  "status": "submitted",
+  "baseline_id": "DB-20261115-baseline",
+  "author_actor_id": "ReviewGateSeedProto",
+  "reviewed_task_id": "SEED-EXPERIMENT-openprest/prototype",
+  "independent_from_author": true,
+  "execution_kind": "leaf_work_item",
+  "spawns_allowed": false,
+  "allowed_write_paths": [
+    "staging/SEED-EXPERIMENT-openprest/prototype/review-evidence.md",
+    "staging/SEED-EXPERIMENT-openprest/prototype/review-gate-receipt.json",
+    "staging/SEED-EXPERIMENT-openprest/prototype/review-gate-runner-receipt.json"
+  ],
+  "r2_refresh": {
+    "marker": "r2",
+    "refreshed_at": "2026-11-15T16:18:38Z",
+    "refreshed_by": "ReviewGateSeedProto",
+    "reason": "Author (SeedDepsRevisit) delivered the calibrated-closure final receipt.json (small-size claim recalibrated from 'connectivity/counter loss recorded' to 'emitted / retained / topology UNMEASURED / pending_human'); gate re-bound to current bytes and re-ran the real PKG verify-receipt.py, correcting the r1 tool-absent defect. Prior r1 content preserved as review-gate-receipt.r1.bak.json (plus earlier review-gate-receipt.v1-history.json).",
+    "supersedes": "review-gate-receipt.r1.bak.json"
+  },
+  "input_hashes": [
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/receipt.json", "sha256": "3d4f976822ee851aa4fa06eafe11846c68aeccd11d769cd32e551f98960ee1ad", "note": "FINAL calibrated-closure receipt; recomputed from bytes 2026-11-15T16:18Z; matches SeedDepsRevisit closure value and verify-receipt.out footer FINAL-RECEIPT-SHA256" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/runner_receipt.json", "sha256": "22b68b5cd789e36114a749e2b600d3141e35aee34d72503c960c57e586d8b228", "note": "updated by author calibrated closure (r1 recorded c5fcdbdb…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/RESULT.md", "sha256": "d4155eefc2e2809c5848d61cb4a19550a3823f0b20df59b8730bf0aaa93bb434", "note": "updated by author calibrated closure (r1 recorded 4c4b5b3c…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/README.md", "sha256": "3e0e8182d972defe0b6d0769eec767bcf22bc73b38a320b5c20fcde1050aa8bd", "note": "updated by author calibrated closure (r1 recorded 57737595…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/run_evidence.json", "sha256": "689f628de7fc935e095fa29ebf35c8dd8b90255cb96ab89fc1b1b265a0210248", "note": "updated by author calibrated closure (r1 recorded d68a7e69…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/config.json", "sha256": "c30619cfbf7d90e4e5871b91dc60c4fbfc5dc4ef2066289bd2f275a102e3be38", "note": "updated by author calibrated closure (r1 recorded 464dc645…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/build.py", "sha256": "37ccd7d8dc48fea4ef636f068655398d9fdb3a2ac2de789953ce293b7596bc3a", "note": "updated by author calibrated closure (r1 recorded 46a0f661…)" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype/S11B-CALIBRATION.md", "sha256": "1660f3c0e14157f82b69564cb8458cdeef1de636448542ae8c07b6d5d728b804", "note": "new author calibration addendum, bound artifact of final receipt" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/state.md (parent, preserved)", "sha256": "3586aea09bee9f4491992469d5584b630f3c60c428fa9923f69cf5bf9f527c91", "note": "parent E2/E3/active state doc unchanged" },
+    { "path_or_id": "staging/METRIC-PILOT/fixtures/metrics.py", "sha256": "7662e1592f581c814ea54c13da5a59250ce771dd5f06ab72906fa9a4c2725263" },
+    { "path_or_id": "staging/SEED-EXPERIMENT-openprest/prototype (dir manifest: '<relpath>  <sha256>' lines, LF-joined, sorted by path, over all files EXCEPT review-gate-* gate files)", "sha256": "557dc185caac5d7d5c1eff50f24a9998624c61a7422a4ecada72965425bd1196", "note": "n=47 non-gate files; recipe excludes review-gate-* so this binding stays stable as gate receipts are refreshed" }
+  ],
+  "review": {
+    "reviewer_actor_id": "ReviewGateSeedProto",
+    "independent_from_author": true,
+    "reviewed_artifact_hashes": [
+      "3d4f976822ee851aa4fa06eafe11846c68aeccd11d769cd32e551f98960ee1ad",
+      "22b68b5cd789e36114a749e2b600d3141e35aee34d72503c960c57e586d8b228",
+      "557dc185caac5d7d5c1eff50f24a9998624c61a7422a4ecada72965425bd1196"
+    ],
+    "verdict": "accepted",
+    "verdict_rationale": "r2 refresh of an accepted r1 review. r1 full evidence (dir-manifest recompute 44 files, fresh build.py rerun byte-identical 18/18, primitives recompute 35 with A=18/H=17, bad-grid DETECTED out_of_grid=35 unregistered_scale=35, small-size cell_px=4 limitation) stands; the calibrated closure changed claim WORDING plus the affected fixture artifacts, and re-ran both deterministic fixture generations 18/18 byte-identical (S11B-CALIBRATION.md §3). r2 additions: (1) receipt.json re-bound to FINAL bytes 3d4f9768…, recomputed from bytes, matching the SeedDepsRevisit closure value and the verify-receipt.out footer; (2) PKG verify-receipt.py (sha 00ef6071…) executed for real, exit 0, ok=true, status=submitted; (3) receipt internals re-validated on current bytes: 25/25 artifacts, 4/4 input_hashes (config.json, build.py, metrics.py, parent state.md), 3/3 claim source_ref bindings match; (4) calibration check: outputs/checks.json C4_small_size_render_recorded reads 'connectivity/counter (enclosed-hole) topology and readability NOT measured … unmeasured / pending_human' — the r1 overclaim is fully recalibrated; no promotion / validated-reproduction / font-variable-claim language found in receipt claims. Small-size case stays UNMEASURED/pending_human; 2-glyph toy, NOT a font/readability proof; '未找到 fvar' remains 未证实; NOT E2/E3 evidence.",
+    "evidence_path": "staging/SEED-EXPERIMENT-openprest/prototype/review-evidence.md",
+    "minor_nits": [
+      "checks.json C6 pass field is null (verdict lives in run_evidence.json.deterministic_rerun) — cosmetic split, non-material.",
+      "claim source_ref C-rerun-byte-identical names source_id 'rerun_20261115/' but binds the byte-SHA of its checks.json (dir content byte-identical to outputs/, verified) — ambiguous locator, binding itself correct."
+    ]
+  },
+  "execution": {
+    "verify_receipt": {
+      "command": "python -X utf8 <PKG>/tools/verify-receipt.py <dir>/prototype/receipt.json --schema <PKG>/templates/receipt.schema.json --workspace-root <RUN_ROOT>",
+      "output": {
+        "ok": true,
+        "status": "submitted",
+        "errors": [],
+        "scope": "schema, declared actor separation, cross-references and local bytes; independent source/runner/human verification still required"
+      },
+      "exit_code": 0,
+      "tool_sha256": "00ef6071ed8b021b049569b3cfbead45238fff1f0a9e2ecbe787c614af767bd0",
+      "r2_correction": "r1 wrongly recorded the tool as 'absent from machine / NOT EXECUTABLE'; the sealed PKG tool exists and was executed for real in the r2 refresh (this corrects the 'equivalent_validation' workaround claim in r1)."
+    },
+    "hash_spot_checks": 33,
+    "hash_spot_checks_matched": 33,
+    "repo_head_verified": "f008952365a77e140cbda3f3959d43ef000f9a22",
+    "locator_samples": "outputs/checks.json C4_small_size_render_recorded 'NOT measured … pending_human'; outputs/primitives_s1.json len=35 A=18 H=17; outputs/primitives_bad_grid_offset.json detected=true; config.json.bad_case offset [8,8] r=9; parent state.md 3586aea0…; verify-receipt.out footer FINAL-RECEIPT-SHA256=3d4f9768…",
+    "runner_receipt_path": "staging/SEED-EXPERIMENT-openprest/prototype/review-gate-runner-receipt.json"
+  },
+  "human_review": {
+    "status": "not_applicable",
+    "actual_reviewer": null,
+    "record_path": null
+  },
+  "timestamp": "2026-11-15T16:18:38Z"
+}

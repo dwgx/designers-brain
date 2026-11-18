@@ -1,0 +1,43 @@
+{
+  "schema": "seed-prototype-origin-1.0",
+  "seed": "roktim___",
+  "evidence_level": "E1",
+  "implementation_is_researcher_authored": true,
+  "sources": [
+    {
+      "original_logical_path": "SEED-EXPERIMENT-roktim___/prototype-s12/build.py",
+      "packaged_path": "prototype/build.py",
+      "sha256": "1e96f82ab9a04e176fc8a27d9feb1aa2c7e901cd9672cf04873646e4f56365c0",
+      "unchanged": true,
+      "packaged_sha256": "1e96f82ab9a04e176fc8a27d9feb1aa2c7e901cd9672cf04873646e4f56365c0"
+    },
+    {
+      "original_logical_path": "SEED-EXPERIMENT-roktim___/prototype-s12/config.json",
+      "packaged_path": "prototype/config.json",
+      "sha256": "166fb121bf50a80571aef344650c5faa4172c2804d6625f5984e34ac530d1f24",
+      "unchanged": true,
+      "packaged_sha256": "166fb121bf50a80571aef344650c5faa4172c2804d6625f5984e34ac530d1f24"
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-roktim___/prototype-s12/receipt.json",
+      "sha256": "40c9bda9814ca08a5ad751888ec1744b51431fb201bbb12adac7ecaec52399dd",
+      "bytes": 9744,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-roktim___/review-evidence.md",
+      "sha256": "b000b78a641db38bafac9c8d38c609d3ed7a3b74897bf5dfdfaa210ad160e65f",
+      "bytes": 5758,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    },
+    {
+      "historical_evidence_logical_path": "SEED-EXPERIMENT-roktim___/review-gate-receipt.json",
+      "sha256": "b4b74405f945e280d6255031c5138c2262aa6154353ee9123c2f4e12508cbfd2",
+      "bytes": 3873,
+      "packaged": false,
+      "scope": "Historical local record; hash is identity, not proof of public availability or current acceptance."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "negative_controls": [
+    {
+      "actual_reason": "Missing file: sources/MOTION-03/render.py",
+      "case": "missing_current_renderer",
+      "exit": 1,
+      "expected_failure": "Missing file: sources/MOTION-03/render.py",
+      "passed": true
+    },
+    {
+      "actual_reason": "SHA mismatch: sources/MOTION-03/render.py",
+      "case": "tampered_current_renderer",
+      "exit": 1,
+      "expected_failure": "SHA mismatch: sources/MOTION-03/render.py",
+      "passed": true
+    },
+    {
+      "actual_reason": "Missing file: sources/cjk_text.py",
+      "case": "missing_shared_helper",
+      "exit": 1,
+      "expected_failure": "Missing file: sources/cjk_text.py",
+      "passed": true
+    },
+    {
+      "actual_reason": "SHA mismatch: sources/cjk_text.js",
+      "case": "tampered_shared_helper",
+      "exit": 1,
+      "expected_failure": "SHA mismatch: sources/cjk_text.js",
+      "passed": true
+    },
+    {
+      "actual_reason": "03: mandatory manifest binding differs: renderer_source_sha256",
+      "case": "omitted_renderer_sha",
+      "exit": 1,
+      "expected_failure": "mandatory manifest binding differs: renderer_source_sha256",
+      "passed": true
+    },
+    {
+      "actual_reason": "Manifest denominator must be exactly 12",
+      "case": "missing_card",
+      "exit": 1,
+      "expected_failure": "denominator must be exactly 12",
+      "passed": true
+    },
+    {
+      "actual_reason": "Missing file: media/MOTION-03.mp4",
+      "case": "missing_video",
+      "exit": 1,
+      "expected_failure": "Missing file: media/MOTION-03.mp4",
+      "passed": true
+    },
+    {
+      "actual_reason": "SHA mismatch: media/MOTION-03.mp4",
+      "case": "truncated_video",
+      "exit": 1,
+      "expected_failure": "SHA mismatch: media/MOTION-03.mp4",
+      "passed": true
+    },
+    {
+      "actual_reason": "03: wrong font SHA",
+      "case": "font_receipt_semantic_forgery",
+      "exit": 1,
+      "expected_failure": "wrong font SHA",
+      "passed": true
+    },
+    {
+      "actual_reason": "Browser normalized receipt differs from pinned original",
+      "case": "false_seek_pass",
+      "exit": 1,
+      "expected_failure": "normalized receipt differs from pinned original",
+      "passed": true
+    }
+  ],
+  "ok": true,
+  "positive_full_decode_reused": true,
+  "positive_manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+  "scope": "Real file mutations in a disposable copy, each rejected by the public CLI with exit 1. Original package unmodified."
+}

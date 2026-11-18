@@ -1,0 +1,13 @@
+--- a/examples/ui/ui-02/_check.py
++++ b/examples/ui/ui-02/_check.py
+@@ -36,8 +36,8 @@
+ import dtcg_resolver as R
+ 
+ import tempfile
+-RUNTIME = Path(tempfile.gettempdir()) / "designers-brain-ui02-check"
+-RUNTIME.mkdir(parents=True, exist_ok=True)
++_runtime_dir = tempfile.TemporaryDirectory(prefix="designers-brain-ui02-check-", ignore_cleanup_errors=True)
++RUNTIME = Path(_runtime_dir.name)
+ HERE = Path(__file__).resolve().parent
+ SCHEMA = HERE / "schema" / "dtcg-format-schema.json"
+ TOKENS = HERE / "tokens.tokens.json"

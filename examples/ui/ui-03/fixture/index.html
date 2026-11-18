@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UI-03 CounterButton fixture</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #f2f3f7;                 /* light variant */
+    color: #1b1f2a;
+    display: grid;
+    place-items: center;
+  }
+  .stage {
+    width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .cb {
+    appearance: none;
+    border: 1px solid #1d4ed8;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 80ms ease, background-color 80ms ease, box-shadow 80ms ease;
+    box-shadow: 0 1px 2px rgba(0,0,0,.18);
+  }
+  /* hover state: both a real :hover and a deterministic data-variant mirror */
+  .cb:hover,
+  body[data-variant="hover"] .cb {
+    background: #1d4ed8;
+    box-shadow: 0 4px 10px rgba(29,78,216,.35);
+    transform: translateY(-1px);
+  }
+  .cb:focus-visible { outline: 3px solid #f59e0b; outline-offset: 2px; }
+  .cb[disabled] {
+    background: #9aa3b2;
+    border-color: #9aa3b2;
+    color: #e6e8ee;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  output#count {
+    font-variant-numeric: tabular-nums;
+    font-size: 34px;
+    font-weight: 700;
+    min-width: 3ch;
+    text-align: center;
+  }
+  /* dark variant */
+  body[data-variant="dark"] { background: #10131a; color: #e7eaf3; }
+  body[data-variant="dark"] .cb { border-color: #60a5fa; }
+</style>
+</head>
+<body data-variant="default">
+  <main class="stage">
+    <button id="counter" type="button" class="cb"
+            aria-pressed="false"
+            aria-label="Add one to the counter">Add one</button>
+    <output id="count" aria-live="polite">0</output>
+  </main>
+
+  <script src="component.js"></script>
+  <script>
+  (function () {
+    'use strict';
+    var CB = window.CounterButton;
+    var btn = document.getElementById('counter');
+    var out = document.getElementById('count');
+    var params = new URLSearchParams(location.search);
+    var state = CB.initialState({ disabled: params.has('disabled') });
+
+    function render() {
+      btn.setAttribute('aria-pressed', String(state.pressed));
+      out.textContent = String(state.count);
+      if (state.disabled) btn.setAttribute('disabled', '');
+      else btn.removeAttribute('disabled');
+    }
+    function activate(via) {
+      state = CB.reduce(state, { type: 'activate', via: via });
+      render();
+      return state;
+    }
+    btn.addEventListener('click', function () { activate('pointer'); });
+    btn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+        e.preventDefault();
+        activate('keyboard');
+      }
+    });
+    render();
+    /* Expose a tiny handle so a headless driver can exercise real DOM events. */
+    window.UI03 = {
+      activate: activate,
+      getState: function () { return state; },
+      setDisabled: function (v) {
+        state = CB.reduce(state, { type: 'setDisabled', value: v });
+        render();
+        return state;
+      },
+      ACCESSIBLE_NAME: CB.ACCESSIBLE_NAME,
+      setVariant: function (v) { document.body.setAttribute('data-variant', v); }
+    };
+  })();
+  </script>
+</body>
+</html>

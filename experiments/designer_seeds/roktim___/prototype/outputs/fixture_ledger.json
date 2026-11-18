@@ -1,0 +1,27 @@
+{
+  "array": [
+    12,
+    15,
+    9,
+    20,
+    14,
+    18,
+    11,
+    13
+  ],
+  "array_sha256": "fa7e00f7c325d3cb2c09979661e5b6330e291e8f2940ad9d0dd75da5ad1833a0",
+  "computed": {
+    "mean": 14.0,
+    "count": 8,
+    "min": 9,
+    "max": 20
+  },
+  "formula": "mean(array); count=len(array); min,max=min,max(array)",
+  "unit": "ms (synthetic fixture unit)",
+  "note": "SYNTHETIC FIXTURE / computed locally from a self-authored array / NOT a product performance measurement / NOT uptime / NOT P95",
+  "brief_3_lines": [
+    "Tessel-like telemetry LOOK is a visual token, not evidence.",
+    "Numbers on these cards are computed from a tiny synthetic array.",
+    "Whether a human misreads them is NOT measured (pending_human)."
+  ]
+}
