@@ -1,0 +1,535 @@
+{
+  "schema": "designers-brain-final-clean-gate@2",
+  "started_utc": "2026-11-18T00:09:27.683095+00:00",
+  "ended_utc": "2026-11-18T00:09:40.209982+00:00",
+  "tested_commit": "386b8891d934c7dd486b7776a48438c53de58ddd",
+  "tested_tree": "d27003b8fbee7a794d9ad3e0ecd87591780bde50",
+  "clone_method": "Initial git clone --no-local --no-hardlinks --single-branch --branch fix/closure-publish-20261118; then fast-forward to the corrected publication commit, with clean working tree verified before and after tests",
+  "commands": [
+    {
+      "name": "skill-repo-only",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "docs/skill/_selfcheck.py",
+        "--repo-only"
+      ],
+      "started_utc": "2026-11-18T00:09:27.748058+00:00",
+      "ended_utc": "2026-11-18T00:09:27.809569+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "fa0456a826b4645992fc5a191d2ecf626b796266d77852f55837e34470bae017",
+      "stdout_public_sha256": "e947c2ab48e7ed2dcffb30a278884009c852b4d7dbfc06053bee8652a06c1e28",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.skill-repo-only.stdout",
+        "original_capture_filename": "skill-repo-only.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.skill-repo-only.stderr",
+        "original_capture_filename": "skill-repo-only.stderr.txt"
+      }
+    },
+    {
+      "name": "module-extract",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "knowledge/domains/painters/modules/_extract.py",
+        "--check"
+      ],
+      "started_utc": "2026-11-18T00:09:27.748192+00:00",
+      "ended_utc": "2026-11-18T00:09:27.804426+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "8fa38987afb8dfd60661a20ca9dc425a9c206ac618b0984025a5560470240567",
+      "stdout_public_sha256": "c70d29d72f70b4f71c8750c1ca7da859a02dc8f3b4c393475349aa76333790fa",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.module-extract.stdout",
+        "original_capture_filename": "module-extract.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.module-extract.stderr",
+        "original_capture_filename": "module-extract.stderr.txt"
+      }
+    },
+    {
+      "name": "library-counts",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_library_counts.py",
+        "--json"
+      ],
+      "started_utc": "2026-11-18T00:09:27.748418+00:00",
+      "ended_utc": "2026-11-18T00:09:27.890948+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "c03b821e5f8c1b7d9bdbade170b47f0f33c46830107fb0b3f0536a59310dd664",
+      "stdout_public_sha256": "78bb7b27567ebb0aaa209b48aef10b4d607df1add0eae546e81c7283a1858c52",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.library-counts.stdout",
+        "original_capture_filename": "library-counts.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.library-counts.stderr",
+        "original_capture_filename": "library-counts.stderr.txt"
+      }
+    },
+    {
+      "name": "count-regressions",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "docs/audit/closure-20261118/counts-tool-repair/reproduce.py",
+        "--root",
+        "."
+      ],
+      "started_utc": "2026-11-18T00:09:27.806536+00:00",
+      "ended_utc": "2026-11-18T00:09:28.852941+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "f728449fe6090e806d8810b5d997ea2c2be03ba7b0c7f4c7351520506e149de0",
+      "stdout_public_sha256": "54eca8cddf150959ac44cb5d602737a26240c65bbd52eb5f0bc29c4f14be2a6a",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.count-regressions.stdout",
+        "original_capture_filename": "count-regressions.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.count-regressions.stderr",
+        "original_capture_filename": "count-regressions.stderr.txt"
+      }
+    },
+    {
+      "name": "rights",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_image_rights.py"
+      ],
+      "started_utc": "2026-11-18T00:09:27.810632+00:00",
+      "ended_utc": "2026-11-18T00:09:27.880257+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "e4b7052be7a8300578a0d1bf598cb87de67520485fe91b890f9ad269195122ca",
+      "stdout_public_sha256": "634f58e36edfe4bb1ca807a1467aa2fa52853d7b85e47d8676d92b9c63f4bfc7",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.rights.stdout",
+        "original_capture_filename": "rights.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.rights.stderr",
+        "original_capture_filename": "rights.stderr.txt"
+      }
+    },
+    {
+      "name": "closure-bindings",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "tools/check_closure_bindings.py",
+        "--report",
+        "CLOSURE_WORKSPACE\\web-review\\final-clean-gate-r2\\bindings.json"
+      ],
+      "started_utc": "2026-11-18T00:09:27.881239+00:00",
+      "ended_utc": "2026-11-18T00:09:28.247383+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "922a31e61df7ee3e42406328bd2bbfb889f82b74276c853eb7d5214baf39fb86",
+      "stdout_public_sha256": "0dde2785fabe25e4d4fead121dc89c4ae3520603015e5b5457a40d9aa62b3418",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.closure-bindings.stdout",
+        "original_capture_filename": "closure-bindings.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.closure-bindings.stderr",
+        "original_capture_filename": "closure-bindings.stderr.txt"
+      }
+    },
+    {
+      "name": "motion-full-decode",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "experiments/motion_closure/verify_all.py",
+        "--root",
+        "FRESH_CLONE\\experiments\\motion_closure",
+        "--ffmpeg",
+        "CLOSURE_WORKSPACE\\web-runtime\\ffmpeg\\ffmpeg-win-x86_64-v9.0.2.exe",
+        "--report",
+        "CLOSURE_WORKSPACE\\web-review\\final-clean-gate-r2\\motion.json"
+      ],
+      "started_utc": "2026-11-18T00:09:27.891988+00:00",
+      "ended_utc": "2026-11-18T00:09:40.177516+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "2df6828d14df58ff37e87142ed3501383daf27c6bff3e5ab58ea798936203ecd",
+      "stdout_public_sha256": "27f35229a256f2be88e7aa25489efb0913e5995b61bc5f8439dfb35ec7287539",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.motion-full-decode.stdout",
+        "original_capture_filename": "motion-full-decode.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.motion-full-decode.stderr",
+        "original_capture_filename": "motion-full-decode.stderr.txt"
+      }
+    },
+    {
+      "name": "ui-gate-contracts",
+      "argv": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "examples/ui/check_gate_contracts.py"
+      ],
+      "started_utc": "2026-11-18T00:09:28.248606+00:00",
+      "ended_utc": "2026-11-18T00:09:28.309968+00:00",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout_raw_sha256": "fdc8036fe761aba8c8740112bab7839d576f804649154d8efa2f292f8d8ece30",
+      "stdout_public_sha256": "bf533dce01499d9d90ad15a16290eb596b199f2a5e6f1c7e256d91512fcc65ab",
+      "stderr_raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_evidence": {
+        "embedded_key": "command_evidence.ui-gate-contracts.stdout",
+        "original_capture_filename": "ui-gate-contracts.stdout.txt"
+      },
+      "stderr_evidence": {
+        "embedded_key": "command_evidence.ui-gate-contracts.stderr",
+        "original_capture_filename": "ui-gate-contracts.stderr.txt"
+      }
+    }
+  ],
+  "clean_before": true,
+  "clean_after": true,
+  "dirty_paths_after": [],
+  "passed": true,
+  "scope": "Actual clean-clone technical gates. Earlier browser/seed/negative runs are independently bound to these same relevant inputs. No new human score, E4, consumer success or OS IME claim.",
+  "command_evidence": {
+    "skill-repo-only": {
+      "stdout": "== 文件 ==\n  docs/skill/skill_spec.md  refs(unique)=58\n  docs/skill/draft/SKILL.md  refs(unique)=16\n  skills/designers-brain/SKILL.md  refs(unique)=21\n  skills/designers-brain/domains.yaml  refs(unique)=9\n  skills/designers-brain/agents/openai.yaml  refs(unique)=0\n  templates/design_brief.md  refs(unique)=3\n  skills/designers-brain/references/painter-modules.md  refs(unique)=8\n  skills/designers-brain/references/mg-cards.md  refs(unique)=4\n  skills/designers-brain/references/conflicts.md  refs(unique)=2\n  skills/designers-brain/references/output-forms.md  refs(unique)=5\n  skills/designers-brain/references/pipelines.md  refs(unique)=3\n  skills/designers-brain/references/evidence.md  refs(unique)=7\n  skills/designers-brain/references/review.md  refs(unique)=1\n  skills/designers-brain/references/question-bank.md  refs(unique)=1\n  skills/designers-brain/references/direction-protocol.md  refs(unique)=3\n\n== 路径核验（仓库既有 + 包内）==\n  checked=59 ok=59 fail=0\n  （目录 12 / 文件 44 / 通配符 3）\n    ok   agents/openai.yaml  [file]\n    ok   docs/skill/_selfcheck.py  [file]\n    ok   docs/skill/consumer-evidence.md  [file]\n    ok   docs/skill/draft/SKILL.md  [file]\n    ok   docs/skill/refs/design-packs/huashu-design_consultant_excerpts.md  [file]\n    ok   docs/skill/refs/spec/  [dir]\n    ok   docs/skill/refs/spec/claude-code_plugin_manifest_excerpt.md  [file]\n    ok   docs/skill/refs/spec/codex_plugin_manifest_spec.md  [file]\n    ok   docs/skill/refs/superpowers/brainstorming_SKILL.md  [file]\n    ok   docs/skill/refs/superpowers/manifest_samples.md  [file]\n    ok   docs/skill/skill_ecosystem.md  [file]\n    ok   docs/skill/skill_spec.md  [file]\n    ok   domains.yaml  [file]\n    ok   experiments/E1_t1b/  [dir]\n    ok   experiments/E1_t1c/  [dir]\n    ok   experiments/E2_t1/  [dir]\n    ok   experiments/anim_test_01/  [dir]\n    ok   experiments/anim_test_02/  [dir]\n    ok   experiments/anim_test_03_blender/  [dir]\n    ok   experiments/design.md  [file]\n    ok   knowledge/CAPABILITIES.json  [file]\n    ok   knowledge/CAPABILITIES.md  [file]\n    ok   knowledge/LEARNING-INDEX.json  [file]\n    ok   knowledge/agent-art/blender/workflow.md  [file]\n    ok   knowledge/agent-art/html/workflow.md  [file]\n    ok   knowledge/cross/conflicts.md  [file]\n    ok   knowledge/cross/image_channel.md  [file]\n    ok   knowledge/cross/review_rubric.md  [file]\n    ok   knowledge/cross/transfer_guide.md  [file]\n    ok   knowledge/domains/motion-graphics/cards/author_tutorial.md  [file]\n    ok   knowledge/domains/motion-graphics/cards/mg-styles-15_handbook.md  [file]\n    ok   knowledge/domains/motion-graphics/cards/structure.md  [file]\n    ok   knowledge/domains/motion-graphics/origin/  [dir]\n    ok   knowledge/domains/motion-graphics/origin/提示词全文.md  [file]\n    ok   knowledge/domains/painters/dossiers/  [dir]\n    ok   knowledge/domains/painters/learning/INDEX.md  [file]\n    ok   knowledge/domains/painters/modules/  [dir]\n    ok   knowledge/domains/painters/modules/*.md  [glob(77)]\n    ok   knowledge/domains/painters/modules/README.md  [file]\n    ok   knowledge/domains/painters/modules/_extract.py  [file]\n    ok   knowledge/domains/painters/style_candidates/INDEX.md  [file]\n    ok   references/*.md  [glob(9)]\n    ok   references/conflicts.md  [file]\n    ok   references/direction-protocol.md  [file]\n    ok   references/evidence.md  [file]\n    ok   references/mg-cards.md  [file]\n    ok   references/output-forms.md  [file]\n    ok   references/painter-modules.md  [file]\n    ok   references/pipelines.md  [file]\n    ok   references/question-bank.md  [file]\n    ok   references/review.md  [file]\n    ok   skills/*/SKILL.md  [glob(1)]\n    ok   skills/designers-brain  [dir]\n    ok   skills/designers-brain/  [dir]\n    ok   skills/designers-brain/SKILL.md  [file]\n    ok   skills/designers-brain/agents/openai.yaml  [file]\n    ok   templates/design_brief.md  [file]\n    ok   templates/determinism_contract.md  [file]\n    ok   templates/style_card.md  [file]\n\n== 规划路径（备选布局，不计失败）== planned=1\n    ⏳ docs/skill/designers-brain/\n\n== 机器级/打包件路径（--repo-only：跳过用户级安装检查）== SKIPPED\n\n== 示意形态（占位符，跳过）== schematic=6\n    ~ experiments/<E-id>/design-brief.md\n    ~ knowledge/...\n    ~ references/...\n    ~ skills/...\n    ~ skills/<name>/SKILL.md\n    ~ templates/...\n\n== frontmatter ==\n  -- 落位版（skills/designers-brain/SKILL.md）--\n  OK: name='designers-brain' (len=15, 小写/连字符=True, 首尾/连续连字符=True)\n  OK: name 与父目录同名：'designers-brain' vs 'designers-brain' = True\n  OK: description 长度=622 (≤1024)\n  -- 草案（docs/skill/draft/SKILL.md；临时位，父目录同名要求以落位版为准）--\n  OK: name='designers-brain' (len=15, 小写/连字符=True, 首尾/连续连字符=True)\n  OK: description 长度=294 (≤1024)\n\n== junction 解析（4 条；--repo-only：跳过用户级安装检查）== SKIPPED\n\n== domains.yaml 校验（count == cards 目录实际数）==\n      ok [painter] count=76 actual=76（knowledge/domains/painters/modules/*.md − README.md）\n      ok [mg-motion] count=15 actual=15（knowledge/domains/motion-graphics/origin/ 01–15 号卡截图）\n\nRESULT: PASS  (mode=repo-only · checked=59 fail=0 planned=1 · junctions=skipped · domains=ok · harness_fail=skipped)\n",
+      "stderr": ""
+    },
+    "module-extract": {
+      "stdout": "[da_vinci] §8.1 ok (1418c) · §8.2 ok (513c) · §4 ok (593c)\n[michelangelo] §8.1 ok (1236c) · §8.2 ok (527c) · §4 ok (579c)\n[van_gogh] §8.1 ok (1084c) · §8.2 ok (602c) · §4 ok (666c)\n[monet] §8.1 ok (915c) · §8.2 ok (577c) · §4 ok (626c)\n[picasso] §8.1 ok (1084c) · §8.2 ok (551c) · §4 ok (694c)\n[cezanne] §8.1 ok (1290c) · §8.2 ok (618c) · §4 ok (651c)\n[matisse] §8.1 ok (1006c) · §8.2 ok (1057c) · §4 ok (1023c)\n[hokusai] §8.1 ok (1207c) · §8.2 ok (623c) · §4 ok (745c)\n[caravaggio] §8.1 ok (1424c) · §8.2 ok (685c) · §4 ok (1257c)\n[vermeer] §8.1 ok (1487c) · §8.2 ok (919c) · §4 ok (1152c)\n[durer] §8.1 ok (1519c) · §8.2 ok (684c) · §4 ok (870c)\n[turner] §8.1 ok (1370c) · §8.2 ok (852c) · §4 ok (1037c)\n[rembrandt] §8.1 ok (1511c) · §8.2 ok (894c) · §4 ok (1686c)\n[klimt] §8.1 ok (1465c) · §8.2 ok (1100c) · §4 ok (1568c)\n[goya] §8.1 ok (1527c) · §8.2 ok (970c) · §4 ok (1069c)\n[seurat] §8.1 ok (1453c) · §8.2 ok (721c) · §4 ok (768c)\n[hopper] §8.1 ok (1456c) · §8.2 ok (822c) · §4 ok (1216c)\n[bada_shanren] §8.1 ok (1591c) · §8.2 ok (510c) · §4 ok (624c)\n[qi_baishi] §8.1 ok (1289c) · §8.2 ok (801c) · §4 ok (909c)\n[ito_jakuchu] §8.1 ok (1565c) · §8.2 ok (670c) · §4 ok (808c)\n[mucha] §8.1 ok (1401c) · §8.2 ok (731c) · §4 ok (995c)\n[munch] §8.1 ok (1659c) · §8.2 ok (1124c) · §4 ok (1092c)\n[kandinsky] §8.1 ok (1464c) · §8.2 ok (967c) · §4 ok (1023c)\n[velazquez] §8.1 ok (1675c) · §8.2 ok (786c) · §4 ok (1096c)\n[bosch] §8.1 ok (1545c) · §8.2 ok (890c) · §4 ok (894c)\n[kahlo] §8.1 ok (1653c) · §8.2 ok (799c) · §4 ok (1316c)\n[behzad] §8.1 ok (1780c) · §8.2 ok (944c) · §4 ok (916c)\n[huang_gongwang] §8.1 ok (1949c) · §8.2 ok (645c) · §4 ok (686c)\n[friedrich] §8.1 ok (1568c) · §8.2 ok (1164c) · §4 ok (969c)\n[repin] §8.1 ok (1705c) · §8.2 ok (738c) · §4 ok (985c)\n[ravi_varma] §8.1 ok (1347c) · §8.2 ok (734c) · §4 ok (879c)\n[degas] §8.1 ok (2290c) · §8.2 ok (1433c) · §4 ok (1190c)\n[gauguin] §8.1 ok (1766c) · §8.2 ok (995c) · §4 ok (1212c)\n[van_eyck] §8.1 ok (1915c) · §8.2 ok (1313c) · §4 ok (1176c)\n[kngwarreye] §8.1 ok (1838c) · §8.2 ok (812c) · §4 ok (1212c)\n[hiroshige] §8.1 ok (1637c) · §8.2 ok (1155c) · §4 ok (1117c)\n[sargent] §8.1 ok (2171c) · §8.2 ok (1025c) · §4 ok (1176c)\n[piero_della_francesca] §8.1 ok (1978c) · §8.2 ok (1358c) · §4 ok (1236c)\n[artemisia_gentileschi] §8.1 ok (1992c) · §8.2 ok (1096c) · §4 ok (1178c)\n[namatjira] §8.1 ok (2187c) · §8.2 ok (868c) · §4 ok (1069c)\n[el_salahi] §8.1 ok (1811c) · §8.2 ok (856c) · §4 ok (1352c)\n[wu_guanzhong] §8.1 ok (1892c) · §8.2 ok (825c) · §4 ok (1243c)\n[fan_kuan] §8.1 ok (2081c) · §8.2 ok (655c) · §4 ok (731c)\n[sesshu] §8.1 ok (1585c) · §8.2 ok (1033c) · §4 ok (955c)\n[constable] §8.1 ok (1926c) · §8.2 ok (1300c) · §4 ok (1006c)\n[poussin] §8.1 ok (1706c) · §8.2 ok (1230c) · §4 ok (917c)\n[bruegel] §8.1 ok (1517c) · §8.2 ok (1065c) · §4 ok (1008c)\n[el_greco] §8.1 ok (2096c) · §8.2 ok (1188c) · §4 ok (1018c)\n[holbein] §8.1 ok (2061c) · §8.2 ok (925c) · §4 ok (954c)\n[aivazovsky] §8.1 ok (1635c) · §8.2 ok (1236c) · §4 ok (1174c)\n[okeeffe] §8.1 ok (1985c) · §8.2 ok (1061c) · §4 ok (1065c)\n[rivera] §8.1 ok (2048c) · §8.2 ok (1120c) · §4 ok (1154c)\n[zhao_mengfu] §8.1 ok (1723c) · §8.2 ok (748c) · §4 ok (767c)\n[ni_zan] §8.1 ok (1787c) · §8.2 ok (541c) · §4 ok (659c)\n[qiu_ying] §8.1 ok (2052c) · §8.2 ok (754c) · §4 ok (1185c)\n[ogata_korin] §8.1 ok (2060c) · §8.2 ok (788c) · §4 ok (754c)\n[blake] §8.1 ok (2425c) · §8.2 ok (930c) · §4 ok (1206c)\n[chardin] §8.1 ok (1722c) · §8.2 ok (1139c) · §4 ok (1102c)\n[manet] §8.1 ok (1997c) · §8.2 ok (1072c) · §4 ok (1025c)\n[sorolla] §8.1 ok (1290c) · §8.2 ok (678c) · §4 ok (1044c)\n[zorn] §8.1 ok (2668c) · §8.2 ok (1090c) · §4 ok (1118c)\n[sultan_mohammed] §8.1 ok (1513c) · §8.2 ok (1001c) · §4 ok (972c)\n[xu_beihong] §8.1 ok (1414c) · §8.2 ok (877c) · §4 ok (1238c)\n[li_keran] §8.1 ok (1862c) · §8.2 ok (1069c) · §4 ok (1044c)\n[sher_gil] §8.1 ok (2156c) · §8.2 ok (893c) · §4 ok (1063c)\n[tarsila] §8.1 ok (1800c) · §8.2 ok (936c) · §4 ok (1031c)\n[chen_hongshou] §8.1 ok (1583c) · §8.2 ok (703c) · §4 ok (702c)\n[xu_wei] §8.1 ok (1545c) · §8.2 ok (685c) · §4 ok (728c)\n[hogarth] §8.1 ok (1514c) · §8.2 ok (893c) · §4 ok (1073c)\n[mir_sayyid_ali] §8.1 ok (1486c) · §8.2 ok (863c) · §4 ok (1052c)\n[de_chirico] §8.1 ok (1687c) · §8.2 ok (969c) · §4 ok (1191c)\n[rockwell] §8.1 ok (1886c) · §8.2 ok (982c) · §4 ok (1377c)\n[lin_fengmian] §8.1 ok (1736c) · §8.2 ok (966c) · §4 ok (933c)\n[kitagawa_utamaro] §8.1 ok (1685c) · §8.2 ok (617c) · §4 ok (652c)\n[lam] §8.1 ok (1782c) · §8.2 ok (980c) · §4 ok (1004c)\n[enwonwu] §8.1 ok (2010c) · §8.2 ok (1072c) · §4 ok (982c)\nchecks=228 ok=228 fail=0   # 76 卡 × §8.1/§8.2/§4 逐字比对\n",
+      "stderr": ""
+    },
+    "library-counts": {
+      "stdout": "{\n  \"root\": \"FRESH_CLONE\",\n  \"measured\": {\n    \"dossiers\": 76,\n    \"modules\": 76,\n    \"mg_cards\": 15,\n    \"citations\": 2044,\n    \"images\": 739,\n    \"license_pd\": 572,\n    \"license_cc0\": 129,\n    \"license_pd_cc0\": 701,\n    \"license_open\": 38,\n    \"license_total\": 739,\n    \"rights_attribution_required\": 39,\n    \"rights_pd_cc0_no_stated_attribution\": 699,\n    \"rights_jurisdiction_dependent\": 1,\n    \"rights_unknown\": 0,\n    \"rights_rows_total\": 739\n  },\n  \"baseline\": {\n    \"dossiers\": 76,\n    \"modules\": 76,\n    \"citations\": 2044,\n    \"images\": 735,\n    \"mg_cards\": 15,\n    \"license_pd\": 568,\n    \"license_cc0\": 129,\n    \"license_open\": 38\n  },\n  \"declared\": {\n    \"README.md\": {\n      \"dossiers\": 76,\n      \"modules\": 76,\n      \"mg_cards\": 15,\n      \"citations\": 2044,\n      \"images\": 739,\n      \"license_pd_cc0\": 701,\n      \"license_open\": 38,\n      \"rights_attribution_required\": 39,\n      \"rights_pd_cc0_no_stated_attribution\": 699,\n      \"rights_jurisdiction_dependent\": 1,\n      \"license_section_attribution_required\": 39,\n      \"license_section_pd_cc0_no_stated_attribution\": 699\n    },\n    \"README.zh-CN.md\": {\n      \"dossiers\": 76,\n      \"modules\": 76,\n      \"mg_cards\": 15,\n      \"citations\": 2044,\n      \"images\": 739,\n      \"license_pd_cc0\": 701,\n      \"license_open\": 38,\n      \"rights_attribution_required\": 39,\n      \"rights_pd_cc0_no_stated_attribution\": 699,\n      \"rights_jurisdiction_dependent\": 1,\n      \"license_section_attribution_required\": 39,\n      \"license_section_pd_cc0_no_stated_attribution\": 699\n    },\n    \"README.ja.md\": {\n      \"dossiers\": 76,\n      \"modules\": 76,\n      \"mg_cards\": 15,\n      \"citations\": 2044,\n      \"images\": 739,\n      \"license_pd_cc0\": 701,\n      \"license_open\": 38,\n      \"rights_attribution_required\": 39,\n      \"rights_pd_cc0_no_stated_attribution\": 699,\n      \"rights_jurisdiction_dependent\": 1,\n      \"license_section_attribution_required\": 39,\n      \"license_section_pd_cc0_no_stated_attribution\": 699\n    }\n  },\n  \"checks\": [\n    {\n      \"item\": \"dossiers\",\n      \"measured\": 76,\n      \"declared\": 76,\n      \"source\": \"README.md\",\n      \"baseline\": 76,\n      \"ok\": true\n    },\n    {\n      \"item\": \"modules\",\n      \"measured\": 76,\n      \"declared\": 76,\n      \"source\": \"README.md\",\n      \"baseline\": 76,\n      \"ok\": true\n    },\n    {\n      \"item\": \"mg_cards\",\n      \"measured\": 15,\n      \"declared\": 15,\n      \"source\": \"README.md\",\n      \"baseline\": 15,\n      \"ok\": true\n    },\n    {\n      \"item\": \"citations\",\n      \"measured\": 2044,\n      \"declared\": 2044,\n      \"source\": \"README.md\",\n      \"baseline\": 2044,\n      \"ok\": true\n    },\n    {\n      \"item\": \"images\",\n      \"measured\": 739,\n      \"declared\": 739,\n      \"source\": \"README.md\",\n      \"baseline\": 735,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_pd_cc0\",\n      \"measured\": 701,\n      \"declared\": 701,\n      \"source\": \"README.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_open\",\n      \"measured\": 38,\n      \"declared\": 38,\n      \"source\": \"README.md\",\n      \"baseline\": 38,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_attribution_required\",\n      \"measured\": 39,\n      \"declared\": 39,\n      \"source\": \"README.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_pd_cc0_no_stated_attribution\",\n      \"measured\": 699,\n      \"declared\": 699,\n      \"source\": \"README.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_jurisdiction_dependent\",\n      \"measured\": 1,\n      \"declared\": 1,\n      \"source\": \"README.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_section_attribution_required\",\n      \"measured\": 39,\n      \"declared\": 39,\n      \"source\": \"README.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_section_pd_cc0_no_stated_attribution\",\n      \"measured\": 699,\n      \"declared\": 699,\n      \"source\": \"README.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"dossiers\",\n      \"measured\": 76,\n      \"declared\": 76,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": 76,\n      \"ok\": true\n    },\n    {\n      \"item\": \"modules\",\n      \"measured\": 76,\n      \"declared\": 76,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": 76,\n      \"ok\": true\n    },\n    {\n      \"item\": \"mg_cards\",\n      \"measured\": 15,\n      \"declared\": 15,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": 15,\n      \"ok\": true\n    },\n    {\n      \"item\": \"citations\",\n      \"measured\": 2044,\n      \"declared\": 2044,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": 2044,\n      \"ok\": true\n    },\n    {\n      \"item\": \"images\",\n      \"measured\": 739,\n      \"declared\": 739,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": 735,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_pd_cc0\",\n      \"measured\": 701,\n      \"declared\": 701,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_open\",\n      \"measured\": 38,\n      \"declared\": 38,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": 38,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_attribution_required\",\n      \"measured\": 39,\n      \"declared\": 39,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_pd_cc0_no_stated_attribution\",\n      \"measured\": 699,\n      \"declared\": 699,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_jurisdiction_dependent\",\n      \"measured\": 1,\n      \"declared\": 1,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_section_attribution_required\",\n      \"measured\": 39,\n      \"declared\": 39,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_section_pd_cc0_no_stated_attribution\",\n      \"measured\": 699,\n      \"declared\": 699,\n      \"source\": \"README.zh-CN.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"dossiers\",\n      \"measured\": 76,\n      \"declared\": 76,\n      \"source\": \"README.ja.md\",\n      \"baseline\": 76,\n      \"ok\": true\n    },\n    {\n      \"item\": \"modules\",\n      \"measured\": 76,\n      \"declared\": 76,\n      \"source\": \"README.ja.md\",\n      \"baseline\": 76,\n      \"ok\": true\n    },\n    {\n      \"item\": \"mg_cards\",\n      \"measured\": 15,\n      \"declared\": 15,\n      \"source\": \"README.ja.md\",\n      \"baseline\": 15,\n      \"ok\": true\n    },\n    {\n      \"item\": \"citations\",\n      \"measured\": 2044,\n      \"declared\": 2044,\n      \"source\": \"README.ja.md\",\n      \"baseline\": 2044,\n      \"ok\": true\n    },\n    {\n      \"item\": \"images\",\n      \"measured\": 739,\n      \"declared\": 739,\n      \"source\": \"README.ja.md\",\n      \"baseline\": 735,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_pd_cc0\",\n      \"measured\": 701,\n      \"declared\": 701,\n      \"source\": \"README.ja.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_open\",\n      \"measured\": 38,\n      \"declared\": 38,\n      \"source\": \"README.ja.md\",\n      \"baseline\": 38,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_attribution_required\",\n      \"measured\": 39,\n      \"declared\": 39,\n      \"source\": \"README.ja.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_pd_cc0_no_stated_attribution\",\n      \"measured\": 699,\n      \"declared\": 699,\n      \"source\": \"README.ja.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_jurisdiction_dependent\",\n      \"measured\": 1,\n      \"declared\": 1,\n      \"source\": \"README.ja.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_section_attribution_required\",\n      \"measured\": 39,\n      \"declared\": 39,\n      \"source\": \"README.ja.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license_section_pd_cc0_no_stated_attribution\",\n      \"measured\": 699,\n      \"declared\": 699,\n      \"source\": \"README.ja.md\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"license rows total\",\n      \"measured\": 739,\n      \"declared\": 739,\n      \"source\": \"manifest vs files\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"manifest rows\",\n      \"measured\": 739,\n      \"declared\": 739,\n      \"source\": \"manifest vs files\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights rows total\",\n      \"measured\": 739,\n      \"declared\": 739,\n      \"source\": \"file-level rights vs files\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights path differences\",\n      \"measured\": 0,\n      \"declared\": 0,\n      \"source\": \"file-level rights vs files\",\n      \"baseline\": null,\n      \"ok\": true\n    },\n    {\n      \"item\": \"rights_unknown\",\n      \"measured\": 0,\n      \"declared\": 0,\n      \"source\": \"README three-state classification coverage\",\n      \"baseline\": null,\n      \"ok\": true\n    }\n  ],\n  \"corpus_files\": 76,\n  \"rights_scope\": \"Artwork-level manifest labels and file-level attribution states are separate classifications. A false attribution flag is a recognized PD/CC0 label with no stated attribution condition; a jurisdiction-dependent null remains conditional. This recount is not a global legal judgment.\",\n  \"ignore\": {\n    \"gitignore_has_entry\": true,\n    \"check_ignore\": \"ignored\",\n    \"untracked\": 0,\n    \"check_ignore_rule\": \".gitignore:37:_agent-history/\\t_agent-history/HANDOFF.md\"\n  },\n  \"pass\": true\n}\n",
+      "stderr": ""
+    },
+    "count-regressions": {
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checker_sha256\": \"9278fa5889afb27fad5173f20b25720c7c8100b325c2d20ddc319f9f020fd166\",\n  \"repository\": \"FRESH_CLONE\",\n  \"source_hash_guards\": {\n    \"README.ja.md\": \"6940a4f46e733f5d4e571863a5cd2f0b8f2f88ca5dca8a4eae5986fb3aa50a0f\",\n    \"README.md\": \"5672a63b891be91e5f543df63156a238f9ea498e70ecd5a8000b905dff4ede36\",\n    \"README.zh-CN.md\": \"da5687d5f1c3c723bb3233962d61874261c495700cfbabd9eb2b8c28eebc70ab\",\n    \"knowledge/domains/painters/dossiers/_images/rights-file-level.json\": \"e2378bdec79210e95fbc37e7519a319b94f95e38fd199a0ffe358fe83801a701\"\n  },\n  \"scope\": \"Actual repository counters and unchanged main() for every case; only README parse input redirected to real temporary copies for mutations. No source/rights/image/README in candidate or publication clone changed.\",\n  \"results\": [\n    {\n      \"id\": \"actual_repository_positive\",\n      \"exit\": 0,\n      \"actual_exit\": 0,\n      \"failed_checks\": [],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": {\n        \"root\": \"FRESH_CLONE\",\n        \"measured\": {\n          \"dossiers\": 76,\n          \"modules\": 76,\n          \"mg_cards\": 15,\n          \"citations\": 2044,\n          \"images\": 739,\n          \"license_pd\": 572,\n          \"license_cc0\": 129,\n          \"license_pd_cc0\": 701,\n          \"license_open\": 38,\n          \"license_total\": 739,\n          \"rights_attribution_required\": 39,\n          \"rights_pd_cc0_no_stated_attribution\": 699,\n          \"rights_jurisdiction_dependent\": 1,\n          \"rights_unknown\": 0,\n          \"rights_rows_total\": 739\n        },\n        \"baseline\": {\n          \"dossiers\": 76,\n          \"modules\": 76,\n          \"citations\": 2044,\n          \"images\": 735,\n          \"mg_cards\": 15,\n          \"license_pd\": 568,\n          \"license_cc0\": 129,\n          \"license_open\": 38\n        },\n        \"declared\": {\n          \"README.md\": {\n            \"dossiers\": 76,\n            \"modules\": 76,\n            \"mg_cards\": 15,\n            \"citations\": 2044,\n            \"images\": 739,\n            \"license_pd_cc0\": 701,\n            \"license_open\": 38,\n            \"rights_attribution_required\": 39,\n            \"rights_pd_cc0_no_stated_attribution\": 699,\n            \"rights_jurisdiction_dependent\": 1,\n            \"license_section_attribution_required\": 39,\n            \"license_section_pd_cc0_no_stated_attribution\": 699\n          },\n          \"README.zh-CN.md\": {\n            \"dossiers\": 76,\n            \"modules\": 76,\n            \"mg_cards\": 15,\n            \"citations\": 2044,\n            \"images\": 739,\n            \"license_pd_cc0\": 701,\n            \"license_open\": 38,\n            \"rights_attribution_required\": 39,\n            \"rights_pd_cc0_no_stated_attribution\": 699,\n            \"rights_jurisdiction_dependent\": 1,\n            \"license_section_attribution_required\": 39,\n            \"license_section_pd_cc0_no_stated_attribution\": 699\n          },\n          \"README.ja.md\": {\n            \"dossiers\": 76,\n            \"modules\": 76,\n            \"mg_cards\": 15,\n            \"citations\": 2044,\n            \"images\": 739,\n            \"license_pd_cc0\": 701,\n            \"license_open\": 38,\n            \"rights_attribution_required\": 39,\n            \"rights_pd_cc0_no_stated_attribution\": 699,\n            \"rights_jurisdiction_dependent\": 1,\n            \"license_section_attribution_required\": 39,\n            \"license_section_pd_cc0_no_stated_attribution\": 699\n          }\n        },\n        \"checks\": [\n          {\n            \"item\": \"dossiers\",\n            \"measured\": 76,\n            \"declared\": 76,\n            \"source\": \"README.md\",\n            \"baseline\": 76,\n            \"ok\": true\n          },\n          {\n            \"item\": \"modules\",\n            \"measured\": 76,\n            \"declared\": 76,\n            \"source\": \"README.md\",\n            \"baseline\": 76,\n            \"ok\": true\n          },\n          {\n            \"item\": \"mg_cards\",\n            \"measured\": 15,\n            \"declared\": 15,\n            \"source\": \"README.md\",\n            \"baseline\": 15,\n            \"ok\": true\n          },\n          {\n            \"item\": \"citations\",\n            \"measured\": 2044,\n            \"declared\": 2044,\n            \"source\": \"README.md\",\n            \"baseline\": 2044,\n            \"ok\": true\n          },\n          {\n            \"item\": \"images\",\n            \"measured\": 739,\n            \"declared\": 739,\n            \"source\": \"README.md\",\n            \"baseline\": 735,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_pd_cc0\",\n            \"measured\": 701,\n            \"declared\": 701,\n            \"source\": \"README.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_open\",\n            \"measured\": 38,\n            \"declared\": 38,\n            \"source\": \"README.md\",\n            \"baseline\": 38,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_attribution_required\",\n            \"measured\": 39,\n            \"declared\": 39,\n            \"source\": \"README.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_pd_cc0_no_stated_attribution\",\n            \"measured\": 699,\n            \"declared\": 699,\n            \"source\": \"README.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_jurisdiction_dependent\",\n            \"measured\": 1,\n            \"declared\": 1,\n            \"source\": \"README.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_section_attribution_required\",\n            \"measured\": 39,\n            \"declared\": 39,\n            \"source\": \"README.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_section_pd_cc0_no_stated_attribution\",\n            \"measured\": 699,\n            \"declared\": 699,\n            \"source\": \"README.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"dossiers\",\n            \"measured\": 76,\n            \"declared\": 76,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": 76,\n            \"ok\": true\n          },\n          {\n            \"item\": \"modules\",\n            \"measured\": 76,\n            \"declared\": 76,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": 76,\n            \"ok\": true\n          },\n          {\n            \"item\": \"mg_cards\",\n            \"measured\": 15,\n            \"declared\": 15,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": 15,\n            \"ok\": true\n          },\n          {\n            \"item\": \"citations\",\n            \"measured\": 2044,\n            \"declared\": 2044,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": 2044,\n            \"ok\": true\n          },\n          {\n            \"item\": \"images\",\n            \"measured\": 739,\n            \"declared\": 739,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": 735,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_pd_cc0\",\n            \"measured\": 701,\n            \"declared\": 701,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_open\",\n            \"measured\": 38,\n            \"declared\": 38,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": 38,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_attribution_required\",\n            \"measured\": 39,\n            \"declared\": 39,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_pd_cc0_no_stated_attribution\",\n            \"measured\": 699,\n            \"declared\": 699,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_jurisdiction_dependent\",\n            \"measured\": 1,\n            \"declared\": 1,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_section_attribution_required\",\n            \"measured\": 39,\n            \"declared\": 39,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_section_pd_cc0_no_stated_attribution\",\n            \"measured\": 699,\n            \"declared\": 699,\n            \"source\": \"README.zh-CN.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"dossiers\",\n            \"measured\": 76,\n            \"declared\": 76,\n            \"source\": \"README.ja.md\",\n            \"baseline\": 76,\n            \"ok\": true\n          },\n          {\n            \"item\": \"modules\",\n            \"measured\": 76,\n            \"declared\": 76,\n            \"source\": \"README.ja.md\",\n            \"baseline\": 76,\n            \"ok\": true\n          },\n          {\n            \"item\": \"mg_cards\",\n            \"measured\": 15,\n            \"declared\": 15,\n            \"source\": \"README.ja.md\",\n            \"baseline\": 15,\n            \"ok\": true\n          },\n          {\n            \"item\": \"citations\",\n            \"measured\": 2044,\n            \"declared\": 2044,\n            \"source\": \"README.ja.md\",\n            \"baseline\": 2044,\n            \"ok\": true\n          },\n          {\n            \"item\": \"images\",\n            \"measured\": 739,\n            \"declared\": 739,\n            \"source\": \"README.ja.md\",\n            \"baseline\": 735,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_pd_cc0\",\n            \"measured\": 701,\n            \"declared\": 701,\n            \"source\": \"README.ja.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_open\",\n            \"measured\": 38,\n            \"declared\": 38,\n            \"source\": \"README.ja.md\",\n            \"baseline\": 38,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_attribution_required\",\n            \"measured\": 39,\n            \"declared\": 39,\n            \"source\": \"README.ja.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_pd_cc0_no_stated_attribution\",\n            \"measured\": 699,\n            \"declared\": 699,\n            \"source\": \"README.ja.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_jurisdiction_dependent\",\n            \"measured\": 1,\n            \"declared\": 1,\n            \"source\": \"README.ja.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_section_attribution_required\",\n            \"measured\": 39,\n            \"declared\": 39,\n            \"source\": \"README.ja.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license_section_pd_cc0_no_stated_attribution\",\n            \"measured\": 699,\n            \"declared\": 699,\n            \"source\": \"README.ja.md\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"license rows total\",\n            \"measured\": 739,\n            \"declared\": 739,\n            \"source\": \"manifest vs files\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"manifest rows\",\n            \"measured\": 739,\n            \"declared\": 739,\n            \"source\": \"manifest vs files\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights rows total\",\n            \"measured\": 739,\n            \"declared\": 739,\n            \"source\": \"file-level rights vs files\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights path differences\",\n            \"measured\": 0,\n            \"declared\": 0,\n            \"source\": \"file-level rights vs files\",\n            \"baseline\": null,\n            \"ok\": true\n          },\n          {\n            \"item\": \"rights_unknown\",\n            \"measured\": 0,\n            \"declared\": 0,\n            \"source\": \"README three-state classification coverage\",\n            \"baseline\": null,\n            \"ok\": true\n          }\n        ],\n        \"corpus_files\": 76,\n        \"rights_scope\": \"Artwork-level manifest labels and file-level attribution states are separate classifications. A false attribution flag is a recognized PD/CC0 label with no stated attribution condition; a jurisdiction-dependent null remains conditional. This recount is not a global legal judgment.\",\n        \"ignore\": {\n          \"gitignore_has_entry\": true,\n          \"check_ignore\": \"ignored\",\n          \"untracked\": 0,\n          \"check_ignore_rule\": \".gitignore:37:_agent-history/\\t_agent-history/HANDOFF.md\"\n        },\n        \"pass\": true\n      },\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"comma_and_bold_equivalent_positive\",\n      \"exit\": 0,\n      \"file\": \"README.zh-CN.md\",\n      \"old\": \"2044 条带来源引文\",\n      \"new\": \"**2,044** 条带来源引文\",\n      \"actual_exit\": 0,\n      \"failed_checks\": [],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"en_citations_changed\",\n      \"exit\": 1,\n      \"file\": \"README.md\",\n      \"field\": \"citations\",\n      \"old\": \"2,044 source-linked quotations\",\n      \"new\": \"2,043 source-linked quotations\",\n      \"actual_exit\": 1,\n      \"failed_checks\": [\n        {\n          \"item\": \"citations\",\n          \"measured\": 2044,\n          \"declared\": 2043,\n          \"source\": \"README.md\",\n          \"baseline\": 2044,\n          \"ok\": false\n        }\n      ],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"zh_modules_changed_other_76_preserved\",\n      \"exit\": 1,\n      \"file\": \"README.zh-CN.md\",\n      \"field\": \"modules\",\n      \"old\": \"76 张可组合模块卡\",\n      \"new\": \"75 张可组合模块卡\",\n      \"actual_exit\": 1,\n      \"failed_checks\": [\n        {\n          \"item\": \"modules\",\n          \"measured\": 76,\n          \"declared\": 75,\n          \"source\": \"README.zh-CN.md\",\n          \"baseline\": 76,\n          \"ok\": false\n        }\n      ],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"ja_dossiers_changed_other_76_preserved\",\n      \"exit\": 1,\n      \"file\": \"README.ja.md\",\n      \"field\": \"dossiers\",\n      \"old\": \"画家ドシエ76件\",\n      \"new\": \"画家ドシエ75件\",\n      \"actual_exit\": 1,\n      \"failed_checks\": [\n        {\n          \"item\": \"dossiers\",\n          \"measured\": 76,\n          \"declared\": 75,\n          \"source\": \"README.ja.md\",\n          \"baseline\": 76,\n          \"ok\": false\n        }\n      ],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"en_historical_label_pd_cc0_changed\",\n      \"exit\": 1,\n      \"file\": \"README.md\",\n      \"field\": \"license_pd_cc0\",\n      \"old\": \"historical 701/38\",\n      \"new\": \"historical 700/38\",\n      \"actual_exit\": 1,\n      \"failed_checks\": [\n        {\n          \"item\": \"license_pd_cc0\",\n          \"measured\": 701,\n          \"declared\": 700,\n          \"source\": \"README.md\",\n          \"baseline\": null,\n          \"ok\": false\n        }\n      ],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"zh_file_attribution_changed\",\n      \"exit\": 1,\n      \"file\": \"README.zh-CN.md\",\n      \"field\": \"rights_attribution_required\",\n      \"old\": \"文件级保守分类为：**39 件需署名\",\n      \"new\": \"文件级保守分类为：**38 件需署名\",\n      \"actual_exit\": 1,\n      \"failed_checks\": [\n        {\n          \"item\": \"rights_attribution_required\",\n          \"measured\": 39,\n          \"declared\": 38,\n          \"source\": \"README.zh-CN.md\",\n          \"baseline\": null,\n          \"ok\": false\n        }\n      ],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"ja_conditional_changed\",\n      \"exit\": 1,\n      \"file\": \"README.ja.md\",\n      \"field\": \"rights_jurisdiction_dependent\",\n      \"old\": \"法域によって条件が異なる1点\",\n      \"new\": \"法域によって条件が異なる2点\",\n      \"actual_exit\": 1,\n      \"failed_checks\": [\n        {\n          \"item\": \"rights_jurisdiction_dependent\",\n          \"measured\": 1,\n          \"declared\": 2,\n          \"source\": \"README.ja.md\",\n          \"baseline\": null,\n          \"ok\": false\n        }\n      ],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"en_license_footer_count_changed\",\n      \"exit\": 1,\n      \"file\": \"README.md\",\n      \"field\": \"license_section_pd_cc0_no_stated_attribution\",\n      \"old\": \"699 carry recognized PD/CC0 labels\",\n      \"new\": \"698 carry recognized PD/CC0 labels\",\n      \"actual_exit\": 1,\n      \"failed_checks\": [\n        {\n          \"item\": \"license_section_pd_cc0_no_stated_attribution\",\n          \"measured\": 699,\n          \"declared\": 698,\n          \"source\": \"README.md\",\n          \"baseline\": null,\n          \"ok\": false\n        }\n      ],\n      \"stderr\": \"\",\n      \"measured\": {\n        \"dossiers\": 76,\n        \"modules\": 76,\n        \"mg_cards\": 15,\n        \"citations\": 2044,\n        \"images\": 739,\n        \"license_pd\": 572,\n        \"license_cc0\": 129,\n        \"license_pd_cc0\": 701,\n        \"license_open\": 38,\n        \"license_total\": 739,\n        \"rights_attribution_required\": 39,\n        \"rights_pd_cc0_no_stated_attribution\": 699,\n        \"rights_jurisdiction_dependent\": 1,\n        \"rights_unknown\": 0,\n        \"rights_rows_total\": 739\n      },\n      \"checks_count\": 41,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"en_citation_declaration_missing\",\n      \"exit\": 2,\n      \"file\": \"README.md\",\n      \"field\": \"citations\",\n      \"old\": \"**2,044 source-linked quotations** and \",\n      \"new\": \"\",\n      \"actual_exit\": 2,\n      \"failed_checks\": [],\n      \"stderr\": \"ERROR: README.md: declaration missing or ambiguous for 'citations' (matches=0)\\n\",\n      \"measured\": null,\n      \"checks_count\": null,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"ja_attribution_false_declaration_missing\",\n      \"exit\": 2,\n      \"file\": \"README.ja.md\",\n      \"field\": \"rights_pd_cc0_no_stated_attribution\",\n      \"old\": \"帰属条件が記載されていない既知のPD/CC0ラベル699点、\",\n      \"new\": \"\",\n      \"actual_exit\": 2,\n      \"failed_checks\": [],\n      \"stderr\": \"ERROR: README.ja.md: declaration missing or ambiguous for 'rights_pd_cc0_no_stated_attribution' (matches=0)\\n\",\n      \"measured\": null,\n      \"checks_count\": null,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"en_negative_dossiers_rejected\",\n      \"exit\": 2,\n      \"file\": \"README.md\",\n      \"field\": \"dossiers\",\n      \"old\": \"76 painter dossiers\",\n      \"new\": \"-76 painter dossiers\",\n      \"actual_exit\": 2,\n      \"failed_checks\": [],\n      \"stderr\": \"ERROR: README.md: declaration missing or ambiguous for 'dossiers' (matches=0)\\n\",\n      \"measured\": null,\n      \"checks_count\": null,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    },\n    {\n      \"id\": \"en_decimal_dossiers_rejected\",\n      \"exit\": 2,\n      \"file\": \"README.md\",\n      \"field\": \"dossiers\",\n      \"old\": \"76 painter dossiers\",\n      \"new\": \"1.76 painter dossiers\",\n      \"actual_exit\": 2,\n      \"failed_checks\": [],\n      \"stderr\": \"ERROR: README.md: declaration missing or ambiguous for 'dossiers' (matches=0)\\n\",\n      \"measured\": null,\n      \"checks_count\": null,\n      \"actual_repository_json_output\": null,\n      \"passed_expected_result\": true\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    "rights": {
+      "stdout": "NOTE: manifest rows=739; json rows=739; disk jpgs=739; expected=739\nNOTE: requires_attribution=true rows (re-derived)=39\nNOTE: attribution-bearing paths=['da_vinci/last_supper.jpg', 'michelangelo/david.jpg', 'turner/norham_castle_sunrise.jpg', 'qi_baishi/morning_glory_1950.jpg', 'qi_baishi/seal_script_couplet.jpg', 'qi_baishi/seal_impression_changsha.jpg', 'qi_baishi/lotus_and_insects.jpg', 'ito_jakuchu/doshoku_saie_gunkei.jpg', 'ito_jakuchu/doshoku_saie_rogan.jpg', 'ito_jakuchu/doshoku_saie_gunyo.jpg', 'ito_jakuchu/doshoku_saie_kikka.jpg', 'ito_jakuchu/kasonehanzu.jpg', 'ito_jakuchu/genpo_yoka.jpg', 'ito_jakuchu/shoubai_gunkei_zu_byobu.jpg', 'ito_jakuchu/kaiboji_gunkei_zu.jpg', 'ito_jakuchu/ishidoro_zu_byobu.jpg', 'mucha/le_pater_1899.jpg', 'kandinsky/blaue_reiter_almanac_cover_1912.jpg', 'degas/combing_the_hair_1896.jpg', 'piero_della_francesca/diptych_federico_battista.jpg', 'piero_della_francesca/diptych_reverse_triumphs.jpg', 'piero_della_francesca/madonna_di_senigallia.jpg', 'fan_kuan/wanghui_fa_fankuan.jpg', 'qiu_ying/han_palace_d_konghou.jpg', 'qiu_ying/han_palace_d_serving_ladies.jpg', 'qiu_ying/han_palace_d_stairs_attendant.jpg', 'qiu_ying/han_palace_full_scroll.jpg', 'qiu_ying/han_palace_s06_peacock_kids.jpg', 'qiu_ying/han_palace_s08_flower_picking.jpg', 'qiu_ying/han_palace_s12_doucao_reading.jpg', 'xu_wei/zahua_scroll_colophon.jpg', 'xu_wei/zahua_scroll_leaves.jpg', 'xu_wei/zahua_scroll_peony.jpg', 'xu_wei/zahua_scroll_pomegranate.jpg', 'kitagawa_utamaro/fujin_sogaku_juttai_uwaki.jpg', 'kitagawa_utamaro/musume_hidokei_uma.jpg', 'kitagawa_utamaro/takashima_ohisa_fan.jpg', 'kitagawa_utamaro/toji_zensei_bijin_takigawa.jpg', 'kitagawa_utamaro/yamauba_kintaro_kurieda.jpg']\nRESULT: OK — rights-file-level.json consistent with manifest; no unexpected rows.\n",
+      "stderr": ""
+    },
+    "closure-bindings": {
+      "stdout": "{\n  \"schema\": \"closure-binding-check@1\",\n  \"ok\": true,\n  \"groups\": {\n    \"current19\": 58,\n    \"corpus-delivery\": 11,\n    \"corpus-source\": 35,\n    \"seed-package\": 202,\n    \"runtime-projection\": 72,\n    \"C1-public-projection\": 34,\n    \"historical-consumer\": 44,\n    \"historical-consumer-projection\": 32,\n    \"preserved-central-manifest\": 1,\n    \"preserved-images\": 739,\n    \"preserved-motion\": 5,\n    \"closure-delivery\": 733\n  },\n  \"errors\": [],\n  \"scope\": \"Current public bytes only. Historical claim/original-source hashes and human or learning outcomes are not upgraded. Motion full decode is a separate gate.\"\n}\n",
+      "stderr": ""
+    },
+    "motion-full-decode": {
+      "stdout": "{\n  \"ok\": true,\n  \"schema\": \"motion-public-verification@2.0.0\",\n  \"cards\": 12,\n  \"release_pins_sha256\": \"08197a51b14034ec1544b8943f3273c97ca86ea32d27f28484f72038e94db627\",\n  \"manifest_sha256\": \"f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5\",\n  \"browser\": {\n    \"cards\": 12,\n    \"scope\": \"Recorded Chrome load, measured seeks/canvas, real playhead advance; no new browser session\"\n  },\n  \"media\": {\n    \"02\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 299,\n      \"decoded_frame_md5_ledger_sha256\": \"9a70600e8f7b6f0ef9d1f5b11b2f13f7821fd4d1a369cfa44f59eb7f9463dd18\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"03\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 300,\n      \"decoded_frame_md5_ledger_sha256\": \"5a18b675723ec9845e82c02c0b24ba616998907a32143cda08b7381c8cda783c\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"04\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 286,\n      \"decoded_frame_md5_ledger_sha256\": \"083cef490b3ed67061f35f9305833b8a67188a1428b611902c565ee106befcc6\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"05\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 276,\n      \"decoded_frame_md5_ledger_sha256\": \"f185afb10ea9666e2d484e27a19db53394724c583c747a31a0b8a0180521fd88\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"06\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 242,\n      \"decoded_frame_md5_ledger_sha256\": \"6d103b03e2a67ac768fb077212348e059106ade08fffba1a85d76bdb41239194\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"07\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 279,\n      \"decoded_frame_md5_ledger_sha256\": \"fc3e00153d7b85eec7c0eb23b6f22bfc2524543306fb8e71a7ab0dba04175ce9\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"09\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 300,\n      \"decoded_frame_md5_ledger_sha256\": \"3ed3787a85e8f5d84eeff927d24f6a8dcf83542fe486ca0555176fc4b2fd2a6d\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"10\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 293,\n      \"decoded_frame_md5_ledger_sha256\": \"e14d9ff7edb6fb06b6fee1951dc8eebeee5a136941db34fd074805254997edac\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"12\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 295,\n      \"decoded_frame_md5_ledger_sha256\": \"104bcacf028c5117d68b888e388a5ed55d280816c5512e85e7bac0f092209da7\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"13\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": false,\n      \"distinct_decoded_frames\": 255,\n      \"decoded_frame_md5_ledger_sha256\": \"3cca5d227beb6ad0a1e4b12c49a58d5aca67dafe2b923a14da106b9f9e720341\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"14\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": true,\n      \"distinct_decoded_frames\": 300,\n      \"decoded_frame_md5_ledger_sha256\": \"b2adb3e1deed4216802ae0a5974fcf66b95c427d7f9a235dbf62407cfe435fda\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    },\n    \"15\": {\n      \"decoded_frames\": 300,\n      \"resolution\": [\n        1920,\n        1080\n      ],\n      \"fps\": 30,\n      \"duration_sec\": 10,\n      \"codec\": \"h264\",\n      \"codec_tag\": \"avc1\",\n      \"pixel_format\": \"yuv420p\",\n      \"faststart\": false,\n      \"distinct_decoded_frames\": 268,\n      \"decoded_frame_md5_ledger_sha256\": \"ed1c7ca28ccee62f5c993b68835b52507d3c66074fbc87696b9066aeba33c8c1\",\n      \"decode\": \"FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration\"\n    }\n  },\n  \"scope\": \"Fresh full decode and file/receipt binding. Does not rerender, rerun Chrome, or assign human aesthetic scores.\"\n}\n",
+      "stderr": ""
+    },
+    "ui-gate-contracts": {
+      "stdout": "PASS 7 synthetic gate controls; no browser input/pixels measured\n",
+      "stderr": ""
+    }
+  },
+  "source_result_sha256": "98d42c039307ddb5a88fe4ec602b1cde90c67429e347ff3556cd31c966bc748e",
+  "evidence_storage": "All projected stdout/stderr are embedded in this file. Raw capture digests are retained; raw machine paths are not distributed.",
+  "post_test_policy": "The sole following tree delta is this FINAL-GATE.json. Its final SHA and publication/merge commit are bound externally in the release; no source, media, README, scoring input or delivery checksum changes follow the tested commit.",
+  "previous_failed_gate": {
+    "tested_commit": "659259521d3321ec0eafb36903ad5131f0d656c9",
+    "preserved_at": "docs/audit/closure-20261118/initial-clean-gate/RESULT.json",
+    "verdict_remains": "failed"
+  },
+  "auxiliary_evidence": {
+    "bindings.json": {
+      "sha256": "0dde2785fabe25e4d4fead121dc89c4ae3520603015e5b5457a40d9aa62b3418",
+      "bytes": 614,
+      "result": {
+        "schema": "closure-binding-check@1",
+        "ok": true,
+        "groups": {
+          "current19": 58,
+          "corpus-delivery": 11,
+          "corpus-source": 35,
+          "seed-package": 202,
+          "runtime-projection": 72,
+          "C1-public-projection": 34,
+          "historical-consumer": 44,
+          "historical-consumer-projection": 32,
+          "preserved-central-manifest": 1,
+          "preserved-images": 739,
+          "preserved-motion": 5,
+          "closure-delivery": 733
+        },
+        "errors": [],
+        "scope": "Current public bytes only. Historical claim/original-source hashes and human or learning outcomes are not upgraded. Motion full decode is a separate gate."
+      }
+    },
+    "motion.json": {
+      "sha256": "27f35229a256f2be88e7aa25489efb0913e5995b61bc5f8439dfb35ec7287539",
+      "bytes": 6585,
+      "result": {
+        "ok": true,
+        "schema": "motion-public-verification@2.0.0",
+        "cards": 12,
+        "release_pins_sha256": "08197a51b14034ec1544b8943f3273c97ca86ea32d27f28484f72038e94db627",
+        "manifest_sha256": "f8e5d33a16fb0f1f1820f19419a5d62786f4811f2655e2eb3debc0a000d10bf5",
+        "browser": {
+          "cards": 12,
+          "scope": "Recorded Chrome load, measured seeks/canvas, real playhead advance; no new browser session"
+        },
+        "media": {
+          "02": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 299,
+            "decoded_frame_md5_ledger_sha256": "9a70600e8f7b6f0ef9d1f5b11b2f13f7821fd4d1a369cfa44f59eb7f9463dd18",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "03": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 300,
+            "decoded_frame_md5_ledger_sha256": "5a18b675723ec9845e82c02c0b24ba616998907a32143cda08b7381c8cda783c",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "04": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 286,
+            "decoded_frame_md5_ledger_sha256": "083cef490b3ed67061f35f9305833b8a67188a1428b611902c565ee106befcc6",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "05": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 276,
+            "decoded_frame_md5_ledger_sha256": "f185afb10ea9666e2d484e27a19db53394724c583c747a31a0b8a0180521fd88",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "06": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 242,
+            "decoded_frame_md5_ledger_sha256": "6d103b03e2a67ac768fb077212348e059106ade08fffba1a85d76bdb41239194",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "07": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 279,
+            "decoded_frame_md5_ledger_sha256": "fc3e00153d7b85eec7c0eb23b6f22bfc2524543306fb8e71a7ab0dba04175ce9",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "09": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 300,
+            "decoded_frame_md5_ledger_sha256": "3ed3787a85e8f5d84eeff927d24f6a8dcf83542fe486ca0555176fc4b2fd2a6d",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "10": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 293,
+            "decoded_frame_md5_ledger_sha256": "e14d9ff7edb6fb06b6fee1951dc8eebeee5a136941db34fd074805254997edac",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "12": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 295,
+            "decoded_frame_md5_ledger_sha256": "104bcacf028c5117d68b888e388a5ed55d280816c5512e85e7bac0f092209da7",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "13": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": false,
+            "distinct_decoded_frames": 255,
+            "decoded_frame_md5_ledger_sha256": "3cca5d227beb6ad0a1e4b12c49a58d5aca67dafe2b923a14da106b9f9e720341",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "14": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": true,
+            "distinct_decoded_frames": 300,
+            "decoded_frame_md5_ledger_sha256": "b2adb3e1deed4216802ae0a5974fcf66b95c427d7f9a235dbf62407cfe435fda",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          },
+          "15": {
+            "decoded_frames": 300,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "fps": 30,
+            "duration_sec": 10,
+            "codec": "h264",
+            "codec_tag": "avc1",
+            "pixel_format": "yuv420p",
+            "faststart": false,
+            "distinct_decoded_frames": 268,
+            "decoded_frame_md5_ledger_sha256": "ed1c7ca28ccee62f5c993b68835b52507d3c66074fbc87696b9066aeba33c8c1",
+            "decode": "FFmpeg to EOF, showinfo per-frame dimensions and framemd5 per-frame PTS/duration"
+          }
+        },
+        "scope": "Fresh full decode and file/receipt binding. Does not rerender, rerun Chrome, or assign human aesthetic scores."
+      }
+    }
+  },
+  "count_gate_summary": {
+    "comparisons": 41,
+    "regression_cases": 13,
+    "positive_cases": 2,
+    "specific_drift_rejections": 7,
+    "specific_structural_rejections": 4
+  },
+  "runtime": {
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "ffmpeg_file": "ffmpeg-win-x86_64-v9.0.2.exe",
+    "ffmpeg_bytes": 105423872,
+    "ffmpeg_sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec"
+  }
+}
